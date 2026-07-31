@@ -136,10 +136,17 @@ class FrontendContractTests(unittest.TestCase):
 
     def test_service_worker_does_not_cache_cross_origin_requests(self):
         worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertIn("url.origin !== self.location.origin", worker)
         self.assertIn("request.method !== 'GET'", worker)
-        self.assertIn("lagebericht-shell-v5", worker)
+        self.assertIn("lagebericht-shell-v6", worker)
         self.assertIn("./assets/rating-model.js", worker)
+        self.assertIn('assets/rating-model.js?v=6', html)
+        self.assertIn('assets/app.js?v=6', html)
+        self.assertIn("service-worker.js?v=6", app)
+        self.assertIn("request.mode === 'navigate'", worker)
+        self.assertIn("fetch(request)", worker)
 
 
 if __name__ == "__main__":

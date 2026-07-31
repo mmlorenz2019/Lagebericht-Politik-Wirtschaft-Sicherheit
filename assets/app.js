@@ -190,5 +190,5 @@ document.querySelectorAll('[data-country]').forEach((button) => button.addEventL
 }));
 elements.select.addEventListener('change', loadSelectedReport);
 
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js'));
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=6', { updateViaCache: 'none' }));
 start();

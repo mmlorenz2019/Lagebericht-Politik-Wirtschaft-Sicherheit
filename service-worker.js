@@ -1,6 +1,6 @@
-const SHELL_CACHE = 'lagebericht-shell-v5';
+const SHELL_CACHE = 'lagebericht-shell-v6';
 const DATA_CACHE = 'lagebericht-data-v1';
-const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/rating-model.js', './assets/app.js', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
+const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/rating-model.js?v=6', './assets/app.js?v=6', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL)));
@@ -16,6 +16,13 @@ self.addEventListener('fetch', (event) => {
   const request = event.request;
   const url = new URL(request.url);
   if (request.method !== 'GET' || url.origin !== self.location.origin) return;
+  if (request.mode === 'navigate') {
+    event.respondWith(fetch(request).then((response) => {
+      if (response.ok) caches.open(SHELL_CACHE).then((cache) => cache.put('./index.html', response.clone()));
+      return response;
+    }).catch(() => caches.match('./index.html').then((cached) => cached || caches.match('./offline.html'))));
+    return;
+  }
   if (url.pathname.includes('/data/')) {
     event.respondWith(fetch(request).then((response) => {
       if (response.ok) caches.open(DATA_CACHE).then((cache) => cache.put(request, response.clone()));
