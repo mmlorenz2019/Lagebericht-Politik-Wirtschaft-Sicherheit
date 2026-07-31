@@ -90,6 +90,21 @@ function renderSources(item, article) {
   article.append(details);
 }
 
+function renderRatings(item, article) {
+  const ratings = RatingModel.ratingsForItem(item);
+  if (!ratings.length) return;
+  const group = node('div', null, 'ratings');
+  group.setAttribute('aria-label', 'Bedeutungsbewertung');
+  ratings.forEach((rating) => {
+    const details = node('details', null, `rating ${rating.className}`);
+    const value = rating.legacy ? 'alter Datenstand' : `${rating.score} von 3`;
+    details.append(node('summary', `${rating.icon} ${rating.label}: ${value}`));
+    details.append(node('p', rating.reasonDe, 'rating-reason'));
+    group.append(details);
+  });
+  article.append(group);
+}
+
 function renderStory(item) {
   const article = node('article', null, 'story');
   const [label, icon] = CATEGORY_LABELS[item.id] || [item.id, '•'];
@@ -98,15 +113,15 @@ function renderStory(item) {
   top.append(node('p', label, 'eyebrow'));
   const limitationText = limitations(item).join(' · ');
   const badgeText = item.status === 'no_major_development'
-    ? limitationText || 'Keine Hauptmeldung'
+    ? limitationText || 'Keine neue Meldung'
     : item.status === 'unavailable'
       ? limitationText || 'Technisch unvollständig'
-      : limitationText || (item.germanyRelevance ? 'Deutschland-Bezug' : 'Mehrfach geprüft');
+      : limitationText || (item.sourceBasis === 'multiple' ? 'Mehrfach geprüft' : 'Meldung');
   top.append(node('span', badgeText, 'badge'));
   article.append(top);
   if (item.status === 'no_major_development') {
-    article.append(node('h3', 'Heute keine wesentliche neue Entwicklung'));
-    article.append(node('p', 'Es wird bewusst keine belanglose Meldung ergänzt.', 'empty'));
+    article.append(node('h3', 'Keine neue Meldung in den geprüften Quellen'));
+    article.append(node('p', 'Für diesen Bereich wurde im Berichtsfenster keine technisch geeignete neue Meldung gefunden.', 'empty'));
     return article;
   }
   if (item.status === 'unavailable') {
@@ -118,6 +133,7 @@ function renderStory(item) {
   const summary = node('div', null, 'summary');
   (item.summaryDe || []).forEach((sentence) => summary.append(node('p', sentence)));
   article.append(summary);
+  renderRatings(item, article);
   if (item.additionalImportant) article.append(node('p', `Außerdem wichtig: ${item.additionalImportant}`, 'additional'));
   renderSources(item, article);
   return article;

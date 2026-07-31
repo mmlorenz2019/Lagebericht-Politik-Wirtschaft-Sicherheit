@@ -1,5 +1,6 @@
 import json
 import re
+import subprocess
 import unittest
 from pathlib import Path
 
@@ -8,9 +9,58 @@ from lagebericht.config import all_allowed_domains, load_sources
 
 
 ROOT = Path(__file__).parents[1]
+RATING_MODEL = ROOT / "assets" / "rating-model.js"
+
+
+def run_rating_model(item):
+    script = (
+        "const model=require(process.argv[1]);"
+        "const item=JSON.parse(process.argv[2]);"
+        "process.stdout.write(JSON.stringify(model.ratingsForItem(item)));"
+    )
+    result = subprocess.run(
+        ["node", "-e", script, str(RATING_MODEL), json.dumps(item, ensure_ascii=False)],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return json.loads(result.stdout)
 
 
 class FrontendContractTests(unittest.TestCase):
+    def test_version_two_ratings_keep_both_scores_and_reasons(self):
+        self.assertTrue(RATING_MODEL.exists())
+        result = run_rating_model({
+            "germanyRelevance": {"score": 0, "reasonDe": "Kein direkter Bezug."},
+            "overallSignificance": {"score": 3, "reasonDe": "Internationale Tragweite."},
+        })
+        self.assertEqual(result, [
+            {
+                "key": "germany", "label": "Deutschland-Bezug", "icon": "DE",
+                "score": 0, "reasonDe": "Kein direkter Bezug.", "className": "rating-0",
+                "legacy": False,
+            },
+            {
+                "key": "overall", "label": "Allgemeine Tragweite", "icon": "⚡",
+                "score": 3, "reasonDe": "Internationale Tragweite.", "className": "rating-3",
+                "legacy": False,
+            },
+        ])
+
+    def test_version_one_boolean_is_shown_without_invented_score(self):
+        self.assertTrue(RATING_MODEL.exists())
+        result = run_rating_model({"germanyRelevance": True})
+        self.assertEqual(result, [{
+            "key": "germany", "label": "Deutschland-Bezug", "icon": "DE",
+            "score": None, "reasonDe": "Alter Datenstand ohne Punktbewertung.",
+            "className": "rating-legacy", "legacy": True,
+        }])
+
+    def test_version_one_false_boolean_does_not_invent_a_rating(self):
+        self.assertTrue(RATING_MODEL.exists())
+        self.assertEqual(run_rating_model({"germanyRelevance": False}), [])
+
     def test_manifest_is_installable_and_local_only(self):
         manifest = json.loads((ROOT / "manifest.webmanifest").read_text(encoding="utf-8"))
         self.assertEqual(manifest["display"], "standalone")
@@ -29,11 +79,13 @@ class FrontendContractTests(unittest.TestCase):
         self.assertIn('data-archive-type="weekly"', html)
         self.assertIn('data-archive-type="monthly"', html)
         self.assertNotIn("Beispieldaten", html)
+        self.assertLess(html.index("assets/rating-model.js"), html.index("assets/app.js"))
         self.assertIn("serviceWorker.register", (ROOT / "assets" / "app.js").read_text(encoding="utf-8"))
 
     def test_empty_categories_do_not_claim_multiple_verification(self):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
-        self.assertIn("Keine Hauptmeldung", app)
+        self.assertIn("Keine neue Meldung in den geprüften Quellen", app)
+        self.assertNotIn("belanglose Meldung", app)
 
     def test_country_symbols_do_not_depend_on_emoji_flag_fonts(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
