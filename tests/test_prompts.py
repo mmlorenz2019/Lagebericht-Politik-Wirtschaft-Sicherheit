@@ -43,6 +43,8 @@ class PromptTests(unittest.TestCase):
     def test_period_prompt_requires_development_lines(self):
         instructions, input_text = build_period_prompt([{"reportDate": "2026-07-31"}], "week")
         self.assertIn("Entwicklungslinien", instructions)
+        self.assertIn("kein alleiniger Grund", instructions)
+        self.assertIn("gesamten Zeitraum", instructions)
         self.assertIn('"periodType": "week"', input_text)
 
 

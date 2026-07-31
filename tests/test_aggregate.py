@@ -6,7 +6,7 @@ from pathlib import Path
 
 from lagebericht.aggregate import PeriodAggregator, load_period_reports
 from lagebericht.publish import Publisher
-from tests.test_schema import ALLOWED_DOMAINS, category, daily_report
+from tests.test_schema import ALLOWED_DOMAINS, category, daily_report, legacy_daily_report
 
 
 class ContentAI:
@@ -55,6 +55,25 @@ class AggregateTests(unittest.TestCase):
         self.assertEqual(report["status"], "partial")
         self.assertEqual(len(report["sourceReportDates"]), 4)
         self.assertEqual(ai.models, ["claude-sonnet-4-6"])
+        self.assertEqual(report["schemaVersion"], 2)
+        section = report["countries"][0]["sections"][0]
+        self.assertEqual(section["germanyRelevance"]["score"], 1)
+        self.assertEqual(section["overallSignificance"]["score"], 2)
+
+    def test_builds_version_two_week_from_legacy_daily_reports(self):
+        for offset in range(4):
+            current = date(2026, 7, 27) + timedelta(days=offset)
+            report = legacy_daily_report()
+            report["reportDate"] = current.isoformat()
+            report["generatedAt"] = f"{current.isoformat()}T04:31:00Z"
+            self.publisher.publish_daily(report)
+
+        result = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+
+        self.assertEqual(result["schemaVersion"], 2)
+        self.assertEqual(result["sourceReportDates"], [
+            "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30",
+        ])
 
     def test_returns_none_when_week_has_fewer_than_four_days(self):
         self.publish_days(date(2026, 7, 27), 3)

@@ -65,7 +65,9 @@ def build_period_prompt(reports: list[dict], period_type: str) -> tuple[str, str
         "Verdichte validierte Tagesberichte zu Entwicklungslinien auf Deutsch. Beginne mit einer kurzen Gesamtlage "
         "über alle drei Länder und gliedere danach USA, China und Montenegro. Beschreibe Ausgangslage, wesentliche "
         "Veränderung und Stand am Periodenende. Aneinandergereihte Wiederholungen sind verboten. Der Monatsbericht "
-        "muss Trends eigenständig verdichten und darf nicht nur Wochenberichte kopieren."
+        "muss Trends eigenständig verdichten und darf nicht nur Wochenberichte kopieren. Vorhandene Bewertungen "
+        "dürfen die Reihenfolge unterstützen, sind aber kein alleiniger Grund, eine belegte Entwicklung auszulassen. "
+        "Bewerte Deutschland-Bezug und allgemeine Tragweite neu für den gesamten Zeitraum."
     )
     payload = {"periodType": period_type, "dailyReports": reports}
     return instructions, f"<trusted_daily_reports>{_safe_json(payload)}</trusted_daily_reports>"
