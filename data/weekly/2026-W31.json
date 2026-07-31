@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "periodType": "week",
+  "periodStart": "2026-07-27",
+  "periodEnd": "2026-08-02",
+  "generatedAt": "2026-08-02T05:00:00Z",
+  "status": "partial",
+  "overallSummary": [
+    "Diese Beispielwoche zeigt, wie einzelne Tagesmeldungen zu nachvollziehbaren Entwicklungslinien verdichtet werden.",
+    "Politische Entscheidungen, wirtschaftliche Veränderungen und internationale Beziehungen werden dabei nicht nur aufgezählt, sondern in ihrem Verlauf beschrieben.",
+    "Alle Inhalte dieser Vorschau sind ausdrücklich Beispieldaten."
+  ],
+  "countries": [
+    {"id": "usa", "label": "USA", "sections": [
+      {"id": "politics_society", "status": "published", "headlineDe": "Beispielwoche: Aus Verhandlungen entsteht eine konkretere Entscheidungslage", "summaryDe": ["Zu Wochenbeginn standen zunächst politische Positionen im Vordergrund.", "Im Verlauf wurden konkrete Verhandlungspunkte und mögliche Mehrheiten erkennbar.", "Am Wochenende blieb die endgültige Entscheidung offen, die Konfliktlinien waren jedoch klarer als zuvor."], "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source"], "sources": [{"name": "NPR", "type": "öffentlich-rechtlich", "titleOriginal": "Example weekly source", "url": "https://www.npr.org/", "publishedAt": "2026-07-31T03:50:00Z"}]}
+    ]},
+    {"id": "china", "label": "China", "sections": [
+      {"id": "economy_technology", "status": "published", "headlineDe": "Beispielwoche: Konjunktursignale bleiben uneinheitlich", "summaryDe": ["Mehrere Beispieldaten deuteten im Wochenverlauf in unterschiedliche Richtungen.", "Industrie und Technologie entwickelten sich dabei anders als Teile des privaten Konsums.", "Der Wochenbericht würde solche Unterschiede zusammenführen und offene Unsicherheiten sichtbar lassen."], "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source", "feed_only"], "sources": [{"name": "South China Morning Post", "type": "Hongkong-/Regionalperspektive", "titleOriginal": "Example weekly economy source", "url": "https://www.scmp.com/news/china", "publishedAt": "2026-07-31T02:45:00Z"}]}
+    ]},
+    {"id": "montenegro", "label": "Montenegro", "sections": [
+      {"id": "foreign_security", "status": "published", "headlineDe": "Beispielwoche: Europäische Gespräche entwickeln sich schrittweise", "summaryDe": ["Die Beispielwoche begann mit vorbereitenden Gesprächen über europäische Zusammenarbeit.", "Später wurden einzelne Teilnehmer und Themen konkreter benannt.", "Da die Quellenbasis unvollständig blieb, enthält auch der Rückblick einen sichtbaren Hinweis."], "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source"], "sources": [{"name": "Vijesti", "type": "unabhängige Tagesnachrichten", "titleOriginal": "Primjer sedmičnog naslova", "url": "https://www.vijesti.me/", "publishedAt": "2026-07-31T02:30:00Z"}]}
+    ]}
+  ],
+  "sourceReportDates": ["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31"],
+  "missingReportDates": ["2026-08-01", "2026-08-02"]
+}
+

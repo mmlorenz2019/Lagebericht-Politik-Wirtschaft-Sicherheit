@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-07-31",
+  "generatedAt": "2026-07-31T04:31:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa", "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society", "status": "published", "headlineDe": "Beispieldaten: Politische Verhandlungen prägen den Tag",
+          "summaryDe": ["Mehrere politische Akteure verhandeln über ein Vorhaben mit landesweiter Bedeutung.", "Die endgültige Entscheidung steht in diesem Beispiel noch aus.", "Für die Einordnung wären sowohl die konkrete Beschlusslage als auch die Folgen für Bevölkerung und Verwaltung entscheidend.", "Die spätere Live-Pipeline ersetzt diesen Text durch eine belegte Zusammenfassung aktueller Quellen."],
+          "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source"],
+          "sources": [{"name": "NPR", "type": "öffentlich-rechtlich", "titleOriginal": "Example headline for the design preview", "url": "https://www.npr.org/", "publishedAt": "2026-07-31T03:50:00Z"}]
+        },
+        {
+          "id": "economy_technology", "status": "published", "headlineDe": "Beispieldaten: Wirtschaft und Technologie bleiben eng verbunden",
+          "summaryDe": ["Ein wirtschaftliches Beispielthema zeigt, wie Investitionen und Regulierung zusammenwirken können.", "Unternehmen achten dabei auf Kosten, Planungssicherheit und internationale Wettbewerbsfähigkeit.", "Für Beschäftigte und Verbraucher wären vor allem konkrete Preis- und Arbeitsmarkteffekte relevant.", "Diese Darstellung dient ausschließlich zum Testen der Oberfläche."],
+          "additionalImportant": "Ein weiterer Indikator könnte im Live-Bericht als kurzer Zusatz erscheinen.", "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source"],
+          "sources": [{"name": "CNBC", "type": "Wirtschaftsmedium", "titleOriginal": "Example business headline", "url": "https://www.cnbc.com/", "publishedAt": "2026-07-31T04:00:00Z"}]
+        },
+        {"id": "foreign_security", "status": "no_major_development", "headlineDe": "", "summaryDe": [], "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "none", "limitations": [], "sources": []}
+      ]
+    },
+    {
+      "id": "china", "label": "China",
+      "categories": [
+        {
+          "id": "politics_society", "status": "published", "headlineDe": "Beispieldaten: Unterschiedliche Perspektiven werden sichtbar getrennt",
+          "summaryDe": ["Das Beispiel zeigt, wie eine regionale und eine staatliche Darstellung nebeneinander eingeordnet werden sollen.", "Übereinstimmende Tatsachen werden von Bewertungen und politischen Botschaften getrennt.", "Kann eine Aussage nicht unabhängig bestätigt werden, wird sie ausdrücklich der jeweiligen Quelle zugeschrieben.", "So bleibt auch bei begrenzter Quellenfreiheit nachvollziehbar, worauf die Zusammenfassung beruht."],
+          "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source", "feed_only"],
+          "sources": [{"name": "South China Morning Post", "type": "Hongkong-/Regionalperspektive", "titleOriginal": "Example China headline", "url": "https://www.scmp.com/news/china", "publishedAt": "2026-07-31T02:45:00Z"}]
+        },
+        {
+          "id": "economy_technology", "status": "published", "headlineDe": "Beispieldaten: Konjunktur und Technologie werden gemeinsam betrachtet",
+          "summaryDe": ["Ein wirtschaftliches Beispiel verbindet neue Konjunkturdaten mit der Entwicklung eines wichtigen Technologiesektors.", "Kurzfristige Produktionszahlen allein reichen für eine belastbare Trendbewertung nicht aus.", "Der Live-Bericht soll deshalb mehrere Indikatoren und unterschiedliche Quellentypen zusammenführen.", "Eine Bezahlschranke oder reine Feed-Auswertung wird direkt gekennzeichnet."],
+          "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source", "feed_only", "paywall"],
+          "sources": [{"name": "Caixin Global", "type": "wirtschaftsorientiert", "titleOriginal": "Example economy headline", "url": "https://www.caixinglobal.com/", "publishedAt": "2026-07-31T03:15:00Z"}]
+        },
+        {"id": "foreign_security", "status": "unavailable", "headlineDe": "", "summaryDe": [], "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "none", "limitations": ["technical_failure"], "sources": []}
+      ]
+    },
+    {
+      "id": "montenegro", "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society", "status": "published", "headlineDe": "Beispieldaten: Innenpolitische Abstimmungen stehen im Mittelpunkt",
+          "summaryDe": ["Ein innenpolitisches Beispielthema betrifft die Zusammenarbeit mehrerer Parteien und Institutionen.", "Die App würde im Live-Betrieb prüfen, ob Vijesti und Pobjeda dasselbe Ereignis unterschiedlich gewichten.", "Gemeinsame Fakten würden zusammengeführt, während abweichende Bewertungen erkennbar blieben.", "Der hier sichtbare Inhalt ist noch keine aktuelle Nachricht."],
+          "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source"],
+          "sources": [{"name": "Vijesti", "type": "unabhängige Tagesnachrichten", "titleOriginal": "Primjer političkog naslova", "url": "https://www.vijesti.me/", "publishedAt": "2026-07-31T04:05:00Z"}]
+        },
+        {
+          "id": "economy_technology", "status": "published", "headlineDe": "Beispieldaten: Tourismus und Infrastruktur beeinflussen die Wirtschaft",
+          "summaryDe": ["Die montenegrinische Wirtschaft hängt in diesem Beispiel stark von Tourismus und Infrastruktur ab.", "Investitionen können Wachstum ermöglichen, zugleich aber öffentliche Haushalte und Gemeinden belasten.", "Wichtig wären deshalb konkrete Finanzierung, Baubeginn und messbare Folgen statt bloßer Ankündigungen.", "Der spätere Bericht ordnet nur tatsächlich belegte Entwicklungen ein."],
+          "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source"],
+          "sources": [{"name": "Pobjeda", "type": "montenegrinische Tageszeitung", "titleOriginal": "Primjer ekonomskog naslova", "url": "https://www.pobjeda.me/", "publishedAt": "2026-07-31T03:40:00Z"}]
+        },
+        {
+          "id": "foreign_security", "status": "published", "headlineDe": "Beispieldaten: Europäische Zusammenarbeit bleibt sicherheitspolitisch wichtig",
+          "summaryDe": ["Ein Beispielbericht beschreibt Gespräche über regionale Sicherheit und europäische Zusammenarbeit.", "Da nur eine der beiden vorgesehenen Quellen zugrunde liegt, bleibt der Ein-Quellen-Hinweis sichtbar.", "Bestätigte Gesprächsteilnehmer würden von noch ungesicherten politischen Bewertungen getrennt.", "Damit soll Unsicherheit nicht hinter einer glatten Zusammenfassung verschwinden."],
+          "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source"],
+          "sources": [{"name": "Vijesti", "type": "unabhängige Tagesnachrichten", "titleOriginal": "Primjer naslova o evropskoj saradnji", "url": "https://www.vijesti.me/", "publishedAt": "2026-07-31T02:30:00Z"}]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,188 @@
+'use strict';
+
+const ALLOWED_HOSTS = new Set([
+  'npr.org', 'www.npr.org', 'nytimes.com', 'www.nytimes.com', 'cnbc.com', 'www.cnbc.com',
+  'pbs.org', 'www.pbs.org', 'caixinglobal.com', 'www.caixinglobal.com', 'scmp.com', 'www.scmp.com',
+  'chinadaily.com.cn', 'www.chinadaily.com.cn', 'vijesti.me', 'www.vijesti.me', 'pobjeda.me', 'www.pobjeda.me'
+]);
+const CATEGORY_LABELS = {
+  politics_society: ['Politik & Gesellschaft', '🏛️'],
+  economy_technology: ['Wirtschaft & Technologie', '⚙️'],
+  foreign_security: ['Außenpolitik & Sicherheit', '🛡️']
+};
+const COUNTRY_LABELS = { usa: 'USA', china: 'China', montenegro: 'Montenegro' };
+const state = { index: null, archiveType: 'daily', country: 'usa', report: null };
+
+const elements = {
+  updated: document.getElementById('updated'), notice: document.getElementById('notice'),
+  select: document.getElementById('period-select'), overall: document.getElementById('overall'),
+  overallCopy: document.getElementById('overall-copy'), report: document.getElementById('report'),
+  kicker: document.getElementById('report-kicker'), countryTitle: document.getElementById('country-title'),
+  completeness: document.getElementById('completeness'), stories: document.getElementById('stories')
+};
+
+function node(tag, text, className) {
+  const value = document.createElement(tag);
+  if (text !== undefined && text !== null) value.textContent = text;
+  if (className) value.className = className;
+  return value;
+}
+
+function showNotice(message) {
+  elements.notice.textContent = message;
+  elements.notice.hidden = !message;
+}
+
+function safeSourceLink(source) {
+  try {
+    const url = new URL(source.url);
+    if (url.protocol !== 'https:' || !ALLOWED_HOSTS.has(url.hostname.toLowerCase())) return null;
+    const link = node('a', source.name);
+    link.href = url.href;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.referrerPolicy = 'no-referrer';
+    return link;
+  } catch (_) {
+    return null;
+  }
+}
+
+function archiveEntries() {
+  return state.index ? state.index[state.archiveType] || [] : [];
+}
+
+function entryLabel(entry) {
+  if (state.archiveType === 'daily') return new Intl.DateTimeFormat('de-DE', { dateStyle: 'full', timeZone: 'UTC' }).format(new Date(`${entry.date}T12:00:00Z`));
+  return state.archiveType === 'weekly' ? `Kalenderwoche ${entry.period.slice(-2)} · ${entry.period.slice(0, 4)}` : new Intl.DateTimeFormat('de-DE', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${entry.period}-15T12:00:00Z`));
+}
+
+function fillPeriodSelect() {
+  elements.select.replaceChildren();
+  archiveEntries().forEach((entry) => {
+    const option = node('option', entryLabel(entry));
+    option.value = entry.path;
+    elements.select.append(option);
+  });
+}
+
+function limitations(item) {
+  const labels = {
+    single_source: 'Nur eine Quelle', paywall: 'Bezahlschranke', feed_only: 'Nur Feed-Informationen',
+    source_disagreement: 'Quellen widersprechen sich', technical_failure: 'Technisch unvollständig'
+  };
+  return (item.limitations || []).map((value) => labels[value]).filter(Boolean);
+}
+
+function renderSources(item, article) {
+  if (!item.sources || !item.sources.length) return;
+  const details = node('details', null, 'sources');
+  details.append(node('summary', `${item.sources.length} Originalquelle${item.sources.length === 1 ? '' : 'n'} anzeigen`));
+  const list = node('ul');
+  item.sources.forEach((source) => {
+    const row = node('li');
+    const link = safeSourceLink(source);
+    row.append(link || node('span', `${source.name} · Link nicht freigegeben`));
+    row.append(node('span', `${source.type} · ${source.titleOriginal}`, 'source-type'));
+    list.append(row);
+  });
+  details.append(list);
+  article.append(details);
+}
+
+function renderStory(item) {
+  const article = node('article', null, 'story');
+  const [label, icon] = CATEGORY_LABELS[item.id] || [item.id, '•'];
+  article.append(node('div', icon, 'story-icon'));
+  const top = node('div', null, 'story-top');
+  top.append(node('p', label, 'eyebrow'));
+  const badgeText = limitations(item).join(' · ') || (item.germanyRelevance ? 'Deutschland-Bezug' : 'Mehrfach geprüft');
+  top.append(node('span', badgeText, 'badge'));
+  article.append(top);
+  if (item.status === 'no_major_development') {
+    article.append(node('h3', 'Heute keine wesentliche neue Entwicklung'));
+    article.append(node('p', 'Es wird bewusst keine belanglose Meldung ergänzt.', 'empty'));
+    return article;
+  }
+  if (item.status === 'unavailable') {
+    article.append(node('h3', 'Heute technisch nicht vollständig prüfbar'));
+    article.append(node('p', 'Mindestens eine benötigte Quelle oder Verarbeitung war nicht verfügbar.', 'empty'));
+    return article;
+  }
+  article.append(node('h3', item.headlineDe));
+  const summary = node('div', null, 'summary');
+  (item.summaryDe || []).forEach((sentence) => summary.append(node('p', sentence)));
+  article.append(summary);
+  if (item.additionalImportant) article.append(node('p', `Außerdem wichtig: ${item.additionalImportant}`, 'additional'));
+  renderSources(item, article);
+  return article;
+}
+
+function renderReport() {
+  const report = state.report;
+  if (!report) return;
+  const isDaily = Object.hasOwn(report, 'reportDate');
+  const countries = report.countries || [];
+  const country = countries.find((item) => item.id === state.country) || countries[0];
+  if (!country) throw new Error('Bericht enthält keine Länderansicht.');
+  state.country = country.id;
+  document.querySelectorAll('[data-country]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.country === state.country)));
+  elements.countryTitle.textContent = country.label || COUNTRY_LABELS[country.id];
+  elements.kicker.textContent = isDaily ? 'Tagesbericht' : report.periodType === 'week' ? 'Wochenbericht' : 'Monatsbericht';
+  elements.completeness.textContent = report.status === 'complete' ? 'Vollständig' : 'Teilbericht · Einschränkungen sichtbar';
+  elements.updated.textContent = isDaily ? `Bericht vom ${report.reportDate} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}` : `${report.periodStart} bis ${report.periodEnd} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}`;
+  elements.stories.replaceChildren(...(country.categories || country.sections || []).map(renderStory));
+  elements.overall.hidden = isDaily;
+  elements.overallCopy.replaceChildren();
+  if (!isDaily) (report.overallSummary || []).forEach((sentence) => elements.overallCopy.append(node('p', sentence)));
+  const missing = report.missingReportDates || [];
+  showNotice(missing.length ? `Für diesen Rückblick fehlen ${missing.length} Tagesberichte: ${missing.join(', ')}.` : '');
+  elements.report.setAttribute('aria-busy', 'false');
+}
+
+async function loadSelectedReport() {
+  const path = elements.select.value;
+  if (!path) {
+    showNotice('Für diese Archivart ist noch kein Bericht vorhanden.');
+    return;
+  }
+  elements.report.setAttribute('aria-busy', 'true');
+  try {
+    const response = await fetch(path, { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state.report = await response.json();
+    renderReport();
+  } catch (error) {
+    elements.report.setAttribute('aria-busy', 'false');
+    showNotice(`Bericht konnte nicht geladen werden. Ein zuvor gelesener Bericht ist offline möglicherweise weiterhin verfügbar. (${error.message})`);
+  }
+}
+
+async function start() {
+  try {
+    const response = await fetch('data/index.json', { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state.index = await response.json();
+    fillPeriodSelect();
+    await loadSelectedReport();
+  } catch (error) {
+    showNotice(`Das Archiv konnte nicht geladen werden. (${error.message})`);
+    elements.report.setAttribute('aria-busy', 'false');
+  }
+}
+
+document.querySelectorAll('[data-archive-type]').forEach((button) => button.addEventListener('click', async () => {
+  state.archiveType = button.dataset.archiveType;
+  document.querySelectorAll('[data-archive-type]').forEach((peer) => peer.setAttribute('aria-pressed', String(peer === button)));
+  fillPeriodSelect();
+  await loadSelectedReport();
+}));
+document.querySelectorAll('[data-country]').forEach((button) => button.addEventListener('click', () => {
+  state.country = button.dataset.country;
+  renderReport();
+}));
+elements.select.addEventListener('change', loadSelectedReport);
+
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js'));
+start();
+

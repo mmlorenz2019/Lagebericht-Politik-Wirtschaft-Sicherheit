@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Persönlicher Lagebericht",
+  "short_name": "Lagebericht",
+  "description": "Täglicher Überblick zu USA, China und Montenegro.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#172554",
+  "icons": [
+    {"src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
+

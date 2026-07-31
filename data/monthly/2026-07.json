@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "periodType": "month",
+  "periodStart": "2026-07-01",
+  "periodEnd": "2026-07-31",
+  "generatedAt": "2026-07-31T05:15:00Z",
+  "status": "partial",
+  "overallSummary": [
+    "Dieser Beispielmonat demonstriert eine längere Einordnung über Tages- und Wochenschwankungen hinaus.",
+    "Der Monatsbericht hebt Richtungsänderungen, wiederkehrende Konflikte und längerfristige Folgen hervor.",
+    "Die Vorschau verwendet keine aktuellen Nachrichten und dient ausschließlich der Funktionsprüfung."
+  ],
+  "countries": [
+    {"id": "usa", "label": "USA", "sections": [
+      {"id": "politics_society", "status": "published", "headlineDe": "Beispielmonat: Politische Verhandlungen werden zunehmend konkret", "summaryDe": ["Im Monatsverlauf verschob sich die Debatte von allgemeinen Positionen hin zu konkreteren Verhandlungspunkten.", "Mehrere Beteiligte änderten ihre Prioritäten, ohne dass bereits eine endgültige Einigung erreicht wurde.", "Der Monatsbericht ordnet deshalb sowohl die erkennbare Bewegung als auch die verbleibenden Blockaden ein."], "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source"], "sources": [{"name": "NPR", "type": "öffentlich-rechtlich", "titleOriginal": "Example monthly source", "url": "https://www.npr.org/", "publishedAt": "2026-07-31T03:50:00Z"}]}
+    ]},
+    {"id": "china", "label": "China", "sections": [
+      {"id": "economy_technology", "status": "published", "headlineDe": "Beispielmonat: Wirtschaftliche Signale ergeben noch keinen einheitlichen Trend", "summaryDe": ["Über den Monat hinweg entwickelten sich Industrie, Technologie und Konsum in diesem Beispiel unterschiedlich.", "Kurzfristige Verbesserungen wechselten sich mit schwächeren Indikatoren ab.", "Die langfristige Aussage bleibt daher vorsichtig und benennt die Grenzen der verfügbaren Quellen."], "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source", "paywall", "feed_only"], "sources": [{"name": "Caixin Global", "type": "wirtschaftsorientiert", "titleOriginal": "Example monthly economy source", "url": "https://www.caixinglobal.com/", "publishedAt": "2026-07-31T03:15:00Z"}]}
+    ]},
+    {"id": "montenegro", "label": "Montenegro", "sections": [
+      {"id": "foreign_security", "status": "published", "headlineDe": "Beispielmonat: Europäische Zusammenarbeit bleibt ein dauerhafter Bezugspunkt", "summaryDe": ["Mehrere Beispielmeldungen griffen im Monatsverlauf europäische Zusammenarbeit und regionale Sicherheit auf.", "Die Gespräche wurden konkreter, lieferten aber noch keine abgeschlossene politische Entscheidung.", "Wegen der schmalen Quellenbasis bleibt die Einordnung ausdrücklich vorläufig."], "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source"], "sources": [{"name": "Vijesti", "type": "unabhängige Tagesnachrichten", "titleOriginal": "Primjer mjesečnog naslova", "url": "https://www.vijesti.me/", "publishedAt": "2026-07-31T02:30:00Z"}]}
+    ]}
+  ],
+  "sourceReportDates": ["2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-19", "2026-07-20"],
+  "missingReportDates": ["2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-25", "2026-07-26", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31"]
+}

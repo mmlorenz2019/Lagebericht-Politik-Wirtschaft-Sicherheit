@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172554">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; connect-src 'self'; script-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Persönlicher Lagebericht</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/app.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#report">Zum Bericht springen</a>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Politik · Wirtschaft · Sicherheit</p>
+      <h1>Persönlicher Lagebericht</h1>
+      <p id="updated" class="muted">Bericht wird geladen …</p>
+    </div>
+    <span class="sample-badge">Beispieldaten</span>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Berichtszeitraum">
+      <div class="segmented" aria-label="Archivart">
+        <button type="button" data-archive-type="daily" aria-pressed="true">Tage</button>
+        <button type="button" data-archive-type="weekly" aria-pressed="false">Wochen</button>
+        <button type="button" data-archive-type="monthly" aria-pressed="false">Monate</button>
+      </div>
+      <label for="period-select">Zeitraum</label>
+      <select id="period-select" aria-label="Zeitraum auswählen"></select>
+    </section>
+
+    <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+
+    <nav class="country-nav" aria-label="Land auswählen">
+      <button type="button" data-country="usa" aria-pressed="true"><span aria-hidden="true">🇺🇸</span> USA</button>
+      <button type="button" data-country="china" aria-pressed="false"><span aria-hidden="true">🇨🇳</span> China</button>
+      <button type="button" data-country="montenegro" aria-pressed="false"><span aria-hidden="true">🇲🇪</span> Montenegro</button>
+    </nav>
+
+    <section id="overall" class="overall" hidden aria-labelledby="overall-title">
+      <p class="eyebrow">Gesamtlage</p>
+      <h2 id="overall-title">Der Zeitraum im Überblick</h2>
+      <div id="overall-copy"></div>
+    </section>
+
+    <section id="report" aria-live="polite" aria-busy="true">
+      <div class="report-heading">
+        <div>
+          <p id="report-kicker" class="eyebrow">Tagesbericht</p>
+          <h2 id="country-title">USA</h2>
+        </div>
+        <p id="completeness" class="muted"></p>
+      </div>
+      <div id="stories" class="timeline"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Keine Anmeldung, kein Tracking und keine Werbung. Originalquellen öffnen sich online in einem neuen Tab.</p>
+  </footer>
+</body>
+</html>
+
