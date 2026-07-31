@@ -30,6 +30,25 @@ class OpenAIClientTests(unittest.TestCase):
         self.assertEqual(payload["text"]["format"]["type"], "json_schema")
         self.assertTrue(payload["text"]["format"]["strict"])
 
+    def test_removes_schema_metadata_unsupported_by_structured_outputs(self):
+        transport = RecordingTransport({
+            "status": "completed",
+            "output": [{"type": "message", "content": [{"type": "output_text", "text": '{"value":"ok"}'}]}],
+        })
+        schema = {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$id": "https://example.invalid/schema.json",
+            "type": "object",
+            "properties": {"value": {"type": "string", "format": "uri"}},
+            "required": ["value"],
+            "additionalProperties": False,
+        }
+        OpenAIResponsesClient("secret", transport=transport).generate_json("model", "R", "I", "x", schema)
+        sent = transport.calls[0][2]["text"]["format"]["schema"]
+        self.assertNotIn("$schema", sent)
+        self.assertNotIn("$id", sent)
+        self.assertNotIn("format", sent["properties"]["value"])
+
     def test_rejects_missing_api_key(self):
         with self.assertRaisesRegex(OpenAIError, "OPENAI_API_KEY"):
             OpenAIResponsesClient("")
@@ -49,4 +68,3 @@ class OpenAIClientTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

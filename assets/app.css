@@ -48,6 +48,8 @@ p { line-height: 1.65; }
 .notice { margin-top: 1rem; border-left: 4px solid var(--warning); border-radius: 8px; background: var(--warning-bg); color: var(--warning); padding: .8rem 1rem; }
 .country-nav { display: grid; grid-template-columns: repeat(3, 1fr); gap: .55rem; margin: 1.1rem 0; }
 .country-nav button { border: 1px solid var(--border); background: var(--surface); font-weight: 700; }
+.country-code { display: inline-grid; place-items: center; min-width: 1.8rem; min-height: 1.8rem; margin-right: .3rem; border-radius: 50%; background: var(--surface-soft); color: var(--navy); font-size: .68rem; letter-spacing: .04em; }
+.country-nav button[aria-pressed="true"] .country-code { background: var(--navy-text); color: var(--navy); }
 .overall { margin: 1rem 0 1.4rem; border-radius: var(--radius); background: var(--navy); color: var(--navy-text); padding: 1.3rem 1.4rem; box-shadow: var(--shadow); }
 .overall .eyebrow { color: #bfdbfe; }
 .overall p:last-child { margin-bottom: 0; }
@@ -104,4 +106,3 @@ footer { color: var(--muted); font-size: .82rem; padding: 1.6rem 0 2.4rem; }
   .overall { background: #1e3a8a; color: #f8fafc; }
   .overall .eyebrow { color: #bfdbfe; }
 }
-

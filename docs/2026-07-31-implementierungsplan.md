@@ -4,6 +4,8 @@
 
 **Ziel:** Eine lokal vollständig testbare, installierbare PWA mit sicherer Nachrichtenpipeline, Tagesarchiv sowie automatischen Wochen- und Monatsberichten für USA, China und Montenegro erstellen.
 
+**Stand 31.07.2026:** Lokal vollständig umgesetzt und getestet. Ausstehend sind nur Schritte, die ein GitHub-Repository, einen bewusst gesetzten Kostenrahmen und den persönlichen API-Schlüssel erfordern: erster Live-Lauf, GitHub-Pages-Veröffentlichung und anschließender Live-Sicherheitscheck.
+
 **Architektur:** Eine Python-Standardbibliothek-Pipeline ruft ausschließlich konfigurierte Quellen ab, normalisiert Kandidaten, nutzt strukturierte OpenAI-Ausgaben und veröffentlicht nur validierte JSON-Berichte. Ein getrenntes Vanilla-HTML/CSS/JS-Frontend liest diese statischen Dateien von GitHub Pages; Secrets und KI-Aufrufe bleiben ausschließlich im GitHub-Workflow.
 
 **Technik:** Python 3.12 Standardbibliothek und `unittest`, OpenAI Responses API per HTTPS, JSON Schema als Datenvertrag, Vanilla HTML/CSS/JavaScript, Service Worker, GitHub Actions und GitHub Pages.
@@ -224,4 +226,3 @@ Diese Schritte werden vorbereitet, aber nicht ohne Michael ausgeführt:
 3. Repository-Namen und öffentliche GitHub-Pages-URL bestätigen
 4. lokales Repository zu GitHub pushen und GitHub Pages aktivieren
 5. echten API-Testlauf und anschließenden Go-live freigeben
-

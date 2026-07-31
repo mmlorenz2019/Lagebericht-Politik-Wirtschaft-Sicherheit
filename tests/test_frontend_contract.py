@@ -17,6 +17,10 @@ class FrontendContractTests(unittest.TestCase):
         self.assertEqual(manifest["start_url"], "./")
         self.assertTrue(manifest["icons"])
         self.assertTrue(all(not icon["src"].startswith("http") for icon in manifest["icons"]))
+        sizes = {icon["sizes"] for icon in manifest["icons"] if icon["type"] == "image/png"}
+        self.assertTrue({"192x192", "512x512"}.issubset(sizes))
+        self.assertTrue((ROOT / "assets" / "icons" / "icon-192.png").exists())
+        self.assertTrue((ROOT / "assets" / "icons" / "icon-512.png").exists())
 
     def test_html_registers_manifest_and_has_archive_controls(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -25,6 +29,11 @@ class FrontendContractTests(unittest.TestCase):
         self.assertIn('data-archive-type="weekly"', html)
         self.assertIn('data-archive-type="monthly"', html)
         self.assertIn("serviceWorker.register", (ROOT / "assets" / "app.js").read_text(encoding="utf-8"))
+
+    def test_country_symbols_do_not_depend_on_emoji_flag_fonts(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertNotIn("🇺🇸", html)
+        self.assertEqual(html.count('class="country-code"'), 3)
 
     def test_frontend_has_no_external_resources_or_dynamic_inner_html(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")

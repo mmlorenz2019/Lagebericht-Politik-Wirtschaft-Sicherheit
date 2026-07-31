@@ -158,18 +158,22 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
         _fail("overallSummary", "must contain 1-8 sentences")
     for index, sentence in enumerate(report["overallSummary"]):
         _string(sentence, f"overallSummary[{index}]", 500)
-    if not isinstance(report["countries"], list):
-        _fail("countries", "must be an array")
+    if not isinstance(report["countries"], list) or len(report["countries"]) != 3:
+        _fail("countries", "must contain every country exactly once")
+    seen = []
     for country_index, country in enumerate(report["countries"]):
         path = f"countries[{country_index}]"
         _object(country, path, {"id", "label", "sections"}, {"id", "label", "sections"})
         if country["id"] not in COUNTRIES:
             _fail(f"{path}.id", "unknown country")
+        seen.append(country["id"])
         _string(country["label"], f"{path}.label", 30)
         if not isinstance(country["sections"], list) or not (1 <= len(country["sections"]) <= 3):
             _fail(f"{path}.sections", "must contain 1-3 sections")
         for section_index, section in enumerate(country["sections"]):
             _category(section, f"{path}.sections[{section_index}]", allowed_domains)
+    if set(seen) != set(COUNTRIES) or len(set(seen)) != 3:
+        _fail("countries", "must contain every country exactly once")
     for field in ("sourceReportDates", "missingReportDates"):
         if not isinstance(report[field], list):
             _fail(field, "must be an array")
@@ -177,4 +181,3 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
             parsed = date.fromisoformat(_iso_date(value, f"{field}[{index}]"))
             if not start <= parsed <= end:
                 _fail(f"{field}[{index}]", "date lies outside the period")
-

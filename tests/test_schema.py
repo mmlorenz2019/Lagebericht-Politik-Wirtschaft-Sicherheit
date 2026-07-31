@@ -114,15 +114,15 @@ class DailyReportValidationTests(unittest.TestCase):
 
 
 class PeriodReportValidationTests(unittest.TestCase):
-    def test_accepts_valid_weekly_report(self):
-        report = {
+    def valid_period(self):
+        return {
             "schemaVersion": 1,
             "periodType": "week",
             "periodStart": "2026-07-27",
             "periodEnd": "2026-08-02",
             "generatedAt": "2026-08-02T05:00:00Z",
             "status": "partial",
-            "overallSummary": ["Die Woche war von mehreren politischen und wirtschaftlichen Entscheidungen geprägt."],
+            "overallSummary": ["Die Woche war von mehreren Entscheidungen geprägt."],
             "countries": [
                 {"id": "usa", "label": "USA", "sections": [category("politics_society")]},
                 {"id": "china", "label": "China", "sections": [category("economy_technology")]},
@@ -131,7 +131,15 @@ class PeriodReportValidationTests(unittest.TestCase):
             "sourceReportDates": ["2026-07-27", "2026-07-28", "2026-07-30", "2026-08-02"],
             "missingReportDates": ["2026-07-29", "2026-07-31", "2026-08-01"],
         }
-        validate_period_report(report, ALLOWED_DOMAINS)
+
+    def test_accepts_valid_weekly_report(self):
+        validate_period_report(self.valid_period(), ALLOWED_DOMAINS)
+
+    def test_rejects_duplicate_or_missing_period_country(self):
+        report = self.valid_period()
+        report["countries"][2]["id"] = "china"
+        with self.assertRaisesRegex(ReportValidationError, "every country"):
+            validate_period_report(report, ALLOWED_DOMAINS)
 
     def test_rejects_unknown_period_type(self):
         report = {

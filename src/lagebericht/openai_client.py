@@ -10,6 +10,20 @@ class OpenAIError(RuntimeError):
     """Raised when the Responses API does not return safe structured output."""
 
 
+_LOCAL_ONLY_SCHEMA_KEYS = {
+    "$schema", "$id", "format", "pattern", "minLength", "maxLength",
+    "minItems", "maxItems", "uniqueItems", "minimum", "maximum",
+}
+
+
+def _response_schema(value):
+    if isinstance(value, dict):
+        return {key: _response_schema(item) for key, item in value.items() if key not in _LOCAL_ONLY_SCHEMA_KEYS}
+    if isinstance(value, list):
+        return [_response_schema(item) for item in value]
+    return value
+
+
 def _default_transport(url: str, headers: dict, payload: dict, timeout: float) -> dict:
     request = Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
     try:
@@ -43,7 +57,7 @@ class OpenAIResponsesClient:
                 "format": {
                     "type": "json_schema",
                     "name": schema_name,
-                    "schema": schema,
+                    "schema": _response_schema(schema),
                     "strict": True,
                 }
             },
@@ -74,4 +88,3 @@ class OpenAIResponsesClient:
         if not isinstance(result, dict):
             raise OpenAIError("OpenAI structured output must be an object")
         return result
-
