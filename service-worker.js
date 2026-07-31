@@ -1,6 +1,6 @@
-const SHELL_CACHE = 'lagebericht-shell-v3';
+const SHELL_CACHE = 'lagebericht-shell-v4';
 const DATA_CACHE = 'lagebericht-data-v1';
-const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/app.js', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
+const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/rating-model.js', './assets/app.js', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL)));

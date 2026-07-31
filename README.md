@@ -52,4 +52,12 @@ In Edge oder Chrome die GitHub-Pages-Seite öffnen und **App installieren** bezi
 - Alle sieben aktiven RSS/XML-Feeds wurden am 31.07.2026 live mit der sicheren Pipeline geprüft. Das Ergebnis steht unter `docs/source-smoke-test-2026-07-31.md`.
 - Die aktuellen HTTPS-Seiten von Caixin und China Daily sind erreichbar. Ihre HTML-Quellenadapter bleiben deaktiviert, bis robuste Parser mit echten Abrufproben vorliegen; die offiziellen China-Daily-RSS-Adressen lieferten beim Test veraltete HTTP-Artikel. Die Pipeline erfindet bei fehlenden Quellen keine Ersatzmeldungen.
 
+## Transparente Bedeutungsbewertung
+
+Neue Berichte zeigen für jede veröffentlichte Meldung zwei getrennte Einschätzungen von 0 bis 3: **Deutschland-Bezug** und **allgemeine Tragweite**. Grau steht für 0, Grün für 1, Gelb für 2 und Rot für 3. Die Farbe beschreibt nur die Stärke der möglichen Bedeutung, nicht ob eine Entwicklung positiv oder negativ ist. Jede Zahl besitzt eine aufklappbare Begründung.
+
+Eine niedrige Bewertung ist kein Grund, eine Meldung auszublenden. Auch eine Meldung aus nur einer seriösen Quelle darf erscheinen und wird dann sichtbar als **Nur eine Quelle** gekennzeichnet. `no_major_development` bedeutet ausschließlich, dass in den geprüften Quellen keine technisch geeignete neue Meldung für die Kategorie gefunden wurde; technische Ausfälle werden getrennt als `unavailable` ausgewiesen.
+
+Vorhandene Berichte der Datenversion 1 bleiben lesbar, erhalten aber keine nachträglich erfundenen Punktwerte. Die erste Version speichert keine persönlichen Korrekturen und lernt nicht automatisch. Nach sieben Tagesläufen werden die angezeigten Bewertungen mit der persönlichen Einschätzung des Nutzers verglichen und die Regeln bei Bedarf bewusst angepasst.
+
 Siehe [SECURITY.md](SECURITY.md) für Sicherheitsgrenzen und Meldung von Problemen.
