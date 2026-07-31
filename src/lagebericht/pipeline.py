@@ -89,7 +89,6 @@ class DailyPipeline:
         report = self.ai_client.generate_json(
             self.summary_model, daily_instructions, daily_text, "daily_report", daily_schema
         )
-        if report.get("reportDate") != report_date.isoformat():
-            raise PipelineError("model report date does not match requested date")
+        report["reportDate"] = report_date.isoformat()
         validate_daily_report(report, self.allowed_domains)
         return report

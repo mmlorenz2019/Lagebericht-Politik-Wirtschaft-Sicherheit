@@ -45,6 +45,19 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(result["reportDate"], "2026-07-31")
         self.assertEqual(ai.models, ["claude-haiku-4-5-20251001", "claude-sonnet-4-6"])
 
+    def test_uses_requested_date_for_report_metadata(self):
+        report = daily_report()
+        report["reportDate"] = "2026-07-30"
+        ai = QueueAI([{"events": [{"id": "event-1"}]}, report])
+        pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
+
+        try:
+            result = pipeline.run(date(2026, 7, 31))
+        except PipelineError as exc:
+            self.fail(f"requested report date was rejected: {exc}")
+
+        self.assertEqual(result["reportDate"], "2026-07-31")
+
     def test_fails_without_any_candidates(self):
         pipeline = DailyPipeline([SOURCE], FakeFetcher(fail=True), QueueAI([]), ALLOWED_DOMAINS)
         with self.assertRaisesRegex(PipelineError, "no source candidates"):
