@@ -28,6 +28,23 @@ def run_rating_model(item):
     return json.loads(result.stdout)
 
 
+def run_story_badge(item):
+    script = (
+        "const model=require(process.argv[1]);"
+        "const item=JSON.parse(process.argv[2]);"
+        "const result=typeof model.badgeForItem==='function'?model.badgeForItem(item):null;"
+        "process.stdout.write(JSON.stringify(result));"
+    )
+    result = subprocess.run(
+        ["node", "-e", script, str(RATING_MODEL), json.dumps(item, ensure_ascii=False)],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return json.loads(result.stdout)
+
+
 class FrontendContractTests(unittest.TestCase):
     def test_version_two_ratings_keep_both_scores_and_reasons(self):
         self.assertTrue(RATING_MODEL.exists())
@@ -60,6 +77,14 @@ class FrontendContractTests(unittest.TestCase):
     def test_version_one_false_boolean_does_not_invent_a_rating(self):
         self.assertTrue(RATING_MODEL.exists())
         self.assertEqual(run_rating_model({"germanyRelevance": False}), [])
+
+    def test_empty_category_ignores_stale_story_limitations(self):
+        result = run_story_badge({
+            "status": "no_major_development",
+            "limitations": ["single_source", "source_disagreement"],
+            "sourceBasis": "none",
+        })
+        self.assertEqual(result, "Keine neue Meldung")
 
     def test_manifest_is_installable_and_local_only(self):
         manifest = json.loads((ROOT / "manifest.webmanifest").read_text(encoding="utf-8"))

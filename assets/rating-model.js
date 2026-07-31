@@ -5,6 +5,14 @@
   if (typeof module === 'object' && module.exports) module.exports = model;
   else root.RatingModel = model;
 }(typeof globalThis !== 'undefined' ? globalThis : this, function createRatingModel() {
+  const limitationLabels = {
+    single_source: 'Nur eine Quelle',
+    paywall: 'Bezahlschranke',
+    feed_only: 'Nur Feed-Informationen',
+    source_disagreement: 'Quellen widersprechen sich',
+    technical_failure: 'Technisch unvollständig',
+  };
+
   function validRating(value) {
     return value && Number.isInteger(value.score) && value.score >= 0 && value.score <= 3
       && typeof value.reasonDe === 'string' && value.reasonDe.trim();
@@ -43,5 +51,15 @@
     return ratings;
   }
 
-  return { ratingsForItem };
+  function badgeForItem(item) {
+    if (item.status === 'no_major_development') return 'Keine neue Meldung';
+    const limitationText = (item.limitations || [])
+      .map((value) => limitationLabels[value])
+      .filter(Boolean)
+      .join(' · ');
+    if (item.status === 'unavailable') return limitationText || 'Technisch unvollständig';
+    return limitationText || (item.sourceBasis === 'multiple' ? 'Mehrfach geprüft' : 'Meldung');
+  }
+
+  return { badgeForItem, ratingsForItem };
 }));

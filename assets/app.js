@@ -66,14 +66,6 @@ function fillPeriodSelect() {
   });
 }
 
-function limitations(item) {
-  const labels = {
-    single_source: 'Nur eine Quelle', paywall: 'Bezahlschranke', feed_only: 'Nur Feed-Informationen',
-    source_disagreement: 'Quellen widersprechen sich', technical_failure: 'Technisch unvollständig'
-  };
-  return (item.limitations || []).map((value) => labels[value]).filter(Boolean);
-}
-
 function renderSources(item, article) {
   if (!item.sources || !item.sources.length) return;
   const details = node('details', null, 'sources');
@@ -111,13 +103,7 @@ function renderStory(item) {
   article.append(node('div', icon, 'story-icon'));
   const top = node('div', null, 'story-top');
   top.append(node('p', label, 'eyebrow'));
-  const limitationText = limitations(item).join(' · ');
-  const badgeText = item.status === 'no_major_development'
-    ? limitationText || 'Keine neue Meldung'
-    : item.status === 'unavailable'
-      ? limitationText || 'Technisch unvollständig'
-      : limitationText || (item.sourceBasis === 'multiple' ? 'Mehrfach geprüft' : 'Meldung');
-  top.append(node('span', badgeText, 'badge'));
+  top.append(node('span', RatingModel.badgeForItem(item), 'badge'));
   article.append(top);
   if (item.status === 'no_major_development') {
     article.append(node('h3', 'Keine neue Meldung in den geprüften Quellen'));
