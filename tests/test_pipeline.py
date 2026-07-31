@@ -43,7 +43,7 @@ class PipelineTests(unittest.TestCase):
         pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
         result = pipeline.run(date(2026, 7, 31))
         self.assertEqual(result["reportDate"], "2026-07-31")
-        self.assertEqual(ai.models, ["gpt-5.6-luna", "gpt-5.6-terra"])
+        self.assertEqual(ai.models, ["claude-haiku-4-5-20251001", "claude-sonnet-4-6"])
 
     def test_fails_without_any_candidates(self):
         pipeline = DailyPipeline([SOURCE], FakeFetcher(fail=True), QueueAI([]), ALLOWED_DOMAINS)

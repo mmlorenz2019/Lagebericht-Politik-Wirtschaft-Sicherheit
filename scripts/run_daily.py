@@ -9,7 +9,7 @@ from pathlib import Path
 
 from lagebericht.config import all_allowed_domains, load_sources
 from lagebericht.fetch import SafeFetcher
-from lagebericht.openai_client import OpenAIError, OpenAIResponsesClient
+from lagebericht.anthropic_client import AnthropicError, AnthropicMessagesClient
 from lagebericht.pipeline import DailyPipeline, PipelineError
 from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
@@ -26,21 +26,21 @@ def parse_args(argv=None):
 
 def main(argv=None) -> int:
     args = parse_args(argv)
-    api_key = os.environ.get("OPENAI_API_KEY", "")
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
-        print("OPENAI_API_KEY fehlt; es wurde nichts veröffentlicht.", file=sys.stderr)
+        print("ANTHROPIC_API_KEY fehlt; es wurde nichts veröffentlicht.", file=sys.stderr)
         return 2
     try:
         sources = load_sources(args.sources)
         allowed_domains = all_allowed_domains(sources)
-        client = OpenAIResponsesClient(api_key)
+        client = AnthropicMessagesClient(api_key)
         pipeline = DailyPipeline(
             sources,
             SafeFetcher(),
             client,
             allowed_domains,
-            extraction_model=os.environ.get("OPENAI_EXTRACTION_MODEL", "gpt-5.6-luna"),
-            summary_model=os.environ.get("OPENAI_SUMMARY_MODEL", "gpt-5.6-terra"),
+            extraction_model=os.environ.get("ANTHROPIC_EXTRACTION_MODEL", "claude-haiku-4-5-20251001"),
+            summary_model=os.environ.get("ANTHROPIC_SUMMARY_MODEL", "claude-sonnet-4-6"),
         )
         report_date = args.date or berlin_now().date()
         report = pipeline.run(report_date)
@@ -50,7 +50,7 @@ def main(argv=None) -> int:
             path = Publisher(args.data_root, allowed_domains).publish_daily(report)
             print(path)
         return 0
-    except (OpenAIError, PipelineError, ValueError, OSError) as exc:
+    except (AnthropicError, PipelineError, ValueError, OSError) as exc:
         print(f"Tageslauf fehlgeschlagen: {exc}", file=sys.stderr)
         return 1
 

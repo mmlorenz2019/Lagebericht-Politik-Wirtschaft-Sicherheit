@@ -10,7 +10,11 @@ from tests.test_schema import ALLOWED_DOMAINS, category, daily_report
 
 
 class ContentAI:
+    def __init__(self):
+        self.models = []
+
     def generate_json(self, model, instructions, input_text, schema_name, schema):
+        self.models.append(model)
         return {
             "overallSummary": ["Der Zeitraum war durch mehrere wichtige Entscheidungen geprägt."],
             "countries": [
@@ -44,11 +48,13 @@ class AggregateTests(unittest.TestCase):
 
     def test_builds_partial_week_with_four_days(self):
         self.publish_days(date(2026, 7, 27), 4)
-        report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+        ai = ContentAI()
+        report = PeriodAggregator(self.root, ai, ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
         self.assertEqual(report["periodStart"], "2026-07-27")
         self.assertEqual(report["periodEnd"], "2026-08-02")
         self.assertEqual(report["status"], "partial")
         self.assertEqual(len(report["sourceReportDates"]), 4)
+        self.assertEqual(ai.models, ["claude-sonnet-4-6"])
 
     def test_returns_none_when_week_has_fewer_than_four_days(self):
         self.publish_days(date(2026, 7, 27), 3)

@@ -8,7 +8,7 @@ from pathlib import Path
 
 from lagebericht.aggregate import PeriodAggregator
 from lagebericht.config import all_allowed_domains, load_sources
-from lagebericht.openai_client import OpenAIError, OpenAIResponsesClient
+from lagebericht.anthropic_client import AnthropicError, AnthropicMessagesClient
 from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
 
@@ -26,18 +26,18 @@ def parse_args(argv=None):
 
 def main(argv=None) -> int:
     args = parse_args(argv)
-    api_key = os.environ.get("OPENAI_API_KEY", "")
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     if not api_key:
-        print("OPENAI_API_KEY fehlt; es wurde nichts veröffentlicht.", file=sys.stderr)
+        print("ANTHROPIC_API_KEY fehlt; es wurde nichts veröffentlicht.", file=sys.stderr)
         return 2
     try:
         sources = load_sources(args.sources)
         domains = all_allowed_domains(sources)
         aggregator = PeriodAggregator(
             args.data_root,
-            OpenAIResponsesClient(api_key),
+            AnthropicMessagesClient(api_key),
             domains,
-            model=os.environ.get("OPENAI_SUMMARY_MODEL", "gpt-5.6-terra"),
+            model=os.environ.get("ANTHROPIC_SUMMARY_MODEL", "claude-sonnet-4-6"),
         )
         today = berlin_now().date()
         if args.mode == "week":
@@ -54,7 +54,7 @@ def main(argv=None) -> int:
         else:
             print(Publisher(args.data_root, domains).publish_period(report))
         return 0
-    except (OpenAIError, ValueError, OSError) as exc:
+    except (AnthropicError, ValueError, OSError) as exc:
         print(f"Rückblick fehlgeschlagen: {exc}", file=sys.stderr)
         return 1
 

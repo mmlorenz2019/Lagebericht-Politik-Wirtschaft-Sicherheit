@@ -49,8 +49,8 @@ class DailyPipeline:
         ai_client,
         allowed_domains: set[str],
         *,
-        extraction_model: str = "gpt-5.6-luna",
-        summary_model: str = "gpt-5.6-terra",
+        extraction_model: str = "claude-haiku-4-5-20251001",
+        summary_model: str = "claude-sonnet-4-6",
         daily_schema_path: Path | None = None,
     ):
         self.sources = sources
@@ -93,4 +93,3 @@ class DailyPipeline:
             raise PipelineError("model report date does not match requested date")
         validate_daily_report(report, self.allowed_domains)
         return report
-

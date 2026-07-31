@@ -78,7 +78,7 @@ def load_period_reports(data_root: Path, start: date, end: date, allowed_domains
 
 
 class PeriodAggregator:
-    def __init__(self, data_root: Path, ai_client, allowed_domains: set[str], *, model: str = "gpt-5.6-terra"):
+    def __init__(self, data_root: Path, ai_client, allowed_domains: set[str], *, model: str = "claude-sonnet-4-6"):
         self.data_root = data_root
         self.ai_client = ai_client
         self.allowed_domains = allowed_domains
@@ -112,4 +112,3 @@ class PeriodAggregator:
         start = date(year, month, 1)
         end = date(year, month, calendar.monthrange(year, month)[1])
         return self._build("month", start, end, 20)
-
