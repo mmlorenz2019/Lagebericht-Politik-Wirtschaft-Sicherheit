@@ -38,7 +38,76 @@ class QueueAI:
         return self.values.pop(0)
 
 
+def complete_event():
+    return {
+        "id": "event-1",
+        "country": "usa",
+        "category": "politics_society",
+        "summary": "A decision was announced.",
+        "candidateIndexes": [0],
+        "contradictions": False,
+    }
+
+
+def daily_report_with_empty_usa_politics():
+    report = daily_report()
+    report["countries"][0]["categories"][0].update({
+        "status": "no_major_development",
+        "headlineDe": "",
+        "summaryDe": [],
+        "additionalImportant": None,
+        "germanyRelevance": None,
+        "overallSignificance": None,
+        "sourceBasis": "none",
+        "limitations": [],
+        "sources": [],
+    })
+    return report
+
+
 class PipelineTests(unittest.TestCase):
+    def test_retries_when_model_hides_an_event_with_sources(self):
+        ai = QueueAI([
+            {"events": [complete_event()]},
+            daily_report_with_empty_usa_politics(),
+            daily_report(),
+        ])
+
+        result = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 7, 31))
+
+        self.assertEqual(result["countries"][0]["categories"][0]["status"], "published")
+        self.assertEqual(ai.models.count("claude-sonnet-4-6"), 2)
+
+    def test_does_not_retry_when_no_sourced_event_exists_for_empty_slot(self):
+        ai = QueueAI([{"events": []}, daily_report_with_empty_usa_politics()])
+
+        DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 7, 31))
+
+        self.assertEqual(ai.models.count("claude-sonnet-4-6"), 1)
+
+    def test_fails_when_repair_still_hides_a_sourced_event(self):
+        ai = QueueAI([
+            {"events": [complete_event()]},
+            daily_report_with_empty_usa_politics(),
+            daily_report_with_empty_usa_politics(),
+        ])
+
+        with self.assertRaisesRegex(PipelineError, "omitted sourced slots"):
+            DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 7, 31))
+
+    def test_publishes_a_low_scored_single_source_event_without_retry(self):
+        report = daily_report()
+        item = report["countries"][0]["categories"][0]
+        item["germanyRelevance"] = {"score": 0, "reasonDe": "Kein direkter Bezug zu Deutschland."}
+        item["overallSignificance"] = {"score": 0, "reasonDe": "Die Entwicklung ist bislang begrenzt."}
+        ai = QueueAI([{"events": [complete_event()]}, report])
+
+        result = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 7, 31))
+
+        published = result["countries"][0]["categories"][0]
+        self.assertEqual(published["status"], "published")
+        self.assertEqual(published["sourceBasis"], "single")
+        self.assertEqual(ai.models.count("claude-sonnet-4-6"), 1)
     def test_builds_and_validates_daily_report_with_two_models(self):
         report = daily_report()
         ai = QueueAI([{"events": [{"id": "event-1"}]}, report])

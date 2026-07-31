@@ -8,7 +8,7 @@ from .config import SourceConfig
 from .events import build_event_input, deduplicate_candidates
 from .fetch import FetchError
 from .normalize import FeedNormalizationError, normalize_feed
-from .prompts import build_daily_prompt, build_extraction_prompt
+from .prompts import build_daily_prompt, build_daily_repair_prompt, build_extraction_prompt
 from .schema import validate_daily_report
 
 
@@ -72,6 +72,22 @@ def _normalize_empty_categories(report: dict) -> None:
             category["overallSignificance"] = None
             category["sourceBasis"] = "none"
             category["sources"] = []
+
+
+def _missing_published_slots(report: dict, events: list[dict]) -> list[tuple[str, str]]:
+    eligible = {
+        (event.get("country"), event.get("category"))
+        for event in events
+        if isinstance(event, dict) and event.get("sourceCandidates")
+    }
+    published = {
+        (country.get("id"), category.get("id"))
+        for country in report.get("countries", [])
+        if isinstance(country, dict)
+        for category in country.get("categories", [])
+        if isinstance(category, dict) and category.get("status") == "published"
+    }
+    return sorted(eligible - published)
 
 
 EVENT_SCHEMA = {
@@ -152,5 +168,19 @@ class DailyPipeline:
         )
         report["reportDate"] = report_date.isoformat()
         _normalize_empty_categories(report)
+        missing_slots = _missing_published_slots(report, enriched_events)
+        if missing_slots:
+            repair_instructions, repair_text = build_daily_repair_prompt(
+                enriched_events, report, missing_slots
+            )
+            report = self.ai_client.generate_json(
+                self.summary_model, repair_instructions, repair_text, "daily_report", daily_schema
+            )
+            report["reportDate"] = report_date.isoformat()
+            _normalize_empty_categories(report)
+            missing_slots = _missing_published_slots(report, enriched_events)
+            if missing_slots:
+                formatted = ", ".join(f"{country}/{category}" for country, category in missing_slots)
+                raise PipelineError(f"summary omitted sourced slots: {formatted}")
         validate_daily_report(report, self.allowed_domains)
         return report
