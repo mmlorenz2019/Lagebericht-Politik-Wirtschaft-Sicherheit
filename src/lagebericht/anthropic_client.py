@@ -1,0 +1,135 @@
+from __future__ import annotations
+
+import json
+from typing import Callable
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+
+class AnthropicError(RuntimeError):
+    """Raised when the Messages API does not return safe structured output."""
+
+
+_LOCAL_ONLY_SCHEMA_KEYS = {
+    "$schema",
+    "$id",
+    "format",
+    "pattern",
+    "minLength",
+    "maxLength",
+    "minItems",
+    "maxItems",
+    "uniqueItems",
+    "minimum",
+    "maximum",
+}
+
+
+def _anthropic_schema(value):
+    if isinstance(value, dict):
+        return {
+            key: _anthropic_schema(item)
+            for key, item in value.items()
+            if key not in _LOCAL_ONLY_SCHEMA_KEYS
+        }
+    if isinstance(value, list):
+        return [_anthropic_schema(item) for item in value]
+    return value
+
+
+def _default_transport(url: str, headers: dict, payload: dict, timeout: float) -> dict:
+    request = Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers=headers,
+        method="POST",
+    )
+    try:
+        with urlopen(request, timeout=timeout) as response:
+            body = response.read(2_000_001)
+            if len(body) > 2_000_000:
+                raise AnthropicError("Anthropic response exceeded size limit")
+            return json.loads(body)
+    except HTTPError as exc:
+        try:
+            detail = exc.read(4096).decode("utf-8", "replace")
+        finally:
+            exc.close()
+        raise AnthropicError(f"Anthropic HTTP {exc.code}: {detail}") from exc
+    except (URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
+        raise AnthropicError(f"Anthropic request failed: {exc}") from exc
+
+
+class AnthropicMessagesClient:
+    def __init__(
+        self,
+        api_key: str,
+        *,
+        transport: Callable | None = None,
+        timeout_seconds: float = 60.0,
+        max_tokens: int = 8192,
+    ):
+        if not api_key or not api_key.strip():
+            raise AnthropicError("ANTHROPIC_API_KEY is required for model processing")
+        self.api_key = api_key.strip()
+        self.transport = transport or _default_transport
+        self.timeout_seconds = timeout_seconds
+        self.max_tokens = max_tokens
+
+    def generate_json(
+        self,
+        model: str,
+        instructions: str,
+        input_text: str,
+        schema_name: str,
+        schema: dict,
+    ) -> dict:
+        del schema_name
+        response = self.transport(
+            "https://api.anthropic.com/v1/messages",
+            {
+                "x-api-key": self.api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            {
+                "model": model,
+                "max_tokens": self.max_tokens,
+                "system": instructions,
+                "messages": [{"role": "user", "content": input_text}],
+                "output_config": {
+                    "format": {
+                        "type": "json_schema",
+                        "schema": _anthropic_schema(schema),
+                    }
+                },
+            },
+            self.timeout_seconds,
+        )
+        if not isinstance(response, dict):
+            raise AnthropicError("Anthropic response was invalid")
+        if response.get("stop_reason") == "refusal":
+            raise AnthropicError("Anthropic refused the request")
+        if response.get("stop_reason") == "max_tokens":
+            raise AnthropicError("Anthropic response reached the token limit")
+        if response.get("stop_reason") != "end_turn":
+            raise AnthropicError(
+                f"Anthropic response did not finish safely: {response.get('stop_reason')}"
+            )
+        text = next(
+            (
+                block.get("text")
+                for block in response.get("content", [])
+                if isinstance(block, dict) and block.get("type") == "text"
+            ),
+            None,
+        )
+        if not text:
+            raise AnthropicError("Anthropic response contained no text")
+        try:
+            result = json.loads(text)
+        except json.JSONDecodeError as exc:
+            raise AnthropicError(f"Anthropic returned invalid JSON: {exc}") from exc
+        if not isinstance(result, dict):
+            raise AnthropicError("Anthropic structured output must be an object")
+        return result
