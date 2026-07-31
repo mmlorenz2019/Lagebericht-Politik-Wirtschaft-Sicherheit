@@ -31,7 +31,7 @@
     {
       "id": "scmp-china", "name": "South China Morning Post", "country": "china",
       "categories": ["politics_society", "economy_technology", "foreign_security"],
-      "feedUrl": "https://www.scmp.com/rss/4/feed",
+      "feedUrl": "https://www.scmp.com/rss/4/feed/",
       "allowedDomains": ["www.scmp.com", "scmp.com"],
       "type": "Hongkong-/Regionalperspektive", "language": "en", "retrieval": "feed_only", "paywall": true, "maxCandidates": 18
     },

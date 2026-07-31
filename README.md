@@ -47,7 +47,7 @@ In Edge oder Chrome die GitHub-Pages-Seite öffnen und **App installieren** bezi
 - `data/monthly/` enthält Monatsberichte.
 - `data/index.json` bildet das sichtbare Archiv.
 - Artikelvolltexte werden nicht gespeichert.
-- HTML-Quellenadapter für Caixin und China Daily sind vorbereitet, aber deaktiviert, bis robuste Parser mit echten Abrufproben vorliegen. Die Pipeline erfindet bei fehlenden Quellen keine Ersatzmeldungen.
+- Alle sieben aktiven RSS/XML-Feeds wurden am 31.07.2026 live mit der sicheren Pipeline geprüft. Das Ergebnis steht unter `docs/source-smoke-test-2026-07-31.md`.
+- Die aktuellen HTTPS-Seiten von Caixin und China Daily sind erreichbar. Ihre HTML-Quellenadapter bleiben deaktiviert, bis robuste Parser mit echten Abrufproben vorliegen; die offiziellen China-Daily-RSS-Adressen lieferten beim Test veraltete HTTP-Artikel. Die Pipeline erfindet bei fehlenden Quellen keine Ersatzmeldungen.
 
 Siehe [SECURITY.md](SECURITY.md) für Sicherheitsgrenzen und Meldung von Problemen.
-

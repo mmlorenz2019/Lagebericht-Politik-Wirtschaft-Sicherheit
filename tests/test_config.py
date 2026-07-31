@@ -51,7 +51,12 @@ class ConfigTests(unittest.TestCase):
         with self.assertRaisesRegex(ConfigError, "retrieval"):
             load_sources(self.write_config({"sources": [item]}))
 
+    def test_scmp_uses_canonical_https_feed_without_insecure_redirect(self):
+        config_path = Path(__file__).resolve().parents[1] / "config" / "sources.json"
+        sources = load_sources(config_path)
+        scmp = next(item for item in sources if item.id == "scmp-china")
+        self.assertEqual(scmp.feed_url, "https://www.scmp.com/rss/4/feed/")
+
 
 if __name__ == "__main__":
     unittest.main()
-
