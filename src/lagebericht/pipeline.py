@@ -9,7 +9,7 @@ from .events import build_event_input, deduplicate_candidates
 from .fetch import FetchError
 from .normalize import FeedNormalizationError, normalize_feed
 from .prompts import build_daily_prompt, build_daily_repair_prompt, build_extraction_prompt
-from .schema import validate_daily_report
+from .schema import ReportValidationError, validate_daily_report
 
 
 class PipelineError(RuntimeError):
@@ -169,9 +169,14 @@ class DailyPipeline:
         report["reportDate"] = report_date.isoformat()
         _normalize_empty_categories(report)
         missing_slots = _missing_published_slots(report, enriched_events)
-        if missing_slots:
+        validation_error = None
+        try:
+            validate_daily_report(report, self.allowed_domains)
+        except ReportValidationError as exc:
+            validation_error = str(exc)
+        if missing_slots or validation_error:
             repair_instructions, repair_text = build_daily_repair_prompt(
-                enriched_events, report, missing_slots
+                enriched_events, report, missing_slots, validation_error
             )
             report = self.ai_client.generate_json(
                 self.summary_model, repair_instructions, repair_text, "daily_report", daily_schema
@@ -182,5 +187,8 @@ class DailyPipeline:
             if missing_slots:
                 formatted = ", ".join(f"{country}/{category}" for country, category in missing_slots)
                 raise PipelineError(f"summary omitted sourced slots: {formatted}")
-        validate_daily_report(report, self.allowed_domains)
+            try:
+                validate_daily_report(report, self.allowed_domains)
+            except ReportValidationError as exc:
+                raise PipelineError(f"summary produced invalid report after repair: {exc}") from exc
         return report

@@ -44,16 +44,21 @@ def build_daily_prompt(events: list[dict], previous_reports: list[dict]) -> tupl
 
 
 def build_daily_repair_prompt(
-    events: list[dict], rejected_report: dict, missing_slots: list[tuple[str, str]]
+    events: list[dict],
+    rejected_report: dict,
+    missing_slots: list[tuple[str, str]],
+    validation_error: str | None = None,
 ) -> tuple[str, str]:
     instructions = DAILY_RULES + (
-        " Der erste Entwurf ließ belegte Kategorien aus. Erstelle den vollständigen Bericht neu und veröffentliche "
-        "für jeden genannten Slot ein Ereignis aus sourceCandidates."
+        " Der erste Entwurf ließ belegte Kategorien aus oder verletzte den Datenvertrag. Erstelle den vollständigen "
+        "Bericht neu, behebe den genannten Validierungsfehler und veröffentliche für jeden genannten Slot ein "
+        "Ereignis aus sourceCandidates."
     )
     payload = {
         "events": events,
         "rejectedReport": rejected_report,
         "missingSlots": [list(slot) for slot in missing_slots],
+        "validationError": validation_error,
     }
     return instructions, f"<untrusted_repair_data>{_safe_json(payload)}</untrusted_repair_data>"
 

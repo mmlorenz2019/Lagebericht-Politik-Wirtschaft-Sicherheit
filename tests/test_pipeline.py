@@ -78,6 +78,21 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(result["countries"][0]["categories"][0]["status"], "published")
         self.assertEqual(ai.models.count("claude-sonnet-4-6"), 2)
 
+    def test_retries_when_published_category_is_incomplete(self):
+        invalid_report = daily_report()
+        invalid_report["countries"][0]["categories"][0]["headlineDe"] = ""
+        ai = QueueAI([
+            {"events": [complete_event()]},
+            invalid_report,
+            daily_report(),
+        ])
+
+        result = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 8, 1))
+
+        self.assertTrue(result["countries"][0]["categories"][0]["headlineDe"])
+        self.assertEqual(ai.models.count("claude-sonnet-4-6"), 2)
+        self.assertIn("published categories require", ai.input_texts[2])
+
     def test_does_not_retry_when_no_sourced_event_exists_for_empty_slot(self):
         ai = QueueAI([{"events": []}, daily_report_with_empty_usa_politics()])
 
