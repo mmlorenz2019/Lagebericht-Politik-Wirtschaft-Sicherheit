@@ -138,7 +138,7 @@ class FrontendContractTests(unittest.TestCase):
         worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
         self.assertIn("url.origin !== self.location.origin", worker)
         self.assertIn("request.method !== 'GET'", worker)
-        self.assertIn("lagebericht-shell-v4", worker)
+        self.assertIn("lagebericht-shell-v5", worker)
         self.assertIn("./assets/rating-model.js", worker)
 
 
