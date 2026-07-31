@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-01",
+  "generatedAt": "2026-07-31T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump kündigt Hamas-Entwaffnungsabkommen an – Medicaid-Kürzungen treffen erste Versicherte",
+          "summaryDe": [
+            "Präsident Trump hat nach eigenen Angaben ein Abkommen erzielt, wonach die Hamas vollständig entwaffnet werden und israelische Streitkräfte sich aus Gaza zurückziehen sollen; Details und Umsetzungsmechanismen blieben zunächst unklar.",
+            "Parallel dazu verlieren in Nebraska ab dem 1. August die ersten rund 200 Personen ihre Medicaid-Versorgung, weil sie die im „One Big Beautiful Bill Act",
+            " verankerten Arbeitsnachweispflichten nicht erfüllen.",
+            "Republikanische Kongressabgeordnete, die für die Gesundheitskürzungen gestimmt haben, schalten gleichzeitig Wahlkampfanzeigen, in denen sie sich als Fürsprecher niedrigerer Gesundheitskosten präsentieren – ein offensichtlicher Widerspruch, den Medien und Demokraten scharf kritisieren.",
+            "Die Kombination aus geopolitischem Auftritt und innenpolitischer Sozialpolitik prägt die politische Agenda in Washington wenige Monate vor den Zwischenwahlen."
+          ],
+          "additionalImportant": "Die Trump-Administration plant zudem, die Qualitätsstandards des Vorschulprogramms Head Start durch Deregulierung zu lockern, was Bildungsexperten als Rückschritt für einkommensschwache Familien bewerten.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein Gaza-Waffenstillstand und US-Sozialpolitik haben konkrete Folgen für die europäische Sicherheitsarchitektur und die humanitäre Lage im Nahen Osten, die Deutschland direkt betreffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein von den USA verkündetes Hamas-Entwaffnungsabkommen wäre eine außergewöhnliche geopolitische Entwicklung; die Medicaid-Umsetzung zeigt systemische Folgen der US-Sozialpolitik."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kovačević izabran za člana Sudskog savjeta, Raspopović u Savjetu...",
+              "url": "https://www.vijesti.me/vijesti/politika/820286/kovacevic-izabran-za-clana-sudskog-savjeta-raspopovic-u-savjetu-amu-a",
+              "publishedAt": "2026-07-31T21:07:00Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "In Nebraska, Americans begin to lose Medicaid under Trump's work rules",
+              "url": "https://www.npr.org/2026/07/31/nx-s1-5913947/medicaid-trump-work-requirements-big-beautiful-bill-nebraska",
+              "publishedAt": "2026-07-31T13:22:40Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Ahead of midterms, Republicans run ads after cutting healthcare funds",
+              "url": "https://www.npr.org/2026/07/31/nx-s1-5870960/republican-ads-healthcare-medicaid-2026-midterms",
+              "publishedAt": "2026-07-31T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fed-Chef Warsh signalisiert mögliche Zinserhöhung – Märkte interpretieren Aussagen gegensätzlich",
+          "summaryDe": [
+            "Federal-Reserve-Vorsitzender Kevin Warsh deutet in seinen vorbereiteten Bemerkungen eine mögliche Zinserhöhung an, während Märkte seine Äußerungen als taubenhafte Signale gewertet hatten – ein ungewöhnlicher Interpretationskonflikt.",
+            "Warsh erwägt zudem, die Zahl der geldpolitischen Sitzungen von acht auf eine geringere Frequenz zu reduzieren, was eine erhebliche strukturelle Änderung der Fed-Praxis seit Jahrzehnten darstellen würde.",
+            "Gleichzeitig zeigen alternative Inflationsindikatoren den niedrigsten Stand seit Jahren, was die geldpolitische Debatte zusätzlich verkompliziert.",
+            "Die Unsicherheit über den nächsten Fed-Schritt belastet Anleihemärkte und zwingt Investoren, sich auf das kurze Ende der Zinskurve zu konzentrieren."
+          ],
+          "additionalImportant": "Tech-Konzerne Alphabet, Amazon und Microsoft verzeichneten in der abgelaufenen Woche zusammen einen Marktwertanstieg von fast 1,5 Billionen US-Dollar, während Apple und Meta Verluste hinnehmen mussten.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "US-Geldpolitik beeinflusst direkt den Euro-Dollar-Kurs, europäische Kapitalkosten und die Exportbedingungen deutscher Unternehmen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Signale einer möglichen Zinserhöhung durch die Fed bei gleichzeitig sinkender Inflation sind eine bedeutende und ungewöhnliche geldpolitische Konstellation mit globalen Auswirkungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+              "url": "https://www.cnbc.com/2026/07/31/kevin-warsh-fed-inflation-rate-hike-markets.html",
+              "publishedAt": "2026-07-31T18:16:18Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "As Warsh's Fed faces pressure to act on inflation, these indicators show it's at its lowest in years",
+              "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
+              "publishedAt": "2026-07-31T16:51:30Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump verweigert Ukraine Patriot-Produktionslizenzen",
+          "summaryDe": [
+            "Präsident Trump erklärte öffentlich, die USA hätten nicht zugestimmt, der Ukraine Lizenzen zur Eigenproduktion von Patriot-Luftabwehrsystemen zu erteilen – eine Absage an ein zentrales ukrainisches Rüstungsanliegen.",
+            "Die Ukraine hatte auf eine solche Vereinbarung gehofft, um die Abhängigkeit von US-Rüstungslieferungen zu verringern und die eigene Verteidigungsproduktion zu stärken.",
+            "Trumps Aussage erfolgt inmitten laufender Verhandlungen über die Kriegssituation und verdeutlicht die anhaltende Unberechenbarkeit der US-Unterstützung für Kiew.",
+            "Für Europa und die NATO-Partner erhöht dies den Druck, eigenständige Rüstungskapazitäten für die Ukraine voranzutreiben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Verweigerung von Patriot-Lizenzen betrifft unmittelbar die Sicherheitsarchitektur der Ukraine und damit die gesamteuropäische Verteidigungspolitik, in der Deutschland eine Schlüsselrolle spielt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine explizite US-Absage an ukrainische Rüstungsautonomie ist eine bedeutende Entwicklung mit Signalwirkung für den weiteren Kriegsverlauf und die Nato-Kohäsion."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
+              "url": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
+              "publishedAt": "2026-07-31T18:52:10Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Peking verhängt Ausreisesperren für Verstöße gegen Exportkontrollen ab September",
+          "summaryDe": [
+            "Die chinesische Regierung hat neue Regelungen angekündigt, wonach Bürger, die gegen Exportkontroll- oder Technologietransfervorschriften verstoßen, mit Ausreisesperren belegt werden können – gültig ab dem 15. September 2026.",
+            "Die Maßnahme zielt darauf ab, die Einhaltung chinesischer Exportkontrollgesetze durchzusetzen und unerlaubten Technologieabfluss zu unterbinden.",
+            "Ausländische Unternehmen und ihre in China tätigen Mitarbeiter könnten von den neuen Bestimmungen betroffen sein, was die Risikoabwägungen für internationales Personal in China erheblich verschärft.",
+            "Die Ankündigung fällt in eine Phase wachsender geopolitischer Spannungen rund um Technologietransfer und Exportkontrollen zwischen China, den USA und der EU."
+          ],
+          "additionalImportant": "Xi Jinping traf im Juli 2026 Vertreter von 26 Staaten, darunter die Führungen der Slowakei, Namibias, Kambodschas, Thailands, Kasachstans und Nordkoreas, was Chinas diplomatische Aktivität auf höchstem Niveau unterstreicht.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Unternehmen mit Mitarbeitern in China sind von Ausreisesperren potenziell direkt betroffen; die Regelung verschärft das operative Risiko für deutsche China-Geschäfte."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Staatlich verordnete Ausreisesperren als Durchsetzungsinstrument für Exportkontrolle sind eine bedeutende Eskalation im internationalen Technologiestreit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing to impose exit bans for export control, tech transfer breaches",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362590/beijing-impose-exit-bans-export-control-tech-transfer-breaches",
+              "publishedAt": "2026-07-31T13:05:28Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas Fabrikaktivität erstmals seit fünf Monaten unter Kontraktionsschwelle",
+          "summaryDe": [
+            "Der offizielle Einkaufsmanagerindex für das verarbeitende Gewerbe fiel im Juli 2026 auf 49,2 Punkte und rutschte damit erstmals seit fünf Monaten unter die Wachstumsschwelle von 50 Punkten.",
+            "Gleichzeitig sank die Bauaktivität auf den niedrigsten Stand seit der Pandemiezeit, was strukturelle Schwächen in der zweitgrößten Volkswirtschaft der Welt verdeutlicht.",
+            "Xi Jinping forderte die Volksbefreiungsarmee parallel dazu auf, die militärische Anwendung von KI und unbemannten intelligenten Systemen zu stärken – ein Signal, dass militärische Modernisierung trotz wirtschaftlicher Schwäche Priorität hat.",
+            "Der Rückgang der Industrieaktivität erhöht den Druck auf Peking, konjunkturstützende Maßnahmen zu ergreifen, und könnte die Handelsspannungen mit westlichen Ländern weiter befeuern."
+          ],
+          "additionalImportant": "Der US-chinesische Rivalitätskonflikt um Unterseekabel für globale KI-Infrastruktur eskaliert: Peking wirft Washington vor, globale Unterseeverbindungen zu politisieren.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine chinesische Industriekontraktion dämpft die Exportnachfrage für deutsche Investitionsgüter und Vorprodukte spürbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Rückgang des chinesischen PMI unter die Wachstumsschwelle ist ein bedeutendes Signal für die Weltkonjunktur und globale Lieferketten."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China factories cool, CXMT surges, PLA marks anniversary",
+              "url": "https://www.scmp.com/plus/news/china/politics/article/3362512/china-factories-cool-cxmt-surges-pla-marks-anniversary",
+              "publishedAt": "2026-07-31T09:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU-China-Handelskonflikt eskaliert: Gegenseitige Sanktionen wegen Russland-Unterstützung",
+          "summaryDe": [
+            "Die EU hatte Sanktionen gegen 14 chinesische Unternehmen verhängt, denen Unterstützung für Russlands Krieg gegen die Ukraine vorgeworfen wird; Peking reagierte mit eigenen Gegensanktionen.",
+            "Der Schlagabtausch markiert eine neue Eskalationsstufe im EU-China-Handelsverhältnis und testet die Belastbarkeit des diplomatischen Kurses beider Seiten.",
+            "Parallel dazu erwartet EU-Außenbeauftragte Kaja Kallas Berichten zufolge für den Herbst ein persönliches Treffen mit Außenminister Wang Yi in Peking – das erste seit einem angespannten Zusammentreffen in Brüssel im Vorjahr.",
+            "China bestätigte zudem über Staatsfernsehen den Ausbau nuklearer Raketensilo-Kapazitäten, die ein PLA-Offizier als strategische Trümpfe bezeichnete, was die sicherheitspolitische Gesamtlage weiter verschärft."
+          ],
+          "additionalImportant": "Die USA fügten 43 weitere chinesische Unternehmen auf die Importverbotsliste wegen mutmaßlicher Zwangsarbeit in Xinjiang hinzu – die dritte größere US-Maßnahme gegen China innerhalb einer Woche.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "EU-Sanktionen gegen China und chinesische Gegensanktionen betreffen unmittelbar den europäischen Binnenmarkt und deutsche Unternehmen mit China-Geschäft."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Wechselseitige Sanktionen zwischen der EU und China wegen des Ukraine-Krieges sind eine systemische Eskalation mit weitreichenden Folgen für den globalen Handel und die geopolitische Ordnung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "EU-China trade war: Beijing turns the screws as Brussels tests limits of restraint",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362502/eu-china-trade-war-beijing-turns-screws-brussels-tests-limits-restraint",
+              "publishedAt": "2026-07-31T09:00:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Parlament verabschiedet Sicherheitsgesetze und Waffengesetz – Oppositionsauszug bei letzterem",
+          "summaryDe": [
+            "Das montenegrinische Parlament nahm mit 63 Stimmen einstimmig Änderungen der Gesetze über innere Angelegenheiten sowie das Nationale Sicherheitsamt an; die Beschlüsse gehen auf eine Einigung zur Überwindung einer parlamentarischen Krise zurück.",
+            "Ebenfalls verabschiedet wurde ein neues Waffen- und Munitionsgesetz, das nach Angaben des Parlamentsvorsitzenden EU-Anforderungen erfüllen soll; die Opposition verließ während der Abstimmung den Saal.",
+            "Zudem wählte das Parlament Aleksandar Kovačević mit Zweidrittelmehrheit als Mitglied des Richterrats und besetzte damit eine wichtige Position in der Justizarchitektur des Landes.",
+            "Die Sitzung illustriert sowohl den EU-Integrationsdruck auf Montenegros Gesetzgebung als auch die anhaltenden innenpolitischen Spannungen zwischen Regierung und Opposition."
+          ],
+          "additionalImportant": "Die Regierung zahlte eine Rate von 1,76 Millionen US-Dollar an chinesische Gläubiger im Namen der Hafenbehörde Bar; ab 2027 soll das Unternehmen künftige Raten eigenständig begleichen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als EU-Beitrittskandidat ist Montenegros Rechtsreform für Deutschland indirekt relevant, da sie den Erweiterungsprozess und die EU-Stabilität auf dem Westbalkan beeinflusst."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Gesetzespakete sind innenpolitisch bedeutsam für Montenegros EU-Annäherung, bleiben aber in ihrer regionalen Reichweite begrenzt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Usvojene izmjene zakona o unutrašnjim poslovima i ANB-u",
+              "url": "https://www.pobjeda.me/clanak/usvojene-izmjene-zakona-o-unutrasnjim-poslovima-i-anb-u",
+              "publishedAt": "2026-07-31T21:29:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Usvojen Zakon o oružju, opozicija napustila salu",
+              "url": "https://www.vijesti.me/vijesti/politika/820288/usvojen-zakon-o-oruzju-opozicija-napustila-salu",
+              "publishedAt": "2026-07-31T22:21:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kovačević izabran za člana Sudskog savjeta, Raspopović u Savjetu...",
+              "url": "https://www.vijesti.me/vijesti/politika/820286/kovacevic-izabran-za-clana-sudskog-savjeta-raspopovic-u-savjetu-amu-a",
+              "publishedAt": "2026-07-31T21:07:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fiskalrat besetzt, Rentenerhöhung abgelehnt",
+          "summaryDe": [
+            "Das montenegrinische Parlament ernannte drei Mitglieder des Fiskalrats und wählte Zorica Kalezić erneut zur Vizegouverneurin – institutionelle Personalentscheidungen mit Relevanz für die Haushaltsaufsicht.",
+            "Ein Antrag auf Rentenerhöhung wurde hingegen abgelehnt; die Regierung enthielt sich bei der Abstimmung, was auf koalitionsinterne Spannungen in Sozialfragen hindeutet.",
+            "Die Ablehnung fällt in eine Phase, in der Montenegro seinen Haushalt im Einklang mit EU-Beitrittsanforderungen konsolidieren muss.",
+            "Die Personalbesetzung des Fiskalrats gilt als wichtiger Schritt zur Stärkung unabhängiger Haushaltskontrolle im Land."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegros innenpolitische Haushaltsfragen haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Entscheidungen sind für Montenegros institutionelle Entwicklung relevant, haben aber begrenzte überregionale Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Imenovana tri člana Fiskalnog savjeta, Zorica Kalezić ponovo...",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/820287/imenovana-tri-clana-fiskalnog-savjeta-zorica-kalezic-ponovo-izabrana-za-viceguvernerku",
+              "publishedAt": "2026-07-31T21:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegro und Kroatien: Außenminister betont Offenheit der Verhandlungen über Adriafragen",
+          "summaryDe": [
+            "Der montenegrinische Außenminister Ivanović erklärte, die laufenden Verhandlungen mit Kroatien über maritime Grenzen und territoriale Streitfragen seien nicht geheim und würden nach der Sommerpause substantiell fortgeführt.",
+            "Die bilateralen Gespräche umfassen unter anderem den Status der Adria und der strategisch sensiblen Prevlaka-Halbinsel.",
+            "Die öffentliche Positionierung des Ministers zielt offenbar darauf ab, innenpolitische Kritik an mangelnder Transparenz zu entkräften.",
+            "Beide Länder sind EU-Mitglieder beziehungsweise Beitrittskandidaten; eine Lösung der Grenzfragen gilt als Voraussetzung für Montenegros weiteren EU-Integrationspfad."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Bilaterale Grenzstreitigkeiten zwischen EU-Mitglied Kroatien und EU-Kandidat Montenegro sind für den europäischen Erweiterungsprozess und damit indirekt für Deutschland relevant."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Klärung eines offenen Grenzstreits zwischen zwei adriatischen Staaten ist regional bedeutsam, bleibt aber in der internationalen Tragweite begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ivanović: Nema ništa tajno u pregovorima s Hrvatskom, o \"Jadranu\" i Prevlaci nakon ljeta",
+              "url": "https://www.pobjeda.me/clanak/ivanovic-nema-nista-tajno-u-pregovorima-s-hrvatskom-o-jadranu-i-prevlaci-nakon-ljeta",
+              "publishedAt": "2026-07-31T22:13:32Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
