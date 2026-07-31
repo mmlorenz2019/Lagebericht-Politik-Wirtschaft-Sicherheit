@@ -4,15 +4,15 @@ import argparse
 import json
 import os
 import sys
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 from lagebericht.config import all_allowed_domains, load_sources
 from lagebericht.fetch import SafeFetcher
 from lagebericht.openai_client import OpenAIError, OpenAIResponsesClient
 from lagebericht.pipeline import DailyPipeline, PipelineError
 from lagebericht.publish import Publisher
+from lagebericht.schedule import berlin_now
 
 
 def parse_args(argv=None):
@@ -42,7 +42,7 @@ def main(argv=None) -> int:
             extraction_model=os.environ.get("OPENAI_EXTRACTION_MODEL", "gpt-5.6-luna"),
             summary_model=os.environ.get("OPENAI_SUMMARY_MODEL", "gpt-5.6-terra"),
         )
-        report_date = args.date or datetime.now(ZoneInfo("Europe/Berlin")).date()
+        report_date = args.date or berlin_now().date()
         report = pipeline.run(report_date)
         if args.dry_run:
             print(json.dumps(report, ensure_ascii=False, indent=2))

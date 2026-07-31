@@ -3,14 +3,14 @@ from __future__ import annotations
 import argparse
 import os
 import sys
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 from lagebericht.aggregate import PeriodAggregator
 from lagebericht.config import all_allowed_domains, load_sources
 from lagebericht.openai_client import OpenAIError, OpenAIResponsesClient
 from lagebericht.publish import Publisher
+from lagebericht.schedule import berlin_now
 
 
 def parse_args(argv=None):
@@ -39,7 +39,7 @@ def main(argv=None) -> int:
             domains,
             model=os.environ.get("OPENAI_SUMMARY_MODEL", "gpt-5.6-terra"),
         )
-        today = datetime.now(ZoneInfo("Europe/Berlin")).date()
+        today = berlin_now().date()
         if args.mode == "week":
             report = aggregator.build_week(args.end_date or today)
         else:
