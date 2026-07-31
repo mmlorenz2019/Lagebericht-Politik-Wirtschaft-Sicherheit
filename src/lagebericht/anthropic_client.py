@@ -52,10 +52,10 @@ def _default_transport(url: str, headers: dict, payload: dict, timeout: float) -
             return json.loads(body)
     except HTTPError as exc:
         try:
-            detail = exc.read(4096).decode("utf-8", "replace")
+            exc.read(4096)
         finally:
             exc.close()
-        raise AnthropicError(f"Anthropic HTTP {exc.code}: {detail}") from exc
+        raise AnthropicError(f"Anthropic HTTP {exc.code}") from exc
     except (URLError, TimeoutError, OSError, json.JSONDecodeError) as exc:
         raise AnthropicError(f"Anthropic request failed: {exc}") from exc
 
@@ -116,11 +116,16 @@ class AnthropicMessagesClient:
             raise AnthropicError(
                 f"Anthropic response did not finish safely: {response.get('stop_reason')}"
             )
+        content = response.get("content")
+        if not isinstance(content, list):
+            raise AnthropicError("Anthropic response contained no text")
         text = next(
             (
                 block.get("text")
-                for block in response.get("content", [])
-                if isinstance(block, dict) and block.get("type") == "text"
+                for block in content
+                if isinstance(block, dict)
+                and block.get("type") == "text"
+                and isinstance(block.get("text"), str)
             ),
             None,
         )

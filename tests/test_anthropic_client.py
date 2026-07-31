@@ -185,7 +185,7 @@ class AnthropicClientTests(unittest.TestCase):
             400,
             "Bad Request",
             {},
-            BytesIO(b"invalid request"),
+            BytesIO(b'{"error":"reflected key: secret"}'),
         )
         with patch("lagebericht.anthropic_client.urlopen", side_effect=error):
             try:
@@ -343,6 +343,21 @@ class AnthropicClientTests(unittest.TestCase):
             "usage": {"input_tokens": 10, "output_tokens": 0},
         }
         self.assert_client_error(response, "no text")
+
+    def test_rejects_malformed_content_as_a_controlled_client_error(self):
+        for content in (None, {"type": "text", "text": "{}"}, [{"type": "text", "text": 123}]):
+            with self.subTest(content=content):
+                response = {
+                    "id": "msg_malformed",
+                    "type": "message",
+                    "role": "assistant",
+                    "model": "claude-sonnet-4-6",
+                    "content": content,
+                    "stop_reason": "end_turn",
+                    "stop_sequence": None,
+                    "usage": {"input_tokens": 10, "output_tokens": 2},
+                }
+                self.assert_client_error(response, "no text")
 
     def test_rejects_invalid_json_in_the_text_block(self):
         response = {
