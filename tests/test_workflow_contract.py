@@ -31,7 +31,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertNotIn("pull_request:", text)
 
     def test_all_actions_are_pinned_to_full_commit_sha(self):
-        for name in ("test.yml", "daily-report.yml"):
+        for name in ("test.yml", "daily-report.yml", "pages.yml"):
             text = (ROOT / ".github" / "workflows" / name).read_text(encoding="utf-8")
             uses = re.findall(r"uses:\s*[^@\s]+@([^\s#]+)", text)
             self.assertTrue(uses)
@@ -41,6 +41,19 @@ class WorkflowContractTests(unittest.TestCase):
         text = (ROOT / ".github" / "workflows" / "daily-report.yml").read_text(encoding="utf-8")
         permission_lines = re.findall(r"^\s{6}([a-z-]+):\s+(read|write)$", text, flags=re.MULTILINE)
         self.assertEqual(permission_lines, [("contents", "write")])
+
+    def test_pages_workflow_uses_minimal_deployment_permissions(self):
+        path = ROOT / ".github" / "workflows" / "pages.yml"
+        self.assertTrue(path.exists(), "pages workflow is missing")
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("branches: [main]", text)
+        self.assertIn("contents: read", text)
+        self.assertIn("pages: write", text)
+        self.assertIn("id-token: write", text)
+        self.assertIn("actions/configure-pages", text)
+        self.assertIn("actions/upload-pages-artifact", text)
+        self.assertIn("actions/deploy-pages", text)
+        self.assertIn("name: github-pages", text)
 
 
 if __name__ == "__main__":
