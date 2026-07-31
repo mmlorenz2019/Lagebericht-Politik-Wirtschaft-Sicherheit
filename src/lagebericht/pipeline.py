@@ -52,6 +52,27 @@ def _attach_source_metadata(
     return enriched_events
 
 
+def _normalize_empty_categories(report: dict) -> None:
+    countries = report.get("countries", [])
+    if not isinstance(countries, list):
+        return
+    for country in countries:
+        if not isinstance(country, dict):
+            continue
+        categories = country.get("categories", [])
+        if not isinstance(categories, list):
+            continue
+        for category in categories:
+            if not isinstance(category, dict) or category.get("status") == "published":
+                continue
+            category["headlineDe"] = ""
+            category["summaryDe"] = []
+            category["additionalImportant"] = None
+            category["germanyRelevance"] = False
+            category["sourceBasis"] = "none"
+            category["sources"] = []
+
+
 EVENT_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
@@ -129,5 +150,6 @@ class DailyPipeline:
             self.summary_model, daily_instructions, daily_text, "daily_report", daily_schema
         )
         report["reportDate"] = report_date.isoformat()
+        _normalize_empty_categories(report)
         validate_daily_report(report, self.allowed_domains)
         return report

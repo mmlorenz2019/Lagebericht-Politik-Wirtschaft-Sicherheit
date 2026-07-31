@@ -77,6 +77,28 @@ class PipelineTests(unittest.TestCase):
         self.assertIn('"url": "https://www.npr.org/vote"', ai.input_texts[1])
         self.assertIn('"name": "NPR"', ai.input_texts[1])
 
+    def test_clears_story_content_from_empty_categories(self):
+        report = daily_report()
+        category = report["countries"][0]["categories"][0]
+        category["status"] = "no_major_development"
+        category["additionalImportant"] = "Weitere Einzelheit"
+        category["germanyRelevance"] = True
+        ai = QueueAI([{"events": []}, report])
+        pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
+
+        try:
+            result = pipeline.run(date(2026, 7, 31))
+        except ValueError as exc:
+            self.fail(f"empty category was not normalized: {exc}")
+
+        normalized = result["countries"][0]["categories"][0]
+        self.assertEqual(normalized["headlineDe"], "")
+        self.assertEqual(normalized["summaryDe"], [])
+        self.assertIsNone(normalized["additionalImportant"])
+        self.assertFalse(normalized["germanyRelevance"])
+        self.assertEqual(normalized["sourceBasis"], "none")
+        self.assertEqual(normalized["sources"], [])
+
     def test_fails_without_any_candidates(self):
         pipeline = DailyPipeline([SOURCE], FakeFetcher(fail=True), QueueAI([]), ALLOWED_DOMAINS)
         with self.assertRaisesRegex(PipelineError, "no source candidates"):
