@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/daily-report.schema.json",
+  "title": "Persönlicher Lagebericht – Tagesbericht",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "reportDate", "generatedAt", "status", "countries"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "reportDate": {"type": "string", "format": "date"},
+    "generatedAt": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["complete", "partial"]},
+    "countries": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/country"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "type", "titleOriginal", "url", "publishedAt"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1, "maxLength": 100},
+        "type": {"type": "string", "minLength": 1, "maxLength": 100},
+        "titleOriginal": {"type": "string", "minLength": 1, "maxLength": 300},
+        "url": {"type": "string", "format": "uri", "maxLength": 2048},
+        "publishedAt": {"type": "string", "format": "date-time"}
+      }
+    },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "status", "headlineDe", "summaryDe", "additionalImportant", "germanyRelevance", "sourceBasis", "limitations", "sources"],
+      "properties": {
+        "id": {"enum": ["politics_society", "economy_technology", "foreign_security"]},
+        "status": {"enum": ["published", "no_major_development", "unavailable"]},
+        "headlineDe": {"type": "string", "maxLength": 180},
+        "summaryDe": {"type": "array", "maxItems": 6, "items": {"type": "string", "minLength": 1, "maxLength": 500}},
+        "additionalImportant": {"type": ["string", "null"], "maxLength": 500},
+        "germanyRelevance": {"type": "boolean"},
+        "sourceBasis": {"enum": ["multiple", "single", "none"]},
+        "limitations": {"type": "array", "uniqueItems": true, "items": {"enum": ["paywall", "feed_only", "single_source", "source_disagreement", "technical_failure"]}},
+        "sources": {"type": "array", "maxItems": 8, "items": {"$ref": "#/$defs/source"}}
+      }
+    },
+    "country": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "categories"],
+      "properties": {
+        "id": {"enum": ["usa", "china", "montenegro"]},
+        "label": {"type": "string", "minLength": 1, "maxLength": 30},
+        "categories": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/category"}}
+      }
+    }
+  }
+}
+

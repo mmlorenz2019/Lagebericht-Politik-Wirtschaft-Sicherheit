@@ -1,0 +1,9 @@
+[project]
+name = "persoenlicher-lagebericht"
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "Statische PWA und sichere Nachrichtenpipeline für einen persönlichen Länderbericht"
+
+[tool.unittest]
+start-directory = "tests"
+

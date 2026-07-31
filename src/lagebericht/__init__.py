@@ -1,0 +1,2 @@
+"""Persönlicher Lagebericht."""
+
