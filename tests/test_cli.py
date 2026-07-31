@@ -23,6 +23,13 @@ class DailyCliTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("OPENAI_API_KEY", result.stderr)
 
+    def test_period_help_lists_week_and_month_modes(self):
+        env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}
+        result = subprocess.run([sys.executable, "scripts/run_period.py", "--help"], cwd=ROOT, env=env, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0)
+        self.assertIn("week", result.stdout)
+        self.assertIn("month", result.stdout)
+
 
 if __name__ == "__main__":
     unittest.main()
