@@ -74,11 +74,21 @@ def _source(source: dict, path: str, allowed_domains: set[str]) -> None:
         _fail(f"{path}.url", f"host {hostname!r} is not allowlisted")
 
 
-def _category(item: dict, path: str, allowed_domains: set[str]) -> None:
+def _rating(value, path: str) -> None:
+    _object(value, path, {"score", "reasonDe"}, {"score", "reasonDe"})
+    score = value["score"]
+    if isinstance(score, bool) or not isinstance(score, int) or not 0 <= score <= 3:
+        _fail(f"{path}.score", "must be an integer from 0 to 3")
+    _string(value["reasonDe"], f"{path}.reasonDe", 300)
+
+
+def _category(item: dict, path: str, allowed_domains: set[str], schema_version: int) -> None:
     allowed = {
         "id", "status", "headlineDe", "summaryDe", "additionalImportant",
         "germanyRelevance", "sourceBasis", "limitations", "sources",
     }
+    if schema_version == 2:
+        allowed.add("overallSignificance")
     _object(item, path, allowed, allowed)
     if item["id"] not in CATEGORY_IDS:
         _fail(f"{path}.id", "unknown category")
@@ -91,8 +101,14 @@ def _category(item: dict, path: str, allowed_domains: set[str]) -> None:
         _string(sentence, f"{path}.summaryDe[{index}]", 500)
     if item["additionalImportant"] is not None:
         _string(item["additionalImportant"], f"{path}.additionalImportant", 500)
-    if not isinstance(item["germanyRelevance"], bool):
-        _fail(f"{path}.germanyRelevance", "must be boolean")
+    if schema_version == 1:
+        if not isinstance(item["germanyRelevance"], bool):
+            _fail(f"{path}.germanyRelevance", "must be boolean")
+    elif item["status"] == "published":
+        _rating(item["germanyRelevance"], f"{path}.germanyRelevance")
+        _rating(item["overallSignificance"], f"{path}.overallSignificance")
+    elif item["germanyRelevance"] is not None or item["overallSignificance"] is not None:
+        _fail(path, "ratings must be null for an empty category status")
     if item["sourceBasis"] not in SOURCE_BASIS:
         _fail(f"{path}.sourceBasis", "unknown source basis")
     if not isinstance(item["limitations"], list) or any(x not in LIMITATIONS for x in item["limitations"]):
@@ -111,8 +127,9 @@ def _category(item: dict, path: str, allowed_domains: set[str]) -> None:
 def validate_daily_report(report: dict, allowed_domains: set[str]) -> None:
     top = {"schemaVersion", "reportDate", "generatedAt", "status", "countries"}
     _object(report, "report", top, top)
-    if report["schemaVersion"] != 1:
-        _fail("schemaVersion", "must be 1")
+    schema_version = report["schemaVersion"]
+    if schema_version not in {1, 2} or isinstance(schema_version, bool):
+        _fail("schemaVersion", "must be 1 or 2")
     _iso_date(report["reportDate"], "reportDate")
     _iso_datetime(report["generatedAt"], "generatedAt")
     if report["status"] not in REPORT_STATUS:
@@ -130,7 +147,7 @@ def validate_daily_report(report: dict, allowed_domains: set[str]) -> None:
         if not isinstance(country["categories"], list) or len(country["categories"]) != 3:
             _fail(f"{path}.categories", "must contain exactly three categories")
         for category_index, item in enumerate(country["categories"]):
-            _category(item, f"{path}.categories[{category_index}]", allowed_domains)
+            _category(item, f"{path}.categories[{category_index}]", allowed_domains, schema_version)
         if set(x["id"] for x in country["categories"]) != set(CATEGORY_IDS):
             _fail(f"{path}.categories", "must contain every category exactly once")
     if set(seen) != set(COUNTRIES) or len(set(seen)) != 3:
@@ -143,8 +160,9 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
         "status", "overallSummary", "countries", "sourceReportDates", "missingReportDates",
     }
     _object(report, "report", top, top)
-    if report["schemaVersion"] != 1:
-        _fail("schemaVersion", "must be 1")
+    schema_version = report["schemaVersion"]
+    if schema_version not in {1, 2} or isinstance(schema_version, bool):
+        _fail("schemaVersion", "must be 1 or 2")
     if report["periodType"] not in {"week", "month"}:
         _fail("periodType", "must be week or month")
     start = date.fromisoformat(_iso_date(report["periodStart"], "periodStart"))
@@ -171,7 +189,7 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
         if not isinstance(country["sections"], list) or not (1 <= len(country["sections"]) <= 3):
             _fail(f"{path}.sections", "must contain 1-3 sections")
         for section_index, section in enumerate(country["sections"]):
-            _category(section, f"{path}.sections[{section_index}]", allowed_domains)
+            _category(section, f"{path}.sections[{section_index}]", allowed_domains, schema_version)
     if set(seen) != set(COUNTRIES) or len(set(seen)) != 3:
         _fail("countries", "must contain every country exactly once")
     for field in ("sourceReportDates", "missingReportDates"):

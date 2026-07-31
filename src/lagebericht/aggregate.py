@@ -9,17 +9,28 @@ from .prompts import build_period_prompt
 from .schema import validate_daily_report, validate_period_report
 
 
+RATING_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["score", "reasonDe"],
+    "properties": {
+        "score": {"type": "integer", "minimum": 0, "maximum": 3},
+        "reasonDe": {"type": "string", "minLength": 1, "maxLength": 300},
+    },
+}
+
 SECTION_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
-    "required": ["id", "status", "headlineDe", "summaryDe", "additionalImportant", "germanyRelevance", "sourceBasis", "limitations", "sources"],
+    "required": ["id", "status", "headlineDe", "summaryDe", "additionalImportant", "germanyRelevance", "overallSignificance", "sourceBasis", "limitations", "sources"],
     "properties": {
         "id": {"enum": ["politics_society", "economy_technology", "foreign_security"]},
         "status": {"enum": ["published", "no_major_development", "unavailable"]},
         "headlineDe": {"type": "string", "maxLength": 180},
         "summaryDe": {"type": "array", "maxItems": 6, "items": {"type": "string", "maxLength": 500}},
         "additionalImportant": {"type": ["string", "null"], "maxLength": 500},
-        "germanyRelevance": {"type": "boolean"},
+        "germanyRelevance": {"anyOf": [RATING_SCHEMA, {"type": "null"}]},
+        "overallSignificance": {"anyOf": [RATING_SCHEMA, {"type": "null"}]},
         "sourceBasis": {"enum": ["multiple", "single", "none"]},
         "limitations": {"type": "array", "items": {"enum": ["paywall", "feed_only", "single_source", "source_disagreement", "technical_failure"]}},
         "sources": {
@@ -91,7 +102,7 @@ class PeriodAggregator:
         instructions, input_text = build_period_prompt(reports, period_type)
         content = self.ai_client.generate_json(self.model, instructions, input_text, "period_content", PERIOD_CONTENT_SCHEMA)
         report = {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "periodType": period_type,
             "periodStart": start.isoformat(),
             "periodEnd": end.isoformat(),

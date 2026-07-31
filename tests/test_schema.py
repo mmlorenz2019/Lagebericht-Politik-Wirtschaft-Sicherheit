@@ -29,6 +29,10 @@ ALLOWED_DOMAINS = {
 }
 
 
+def rating(score=1, reason="Die mögliche Bedeutung ist derzeit begrenzt."):
+    return {"score": score, "reasonDe": reason}
+
+
 def category(category_id="politics_society"):
     return {
         "id": category_id,
@@ -41,7 +45,8 @@ def category(category_id="politics_society"):
             "Der vierte Satz nennt den aktuellen Stand.",
         ],
         "additionalImportant": None,
-        "germanyRelevance": False,
+        "germanyRelevance": rating(1, "Indirekte Folgen für Deutschland sind möglich."),
+        "overallSignificance": rating(2, "Die Entwicklung betrifft einen größeren politischen Bereich."),
         "sourceBasis": "single",
         "limitations": ["single_source"],
         "sources": [
@@ -58,7 +63,7 @@ def category(category_id="politics_society"):
 
 def daily_report():
     return {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "reportDate": "2026-07-31",
         "generatedAt": "2026-07-31T04:31:00Z",
         "status": "partial",
@@ -68,8 +73,8 @@ def daily_report():
                 "label": "USA",
                 "categories": [
                     category("politics_society"),
-                    {**category("economy_technology"), "status": "no_major_development", "headlineDe": "", "summaryDe": [], "sourceBasis": "none", "limitations": [], "sources": []},
-                    {**category("foreign_security"), "status": "unavailable", "headlineDe": "", "summaryDe": [], "sourceBasis": "none", "limitations": ["technical_failure"], "sources": []},
+                    {**category("economy_technology"), "status": "no_major_development", "headlineDe": "", "summaryDe": [], "germanyRelevance": None, "overallSignificance": None, "sourceBasis": "none", "limitations": [], "sources": []},
+                    {**category("foreign_security"), "status": "unavailable", "headlineDe": "", "summaryDe": [], "germanyRelevance": None, "overallSignificance": None, "sourceBasis": "none", "limitations": ["technical_failure"], "sources": []},
                 ],
             },
             {"id": "china", "label": "China", "categories": [category("politics_society"), category("economy_technology"), category("foreign_security")]},
@@ -78,9 +83,49 @@ def daily_report():
     }
 
 
+def legacy_daily_report():
+    report = daily_report()
+    report["schemaVersion"] = 1
+    for country in report["countries"]:
+        for item in country["categories"]:
+            item["germanyRelevance"] = item["germanyRelevance"] is not None
+            item.pop("overallSignificance")
+    return report
+
+
 class DailyReportValidationTests(unittest.TestCase):
     def test_accepts_valid_daily_report(self):
         validate_daily_report(daily_report(), ALLOWED_DOMAINS)
+
+    def test_accepts_legacy_version_one_daily_report(self):
+        validate_daily_report(legacy_daily_report(), ALLOWED_DOMAINS)
+
+    def test_accepts_rating_boundary_scores(self):
+        report = daily_report()
+        item = report["countries"][0]["categories"][0]
+        item["germanyRelevance"] = rating(0, "Kein erkennbarer Bezug zu Deutschland.")
+        item["overallSignificance"] = rating(3, "Die Entwicklung kann internationale Systeme verändern.")
+        validate_daily_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_rating_scores_outside_zero_to_three_and_booleans(self):
+        for value in (-1, 4, True):
+            with self.subTest(value=value):
+                report = daily_report()
+                report["countries"][0]["categories"][0]["germanyRelevance"]["score"] = value
+                with self.assertRaisesRegex(ReportValidationError, "germanyRelevance.score"):
+                    validate_daily_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_empty_rating_reason(self):
+        report = daily_report()
+        report["countries"][0]["categories"][0]["overallSignificance"]["reasonDe"] = ""
+        with self.assertRaisesRegex(ReportValidationError, "overallSignificance.reasonDe"):
+            validate_daily_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_ratings_on_empty_categories(self):
+        report = daily_report()
+        report["countries"][0]["categories"][1]["germanyRelevance"] = rating()
+        with self.assertRaisesRegex(ReportValidationError, "must be null"):
+            validate_daily_report(report, ALLOWED_DOMAINS)
 
     def test_rejects_unknown_country(self):
         report = daily_report()
@@ -116,7 +161,7 @@ class DailyReportValidationTests(unittest.TestCase):
 class PeriodReportValidationTests(unittest.TestCase):
     def valid_period(self):
         return {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "periodType": "week",
             "periodStart": "2026-07-27",
             "periodEnd": "2026-08-02",

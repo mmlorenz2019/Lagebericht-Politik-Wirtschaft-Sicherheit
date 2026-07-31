@@ -68,7 +68,8 @@ def _normalize_empty_categories(report: dict) -> None:
             category["headlineDe"] = ""
             category["summaryDe"] = []
             category["additionalImportant"] = None
-            category["germanyRelevance"] = False
+            category["germanyRelevance"] = None
+            category["overallSignificance"] = None
             category["sourceBasis"] = "none"
             category["sources"] = []
 

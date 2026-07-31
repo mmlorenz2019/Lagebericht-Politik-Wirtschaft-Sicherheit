@@ -82,7 +82,8 @@ class PipelineTests(unittest.TestCase):
         category = report["countries"][0]["categories"][0]
         category["status"] = "no_major_development"
         category["additionalImportant"] = "Weitere Einzelheit"
-        category["germanyRelevance"] = True
+        category["germanyRelevance"] = {"score": 3, "reasonDe": "Diese Angabe muss entfernt werden."}
+        category["overallSignificance"] = {"score": 3, "reasonDe": "Diese Angabe muss entfernt werden."}
         ai = QueueAI([{"events": []}, report])
         pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
 
@@ -95,7 +96,8 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(normalized["headlineDe"], "")
         self.assertEqual(normalized["summaryDe"], [])
         self.assertIsNone(normalized["additionalImportant"])
-        self.assertFalse(normalized["germanyRelevance"])
+        self.assertIsNone(normalized["germanyRelevance"])
+        self.assertIsNone(normalized["overallSignificance"])
         self.assertEqual(normalized["sourceBasis"], "none")
         self.assertEqual(normalized["sources"], [])
 

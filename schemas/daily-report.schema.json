@@ -6,13 +6,22 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "reportDate", "generatedAt", "status", "countries"],
   "properties": {
-    "schemaVersion": {"const": 1},
+    "schemaVersion": {"const": 2},
     "reportDate": {"type": "string", "format": "date"},
     "generatedAt": {"type": "string", "format": "date-time"},
     "status": {"enum": ["complete", "partial"]},
     "countries": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/country"}}
   },
   "$defs": {
+    "rating": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "reasonDe"],
+      "properties": {
+        "score": {"type": "integer", "minimum": 0, "maximum": 3},
+        "reasonDe": {"type": "string", "minLength": 1, "maxLength": 300}
+      }
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,
@@ -28,14 +37,15 @@
     "category": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "status", "headlineDe", "summaryDe", "additionalImportant", "germanyRelevance", "sourceBasis", "limitations", "sources"],
+      "required": ["id", "status", "headlineDe", "summaryDe", "additionalImportant", "germanyRelevance", "overallSignificance", "sourceBasis", "limitations", "sources"],
       "properties": {
         "id": {"enum": ["politics_society", "economy_technology", "foreign_security"]},
         "status": {"enum": ["published", "no_major_development", "unavailable"]},
         "headlineDe": {"type": "string", "maxLength": 180},
         "summaryDe": {"type": "array", "maxItems": 6, "items": {"type": "string", "minLength": 1, "maxLength": 500}},
         "additionalImportant": {"type": ["string", "null"], "maxLength": 500},
-        "germanyRelevance": {"type": "boolean"},
+        "germanyRelevance": {"anyOf": [{"$ref": "#/$defs/rating"}, {"type": "null"}]},
+        "overallSignificance": {"anyOf": [{"$ref": "#/$defs/rating"}, {"type": "null"}]},
         "sourceBasis": {"enum": ["multiple", "single", "none"]},
         "limitations": {"type": "array", "uniqueItems": true, "items": {"enum": ["paywall", "feed_only", "single_source", "source_disagreement", "technical_failure"]}},
         "sources": {"type": "array", "maxItems": 8, "items": {"$ref": "#/$defs/source"}}
@@ -53,4 +63,3 @@
     }
   }
 }
-
