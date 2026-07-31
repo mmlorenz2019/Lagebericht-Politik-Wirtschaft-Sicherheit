@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "id": "npr-news", "name": "NPR", "country": "usa",
+      "categories": ["politics_society", "foreign_security"],
+      "feedUrl": "https://feeds.npr.org/1001/rss.xml",
+      "allowedDomains": ["feeds.npr.org", "www.npr.org", "npr.org"],
+      "type": "öffentlich-rechtlich", "language": "en", "retrieval": "rss", "paywall": false, "maxCandidates": 15
+    },
+    {
+      "id": "nyt-home", "name": "The New York Times", "country": "usa",
+      "categories": ["politics_society", "foreign_security"],
+      "feedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "allowedDomains": ["rss.nytimes.com", "www.nytimes.com", "nytimes.com"],
+      "type": "überregional", "language": "en", "retrieval": "feed_only", "paywall": true, "maxCandidates": 12
+    },
+    {
+      "id": "cnbc", "name": "CNBC", "country": "usa",
+      "categories": ["economy_technology"],
+      "feedUrl": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "allowedDomains": ["www.cnbc.com", "cnbc.com"],
+      "type": "Wirtschaftsmedium", "language": "en", "retrieval": "rss", "paywall": false, "maxCandidates": 15
+    },
+    {
+      "id": "pbs", "name": "PBS NewsHour", "country": "usa",
+      "categories": ["politics_society", "foreign_security"],
+      "feedUrl": "https://www.pbs.org/newshour/feeds/rss/headlines",
+      "allowedDomains": ["www.pbs.org", "pbs.org"],
+      "type": "öffentlich", "language": "en", "retrieval": "rss", "paywall": false, "maxCandidates": 10
+    },
+    {
+      "id": "scmp-china", "name": "South China Morning Post", "country": "china",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://www.scmp.com/rss/4/feed",
+      "allowedDomains": ["www.scmp.com", "scmp.com"],
+      "type": "Hongkong-/Regionalperspektive", "language": "en", "retrieval": "feed_only", "paywall": true, "maxCandidates": 18
+    },
+    {
+      "id": "caixin", "name": "Caixin Global", "country": "china",
+      "categories": ["economy_technology"],
+      "feedUrl": "https://www.caixinglobal.com/",
+      "allowedDomains": ["www.caixinglobal.com", "caixinglobal.com"],
+      "type": "wirtschaftsorientiert", "language": "en", "retrieval": "html", "paywall": true, "maxCandidates": 8
+    },
+    {
+      "id": "china-daily", "name": "China Daily", "country": "china",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://www.chinadaily.com.cn/",
+      "allowedDomains": ["www.chinadaily.com.cn", "chinadaily.com.cn"],
+      "type": "staatliche Perspektive", "language": "en", "retrieval": "html", "paywall": false, "maxCandidates": 10
+    },
+    {
+      "id": "vijesti", "name": "Vijesti", "country": "montenegro",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://www.vijesti.me/rss",
+      "allowedDomains": ["www.vijesti.me", "vijesti.me"],
+      "type": "unabhängige Tagesnachrichten", "language": "cnr", "retrieval": "rss", "paywall": false, "maxCandidates": 18
+    },
+    {
+      "id": "pobjeda", "name": "Pobjeda", "country": "montenegro",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://rss.pobjeda.me/",
+      "allowedDomains": ["rss.pobjeda.me", "www.pobjeda.me", "pobjeda.me"],
+      "type": "montenegrinische Tageszeitung", "language": "cnr", "retrieval": "rss", "paywall": false, "maxCandidates": 18
+    }
+  ]
+}

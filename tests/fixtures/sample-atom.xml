@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Test Atom</title>
+  <entry><title>Economic update</title><link href="https://www.cnbc.com/example"/><updated>2026-07-31T04:15:00Z</updated><summary>Markets moved.</summary></entry>
+</feed>
+
