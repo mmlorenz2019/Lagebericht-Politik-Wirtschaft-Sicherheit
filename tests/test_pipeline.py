@@ -30,9 +30,11 @@ class QueueAI:
     def __init__(self, values):
         self.values = list(values)
         self.models = []
+        self.input_texts = []
 
     def generate_json(self, model, instructions, input_text, schema_name, schema):
         self.models.append(model)
+        self.input_texts.append(input_text)
         return self.values.pop(0)
 
 
@@ -57,6 +59,23 @@ class PipelineTests(unittest.TestCase):
             self.fail(f"requested report date was rejected: {exc}")
 
         self.assertEqual(result["reportDate"], "2026-07-31")
+
+    def test_passes_original_source_metadata_to_summary_model(self):
+        event = {
+            "id": "event-1",
+            "country": "usa",
+            "category": "politics_society",
+            "summary": "A decision was announced.",
+            "candidateIndexes": [0],
+            "contradictions": False,
+        }
+        ai = QueueAI([{"events": [event]}, daily_report()])
+        pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
+
+        pipeline.run(date(2026, 7, 31))
+
+        self.assertIn('"url": "https://www.npr.org/vote"', ai.input_texts[1])
+        self.assertIn('"name": "NPR"', ai.input_texts[1])
 
     def test_fails_without_any_candidates(self):
         pipeline = DailyPipeline([SOURCE], FakeFetcher(fail=True), QueueAI([]), ALLOWED_DOMAINS)

@@ -16,6 +16,7 @@ class PromptTests(unittest.TestCase):
     def test_daily_prompt_clearly_separates_events_and_archive(self):
         instructions, input_text = build_daily_prompt([{"event": "A"}], [{"reportDate": "2026-07-30"}])
         self.assertIn("Deutsch", instructions)
+        self.assertIn("sourceCandidates", instructions)
         self.assertIn("<untrusted_events>", input_text)
         self.assertIn("<trusted_previous_reports>", input_text)
 

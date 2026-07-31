@@ -16,6 +16,42 @@ class PipelineError(RuntimeError):
     """Raised when no safe report can be produced."""
 
 
+def _attach_source_metadata(
+    events: list[dict], candidates: list[dict], sources: list[SourceConfig]
+) -> list[dict]:
+    source_by_id = {source.id: source for source in sources}
+    enriched_events = []
+    for event in events:
+        enriched = dict(event)
+        source_candidates = []
+        seen_indexes = set()
+        indexes = event.get("candidateIndexes", [])
+        if isinstance(indexes, list):
+            for index in indexes:
+                if (
+                    not isinstance(index, int)
+                    or isinstance(index, bool)
+                    or index in seen_indexes
+                    or not 0 <= index < len(candidates)
+                ):
+                    continue
+                seen_indexes.add(index)
+                candidate = candidates[index]
+                source = source_by_id.get(candidate.get("sourceId"))
+                if source is None:
+                    continue
+                source_candidates.append({
+                    "name": source.name,
+                    "type": source.type,
+                    "titleOriginal": candidate.get("title"),
+                    "url": candidate.get("url"),
+                    "publishedAt": candidate.get("publishedAt"),
+                })
+        enriched["sourceCandidates"] = source_candidates
+        enriched_events.append(enriched)
+    return enriched_events
+
+
 EVENT_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
@@ -81,7 +117,10 @@ class DailyPipeline:
         event_result = self.ai_client.generate_json(
             self.extraction_model, extract_instructions, extract_text, "news_events", EVENT_SCHEMA
         )
-        daily_instructions, daily_text = build_daily_prompt(event_result.get("events", []), [])
+        enriched_events = _attach_source_metadata(
+            event_result.get("events", []), event_input, self.sources
+        )
+        daily_instructions, daily_text = build_daily_prompt(enriched_events, [])
         try:
             daily_schema = json.loads(self.daily_schema_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as exc:
