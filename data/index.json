@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
   "latestDaily": "2026-07-31",
-  "daily": [{"date": "2026-07-31", "path": "data/daily/2026-07-31.json"}],
-  "weekly": [{"period": "2026-W31", "path": "data/weekly/2026-W31.json"}],
-  "monthly": [{"period": "2026-07", "path": "data/monthly/2026-07.json"}]
+  "daily": [
+    {
+      "date": "2026-07-31",
+      "path": "data/daily/2026-07-31.json"
+    }
+  ],
+  "weekly": [
+    {
+      "period": "2026-W31",
+      "path": "data/weekly/2026-W31.json"
+    }
+  ],
+  "monthly": [
+    {
+      "period": "2026-07",
+      "path": "data/monthly/2026-07.json"
+    }
+  ]
 }
-
