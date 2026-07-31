@@ -28,7 +28,12 @@ class FrontendContractTests(unittest.TestCase):
         self.assertIn('data-archive-type="daily"', html)
         self.assertIn('data-archive-type="weekly"', html)
         self.assertIn('data-archive-type="monthly"', html)
+        self.assertNotIn("Beispieldaten", html)
         self.assertIn("serviceWorker.register", (ROOT / "assets" / "app.js").read_text(encoding="utf-8"))
+
+    def test_empty_categories_do_not_claim_multiple_verification(self):
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("Keine Hauptmeldung", app)
 
     def test_country_symbols_do_not_depend_on_emoji_flag_fonts(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")

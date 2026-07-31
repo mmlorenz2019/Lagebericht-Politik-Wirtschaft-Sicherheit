@@ -96,7 +96,12 @@ function renderStory(item) {
   article.append(node('div', icon, 'story-icon'));
   const top = node('div', null, 'story-top');
   top.append(node('p', label, 'eyebrow'));
-  const badgeText = limitations(item).join(' · ') || (item.germanyRelevance ? 'Deutschland-Bezug' : 'Mehrfach geprüft');
+  const limitationText = limitations(item).join(' · ');
+  const badgeText = item.status === 'no_major_development'
+    ? limitationText || 'Keine Hauptmeldung'
+    : item.status === 'unavailable'
+      ? limitationText || 'Technisch unvollständig'
+      : limitationText || (item.germanyRelevance ? 'Deutschland-Bezug' : 'Mehrfach geprüft');
   top.append(node('span', badgeText, 'badge'));
   article.append(top);
   if (item.status === 'no_major_development') {
@@ -185,4 +190,3 @@ elements.select.addEventListener('change', loadSelectedReport);
 
 if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js'));
 start();
-
