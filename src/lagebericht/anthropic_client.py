@@ -66,7 +66,7 @@ class AnthropicMessagesClient:
         api_key: str,
         *,
         transport: Callable | None = None,
-        timeout_seconds: float = 60.0,
+        timeout_seconds: float = 180.0,
         max_tokens: int = 8192,
     ):
         if not api_key or not api_key.strip():

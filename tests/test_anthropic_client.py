@@ -98,7 +98,7 @@ class AnthropicClientTests(unittest.TestCase):
                 "format": {"type": "json_schema", "schema": {"type": "object"}}
             },
         })
-        self.assertEqual(timeout, 60.0)
+        self.assertEqual(timeout, 180.0)
 
     def test_removes_unsupported_schema_constraints_without_mutating_original(self):
         client_class = load_client_class()
@@ -158,7 +158,7 @@ class AnthropicClientTests(unittest.TestCase):
         self.assertEqual(result, {"ok": True})
         request = opener.call_args.args[0]
         self.assertEqual(request.full_url, "https://api.anthropic.com/v1/messages")
-        self.assertEqual(opener.call_args.kwargs["timeout"], 60.0)
+        self.assertEqual(opener.call_args.kwargs["timeout"], 180.0)
 
     def test_rejects_an_http_response_larger_than_two_megabytes(self):
         client_class = load_client_class()
