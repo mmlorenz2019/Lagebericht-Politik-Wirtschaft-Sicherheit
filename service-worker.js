@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'lagebericht-shell-v2';
+const SHELL_CACHE = 'lagebericht-shell-v3';
 const DATA_CACHE = 'lagebericht-data-v1';
 const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/app.js', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
 
