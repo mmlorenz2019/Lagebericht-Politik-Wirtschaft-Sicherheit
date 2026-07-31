@@ -22,9 +22,12 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("python -m unittest discover -s tests -v", text)
         self.assertIn("pull_request:", text)
 
-    def test_daily_workflow_uses_secret_and_two_dst_crons(self):
+    def test_daily_workflow_uses_anthropic_secret_models_and_two_dst_crons(self):
         text = (ROOT / ".github" / "workflows" / "daily-report.yml").read_text(encoding="utf-8")
-        self.assertIn("secrets.OPENAI_API_KEY", text)
+        self.assertIn("secrets.ANTHROPIC_API_KEY", text)
+        self.assertIn("ANTHROPIC_EXTRACTION_MODEL: claude-haiku-4-5-20251001", text)
+        self.assertIn("ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6", text)
+        self.assertNotIn("OPENAI_", text)
         self.assertIn("30 4 * * *", text)
         self.assertIn("30 5 * * *", text)
         self.assertIn("Europe/Berlin", text)

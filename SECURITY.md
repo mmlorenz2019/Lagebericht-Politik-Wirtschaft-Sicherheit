@@ -6,7 +6,7 @@ Bis zum öffentlichen Go-live gilt ausschließlich der aktuelle Stand des Standa
 
 ## Schutzmaßnahmen
 
-- Der OpenAI-Schlüssel existiert nur als GitHub Actions Secret.
+- Der Anthropic-Schlüssel existiert nur als GitHub Actions Secret.
 - Das Frontend führt keine KI-Aufrufe aus und enthält keine persönlichen Daten.
 - Quellen und Weiterleitungen sind auf feste HTTPS-Domains beschränkt.
 - Abrufe besitzen Größen-, Zeit- und Redirect-Limits und blockieren private Netzwerkziele.
@@ -18,9 +18,8 @@ Bis zum öffentlichen Go-live gilt ausschließlich der aktuelle Stand des Standa
 
 ## Secrets und Logs
 
-Niemals API-Schlüssel in Dateien, Issues, Screenshots, Workflow-Ausgaben oder Beispieldaten einfügen. Bei einem vermuteten Schlüsselabfluss den Schlüssel sofort im OpenAI-Projekt sperren und durch einen neuen projektbezogenen Schlüssel ersetzen.
+Niemals API-Schlüssel in Dateien, Issues, Screenshots, Workflow-Ausgaben oder Beispieldaten einfügen. Bei einem vermuteten Schlüsselabfluss den Schlüssel sofort in der Anthropic Console sperren und durch einen neuen projektbezogenen Schlüssel ersetzen.
 
 ## Sicherheitsprobleme
 
 Vor einem öffentlichen Repository eine private GitHub-Sicherheitsmeldung aktivieren. Bis dahin Probleme nicht öffentlich dokumentieren, sondern lokal festhalten und vor dem Push beheben.
-

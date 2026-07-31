@@ -18,21 +18,21 @@ Danach `http://localhost:8000` öffnen. Die mitgelieferten Berichte sind klar ge
 
 ## Lokaler KI-Testlauf
 
-Vor dem ersten echten Lauf im OpenAI-Projekt ein monatliches Kostenlimit setzen. Der Schlüssel darf nur als Umgebungsvariable verwendet werden:
+Vor dem ersten echten Lauf in der Anthropic Console ein monatliches Kostenlimit setzen. Der Schlüssel darf nur als Umgebungsvariable verwendet werden:
 
 ```powershell
-$env:OPENAI_API_KEY='...'
+$env:ANTHROPIC_API_KEY='...'
 $env:PYTHONPATH='src'
 python scripts/run_daily.py --date 2026-07-31 --dry-run
 ```
 
-Standardmodelle sind `gpt-5.6-luna` für Extraktion und `gpt-5.6-terra` für Auswahl, Formulierung und Rückblicke. Sie können über `OPENAI_EXTRACTION_MODEL` und `OPENAI_SUMMARY_MODEL` überschrieben werden. Die Responses API wird mit strukturierten JSON-Ausgaben, `store: false` und ohne Werkzeuge aufgerufen.
+Standardmodelle sind `claude-haiku-4-5-20251001` für Extraktion und `claude-sonnet-4-6` für Auswahl, Formulierung und Rückblicke. Sie können über `ANTHROPIC_EXTRACTION_MODEL` und `ANTHROPIC_SUMMARY_MODEL` überschrieben werden. Die Anthropic Messages API wird direkt mit strukturierten JSON-Ausgaben über `output_config.format` und ohne Werkzeuge aufgerufen. Modellantworten werden zusätzlich lokal gegen die vollständigen Berichtsregeln geprüft.
 
 ## GitHub-Einrichtung
 
 1. Leeres Repository anlegen und dieses lokale Repository dorthin pushen.
-2. Im OpenAI-Projekt ein Ausgabenlimit setzen und einen eigenen Schlüssel nur für diese App erzeugen.
-3. Unter **Settings → Secrets and variables → Actions** das Secret `OPENAI_API_KEY` hinterlegen.
+2. In der Anthropic Console ein Ausgabenlimit setzen und einen eigenen Projektschlüssel nur für diese App erzeugen.
+3. Unter **Settings → Secrets and variables → Actions** ausschließlich das Secret `ANTHROPIC_API_KEY` hinterlegen. Den Schlüssel niemals in den Chat oder in Repository-Dateien kopieren.
 4. Unter **Settings → Pages** die Veröffentlichung aus dem Standardbranch und dem Stammverzeichnis aktivieren.
 5. Den Workflow **Täglicher Lagebericht** einmal manuell starten und die erzeugten Daten prüfen.
 

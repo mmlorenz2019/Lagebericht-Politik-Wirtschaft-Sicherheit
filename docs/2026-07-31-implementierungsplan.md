@@ -1,5 +1,7 @@
 # Persönlicher Lagebericht – Implementierungsplan
 
+> **Historischer Stand:** Dieser ursprüngliche Plan beschreibt die erste OpenAI-Implementierung. Die produktive Migration auf Anthropic ist in `docs/superpowers/specs/2026-07-31-anthropic-migration-design.md` und `docs/superpowers/plans/2026-07-31-anthropic-migration.md` festgelegt.
+
 > **Für agentische Bearbeitung:** Die Aufgaben werden testgetrieben und in der angegebenen Reihenfolge umgesetzt. Jeder Schritt verwendet Checkboxen zur Fortschrittskontrolle.
 
 **Ziel:** Eine lokal vollständig testbare, installierbare PWA mit sicherer Nachrichtenpipeline, Tagesarchiv sowie automatischen Wochen- und Monatsberichten für USA, China und Montenegro erstellen.

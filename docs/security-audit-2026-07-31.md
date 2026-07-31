@@ -12,7 +12,7 @@ Die veröffentlichte App hat keine kritischen oder hohen Befunde. Der Live-Test 
 
 ## Geprüfte Schutzmaßnahmen
 
-- Der OpenAI-Schlüssel wird ausschließlich als GitHub-Actions-Secret erwartet und nie an den Browser ausgeliefert.
+- Der Anthropic-Schlüssel wird ausschließlich als GitHub-Actions-Secret erwartet und nie an den Browser ausgeliefert.
 - Die statische Oberfläche verwendet keine externen JavaScript-, CSS-, Schrift- oder Analyse-Dienste.
 - Die Content Security Policy in `index.html:9` sperrt Fremdinhalte, Plugins, Formulare und fremde Verbindungen.
 - Es gibt keine Verwendung von `innerHTML`, `document.write`, `eval`, Local Storage oder Session Storage.
@@ -35,9 +35,9 @@ Die veröffentlichte App hat keine kritischen oder hohen Befunde. Der Live-Test 
 
 **Stelle:** `.github/workflows/daily-report.yml:16` und `.github/workflows/daily-report.yml:39`
 
-**Problem:** Pages-Deployment und Tests wurden im öffentlichen Repository erfolgreich ausgeführt. Der Tagesworkflow braucht `contents: write`, um neue Berichte zu speichern; das persönliche OpenAI-Secret ist noch nicht eingerichtet und der produktive Lauf daher noch nicht geprüft.
+**Problem:** Pages-Deployment und Tests wurden im öffentlichen Repository erfolgreich ausgeführt. Der Tagesworkflow braucht `contents: write`, um neue Berichte zu speichern; das persönliche Anthropic-Secret ist noch nicht eingerichtet und der produktive Lauf daher noch nicht geprüft.
 
-**Behebung:** Beim Go-live nur das Secret `OPENAI_API_KEY` anlegen, Actions auf erlaubte Workflows begrenzen und den ersten Lauf beaufsichtigen. Optional kann später Erzeugung und Veröffentlichung in getrennte Jobs mit engeren Rechten aufgeteilt werden.
+**Behebung:** Beim Go-live nur das Secret `ANTHROPIC_API_KEY` anlegen, Actions auf erlaubte Workflows begrenzen und den ersten Lauf beaufsichtigen. Optional kann später Erzeugung und Veröffentlichung in getrennte Jobs mit engeren Rechten aufgeteilt werden.
 
 ### 3. Zwei China-Quellen noch ohne robusten HTML-Adapter
 

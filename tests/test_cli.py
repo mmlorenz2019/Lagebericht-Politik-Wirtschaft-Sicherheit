@@ -19,7 +19,6 @@ class DailyCliTests(unittest.TestCase):
     def test_missing_api_key_fails_without_publishing(self):
         env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}
         env.pop("ANTHROPIC_API_KEY", None)
-        env.pop("OPENAI_API_KEY", None)
         result = subprocess.run([sys.executable, "scripts/run_daily.py", "--date", "2026-07-31"], cwd=ROOT, env=env, capture_output=True, text=True)
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("ANTHROPIC_API_KEY", result.stderr)
