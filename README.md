@@ -2,6 +2,8 @@
 
 Installierbare, statische PWA für einen täglichen Überblick über USA, China und Montenegro. Die Seite enthält keine Anmeldung, keine Analytics und keine Secrets. Eine getrennte GitHub Action ruft fest konfigurierte Quellen ab, erzeugt validierte Tagesberichte und verdichtet sie sonntags beziehungsweise am Monatsende.
 
+**Web-App:** https://mmlorenz2019.github.io/Lagebericht-Politik-Wirtschaft-Sicherheit/
+
 ## Lokaler Test
 
 Voraussetzung ist Python 3.12 oder neuer. Zusätzliche Python-Pakete sind nicht erforderlich.
