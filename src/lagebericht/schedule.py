@@ -6,6 +6,12 @@ from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 
+from .config import all_allowed_domains, load_sources
+from .schema import ReportValidationError, validate_period_report
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
 
 def _last_sunday(year: int, month: int) -> date:
     final = date(year, month, calendar.monthrange(year, month)[1])
@@ -45,20 +51,38 @@ def period_artifact_complete(path: Path, expected_end: date, data_root: Path) ->
     except (OSError, UnicodeError, json.JSONDecodeError):
         return False
 
+    try:
+        domains = all_allowed_domains(load_sources(PROJECT_ROOT / "config" / "sources.json"))
+        validate_period_report(report, domains)
+    except (OSError, UnicodeError, ValueError, ReportValidationError):
+        return False
+
     expected = expected_end.isoformat()
     sources = report.get("sourceReportDates")
     missing = report.get("missingReportDates")
     if report.get("periodEnd") != expected or not isinstance(sources, list) or not sources:
         return False
-    if len(sources) != len(set(sources)) or not isinstance(missing, list):
+    if not isinstance(missing, list):
+        return False
+    if any(not isinstance(value, str) for value in [*sources, *missing]):
+        return False
+    if len(sources) != len(set(sources)) or len(missing) != len(set(missing)):
         return False
     if set(sources) & set(missing):
         return False
+    expected_type = "week" if path.parent.name == "weekly" else "month" if path.parent.name == "monthly" else None
+    if expected_type is None or report.get("periodType") != expected_type:
+        return False
+    start = date.fromisoformat(report["periodStart"])
+    expected_dates = {
+        (start + timedelta(days=offset)).isoformat()
+        for offset in range((expected_end - start).days + 1)
+    }
+    if set(sources) | set(missing) != expected_dates:
+        return False
+    if report.get("status") != ("partial" if missing else "complete"):
+        return False
     for value in sources:
-        try:
-            date.fromisoformat(value)
-        except (TypeError, ValueError):
-            return False
         if not (data_root / "daily" / f"{value}.json").exists():
             return False
     return True

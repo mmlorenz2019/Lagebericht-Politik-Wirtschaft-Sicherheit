@@ -9,9 +9,34 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from lagebericht.schedule import due_outputs, period_targets, to_berlin
+from tests.test_schema import category
 
 
 ROOT = Path(__file__).parents[1]
+
+
+def valid_week_report(source_dates):
+    all_dates = [
+        "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30",
+        "2026-07-31", "2026-08-01", "2026-08-02",
+    ]
+    missing = [value for value in all_dates if value not in source_dates]
+    return {
+        "schemaVersion": 2,
+        "periodType": "week",
+        "periodStart": "2026-07-27",
+        "periodEnd": "2026-08-02",
+        "generatedAt": "2026-08-03T04:00:00Z",
+        "status": "partial" if missing else "complete",
+        "overallSummary": ["Die Woche wird anhand der vorhandenen Tagesberichte zusammengefasst."],
+        "countries": [
+            {"id": "usa", "label": "USA", "sections": [category("politics_society")]},
+            {"id": "china", "label": "China", "sections": [category("economy_technology")]},
+            {"id": "montenegro", "label": "Montenegro", "sections": [category("foreign_security")]},
+        ],
+        "sourceReportDates": list(source_dates),
+        "missingReportDates": missing,
+    }
 
 
 class WorkflowContractTests(unittest.TestCase):
@@ -36,14 +61,7 @@ class WorkflowContractTests(unittest.TestCase):
 
             weekly = root / "weekly" / "2026-W31.json"
             weekly.parent.mkdir(parents=True)
-            weekly.write_text(json.dumps({
-                "periodEnd": "2026-08-02",
-                "sourceReportDates": ["2026-08-02"],
-                "missingReportDates": [
-                    "2026-07-27", "2026-07-28", "2026-07-29",
-                    "2026-07-30", "2026-07-31", "2026-08-01",
-                ],
-            }), encoding="utf-8")
+            weekly.write_text(json.dumps(valid_week_report(["2026-08-02"])), encoding="utf-8")
             complete = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True)
             self.assertEqual(complete.returncode, 0)
     def test_monday_targets_previous_calendar_week(self):
@@ -88,13 +106,7 @@ class WorkflowContractTests(unittest.TestCase):
                 path.write_text("{}", encoding="utf-8")
             (root / "weekly").mkdir()
             (root / "weekly" / "2026-W31.json").write_text(
-                json.dumps(
-                    {
-                        "periodEnd": "2026-08-02",
-                        "sourceReportDates": ["2026-07-31", "2026-08-01", "2026-08-02"],
-                        "missingReportDates": ["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30"],
-                    }
-                ),
+                json.dumps(valid_week_report(["2026-07-31", "2026-08-01", "2026-08-02"])),
                 encoding="utf-8",
             )
 
@@ -119,6 +131,42 @@ class WorkflowContractTests(unittest.TestCase):
             )
 
             self.assertEqual(due_outputs(date(2026, 8, 3), root), {"daily": True, "week": True, "month": False})
+
+    def test_structurally_invalid_or_malformed_period_file_remains_due(self):
+        for report in (
+            {"periodEnd": "2026-08-02", "sourceReportDates": ["2026-08-02"], "missingReportDates": []},
+            {"periodEnd": "2026-08-02", "sourceReportDates": [{}], "missingReportDates": []},
+        ):
+            with self.subTest(report=report), tempfile.TemporaryDirectory() as folder:
+                root = Path(folder)
+                daily = root / "daily" / "2026-08-02.json"
+                daily.parent.mkdir(parents=True)
+                daily.write_text("{}", encoding="utf-8")
+                weekly = root / "weekly" / "2026-W31.json"
+                weekly.parent.mkdir(parents=True)
+                weekly.write_text(json.dumps(report), encoding="utf-8")
+                self.assertTrue(due_outputs(date(2026, 8, 3), root)["week"])
+
+    def test_monday_after_new_year_uses_previous_iso_week_filename(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            daily = root / "daily" / "2027-01-03.json"
+            daily.parent.mkdir(parents=True)
+            daily.write_text("{}", encoding="utf-8")
+            report = valid_week_report(["2026-08-02"])
+            report.update({
+                "periodStart": "2026-12-28",
+                "periodEnd": "2027-01-03",
+                "sourceReportDates": ["2027-01-03"],
+                "missingReportDates": [
+                    "2026-12-28", "2026-12-29", "2026-12-30",
+                    "2026-12-31", "2027-01-01", "2027-01-02",
+                ],
+            })
+            weekly = root / "weekly" / "2026-W53.json"
+            weekly.parent.mkdir(parents=True)
+            weekly.write_text(json.dumps(report), encoding="utf-8")
+            self.assertFalse(due_outputs(date(2027, 1, 4), root)["week"])
 
     def test_berlin_guard_preserves_local_date(self):
         berlin = timezone(timedelta(hours=2), "Europe/Berlin")
@@ -149,6 +197,8 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertEqual(text.count("continue-on-error: true"), 2)
         self.assertRegex(text, r"(?s)- name: Wochenbericht erzeugen.*?continue-on-error: true")
         self.assertRegex(text, r"(?s)- name: Monatsbericht erzeugen.*?continue-on-error: true")
+        self.assertIn("if: ${{ !cancelled() && steps.schedule.outputs.week == 'true' }}", text)
+        self.assertIn("if: ${{ !cancelled() && steps.schedule.outputs.month == 'true' }}", text)
         self.assertNotIn("steps.schedule.outputs.run", text)
         self.assertIn("ref: main", text)
         self.assertNotIn("pull_request:", text)

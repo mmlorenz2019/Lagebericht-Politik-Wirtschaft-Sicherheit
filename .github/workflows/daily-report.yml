@@ -47,7 +47,7 @@ jobs:
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
         run: python scripts/run_daily.py --date "${{ steps.schedule.outputs.date }}"
       - name: Wochenbericht erzeugen
-        if: steps.schedule.outputs.week == 'true'
+        if: ${{ !cancelled() && steps.schedule.outputs.week == 'true' }}
         continue-on-error: true
         env:
           PYTHONPATH: src
@@ -55,7 +55,7 @@ jobs:
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
         run: python scripts/run_period.py week --end-date "${{ steps.schedule.outputs.week_end }}"
       - name: Monatsbericht erzeugen
-        if: steps.schedule.outputs.month == 'true'
+        if: ${{ !cancelled() && steps.schedule.outputs.month == 'true' }}
         continue-on-error: true
         env:
           PYTHONPATH: src

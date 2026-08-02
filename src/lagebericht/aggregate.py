@@ -124,7 +124,7 @@ class PeriodAggregator:
             "periodStart": start.isoformat(),
             "periodEnd": end.isoformat(),
             "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-            "status": "partial" if missing or any(item["status"] == "partial" for item in reports) else "complete",
+            "status": "partial" if missing else "complete",
             "overallSummary": content["overallSummary"],
             "countries": content["countries"],
             "sourceReportDates": [item["reportDate"] for item in reports],

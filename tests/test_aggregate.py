@@ -90,6 +90,22 @@ class AggregateTests(unittest.TestCase):
         self.assertIsNone(PeriodAggregator(self.root, ai, ALLOWED_DOMAINS).build_week(date(2026, 8, 2)))
         self.assertEqual(ai.models, [])
 
+    def test_three_and_seven_days_produce_partial_and_complete_weeks(self):
+        for count, expected_status, expected_missing in ((3, "partial", 4), (7, "complete", 0)):
+            with self.subTest(count=count):
+                with tempfile.TemporaryDirectory() as folder:
+                    root = Path(folder)
+                    publisher = Publisher(root, ALLOWED_DOMAINS)
+                    for offset in range(count):
+                        current = date(2026, 7, 27) + timedelta(days=offset)
+                        report = copy.deepcopy(daily_report())
+                        report["reportDate"] = current.isoformat()
+                        report["generatedAt"] = f"{current.isoformat()}T04:31:00Z"
+                        publisher.publish_daily(report)
+                    result = PeriodAggregator(root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+                    self.assertEqual(result["status"], expected_status)
+                    self.assertEqual(len(result["missingReportDates"]), expected_missing)
+
     def test_builds_leap_month_with_twenty_days(self):
         self.publish_days(date(2028, 2, 1), 20)
         report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_month(2028, 2)
@@ -100,6 +116,13 @@ class AggregateTests(unittest.TestCase):
         self.publish_days(date(2026, 7, 31), 1)
         report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_month(2026, 7)
         self.assertEqual(len(report["overallSummary"]), 12)
+
+    def test_complete_leap_month_has_no_missing_days(self):
+        self.publish_days(date(2028, 2, 1), 29)
+        report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_month(2028, 2)
+        self.assertEqual(report["status"], "complete")
+        self.assertEqual(len(report["sourceReportDates"]), 29)
+        self.assertEqual(report["missingReportDates"], [])
 
 
 if __name__ == "__main__":
