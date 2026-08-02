@@ -1,15 +1,45 @@
 import re
+import tempfile
 import unittest
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from lagebericht.schedule import due_periods, is_daily_time
+from lagebericht.schedule import due_outputs, due_periods, is_daily_time
 
 
 ROOT = Path(__file__).parents[1]
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_due_outputs_are_idempotent_per_artifact(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            day = date(2026, 8, 2)
+
+            self.assertEqual(
+                due_outputs(day, root),
+                {"daily": True, "week": True, "month": False},
+            )
+
+            (root / "daily").mkdir()
+            (root / "daily" / "2026-08-02.json").write_text("{}", encoding="utf-8")
+
+            self.assertEqual(
+                due_outputs(day, root),
+                {"daily": False, "week": True, "month": False},
+            )
+
+    def test_month_end_outputs_use_existing_period_files_independently(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "weekly").mkdir()
+            (root / "weekly" / "2026-W22.json").write_text("{}", encoding="utf-8")
+
+            self.assertEqual(
+                due_outputs(date(2026, 5, 31), root),
+                {"daily": True, "week": False, "month": True},
+            )
+
     def test_berlin_guard_and_period_schedule(self):
         berlin = timezone(timedelta(hours=2), "Europe/Berlin")
         sunday_month_end = datetime(2026, 5, 31, 6, 30, tzinfo=berlin)

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import calendar
 from datetime import date, datetime, time, timedelta, timezone
+from pathlib import Path
 
 
 def _last_sunday(year: int, month: int) -> date:
@@ -37,12 +38,23 @@ def due_periods(day: date) -> set[str]:
     return result
 
 
+def due_outputs(day: date, data_root: Path) -> dict[str, bool]:
+    iso = day.isocalendar()
+    week_id = f"{iso.year}-W{iso.week:02d}"
+    periods = due_periods(day)
+    return {
+        "daily": not (data_root / "daily" / f"{day.isoformat()}.json").exists(),
+        "week": "week" in periods and not (data_root / "weekly" / f"{week_id}.json").exists(),
+        "month": "month" in periods and not (data_root / "monthly" / f"{day:%Y-%m}.json").exists(),
+    }
+
+
 def main() -> None:
     now = berlin_now()
-    periods = due_periods(now.date())
-    print(f"run={'true' if is_daily_time(now) else 'false'}")
-    print(f"week={'true' if 'week' in periods else 'false'}")
-    print(f"month={'true' if 'month' in periods else 'false'}")
+    outputs = due_outputs(now.date(), Path("data"))
+    print(f"daily={str(outputs['daily']).lower()}")
+    print(f"week={str(outputs['week']).lower()}")
+    print(f"month={str(outputs['month']).lower()}")
     print(f"date={now.date().isoformat()}")
     print(f"month_id={now.strftime('%Y-%m')}")
 
