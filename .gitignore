@@ -5,4 +5,4 @@ __pycache__/
 coverage.xml
 .coverage
 data/.tmp/
-
+.superpowers/
