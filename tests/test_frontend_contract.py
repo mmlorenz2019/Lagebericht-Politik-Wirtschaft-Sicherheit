@@ -138,6 +138,18 @@ class FrontendContractTests(unittest.TestCase):
         self.assertLess(html.index("assets/rating-model.js"), html.index("assets/app.js"))
         self.assertIn("serviceWorker.register", (ROOT / "assets" / "app.js").read_text(encoding="utf-8"))
 
+    def test_app_refreshes_index_when_pwa_becomes_visible(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
+
+        self.assertLess(html.index("assets/freshness-model.js?v=7"), html.index("assets/app.js?v=7"))
+        self.assertIn("visibilitychange", app)
+        self.assertIn("document.visibilityState === 'visible'", app)
+        self.assertIn("FreshnessModel.dailyNotice", app)
+        self.assertIn("lagebericht-shell-v7", worker)
+        self.assertIn("./assets/freshness-model.js?v=7", worker)
+
     def test_empty_categories_do_not_claim_multiple_verification(self):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertIn("Keine neue Meldung in den geprüften Quellen", app)
@@ -171,11 +183,11 @@ class FrontendContractTests(unittest.TestCase):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertIn("url.origin !== self.location.origin", worker)
         self.assertIn("request.method !== 'GET'", worker)
-        self.assertIn("lagebericht-shell-v6", worker)
+        self.assertIn("lagebericht-shell-v7", worker)
         self.assertIn("./assets/rating-model.js", worker)
-        self.assertIn('assets/rating-model.js?v=6', html)
-        self.assertIn('assets/app.js?v=6', html)
-        self.assertIn("service-worker.js?v=6", app)
+        self.assertIn('assets/rating-model.js?v=7', html)
+        self.assertIn('assets/app.js?v=7', html)
+        self.assertIn("service-worker.js?v=7", app)
         self.assertIn("request.mode === 'navigate'", worker)
         self.assertIn("fetch(request)", worker)
 

@@ -11,7 +11,10 @@ const CATEGORY_LABELS = {
   foreign_security: ['Außenpolitik & Sicherheit', '🛡️']
 };
 const COUNTRY_LABELS = { usa: 'USA', china: 'China', montenegro: 'Montenegro' };
-const state = { index: null, archiveType: 'daily', country: 'usa', report: null };
+const state = {
+  index: null, archiveType: 'daily', country: 'usa', report: null,
+  freshnessNotice: '', reportNotice: ''
+};
 
 const elements = {
   updated: document.getElementById('updated'), notice: document.getElementById('notice'),
@@ -28,9 +31,15 @@ function node(tag, text, className) {
   return value;
 }
 
-function showNotice(message) {
+function renderNotice() {
+  const message = [state.freshnessNotice, state.reportNotice].filter(Boolean).join(' ');
   elements.notice.textContent = message;
   elements.notice.hidden = !message;
+}
+
+function showNotice(message) {
+  state.reportNotice = message;
+  renderNotice();
 }
 
 function safeSourceLink(source) {
@@ -166,11 +175,27 @@ async function loadSelectedReport() {
 }
 
 async function start() {
+  await refreshIndex({ preferLatest: true });
+}
+
+async function refreshIndex({ preferLatest = false } = {}) {
+  const previousPath = elements.select.value;
+  const previousLatest = state.index && state.index.latestDaily;
   try {
-    const response = await fetch('data/index.json', { cache: 'no-cache' });
+    const response = await fetch('data/index.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.index = await response.json();
+    state.freshnessNotice = FreshnessModel.dailyNotice(state.index, new Date());
+    renderNotice();
     fillPeriodSelect();
+    const entries = archiveEntries();
+    if (!entries.length) {
+      showNotice('Für diese Archivart ist noch kein Bericht vorhanden.');
+      return;
+    }
+    const hasPreviousPath = entries.some((entry) => entry.path === previousPath);
+    const hasNewDaily = state.archiveType === 'daily' && state.index.latestDaily !== previousLatest;
+    if (!preferLatest && !hasNewDaily && hasPreviousPath) elements.select.value = previousPath;
     await loadSelectedReport();
   } catch (error) {
     showNotice(`Das Archiv konnte nicht geladen werden. (${error.message})`);
@@ -189,6 +214,9 @@ document.querySelectorAll('[data-country]').forEach((button) => button.addEventL
   renderReport();
 }));
 elements.select.addEventListener('change', loadSelectedReport);
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') refreshIndex({ preferLatest: state.archiveType === 'daily' });
+});
 
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=6', { updateViaCache: 'none' }));
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=7', { updateViaCache: 'none' }));
 start();
