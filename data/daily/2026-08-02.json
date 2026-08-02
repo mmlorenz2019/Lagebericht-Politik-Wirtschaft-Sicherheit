@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-02",
+  "generatedAt": "2026-08-02T23:59:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trumps Zustimmungswerte auf historischem Tiefstand",
+          "summaryDe": [
+            "Laut einer Auswertung der New York Times verzeichnet Donald Trump in seinem zweiten Amtsterm auf diesem Stand die niedrigsten Zustimmungswerte, die je für einen US-Präsidenten zu diesem Zeitpunkt gemessen wurden.",
+            "Nur knapp ein Drittel der Amerikaner bewertet seine Amtsführung positiv, was deutlich unter den ohnehin schon schwachen Vergleichswerten aus seiner ersten Amtszeit liegt.",
+            "Die Zeitung analysiert, warum Trump trotz dieser Zahlen keinen Kurswechsel in seiner Politik zu erwarten plant.",
+            "Parallel dazu berichteten Medien über Capital One, das Konten der Trump Organization 2021 wegen Geldwäscheverdachts geschlossen haben soll – eine Meldung, die zusätzliches politisches Gewicht erhält.",
+            "Die Entwicklung zeigt eine zunehmende Entfremdung zwischen der Bevölkerungsmehrheit und der Regierungspolitik."
+          ],
+          "additionalImportant": "Capital One soll Konten der Trump Organization 2021 wegen interner Geldwäschebedenken geschlossen haben, nicht primär wegen des Sturms auf das Kapitol.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Niedrige Zustimmungswerte für Trump können indirekt das transatlantische Verhältnis und die US-Außenpolitik beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Historisch niedrige Beliebtheitswerte für einen amtierenden US-Präsidenten sind eine bedeutende innenpolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Trump's Polling Numbers Hit a New Low. Don't Expect Him to Change Course.",
+              "url": "https://www.nytimes.com/2026/08/01/us/politics/trump-polls-approval-rating.html",
+              "publishedAt": "2026-08-01T19:30:50Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA leiten Entkopplung der Rüstungsindustrie von chinesischen Seltenen Erden ein",
+          "summaryDe": [
+            "Per Exekutivanordnung werden US-Rüstungsunternehmen verpflichtet, ihre Lieferketten auf chinesische Seltene Erden zu überprüfen und diese schrittweise zu ersetzen.",
+            "Hintergrund ist die als sicherheitspolitisches Risiko bewertete Abhängigkeit der amerikanischen Verteidigungsindustrie von chinesischen Rohstofflieferungen.",
+            "Experten bezweifeln, ob ein vollständiger Ausstieg kurzfristig realisierbar ist, da alternative Förderkapazitäten weltweit noch aufgebaut werden müssen.",
+            "Die Maßnahme gilt als Teil einer breiteren Strategie zur wirtschaftlichen und technologischen Entkopplung von China.",
+            "Für Deutschland und Europa könnte der Schritt Signalwirkung haben und den Druck erhöhen, eigene Abhängigkeiten zu überprüfen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Entkopplung von chinesischen Seltenen Erden betrifft auch europäische Rüstungs- und Industrielieferketten direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die strategische Abkoppelung der US-Rüstungsindustrie von einem zentralen chinesischen Exportgut ist eine strukturell bedeutsame Entscheidung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Pain or gain? US moves to decouple its defence industry from China's rare earths",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362641/pain-or-gain-us-moves-decouple-its-defence-industry-chinas-rare-earths",
+              "publishedAt": "2026-08-01T14:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump soll geplante Iran-Angriffe erneut abgebrochen haben – Muster wiederholter Kehrtwenden",
+          "summaryDe": [
+            "Trump soll kurz vor geplanten Militärschlägen gegen den Iran gestoppt haben, nachdem ein Einigungsrahmen für ein Abkommen erreicht worden sei.",
+            "Berichten zufolge hätten Iran sowie verbündete Staaten in der Region die USA ausdrücklich gebeten, Angriffe vorerst auszusetzen.",
+            "Analysten beschreiben ein wiederkehrendes Muster aus Angriffsstopp-Ankündigungen und fortgesetzten Militäraktionen, das seit Beginn des rund fünf Monate andauernden Konflikts zu beobachten ist.",
+            "Der Konflikt hat demnach zu stark steigenden Öl- und Güterpreisen geführt, was wirtschaftliche Folgen weit über die Region hinaus hat.",
+            "Aufgrund widersprüchlicher Quellenangaben und nicht verifizierbarer Angaben ist die Meldung mit Vorsicht zu bewerten."
+          ],
+          "additionalImportant": "Die Ereignislage rund um den Iran-Konflikt ist durch mehrere widersprüchliche Berichte und unzuverlässige Quellenlagen gekennzeichnet; die Meldung sollte nicht als gesichert betrachtet werden.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende Ölpreise und Unsicherheiten im Nahen Osten durch den Iran-Konflikt wirken sich direkt auf die deutsche Wirtschaft und Energieversorgung aus."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein möglicher Waffenstillstand oder eine erneute Eskalation im Iran-Konflikt ist von außerordentlicher internationaler Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source",
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "EV prices aren't following the 'law of used cars,' analyst says — what it means for buyers and sellers",
+              "url": "https://www.cnbc.com/2026/07/31/used-ev-prices.html",
+              "publishedAt": "2026-07-31T12:15:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Überschwemmungen in Gansu: Mindestens 25 Tote, weite Teile Chinas in Alarmbereitschaft",
+          "summaryDe": [
+            "Durch Sturzfluten in der nordwestchinesischen Provinz Gansu sind mindestens 25 Menschen ums Leben gekommen, 23 weitere wurden verletzt.",
+            "Große Teile des Landes stehen weiterhin unter erhöhter Hochwasserwarnung, da starke Regenfälle anhalten.",
+            "Gleichzeitig wurden nach einer Untersuchung der tödlichen Explosion im Stahlwerk Baotou in der Inneren Mongolei, bei der 10 Menschen starben und 84 verletzt wurden, sieben Personen verhaftet.",
+            "Die Ermittlungen ergaben Mängel bei Wartung, Anlagedesign und behördlicher Aufsicht als Ursachen des Unglücks.",
+            "Beide Ereignisse rücken Fragen zur Infrastruktur- und Arbeitssicherheit in China erneut in den Fokus."
+          ],
+          "additionalImportant": "Sieben Personen wurden nach dem Explosionsunfall in der Inneren Mongolei festgenommen; Behördenversagen wurde ausdrücklich als Mitursache benannt.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Naturkatastrophe und der Industrieunfall betreffen primär China und haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Todesopfer und Festnahmen dokumentieren relevante innenpolitische Vorgänge, bleiben aber regional begrenzt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China floods: large parts of country remain on alert as Gansu province death toll rises",
+              "url": "https://www.scmp.com/news/china/article/3362695/china-floods-large-parts-country-remain-alert-gansu-province-death-toll-rises",
+              "publishedAt": "2026-08-02T06:58:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "7 face arrest after Inner Mongolia fatal blast report exposes string of failings",
+              "url": "https://www.scmp.com/news/china/article/3362707/7-face-arrest-after-inner-mongolia-fatal-blast-report-exposes-string-failings",
+              "publishedAt": "2026-08-02T10:57:59Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China setzt Quantentechnologie im Stromnetz ein – KI-Algorithmus verfolgt Krypto-Geldwäsche",
+          "summaryDe": [
+            "China weitet nach einem erfolgreichen 18-monatigen Pilotprojekt in Hefei den Einsatz von Quantensensorik zur Fehlerdetektion im Stromnetz auf breiterer Ebene aus, um Blackouts zu verhindern.",
+            "Die Technologie nutzt quantenmechanische Simulationen, um Netzausfälle frühzeitig zu erkennen und zu verhindern.",
+            "Parallel dazu haben chinesische Forscher der nationalen Polizeiakademie einen KI-Algorithmus entwickelt, der illegale Bitcoin-Transaktionen mit einer Genauigkeit von 90 Prozent identifiziert.",
+            "Das System soll zur Bekämpfung von Kryptowährungs-Geldwäsche eingesetzt werden und markiert einen weiteren Schritt in Chinas digitaler Strafverfolgung.",
+            "Beide Entwicklungen verdeutlichen Chinas ambitionierten Kurs, Hochtechnologie sowohl in der Infrastruktur als auch im Sicherheitsapparat einzusetzen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas technologische Fortschritte bei Quantentechnik und KI-gestützter Strafverfolgung sind für den internationalen Technologiewettbewerb indirekt relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die großflächige Anwendung von Quantentechnologie im Stromnetz und ein hochpräziser Geldwäsche-KI stellen bedeutsame technologische Entwicklungen dar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China hopes to banish blackouts as quantum tech puts power grid in superposition",
+              "url": "https://www.scmp.com/news/china/science/article/3362629/china-hopes-banish-blackouts-quantum-tech-puts-power-grid-superposition",
+              "publishedAt": "2026-08-01T07:00:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese police AI algorithm tracks bitcoin money laundering with 90% accuracy",
+              "url": "https://www.scmp.com/news/china/science/article/3362493/chinese-police-ai-algorithm-tracks-bitcoin-money-laundering-90-accuracy",
+              "publishedAt": "2026-08-02T02:00:12Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China testet JL-3-Rakete aus U-Boot – PLA hält Manöver im Südchinesischen Meer ab",
+          "summaryDe": [
+            "Im Juli testete die Volksbefreiungsarmee erstmals seit über 40 Jahren eine seegestützte ballistische Rakete vom Typ JL-3 aus einem nuklearbetriebenen U-Boot im Pazifik, wobei ein Attrappen-Gefechtskopf eine Distanz von rund 8.000 Kilometern zurücklegte.",
+            "Der Test, der als erster bestätigter seiner Art seit 1982 gilt, unterstreicht Chinas Fortschritte bei der atomaren Zweitschlagkapazität.",
+            "Gleichzeitig führten PLA und Küstenwache Manöver nahe dem Scarborough-Riff durch, nachdem die Philippinen versucht hatten, ihre Meeresbodenrechte auszuweiten.",
+            "Peking warnte Manila mit dem Hinweis auf ein „mächtiges Instrumentarium",
+            "`das bereitstehe, um jedem Angreifer einen harten Schlag zu versetzen.",
+            "Die Kombination aus Raketentests und Manövern signalisiert eine deutliche Eskalation der chinesischen Machtdemonstration in der Region."
+          ],
+          "additionalImportant": "Analysten bewerten das Philippinische Meer als potenziellem Hauptschauplatz für chinesische Trägerverbände in einem Taiwan-Szenario, was die US-Intervention komplizieren würde.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Militärische Eskalation in der Indo-Pazifik-Region berührt indirekt europäische Sicherheitsinteressen und internationale Handelsrouten."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein erstmals seit 42 Jahren durchgeführter U-Boot-Raketentests und parallele Manöver im Südchinesischen Meer sind von außerordentlicher strategischer Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why China's JL-3 made waves with first submarine-based missile test in over 40 years",
+              "url": "https://www.scmp.com/news/china/military/article/3362640/why-chinas-jl-3-made-waves-first-submarine-based-missile-test-over-40-years",
+              "publishedAt": "2026-08-01T12:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "PLA and coastguards stage South China Sea drills days after Philippine territorial bid",
+              "url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid",
+              "publishedAt": "2026-08-01T05:11:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing warns Manila of 'powerful' South China Sea toolbox ready for 'head-on blow'",
+              "url": "https://www.scmp.com/news/china/military/article/3362700/beijing-warns-manila-powerful-south-china-sea-toolbox-ready-head-blow",
+              "publishedAt": "2026-08-02T10:00:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Tourismus-Hochsaison: Lange Staus an der kroatisch-montenegrinischen Grenze, verstärkte Polizeikontrollen",
+          "summaryDe": [
+            "An der Grenze zwischen Kroatien und Montenegro kommt es laut Berichten zu massiven Verkehrsstaus mit Wartezeiten von über zehn Stunden, was auf den Hochsaisonreiseverkehr zurückzuführen ist.",
+            "Parallel dazu führte die Polizei in Podgorica und Ulcinj verstärkte Kontrollen durch, bei denen in Podgorica acht Personen festgenommen und 17 Motorräder sowie weitere Fahrzeuge beschlagnahmt wurden.",
+            "In Ulcinj wurden durch Drohnenüberwachung 22 Verkehrsteilnehmer sanktioniert, und drei Personen wurden nach Verstößen in der Gastronomie festgenommen.",
+            "Die Maßnahmen spiegeln den erhöhten Sicherheits- und Ordnungsdruck während der touristischen Hochsaison wider.",
+            "Innenministerium und Polizei signalisieren damit eine erhöhte Präsenz im öffentlichen Raum während der Sommermonate."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Viele deutsche Touristen reisen nach Montenegro; Grenzstaus und Sicherheitsmaßnahmen können Reisende direkt betreffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Ereignisse sind saisonal bedingt und lokal relevant, ohne breitere politische oder strukturelle Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Velike kolone iz Hrvatske na granici prema Crnoj Gori, čeka se i preko 10 sati",
+              "url": "https://www.pobjeda.me/clanak/velike-kolone-na-granici-prema-crnoj-gori-ceka-se-preko-10-sati",
+              "publishedAt": "2026-08-02T11:09:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Pojačane kontrole saobraćaja dronom u Ulcinju: Sankcionisana 22 vozača",
+              "url": "https://www.pobjeda.me/clanak/pojacane-kontrole-saobracaja-dronom-u-ulcinju-sankcionisana-22-vozaca",
+              "publishedAt": "2026-08-02T10:45:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Uhapšene tri osobe, izrečene novčane kazne ugostiteljskim objektima u Ulcinju",
+              "url": "https://www.pobjeda.me/clanak/uhapsene-tri-osobe-izrecene-novcane-kazne-ugostiteljskim-objektima-u-ulcinju",
+              "publishedAt": "2026-08-02T15:44:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Vučić bezeichnet Lage der Serben im Kosovo als „entsetzlichen Terror",
+          "summaryDe": [
+            "Der serbische Präsident Aleksandar Vučić hat in einer öffentlichen Erklärung behauptet, dass Serben im Kosovo einem „entsetzlichen Terror",
+            " ausgesetzt seien, und damit die Spannungen in der Region erneut verschärft.",
+            "Die Aussage fiel vor dem Hintergrund anhaltender Spannungen zwischen Belgrad und Pristina sowie laufender EU-vermittelter Normalisierungsgespräche.",
+            "Vučić nutzt derartige Rhetorik regelmäßig, um innenpolitische Unterstützung zu mobilisieren und Druck auf internationale Verhandlungspartner auszuüben.",
+            "Montenegro als Nachbarstaat ist durch seine ethnische Zusammensetzung und seine geopolitische Lage von der Stabilität im Kosovo-Konflikt direkt betroffen.",
+            "Die Meldung wurde von der montenegrinischen Tageszeitung Pobjeda dokumentiert, die Entwicklungen in der Region regelmäßig verfolgt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als wichtiger EU-Akteur in den Westbalkan-Normalisierungsprozess eingebunden und verfolgt die Kosovo-Frage aktiv."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Vučićs Erklärungen sind Teil eines bekannten rhetorischen Musters und erhöhen die regionale Spannung, ohne unmittelbar neue Eskalationen auszulösen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Vučić: Srpski narod na Kosovu je izložen \"jezivom teroru\"",
+              "url": "https://www.pobjeda.me/clanak/vucic-srpski-narod-na-kosovu-je-izlozen-jezivom-teroru",
+              "publishedAt": "2026-08-02T16:05:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
