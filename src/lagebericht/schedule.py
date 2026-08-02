@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import calendar
+import json
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 
@@ -33,14 +34,34 @@ def due_periods(day: date) -> set[str]:
     return result
 
 
+def _period_complete(path: Path, expected_end: date) -> bool:
+    try:
+        report = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError):
+        return False
+
+    expected = expected_end.isoformat()
+    sources = report.get("sourceReportDates")
+    missing = report.get("missingReportDates")
+    return (
+        report.get("periodEnd") == expected
+        and isinstance(sources, list)
+        and expected in sources
+        and isinstance(missing, list)
+        and expected not in missing
+    )
+
+
 def due_outputs(day: date, data_root: Path) -> dict[str, bool]:
     iso = day.isocalendar()
     week_id = f"{iso.year}-W{iso.week:02d}"
     periods = due_periods(day)
     return {
         "daily": not (data_root / "daily" / f"{day.isoformat()}.json").exists(),
-        "week": "week" in periods and not (data_root / "weekly" / f"{week_id}.json").exists(),
-        "month": "month" in periods and not (data_root / "monthly" / f"{day:%Y-%m}.json").exists(),
+        "week": "week" in periods
+        and not _period_complete(data_root / "weekly" / f"{week_id}.json", day),
+        "month": "month" in periods
+        and not _period_complete(data_root / "monthly" / f"{day:%Y-%m}.json", day),
     }
 
 

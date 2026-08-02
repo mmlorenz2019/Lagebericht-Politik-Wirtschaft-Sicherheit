@@ -1,3 +1,4 @@
+import json
 import re
 import tempfile
 import unittest
@@ -33,11 +34,40 @@ class WorkflowContractTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
             (root / "weekly").mkdir()
-            (root / "weekly" / "2026-W22.json").write_text("{}", encoding="utf-8")
+            (root / "weekly" / "2026-W22.json").write_text(
+                json.dumps(
+                    {
+                        "periodEnd": "2026-05-31",
+                        "sourceReportDates": ["2026-05-31"],
+                        "missingReportDates": [],
+                    }
+                ),
+                encoding="utf-8",
+            )
 
             self.assertEqual(
                 due_outputs(date(2026, 5, 31), root),
                 {"daily": True, "week": False, "month": True},
+            )
+
+    def test_incomplete_period_file_remains_due(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / "weekly").mkdir()
+            (root / "weekly" / "2026-W31.json").write_text(
+                json.dumps(
+                    {
+                        "periodEnd": "2026-08-02",
+                        "sourceReportDates": ["2026-07-31"],
+                        "missingReportDates": ["2026-08-01", "2026-08-02"],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            self.assertEqual(
+                due_outputs(date(2026, 8, 2), root),
+                {"daily": True, "week": True, "month": False},
             )
 
     def test_berlin_guard_and_period_schedule(self):
