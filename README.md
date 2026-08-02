@@ -36,11 +36,11 @@ Standardmodelle sind `claude-haiku-4-5-20251001` für Extraktion und `claude-son
 4. Unter **Settings → Pages** die Veröffentlichung aus dem Standardbranch und dem Stammverzeichnis aktivieren.
 5. Den Workflow **Täglicher Lagebericht** einmal manuell starten und die erzeugten Daten prüfen.
 
-Der Zeitplan startet um 04:30 und 05:30 UTC. Eine zusätzliche Prüfung der Zeitzone `Europe/Berlin` sorgt dafür, dass ganzjährig nur der Lauf um 06:30 Uhr Ortszeit arbeitet.
+Der Zeitplan arbeitet ausdrücklich in `Europe/Berlin` und berücksichtigt Sommer- und Winterzeit automatisch. Er startet um 05:45 Uhr sowie ersatzweise um 06:05 und 06:25 Uhr. Vor jedem automatischen Claude-Aufruf wird geprüft, ob der Tagesbericht bereits vorhanden ist; dadurch verursacht höchstens einer dieser Läufe Kosten. Fällige Wochen- und Monatsberichte werden unabhängig geprüft und können von einem Ersatzlauf nachgeholt werden. Eine manuelle Workflow-Ausführung bleibt eine bewusste Neuausführung.
 
 ## PWA-Installation
 
-In Edge oder Chrome die GitHub-Pages-Seite öffnen und **App installieren** beziehungsweise **Zum Startbildschirm hinzufügen** auswählen. Der zuletzt geöffnete Bericht bleibt offline lesbar; Originalquellen benötigen eine Internetverbindung.
+In Edge oder Chrome die GitHub-Pages-Seite öffnen und **App installieren** beziehungsweise **Zum Startbildschirm hinzufügen** auswählen. Der zuletzt geöffnete Bericht bleibt offline lesbar; Originalquellen benötigen eine Internetverbindung. Fehlt der Bericht für den aktuellen Berliner Kalendertag, weist die App sichtbar auf den älteren Stand hin. Beim erneuten Öffnen oder Zurückkehren in die App wird das Archiv ohne Browser-Cache neu geprüft.
 
 ## Daten und Grenzen
 

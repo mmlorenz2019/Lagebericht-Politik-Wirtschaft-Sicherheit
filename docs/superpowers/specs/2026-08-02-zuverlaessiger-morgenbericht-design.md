@@ -1,7 +1,7 @@
 ---
 title: Zuverlässiger Morgenbericht in Berliner Ortszeit
 date: 2026-08-02
-status: freigabe
+status: umgesetzt
 ---
 
 # Ziel
