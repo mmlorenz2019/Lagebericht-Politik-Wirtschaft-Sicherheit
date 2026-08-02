@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import calendar
 import json
+from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 
@@ -25,16 +26,20 @@ def berlin_now() -> datetime:
     return to_berlin(datetime.now(timezone.utc))
 
 
-def due_periods(day: date) -> set[str]:
-    result = set()
-    if day.weekday() == 6:
-        result.add("week")
-    if day.day == calendar.monthrange(day.year, day.month)[1]:
-        result.add("month")
-    return result
+@dataclass(frozen=True, slots=True)
+class PeriodTargets:
+    week_end: date | None
+    month_id: str | None
 
 
-def _period_complete(path: Path, expected_end: date) -> bool:
+def period_targets(day: date) -> PeriodTargets:
+    week_end = day - timedelta(days=1) if day.weekday() == 0 else None
+    previous = day - timedelta(days=1)
+    month_id = previous.strftime("%Y-%m") if day.day == 1 else None
+    return PeriodTargets(week_end=week_end, month_id=month_id)
+
+
+def period_artifact_complete(path: Path, expected_end: date, data_root: Path) -> bool:
     try:
         report = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, UnicodeError, json.JSONDecodeError):
@@ -43,36 +48,55 @@ def _period_complete(path: Path, expected_end: date) -> bool:
     expected = expected_end.isoformat()
     sources = report.get("sourceReportDates")
     missing = report.get("missingReportDates")
-    return (
-        report.get("periodEnd") == expected
-        and isinstance(sources, list)
-        and expected in sources
-        and isinstance(missing, list)
-        and expected not in missing
-    )
+    if report.get("periodEnd") != expected or not isinstance(sources, list) or not sources:
+        return False
+    if len(sources) != len(set(sources)) or not isinstance(missing, list):
+        return False
+    if set(sources) & set(missing):
+        return False
+    for value in sources:
+        try:
+            date.fromisoformat(value)
+        except (TypeError, ValueError):
+            return False
+        if not (data_root / "daily" / f"{value}.json").exists():
+            return False
+    return True
 
 
 def due_outputs(day: date, data_root: Path) -> dict[str, bool]:
-    iso = day.isocalendar()
-    week_id = f"{iso.year}-W{iso.week:02d}"
-    periods = due_periods(day)
+    targets = period_targets(day)
+    week_due = False
+    if targets.week_end is not None:
+        iso = targets.week_end.isocalendar()
+        week_path = data_root / "weekly" / f"{iso.year}-W{iso.week:02d}.json"
+        week_due = not period_artifact_complete(week_path, targets.week_end, data_root)
+
+    month_due = False
+    if targets.month_id is not None:
+        year, month = (int(value) for value in targets.month_id.split("-"))
+        month_end = date(year, month, calendar.monthrange(year, month)[1])
+        month_path = data_root / "monthly" / f"{targets.month_id}.json"
+        month_due = not period_artifact_complete(month_path, month_end, data_root)
+
     return {
         "daily": not (data_root / "daily" / f"{day.isoformat()}.json").exists(),
-        "week": "week" in periods
-        and not _period_complete(data_root / "weekly" / f"{week_id}.json", day),
-        "month": "month" in periods
-        and not _period_complete(data_root / "monthly" / f"{day:%Y-%m}.json", day),
+        "week": week_due,
+        "month": month_due,
     }
 
 
 def main() -> None:
     now = berlin_now()
-    outputs = due_outputs(now.date(), Path("data"))
+    day = now.date()
+    targets = period_targets(day)
+    outputs = due_outputs(day, Path("data"))
     print(f"daily={str(outputs['daily']).lower()}")
     print(f"week={str(outputs['week']).lower()}")
     print(f"month={str(outputs['month']).lower()}")
-    print(f"date={now.date().isoformat()}")
-    print(f"month_id={now.strftime('%Y-%m')}")
+    print(f"date={day.isoformat()}")
+    print(f"week_end={targets.week_end.isoformat() if targets.week_end else ''}")
+    print(f"month_id={targets.month_id or ''}")
 
 
 if __name__ == "__main__":

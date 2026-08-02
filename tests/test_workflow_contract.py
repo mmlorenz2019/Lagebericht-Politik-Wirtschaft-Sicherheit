@@ -5,17 +5,32 @@ import unittest
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from lagebericht.schedule import due_outputs, due_periods, to_berlin
+from lagebericht.schedule import due_outputs, period_targets, to_berlin
 
 
 ROOT = Path(__file__).parents[1]
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_monday_targets_previous_calendar_week(self):
+        targets = period_targets(date(2026, 8, 3))
+        self.assertEqual(targets.week_end, date(2026, 8, 2))
+        self.assertIsNone(targets.month_id)
+
+    def test_first_day_targets_previous_month_across_year_boundary(self):
+        targets = period_targets(date(2027, 1, 1))
+        self.assertIsNone(targets.week_end)
+        self.assertEqual(targets.month_id, "2026-12")
+
+    def test_first_day_on_monday_targets_week_and_month(self):
+        targets = period_targets(date(2027, 2, 1))
+        self.assertEqual(targets.week_end, date(2027, 1, 31))
+        self.assertEqual(targets.month_id, "2027-01")
+
     def test_due_outputs_are_idempotent_per_artifact(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
-            day = date(2026, 8, 2)
+            day = date(2026, 8, 3)
 
             self.assertEqual(
                 due_outputs(day, root),
@@ -23,31 +38,35 @@ class WorkflowContractTests(unittest.TestCase):
             )
 
             (root / "daily").mkdir()
-            (root / "daily" / "2026-08-02.json").write_text("{}", encoding="utf-8")
+            (root / "daily" / "2026-08-03.json").write_text("{}", encoding="utf-8")
 
             self.assertEqual(
                 due_outputs(day, root),
                 {"daily": False, "week": True, "month": False},
             )
 
-    def test_month_end_outputs_use_existing_period_files_independently(self):
+    def test_existing_partial_week_is_complete_for_recovery_slots(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
+            for value in ("2026-07-31", "2026-08-01", "2026-08-02"):
+                path = root / "daily" / f"{value}.json"
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text("{}", encoding="utf-8")
             (root / "weekly").mkdir()
-            (root / "weekly" / "2026-W22.json").write_text(
+            (root / "weekly" / "2026-W31.json").write_text(
                 json.dumps(
                     {
-                        "periodEnd": "2026-05-31",
-                        "sourceReportDates": ["2026-05-31"],
-                        "missingReportDates": [],
+                        "periodEnd": "2026-08-02",
+                        "sourceReportDates": ["2026-07-31", "2026-08-01", "2026-08-02"],
+                        "missingReportDates": ["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30"],
                     }
                 ),
                 encoding="utf-8",
             )
 
             self.assertEqual(
-                due_outputs(date(2026, 5, 31), root),
-                {"daily": True, "week": False, "month": True},
+                due_outputs(date(2026, 8, 3), root),
+                {"daily": True, "week": False, "month": False},
             )
 
     def test_incomplete_period_file_remains_due(self):
@@ -65,16 +84,13 @@ class WorkflowContractTests(unittest.TestCase):
                 encoding="utf-8",
             )
 
-            self.assertEqual(
-                due_outputs(date(2026, 8, 2), root),
-                {"daily": True, "week": True, "month": False},
-            )
+            self.assertEqual(due_outputs(date(2026, 8, 3), root), {"daily": True, "week": True, "month": False})
 
-    def test_berlin_guard_and_period_schedule(self):
+    def test_berlin_guard_preserves_local_date(self):
         berlin = timezone(timedelta(hours=2), "Europe/Berlin")
         sunday_month_end = datetime(2026, 5, 31, 6, 30, tzinfo=berlin)
         self.assertEqual(to_berlin(sunday_month_end).date(), date(2026, 5, 31))
-        self.assertEqual(due_periods(sunday_month_end.date()), {"week", "month"})
+
     def test_test_workflow_has_read_only_permissions_and_runs_tests(self):
         text = (ROOT / ".github" / "workflows" / "test.yml").read_text(encoding="utf-8")
         self.assertIn("contents: read", text)
