@@ -1,7 +1,7 @@
 ---
 title: Transparente Wochen- und Monatsberichte
 date: 2026-08-03
-status: review
+status: umgesetzt
 ---
 
 # Ziel

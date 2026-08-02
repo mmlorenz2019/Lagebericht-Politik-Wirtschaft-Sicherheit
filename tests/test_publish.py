@@ -64,6 +64,28 @@ class PublishTests(unittest.TestCase):
 
         self.assertEqual(index["weekly"], [])
 
+    def test_rebuild_index_includes_partial_period_with_all_backing_daily_reports(self):
+        source_dates = ["2026-07-31", "2026-08-01", "2026-08-02"]
+        for value in source_dates:
+            daily = self.root / "daily" / f"{value}.json"
+            daily.parent.mkdir(parents=True, exist_ok=True)
+            daily.write_text("{}", encoding="utf-8")
+        weekly = self.root / "weekly" / "2026-W31.json"
+        weekly.parent.mkdir(parents=True)
+        weekly.write_text(json.dumps({
+            "sourceReportDates": source_dates,
+            "missingReportDates": [
+                "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30",
+            ],
+        }), encoding="utf-8")
+
+        index = rebuild_index(self.root)
+
+        self.assertEqual(index["weekly"], [{
+            "period": "2026-W31",
+            "path": "data/weekly/2026-W31.json",
+        }])
+
 
 if __name__ == "__main__":
     unittest.main()

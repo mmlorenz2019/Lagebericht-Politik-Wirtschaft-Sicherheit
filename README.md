@@ -1,6 +1,6 @@
 # Persönlicher Lagebericht
 
-Installierbare, statische PWA für einen täglichen Überblick über USA, China und Montenegro. Die Seite enthält keine Anmeldung, keine Analytics und keine Secrets. Eine getrennte GitHub Action ruft fest konfigurierte Quellen ab, erzeugt validierte Tagesberichte und verdichtet sie sonntags beziehungsweise am Monatsende.
+Installierbare, statische PWA für einen täglichen Überblick über USA, China und Montenegro. Die Seite enthält keine Anmeldung, keine Analytics und keine Secrets. Eine getrennte GitHub Action ruft fest konfigurierte Quellen ab, erzeugt validierte Tagesberichte und verdichtet abgeschlossene Wochen und Monate.
 
 **Web-App:** https://mmlorenz2019.github.io/Lagebericht-Politik-Wirtschaft-Sicherheit/
 
@@ -37,6 +37,14 @@ Standardmodelle sind `claude-haiku-4-5-20251001` für Extraktion und `claude-son
 5. Den Workflow **Täglicher Lagebericht** einmal manuell starten und die erzeugten Daten prüfen.
 
 Der Zeitplan arbeitet ausdrücklich in `Europe/Berlin` und berücksichtigt Sommer- und Winterzeit automatisch. Er startet um 05:45 Uhr sowie ersatzweise um 06:05 und 06:25 Uhr. Vor jedem automatischen Claude-Aufruf wird geprüft, ob der Tagesbericht bereits vorhanden ist; dadurch verursacht höchstens einer dieser Läufe Kosten. Fällige Wochen- und Monatsberichte werden unabhängig geprüft und können von einem Ersatzlauf nachgeholt werden. Eine manuelle Workflow-Ausführung bleibt eine bewusste Neuausführung.
+
+## Wochen- und Monatsberichte
+
+Der Wochenbericht wird montags für die vollständig abgeschlossene Kalenderwoche von Montag bis Sonntag erzeugt. Der Monatsbericht wird am ersten Tag des Folgemonats für den abgeschlossenen Kalendermonat erzeugt. Bereits ein gültiger Tagesbericht genügt für einen Teilbericht; ohne gültigen Tagesbericht wird Claude für den Rückblick nicht aufgerufen.
+
+Die App zeigt die Datenbasis direkt am Bericht, beispielsweise **Datenbasis: 3 von 7 Tagen · Teilüberblick**. Beruht ein Rückblick nur auf einem Tag, heißt er ausdrücklich **Momentaufnahme** und wird nicht als Trend formuliert. Wochenberichte enthalten 8 bis 10 Sätze zur Gesamtlage, Monatsberichte 12 bis 15. Jede veröffentlichte Entwicklung enthält zusätzlich eine sichtbare **Einordnung** mit Hintergrund und möglicher Bedeutung.
+
+Fehlt ein fälliger Rückblick, versuchen die bestehenden Ersatzläufe um 06:05 und 06:25 Uhr ihn erneut zu erzeugen. Ein gültiger Tagesbericht wird trotzdem versioniert und veröffentlicht; der fehlende Rückblick bleibt im Workflow als Fehler sichtbar. Auch ein fehlgeschlagener oder wiederholter API-Aufruf kann bereits Tokenkosten verursacht haben. Deshalb wird ein vorhandener, vollständiger oder transparenter Teilbericht vor jedem Ersatzlauf erkannt und nicht erneut erzeugt.
 
 ## PWA-Installation
 
