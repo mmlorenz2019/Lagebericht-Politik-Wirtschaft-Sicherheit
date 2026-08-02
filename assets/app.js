@@ -128,6 +128,13 @@ function renderStory(item) {
   const summary = node('div', null, 'summary');
   (item.summaryDe || []).forEach((sentence) => summary.append(node('p', sentence)));
   article.append(summary);
+  const contextSentences = item.contextDe || [];
+  if (contextSentences.length) {
+    const context = node('section', null, 'context');
+    context.append(node('h4', 'Einordnung'));
+    contextSentences.forEach((sentence) => context.append(node('p', sentence)));
+    article.append(context);
+  }
   renderRatings(item, article);
   if (item.additionalImportant) article.append(node('p', `Außerdem wichtig: ${item.additionalImportant}`, 'additional'));
   renderSources(item, article);
@@ -145,7 +152,14 @@ function renderReport() {
   document.querySelectorAll('[data-country]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.country === state.country)));
   elements.countryTitle.textContent = country.label || COUNTRY_LABELS[country.id];
   elements.kicker.textContent = isDaily ? 'Tagesbericht' : report.periodType === 'week' ? 'Wochenbericht' : 'Monatsbericht';
-  elements.completeness.textContent = report.status === 'complete' ? 'Vollständig' : 'Teilbericht · Einschränkungen sichtbar';
+  if (isDaily) {
+    elements.completeness.className = 'muted';
+    elements.completeness.textContent = report.status === 'complete' ? 'Vollständig' : 'Teilbericht · Einschränkungen sichtbar';
+  } else {
+    const coverage = PeriodModel.coverage(report);
+    elements.completeness.className = 'muted period-coverage';
+    elements.completeness.textContent = coverage.label;
+  }
   elements.updated.textContent = isDaily ? `Bericht vom ${report.reportDate} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}` : `${report.periodStart} bis ${report.periodEnd} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}`;
   elements.stories.replaceChildren(...(country.categories || country.sections || []).map(renderStory));
   elements.overall.hidden = isDaily;
@@ -218,5 +232,5 @@ document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') refreshIndex({ preferLatest: state.archiveType === 'daily' });
 });
 
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=7', { updateViaCache: 'none' }));
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=8', { updateViaCache: 'none' }));
 start();

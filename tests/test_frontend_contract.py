@@ -11,6 +11,7 @@ from lagebericht.config import all_allowed_domains, load_sources
 ROOT = Path(__file__).parents[1]
 RATING_MODEL = ROOT / "assets" / "rating-model.js"
 FRESHNESS_MODEL = ROOT / "assets" / "freshness-model.js"
+PERIOD_MODEL = ROOT / "assets" / "period-model.js"
 
 
 def run_rating_model(item):
@@ -64,7 +65,47 @@ def run_freshness(index, now):
     return json.loads(result.stdout)
 
 
+def run_period_model(report):
+    script = (
+        "const model=require(process.argv[1]);"
+        "const report=JSON.parse(process.argv[2]);"
+        "process.stdout.write(JSON.stringify(model.coverage(report)));"
+    )
+    result = subprocess.run(
+        ["node", "-e", script, str(PERIOD_MODEL), json.dumps(report)],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return json.loads(result.stdout)
+
+
 class FrontendContractTests(unittest.TestCase):
+    def test_period_coverage_labels_partial_complete_and_snapshot_reports(self):
+        cases = [
+            ({"periodStart": "2026-07-27", "periodEnd": "2026-08-02", "sourceReportDates": ["2026-07-31", "2026-08-01", "2026-08-02"]},
+             {"available": 3, "total": 7, "partial": True, "snapshot": False, "label": "Datenbasis: 3 von 7 Tagen · Teilüberblick"}),
+            ({"periodStart": "2028-02-01", "periodEnd": "2028-02-29", "sourceReportDates": [f"2028-02-{day:02d}" for day in range(1, 30)]},
+             {"available": 29, "total": 29, "partial": False, "snapshot": False, "label": "Datenbasis: 29 von 29 Tagen · Vollständig"}),
+            ({"periodStart": "2026-07-27", "periodEnd": "2026-08-02", "sourceReportDates": ["2026-08-02"]},
+             {"available": 1, "total": 7, "partial": True, "snapshot": True, "label": "Datenbasis: 1 von 7 Tagen · Momentaufnahme"}),
+        ]
+        for report, expected in cases:
+            with self.subTest(expected=expected["label"]):
+                self.assertEqual(run_period_model(report), expected)
+
+    def test_period_model_and_context_are_loaded_and_rendered_safely(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
+        self.assertLess(html.index("assets/period-model.js?v=8"), html.index("assets/app.js?v=8"))
+        self.assertIn("PeriodModel.coverage(report)", app)
+        self.assertIn("Einordnung", app)
+        self.assertIn("item.contextDe || []", app)
+        self.assertNotRegex(app, r"\.innerHTML\s*=")
+        self.assertIn("lagebericht-shell-v8", worker)
+        self.assertIn("./assets/period-model.js?v=8", worker)
     def test_freshness_uses_berlin_date_and_reports_missing_today(self):
         result = run_freshness({"latestDaily": "2026-08-01"}, "2026-08-02T21:30:00Z")
 
@@ -143,12 +184,12 @@ class FrontendContractTests(unittest.TestCase):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
 
-        self.assertLess(html.index("assets/freshness-model.js?v=7"), html.index("assets/app.js?v=7"))
+        self.assertLess(html.index("assets/freshness-model.js?v=8"), html.index("assets/app.js?v=8"))
         self.assertIn("visibilitychange", app)
         self.assertIn("document.visibilityState === 'visible'", app)
         self.assertIn("FreshnessModel.dailyNotice", app)
-        self.assertIn("lagebericht-shell-v7", worker)
-        self.assertIn("./assets/freshness-model.js?v=7", worker)
+        self.assertIn("lagebericht-shell-v8", worker)
+        self.assertIn("./assets/freshness-model.js?v=8", worker)
 
     def test_empty_categories_do_not_claim_multiple_verification(self):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
@@ -183,11 +224,11 @@ class FrontendContractTests(unittest.TestCase):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertIn("url.origin !== self.location.origin", worker)
         self.assertIn("request.method !== 'GET'", worker)
-        self.assertIn("lagebericht-shell-v7", worker)
+        self.assertIn("lagebericht-shell-v8", worker)
         self.assertIn("./assets/rating-model.js", worker)
-        self.assertIn('assets/rating-model.js?v=7', html)
-        self.assertIn('assets/app.js?v=7', html)
-        self.assertIn("service-worker.js?v=7", app)
+        self.assertIn('assets/rating-model.js?v=8', html)
+        self.assertIn('assets/app.js?v=8', html)
+        self.assertIn("service-worker.js?v=8", app)
         self.assertIn("request.mode === 'navigate'", worker)
         self.assertIn("fetch(request)", worker)
 
