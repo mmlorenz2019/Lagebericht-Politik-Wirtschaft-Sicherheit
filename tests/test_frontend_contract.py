@@ -10,6 +10,7 @@ from lagebericht.config import all_allowed_domains, load_sources
 
 ROOT = Path(__file__).parents[1]
 RATING_MODEL = ROOT / "assets" / "rating-model.js"
+FRESHNESS_MODEL = ROOT / "assets" / "freshness-model.js"
 
 
 def run_rating_model(item):
@@ -45,7 +46,37 @@ def run_story_badge(item):
     return json.loads(result.stdout)
 
 
+def run_freshness(index, now):
+    script = (
+        "const model=require(process.argv[1]);"
+        "const index=JSON.parse(process.argv[2]);"
+        "process.stdout.write(JSON.stringify({"
+        "date:model.berlinDateKey(new Date(process.argv[3])),"
+        "notice:model.dailyNotice(index,new Date(process.argv[3]))}));"
+    )
+    result = subprocess.run(
+        ["node", "-e", script, str(FRESHNESS_MODEL), json.dumps(index), now],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return json.loads(result.stdout)
+
+
 class FrontendContractTests(unittest.TestCase):
+    def test_freshness_uses_berlin_date_and_reports_missing_today(self):
+        result = run_freshness({"latestDaily": "2026-08-01"}, "2026-08-02T21:30:00Z")
+
+        self.assertEqual(result["date"], "2026-08-02")
+        self.assertIn("02.08.2026", result["notice"])
+        self.assertIn("01.08.2026", result["notice"])
+
+    def test_freshness_is_quiet_for_current_report(self):
+        result = run_freshness({"latestDaily": "2026-08-02"}, "2026-08-02T04:40:00Z")
+
+        self.assertEqual(result["notice"], "")
+
     def test_version_two_ratings_keep_both_scores_and_reasons(self):
         self.assertTrue(RATING_MODEL.exists())
         result = run_rating_model({
