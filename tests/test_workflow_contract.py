@@ -4,7 +4,7 @@ import unittest
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from lagebericht.schedule import due_outputs, due_periods, is_daily_time
+from lagebericht.schedule import due_outputs, due_periods, to_berlin
 
 
 ROOT = Path(__file__).parents[1]
@@ -43,24 +43,28 @@ class WorkflowContractTests(unittest.TestCase):
     def test_berlin_guard_and_period_schedule(self):
         berlin = timezone(timedelta(hours=2), "Europe/Berlin")
         sunday_month_end = datetime(2026, 5, 31, 6, 30, tzinfo=berlin)
-        self.assertTrue(is_daily_time(sunday_month_end))
+        self.assertEqual(to_berlin(sunday_month_end).date(), date(2026, 5, 31))
         self.assertEqual(due_periods(sunday_month_end.date()), {"week", "month"})
-        self.assertFalse(is_daily_time(datetime(2026, 5, 31, 5, 30, tzinfo=berlin)))
     def test_test_workflow_has_read_only_permissions_and_runs_tests(self):
         text = (ROOT / ".github" / "workflows" / "test.yml").read_text(encoding="utf-8")
         self.assertIn("contents: read", text)
         self.assertIn("python -m unittest discover -s tests -v", text)
         self.assertIn("pull_request:", text)
 
-    def test_daily_workflow_uses_anthropic_secret_models_and_two_dst_crons(self):
+    def test_daily_workflow_uses_anthropic_models_and_three_berlin_recovery_slots(self):
         text = (ROOT / ".github" / "workflows" / "daily-report.yml").read_text(encoding="utf-8")
         self.assertIn("secrets.ANTHROPIC_API_KEY", text)
         self.assertIn("ANTHROPIC_EXTRACTION_MODEL: claude-haiku-4-5-20251001", text)
         self.assertIn("ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6", text)
         self.assertNotIn("OPENAI_", text)
-        self.assertIn("30 4 * * *", text)
-        self.assertIn("30 5 * * *", text)
-        self.assertIn("Europe/Berlin", text)
+        self.assertEqual(text.count('timezone: "Europe/Berlin"'), 3)
+        for cron in ("45 5 * * *", "5 6 * * *", "25 6 * * *"):
+            self.assertIn(f"cron: '{cron}'", text)
+        self.assertIn("steps.schedule.outputs.daily == 'true'", text)
+        self.assertIn("steps.schedule.outputs.week == 'true'", text)
+        self.assertIn("steps.schedule.outputs.month == 'true'", text)
+        self.assertNotIn("steps.schedule.outputs.run", text)
+        self.assertIn("ref: main", text)
         self.assertNotIn("pull_request:", text)
 
     def test_all_actions_are_pinned_to_full_commit_sha(self):

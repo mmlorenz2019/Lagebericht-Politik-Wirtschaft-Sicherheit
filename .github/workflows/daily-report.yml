@@ -2,8 +2,12 @@ name: Täglicher Lagebericht
 
 on:
   schedule:
-    - cron: '30 4 * * *'
-    - cron: '30 5 * * *'
+    - cron: '45 5 * * *'
+      timezone: "Europe/Berlin"
+    - cron: '5 6 * * *'
+      timezone: "Europe/Berlin"
+    - cron: '25 6 * * *'
+      timezone: "Europe/Berlin"
   workflow_dispatch:
 
 concurrency:
@@ -18,6 +22,8 @@ jobs:
     steps:
       - name: Repository auschecken
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
       - name: Python einrichten
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
@@ -33,7 +39,7 @@ jobs:
           TZ: Europe/Berlin
         run: python -m lagebericht.schedule >> "$GITHUB_OUTPUT"
       - name: Tagesbericht erzeugen
-        if: steps.schedule.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.schedule.outputs.daily == 'true' || github.event_name == 'workflow_dispatch'
         env:
           PYTHONPATH: src
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -41,7 +47,7 @@ jobs:
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
         run: python scripts/run_daily.py --date "${{ steps.schedule.outputs.date }}"
       - name: Wochenbericht erzeugen
-        if: steps.schedule.outputs.week == 'true' && (steps.schedule.outputs.run == 'true' || github.event_name == 'workflow_dispatch')
+        if: steps.schedule.outputs.week == 'true'
         continue-on-error: true
         env:
           PYTHONPATH: src
@@ -49,7 +55,7 @@ jobs:
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
         run: python scripts/run_period.py week --end-date "${{ steps.schedule.outputs.date }}"
       - name: Monatsbericht erzeugen
-        if: steps.schedule.outputs.month == 'true' && (steps.schedule.outputs.run == 'true' || github.event_name == 'workflow_dispatch')
+        if: steps.schedule.outputs.month == 'true'
         continue-on-error: true
         env:
           PYTHONPATH: src
@@ -57,7 +63,7 @@ jobs:
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
         run: python scripts/run_period.py month --month "${{ steps.schedule.outputs.month_id }}"
       - name: Validierte Berichte versionieren
-        if: steps.schedule.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.schedule.outputs.daily == 'true' || steps.schedule.outputs.week == 'true' || steps.schedule.outputs.month == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

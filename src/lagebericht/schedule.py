@@ -24,11 +24,6 @@ def berlin_now() -> datetime:
     return to_berlin(datetime.now(timezone.utc))
 
 
-def is_daily_time(now: datetime) -> bool:
-    local = to_berlin(now)
-    return local.hour == 6 and local.minute == 30
-
-
 def due_periods(day: date) -> set[str]:
     result = set()
     if day.weekday() == 6:
