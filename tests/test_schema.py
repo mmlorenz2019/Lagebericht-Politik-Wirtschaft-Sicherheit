@@ -83,6 +83,15 @@ def daily_report():
     }
 
 
+def period_category(category_id="politics_society"):
+    value = category(category_id)
+    value["contextDe"] = [
+        "Der Hintergrund erklärt die Ausgangslage.",
+        "Die Bedeutung ergibt sich aus den möglichen Folgen.",
+    ]
+    return value
+
+
 def legacy_daily_report():
     report = daily_report()
     report["schemaVersion"] = 1
@@ -179,6 +188,41 @@ class PeriodReportValidationTests(unittest.TestCase):
 
     def test_accepts_valid_weekly_report(self):
         validate_period_report(self.valid_period(), ALLOWED_DOMAINS)
+
+    def valid_period_v3(self, period_type="week"):
+        report = self.valid_period()
+        report["schemaVersion"] = 3
+        report["periodType"] = period_type
+        report["overallSummary"] = [f"Satz {index + 1}." for index in range(8 if period_type == "week" else 12)]
+        if period_type == "month":
+            report["periodStart"] = "2026-07-01"
+            report["periodEnd"] = "2026-07-31"
+            report["sourceReportDates"] = ["2026-07-27", "2026-07-28", "2026-07-30", "2026-07-31"]
+            report["missingReportDates"] = ["2026-07-29"]
+        report["countries"] = [
+            {"id": "usa", "label": "USA", "sections": [period_category("politics_society")]},
+            {"id": "china", "label": "China", "sections": [period_category("economy_technology")]},
+            {"id": "montenegro", "label": "Montenegro", "sections": [period_category("foreign_security")]},
+        ]
+        return report
+
+    def test_accepts_version_three_week_and_month(self):
+        validate_period_report(self.valid_period_v3("week"), ALLOWED_DOMAINS)
+        validate_period_report(self.valid_period_v3("month"), ALLOWED_DOMAINS)
+
+    def test_rejects_version_three_summary_outside_period_limits(self):
+        for period_type, count in (("week", 7), ("week", 11), ("month", 11), ("month", 16)):
+            with self.subTest(period_type=period_type, count=count):
+                report = self.valid_period_v3(period_type)
+                report["overallSummary"] = [f"Satz {index + 1}." for index in range(count)]
+                with self.assertRaisesRegex(ReportValidationError, "overallSummary"):
+                    validate_period_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_version_three_published_section_with_one_context_sentence(self):
+        report = self.valid_period_v3()
+        report["countries"][0]["sections"][0]["contextDe"] = ["Nur ein Satz."]
+        with self.assertRaisesRegex(ReportValidationError, "contextDe"):
+            validate_period_report(report, ALLOWED_DOMAINS)
 
     def test_rejects_duplicate_or_missing_period_country(self):
         report = self.valid_period()

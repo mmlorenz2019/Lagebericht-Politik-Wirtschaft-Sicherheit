@@ -46,7 +46,7 @@ def main(argv=None) -> int:
             year, month = map(int, (args.month or today.strftime("%Y-%m")).split("-"))
             report = aggregator.build_month(year, month)
         if report is None:
-            print("Nicht genügend gültige Tagesberichte für diesen Zeitraum.", file=sys.stderr)
+            print("Keine gültigen Tagesberichte für diesen Zeitraum; Claude wurde nicht aufgerufen.", file=sys.stderr)
             return 3
         if args.dry_run:
             import json

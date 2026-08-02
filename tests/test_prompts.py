@@ -45,7 +45,16 @@ class PromptTests(unittest.TestCase):
         self.assertIn("Entwicklungslinien", instructions)
         self.assertIn("kein alleiniger Grund", instructions)
         self.assertIn("gesamten Zeitraum", instructions)
+        self.assertIn("8 bis 10", instructions)
+        self.assertIn("3 bis 6", instructions)
+        self.assertIn("2 bis 3", instructions)
+        self.assertIn("Momentaufnahme", instructions)
+        self.assertIn("keinen Trend", instructions)
         self.assertIn('"periodType": "week"', input_text)
+
+    def test_month_prompt_requires_twelve_to_fifteen_overall_sentences(self):
+        instructions, _ = build_period_prompt([{"reportDate": "2026-07-31"}], "month")
+        self.assertIn("12 bis 15", instructions)
 
 
 if __name__ == "__main__":

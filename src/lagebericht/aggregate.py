@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import calendar
+import copy
 import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -22,12 +23,13 @@ RATING_SCHEMA = {
 SECTION_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
-    "required": ["id", "status", "headlineDe", "summaryDe", "additionalImportant", "germanyRelevance", "overallSignificance", "sourceBasis", "limitations", "sources"],
+    "required": ["id", "status", "headlineDe", "summaryDe", "contextDe", "additionalImportant", "germanyRelevance", "overallSignificance", "sourceBasis", "limitations", "sources"],
     "properties": {
         "id": {"enum": ["politics_society", "economy_technology", "foreign_security"]},
         "status": {"enum": ["published", "no_major_development", "unavailable"]},
         "headlineDe": {"type": "string", "maxLength": 180},
         "summaryDe": {"type": "array", "maxItems": 6, "items": {"type": "string", "maxLength": 500}},
+        "contextDe": {"type": "array", "minItems": 0, "maxItems": 3, "items": {"type": "string", "maxLength": 500}},
         "additionalImportant": {"type": ["string", "null"], "maxLength": 500},
         "germanyRelevance": {"anyOf": [RATING_SCHEMA, {"type": "null"}]},
         "overallSignificance": {"anyOf": [RATING_SCHEMA, {"type": "null"}]},
@@ -47,6 +49,20 @@ SECTION_SCHEMA = {
         },
     },
 }
+
+
+def period_content_schema(period_type: str) -> dict:
+    if period_type == "week":
+        minimum, maximum = 8, 10
+    elif period_type == "month":
+        minimum, maximum = 12, 15
+    else:
+        raise ValueError("period_type must be week or month")
+    schema = copy.deepcopy(PERIOD_CONTENT_SCHEMA)
+    summary = schema["properties"]["overallSummary"]
+    summary["minItems"] = minimum
+    summary["maxItems"] = maximum
+    return schema
 
 PERIOD_CONTENT_SCHEMA = {
     "type": "object",
@@ -100,9 +116,10 @@ class PeriodAggregator:
         if len(reports) < minimum:
             return None
         instructions, input_text = build_period_prompt(reports, period_type)
-        content = self.ai_client.generate_json(self.model, instructions, input_text, "period_content", PERIOD_CONTENT_SCHEMA)
+        schema = period_content_schema(period_type)
+        content = self.ai_client.generate_json(self.model, instructions, input_text, "period_content", schema)
         report = {
-            "schemaVersion": 2,
+            "schemaVersion": 3,
             "periodType": period_type,
             "periodStart": start.isoformat(),
             "periodEnd": end.isoformat(),
@@ -117,9 +134,9 @@ class PeriodAggregator:
         return report
 
     def build_week(self, end_date: date) -> dict | None:
-        return self._build("week", end_date - timedelta(days=6), end_date, 4)
+        return self._build("week", end_date - timedelta(days=6), end_date, 1)
 
     def build_month(self, year: int, month: int) -> dict | None:
         start = date(year, month, 1)
         end = date(year, month, calendar.monthrange(year, month)[1])
-        return self._build("month", start, end, 20)
+        return self._build("month", start, end, 1)

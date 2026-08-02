@@ -1,6 +1,7 @@
 import os
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -29,6 +30,19 @@ class DailyCliTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0)
         self.assertIn("week", result.stdout)
         self.assertIn("month", result.stdout)
+
+    def test_period_without_daily_reports_does_not_call_claude(self):
+        env = {**os.environ, "PYTHONPATH": str(ROOT / "src"), "ANTHROPIC_API_KEY": "test-key"}
+        with tempfile.TemporaryDirectory() as folder:
+            result = subprocess.run(
+                [sys.executable, "scripts/run_period.py", "week", "--end-date", "2026-08-02", "--data-root", folder],
+                cwd=ROOT,
+                env=env,
+                capture_output=True,
+                text=True,
+            )
+        self.assertEqual(result.returncode, 3)
+        self.assertIn("Keine gültigen Tagesberichte für diesen Zeitraum; Claude wurde nicht aufgerufen.", result.stderr)
 
 
 if __name__ == "__main__":

@@ -87,8 +87,10 @@ def _category(item: dict, path: str, allowed_domains: set[str], schema_version: 
         "id", "status", "headlineDe", "summaryDe", "additionalImportant",
         "germanyRelevance", "sourceBasis", "limitations", "sources",
     }
-    if schema_version == 2:
+    if schema_version >= 2:
         allowed.add("overallSignificance")
+    if schema_version == 3:
+        allowed.add("contextDe")
     _object(item, path, allowed, allowed)
     if item["id"] not in CATEGORY_IDS:
         _fail(f"{path}.id", "unknown category")
@@ -99,6 +101,12 @@ def _category(item: dict, path: str, allowed_domains: set[str], schema_version: 
         _fail(f"{path}.summaryDe", "must be an array with at most 6 sentences")
     for index, sentence in enumerate(item["summaryDe"]):
         _string(sentence, f"{path}.summaryDe[{index}]", 500)
+    if schema_version == 3:
+        context = item["contextDe"]
+        if not isinstance(context, list) or len(context) > 3:
+            _fail(f"{path}.contextDe", "must be an array with at most 3 sentences")
+        for index, sentence in enumerate(context):
+            _string(sentence, f"{path}.contextDe[{index}]", 500)
     if item["additionalImportant"] is not None:
         _string(item["additionalImportant"], f"{path}.additionalImportant", 500)
     if schema_version == 1:
@@ -120,7 +128,9 @@ def _category(item: dict, path: str, allowed_domains: set[str], schema_version: 
     if item["status"] == "published":
         if not item["headlineDe"] or not (3 <= len(item["summaryDe"]) <= 6) or not item["sources"]:
             _fail(path, "published categories require headline, 3-6 sentences and sources")
-    elif item["headlineDe"] or item["summaryDe"] or item["sources"] or item["sourceBasis"] != "none":
+        if schema_version == 3 and not (2 <= len(item["contextDe"]) <= 3):
+            _fail(f"{path}.contextDe", "published categories require 2-3 context sentences")
+    elif item["headlineDe"] or item["summaryDe"] or item["sources"] or item["sourceBasis"] != "none" or (schema_version == 3 and item["contextDe"]):
         _fail(path, "empty category status must not contain story content")
 
 
@@ -161,8 +171,8 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
     }
     _object(report, "report", top, top)
     schema_version = report["schemaVersion"]
-    if schema_version not in {1, 2} or isinstance(schema_version, bool):
-        _fail("schemaVersion", "must be 1 or 2")
+    if schema_version not in {1, 2, 3} or isinstance(schema_version, bool):
+        _fail("schemaVersion", "must be 1, 2 or 3")
     if report["periodType"] not in {"week", "month"}:
         _fail("periodType", "must be week or month")
     start = date.fromisoformat(_iso_date(report["periodStart"], "periodStart"))
@@ -172,8 +182,12 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
     _iso_datetime(report["generatedAt"], "generatedAt")
     if report["status"] not in REPORT_STATUS:
         _fail("status", "unknown report status")
-    if not isinstance(report["overallSummary"], list) or not (1 <= len(report["overallSummary"]) <= 8):
-        _fail("overallSummary", "must contain 1-8 sentences")
+    if schema_version == 3:
+        limits = (8, 10) if report["periodType"] == "week" else (12, 15)
+    else:
+        limits = (1, 8)
+    if not isinstance(report["overallSummary"], list) or not (limits[0] <= len(report["overallSummary"]) <= limits[1]):
+        _fail("overallSummary", f"must contain {limits[0]}-{limits[1]} sentences")
     for index, sentence in enumerate(report["overallSummary"]):
         _string(sentence, f"overallSummary[{index}]", 500)
     if not isinstance(report["countries"], list) or len(report["countries"]) != 3:

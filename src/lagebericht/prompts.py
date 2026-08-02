@@ -66,13 +66,21 @@ def build_daily_repair_prompt(
 def build_period_prompt(reports: list[dict], period_type: str) -> tuple[str, str]:
     if period_type not in {"week", "month"}:
         raise ValueError("period_type must be week or month")
+    overall_length = "8 bis 10" if period_type == "week" else "12 bis 15"
+    snapshot_rule = (
+        "Da genau ein Tagesbericht vorliegt, bezeichne die Aussagen als Momentaufnahme und leite daraus keinen Trend ab. "
+        if len(reports) == 1 else ""
+    )
     instructions = (
         "Verdichte validierte Tagesberichte zu Entwicklungslinien auf Deutsch. Beginne mit einer kurzen Gesamtlage "
-        "über alle drei Länder und gliedere danach USA, China und Montenegro. Beschreibe Ausgangslage, wesentliche "
+        f"über alle drei Länder mit {overall_length} Sätzen und gliedere danach USA, China und Montenegro. "
+        "Jede veröffentlichte Entwicklung enthält 3 bis 6 Sätze zum Verlauf sowie im Feld contextDe 2 bis 3 "
+        "zusätzliche Sätze zur Ausgangslage, Bedeutung und möglichen Folge. Beschreibe Ausgangslage, wesentliche "
         "Veränderung und Stand am Periodenende. Aneinandergereihte Wiederholungen sind verboten. Der Monatsbericht "
         "muss Trends eigenständig verdichten und darf nicht nur Wochenberichte kopieren. Vorhandene Bewertungen "
         "dürfen die Reihenfolge unterstützen, sind aber kein alleiniger Grund, eine belegte Entwicklung auszulassen. "
-        "Bewerte Deutschland-Bezug und allgemeine Tragweite neu für den gesamten Zeitraum."
+        "Bewerte Deutschland-Bezug und allgemeine Tragweite neu für den gesamten Zeitraum. "
+        + snapshot_rule
     )
     payload = {"periodType": period_type, "dailyReports": reports}
     return instructions, f"<trusted_daily_reports>{_safe_json(payload)}</trusted_daily_reports>"

@@ -6,7 +6,7 @@ from pathlib import Path
 
 from lagebericht.aggregate import PeriodAggregator, load_period_reports
 from lagebericht.publish import Publisher
-from tests.test_schema import ALLOWED_DOMAINS, category, daily_report, legacy_daily_report
+from tests.test_schema import ALLOWED_DOMAINS, daily_report, legacy_daily_report, period_category
 
 
 class ContentAI:
@@ -15,12 +15,13 @@ class ContentAI:
 
     def generate_json(self, model, instructions, input_text, schema_name, schema):
         self.models.append(model)
+        count = schema["properties"]["overallSummary"]["minItems"]
         return {
-            "overallSummary": ["Der Zeitraum war durch mehrere wichtige Entscheidungen geprägt."],
+            "overallSummary": [f"Satz {index + 1}." for index in range(count)],
             "countries": [
-                {"id": "usa", "label": "USA", "sections": [category("politics_society")]},
-                {"id": "china", "label": "China", "sections": [category("economy_technology")]},
-                {"id": "montenegro", "label": "Montenegro", "sections": [category("foreign_security")]},
+                {"id": "usa", "label": "USA", "sections": [period_category("politics_society")]},
+                {"id": "china", "label": "China", "sections": [period_category("economy_technology")]},
+                {"id": "montenegro", "label": "Montenegro", "sections": [period_category("foreign_security")]},
             ],
         }
 
@@ -55,7 +56,8 @@ class AggregateTests(unittest.TestCase):
         self.assertEqual(report["status"], "partial")
         self.assertEqual(len(report["sourceReportDates"]), 4)
         self.assertEqual(ai.models, ["claude-sonnet-4-6"])
-        self.assertEqual(report["schemaVersion"], 2)
+        self.assertEqual(report["schemaVersion"], 3)
+        self.assertEqual(len(report["overallSummary"]), 8)
         section = report["countries"][0]["sections"][0]
         self.assertEqual(section["germanyRelevance"]["score"], 1)
         self.assertEqual(section["overallSignificance"]["score"], 2)
@@ -70,20 +72,34 @@ class AggregateTests(unittest.TestCase):
 
         result = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
 
-        self.assertEqual(result["schemaVersion"], 2)
+        self.assertEqual(result["schemaVersion"], 3)
         self.assertEqual(result["sourceReportDates"], [
             "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30",
         ])
 
-    def test_returns_none_when_week_has_fewer_than_four_days(self):
-        self.publish_days(date(2026, 7, 27), 3)
-        self.assertIsNone(PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2)))
+    def test_builds_snapshot_week_from_one_day(self):
+        self.publish_days(date(2026, 8, 2), 1)
+        report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+        self.assertEqual(report["schemaVersion"], 3)
+        self.assertEqual(report["sourceReportDates"], ["2026-08-02"])
+        self.assertEqual(len(report["overallSummary"]), 8)
+        self.assertEqual(len(report["countries"][0]["sections"][0]["contextDe"]), 2)
+
+    def test_returns_none_without_calling_ai_when_period_has_no_days(self):
+        ai = ContentAI()
+        self.assertIsNone(PeriodAggregator(self.root, ai, ALLOWED_DOMAINS).build_week(date(2026, 8, 2)))
+        self.assertEqual(ai.models, [])
 
     def test_builds_leap_month_with_twenty_days(self):
         self.publish_days(date(2028, 2, 1), 20)
         report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_month(2028, 2)
         self.assertEqual(report["periodEnd"], "2028-02-29")
         self.assertEqual(len(report["missingReportDates"]), 9)
+
+    def test_month_requests_twelve_to_fifteen_summary_sentences(self):
+        self.publish_days(date(2026, 7, 31), 1)
+        report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_month(2026, 7)
+        self.assertEqual(len(report["overallSummary"]), 12)
 
 
 if __name__ == "__main__":
