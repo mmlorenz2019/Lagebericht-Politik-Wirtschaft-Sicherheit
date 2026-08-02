@@ -73,10 +73,12 @@ def period_artifact_complete(path: Path, expected_end: date, data_root: Path) ->
     expected_type = "week" if path.parent.name == "weekly" else "month" if path.parent.name == "monthly" else None
     if expected_type is None or report.get("periodType") != expected_type:
         return False
-    start = date.fromisoformat(report["periodStart"])
+    expected_start = expected_end - timedelta(days=6) if expected_type == "week" else expected_end.replace(day=1)
+    if report.get("periodStart") != expected_start.isoformat():
+        return False
     expected_dates = {
-        (start + timedelta(days=offset)).isoformat()
-        for offset in range((expected_end - start).days + 1)
+        (expected_start + timedelta(days=offset)).isoformat()
+        for offset in range((expected_end - expected_start).days + 1)
     }
     if set(sources) | set(missing) != expected_dates:
         return False

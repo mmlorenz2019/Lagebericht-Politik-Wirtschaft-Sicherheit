@@ -147,6 +147,34 @@ class WorkflowContractTests(unittest.TestCase):
                 weekly.write_text(json.dumps(report), encoding="utf-8")
                 self.assertTrue(due_outputs(date(2026, 8, 3), root)["week"])
 
+    def test_shortened_week_and_month_artifacts_remain_due(self):
+        cases = [
+            (date(2026, 8, 3), "weekly/2026-W31.json", {
+                **valid_week_report(["2026-08-02"]),
+                "periodStart": "2026-08-02",
+                "missingReportDates": [],
+                "status": "complete",
+            }, "2026-08-02", "week"),
+            (date(2026, 8, 1), "monthly/2026-07.json", {
+                **valid_week_report(["2026-07-31"]),
+                "periodType": "month",
+                "periodStart": "2026-07-31",
+                "periodEnd": "2026-07-31",
+                "missingReportDates": [],
+                "status": "complete",
+            }, "2026-07-31", "month"),
+        ]
+        for run_date, relative, report, source_date, key in cases:
+            with self.subTest(key=key), tempfile.TemporaryDirectory() as folder:
+                root = Path(folder)
+                daily = root / "daily" / f"{source_date}.json"
+                daily.parent.mkdir(parents=True)
+                daily.write_text("{}", encoding="utf-8")
+                artifact = root / relative
+                artifact.parent.mkdir(parents=True)
+                artifact.write_text(json.dumps(report), encoding="utf-8")
+                self.assertTrue(due_outputs(run_date, root)[key])
+
     def test_monday_after_new_year_uses_previous_iso_week_filename(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
