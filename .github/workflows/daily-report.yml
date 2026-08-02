@@ -53,7 +53,7 @@ jobs:
           PYTHONPATH: src
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
-        run: python scripts/run_period.py week --end-date "${{ steps.schedule.outputs.date }}"
+        run: python scripts/run_period.py week --end-date "${{ steps.schedule.outputs.week_end }}"
       - name: Monatsbericht erzeugen
         if: steps.schedule.outputs.month == 'true'
         continue-on-error: true
@@ -63,7 +63,7 @@ jobs:
           ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6
         run: python scripts/run_period.py month --month "${{ steps.schedule.outputs.month_id }}"
       - name: Validierte Berichte versionieren
-        if: steps.schedule.outputs.daily == 'true' || steps.schedule.outputs.week == 'true' || steps.schedule.outputs.month == 'true' || github.event_name == 'workflow_dispatch'
+        if: always() && (steps.schedule.outputs.daily == 'true' || steps.schedule.outputs.week == 'true' || steps.schedule.outputs.month == 'true' || github.event_name == 'workflow_dispatch')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -71,3 +71,8 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "data: update briefing ${{ steps.schedule.outputs.date }}"
           git push
+      - name: Fällige Rückblicke abschließend prüfen
+        if: always()
+        env:
+          PYTHONPATH: src
+        run: python scripts/verify_periods.py --run-date "${{ steps.schedule.outputs.date }}" --data-root data

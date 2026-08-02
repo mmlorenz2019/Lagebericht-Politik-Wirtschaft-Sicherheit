@@ -1,5 +1,8 @@
 import json
+import os
 import re
+import subprocess
+import sys
 import tempfile
 import unittest
 from datetime import date, datetime, timedelta, timezone
@@ -12,6 +15,37 @@ ROOT = Path(__file__).parents[1]
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_period_verifier_reports_missing_week_and_accepts_partial_artifact(self):
+        env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            daily = root / "daily" / "2026-08-02.json"
+            daily.parent.mkdir(parents=True)
+            daily.write_text("{}", encoding="utf-8")
+            command = [
+                sys.executable,
+                "scripts/verify_periods.py",
+                "--run-date",
+                "2026-08-03",
+                "--data-root",
+                str(root),
+            ]
+            missing = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True)
+            self.assertEqual(missing.returncode, 1)
+            self.assertIn("Fehlender Wochenbericht: 2026-W31", missing.stderr)
+
+            weekly = root / "weekly" / "2026-W31.json"
+            weekly.parent.mkdir(parents=True)
+            weekly.write_text(json.dumps({
+                "periodEnd": "2026-08-02",
+                "sourceReportDates": ["2026-08-02"],
+                "missingReportDates": [
+                    "2026-07-27", "2026-07-28", "2026-07-29",
+                    "2026-07-30", "2026-07-31", "2026-08-01",
+                ],
+            }), encoding="utf-8")
+            complete = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True)
+            self.assertEqual(complete.returncode, 0)
     def test_monday_targets_previous_calendar_week(self):
         targets = period_targets(date(2026, 8, 3))
         self.assertEqual(targets.week_end, date(2026, 8, 2))
@@ -109,6 +143,12 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("steps.schedule.outputs.daily == 'true'", text)
         self.assertIn("steps.schedule.outputs.week == 'true'", text)
         self.assertIn("steps.schedule.outputs.month == 'true'", text)
+        self.assertIn("steps.schedule.outputs.week_end", text)
+        self.assertIn("if: always()", text)
+        self.assertIn("python scripts/verify_periods.py", text)
+        self.assertEqual(text.count("continue-on-error: true"), 2)
+        self.assertRegex(text, r"(?s)- name: Wochenbericht erzeugen.*?continue-on-error: true")
+        self.assertRegex(text, r"(?s)- name: Monatsbericht erzeugen.*?continue-on-error: true")
         self.assertNotIn("steps.schedule.outputs.run", text)
         self.assertIn("ref: main", text)
         self.assertNotIn("pull_request:", text)
@@ -133,7 +173,8 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("workflow_run:", text)
         self.assertIn('workflows: ["Täglicher Lagebericht"]', text)
         self.assertIn("types: [completed]", text)
-        self.assertIn("github.event.workflow_run.conclusion == 'success'", text)
+        self.assertIn("github.event.workflow_run.conclusion", text)
+        self.assertNotIn("github.event.workflow_run.conclusion == 'success'", text)
         self.assertIn("ref: main", text)
         self.assertIn("contents: read", text)
         self.assertIn("pages: write", text)
