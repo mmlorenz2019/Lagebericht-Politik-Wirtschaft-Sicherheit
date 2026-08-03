@@ -6,11 +6,15 @@ import tempfile
 import unittest
 
 from lagebericht.costs import (
+    CostContext,
     CostDataError,
+    CostRecorder,
     berlin_month,
+    context_from_environment,
     estimate_cost,
     load_pricing,
     normalize_usage,
+    validate_cost_report,
 )
 
 
@@ -287,6 +291,157 @@ class CostReportSchemaTests(unittest.TestCase):
         self.assertEqual(
             condition["else"]["properties"]["usage"], {"type": "null"}
         )
+
+
+class CostRecorderTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.pricing_path = ROOT / "config" / "api-pricing.json"
+        self.model = "claude-haiku-4-5-20251001"
+        self.moment = datetime(2026, 8, 3, 10, 0, tzinfo=timezone.utc)
+        self.now = lambda: self.moment
+
+    def read_report(self):
+        return json.loads(
+            (self.root / "costs" / "2026-08.json").read_text(encoding="utf-8")
+        )
+
+    def test_context_uses_github_environment_or_local_defaults(self):
+        self.assertEqual(
+            context_from_environment("daily", "2026-08-03", {}),
+            CostContext("daily", "2026-08-03", "local", "1"),
+        )
+        self.assertEqual(
+            context_from_environment(
+                "week",
+                "2026-W31",
+                {"GITHUB_RUN_ID": "77", "GITHUB_RUN_ATTEMPT": "2"},
+            ),
+            CostContext("week", "2026-W31", "77", "2"),
+        )
+
+    def test_recorder_writes_measured_and_unmeasured_events_and_rebuilds_index(self):
+        recorder = CostRecorder(
+            self.root,
+            self.pricing_path,
+            CostContext("daily", "2026-08-03", "run-7", "1"),
+            now=self.now,
+        )
+
+        recorder.observe(
+            self.model,
+            {"input_tokens": 1000, "output_tokens": 200, "prompt": "private"},
+            "end_turn",
+        )
+        recorder.observe("claude-sonnet-4-6", None, "transport_error")
+
+        report = self.read_report()
+        self.assertEqual(report["unmeasuredCalls"], 1)
+        self.assertEqual(len(report["events"]), 2)
+        self.assertTrue(report["events"][0]["measured"])
+        self.assertFalse(report["events"][1]["measured"])
+        self.assertEqual(
+            set(report["events"][0]["usage"]),
+            {
+                "input_tokens",
+                "output_tokens",
+                "cache_creation_input_tokens",
+                "cache_read_input_tokens",
+            },
+        )
+        self.assertNotIn("private", json.dumps(report))
+        self.assertTrue(validate_cost_report(report, expected_month="2026-08"))
+        index = json.loads((self.root / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(
+            index["currentCosts"],
+            {"month": "2026-08", "path": "data/costs/2026-08.json"},
+        )
+
+    def test_recorder_deduplicates_same_run_attempt_and_call_number(self):
+        context = CostContext("daily", "2026-08-03", "run-7", "1")
+        first = CostRecorder(self.root, self.pricing_path, context, now=self.now)
+        first.observe(self.model, {"input_tokens": 10, "output_tokens": 5}, "end_turn")
+        repeated = CostRecorder(self.root, self.pricing_path, context, now=self.now)
+        repeated.observe(self.model, {"input_tokens": 10, "output_tokens": 5}, "end_turn")
+
+        self.assertEqual(len(self.read_report()["events"]), 1)
+
+    def test_recorder_marks_malformed_or_unpriced_usage_unmeasured(self):
+        recorder = CostRecorder(
+            self.root,
+            self.pricing_path,
+            CostContext("month", "2026-08", "run-8", "1"),
+            now=self.now,
+        )
+
+        recorder.observe(
+            self.model, {"input_tokens": -1, "output_tokens": 2}, "end_turn"
+        )
+        recorder.observe(
+            "unknown-model", {"input_tokens": 1, "output_tokens": 2}, "refusal"
+        )
+
+        report = self.read_report()
+        self.assertEqual(report["unmeasuredCalls"], 2)
+        for event in report["events"]:
+            self.assertFalse(event["measured"])
+            self.assertIsNone(event["usage"])
+            self.assertIsNone(event["estimatedCostUsd"])
+            self.assertIsNone(event["estimatedCostEur"])
+
+    def test_recorder_recomputes_totals_and_keeps_percentage_above_one_hundred(self):
+        recorder = CostRecorder(
+            self.root,
+            self.pricing_path,
+            CostContext("daily", "2026-08-03", "run-9", "1"),
+            now=self.now,
+        )
+
+        recorder.observe(
+            self.model,
+            {"input_tokens": 1_000_000, "output_tokens": 1_000_000},
+            "max_tokens",
+        )
+
+        report = self.read_report()
+        self.assertEqual(report["estimatedCostUsd"], 6.0)
+        self.assertEqual(report["estimatedCostEur"], 5.268)
+        self.assertEqual(report["budgetPercent"], 105.4)
+
+    def test_recorder_rejects_unknown_outcome_without_creating_a_ledger(self):
+        recorder = CostRecorder(
+            self.root,
+            self.pricing_path,
+            CostContext("daily", "2026-08-03", "run-10", "1"),
+            now=self.now,
+        )
+
+        with self.assertRaisesRegex(CostDataError, "outcome"):
+            recorder.observe(self.model, None, "other")
+
+        self.assertFalse((self.root / "costs" / "2026-08.json").exists())
+
+    def test_validator_rejects_sensitive_or_inconsistent_public_artifacts(self):
+        recorder = CostRecorder(
+            self.root,
+            self.pricing_path,
+            CostContext("daily", "2026-08-03", "run-11", "1"),
+            now=self.now,
+        )
+        recorder.observe(self.model, {"input_tokens": 1, "output_tokens": 1}, "end_turn")
+        valid = self.read_report()
+
+        leaked = json.loads(json.dumps(valid))
+        leaked["events"][0]["requestId"] = "provider-id"
+        inconsistent = json.loads(json.dumps(valid))
+        inconsistent["events"][0]["measured"] = False
+
+        with self.assertRaises(CostDataError):
+            validate_cost_report(leaked, expected_month="2026-08")
+        with self.assertRaises(CostDataError):
+            validate_cost_report(inconsistent, expected_month="2026-08")
 
 
 if __name__ == "__main__":

@@ -8,6 +8,23 @@ from lagebericht.schema import ReportValidationError
 from tests.test_schema import ALLOWED_DOMAINS, daily_report
 
 
+def valid_cost_report(month="2026-08"):
+    return {
+        "schemaVersion": 1,
+        "month": month,
+        "timezone": "Europe/Berlin",
+        "budgetEur": 5.0,
+        "estimatedCostUsd": 0.0,
+        "estimatedCostEur": 0.0,
+        "budgetPercent": 0.0,
+        "unmeasuredCalls": 0,
+        "collectionStartedAt": "2026-08-03T00:00:00+02:00",
+        "priceVersion": "anthropic-2026-08-03",
+        "rate": {"usdToEur": 0.878, "effectiveDate": "2026-07-27"},
+        "events": [],
+    }
+
+
 class PublishTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -85,6 +102,76 @@ class PublishTests(unittest.TestCase):
             "period": "2026-W31",
             "path": "data/weekly/2026-W31.json",
         }])
+
+    def test_rebuild_index_exposes_latest_valid_cost_month(self):
+        costs = self.root / "costs" / "2026-08.json"
+        costs.parent.mkdir(parents=True)
+        costs.write_text(json.dumps(valid_cost_report()), encoding="utf-8")
+
+        index = rebuild_index(self.root)
+
+        self.assertEqual(index["schemaVersion"], 2)
+        self.assertEqual(
+            index["currentCosts"],
+            {"month": "2026-08", "path": "data/costs/2026-08.json"},
+        )
+
+    def test_rebuild_index_skips_newer_invalid_or_mismatched_cost_artifacts(self):
+        costs = self.root / "costs"
+        costs.mkdir(parents=True)
+        (costs / "2026-08.json").write_text(
+            json.dumps(valid_cost_report("2026-08")), encoding="utf-8"
+        )
+        incomplete = {"schemaVersion": 1, "month": "2026-10"}
+        (costs / "2026-10.json").write_text(json.dumps(incomplete), encoding="utf-8")
+        (costs / "2026-09.json").write_text(
+            json.dumps(valid_cost_report("2026-07")), encoding="utf-8"
+        )
+
+        index = rebuild_index(self.root)
+
+        self.assertEqual(
+            index["currentCosts"],
+            {"month": "2026-08", "path": "data/costs/2026-08.json"},
+        )
+
+    def test_rebuild_index_returns_null_when_no_cost_artifact_is_valid(self):
+        costs = self.root / "costs" / "2026-08.json"
+        costs.parent.mkdir(parents=True)
+        costs.write_text("not json", encoding="utf-8")
+
+        index = rebuild_index(self.root)
+
+        self.assertIsNone(index["currentCosts"])
+
+    def test_rebuild_index_controls_extreme_decimal_data_in_cost_artifact(self):
+        costs = self.root / "costs" / "2026-08.json"
+        costs.parent.mkdir(parents=True)
+        report = valid_cost_report()
+        report["estimatedCostUsd"] = 1e300
+        report["estimatedCostEur"] = 1e300
+        report["events"] = [{
+            "eventId": "a" * 64,
+            "occurredAt": "2026-08-03T10:00:00+00:00",
+            "reportType": "daily",
+            "reportId": "2026-08-03",
+            "model": "claude-haiku-4-5-20251001",
+            "outcome": "end_turn",
+            "measured": True,
+            "usage": {
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "cache_creation_input_tokens": 0,
+                "cache_read_input_tokens": 0,
+            },
+            "estimatedCostUsd": 1e300,
+            "estimatedCostEur": 1e300,
+        }]
+        costs.write_text(json.dumps(report), encoding="utf-8")
+
+        index = rebuild_index(self.root)
+
+        self.assertIsNone(index["currentCosts"])
 
 
 if __name__ == "__main__":

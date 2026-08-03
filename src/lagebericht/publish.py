@@ -5,6 +5,7 @@ import os
 import tempfile
 from pathlib import Path
 
+from .costs import CostDataError, validate_cost_report
 from .schema import validate_daily_report, validate_period_report
 
 
@@ -43,12 +44,27 @@ def rebuild_index(data_root: Path) -> dict:
     daily_dates = {entry["date"] for entry in daily}
     weekly = _period_entries(data_root / "weekly", "period", daily_dates)
     monthly = _period_entries(data_root / "monthly", "period", daily_dates)
+    current_costs = None
+    costs_directory = data_root / "costs"
+    if costs_directory.exists():
+        for path in sorted(costs_directory.glob("*.json"), reverse=True):
+            try:
+                report = json.loads(path.read_text(encoding="utf-8"))
+                validate_cost_report(report, expected_month=path.stem)
+            except (OSError, UnicodeError, json.JSONDecodeError, CostDataError):
+                continue
+            current_costs = {
+                "month": path.stem,
+                "path": f"data/costs/{path.name}",
+            }
+            break
     return {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "latestDaily": daily[0]["date"] if daily else None,
         "daily": daily,
         "weekly": weekly,
         "monthly": monthly,
+        "currentCosts": current_costs,
     }
 
 
