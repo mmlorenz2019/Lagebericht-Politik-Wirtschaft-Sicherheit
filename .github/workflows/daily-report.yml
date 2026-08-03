@@ -41,7 +41,7 @@ jobs:
           TZ: Europe/Berlin
         run: python -m lagebericht.schedule >> "$GITHUB_OUTPUT"
       - name: Tagesbericht erzeugen
-        if: steps.schedule.outputs.daily == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.schedule.outputs.daily == 'true'
         env:
           PYTHONPATH: src
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

@@ -36,7 +36,7 @@ Standardmodelle sind `claude-haiku-4-5-20251001` für Extraktion und `claude-son
 4. Unter **Settings → Pages** die Veröffentlichung aus dem Standardbranch und dem Stammverzeichnis aktivieren.
 5. Den Workflow **Täglicher Lagebericht** einmal manuell starten und die erzeugten Daten prüfen.
 
-Der Zeitplan arbeitet ausdrücklich in `Europe/Berlin` und berücksichtigt Sommer- und Winterzeit automatisch. Er startet um 05:47 Uhr sowie ersatzweise um 07:17, 09:37 und 11:53 Uhr. Die bewusst verteilten Minuten verringern das Risiko, dass GitHub geplante Läufe bei hoher Auslastung verwirft. Vor jedem automatischen Claude-Aufruf wird geprüft, ob der Tagesbericht bereits vorhanden ist; dadurch verursacht höchstens einer dieser Läufe Kosten. Fällige Wochen- und Monatsberichte werden unabhängig geprüft und können von einem Ersatzlauf nachgeholt werden. Eine manuelle Workflow-Ausführung bleibt eine bewusste Neuausführung.
+Der Zeitplan arbeitet ausdrücklich in `Europe/Berlin` und berücksichtigt Sommer- und Winterzeit automatisch. Er startet um 05:47 Uhr sowie ersatzweise um 07:17, 09:37 und 11:53 Uhr. Die bewusst verteilten Minuten verringern das Risiko, dass GitHub geplante Läufe bei hoher Auslastung verwirft. Vor jedem Claude-Aufruf wird geprüft, ob der jeweilige Bericht bereits vorhanden ist; dadurch verursacht höchstens einer dieser Läufe Kosten. Fällige Wochen- und Monatsberichte werden unabhängig geprüft und können von einem Ersatzlauf nachgeholt werden. Auch eine manuelle Workflow-Ausführung erzeugt nur noch fehlende Berichte neu.
 
 ## Wochen- und Monatsberichte
 

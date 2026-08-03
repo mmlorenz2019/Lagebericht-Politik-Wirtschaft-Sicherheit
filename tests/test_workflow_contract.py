@@ -217,6 +217,10 @@ class WorkflowContractTests(unittest.TestCase):
         for cron in ("47 5 * * *", "17 7 * * *", "37 9 * * *", "53 11 * * *"):
             self.assertIn(f"cron: '{cron}'", text)
         self.assertIn("steps.schedule.outputs.daily == 'true'", text)
+        self.assertNotIn(
+            "steps.schedule.outputs.daily == 'true' || github.event_name == 'workflow_dispatch'",
+            text,
+        )
         self.assertIn("steps.schedule.outputs.week == 'true'", text)
         self.assertIn("steps.schedule.outputs.month == 'true'", text)
         self.assertIn("steps.schedule.outputs.week_end", text)
