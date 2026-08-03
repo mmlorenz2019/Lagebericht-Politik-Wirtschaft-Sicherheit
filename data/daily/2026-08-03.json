@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-03",
+  "generatedAt": "2026-08-03T11:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Millionen Amerikaner verlieren Lebensmittelhilfe durch SNAP-Kürzungen",
+          "summaryDe": [
+            "Über vier Millionen Menschen haben seit Juli 2025 aufgehört, SNAP-Lebensmittelhilfe zu erhalten, was auf weitreichende Programmkürzungen und -änderungen zurückzuführen ist.",
+            "Die Beteiligung am staatlichen Ernährungshilfeprogramm ist seither kontinuierlich gesunken, wobei historisch einmalige Einschnitte als Hauptursache gelten.",
+            "Dies betrifft vor allem einkommensschwache Haushalte, Familien mit Kindern sowie ältere Menschen, die auf die Unterstützung angewiesen sind.",
+            "Sozialpolitische Organisationen warnen vor einer wachsenden Versorgungslücke und steigender Ernährungsunsicherheit in betroffenen Bundesstaaten.",
+            "Die Entwicklung gilt als Teil umfassenderer Sparmaßnahmen der aktuellen Bundesregierung im Sozialleistungsbereich."
+          ],
+          "additionalImportant": "Das Justizministerium geht zunehmend mit Bundesverschwörungsvorwürfen gegen Protestierende vor, die sich gegen ICE-Abschiebungen stellen, was Rechtsexperten als unverhältnismäßig kritisieren.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant als Beobachtungsfall für Sozialstaatsabbau unter populistischen Regierungen, ohne direkte Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Streichung von Lebensmittelhilfe für Millionen Menschen stellt eine größere sozialpolitische Veränderung in der weltgrößten Volkswirtschaft dar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Izabrani izvođači za gradnju Bulevara Velje brdo i izradu Glavnog proekta bloka a1",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/820557/izabrani-izvodjaci-za-gradnju-bulevara-velje-brdo-i-izradu-glavnog-proekta-bloka-a1",
+              "publishedAt": "2026-08-03T09:59:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA entkoppeln Rüstungsindustrie von chinesischen Seltenen Erden",
+          "summaryDe": [
+            "Eine neue Exekutivorder verpflichtet große US-Rüstungsunternehmen, ihre Lieferketten auf chinesische Mineralien zu überprüfen und diese schrittweise zu ersetzen.",
+            "Ziel ist die Verringerung strategischer Abhängigkeiten von China im Bereich kritischer Rohstoffe, die für moderne Waffensysteme unverzichtbar sind.",
+            "Die Maßnahme wird von Befürwortern als sicherheitspolitisch überfällig begrüßt, während Kritiker auf erhebliche Kosten und Lieferengpässe für die Industrie hinweisen.",
+            "China kontrolliert einen Großteil der weltweiten Verarbeitung Seltener Erden und kann diese Dominanz als geopolitisches Druckmittel einsetzen.",
+            "Die Anordnung reiht sich in eine breitere US-Strategie ein, wirtschaftliche Abhängigkeiten von China in sicherheitsrelevanten Bereichen systematisch abzubauen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Umstrukturierung globaler Lieferketten für Seltene Erden betrifft auch die deutsche Rüstungs- und Technologieindustrie direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die staatlich angeordnete Entkopplung eines gesamten Industriesektors von chinesischen Rohstoffen ist eine größere geopolitisch-wirtschaftliche Weichenstellung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Pain or gain? US moves to decouple its defence industry from China's rare earths",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362641/pain-or-gain-us-moves-decouple-its-defence-industry-chinas-rare-earths",
+              "publishedAt": "2026-08-01T14:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump kündigt Angriffe auf Iran an und stoppt sie wieder – Volatilität prägt US-Iranpolitik",
+          "summaryDe": [
+            "Trump kündigt immer wieder Stopps von Angriffen auf Iran an, während militärische Operationen faktisch weiterlaufen, was zu einer außenpolitisch unberechenbaren Situation führt.",
+            "Abrupte Politikwechsel untergraben angekündigte Waffenstillstände innerhalb von Stunden oder Tagen und erschweren diplomatische Initiativen erheblich.",
+            "US-Botschaften haben Reisewarnungen für Amerikaner im Ausland herausgegeben und verweisen auf erhöhte Risiken durch mögliche neue US-Militäraktionen gegen Iran.",
+            "Gleichzeitig äußert Israel ernste Bedenken gegenüber dem von Trump angekündigten Hamas-Entwaffnungsabkommen, da der israelische Geheimdienst Hamas als weiterhin auf militärischen Wiederaufbau ausgerichtet einschätzt.",
+            "Die Kombination aus Irandynamik und Gaza-Abkommen zeigt eine US-Nahostpolitik, die durch widersprüchliche Signale und innenpolitische Druckverhältnisse geprägt ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Eskalation im Nahen Osten hätte unmittelbare Folgen für europäische Energiemärkte, Flüchtlingsbewegungen und NATO-Bündnisabstimmungen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Unkontrollierte militärische Volatilität einer Supermacht gegenüber einem regionalen Akteur mit Nuklearprogramm ist von außerordentlicher internationaler Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source",
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Mučnost crnobjelizacije",
+              "url": "https://www.vijesti.me/kolumne/820473/mucnost-crnobjelizacije",
+              "publishedAt": "2026-08-03T08:45:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Tödliche Überschwemmungen in Gansu: 25 Tote, Alarmstufe in weiten Teilen Chinas",
+          "summaryDe": [
+            "Sturzfluten im Kreis Weiyuan der nordwestlichen Provinz Gansu forderten am 26. Juli mindestens 25 Todesopfer und 23 Verletzte.",
+            "Die Opferzahl stieg gegenüber ersten Berichten, da Rettungskräfte weiterhin in abgelegene Gebiete vordringen.",
+            "Starkregen hält in großen Teilen des Landes an, zahlreiche Regionen befinden sich weiterhin in erhöhter Alarmbereitschaft.",
+            "Die Überschwemmungen reihen sich in eine Serie schwerer Extremwetterereignisse ein, die China im Sommer 2026 betreffen.",
+            "Staatliche Medien berichten intensiv über Katastrophenschutzmaßnahmen, während Experten auf die Zunahme solcher Ereignisse durch den Klimawandel hinweisen."
+          ],
+          "additionalImportant": "Im Stahlwerk Baotou Steel in der Inneren Mongolei wurden nach einer Explosion mit 10 Toten und 84 Verletzten sieben Personen zur Verhaftung vorgeschlagen; Ermittlungen ergaben schwere Sicherheitsmängel durch Korrosionsschäden an einem Druckbehälter.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Naturkatastrophen in China haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Regionale Überschwemmungen mit Todesopfern sind für China im Sommer ein wiederkehrendes Ereignis von begrenzter internationaler Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China floods: large parts of country remain on alert as Gansu province death toll rises",
+              "url": "https://www.scmp.com/news/china/article/3362695/china-floods-large-parts-country-remain-alert-gansu-province-death-toll-rises",
+              "publishedAt": "2026-08-02T06:58:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Changchun-Parteichef warnt öffentlich vor „beispiellosen Schwierigkeiten",
+          "summaryDe": [
+            "Der Parteichef der nordostchinesischen Stadt Changchun, Zhang Enhui, brach mit politischen Konventionen, indem er öffentlich vor ‚beispiellosen Schwierigkeiten und Herausforderungen' für die Stadtwirtschaft warnte.",
+            "Die Äußerungen wurden anschließend von offiziellen Websites entfernt, was auf Unbehagen höherer Ebenen über die offene Krisenrhetorik hindeutet.",
+            "Changchun gilt als Zentrum der chinesischen Automobilindustrie und ist besonders von strukturellen Problemen des Sektors sowie dem Nachfragerückgang betroffen.",
+            "Der Vorfall illustriert die Spannung zwischen Pekings Narrativ wirtschaftlicher Stabilität und den tatsächlichen Herausforderungen vor Ort.",
+            "Analysten sehen in solchen Äußerungen ein Signal, dass der Druck auf lokale Wirtschaftsakteure erheblich gestiegen ist."
+          ],
+          "additionalImportant": "China Road and Bridge Corporation gewann einen 1,2-Milliarden-Dollar-Auftrag zur Modernisierung des internationalen Flughafens Nairobi in Kenia und festigt damit Chinas Dominanz bei afrikanischen Infrastrukturprojekten.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine strukturelle Wirtschaftsschwäche Chinas kann indirekt deutsche Exporteure und Investoren betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Offene Kriseneingeständnisse lokaler Parteifunktionäre und deren Zensur signalisieren wachsenden wirtschaftlichen Druck in der zweitgrößten Volkswirtschaft der Welt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "How likely is Beijing to walk the talk on boosting consumption?",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3362386/how-likely-beijing-walk-talk-boosting-consumption",
+              "publishedAt": "2026-08-03T01:30:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China testet erstmals seit Jahrzehnten U-Boot-gestützte Interkontinentalrakete JL-3",
+          "summaryDe": [
+            "China führte am 6. Juli 2026 den ersten bestätigten Test einer U-Boot-gestützten Interkontinentalrakete vom Typ JL-3 seit über 40 Jahren durch.",
+            "Ein simulierter Gefechtskopf legte dabei rund 8.000 Kilometer im Pazifik zurück und wurde von einem nukleargetriebenen U-Boot abgefeuert.",
+            "Der Test markiert einen bedeutenden Meilenstein in Chinas nuklearer Abschreckungsstrategie und unterstreicht den Ausbau der seegestützten Zweitschlagskapazität.",
+            "Militäranalysten bewerten die JL-3 als erhebliche Verbesserung gegenüber Vorgängermodellen in Reichweite und Treffsicherheit.",
+            "Der Test erfolgt im Kontext des nahenden 2027-Ziels der VBA, mit den USA militärisch gleichzuziehen, was von einem ehemaligen PLA-Oberst offen bestätigt wurde."
+          ],
+          "additionalImportant": "Chinas Militär warnte die Philippinen im Zusammenhang mit Kartierungsaktivitäten am umstrittenen Scarborough-Riff vor einem ‚mächtigen' Maßnahmenpaket für einen ‚frontalen Gegenschlag' im Südchinesischen Meer.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Stärkung der chinesischen nuklearen Zweitschlagskapazität verändert das globale nukleare Gleichgewicht und betrifft indirekt europäische Sicherheitskalkulationen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Der erste bestätigte U-Boot-Raketentest Chinas seit Jahrzehnten ist ein außerordentliches strategisches Ereignis mit internationalen Implikationen für nukleare Stabilität."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why China's JL-3 made waves with first submarine-based missile test in over 40 years",
+              "url": "https://www.scmp.com/news/china/military/article/3362640/why-chinas-jl-3-made-waves-first-submarine-based-missile-test-over-40-years",
+              "publishedAt": "2026-08-01T12:00:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Debatte über staatliche Identität: „Neue Serbische Antwort",
+          "summaryDe": [
+            "In Montenegro wird aktuell über die politische Zusammensetzung des Landes und die Frage diskutiert, ob es ein bürgerlicher oder ein ethnisch geprägter Staat sein soll.",
+            "Die Partei ‚Neue Serbische Antwort' wird dabei als Teil des montenegrinischen politischen Machtgefüges eingestuft, was Debatten über Einflussgleichgewichte auslöst.",
+            "Hintergrund ist die anhaltende Spannung zwischen pro-serbischen und pro-montenegrinischen Identitätsvorstellungen, die die Innenpolitik des Landes seit Jahren prägt.",
+            "Diese Auseinandersetzung hat unmittelbare Relevanz für die EU-Beitrittsperspektive Montenegros, da Stabilität und Rechtsstaatlichkeit zentrale Kriterien darstellen.",
+            "Der Diskurs spiegelt breitere Herausforderungen des westlichen Balkans bei der Konsolidierung demokratischer und bürgerstaatlicher Normen wider."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die politische Stabilität Montenegros als EU-Beitrittskandidat berührt indirekt deutsche Interessen an einer stabilen Balkanregion."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Innergesellschaftliche Identitätsdebatten in einem kleinen Balkankandidaten sind regional relevant, aber von begrenzter internationaler Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "„Novi srpski odgovor",
+              "url": "https://www.pobjeda.me/clanak/novi-srpski-odgovor-dio-crnogorskog-dogovora",
+              "publishedAt": "2026-08-03T06:49:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Kroatischer Politiker würdigt Đukanović als Schlüsselfigur der bilateralen Normalisierung",
+          "summaryDe": [
+            "Der kroatische Vertreter Kovač bezeichnete den früheren montenegrinischen Präsidenten Milo Đukanović als denjenigen, der am meisten zur Normalisierung der Beziehungen zwischen Montenegro und Kroatien beigetragen habe.",
+            "Die Aussage unterstreicht die Bedeutung persönlicher politischer Führung für die Entwicklung bilateraler Beziehungen auf dem westlichen Balkan.",
+            "Die Normalisierung der kroatisch-montenegrinischen Beziehungen gilt als wichtiger Baustein für Montenegros EU-Integrationsprozess.",
+            "Đukanović, der jahrzehntelang die montenegrinische Politik dominierte, bleibt trotz seines Machtverlustes 2023 eine politisch umstrittene Figur im Land.",
+            "Die Äußerungen könnten innenpolitische Reaktionen provozieren, da Đukanovićs Erbe in Montenegro kontrovers diskutiert wird."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der Fortschritt der EU-Integration Montenegros berührt indirekt deutsche Interessen an einer stabilen und integrierten Balkanregion."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Eine bilaterale diplomatische Einschätzung zwischen zwei kleinen Balkanstaaten ist von begrenzter aber regional bedeutsamer Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source",
+            "feed_only"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Kovač za Pobjedu: Za normalizaciju odnosa Crne Gore i Hrvatske najzaslužniji je Milo Đukanović",
+              "url": "https://www.pobjeda.me/clanak/kovac-za-pobjedu-za-normalizaciju-odnosa-crne-gore-i-hrvatske-najzasluzniji-je-milo-dukanovic",
+              "publishedAt": "2026-08-03T06:34:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
