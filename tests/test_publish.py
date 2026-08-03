@@ -161,6 +161,23 @@ class PublishTests(unittest.TestCase):
 
         self.assertIsNone(index["currentCosts"])
 
+    def test_huge_integer_in_cost_artifact_does_not_block_daily_publish(self):
+        costs = self.root / "costs" / "2026-08.json"
+        costs.parent.mkdir(parents=True)
+        costs.write_text(
+            '{"schemaVersion":' + ("9" * 5000) + ',"month":"2026-08"}',
+            encoding="utf-8",
+        )
+
+        index = rebuild_index(self.root)
+        published = self.publisher.publish_daily(daily_report())
+
+        self.assertIsNone(index["currentCosts"])
+        self.assertTrue(published.exists())
+        rebuilt = json.loads((self.root / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(rebuilt["latestDaily"], "2026-07-31")
+        self.assertIsNone(rebuilt["currentCosts"])
+
     def test_rebuild_index_controls_extreme_decimal_data_in_cost_artifact(self):
         costs = self.root / "costs" / "2026-08.json"
         costs.parent.mkdir(parents=True)

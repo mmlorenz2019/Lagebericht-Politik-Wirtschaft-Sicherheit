@@ -51,7 +51,13 @@ def rebuild_index(data_root: Path) -> dict:
             try:
                 report = json.loads(path.read_text(encoding="utf-8"))
                 validate_cost_report(report, expected_month=path.stem)
-            except (OSError, UnicodeError, json.JSONDecodeError, CostDataError):
+            except (
+                OSError,
+                UnicodeError,
+                json.JSONDecodeError,
+                ValueError,
+                CostDataError,
+            ):
                 continue
             current_costs = {
                 "month": path.stem,
