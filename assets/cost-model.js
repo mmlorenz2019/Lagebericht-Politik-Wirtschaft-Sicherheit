@@ -54,6 +54,17 @@
     return typeof value === 'number' && Number.isFinite(value) && value >= 0;
   }
 
+  function roundedBudgetPercent(estimatedCostEur) {
+    const scaled = estimatedCostEur * 200;
+    const lower = Math.floor(scaled);
+    const fraction = scaled - lower;
+    const tolerance = Number.EPSILON * Math.max(1, Math.abs(scaled)) * 8;
+    const rounded = Math.abs(fraction - 0.5) <= tolerance
+      ? (lower % 2 === 0 ? lower : lower + 1)
+      : Math.floor(scaled + 0.5);
+    return rounded / 10;
+  }
+
   function validReport(report, moment) {
     return report !== null
       && typeof report === 'object'
@@ -65,6 +76,7 @@
       && report.budgetEur === 5
       && validNonnegativeNumber(report.estimatedCostEur)
       && validNonnegativeNumber(report.budgetPercent)
+      && Math.abs(report.budgetPercent - roundedBudgetPercent(report.estimatedCostEur)) <= 1e-9
       && Number.isInteger(report.unmeasuredCalls)
       && report.unmeasuredCalls >= 0
       && typeof report.collectionStartedAt === 'string'

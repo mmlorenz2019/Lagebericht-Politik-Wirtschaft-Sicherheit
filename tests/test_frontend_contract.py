@@ -161,6 +161,11 @@ class FrontendContractTests(unittest.TestCase):
         self.assertFalse(run_cost_model(cost_report(month="2026-07"), "2026-08-03T12:00:00+02:00")["available"])
         self.assertFalse(run_cost_model(cost_report(), "not-a-date")["available"])
 
+    def test_cost_model_rejects_percentage_that_conflicts_with_euro_cost(self):
+        report = cost_report(estimatedCostEur=0.84, budgetPercent=99.9)
+
+        self.assertFalse(run_cost_model(report, "2026-08-03T12:00:00+02:00")["available"])
+
     def test_cost_model_uses_the_berlin_month_at_utc_boundary(self):
         result = run_cost_model(cost_report(), "2026-07-31T22:30:00Z")
         self.assertTrue(result["available"])
