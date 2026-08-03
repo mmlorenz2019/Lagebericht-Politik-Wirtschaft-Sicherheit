@@ -41,6 +41,17 @@ class OverlongSectionAI(ContentAI):
         return content
 
 
+class MissingCountryAI(ContentAI):
+    def generate_json(self, model, instructions, input_text, schema_name, schema):
+        content = super().generate_json(model, instructions, input_text, schema_name, schema)
+        content["countries"] = [
+            content["countries"][0],
+            content["countries"][1],
+            copy.deepcopy(content["countries"][1]),
+        ]
+        return content
+
+
 class AggregateTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -110,6 +121,19 @@ class AggregateTests(unittest.TestCase):
         self.assertEqual(len(report["countries"][1]["sections"][0]["contextDe"]), 3)
         self.assertEqual(len(report["countries"][1]["sections"][0]["sources"]), 8)
         self.assertEqual(report["countries"][1]["sections"][0]["overallSignificance"]["score"], 3)
+
+    def test_replaces_a_duplicate_country_with_a_transparent_daily_snapshot(self):
+        self.publish_days(date(2026, 8, 2), 1)
+
+        report = PeriodAggregator(self.root, MissingCountryAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+
+        self.assertEqual([country["id"] for country in report["countries"]], ["usa", "china", "montenegro"])
+        fallback = report["countries"][2]
+        self.assertEqual(fallback["label"], "Montenegro")
+        for section in fallback["sections"]:
+            self.assertIn("technical_failure", section["limitations"])
+            if section["status"] == "published":
+                self.assertIn("Momentaufnahme", section["contextDe"][-1])
 
     def test_returns_none_without_calling_ai_when_period_has_no_days(self):
         ai = ContentAI()

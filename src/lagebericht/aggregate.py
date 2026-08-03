@@ -65,11 +65,63 @@ def period_content_schema(period_type: str) -> dict:
     return schema
 
 
-def normalize_period_content(content: dict, period_type: str) -> dict:
+COUNTRY_ORDER = ("usa", "china", "montenegro")
+
+
+def _daily_snapshot_country(reports: list[dict], country_id: str) -> dict | None:
+    for report in reversed(reports):
+        for country in report.get("countries", []):
+            if country.get("id") != country_id:
+                continue
+            sections = copy.deepcopy(country.get("categories", []))
+            warning = (
+                f"Dieser Länderabschnitt ist eine Momentaufnahme aus dem Tagesbericht vom "
+                f"{date.fromisoformat(report['reportDate']).strftime('%d.%m.%Y')}, weil die automatische "
+                "Wochenverdichtung für dieses Land unvollständig war."
+            )
+            for section in sections:
+                limitations = section.get("limitations")
+                if isinstance(limitations, list) and "technical_failure" not in limitations:
+                    limitations.append("technical_failure")
+                if section.get("status") == "published":
+                    context = section.get("contextDe")
+                    if not isinstance(context, list):
+                        context = []
+                    if not context:
+                        context.append("Die Entwicklung entspricht dem Stand des genannten Tagesberichts.")
+                    section["contextDe"] = context[:2] + [warning]
+                else:
+                    section["contextDe"] = []
+                if "overallSignificance" not in section:
+                    section["overallSignificance"] = {
+                        "score": 0,
+                        "reasonDe": "Eine eigenständige Zeitraum-Bewertung war technisch nicht verfügbar.",
+                    } if section.get("status") == "published" else None
+                if isinstance(section.get("germanyRelevance"), bool):
+                    section["germanyRelevance"] = {
+                        "score": 1 if section["germanyRelevance"] else 0,
+                        "reasonDe": "Die Bewertung wurde aus dem älteren Tagesbericht übernommen.",
+                    } if section.get("status") == "published" else None
+            return {"id": country_id, "label": country.get("label", country_id), "sections": sections}
+    return None
+
+
+def normalize_period_content(content: dict, period_type: str, reports: list[dict]) -> dict:
     normalized = copy.deepcopy(content)
     overall_summary = normalized.get("overallSummary")
     if isinstance(overall_summary, list):
         normalized["overallSummary"] = overall_summary[:10 if period_type == "week" else 15]
+    countries_by_id = {}
+    for country in normalized.get("countries", []):
+        country_id = country.get("id") if isinstance(country, dict) else None
+        if country_id in COUNTRY_ORDER and country_id not in countries_by_id:
+            countries_by_id[country_id] = country
+    canonical_countries = []
+    for country_id in COUNTRY_ORDER:
+        country = countries_by_id.get(country_id) or _daily_snapshot_country(reports, country_id)
+        if country is not None:
+            canonical_countries.append(country)
+    normalized["countries"] = canonical_countries
     for country in normalized.get("countries", []):
         for section in country.get("sections", []):
             summary = section.get("summaryDe")
@@ -155,6 +207,7 @@ class PeriodAggregator:
         content = normalize_period_content(
             self.ai_client.generate_json(self.model, instructions, input_text, "period_content", schema),
             period_type,
+            reports,
         )
         report = {
             "schemaVersion": 3,
