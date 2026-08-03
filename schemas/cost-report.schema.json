@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/cost-report.schema.json",
+  "title": "Persönlicher Lagebericht – API-Kosten",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "month",
+    "timezone",
+    "budgetEur",
+    "estimatedCostUsd",
+    "estimatedCostEur",
+    "budgetPercent",
+    "unmeasuredCalls",
+    "collectionStartedAt",
+    "priceVersion",
+    "rate",
+    "events"
+  ],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "month": {"type": "string", "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"},
+    "timezone": {"const": "Europe/Berlin"},
+    "budgetEur": {"const": 5},
+    "estimatedCostUsd": {"type": "number", "minimum": 0},
+    "estimatedCostEur": {"type": "number", "minimum": 0},
+    "budgetPercent": {"type": "number", "minimum": 0},
+    "unmeasuredCalls": {"type": "integer", "minimum": 0},
+    "collectionStartedAt": {"type": "string", "format": "date-time"},
+    "priceVersion": {"type": "string", "minLength": 1},
+    "rate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["usdToEur", "effectiveDate"],
+      "properties": {
+        "usdToEur": {"type": "number", "exclusiveMinimum": 0},
+        "effectiveDate": {"type": "string", "format": "date"}
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/event"}
+    }
+  },
+  "$defs": {
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"],
+      "properties": {
+        "input_tokens": {"type": "integer", "minimum": 0, "maximum": 1000000000},
+        "output_tokens": {"type": "integer", "minimum": 0, "maximum": 1000000000},
+        "cache_creation_input_tokens": {"type": "integer", "minimum": 0, "maximum": 1000000000},
+        "cache_read_input_tokens": {"type": "integer", "minimum": 0, "maximum": 1000000000}
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eventId",
+        "occurredAt",
+        "reportType",
+        "reportId",
+        "model",
+        "outcome",
+        "measured",
+        "usage",
+        "estimatedCostUsd",
+        "estimatedCostEur"
+      ],
+      "properties": {
+        "eventId": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "occurredAt": {"type": "string", "format": "date-time"},
+        "reportType": {"enum": ["daily", "week", "month"]},
+        "reportId": {"type": "string", "minLength": 1},
+        "model": {"type": "string", "minLength": 1},
+        "outcome": {"enum": ["end_turn", "max_tokens", "refusal", "transport_error", "invalid_response"]},
+        "measured": {"type": "boolean"},
+        "usage": {"anyOf": [{"$ref": "#/$defs/usage"}, {"type": "null"}]},
+        "estimatedCostUsd": {"type": ["number", "null"], "minimum": 0},
+        "estimatedCostEur": {"type": ["number", "null"], "minimum": 0}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"measured": {"const": true}}, "required": ["measured"]},
+          "then": {
+            "properties": {
+              "usage": {"$ref": "#/$defs/usage"},
+              "estimatedCostUsd": {"type": "number", "minimum": 0},
+              "estimatedCostEur": {"type": "number", "minimum": 0}
+            }
+          },
+          "else": {
+            "properties": {
+              "usage": {"type": "null"},
+              "estimatedCostUsd": {"type": "null"},
+              "estimatedCostEur": {"type": "null"}
+            }
+          }
+        }
+      ]
+    }
+  }
+}

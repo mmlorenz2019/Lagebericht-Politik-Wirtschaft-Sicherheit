@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "priceVersion": "anthropic-2026-08-03",
+  "budgetEur": "5.00",
+  "usdToEur": "0.8780",
+  "rateEffectiveDate": "2026-07-27",
+  "collectionStartedAt": "2026-08-03T00:00:00+02:00",
+  "models": {
+    "claude-haiku-4-5-20251001": {
+      "inputUsdPerMTok": "1.00",
+      "outputUsdPerMTok": "5.00",
+      "cacheWriteUsdPerMTok": "1.25",
+      "cacheReadUsdPerMTok": "0.10"
+    },
+    "claude-sonnet-4-6": {
+      "inputUsdPerMTok": "3.00",
+      "outputUsdPerMTok": "15.00",
+      "cacheWriteUsdPerMTok": "3.75",
+      "cacheReadUsdPerMTok": "0.30"
+    }
+  }
+}
