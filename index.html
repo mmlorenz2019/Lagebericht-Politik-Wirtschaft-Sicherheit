@@ -14,6 +14,7 @@
   <script src="assets/freshness-model.js?v=8" defer></script>
   <script src="assets/rating-model.js?v=8" defer></script>
   <script src="assets/period-model.js?v=8" defer></script>
+  <script src="assets/cost-model.js?v=8" defer></script>
   <script src="assets/app.js?v=8" defer></script>
 </head>
 <body>
@@ -64,6 +65,26 @@
   </main>
 
   <footer>
+    <section id="cost-meter" class="cost-meter" aria-labelledby="cost-title" hidden>
+      <div class="cost-heading">
+        <div>
+          <p class="eyebrow">Transparenz</p>
+          <h2 id="cost-title">Geschätzte API-Kosten</h2>
+        </div>
+        <div class="cost-value">
+          <span id="cost-month" class="muted"></span>
+          <strong id="cost-percent"></strong>
+        </div>
+      </div>
+      <div id="cost-track" class="cost-track" role="meter" aria-valuemin="0" aria-valuemax="100" hidden>
+        <span id="cost-fill" class="cost-fill"></span>
+        <i class="cost-mark mark-25" aria-hidden="true"></i>
+        <i class="cost-mark mark-50" aria-hidden="true"></i>
+        <i class="cost-mark mark-75" aria-hidden="true"></i>
+      </div>
+      <div id="cost-ticks" class="cost-ticks" aria-hidden="true" hidden></div>
+      <p id="cost-note" class="cost-note"></p>
+    </section>
     <p>Keine Anmeldung, kein Tracking und keine Werbung. Originalquellen öffnen sich online in einem neuen Tab.</p>
   </footer>
 </body>

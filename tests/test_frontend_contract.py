@@ -12,6 +12,7 @@ ROOT = Path(__file__).parents[1]
 RATING_MODEL = ROOT / "assets" / "rating-model.js"
 FRESHNESS_MODEL = ROOT / "assets" / "freshness-model.js"
 PERIOD_MODEL = ROOT / "assets" / "period-model.js"
+COST_MODEL = ROOT / "assets" / "cost-model.js"
 
 
 def run_rating_model(item):
@@ -81,7 +82,116 @@ def run_period_model(report):
     return json.loads(result.stdout)
 
 
+def cost_report(**changes):
+    value = {
+        "schemaVersion": 1,
+        "month": "2026-08",
+        "budgetEur": 5.0,
+        "estimatedCostEur": 0.84,
+        "budgetPercent": 16.8,
+        "unmeasuredCalls": 0,
+        "collectionStartedAt": "2026-08-03T00:00:00+02:00",
+    }
+    value.update(changes)
+    return value
+
+
+def run_cost_model(report, now):
+    script = (
+        "const model=require(process.argv[1]);"
+        "const report=JSON.parse(process.argv[2]);"
+        "process.stdout.write(JSON.stringify(model.presentation(report,new Date(process.argv[3]))));"
+    )
+    result = subprocess.run(
+        ["node", "-e", script, str(COST_MODEL), json.dumps(report), now],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return json.loads(result.stdout)
+
+
+def run_cost_path_check(path):
+    script = (
+        "const model=require(process.argv[1]);"
+        "process.stdout.write(JSON.stringify(model.isAllowedCostPath(process.argv[2])));"
+    )
+    result = subprocess.run(
+        ["node", "-e", script, str(COST_MODEL), path],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    return json.loads(result.stdout)
+
+
 class FrontendContractTests(unittest.TestCase):
+    def test_cost_model_presents_budget_percentage_and_caps_only_width(self):
+        result = run_cost_model(cost_report(), "2026-08-03T12:00:00+02:00")
+
+        self.assertEqual(result["percentLabel"], "16,8 %")
+        self.assertEqual(result["widthPercent"], 16.8)
+        self.assertEqual(result["tone"], "normal")
+        self.assertIn("0,84", result["accessibleLabel"])
+        self.assertEqual(result["tickLabels"], ["0 €", "1,25 €", "2,50 €", "3,75 €", "5 €"])
+
+    def test_cost_model_marks_minimum_estimate_and_over_budget(self):
+        result = run_cost_model(
+            cost_report(estimatedCostEur=6.0, budgetPercent=120.0, unmeasuredCalls=2),
+            "2026-08-03T12:00:00+02:00",
+        )
+
+        self.assertEqual(result["widthPercent"], 100)
+        self.assertEqual(result["percentLabel"], "120,0 %")
+        self.assertEqual(result["tone"], "over")
+        self.assertIn("mindestens", result["estimateNote"])
+
+    def test_cost_model_uses_warning_at_seventy_five_percent(self):
+        result = run_cost_model(
+            cost_report(estimatedCostEur=3.75, budgetPercent=75.0),
+            "2026-08-03T12:00:00+02:00",
+        )
+        self.assertEqual(result["tone"], "warning")
+
+    def test_cost_model_rejects_malformed_past_month_and_invalid_clock_data(self):
+        malformed = cost_report(estimatedCostEur=-1, budgetPercent=-20)
+        self.assertFalse(run_cost_model(malformed, "2026-08-03T12:00:00+02:00")["available"])
+        self.assertFalse(run_cost_model(cost_report(month="2026-07"), "2026-08-03T12:00:00+02:00")["available"])
+        self.assertFalse(run_cost_model(cost_report(), "not-a-date")["available"])
+
+    def test_cost_model_uses_the_berlin_month_at_utc_boundary(self):
+        result = run_cost_model(cost_report(), "2026-07-31T22:30:00Z")
+        self.assertTrue(result["available"])
+        self.assertEqual(result["monthLabel"], "August 2026")
+
+    def test_cost_model_allows_only_strict_relative_monthly_cost_paths(self):
+        self.assertTrue(run_cost_path_check("data/costs/2026-08.json"))
+        for path in (
+            "/data/costs/2026-08.json",
+            "data/costs/2026-8.json",
+            "data/costs/2026-08.json?x=1",
+            "../data/costs/2026-08.json",
+            "https://example.test/data/costs/2026-08.json",
+        ):
+            with self.subTest(path=path):
+                self.assertFalse(run_cost_path_check(path))
+
+    def test_cost_card_has_semantic_meter_and_safe_independent_rendering_contract(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        model = COST_MODEL.read_text(encoding="utf-8")
+
+        self.assertRegex(html, r'<section id="cost-meter"[^>]+aria-labelledby="cost-title"')
+        self.assertRegex(html, r'<div id="cost-track"[^>]+role="meter"[^>]+aria-valuemin="0"[^>]+aria-valuemax="100"')
+        self.assertLess(html.index("assets/cost-model.js"), html.index("assets/app.js"))
+        self.assertIn("CostModel.isAllowedCostPath", app)
+        self.assertIn("Kosten derzeit nicht verfügbar", model)
+        self.assertIn("loadCurrentCosts", app)
+        self.assertNotRegex(app, r"\.innerHTML\s*=")
+        self.assertNotIn("document.write", app)
+
     def test_period_coverage_labels_partial_complete_and_snapshot_reports(self):
         cases = [
             ({"periodStart": "2026-07-27", "periodEnd": "2026-08-02", "sourceReportDates": ["2026-07-31", "2026-08-01", "2026-08-02"]},

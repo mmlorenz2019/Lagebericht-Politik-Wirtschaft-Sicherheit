@@ -13,7 +13,7 @@ const CATEGORY_LABELS = {
 const COUNTRY_LABELS = { usa: 'USA', china: 'China', montenegro: 'Montenegro' };
 const state = {
   index: null, archiveType: 'daily', country: 'usa', report: null,
-  freshnessNotice: '', reportNotice: ''
+  costs: null, freshnessNotice: '', reportNotice: ''
 };
 
 const elements = {
@@ -21,7 +21,11 @@ const elements = {
   select: document.getElementById('period-select'), overall: document.getElementById('overall'),
   overallCopy: document.getElementById('overall-copy'), report: document.getElementById('report'),
   kicker: document.getElementById('report-kicker'), countryTitle: document.getElementById('country-title'),
-  completeness: document.getElementById('completeness'), stories: document.getElementById('stories')
+  completeness: document.getElementById('completeness'), stories: document.getElementById('stories'),
+  costMeter: document.getElementById('cost-meter'), costMonth: document.getElementById('cost-month'),
+  costPercent: document.getElementById('cost-percent'), costTrack: document.getElementById('cost-track'),
+  costFill: document.getElementById('cost-fill'), costTicks: document.getElementById('cost-ticks'),
+  costNote: document.getElementById('cost-note')
 };
 
 function node(tag, text, className) {
@@ -40,6 +44,52 @@ function renderNotice() {
 function showNotice(message) {
   state.reportNotice = message;
   renderNotice();
+}
+
+function renderCosts(report) {
+  const value = CostModel.presentation(report, new Date());
+  elements.costMeter.hidden = false;
+  elements.costNote.textContent = value.estimateNote;
+  if (!value.available) {
+    elements.costMonth.textContent = '';
+    elements.costPercent.textContent = '';
+    elements.costTrack.hidden = true;
+    elements.costTicks.hidden = true;
+    elements.costTrack.removeAttribute('aria-valuenow');
+    elements.costTrack.setAttribute('aria-label', value.accessibleLabel);
+    elements.costFill.className = 'cost-fill';
+    elements.costFill.style.width = '0%';
+    return;
+  }
+
+  elements.costMonth.textContent = value.monthLabel;
+  elements.costPercent.textContent = value.percentLabel;
+  elements.costTrack.hidden = false;
+  elements.costTicks.hidden = false;
+  elements.costTrack.setAttribute('aria-valuenow', String(value.widthPercent));
+  elements.costTrack.setAttribute('aria-label', value.accessibleLabel);
+  elements.costFill.className = `cost-fill cost-${value.tone}`;
+  elements.costFill.style.width = `${value.widthPercent}%`;
+  elements.costTicks.replaceChildren(...value.tickLabels.map((label) => node('span', label)));
+}
+
+async function loadCurrentCosts() {
+  const reference = state.index && state.index.currentCosts;
+  const path = reference && reference.path;
+  if (!CostModel.isAllowedCostPath(path)) {
+    state.costs = null;
+    renderCosts(null);
+    return;
+  }
+  try {
+    const response = await fetch(path, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state.costs = await response.json();
+    renderCosts(state.costs);
+  } catch (_) {
+    state.costs = null;
+    renderCosts(null);
+  }
 }
 
 function safeSourceLink(source) {
@@ -199,6 +249,7 @@ async function refreshIndex({ preferLatest = false } = {}) {
     const response = await fetch('data/index.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.index = await response.json();
+    void loadCurrentCosts();
     state.freshnessNotice = FreshnessModel.dailyNotice(state.index, new Date());
     renderNotice();
     fillPeriodSelect();
@@ -212,6 +263,7 @@ async function refreshIndex({ preferLatest = false } = {}) {
     if (!preferLatest && !hasNewDaily && hasPreviousPath) elements.select.value = previousPath;
     await loadSelectedReport();
   } catch (error) {
+    renderCosts(null);
     showNotice(`Das Archiv konnte nicht geladen werden. (${error.message})`);
     elements.report.setAttribute('aria-busy', 'false');
   }
