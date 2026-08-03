@@ -2,11 +2,13 @@ name: Täglicher Lagebericht
 
 on:
   schedule:
-    - cron: '45 5 * * *'
+    - cron: '47 5 * * *'
       timezone: "Europe/Berlin"
-    - cron: '5 6 * * *'
+    - cron: '17 7 * * *'
       timezone: "Europe/Berlin"
-    - cron: '25 6 * * *'
+    - cron: '37 9 * * *'
+      timezone: "Europe/Berlin"
+    - cron: '53 11 * * *'
       timezone: "Europe/Berlin"
   workflow_dispatch:
 

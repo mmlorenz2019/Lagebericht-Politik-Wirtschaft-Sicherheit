@@ -10,6 +10,23 @@ ROOT = Path(__file__).parents[1]
 
 
 class DailyCliTests(unittest.TestCase):
+    def test_period_client_allows_larger_structured_reports(self):
+        import scripts.run_period as run_period
+
+        self.assertTrue(hasattr(run_period, "build_period_client"))
+        captured = {}
+
+        def transport(url, headers, payload, timeout):
+            captured.update(payload)
+            return {
+                "content": [{"type": "text", "text": '{"ok": true}'}],
+                "stop_reason": "end_turn",
+            }
+
+        client = run_period.build_period_client("test-key", transport=transport)
+        self.assertEqual(client.generate_json("model", "rules", "input", "schema", {}), {"ok": True})
+        self.assertEqual(captured["max_tokens"], 16384)
+
     def test_help_lists_dry_run_and_date(self):
         env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}
         result = subprocess.run([sys.executable, "scripts/run_daily.py", "--help"], cwd=ROOT, env=env, capture_output=True, text=True)

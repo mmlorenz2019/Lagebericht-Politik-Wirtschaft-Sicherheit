@@ -13,6 +13,15 @@ from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
 
 
+def build_period_client(api_key: str, *, transport=None) -> AnthropicMessagesClient:
+    options = {
+        "max_tokens": int(os.environ.get("ANTHROPIC_PERIOD_MAX_TOKENS", "16384")),
+    }
+    if transport is not None:
+        options["transport"] = transport
+    return AnthropicMessagesClient(api_key, **options)
+
+
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(description="Erzeugt einen Wochen- oder Monatsbericht aus validierten Tagesberichten.")
     parser.add_argument("mode", choices=("week", "month"))
@@ -35,7 +44,7 @@ def main(argv=None) -> int:
         domains = all_allowed_domains(sources)
         aggregator = PeriodAggregator(
             args.data_root,
-            AnthropicMessagesClient(api_key),
+            build_period_client(api_key),
             domains,
             model=os.environ.get("ANTHROPIC_SUMMARY_MODEL", "claude-sonnet-4-6"),
         )

@@ -207,14 +207,14 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("python -m unittest discover -s tests -v", text)
         self.assertIn("pull_request:", text)
 
-    def test_daily_workflow_uses_anthropic_models_and_three_berlin_recovery_slots(self):
+    def test_daily_workflow_uses_anthropic_models_and_four_spaced_berlin_recovery_slots(self):
         text = (ROOT / ".github" / "workflows" / "daily-report.yml").read_text(encoding="utf-8")
         self.assertIn("secrets.ANTHROPIC_API_KEY", text)
         self.assertIn("ANTHROPIC_EXTRACTION_MODEL: claude-haiku-4-5-20251001", text)
         self.assertIn("ANTHROPIC_SUMMARY_MODEL: claude-sonnet-4-6", text)
         self.assertNotIn("OPENAI_", text)
-        self.assertEqual(text.count('timezone: "Europe/Berlin"'), 3)
-        for cron in ("45 5 * * *", "5 6 * * *", "25 6 * * *"):
+        self.assertEqual(text.count('timezone: "Europe/Berlin"'), 4)
+        for cron in ("47 5 * * *", "17 7 * * *", "37 9 * * *", "53 11 * * *"):
             self.assertIn(f"cron: '{cron}'", text)
         self.assertIn("steps.schedule.outputs.daily == 'true'", text)
         self.assertIn("steps.schedule.outputs.week == 'true'", text)
