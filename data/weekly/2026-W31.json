@@ -1,27 +1,533 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "periodType": "week",
   "periodStart": "2026-07-27",
   "periodEnd": "2026-08-02",
-  "generatedAt": "2026-08-02T05:00:00Z",
+  "generatedAt": "2026-08-03T10:47:02.821326Z",
   "status": "partial",
   "overallSummary": [
-    "Diese Beispielwoche zeigt, wie einzelne Tagesmeldungen zu nachvollziehbaren Entwicklungslinien verdichtet werden.",
-    "Politische Entscheidungen, wirtschaftliche Veränderungen und internationale Beziehungen werden dabei nicht nur aufgezählt, sondern in ihrem Verlauf beschrieben.",
-    "Alle Inhalte dieser Vorschau sind ausdrücklich Beispieldaten."
+    "Die erste Augustwoche 2026 war geprägt von einer Verdichtung geopolitischer Spannungen auf mehreren Schauplätzen gleichzeitig.",
+    "In den USA dominierten innenpolitische Erosionserscheinungen: Trumps Zustimmungswerte erreichten historische Tiefstände, während die ersten Medicaid-Kürzungen konkrete soziale Folgen zeigten und die Verweigerung von Patriot-Produktionslizenzen für die Ukraine die Unsicherheit über den transatlantischen Sicherheitsbeitrag verstärkte.",
+    "China präsentierte sich in derselben Woche als militärisch aufstrebende Macht mit dem ersten U-Boot-Raketentest seit über 40 Jahren, eskalierendem Druck im Südchinesischen Meer und einem öffentlichen Bekenntnis zum Ausbau nuklearer Silokapazitäten.",
+    "Gleichzeitig geriet die chinesische Wirtschaft unter Druck: Der Fabrik-PMI fiel erstmals seit fünf Monaten unter die Wachstumsschwelle, während neue Ausreiseverbote für Verstöße gegen Exportkontrollregeln das operative Risiko für internationale Unternehmen erhöhten.",
+    "Der EU-China-Sanktionsaustausch wegen Russland-Unterstützung markiert eine neue Eskalationsstufe mit unmittelbaren Folgen für den europäischen Binnenmarkt und deutsche Unternehmen.",
+    "Montenegro befand sich in einer Phase institutioneller Verdichtung: Das Parlament verabschiedete Sicherheits- und Waffengesetze im EU-Kontext, besetzte den Fiskalrat und rang weiter um die Aufarbeitung innenpolitischer Spannungen rund um den Fall Aco Đukanović.",
+    "Die gleichzeitige Verdichtung von US-Truppenrückzugssignalen aus der Ukraine, chinesischen Machtdemonstrationen und EU-internen Normalisierungsdebatten auf dem Westbalkan ergibt eine Gesamtlage erhöhter strategischer Ungewissheit.",
+    "Für Deutschland war die Woche besonders relevant: Der EU-China-Sanktionsstreit, mögliche Ausreiseverbote für China-tätige Fachkräfte, die Verweigerung ukrainischer Rüstungsautonomie und die US-Entkopplungsstrategie bei Seltenen Erden berühren alle direkt deutsche Wirtschafts- und Sicherheitsinteressen.",
+    "Der Iran-Konflikt blieb durch widersprüchliche Berichte über abgebrochene US-Angriffe und steigende Energiepreise ein zusätzlicher Unsicherheitsfaktor mit globaler Wirkung.",
+    "Insgesamt zeichnet die Woche eine Bewegung weg von regelbasierter Kooperation hin zu unilateralen Machtdemonstrationen und wirtschaftlichem Druckaufbau auf mehreren Fronten."
   ],
   "countries": [
-    {"id": "usa", "label": "USA", "sections": [
-      {"id": "politics_society", "status": "published", "headlineDe": "Beispielwoche: Aus Verhandlungen entsteht eine konkretere Entscheidungslage", "summaryDe": ["Zu Wochenbeginn standen zunächst politische Positionen im Vordergrund.", "Im Verlauf wurden konkrete Verhandlungspunkte und mögliche Mehrheiten erkennbar.", "Am Wochenende blieb die endgültige Entscheidung offen, die Konfliktlinien waren jedoch klarer als zuvor."], "additionalImportant": null, "germanyRelevance": false, "sourceBasis": "single", "limitations": ["single_source"], "sources": [{"name": "NPR", "type": "öffentlich-rechtlich", "titleOriginal": "Example weekly source", "url": "https://www.npr.org/", "publishedAt": "2026-07-31T03:50:00Z"}]}
-    ]},
-    {"id": "china", "label": "China", "sections": [
-      {"id": "economy_technology", "status": "published", "headlineDe": "Beispielwoche: Konjunktursignale bleiben uneinheitlich", "summaryDe": ["Mehrere Beispieldaten deuteten im Wochenverlauf in unterschiedliche Richtungen.", "Industrie und Technologie entwickelten sich dabei anders als Teile des privaten Konsums.", "Der Wochenbericht würde solche Unterschiede zusammenführen und offene Unsicherheiten sichtbar lassen."], "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source", "feed_only"], "sources": [{"name": "South China Morning Post", "type": "Hongkong-/Regionalperspektive", "titleOriginal": "Example weekly economy source", "url": "https://www.scmp.com/news/china", "publishedAt": "2026-07-31T02:45:00Z"}]}
-    ]},
-    {"id": "montenegro", "label": "Montenegro", "sections": [
-      {"id": "foreign_security", "status": "published", "headlineDe": "Beispielwoche: Europäische Gespräche entwickeln sich schrittweise", "summaryDe": ["Die Beispielwoche begann mit vorbereitenden Gesprächen über europäische Zusammenarbeit.", "Später wurden einzelne Teilnehmer und Themen konkreter benannt.", "Da die Quellenbasis unvollständig blieb, enthält auch der Rückblick einen sichtbaren Hinweis."], "additionalImportant": null, "germanyRelevance": true, "sourceBasis": "single", "limitations": ["single_source"], "sources": [{"name": "Vijesti", "type": "unabhängige Tagesnachrichten", "titleOriginal": "Primjer sedmičnog naslova", "url": "https://www.vijesti.me/", "publishedAt": "2026-07-31T02:30:00Z"}]}
-    ]}
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trumps historischer Zustimmungstiefstand und erste Medicaid-Kürzungen prägen innenpolitische Lage",
+          "summaryDe": [
+            "Donald Trump verzeichnete in seiner zweiten Amtszeit auf diesem Zeitpunkt die niedrigsten je für einen US-Präsidenten gemessenen Zustimmungswerte; nur knapp ein Drittel der Bevölkerung bewertet seine Amtsführung positiv.",
+            "Gleichzeitig wurden zum 1. August in Nebraska die ersten rund 200 Personen aus der Medicaid-Versorgung ausgeschlossen, weil sie die im 'One Big Beautiful Bill Act' verankerten Arbeitsnachweispflichten nicht erfüllten.",
+            "Republikanische Abgeordnete, die für die Sozialkürzungen gestimmt hatten, schalteten parallel Wahlkampfwerbung, in der sie sich als Fürsprecher niedrigerer Gesundheitskosten präsentierten – ein Widerspruch, der medial und politisch scharf kommentiert wurde.",
+            "Berichte über die Schließung von Konten der Trump Organization durch Capital One im Jahr 2021 wegen interner Geldwäschebedenken begleiteten das politische Bild der Woche zusätzlich belastend.",
+            "Die Kombination aus sinkender Popularität, konkreten Sozialkürzungen und innenpolitischen Korruptionsvorwürfen verdichtet das Bild einer Regierung unter wachsendem Legitimationsdruck wenige Monate vor den Zwischenwahlen."
+          ],
+          "contextDe": [
+            "Trump regiert seit Beginn seiner zweiten Amtszeit mit einer Mehrheit im Kongress, hat diese jedoch für tiefgreifende Einschnitte im Sozialsystem genutzt, was traditionellen Wählergruppen schadet.",
+            "Historisch niedrige Zustimmungswerte in der Mitte einer Amtszeit erhöhen den Druck auf Kongressmitglieder seiner Partei und können die Zwischenwahlergebnisse erheblich beeinflussen.",
+            "Sollten die Kürzungen flächendeckend greifen, steht den USA eine soziale Debatte bevor, die das politische Klima bis weit in das nächste Wahljahr prägen wird."
+          ],
+          "additionalImportant": "Capital One soll Konten der Trump Organization 2021 wegen interner Geldwäschebedenken geschlossen haben, nicht primär wegen des Kapitolsturms.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Innenpolitische Erosion der Trump-Administration beeinflusst mittelbar die Verlässlichkeit US-amerikanischer Außen- und Sicherheitspolitik, was für Deutschland strategische Planungsunsicherheit erzeugt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Historisch niedrige Beliebtheitswerte kombiniert mit den ersten konkreten Folgen umstrittener Sozialgesetzgebung markieren einen bedeutsamen innenpolitischen Einschnitt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Trump's Polling Numbers Hit a New Low. Don't Expect Him to Change Course.",
+              "url": "https://www.nytimes.com/2026/08/01/us/politics/trump-polls-approval-rating.html",
+              "publishedAt": "2026-08-01T19:30:50Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "In Nebraska, Americans begin to lose Medicaid under Trump's work rules",
+              "url": "https://www.npr.org/2026/07/31/nx-s1-5913947/medicaid-trump-work-requirements-big-beautiful-bill-nebraska",
+              "publishedAt": "2026-07-31T13:22:40Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Ahead of midterms, Republicans run ads after cutting healthcare funds",
+              "url": "https://www.npr.org/2026/07/31/nx-s1-5870960/republican-ads-healthcare-medicaid-2026-midterms",
+              "publishedAt": "2026-07-31T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fed-Kurs uneindeutig, US-Rüstung entkoppelt sich von chinesischen Seltenen Erden",
+          "summaryDe": [
+            "Fed-Chef Kevin Warsh sendete in der Berichtswoche widersprüchliche Signale: Während Märkte seine Aussagen als taubenhaft interpretierten, deuten seine eigenen Formulierungen eher auf eine mögliche Zinserhöhung hin.",
+            "Warsh erwägt zudem eine strukturelle Reduktion der geldpolitischen Sitzungsfrequenz von acht auf weniger Termine pro Jahr – eine Änderung, die seit Jahrzehnten etablierte Fed-Praxis in Frage stellen würde.",
+            "Parallel ordnete die Trump-Administration per Exekutivanordnung an, dass US-Rüstungsunternehmen ihre Abhängigkeit von chinesischen Seltenen Erden systematisch überprüfen und schrittweise abbauen müssen.",
+            "Experten zweifeln an der kurzfristigen Realisierbarkeit, da alternative Förder- und Verarbeitungskapazitäten weltweit erst aufgebaut werden müssen.",
+            "Auf der Gewinnseite verzeichneten Alphabet, Amazon und Microsoft zusammen einen Marktwertanstieg von fast 1,5 Billionen US-Dollar in der Woche, während Apple und Meta Verluste hinnehmen mussten."
+          ],
+          "contextDe": [
+            "Die Kombination aus möglicher Zinserhöhung und gleichzeitig niedrigen alternativen Inflationsindikatoren ist eine ungewöhnliche geldpolitische Konstellation, die Planungssicherheit für Investoren und Unternehmen weltweit erschwert.",
+            "Die strategische Abkopplung von chinesischen Seltenen Erden ist Teil einer breiteren US-Entkopplungsstrategie, die auch europäische Industrielieferketten unter Anpassungsdruck setzt.",
+            "Für die deutsche Exportwirtschaft sind sowohl die Fed-Unsicherheit mit ihren Wechselkursfolgen als auch der Rohstoffwettbewerb um Seltene Erden strukturell bedeutsam."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "US-Geldpolitiksignale beeinflussen Euro-Dollar-Kurs und europäische Kapitalkosten direkt; die Entkopplungsstrategie bei Seltenen Erden betrifft auch europäische Rüstungs- und Industrielieferketten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Widersprüchliche Fed-Signale bei gleichzeitig strukturell bedeutsamer Entkopplungspolitik sind zwei gewichtige wirtschaftspolitische Entwicklungen mit globaler Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Analysis: Markets heard a dovish Kevin Warsh. The Fed chairman's own words suggest a rate hike",
+              "url": "https://www.cnbc.com/2026/07/31/kevin-warsh-fed-inflation-rate-hike-markets.html",
+              "publishedAt": "2026-07-31T18:16:18Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "As Warsh's Fed faces pressure to act on inflation, these indicators show it's at its lowest in years",
+              "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
+              "publishedAt": "2026-07-31T16:51:30Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Pain or gain? US moves to decouple its defence industry from China's rare earths",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362641/pain-or-gain-us-moves-decouple-its-defence-industry-chinas-rare-earths",
+              "publishedAt": "2026-08-01T14:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump verweigert Ukraine Patriot-Lizenzen und stoppt erneut geplante Iran-Angriffe",
+          "summaryDe": [
+            "Trump erklärte öffentlich, die USA hätten nicht zugestimmt, der Ukraine Lizenzen zur Eigenproduktion von Patriot-Luftabwehrsystemen zu erteilen – eine direkte Absage an ein zentrales Anliegen Kiews zur Stärkung eigener Rüstungskapazitäten.",
+            "Gleichzeitig soll Trump erneut kurz vor geplanten Militärschlägen gegen den Iran abgebrochen haben, nachdem ein Einigungsrahmen signalisiert worden sei; Iran und verbündete Regionalmächte sollen ausdrücklich um Aussetzung der Angriffe gebeten haben.",
+            "Analysten beschreiben ein seit rund fünf Monaten wiederkehrendes Muster aus Eskalationsandrohungen, Stopps und fortgesetzten Militäraktionen, das erhebliche wirtschaftliche Folgen durch steigende Öl- und Güterpreise nach sich zieht.",
+            "Trumps gleichzeitig angekündigtes Hamas-Entwaffnungsabkommen blieb ohne konkrete Umsetzungsdetails und war zum Wochenende nicht verifizierbar.",
+            "Die außenpolitischen Signale der Woche verdichten das Bild einer US-Außenpolitik, die Verbündete in zentralen Sicherheitsfragen mit Ungewissheit belässt."
+          ],
+          "contextDe": [
+            "Die Verweigerung von Patriot-Produktionslizenzen erhöht den Druck auf europäische NATO-Partner, die Lücke durch eigene Rüstungsinitiativen zu schließen, was Deutschland als größte europäische Volkswirtschaft besonders trifft.",
+            "Der Iran-Konflikt, der seit rund fünf Monaten andauert, hat die Energie- und Güterpreise nachweislich erhöht und bleibt eine strukturelle wirtschaftliche Belastung für Europa.",
+            "Die Summe dieser Signale erhöht den europäischen Druck zu strategischer Autonomie, ohne dass die politischen und finanziellen Kapazitäten dafür kurzfristig verfügbar wären."
+          ],
+          "additionalImportant": "Die Ereignislage rund um den Iran-Konflikt ist durch widersprüchliche Berichte gekennzeichnet; Meldungen über abgebrochene Angriffe sollten nicht als gesichert gelten.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Verweigerung von Patriot-Lizenzen für die Ukraine und die Unberechenbarkeit im Iran-Konflikt betreffen unmittelbar die europäische Sicherheitsarchitektur und Energiepreise, für die Deutschland Schlüsselverantwortung trägt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "US-Absagen an ukrainische Rüstungsautonomie und erneute Eskalations-De-Eskalations-Muster im Iran sind von außerordentlicher strategischer Bedeutung für die internationale Ordnung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source",
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump says U.S. has 'not agreed to' grant Ukraine Patriot missile licenses",
+              "url": "https://www.cnbc.com/2026/07/31/trump-ukraine-patriot-missile-license-russia.html",
+              "publishedAt": "2026-07-31T18:52:10Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "EV prices aren't following the 'law of used cars,' analyst says — what it means for buyers and sellers",
+              "url": "https://www.cnbc.com/2026/07/31/used-ev-prices.html",
+              "publishedAt": "2026-07-31T12:15:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Erdrutsch in Chongqing, Flutkatastrophe in Gansu und Stahlwerksexplosion in der Inneren Mongolei",
+          "summaryDe": [
+            "In der Berichtswoche wurden China gleich drei schwere Katastrophen heimgesucht: Ein Erdrutsch im Landkreis Pengshui in Chongqing forderte 51 Todesopfer bei zehn weiterhin Vermissten.",
+            "Sturzfluten in der nordwestchinesischen Provinz Gansu töteten mindestens 25 Menschen und verletzten 23 weitere; weite Teile des Landes blieben unter erhöhter Hochwasserwarnung.",
+            "Nach einer tödlichen Explosion in einem Stahlwerk im Baotou in der Inneren Mongolei, bei der zehn Menschen starben und 84 verletzt wurden, wurden sieben Personen festgenommen; Ermittlungen belegten Mängel bei Wartung, Anlagendesign und behördlicher Aufsicht.",
+            "Die Häufung von Naturkatastrophen und Industrieunfällen in kurzer Folge rückt Fragen zur Infrastruktur- und Arbeitssicherheit in China erneut in den Fokus.",
+            "Staatsmedien berichteten über laufende Rettungseinsätze; die Ursachen der Naturkatastrophen wurden ohne vertiefte Analyse gemeldet."
+          ],
+          "contextDe": [
+            "Südwest- und Nordwestchina sind regelmäßig von saisonalen Erdrutschen und Überschwemmungen betroffen, die durch den Klimawandel an Intensität gewinnen.",
+            "Industrieunfälle in chinesischen Schwermaterialbetrieben werden von Behörden zuweilen verzögert kommuniziert; die raschen Festnahmen nach dem Baotou-Unfall signalisieren politischen Druck zur schnellen Aufarbeitung.",
+            "Für internationale Beobachter dokumentieren diese Ereignisse systemische Risiken in chinesischer Infrastruktur und Industrieaufsicht."
+          ],
+          "additionalImportant": "Sieben Personen wurden nach dem Explosionsunfall in der Inneren Mongolei festgenommen; Behördenversagen wurde ausdrücklich als Mitursache benannt.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Naturkatastrophen und der Industrieunfall betreffen primär China und haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Häufung von Opfern und Festnahmen dokumentiert relevante innenpolitische Vorgänge, bleibt aber in der internationalen Tragweite begrenzt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Southwest China landslide death toll rises to 51 as search and rescue continues",
+              "url": "https://www.scmp.com/news/china/politics/article/3362468/southwest-china-landslide-death-toll-rises-51-search-and-rescue-continues",
+              "publishedAt": "2026-07-31T02:47:36Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China floods: large parts of country remain on alert as Gansu province death toll rises",
+              "url": "https://www.scmp.com/news/china/article/3362695/china-floods-large-parts-country-remain-alert-gansu-province-death-toll-rises",
+              "publishedAt": "2026-08-02T06:58:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "7 face arrest after Inner Mongolia fatal blast report exposes string of failings",
+              "url": "https://www.scmp.com/news/china/article/3362707/7-face-arrest-after-inner-mongolia-fatal-blast-report-exposes-string-failings",
+              "publishedAt": "2026-08-02T10:57:59Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "PMI fällt unter Wachstumsschwelle, Ausreiseverbote für Exportkontrollverstöße ab September angekündigt",
+          "summaryDe": [
+            "Der offizielle Einkaufsmanagerindex für das verarbeitende Gewerbe fiel im Juli auf 49,2 Punkte und rutschte damit erstmals seit fünf Monaten unter die Wachstumsschwelle – begleitet von einem gleichzeitigen Rückgang der Bauaktivität auf den tiefsten Stand seit der Pandemie.",
+            "Die Kombination aus Industriekontraktion und Bauschwäche deutet auf eine breit angelegte konjunkturelle Abschwächung der chinesischen Wirtschaft hin und erhöht den Druck auf Peking, gegengesteuernde Maßnahmen zu ergreifen.",
+            "Zeitgleich kündigte die Regierung an, dass ab dem 15. September 2026 Ausreisesperren gegen Personen verhängt werden können, die gegen chinesische Exportkontroll- oder Technologietransfervorschriften verstoßen.",
+            "Für international tätige Unternehmen und ihre in China stationierten Mitarbeiter bedeutet dies eine erhebliche Verschärfung des operativen Risikos.",
+            "Auf technologischer Seite expandierte China die Nutzung von Quantensensorik im Stromnetz und stellte einen KI-Algorithmus zur Identifikation von Bitcoin-Geldwäsche mit 90-prozentiger Genauigkeit vor."
+          ],
+          "contextDe": [
+            "Der Rückgang des PMI unter 50 Punkte nach fünf Monaten Wachstum ist ein Warnsignal für die Weltkonjunktur, da China als größter Abnehmer von Investitionsgütern und Rohstoffen wirkt.",
+            "Ausreiseverbote als Durchsetzungsinstrument für Exportkontrollrecht stellen eine qualitativ neue Eskalationsstufe im internationalen Technologiestreit dar und könnten ausländische Direktinvestitionen in China weiter bremsen.",
+            "Für deutsche Unternehmen mit Präsenz in China verdichten sich damit operative Risiken: schwächere Absatzmärkte bei gleichzeitig höheren rechtlichen Sicherheitsrisiken für entsandtes Personal."
+          ],
+          "additionalImportant": "Der US-chinesische Konflikt um die Kontrolle globaler Unterseekabel für KI-Infrastruktur eskalierte parallel; Peking wirft Washington vor, globale Verbindungsinfrastruktur zu politisieren.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Sowohl die chinesische Industriekontraktion als Dämpfer für deutsche Exportnachfrage als auch mögliche Ausreisesperren für in China tätige deutsche Fachkräfte sind von direkter wirtschaftlicher und personeller Relevanz."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Kombination aus erstmaligem PMI-Rückgang seit fünf Monaten und dem Instrument staatlicher Ausreiseverbote für Exportkontrollverstöße stellt eine bedeutsame wirtschaftspolitische Eskalation mit globaler Wirkung dar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China factories cool, CXMT surges, PLA marks anniversary",
+              "url": "https://www.scmp.com/plus/news/china/politics/article/3362512/china-factories-cool-cxmt-surges-pla-marks-anniversary",
+              "publishedAt": "2026-07-31T09:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing to impose exit bans for export control, tech transfer breaches",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362590/beijing-impose-exit-bans-export-control-tech-transfer-breaches",
+              "publishedAt": "2026-07-31T13:05:28Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China hopes to banish blackouts as quantum tech puts power grid in superposition",
+              "url": "https://www.scmp.com/news/china/science/article/3362629/china-hopes-banish-blackouts-quantum-tech-puts-power-grid-superposition",
+              "publishedAt": "2026-08-01T07:00:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese police AI algorithm tracks bitcoin money laundering with 90% accuracy",
+              "url": "https://www.scmp.com/news/china/science/article/3362493/chinese-police-ai-algorithm-tracks-bitcoin-money-laundering-90-accuracy",
+              "publishedAt": "2026-08-02T02:00:12Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "U-Boot-Raketentest nach 42 Jahren, EU-China-Sanktionsspirale und nukleares Aufrüstungssignal",
+          "summaryDe": [
+            "Im Juli 2026 testete China erstmals seit über 40 Jahren eine seegestützte ballistische Rakete vom Typ JL-3 aus einem Atom-U-Boot im Pazifik; ein Attrappen-Gefechtskopf legte rund 8.000 Kilometer zurück und belegte damit Chinas Fortschritte bei der nuklearen Zweitschlagkapazität.",
+            "Staatsfernsehen bestätigte parallel den Ausbau nuklearer Raketensilo-Kapazitäten, die ein PLA-Offizier als strategische Trümpfe bezeichnete – ein seltenes öffentliches Bekenntnis zur nuklearen Aufrüstung.",
+            "Xi Jinping rief die Volksbefreiungsarmee anlässlich des 99. Gründungstags auf, KI und unbemannte Technologien stärker militärisch zu nutzen; Staatsfernsehen zeigte zudem den Testabschuss einer YJ-20-Hyperschall-Seezielrakete.",
+            "Die EU verhängte Sanktionen gegen 14 chinesische Unternehmen wegen Russland-Unterstützung; Peking antwortete unmittelbar mit Gegensanktionen gegen EU-Ziele, was den bilateralen Konflikt auf eine neue Eskalationsstufe hob.",
+            "Im Südchinesischen Meer führten PLA und Küstenwache Manöver nahe dem Scarborough-Riff durch und warnten die Philippinen mit einer Drohung vor einem harten Schlag durch ein mächtiges Instrumentarium."
+          ],
+          "contextDe": [
+            "Die Häufung militärischer Signale – U-Boot-Raketentest, Siloausbau, Hyperschalltest und Manöver – in einer einzigen Woche ist ungewöhnlich und deutet auf eine bewusste Eskalation der strategischen Kommunikation hin.",
+            "Der EU-China-Sanktionsaustausch ist die bislang schärfste direkte Konfrontation beider Seiten im Kontext des Ukraine-Krieges und testet die Belastbarkeit wirtschaftlicher Verflechtungen, von denen Deutschland besonders abhängt.",
+            "Analysten sehen das Philippinische Meer als potenziellen Hauptschauplatz chinesischer Trägerverbände in einem Taiwan-Szenario, was die Relevanz dieser Manöver weit über die unmittelbare Region hinaus erstreckt."
+          ],
+          "additionalImportant": "Die USA fügten 43 weitere chinesische Unternehmen auf die Importverbotsliste wegen mutmaßlicher Zwangsarbeit in Xinjiang hinzu – die dritte größere US-Maßnahme gegen China innerhalb einer Woche.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "EU-Gegensanktionen Chinas treffen direkt europäische und deutsche Unternehmen; die militärische Eskalation im Indo-Pazifik berührt globale Handelsrouten und die europäische Sicherheitsarchitektur."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Der erste U-Boot-Raketentest seit 42 Jahren, öffentliches Bekenntnis zum Siloausbau, EU-China-Sanktionsspirale und Manöver im Südchinesischen Meer ergeben in ihrer Gesamtheit eine außerordentliche strategische Eskalationswoche."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why China's JL-3 made waves with first submarine-based missile test in over 40 years",
+              "url": "https://www.scmp.com/news/china/military/article/3362640/why-chinas-jl-3-made-waves-first-submarine-based-missile-test-over-40-years",
+              "publishedAt": "2026-08-01T12:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "EU-China trade war: Beijing turns the screws as Brussels tests limits of restraint",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3362502/eu-china-trade-war-beijing-turns-screws-brussels-tests-limits-restraint",
+              "publishedAt": "2026-07-31T09:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi Jinping urges Chinese armed forces to 'strengthen military application' of AI",
+              "url": "https://www.scmp.com/news/china/military/article/3362496/xi-jinping-urges-chinese-armed-forces-strengthen-military-application-ai",
+              "publishedAt": "2026-07-31T06:25:40Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China signals buildout of nuclear missile silos for 'strategic trump cards'",
+              "url": "https://www.scmp.com/news/china/military/article/3362573/china-signals-buildout-nuclear-missile-silos-strategic-trump-cards",
+              "publishedAt": "2026-07-31T12:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "PLA and coastguards stage South China Sea drills days after Philippine territorial bid",
+              "url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid",
+              "publishedAt": "2026-08-01T05:11:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing warns Manila of 'powerful' South China Sea toolbox ready for 'head-on blow'",
+              "url": "https://www.scmp.com/news/china/military/article/3362700/beijing-warns-manila-powerful-south-china-sea-toolbox-ready-head-blow",
+              "publishedAt": "2026-08-02T10:00:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Parlament beschließt Sicherheits- und Waffengesetze; Justizbesetzung und Đukanović-Verfahren im Fokus",
+          "summaryDe": [
+            "Das montenegrinische Parlament verabschiedete mit breiter Mehrheit Änderungen der Gesetze über innere Angelegenheiten und den nationalen Geheimdienst, die auf einer parlamentarischen Einigung vom 7. Juli beruhen und Teil des EU-Reformprozesses sind.",
+            "Ein neues Waffen- und Munitionsgesetz, das nach Parlamentsangaben EU-Anforderungen erfüllt, wurde ebenfalls angenommen; die Opposition verließ während der Abstimmung den Saal.",
+            "Aleksandar Kovačević wurde mit Zweidrittelmehrheit als Mitglied des Richterrats gewählt und besetzte damit eine wichtige Position in der Justizarchitektur des Landes.",
+            "Im laufenden Strafverfahren gegen Aco Đukanović beantragte die Verteidigung gerichtlichen Schutz vor angeblicher Manipulation durch die Staatsanwaltschaft, nachdem diese ihre Anklageschrift reduziert hatte, ohne neue Beweise vorzulegen.",
+            "Die Woche verdeutlicht sowohl den EU-Integrationsdruck auf Montenegros Gesetzgebung als auch anhaltende innenpolitische Spannungen in Justiz- und Sicherheitsfragen."
+          ],
+          "contextDe": [
+            "Montenegro befindet sich in einer entscheidenden Phase des EU-Beitrittsprozesses, in der Reformen der Justiz und des Sicherheitssektors als Kernbedingungen gelten.",
+            "Die Verfahren rund um die Đukanović-Familie sind innenpolitisch hoch aufgeladen und spiegeln den Machtkampf zwischen der alten politischen Elite und der neuen Regierungskoalition wider.",
+            "Für die EU und Deutschland als wichtiger Erweiterungsakteur sind Fortschritte in Rechtsstaatlichkeit und Justizunabhängigkeit entscheidende Benchmarks zur Bewertung Montenegros Beitrittsreife."
+          ],
+          "additionalImportant": "Die Regierung zahlte eine Rate von 1,76 Millionen US-Dollar an chinesische Gläubiger im Namen der Hafenbehörde Bar; ab 2027 soll das Unternehmen künftige Raten eigenständig begleichen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als EU-Beitrittskandidat ist Montenegros Rechtsstaats- und Sicherheitsreform für Deutschland indirekt relevant, da sie den Erweiterungsprozess und die EU-Stabilität auf dem Westbalkan beeinflusst."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Verabschiedung von Sicherheitsgesetzen, Justizbesetzungen und ein politisch aufgeladenes Strafverfahren markieren zusammen eine bedeutsame innenpolitische Verdichtungswoche für Montenegro."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Usvojene izmjene zakona o unutrašnjim poslovima i ANB-u",
+              "url": "https://www.pobjeda.me/clanak/usvojene-izmjene-zakona-o-unutrasnjim-poslovima-i-anb-u",
+              "publishedAt": "2026-07-31T21:29:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Usvojen Zakon o oružju, opozicija napustila salu",
+              "url": "https://www.vijesti.me/vijesti/politika/820288/usvojen-zakon-o-oruzju-opozicija-napustila-salu",
+              "publishedAt": "2026-07-31T22:21:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kovačević izabran za člana Sudskog savjeta, Raspopović u Savjetu...",
+              "url": "https://www.vijesti.me/vijesti/politika/820286/kovacevic-izabran-za-clana-sudskog-savjeta-raspopovic-u-savjetu-amu-a",
+              "publishedAt": "2026-07-31T21:07:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Jovanović: Ne možemo tražiti izuzeće sudija jer nam se ne sviđa odluka koja je prilično izvjesna",
+              "url": "https://www.pobjeda.me/clanak/jovanovic-ne-mozemo-traziti-izuzece-sudija-jer-nam-se-ne-svida-odluka-koja-je-prilicno-izvjesna",
+              "publishedAt": "2026-07-31T17:02:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fiskalrat besetzt, Rentenerhöhung abgelehnt – institutionelle Konsolidierung unter Haushaltsdruck",
+          "summaryDe": [
+            "Das montenegrinische Parlament ernannte drei Mitglieder des Fiskalrats und wählte Zorica Kalezić erneut zur Vizegouverneurin der Zentralbank – Personalentscheidungen mit Relevanz für die unabhängige Haushaltsaufsicht.",
+            "Ein Antrag auf Rentenerhöhung wurde abgelehnt; die Regierung enthielt sich bei der Abstimmung, was auf koalitionsinterne Spannungen in Sozialfragen hindeutet.",
+            "Die Ablehnung fällt in eine Phase, in der Montenegro seinen Haushalt im Einklang mit EU-Beitrittsanforderungen konsolidieren muss und fiskalischen Spielraum begrenzen will.",
+            "Die Besetzung des Fiskalrats gilt als Schritt zur Stärkung unabhängiger Budgetkontrolle, die von EU-Partnern als Reformbedingung eingefordert wird."
+          ],
+          "contextDe": [
+            "Montenegro strebt die Erfüllung fiskalischer EU-Konvergenzkriterien an, was sozialpolitische Spielräume einengt und innenpolitische Konflikte über Verteilungsfragen befördert.",
+            "Die Enthaltung der Regierung bei der Rentenabstimmung spiegelt das Spannungsfeld zwischen EU-Haushaltsdisziplin und sozialpolitischen Wahlversprechen wider.",
+            "Die institutionelle Besetzung des Fiskalrats ist ein sichtbares Signal an EU-Partner, dass Montenegro die geforderte Haushaltskontrolle ernstnimmt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegros innenpolitische Haushaltsentscheidungen haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Personalbesetzungen und die Rentenentscheidung sind für Montenegros institutionelle Entwicklung und EU-Annäherung relevant, haben aber begrenzte überregionale Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Imenovana tri člana Fiskalnog savjeta, Zorica Kalezić ponovo...",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/820287/imenovana-tri-clana-fiskalnog-savjeta-zorica-kalezic-ponovo-izabrana-za-viceguvernerku",
+              "publishedAt": "2026-07-31T21:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Vučić-Rhetorik verschärft Regionalspannung; Montenegro-Kroatien-Grenzgespräche nach Sommerpause",
+          "summaryDe": [
+            "Der serbische Präsident Vučić bezeichnete die Lage der Serben im Kosovo öffentlich als entsetzlichen Terror und verschärfte damit die Rhetorik im nach wie vor ungelösten Belgrad-Pristina-Konflikt.",
+            "Montenegros Außenminister Ivanović betonte, die Verhandlungen mit Kroatien über maritime Grenzen und die Prevlaka-Halbinsel seien nicht geheim und würden nach der Sommerpause substantiell fortgeführt.",
+            "Die öffentliche Positionierung des Ministers zielte darauf ab, innenpolitische Kritik an mangelnder Transparenz in den bilateralen Gesprächen zu entkräften.",
+            "Montenegro ist durch seine ethnische Zusammensetzung und geografische Lage von der Stabilität im Kosovo-Konflikt direkt berührt; die gleichzeitigen Grenzverhandlungen mit Kroatien verdeutlichen die außenpolitische Komplexität des Landes.",
+            "Vučićs Aussagen folgen einem bekannten Mobilisierungsmuster, erhöhen aber die regionale Spannung zu einem Zeitpunkt, an dem EU-vermittelte Normalisierungsgespräche laufen."
+          ],
+          "contextDe": [
+            "Die offene Grenzfrage zwischen Montenegro und Kroatien ist formal eine bilaterale Angelegenheit zweier NATO- und EU-naher Staaten, wird aber im Erweiterungskontext als Lösbarkeitsbeweis bewertet.",
+            "Vučićs regelmäßige Kosovo-Rhetorik erschwert den EU-vermittelten Dialog und setzt Nachbarstaaten wie Montenegro unter Positionierungsdruck.",
+            "Deutschland engagiert sich aktiv im Westbalkan-Stabilisierungsprozess und verfolgt sowohl die Belgrad-Pristina-Normalisierung als auch Montenegros EU-Kurs als prioritäre Außenpolitikziele."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als EU-Akteur in den Westbalkan-Normalisierungsprozess eingebunden; Vučićs Rhetorik und offene Grenzfragen können Montenegros EU-Integrationspfad verzögern."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Vučićs Aussagen und die montenegrinisch-kroatischen Grenzgespräche sind regional bedeutsam, lösen aber keine unmittelbare neue Eskalation aus."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Vučić: Srpski narod na Kosovu je izložen \"jezivom teroru\"",
+              "url": "https://www.pobjeda.me/clanak/vucic-srpski-narod-na-kosovu-je-izlozen-jezivom-teroru",
+              "publishedAt": "2026-08-02T16:05:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ivanović: Nema ništa tajno u pregovorima s Hrvatskom, o \"Jadranu\" i Prevlaci nakon ljeta",
+              "url": "https://www.pobjeda.me/clanak/ivanovic-nema-nista-tajno-u-pregovorima-s-hrvatskom-o-jadranu-i-prevlaci-nakon-ljeta",
+              "publishedAt": "2026-07-31T22:13:32Z"
+            }
+          ]
+        }
+      ]
+    }
   ],
-  "sourceReportDates": ["2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31"],
-  "missingReportDates": ["2026-08-01", "2026-08-02"]
+  "sourceReportDates": [
+    "2026-07-31",
+    "2026-08-01",
+    "2026-08-02"
+  ],
+  "missingReportDates": [
+    "2026-07-27",
+    "2026-07-28",
+    "2026-07-29",
+    "2026-07-30"
+  ]
 }
-

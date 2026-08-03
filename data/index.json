@@ -19,6 +19,11 @@
       "path": "data/daily/2026-07-31.json"
     }
   ],
-  "weekly": [],
+  "weekly": [
+    {
+      "period": "2026-W31",
+      "path": "data/weekly/2026-W31.json"
+    }
+  ],
   "monthly": []
 }
