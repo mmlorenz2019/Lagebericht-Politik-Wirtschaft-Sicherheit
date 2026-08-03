@@ -18,6 +18,7 @@ class DailyCliTests(unittest.TestCase):
 
         def transport(url, headers, payload, timeout):
             captured.update(payload)
+            captured["timeout"] = timeout
             return {
                 "content": [{"type": "text", "text": '{"ok": true}'}],
                 "stop_reason": "end_turn",
@@ -26,6 +27,7 @@ class DailyCliTests(unittest.TestCase):
         client = run_period.build_period_client("test-key", transport=transport)
         self.assertEqual(client.generate_json("model", "rules", "input", "schema", {}), {"ok": True})
         self.assertEqual(captured["max_tokens"], 16384)
+        self.assertEqual(captured["timeout"], 600.0)
 
     def test_help_lists_dry_run_and_date(self):
         env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}

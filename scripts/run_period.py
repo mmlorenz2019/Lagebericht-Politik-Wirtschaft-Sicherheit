@@ -16,6 +16,7 @@ from lagebericht.schedule import berlin_now
 def build_period_client(api_key: str, *, transport=None) -> AnthropicMessagesClient:
     options = {
         "max_tokens": int(os.environ.get("ANTHROPIC_PERIOD_MAX_TOKENS", "16384")),
+        "timeout_seconds": float(os.environ.get("ANTHROPIC_PERIOD_TIMEOUT_SECONDS", "600")),
     }
     if transport is not None:
         options["transport"] = transport
