@@ -8,11 +8,39 @@ from datetime import date
 from pathlib import Path
 
 from lagebericht.config import all_allowed_domains, load_sources
+from lagebericht.costs import CostRecorder, context_from_environment
 from lagebericht.fetch import SafeFetcher
 from lagebericht.anthropic_client import AnthropicError, AnthropicMessagesClient
 from lagebericht.pipeline import DailyPipeline, PipelineError
 from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
+
+
+ROOT = Path(__file__).parents[1]
+
+
+def build_daily_client(
+    api_key: str,
+    data_root: Path,
+    report_date: date,
+    *,
+    transport=None,
+    environ=None,
+) -> AnthropicMessagesClient:
+    """Build a paid client while keeping cost setup failures non-fatal."""
+    observer = None
+    try:
+        context = context_from_environment("daily", report_date.isoformat(), environ)
+        recorder = CostRecorder(
+            data_root, ROOT / "config" / "api-pricing.json", context
+        )
+        observer = recorder.observe
+    except Exception:
+        pass
+    options = {"usage_observer": observer}
+    if transport is not None:
+        options["transport"] = transport
+    return AnthropicMessagesClient(api_key, **options)
 
 
 def parse_args(argv=None):
@@ -31,9 +59,10 @@ def main(argv=None) -> int:
         print("ANTHROPIC_API_KEY fehlt; es wurde nichts veröffentlicht.", file=sys.stderr)
         return 2
     try:
+        report_date = args.date or berlin_now().date()
         sources = load_sources(args.sources)
         allowed_domains = all_allowed_domains(sources)
-        client = AnthropicMessagesClient(api_key)
+        client = build_daily_client(api_key, args.data_root, report_date)
         pipeline = DailyPipeline(
             sources,
             SafeFetcher(),
@@ -42,7 +71,6 @@ def main(argv=None) -> int:
             extraction_model=os.environ.get("ANTHROPIC_EXTRACTION_MODEL", "claude-haiku-4-5-20251001"),
             summary_model=os.environ.get("ANTHROPIC_SUMMARY_MODEL", "claude-sonnet-4-6"),
         )
-        report_date = args.date or berlin_now().date()
         report = pipeline.run(report_date)
         if args.dry_run:
             print(json.dumps(report, ensure_ascii=False, indent=2))

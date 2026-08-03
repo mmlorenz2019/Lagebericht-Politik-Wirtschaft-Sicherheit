@@ -8,15 +8,49 @@ from pathlib import Path
 
 from lagebericht.aggregate import PeriodAggregator
 from lagebericht.config import all_allowed_domains, load_sources
+from lagebericht.costs import CostRecorder, context_from_environment
 from lagebericht.anthropic_client import AnthropicError, AnthropicMessagesClient
 from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
 
 
-def build_period_client(api_key: str, *, transport=None) -> AnthropicMessagesClient:
+ROOT = Path(__file__).parents[1]
+
+
+def week_report_id(end_date: date) -> str:
+    iso_year, iso_week, _ = end_date.isocalendar()
+    return f"{iso_year}-W{iso_week:02d}"
+
+
+def month_report_id(year: int, month: int) -> str:
+    return date(year, month, 1).strftime("%Y-%m")
+
+
+def build_period_usage_observer(
+    data_root: Path,
+    report_type: str,
+    report_id: str,
+    *,
+    environ=None,
+):
+    """Return a recorder callback, or no callback when setup is unavailable."""
+    try:
+        context = context_from_environment(report_type, report_id, environ)
+        recorder = CostRecorder(
+            data_root, ROOT / "config" / "api-pricing.json", context
+        )
+        return recorder.observe
+    except Exception:
+        return None
+
+
+def build_period_client(
+    api_key: str, *, usage_observer=None, transport=None
+) -> AnthropicMessagesClient:
     options = {
         "max_tokens": int(os.environ.get("ANTHROPIC_PERIOD_MAX_TOKENS", "16384")),
         "timeout_seconds": float(os.environ.get("ANTHROPIC_PERIOD_TIMEOUT_SECONDS", "600")),
+        "usage_observer": usage_observer,
     }
     if transport is not None:
         options["transport"] = transport
@@ -43,17 +77,27 @@ def main(argv=None) -> int:
     try:
         sources = load_sources(args.sources)
         domains = all_allowed_domains(sources)
+        today = berlin_now().date()
+        if args.mode == "week":
+            period_end = args.end_date or today
+            report_id = week_report_id(period_end)
+        else:
+            year, month = map(
+                int, (args.month or today.strftime("%Y-%m")).split("-")
+            )
+            report_id = month_report_id(year, month)
+        observer = build_period_usage_observer(
+            args.data_root, args.mode, report_id
+        )
         aggregator = PeriodAggregator(
             args.data_root,
-            build_period_client(api_key),
+            build_period_client(api_key, usage_observer=observer),
             domains,
             model=os.environ.get("ANTHROPIC_SUMMARY_MODEL", "claude-sonnet-4-6"),
         )
-        today = berlin_now().date()
         if args.mode == "week":
-            report = aggregator.build_week(args.end_date or today)
+            report = aggregator.build_week(period_end)
         else:
-            year, month = map(int, (args.month or today.strftime("%Y-%m")).split("-"))
             report = aggregator.build_month(year, month)
         if report is None:
             print("Keine gültigen Tagesberichte für diesen Zeitraum; Claude wurde nicht aufgerufen.", file=sys.stderr)
