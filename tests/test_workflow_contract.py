@@ -7,6 +7,8 @@ import tempfile
 import unittest
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from unittest.mock import patch
+from zoneinfo import ZoneInfoNotFoundError
 
 from lagebericht.schedule import due_outputs, period_targets, to_berlin
 from tests.test_schema import category
@@ -200,6 +202,38 @@ class WorkflowContractTests(unittest.TestCase):
         berlin = timezone(timedelta(hours=2), "Europe/Berlin")
         sunday_month_end = datetime(2026, 5, 31, 6, 30, tzinfo=berlin)
         self.assertEqual(to_berlin(sunday_month_end).date(), date(2026, 5, 31))
+
+    def test_to_berlin_prefers_europe_berlin_zoneinfo_when_available(self):
+        def available_zone(key):
+            if key != "Europe/Berlin":
+                raise AssertionError(f"unexpected zone key: {key}")
+            return timezone(timedelta(hours=3), "zoneinfo-test")
+
+        with patch(
+            "lagebericht.schedule.ZoneInfo", side_effect=available_zone, create=True
+        ):
+            converted = to_berlin(
+                datetime(2026, 7, 1, 0, 0, tzinfo=timezone.utc)
+            )
+
+        self.assertEqual(converted.utcoffset(), timedelta(hours=3))
+        self.assertEqual(converted.hour, 3)
+
+    def test_to_berlin_falls_back_when_zoneinfo_is_unavailable(self):
+        with patch(
+            "lagebericht.schedule.ZoneInfo",
+            side_effect=ZoneInfoNotFoundError("missing"),
+            create=True,
+        ):
+            summer = to_berlin(
+                datetime(2026, 7, 1, 0, 0, tzinfo=timezone.utc)
+            )
+            winter = to_berlin(
+                datetime(2026, 1, 1, 0, 0, tzinfo=timezone.utc)
+            )
+
+        self.assertEqual(summer.utcoffset(), timedelta(hours=2))
+        self.assertEqual(winter.utcoffset(), timedelta(hours=1))
 
     def test_test_workflow_has_read_only_permissions_and_runs_tests(self):
         text = (ROOT / ".github" / "workflows" / "test.yml").read_text(encoding="utf-8")

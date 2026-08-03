@@ -169,7 +169,12 @@ class CostCalculationTests(unittest.TestCase):
             load_pricing(path)
 
     def test_load_pricing_rejects_extreme_decimal_values(self):
-        for extreme in ("1e1000000", "9" * 1000):
+        for extreme in (
+            "1e1000000",
+            "0.000000001",
+            "00.10",
+            "9" * 1000,
+        ):
             with self.subTest(extreme=extreme[:20]):
                 value = json.loads(
                     (ROOT / "config" / "api-pricing.json").read_text(
@@ -181,6 +186,15 @@ class CostCalculationTests(unittest.TestCase):
                 ] = extreme
                 with self.assertRaisesRegex(CostDataError, "inputUsdPerMTok"):
                     load_pricing(self.write_pricing(value))
+
+    def test_load_pricing_rejects_exchange_rate_that_can_underflow_to_zero(self):
+        value = json.loads(
+            (ROOT / "config" / "api-pricing.json").read_text(encoding="utf-8")
+        )
+        value["usdToEur"] = "1e-999999999"
+
+        with self.assertRaisesRegex(CostDataError, "usdToEur"):
+            load_pricing(self.write_pricing(value))
 
     def test_estimate_cost_wraps_decimal_overflow_as_cost_data_error(self):
         extreme_pricing = {

@@ -4,14 +4,16 @@ from datetime import date, datetime
 from decimal import Decimal, DecimalException
 import json
 from pathlib import Path
+import re
 
 from .schedule import to_berlin
 
 
 MILLION = Decimal(1_000_000)
 MAX_TOKENS = 1_000_000_000
-MAX_DECIMAL_TEXT_LENGTH = 64
+MAX_DECIMAL_TEXT_LENGTH = 16
 MAX_MONETARY_VALUE = Decimal("1000000")
+_DECIMAL_PATTERN = re.compile(r"(?:0|[1-9][0-9]{0,6})(?:\.[0-9]{1,8})?")
 _TOP_LEVEL_FIELDS = {
     "schemaVersion",
     "priceVersion",
@@ -36,8 +38,8 @@ class CostDataError(ValueError):
 def _decimal_string(value, path: str, *, positive: bool = False) -> Decimal:
     if not isinstance(value, str):
         raise CostDataError(f"{path}: must be a decimal string")
-    if len(value) > MAX_DECIMAL_TEXT_LENGTH:
-        raise CostDataError(f"{path}: decimal string is too long")
+    if len(value) > MAX_DECIMAL_TEXT_LENGTH or _DECIMAL_PATTERN.fullmatch(value) is None:
+        raise CostDataError(f"{path}: must be a canonical decimal string")
     try:
         result = Decimal(value)
     except DecimalException as exc:

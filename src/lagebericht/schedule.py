@@ -5,6 +5,7 @@ import json
 from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from .config import all_allowed_domains, load_sources
 from .schema import ReportValidationError, validate_period_report
@@ -21,6 +22,10 @@ def _last_sunday(year: int, month: int) -> date:
 def to_berlin(now: datetime) -> datetime:
     if now.tzinfo is None:
         now = now.replace(tzinfo=timezone.utc)
+    try:
+        return now.astimezone(ZoneInfo("Europe/Berlin"))
+    except ZoneInfoNotFoundError:
+        pass
     utc = now.astimezone(timezone.utc)
     start = datetime.combine(_last_sunday(utc.year, 3), time(1), timezone.utc)
     end = datetime.combine(_last_sunday(utc.year, 10), time(1), timezone.utc)
