@@ -36,7 +36,7 @@ SECTION_SCHEMA = {
         "sourceBasis": {"enum": ["multiple", "single", "none"]},
         "limitations": {"type": "array", "items": {"enum": ["paywall", "feed_only", "single_source", "source_disagreement", "technical_failure"]}},
         "sources": {
-            "type": "array",
+            "type": "array", "maxItems": 8,
             "items": {
                 "type": "object",
                 "additionalProperties": False,
@@ -65,13 +65,38 @@ def period_content_schema(period_type: str) -> dict:
     return schema
 
 
-def normalize_period_content(content: dict) -> dict:
+def normalize_period_content(content: dict, period_type: str) -> dict:
     normalized = copy.deepcopy(content)
+    overall_summary = normalized.get("overallSummary")
+    if isinstance(overall_summary, list):
+        normalized["overallSummary"] = overall_summary[:10 if period_type == "week" else 15]
     for country in normalized.get("countries", []):
         for section in country.get("sections", []):
             summary = section.get("summaryDe")
             if isinstance(summary, list):
                 section["summaryDe"] = summary[:6]
+            context = section.get("contextDe")
+            if isinstance(context, list):
+                section["contextDe"] = context[:3]
+            sources = section.get("sources")
+            if isinstance(sources, list):
+                section["sources"] = sources[:8]
+            for rating_name in ("germanyRelevance", "overallSignificance"):
+                rating = section.get(rating_name)
+                if not isinstance(rating, dict):
+                    continue
+                score = rating.get("score")
+                if isinstance(score, bool):
+                    continue
+                if isinstance(score, float) and score.is_integer():
+                    score = int(score)
+                elif isinstance(score, str):
+                    try:
+                        score = int(score.strip())
+                    except ValueError:
+                        continue
+                if isinstance(score, int):
+                    rating["score"] = max(0, min(3, score))
     return normalized
 
 PERIOD_CONTENT_SCHEMA = {
@@ -128,7 +153,8 @@ class PeriodAggregator:
         instructions, input_text = build_period_prompt(reports, period_type)
         schema = period_content_schema(period_type)
         content = normalize_period_content(
-            self.ai_client.generate_json(self.model, instructions, input_text, "period_content", schema)
+            self.ai_client.generate_json(self.model, instructions, input_text, "period_content", schema),
+            period_type,
         )
         report = {
             "schemaVersion": 3,

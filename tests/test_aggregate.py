@@ -29,9 +29,15 @@ class ContentAI:
 class OverlongSectionAI(ContentAI):
     def generate_json(self, model, instructions, input_text, schema_name, schema):
         content = super().generate_json(model, instructions, input_text, schema_name, schema)
+        content["overallSummary"] = [f"Gesamtsatz {index + 1}." for index in range(11)]
         content["countries"][1]["sections"][0]["summaryDe"] = [
             f"Abschnittssatz {index + 1}." for index in range(7)
         ]
+        content["countries"][1]["sections"][0]["contextDe"] = [
+            f"Kontextsatz {index + 1}." for index in range(4)
+        ]
+        content["countries"][1]["sections"][0]["sources"] *= 9
+        content["countries"][1]["sections"][0]["overallSignificance"]["score"] = 4
         return content
 
 
@@ -99,7 +105,11 @@ class AggregateTests(unittest.TestCase):
 
         report = PeriodAggregator(self.root, OverlongSectionAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
 
+        self.assertEqual(len(report["overallSummary"]), 10)
         self.assertEqual(len(report["countries"][1]["sections"][0]["summaryDe"]), 6)
+        self.assertEqual(len(report["countries"][1]["sections"][0]["contextDe"]), 3)
+        self.assertEqual(len(report["countries"][1]["sections"][0]["sources"]), 8)
+        self.assertEqual(report["countries"][1]["sections"][0]["overallSignificance"]["score"], 3)
 
     def test_returns_none_without_calling_ai_when_period_has_no_days(self):
         ai = ContentAI()
