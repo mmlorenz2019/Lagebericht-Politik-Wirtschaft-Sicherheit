@@ -25,6 +25,23 @@ def valid_cost_report(month="2026-08"):
     }
 
 
+def unmeasured_cost_event(**changes):
+    value = {
+        "eventId": "a" * 64,
+        "occurredAt": "2026-08-03T10:00:00+00:00",
+        "reportType": "daily",
+        "reportId": "2026-08-03",
+        "model": "claude-haiku-4-5-20251001",
+        "outcome": "transport_error",
+        "measured": False,
+        "usage": None,
+        "estimatedCostUsd": None,
+        "estimatedCostEur": None,
+    }
+    value.update(changes)
+    return value
+
+
 class PublishTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -167,6 +184,38 @@ class PublishTests(unittest.TestCase):
             "estimatedCostUsd": 1e300,
             "estimatedCostEur": 1e300,
         }]
+        costs.write_text(json.dumps(report), encoding="utf-8")
+
+        index = rebuild_index(self.root)
+
+        self.assertIsNone(index["currentCosts"])
+
+    def test_rebuild_index_skips_unhashable_report_type_and_outcome_values(self):
+        costs = self.root / "costs"
+        costs.mkdir(parents=True)
+        for month, field in (("2026-08", "reportType"), ("2026-09", "outcome")):
+            report = valid_cost_report(month)
+            report["unmeasuredCalls"] = 1
+            occurred_at = f"{month}-03T10:00:00+00:00"
+            report["events"] = [
+                unmeasured_cost_event(occurredAt=occurred_at, **{field: []})
+            ]
+            (costs / f"{month}.json").write_text(
+                json.dumps(report), encoding="utf-8"
+            )
+
+        index = rebuild_index(self.root)
+
+        self.assertIsNone(index["currentCosts"])
+
+    def test_rebuild_index_skips_event_outside_artifact_berlin_month(self):
+        costs = self.root / "costs" / "2026-08.json"
+        costs.parent.mkdir(parents=True)
+        report = valid_cost_report()
+        report["unmeasuredCalls"] = 1
+        report["events"] = [
+            unmeasured_cost_event(occurredAt="2026-08-31T22:00:00+00:00")
+        ]
         costs.write_text(json.dumps(report), encoding="utf-8")
 
         index = rebuild_index(self.root)

@@ -308,6 +308,15 @@ class CostRecorderTests(unittest.TestCase):
             (self.root / "costs" / "2026-08.json").read_text(encoding="utf-8")
         )
 
+    def write_pricing(self, **changes):
+        value = json.loads(
+            (ROOT / "config" / "api-pricing.json").read_text(encoding="utf-8")
+        )
+        value.update(changes)
+        path = self.root / "pricing.json"
+        path.write_text(json.dumps(value), encoding="utf-8")
+        return path
+
     def test_context_uses_github_environment_or_local_defaults(self):
         self.assertEqual(
             context_from_environment("daily", "2026-08-03", {}),
@@ -442,6 +451,41 @@ class CostRecorderTests(unittest.TestCase):
             validate_cost_report(leaked, expected_month="2026-08")
         with self.assertRaises(CostDataError):
             validate_cost_report(inconsistent, expected_month="2026-08")
+
+    def test_recorder_rejects_changed_month_pricing_without_touching_existing_file(self):
+        context = CostContext("daily", "2026-08-03", "run-12", "1")
+        first = CostRecorder(self.root, self.pricing_path, context, now=self.now)
+        first.observe(self.model, {"input_tokens": 1, "output_tokens": 1}, "end_turn")
+        ledger = self.root / "costs" / "2026-08.json"
+        original = ledger.read_bytes()
+
+        changed_path = self.write_pricing(
+            priceVersion="new-prices",
+            usdToEur="0.9000",
+            rateEffectiveDate="2026-08-01",
+            collectionStartedAt="2026-08-04T00:00:00+02:00",
+        )
+        changed = CostRecorder(self.root, changed_path, context, now=self.now)
+
+        with self.assertRaisesRegex(CostDataError, "pricing contract"):
+            changed.observe(
+                self.model, {"input_tokens": 2, "output_tokens": 2}, "end_turn"
+            )
+        self.assertEqual(ledger.read_bytes(), original)
+
+    def test_validator_rejects_event_outside_its_berlin_month(self):
+        recorder = CostRecorder(
+            self.root,
+            self.pricing_path,
+            CostContext("daily", "2026-08-03", "run-13", "1"),
+            now=self.now,
+        )
+        recorder.observe(self.model, {"input_tokens": 1, "output_tokens": 1}, "end_turn")
+        report = self.read_report()
+        report["events"][0]["occurredAt"] = "2026-08-31T22:00:00+00:00"
+
+        with self.assertRaisesRegex(CostDataError, "occurredAt"):
+            validate_cost_report(report, expected_month="2026-08")
 
 
 if __name__ == "__main__":

@@ -251,13 +251,14 @@ def _json_number(value, path: str) -> Decimal:
     return result
 
 
-def _iso_datetime(value, path: str) -> None:
+def _iso_datetime(value, path: str) -> datetime:
     try:
         parsed = datetime.fromisoformat(value)
     except (TypeError, ValueError) as exc:
         raise CostDataError(f"{path}: must be an ISO datetime") from exc
     if parsed.tzinfo is None or parsed.utcoffset() is None:
         raise CostDataError(f"{path}: must include a timezone")
+    return parsed
 
 
 def validate_cost_report(report: dict, *, expected_month: str | None = None) -> bool:
@@ -311,12 +312,14 @@ def validate_cost_report(report: dict, *, expected_month: str | None = None) -> 
         if event_id in ids:
             raise CostDataError(f"{path}.eventId: duplicate")
         ids.add(event_id)
-        _iso_datetime(event["occurredAt"], f"{path}.occurredAt")
-        if event["reportType"] not in _REPORT_TYPES:
+        occurred_at = _iso_datetime(event["occurredAt"], f"{path}.occurredAt")
+        if berlin_month(occurred_at) != month:
+            raise CostDataError(f"{path}.occurredAt: outside report month")
+        if not isinstance(event["reportType"], str) or event["reportType"] not in _REPORT_TYPES:
             raise CostDataError(f"{path}.reportType: invalid")
         for field in ("reportId", "model"):
             _non_empty_string(event[field], f"{path}.{field}")
-        if event["outcome"] not in _OUTCOMES:
+        if not isinstance(event["outcome"], str) or event["outcome"] not in _OUTCOMES:
             raise CostDataError(f"{path}.outcome: invalid")
         measured = event["measured"]
         if not isinstance(measured, bool):
@@ -451,6 +454,24 @@ class CostRecorder:
             except (OSError, UnicodeError, json.JSONDecodeError) as exc:
                 raise CostDataError(f"cannot read existing cost report: {exc}") from exc
             validate_cost_report(existing, expected_month=month)
+            expected_rate = {
+                "usdToEur": self.pricing["usdToEur"],
+                "effectiveDate": self.pricing["rateEffectiveDate"],
+            }
+            existing_rate = {
+                "usdToEur": Decimal(str(existing["rate"]["usdToEur"])),
+                "effectiveDate": existing["rate"]["effectiveDate"],
+            }
+            if (
+                existing["priceVersion"] != self.pricing["priceVersion"]
+                or existing_rate != expected_rate
+                or Decimal(str(existing["budgetEur"])) != self.pricing["budgetEur"]
+                or existing["collectionStartedAt"]
+                != self.pricing["collectionStartedAt"]
+            ):
+                raise CostDataError(
+                    "existing monthly pricing contract differs from current configuration"
+                )
             events = existing["events"]
         if not any(item["eventId"] == event_id for item in events):
             events.append(event)
