@@ -11,10 +11,21 @@ from unittest.mock import patch
 from zoneinfo import ZoneInfoNotFoundError
 
 from lagebericht.schedule import due_outputs, period_targets, to_berlin
+from lagebericht.costs import validate_cost_report
 from tests.test_schema import category
 
 
 ROOT = Path(__file__).parents[1]
+
+
+def public_keys(value):
+    if isinstance(value, dict):
+        for key, child in value.items():
+            yield key
+            yield from public_keys(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from public_keys(child)
 
 
 def valid_week_report(source_dates):
@@ -42,6 +53,30 @@ def valid_week_report(source_dates):
 
 
 class WorkflowContractTests(unittest.TestCase):
+    def test_public_cost_seed_is_valid_zero_state_without_sensitive_keys(self):
+        path = ROOT / "data" / "costs" / "2026-08.json"
+        cost_report = json.loads(path.read_text(encoding="utf-8"))
+
+        self.assertTrue(validate_cost_report(cost_report, expected_month="2026-08"))
+        self.assertEqual(cost_report["collectionStartedAt"], "2026-08-03T00:00:00+02:00")
+        self.assertEqual(cost_report["events"], [])
+        self.assertEqual(cost_report["estimatedCostUsd"], 0)
+        self.assertEqual(cost_report["estimatedCostEur"], 0)
+        self.assertEqual(cost_report["budgetPercent"], 0)
+        self.assertEqual(cost_report["unmeasuredCalls"], 0)
+        for key in public_keys(cost_report):
+            lowered = key.lower()
+            self.assertFalse(any(forbidden in lowered for forbidden in (
+                "key", "secret", "prompt", "message", "header", "requestid",
+            )))
+
+        index = json.loads((ROOT / "data" / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(index["schemaVersion"], 2)
+        self.assertEqual(index["currentCosts"], {
+            "month": "2026-08",
+            "path": "data/costs/2026-08.json",
+        })
+
     def test_period_verifier_reports_missing_week_and_accepts_partial_artifact(self):
         env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}
         with tempfile.TemporaryDirectory() as folder:

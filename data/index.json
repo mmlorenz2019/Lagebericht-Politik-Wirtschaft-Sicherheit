@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "latestDaily": "2026-08-03",
   "daily": [
     {
@@ -25,5 +25,9 @@
       "path": "data/weekly/2026-W31.json"
     }
   ],
-  "monthly": []
+  "monthly": [],
+  "currentCosts": {
+    "month": "2026-08",
+    "path": "data/costs/2026-08.json"
+  }
 }

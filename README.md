@@ -60,6 +60,12 @@ In Edge oder Chrome die GitHub-Pages-Seite öffnen und **App installieren** bezi
 - Alle sieben aktiven RSS/XML-Feeds wurden am 31.07.2026 live mit der sicheren Pipeline geprüft. Das Ergebnis steht unter `docs/source-smoke-test-2026-07-31.md`.
 - Die aktuellen HTTPS-Seiten von Caixin und China Daily sind erreichbar. Ihre HTML-Quellenadapter bleiben deaktiviert, bis robuste Parser mit echten Abrufproben vorliegen; die offiziellen China-Daily-RSS-Adressen lieferten beim Test veraltete HTTP-Artikel. Die Pipeline erfindet bei fehlenden Quellen keine Ersatzmeldungen.
 
+## Geschätzte API-Kosten
+
+Die öffentliche Kostenanzeige erfasst Aufrufe ab dem 03.08.2026. Sie berechnet aus den von Anthropic gemeldeten Tokenzahlen eine Schätzung für das laufende 5-Euro-Monatsbudget und ist keine Rechnung. Vollständige Zeitüberschreitungen liefern keine Tokenzahlen; in diesem Fall zeigt die App ausdrücklich nur eine Mindestschätzung an.
+
+Modellpreise und der manuell gepflegte Umrechnungskurs `usdToEur` stehen in `config/api-pricing.json`. Ändert der Anbieter seine Preise oder wird ein neuer Referenzkurs verwendet, muss diese Datei bewusst aktualisiert und versioniert werden. Die veröffentlichten Kostendateien enthalten ausschließlich technische Summen und Tokenzahlen, niemals API-Schlüssel, Prompts, Nachrichteninhalte, Header oder Provider-Anfragekennungen.
+
 ## Transparente Bedeutungsbewertung
 
 Neue Berichte zeigen für jede veröffentlichte Meldung zwei getrennte Einschätzungen von 0 bis 3: **Deutschland-Bezug** und **allgemeine Tragweite**. Grau steht für 0, Grün für 1, Gelb für 2 und Rot für 3. Die Farbe beschreibt nur die Stärke der möglichen Bedeutung, nicht ob eine Entwicklung positiv oder negativ ist. Jede Zahl besitzt eine aufklappbare Begründung.

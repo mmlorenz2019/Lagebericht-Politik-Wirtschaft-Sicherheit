@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-08",
+  "timezone": "Europe/Berlin",
+  "budgetEur": 5.0,
+  "estimatedCostUsd": 0.0,
+  "estimatedCostEur": 0.0,
+  "budgetPercent": 0.0,
+  "unmeasuredCalls": 0,
+  "collectionStartedAt": "2026-08-03T00:00:00+02:00",
+  "priceVersion": "anthropic-2026-08-03",
+  "rate": {
+    "usdToEur": 0.878,
+    "effectiveDate": "2026-07-27"
+  },
+  "events": []
+}
