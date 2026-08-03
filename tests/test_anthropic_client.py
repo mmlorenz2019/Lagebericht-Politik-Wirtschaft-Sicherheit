@@ -385,6 +385,167 @@ class AnthropicClientTests(unittest.TestCase):
         }
         self.assert_client_error(response, "must be an object")
 
+    def test_reports_usage_before_returning_structured_content(self):
+        client_class = load_client_class()
+        observed = []
+        response = {
+            "content": [{"type": "text", "text": '{"ok": true}'}],
+            "stop_reason": "end_turn",
+            "usage": {"input_tokens": 10, "output_tokens": 4},
+        }
+        client = client_class(
+            "secret",
+            transport=RecordingTransport(response),
+            usage_observer=lambda model, usage, outcome: observed.append(
+                (model, usage, outcome)
+            ),
+        )
+
+        self.assertEqual(
+            client.generate_json("model", "Rules", "Input", "example", {}),
+            {"ok": True},
+        )
+        self.assertEqual(observed, [("model", response["usage"], "end_turn")])
+
+    def test_reports_failure_stop_reasons_before_raising(self):
+        client_class = load_client_class()
+        error_class = load_error_class()
+        for stop_reason, error_pattern in (
+            ("max_tokens", "token limit"),
+            ("refusal", "refused"),
+        ):
+            with self.subTest(stop_reason=stop_reason):
+                observed = []
+                response = {
+                    "content": [{"type": "text", "text": '{}'}],
+                    "stop_reason": stop_reason,
+                    "usage": {"input_tokens": 10, "output_tokens": 8192},
+                }
+                client = client_class(
+                    "secret",
+                    transport=RecordingTransport(response),
+                    usage_observer=lambda model, usage, outcome: observed.append(
+                        (model, usage, outcome)
+                    ),
+                )
+
+                with self.assertRaisesRegex(error_class, error_pattern):
+                    client.generate_json("model", "Rules", "Input", "example", {})
+                self.assertEqual(
+                    observed,
+                    [("model", response["usage"], stop_reason)],
+                )
+
+    def test_reports_invalid_response_before_content_validation(self):
+        client_class = load_client_class()
+        error_class = load_error_class()
+        for response, error_pattern, expected_usage in (
+            (
+                {
+                    "content": [],
+                    "stop_reason": "unexpected",
+                    "usage": {"input_tokens": 3, "output_tokens": 1},
+                },
+                "finish safely",
+                {"input_tokens": 3, "output_tokens": 1},
+            ),
+            ({"content": [], "usage": "malformed"}, "finish safely", None),
+            ([], "response was invalid", None),
+        ):
+            with self.subTest(response=response):
+                observed = []
+                client = client_class(
+                    "secret",
+                    transport=RecordingTransport(response),
+                    usage_observer=lambda model, usage, outcome: observed.append(
+                        (model, usage, outcome)
+                    ),
+                )
+
+                with self.assertRaisesRegex(error_class, error_pattern):
+                    client.generate_json("model", "Rules", "Input", "example", {})
+                self.assertEqual(
+                    observed,
+                    [("model", expected_usage, "invalid_response")],
+                )
+
+    def test_reports_end_turn_usage_before_later_json_validation_error(self):
+        client_class = load_client_class()
+        error_class = load_error_class()
+        observed = []
+        response = {
+            "content": [{"type": "text", "text": "not json"}],
+            "stop_reason": "end_turn",
+            "usage": {"input_tokens": 10, "output_tokens": 2},
+        }
+        client = client_class(
+            "secret",
+            transport=RecordingTransport(response),
+            usage_observer=lambda model, usage, outcome: observed.append(
+                (model, usage, outcome)
+            ),
+        )
+
+        with self.assertRaisesRegex(error_class, "invalid JSON"):
+            client.generate_json("model", "Rules", "Input", "example", {})
+        self.assertEqual(observed, [("model", response["usage"], "end_turn")])
+
+    def test_reports_unmeasured_transport_error_exactly_once(self):
+        client_class = load_client_class()
+        error_class = load_error_class()
+        observed = []
+
+        def transport(url, headers, payload, timeout):
+            raise TimeoutError("late")
+
+        client = client_class(
+            "secret",
+            transport=transport,
+            usage_observer=lambda model, usage, outcome: observed.append(
+                (model, usage, outcome)
+            ),
+        )
+
+        with self.assertRaisesRegex(error_class, "request failed"):
+            client.generate_json("model", "Rules", "Input", "example", {})
+        self.assertEqual(observed, [("model", None, "transport_error")])
+
+    def test_broken_observer_never_changes_model_result_or_original_error(self):
+        client_class = load_client_class()
+        valid_response = {
+            "content": [{"type": "text", "text": '{"ok": true}'}],
+            "stop_reason": "end_turn",
+            "usage": {"input_tokens": 10, "output_tokens": 4},
+        }
+
+        def broken_observer(model, usage, outcome):
+            raise OSError("disk failure containing private details")
+
+        valid_client = client_class(
+            "secret",
+            transport=RecordingTransport(valid_response),
+            usage_observer=broken_observer,
+        )
+        self.assertEqual(
+            valid_client.generate_json("model", "Rules", "Input", "example", {}),
+            {"ok": True},
+        )
+
+        error_class = load_error_class()
+        original_error = error_class("original transport failure")
+
+        def broken_transport(url, headers, payload, timeout):
+            raise original_error
+
+        failing_client = client_class(
+            "secret",
+            transport=broken_transport,
+            usage_observer=broken_observer,
+        )
+        with self.assertRaises(error_class) as raised:
+            failing_client.generate_json("model", "Rules", "Input", "example", {})
+        self.assertIs(raised.exception, original_error)
+
 
 if __name__ == "__main__":
     unittest.main()

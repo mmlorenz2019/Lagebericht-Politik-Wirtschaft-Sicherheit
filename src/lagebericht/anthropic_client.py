@@ -66,6 +66,7 @@ class AnthropicMessagesClient:
         api_key: str,
         *,
         transport: Callable | None = None,
+        usage_observer: Callable[[str, dict | None, str], None] | None = None,
         timeout_seconds: float = 180.0,
         max_tokens: int = 8192,
     ):
@@ -73,8 +74,17 @@ class AnthropicMessagesClient:
             raise AnthropicError("ANTHROPIC_API_KEY is required for model processing")
         self.api_key = api_key.strip()
         self.transport = transport or _default_transport
+        self.usage_observer = usage_observer
         self.timeout_seconds = timeout_seconds
         self.max_tokens = max_tokens
+
+    def _observe(self, model: str, usage: dict | None, outcome: str) -> None:
+        if self.usage_observer is None:
+            return
+        try:
+            self.usage_observer(model, usage, outcome)
+        except Exception:
+            pass
 
     def generate_json(
         self,
@@ -85,36 +95,51 @@ class AnthropicMessagesClient:
         schema: dict,
     ) -> dict:
         del schema_name
-        response = self.transport(
-            "https://api.anthropic.com/v1/messages",
-            {
-                "x-api-key": self.api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            {
-                "model": model,
-                "max_tokens": self.max_tokens,
-                "system": instructions,
-                "messages": [{"role": "user", "content": input_text}],
-                "output_config": {
-                    "format": {
-                        "type": "json_schema",
-                        "schema": _anthropic_schema(schema),
-                    }
+        try:
+            response = self.transport(
+                "https://api.anthropic.com/v1/messages",
+                {
+                    "x-api-key": self.api_key,
+                    "anthropic-version": "2023-06-01",
+                    "content-type": "application/json",
                 },
-            },
-            self.timeout_seconds,
-        )
+                {
+                    "model": model,
+                    "max_tokens": self.max_tokens,
+                    "system": instructions,
+                    "messages": [{"role": "user", "content": input_text}],
+                    "output_config": {
+                        "format": {
+                            "type": "json_schema",
+                            "schema": _anthropic_schema(schema),
+                        }
+                    },
+                },
+                self.timeout_seconds,
+            )
+        except Exception as exc:
+            self._observe(model, None, "transport_error")
+            if isinstance(exc, AnthropicError):
+                raise
+            raise AnthropicError(f"Anthropic request failed: {exc}") from exc
         if not isinstance(response, dict):
+            self._observe(model, None, "invalid_response")
             raise AnthropicError("Anthropic response was invalid")
-        if response.get("stop_reason") == "refusal":
+        stop_reason = response.get("stop_reason")
+        outcome = (
+            stop_reason
+            if stop_reason in {"end_turn", "max_tokens", "refusal"}
+            else "invalid_response"
+        )
+        usage = response.get("usage")
+        self._observe(model, usage if isinstance(usage, dict) else None, outcome)
+        if stop_reason == "refusal":
             raise AnthropicError("Anthropic refused the request")
-        if response.get("stop_reason") == "max_tokens":
+        if stop_reason == "max_tokens":
             raise AnthropicError("Anthropic response reached the token limit")
-        if response.get("stop_reason") != "end_turn":
+        if stop_reason != "end_turn":
             raise AnthropicError(
-                f"Anthropic response did not finish safely: {response.get('stop_reason')}"
+                f"Anthropic response did not finish safely: {stop_reason}"
             )
         content = response.get("content")
         if not isinstance(content, list):
