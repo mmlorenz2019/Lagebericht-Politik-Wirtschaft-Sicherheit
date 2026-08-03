@@ -26,6 +26,15 @@ class ContentAI:
         }
 
 
+class OverlongSectionAI(ContentAI):
+    def generate_json(self, model, instructions, input_text, schema_name, schema):
+        content = super().generate_json(model, instructions, input_text, schema_name, schema)
+        content["countries"][1]["sections"][0]["summaryDe"] = [
+            f"Abschnittssatz {index + 1}." for index in range(7)
+        ]
+        return content
+
+
 class AggregateTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -84,6 +93,13 @@ class AggregateTests(unittest.TestCase):
         self.assertEqual(report["sourceReportDates"], ["2026-08-02"])
         self.assertEqual(len(report["overallSummary"]), 8)
         self.assertEqual(len(report["countries"][0]["sections"][0]["contextDe"]), 2)
+
+    def test_truncates_model_section_that_exceeds_the_six_sentence_contract(self):
+        self.publish_days(date(2026, 8, 2), 1)
+
+        report = PeriodAggregator(self.root, OverlongSectionAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+
+        self.assertEqual(len(report["countries"][1]["sections"][0]["summaryDe"]), 6)
 
     def test_returns_none_without_calling_ai_when_period_has_no_days(self):
         ai = ContentAI()

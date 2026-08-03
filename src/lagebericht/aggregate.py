@@ -64,6 +64,16 @@ def period_content_schema(period_type: str) -> dict:
     summary["maxItems"] = maximum
     return schema
 
+
+def normalize_period_content(content: dict) -> dict:
+    normalized = copy.deepcopy(content)
+    for country in normalized.get("countries", []):
+        for section in country.get("sections", []):
+            summary = section.get("summaryDe")
+            if isinstance(summary, list):
+                section["summaryDe"] = summary[:6]
+    return normalized
+
 PERIOD_CONTENT_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
@@ -117,7 +127,9 @@ class PeriodAggregator:
             return None
         instructions, input_text = build_period_prompt(reports, period_type)
         schema = period_content_schema(period_type)
-        content = self.ai_client.generate_json(self.model, instructions, input_text, "period_content", schema)
+        content = normalize_period_content(
+            self.ai_client.generate_json(self.model, instructions, input_text, "period_content", schema)
+        )
         report = {
             "schemaVersion": 3,
             "periodType": period_type,
