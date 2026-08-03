@@ -510,6 +510,27 @@ class AnthropicClientTests(unittest.TestCase):
             client.generate_json("model", "Rules", "Input", "example", {})
         self.assertEqual(observed, [("model", None, "transport_error")])
 
+    def test_local_schema_failure_is_not_reported_as_a_transport_error(self):
+        client_class = load_client_class()
+        observed = []
+        transport = RecordingTransport({})
+        cyclic_schema = {}
+        cyclic_schema["self"] = cyclic_schema
+        client = client_class(
+            "secret",
+            transport=transport,
+            usage_observer=lambda model, usage, outcome: observed.append(
+                (model, usage, outcome)
+            ),
+        )
+
+        with self.assertRaises(RecursionError):
+            client.generate_json(
+                "model", "Rules", "Input", "example", cyclic_schema
+            )
+        self.assertEqual(transport.calls, [])
+        self.assertEqual(observed, [])
+
     def test_broken_observer_never_changes_model_result_or_original_error(self):
         client_class = load_client_class()
         valid_response = {

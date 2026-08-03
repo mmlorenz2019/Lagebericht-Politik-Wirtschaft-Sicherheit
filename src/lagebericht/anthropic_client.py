@@ -95,26 +95,29 @@ class AnthropicMessagesClient:
         schema: dict,
     ) -> dict:
         del schema_name
+        url = "https://api.anthropic.com/v1/messages"
+        headers = {
+            "x-api-key": self.api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        }
+        payload = {
+            "model": model,
+            "max_tokens": self.max_tokens,
+            "system": instructions,
+            "messages": [{"role": "user", "content": input_text}],
+            "output_config": {
+                "format": {
+                    "type": "json_schema",
+                    "schema": _anthropic_schema(schema),
+                }
+            },
+        }
         try:
             response = self.transport(
-                "https://api.anthropic.com/v1/messages",
-                {
-                    "x-api-key": self.api_key,
-                    "anthropic-version": "2023-06-01",
-                    "content-type": "application/json",
-                },
-                {
-                    "model": model,
-                    "max_tokens": self.max_tokens,
-                    "system": instructions,
-                    "messages": [{"role": "user", "content": input_text}],
-                    "output_config": {
-                        "format": {
-                            "type": "json_schema",
-                            "schema": _anthropic_schema(schema),
-                        }
-                    },
-                },
+                url,
+                headers,
+                payload,
                 self.timeout_seconds,
             )
         except Exception as exc:
