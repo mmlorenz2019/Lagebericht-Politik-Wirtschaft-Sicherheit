@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-04",
+  "generatedAt": "2026-08-04T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "Vereinigte Staaten",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Waldbrände in Washington State zerstören hunderte Gebäude und zwingen Zehntausende zur Evakuierung",
+          "summaryDe": [
+            "Mehrere gleichzeitig wütende Waldbrände im Raum Spokane im Bundesstaat Washington haben hunderte Gebäude zerstört und Zehntausende Einwohner zur Flucht gezwungen.",
+            "Die Brände breiteten sich unter dem Einfluss starker Winde und anhaltender Trockenheit mit extremer Geschwindigkeit aus und überforderten lokale Feuerwehren.",
+            "Behörden haben weiträumige Evakuierungsorder erlassen; der Umfang der Schäden an Wohn- und Infrastrukturgebäuden wird noch ermittelt.",
+            "Der Vorfall reiht sich in eine Serie verheerender Waldbrandsaisons in den westlichen USA ein und schürt erneut die politische Debatte über Klimafolgen und föderale Katastrophenschutzressourcen.",
+            "Die Lage wird durch die laufenden Haushaltskürzungen der Trump-Regierung bei Bundesbehörden wie FEMA zusätzlich politisch aufgeladen."
+          ],
+          "additionalImportant": "US-Bundesstaaten halten zudem Vorwahlen in Michigan, Wisconsin, Kansas, Missouri und Virginia ab, deren Ergebnisse für die Mehrheitsverhältnisse im Kongress nach den Midterms wegweisend sein könnten.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Inländische Naturkatastrophe ohne direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Großflächige Brände mit Massenevakuierungen stellen eine größere humanitäre und politische Entwicklung in einem bevölkerungsreichen US-Bundesstaat dar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Veselin Pavličić i Ivan Delić završili na optužnici iako ih francuske vlasti nikada nijesu istraživale",
+              "url": "https://www.pobjeda.me/clanak/veselin-pavlicic-i-ivan-delic-zavrsili-na-optuznici-iako-ih-francuske-vlasti-nikada-nijesu-istrazivale",
+              "publishedAt": "2026-08-04T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "25 US-Bundesstaaten klagen gegen neue Globalzölle der Trump-Regierung",
+          "summaryDe": [
+            "25 US-Bundesstaaten haben gemeinsam Klage gegen die jüngste Zollwelle der Trump-Regierung eingereicht, die 60 Volkswirtschaften betrifft, darunter China, Japan, Südkorea, Indien und EU-Mitgliedstaaten.",
+            "Die klagenden Staaten argumentieren, die Zölle seien rechtswidrig, da sie Abgaben ersetzen sollen, die Gerichte bereits für unzulässig erklärt hatten.",
+            "Gleichzeitig zeigt eine aktuelle Industrieumfrage, dass Inflationssorgen in der verarbeitenden Industrie die Pandemiezeit übertreffen, was den Druck auf die US-Notenbank erhöht.",
+            "Das Zusammentreffen juristischer Anfechtungen und wachsender Inflationsrisiken verdeutlicht die innenpolitische Sprengkraft der Handelspolitik.",
+            "Ein Urteil zugunsten der klagenden Bundesstaaten könnte die Zollpolitik der Regierung grundlegend einschränken."
+          ],
+          "additionalImportant": "BP meldet mehr als verdoppelten Gewinn infolge des Iran-Krieges und hoher Treibstoffpreise; Präsident Trump kritisiert die Ölkonzerne öffentlich für übermäßige Gewinne.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "EU-Mitgliedstaaten sind von den Zöllen direkt betroffen; ein anhaltender Handelskonflikt hätte unmittelbare Folgen für die deutsche Exportwirtschaft."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine koordinierte Sammelklage von 25 Bundesstaaten gegen eine Kernmaßnahme der Handelspolitik stellt eine größere rechtliche und innenpolitische Auseinandersetzung dar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump election claims debunked, US critical minerals fears: 7 US-China relations reads",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3362449/trump-election-claims-debunked-us-critical-minerals-fears-7-us-china-relations-reads",
+              "publishedAt": "2026-08-03T14:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump stellt Iran Ultimatum: Letzte Chance für Einigung über Hormusstraße",
+          "summaryDe": [
+            "US-Präsident Trump hat Iran öffentlich gewarnt, die laufenden Verhandlungen seien die letzte Chance, eine Einigung zu erzielen und damit den seit fünf Monaten andauernden Krieg zu beenden.",
+            "Kern des Konflikts ist die Kontrolle über die Hormusstraße, durch die ein erheblicher Teil der globalen Öllieferungen transportiert wird.",
+            "Iran soll nach Berichten die Kontrolle über den eingehenden Schiffsverkehr sowie Aufsicht über den ausgehenden Verkehr durch die Meerenge fordern.",
+            "Die Drohgebärden erhöhen den Druck auf beide Seiten, während die Unsicherheit auf den Energiemärkten und an den Aktienbörsen anhält.",
+            "Ein Scheitern der Gespräche hätte unmittelbare Konsequenzen für die globale Energieversorgung und die Weltwirtschaft."
+          ],
+          "additionalImportant": "Das FBI meldet Cyberangriffe auf Wasserversorgungssysteme in mindestens sieben US-Bundesstaaten; Bundesbehörden verdächtigen Iran als mutmaßlichen Urheber.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Eine weitere Eskalation im Persischen Golf würde Europas Energieversorgung und Ölpreise unmittelbar und erheblich belasten."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein aktiver militärischer Konflikt um die Hormusstraße ist von außergewöhnlicher geopolitischer und wirtschaftlicher Tragweite für die gesamte Weltgemeinschaft."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump claims 'last chance' for Iran to strike deal in latest warning",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3362850/trump-claims-last-chance-iran-strike-deal-latest-warning",
+              "publishedAt": "2026-08-03T21:23:20Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas politische und wissenschaftliche Elite zieht sich zur Beidaihe-Sommerklausur zurück",
+          "summaryDe": [
+            "Wie jedes Jahr im Hochsommer versammelt sich Chinas politische Führungselite gemeinsam mit ausgewählten Wissenschaftlern im Badeort Beidaihe am Gelben Meer.",
+            "Die informelle Klausurtagung gilt traditionell als Ort für vertrauliche Absprachen außerhalb der offiziellen Parteigremien.",
+            "Die Einladung akademischer Fachleute deutet darauf hin, dass technologie- und wissenschaftspolitische Fragen auf der Agenda stehen könnten.",
+            "Die Gespräche finden vor dem Hintergrund intensivierter US-chinesischer Technologierivalität und laufender Handelskonflikte statt.",
+            "Konkrete Beschlüsse werden in der Regel nicht öffentlich bekannt gegeben; die Veranstaltung entfaltet dennoch erhebliche politische Signalwirkung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Richtungsentscheidungen aus Beidaihe können mittelfristig Chinas Außenwirtschafts- und Technologiepolitik beeinflussen, was indirekte Folgen für Deutschland hätte."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die jährliche Klausur ist ein relevantes Signal für Chinas innenpolitische Prioritäten, bleibt aber ein routinemäßiges Ereignis ohne unmittelbare Beschlüsse."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's political and scientific elite head to Beidaihe for summer retreat season",
+              "url": "https://www.scmp.com/news/china/politics/article/3362838/chinas-political-and-scientific-elite-head-beidaihe-summer-retreat-season",
+              "publishedAt": "2026-08-03T14:32:36Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesisches Observatorium registriert energiereichstes Lichtteilchen aller Zeiten",
+          "summaryDe": [
+            "Ein chinesisch geführtes Forschungsteam hat mithilfe eines Observatoriums das bislang energiereichste Lichtteilchen überhaupt detektiert.",
+            "Das Ergebnis belegt, dass das Universum Materie auf das 30-fache der bisher modellierten Grenzwerte beschleunigen kann.",
+            "Der Fund stellt etablierte astrophysikalische Modelle grundlegend in Frage und eröffnet neue Forschungsfelder in der Hochenergiephysik.",
+            "China positioniert sich damit erneut als ernstzunehmender Akteur in der Grundlagenforschung auf internationalem Spitzenniveau.",
+            "Die Entdeckung dürfte internationale Kooperationsanfragen und Debatten über die Verteilung wissenschaftlicher Ressourcen anstoßen."
+          ],
+          "additionalImportant": "Chinesische Wissenschaftler entwickeln zudem Naturkautschuk aus einem Xinjiang-Unkraut, um Importabhängigkeit von südostasiatischem Kautschuk zu reduzieren – ein potenziell strategisch relevantes Projekt.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als forschungsstarkes Land indirekt betroffen, da Chinas wachsende Stärke in der Grundlagenforschung den globalen Wettbewerb um Talente und Fördergelder beeinflusst."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Detektion des energiereichsten je gemessenen Lichtteilchens ist eine größere wissenschaftliche Entdeckung mit potenziell weitreichenden Auswirkungen auf die Astrophysik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese observatory finds most powerful particle accelerator in the universe",
+              "url": "https://www.scmp.com/news/china/science/article/3362881/chinese-observatory-finds-most-powerful-particle-accelerator-universe",
+              "publishedAt": "2026-08-04T05:00:56Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinesisches Militär präsentiert KI-System zur Koordination von Massenluftangriffen",
+          "summaryDe": [
+            "Das chinesische Militär hat öffentlich ein KI-System vorgestellt, das die Planung und Koordination von Massenluftangriffen mit mehr als 100 Einheiten ermöglicht.",
+            "Die Veröffentlichung über das staatliche Fernsehen signalisiert eine bewusste Demonstration militärischer KI-Kompetenz gegenüber potenziellen Gegnern.",
+            "Parallel dazu haben kommerzielle Seedrohnen eines US-Unternehmens aus Kalifornien PLA-Kriegsschiffe im Südchinesischen Meer überwacht, was Pekings Anspruch auf maritime Kontrolle in umstrittenen Gewässern herausfordert.",
+            "Analysten betonen, wie überraschend schnell die Volksbefreiungsarmee in den vergangenen Jahren technologisch zur US-Streitkraft aufgeholt hat.",
+            "Diese Entwicklungen verschärfen zusammen die sicherheitspolitischen Spannungen in der Indo-Pazifik-Region erheblich."
+          ],
+          "additionalImportant": "China hat einen 900-Millionen-Dollar-Hafendeal in Angola abgeschlossen, der Pekings wachsende strategische Infrastrukturpräsenz in Afrika gegenüber US-Interessen verdeutlicht.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die beschleunigte militärtechnologische Entwicklung Chinas beeinflusst die NATO-Strategiedebatte und Deutschlands Rüstungs- sowie Exportkontrollpolitik konkret."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Militärische KI-Systeme für Massenluftangriffe in Kombination mit der wachsenden Fähigkeit, US-Militärstärke aufzuholen, sind von außergewöhnlicher geopolitischer und systemischer Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese military unveils AI system to plan and coordinate mass air strikes",
+              "url": "https://www.scmp.com/news/china/military/article/3362824/chinese-military-unveils-ai-system-plan-and-coordinate-mass-air-strikes",
+              "publishedAt": "2026-08-03T13:00:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Are commercial sea drones a new headache for PLA in South China Sea and Taiwan Strait?",
+              "url": "https://www.scmp.com/news/china/military/article/3362790/are-commercial-sea-drones-new-headache-pla-south-china-sea-and-taiwan-strait",
+              "publishedAt": "2026-08-03T10:00:17Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "'Surprising' how quickly China's military is closing gap with US: analyst Lyle Goldstein",
+              "url": "https://www.scmp.com/news/china/military/article/3362782/surprising-how-quickly-chinas-military-closing-gap-us-analyst-lyle-goldstein",
+              "publishedAt": "2026-08-03T22:00:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegros Premierminister Spajić lehnt EU-Migrantenaufnahmezentren im Land ab",
+          "summaryDe": [
+            "Montenegros Premierminister Milojko Spajić hat öffentlich erklärt, dass Montenegro keine Aufnahmezentren für Migranten aus EU-Ländern errichten werde.",
+            "Die Äußerung ist eine direkte Reaktion auf Pläne einzelner EU-Mitgliedstaaten, Migrationslasten durch Auslagerung in Drittstaaten zu reduzieren.",
+            "Montenegro, das sich offiziell im EU-Beitrittsprozess befindet, bewegt sich damit in einem Spannungsfeld zwischen Annäherung an EU-Normen und Abgrenzung von bestimmten EU-Politiken.",
+            "Die Ablehnung könnte die Beitrittsverhandlungen belasten, signalisiert aber auch innenpolitischen Druck gegen Zugeständnisse in der Migrationsfrage.",
+            "Die Positionierung Montenegros spiegelt eine breitere Debatte in den Westbalkanstaaten über die Bedingungen der EU-Annäherung wider."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als zentrales Aufnahmeland für Migranten und treibende Kraft hinter EU-Auslagerungsmodellen von Montenegros Position direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Ablehnung eines EU-Kandidatenlandes ist politisch relevant für die EU-Migrationsdebatte, bleibt aber in ihrer unmittelbaren Reichweite begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Spajić: Centra za prihvat migranata iz zemalja EU u Crnoj Gori...",
+              "url": "https://www.vijesti.me/vijesti/politika/820713/spajic-centra-za-prihvat-migranata-iz-zemalja-eu-u-crnoj-gori-nece-biti",
+              "publishedAt": "2026-08-04T10:26:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Nationalpark Lovćen verzeichnet Rekordbesucherzahlen mit 30 Prozent höheren Einnahmen",
+          "summaryDe": [
+            "Der montenegrinische Nationalpark Lovćen meldet für die laufende Saison Rekordbesucherzahlen, wobei die Einnahmen im Vergleich zum Vorjahr um 30 Prozent gestiegen sind.",
+            "Die Zahlen belegen das anhaltende Wachstum des Tourismussektors als wichtigen Wirtschaftsfaktor für Montenegro.",
+            "Der Anstieg dürfte sowohl auf verstärkte internationale Vermarktung als auch auf die wachsende Attraktivität des Westbalkans als Reiseziel zurückzuführen sein.",
+            "Der Tourismus bleibt für Montenegro eine der wenigen verlässlichen Devisenquellen und ein zentrales Element der wirtschaftlichen Entwicklungsstrategie.",
+            "Die Entwicklung steht jedoch im Kontrast zu strukturellen Herausforderungen wie saisonaler Abhängigkeit und unzureichender Infrastruktur außerhalb der Küstenregionen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Tourismuszahlen eines kleinen Balkanstaates haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Positive Tourismusstatistiken sind routinemäßige Meldungen ohne überregionale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Rekordna posjeta Lovćenu, prihodi veći za 30 odsto",
+              "url": "https://www.pobjeda.me/clanak/rekordna-posjeta-lovcenu-prihodi-veci-za-30-ooodsto",
+              "publishedAt": "2026-08-04T07:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Anklage gegen Aco Đukanović bestätigt – neues Kapitel im montenegrinischen Justizgeschehen",
+          "summaryDe": [
+            "Ein montenegrinisches Gericht hat die Anklage gegen Aco Đukanović, Sohn des langjährigen Machthabers Milo Đukanović, offiziell bestätigt.",
+            "Das Verfahren gilt als Teil der innenpolitischen Auseinandersetzung zwischen der aktuellen Regierung und dem Einflussgeflecht der alten Machtelite rund um die Demokratische Partei der Sozialisten.",
+            "Die Justizmaßnahme wird von Beobachtern als Signal für den Fortschritt bei der Rechtsstaatlichkeit gewertet, einem Kernkriterium der EU-Beitrittsverhandlungen.",
+            "Kritiker sehen in solchen Verfahren jedoch auch ein Instrument politischer Verfolgung in einem polarisierten Umfeld.",
+            "Der Ausgang des Prozesses wird sowohl innenpolitisch als auch von EU-Institutionen aufmerksam verfolgt werden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der Rechtsstaat-Fortschritt in Montenegro ist für Deutschlands Rolle als Befürworter der EU-Erweiterung auf dem Westbalkan indirekt von Bedeutung."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Das Verfahren ist innenpolitisch relevant für Montenegro und den EU-Beitrittsprozess, hat aber begrenzte überregionale Auswirkungen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Potvrđena optužnica protiv Aca Đukanovića",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/820714/potvrdjena-optuznica-protiv-aca-djukanovica",
+              "publishedAt": "2026-08-04T10:33:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

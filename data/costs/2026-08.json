@@ -3,9 +3,9 @@
   "month": "2026-08",
   "timezone": "Europe/Berlin",
   "budgetEur": 5.0,
-  "estimatedCostUsd": 0.0,
-  "estimatedCostEur": 0.0,
-  "budgetPercent": 0.0,
+  "estimatedCostUsd": 0.238003,
+  "estimatedCostEur": 0.208967,
+  "budgetPercent": 4.2,
   "unmeasuredCalls": 0,
   "collectionStartedAt": "2026-08-03T00:00:00+02:00",
   "priceVersion": "anthropic-2026-08-03",
@@ -13,5 +13,57 @@
     "usdToEur": 0.878,
     "effectiveDate": "2026-07-27"
   },
-  "events": []
+  "events": [
+    {
+      "eventId": "c9fc784916478ff2451ecfb9d534bf09d2bdd3beb7108c30da388a26c8312cf1",
+      "occurredAt": "2026-08-04T11:49:12.897427+00:00",
+      "reportType": "daily",
+      "reportId": "2026-08-04",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 18723,
+        "output_tokens": 2183,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.029638,
+      "estimatedCostEur": 0.026022
+    },
+    {
+      "eventId": "201a6c9469aed0c8ac5128195850b85f06cfd42edb160368dd03c2fe0a4829ba",
+      "occurredAt": "2026-08-04T11:50:30.199419+00:00",
+      "reportType": "daily",
+      "reportId": "2026-08-04",
+      "model": "claude-sonnet-4-6",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 9347,
+        "output_tokens": 3704,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.083601,
+      "estimatedCostEur": 0.073402
+    },
+    {
+      "eventId": "0467affa3242b139ad47d3c20b084586bbd5ab793e3749620147935a867867e5",
+      "occurredAt": "2026-08-04T11:52:06.689912+00:00",
+      "reportType": "daily",
+      "reportId": "2026-08-04",
+      "model": "claude-sonnet-4-6",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 13263,
+        "output_tokens": 5665,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.124764,
+      "estimatedCostEur": 0.109543
+    }
+  ]
 }
