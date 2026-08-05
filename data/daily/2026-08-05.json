@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-05",
+  "generatedAt": "2026-08-05T11:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Blanche-Nominierung für Justizministerium rückt vor – Parteiinterne Deals entscheiden",
+          "summaryDe": [
+            "Trumps früherer persönlicher Anwalt Todd Blanche hat nach parteiinternen Verhandlungen eine wichtige Hürde auf dem Weg zur Bestätigung als Justizminister genommen.",
+            "Zuvor hatte ein republikanischer Senator angekündigt, die Nominierung zu blockieren, was intensive Gespräche innerhalb der Mehrheitsfraktion ausgelöst hatte.",
+            "Der Kompromiss, der Blanche nun den Weg ebnet, verdeutlicht die anhaltende Abhängigkeit der Trump-Administration von fragilen innerparteilichen Mehrheiten.",
+            "Das Justizministerium ist eine Schlüsselinstitution der US-Demokratie; die Besetzung mit einem loyalen Trump-Vertrauten wird von Kritikern als Gefahr für die Unabhängigkeit der Strafverfolgung gewertet.",
+            "Die endgültige Bestätigungsabstimmung im Senat steht noch aus."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die personelle Ausrichtung des US-Justizministeriums kann mittelbar Auswirkungen auf internationale Rechts- und Strafverfolgungskooperation haben."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Besetzung des Justizministeriums mit einem engen Trump-Vertrauten ist eine bedeutende innenpolitische Weichenstellung in den USA."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump ex-lawyer Blanche advances in attorney general bid after Republican deal",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3362976/trumps-former-lawyer-advances-attorney-general-bid-after-deal-republican-holdouts",
+              "publishedAt": "2026-08-04T17:24:13Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "SpaceX legt Quartalsbericht vor – Umsatz steigt, Aktie unter Druck",
+          "summaryDe": [
+            "SpaceX hat erstmals seit dem Börsengang einen öffentlichen Quartalsbericht vorgelegt und dabei ein deutliches Umsatzwachstum ausgewiesen.",
+            "Das Unternehmen profitiert vom anhaltenden Boom der kommerziellen Raumfahrt sowie von wachsender Nachfrage nach Starlink-Satellitendiensten.",
+            "Trotz der soliden Zahlen ist der Aktienkurs seit dem Börsengang spürbar zurückgegangen, was Analysten auf eine Neubewertung überhöhter Erwartungen zurückführen.",
+            "Der Bericht wird als wichtiger Stimmungstest für den gesamten privaten Raumfahrtsektor betrachtet.",
+            "SpaceX bleibt eines der wertvollsten nicht-staatlichen Unternehmen weltweit, steht aber unter zunehmendem Wettbewerbsdruck."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "SpaceX ist als Auftragnehmer für Satellitenkommunikation auch für europäische und deutsche Verteidigungsdebatten relevant."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der erste öffentliche Quartalsbericht eines der bedeutendsten Privatunternehmen der Welt hat branchenweite Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "SpaceX's revenue rises as its once-soaring stock price drifts back to Earth",
+              "url": "https://www.npr.org/2026/08/04/nx-s1-5918536/spacex-first-earnings-report-since-ipo",
+              "publishedAt": "2026-08-04T22:02:03Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Israelische Angriffe gefährden Trumps Gaza-Friedensplan",
+          "summaryDe": [
+            "Israelische Luftangriffe im Gazastreifen bedrohen nach Einschätzung von Beobachtern den von der Trump-Administration vorgeschlagenen Friedensplan, der auf Entwaffnung der Hamas und israelischen Rückzug setzt.",
+            "Die Intensität der Angriffe erschwert laufende Verhandlungen und stellt die diplomatische Glaubwürdigkeit Washingtons als Vermittler in Frage.",
+            "Trump hatte den Plan als zentrales außenpolitisches Vorzeigeprojekt seiner Amtszeit positioniert; eine weitere Eskalation könnte dessen Realisierbarkeit grundlegend in Frage stellen.",
+            "Humanitäre Organisationen warnen vor verschärfter Not der Zivilbevölkerung im Gazastreifen.",
+            "Die Entwicklung wird von europäischen Verbündeten mit Besorgnis verfolgt, da sie die regionale Stabilität und laufende Waffenstillstandsbemühungen gefährdet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als wichtiger Akteur in der humanitären Hilfe und im Nahost-Quartett direkt von der Eskalation betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Gefährdung des einzigen konkreten US-Friedensplans für Gaza hätte weitreichende regionale und internationale Folgen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Israeli Strikes May Undermine Trump's Peace Plan for Gaza",
+              "url": "https://www.nytimes.com/2026/08/05/world/middleeast/israel-strikes-gaza-peace-deal.html",
+              "publishedAt": "2026-08-05T08:59:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinesische Debatte über englische Abkürzungen und kulturelle Selbstbehauptung",
+          "summaryDe": [
+            "In China hat eine öffentliche Diskussion darüber Fahrt aufgenommen, ob die verbreitete Nutzung englischer Abkürzungen wie VIP, APP oder PPT das kulturelle Selbstbewusstsein des Landes schwächt.",
+            "Konservative Stimmen fordern, chinesische Entsprechungen bevorzugt zu verwenden und den Einfluss westlicher Sprachelemente in Alltagsmedien zu begrenzen.",
+            "Die Debatte spiegelt eine breitere Tendenz der Xi-Ära wider, nationale Eigenständigkeit auch im kulturellen und sprachlichen Bereich zu betonen.",
+            "Kritiker halten dem entgegen, dass viele Abkürzungen technisch unverzichtbar sind und ein Verbot die internationale Kommunikation behindern würde.",
+            "Staatliche Medien haben das Thema prominent aufgegriffen, was auf politisches Interesse an einer Regulierung hindeutet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die innenpolitische Sprachdebatte in China hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Das Thema ist symptomatisch für Chinas kulturpolitischen Kurs, bleibt aber von begrenzter internationaler Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "VIP, APP, PPT: Are English abbreviations harming China's cultural confidence?",
+              "url": "https://www.scmp.com/news/china/politics/article/3362958/vip-app-ppt-are-english-abbreviations-harming-chinas-cultural-confidence",
+              "publishedAt": "2026-08-04T15:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-KI-Entwickler greifen auf chinesische Open-Weight-Modelle zurück – Sicherheitsdebatte neu entfacht",
+          "summaryDe": [
+            "Führende amerikanische KI-Unternehmen setzen zunehmend auf chinesische Open-Weight-Sprachmodelle, was die bisherige Argumentation unterläuft, nur proprietäre US-Modelle seien sicherheitstechnisch vertretbar.",
+            "Die Nutzung chinesischer Modelle wird mit Kosteneffizienz und technischer Leistungsfähigkeit begründet, löst aber in US-Sicherheitskreisen erhebliche Bedenken aus.",
+            "Kritiker warnen, dass chinesische Modelle potenzielle Hintertüren oder Trainingsdaten enthalten könnten, die strategische Interessen Pekings widerspiegeln.",
+            "Der Trend verdeutlicht das Dilemma zwischen wirtschaftlicher Rationalität und geopolitischer Absicherung im globalen KI-Wettbewerb.",
+            "Für Europa und Deutschland stellen sich ähnliche Fragen bei der Auswahl von KI-Grundmodellen für Behörden und kritische Infrastruktur."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Frage nach dem sicheren Einsatz chinesischer KI-Modelle ist auch für deutsche Unternehmen und Behörden unmittelbar relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Verschiebung im globalen KI-Wettbewerb durch die Akzeptanz chinesischer Modelle in den USA ist eine bedeutende technologiepolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US AI leaders turn to Chinese open-weight models, challenging closed-source safety claims",
+              "url": "https://www.scmp.com/news/us/article/3362974/us-ai-leaders-turn-chinese-open-weight-models-challenging-closed-source-safety-claims",
+              "publishedAt": "2026-08-04T16:08:31Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "PLA-Wissenschaftler warnen: Unterseekabel als leicht verwundbare Ziele",
+          "summaryDe": [
+            "Forscher der Volksbefreiungsarmee haben in einer Studie dargelegt, dass Unterseekabel, über die rund 99 Prozent des globalen Datenverkehrs laufen, durch kostengünstige Drohnen leicht angegriffen werden könnten.",
+            "Die Veröffentlichung wird als Teil einer breiteren chinesischen Auseinandersetzung mit asymmetrischen Kriegsführungsoptionen im Bereich kritischer Infrastruktur gewertet.",
+            "Unterseekabel gelten als strategisch essenziell für Finanztransaktionen, militärische Kommunikation und das Internet weltweit.",
+            "Westliche Geheimdienste haben bereits zuvor vor zunehmender Gefährdung dieser Infrastruktur gewarnt; die PLA-Studie verleiht diesen Bedrohungsszenarien neue Glaubwürdigkeit.",
+            "Für Deutschland und Europa sind Unterseekabel im Atlantik und in der Nordsee kritische Kommunikationsadern, deren Schutz auf der NATO-Agenda steht."
+          ],
+          "additionalImportant": "Ergänzend berichtet der South China Morning Post über Taiwans bislang größte Militärübung zur Abwehr einer maritimen PLA-Blockade sowie über Japans jüngsten Verteidigungsweißbuch, das Chinas wachsenden pazifischen Militärfußabdruck als ernste Bedrohung einstuft.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Unterseekabel sind auch für Deutschland kritische Infrastruktur; eine glaubhafte Angriffsdoktrin der PLA erhöht den Handlungsdruck auf NATO-Ebene."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die publizierte Verwundbarkeit globaler Datenkabel durch staatliche PLA-Forscher ist ein systemisch relevantes Signal mit weitreichenden sicherheitspolitischen Implikationen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "PLA scientists say submarine cables carrying 99% of global data could be 'easy target'",
+              "url": "https://www.scmp.com/news/china/science/article/3363019/pla-scientists-say-submarine-cables-carrying-99-global-data-could-be-easy-target",
+              "publishedAt": "2026-08-05T10:30:10Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegrinisches Gericht rügt Mängel in Anklage gegen Mijajlović und Mitangeklagte",
+          "summaryDe": [
+            "Ein montenegrinisches Gericht hat formale Unzulänglichkeiten in der Anklageschrift gegen Mijajlović und eine Gruppe von Mitbeschuldigten festgestellt und die Sache damit an die Staatsanwaltschaft zurückverwiesen.",
+            "Der Verteidiger Piperović wertet die gerichtliche Entscheidung als wichtiges Zeichen für die Unabhängigkeit der Justiz und als Beleg dafür, dass Formfehler der Anklagebehörde nicht einfach übergangen werden.",
+            "Das Berufungsgericht hat nun das letzte Wort darüber, wie das Verfahren weitergeführt wird.",
+            "Der Fall steht im Kontext anhaltender Bemühungen Montenegros, Rechtsstaatlichkeit im Hinblick auf die EU-Mitgliedschaft glaubwürdig zu demonstrieren.",
+            "Verfahren mit prozessualen Rücksendungen sind in Montenegro ein wiederkehrendes Muster, das die Effizienz des Strafjustizsystems belastet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Es handelt sich um einen innenpolitischen Justizfall ohne erkennbaren Deutschlandbezug."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Fall ist für Montenegros Rechtsstaatlichkeitsprozess relevant, hat aber begrenzte internationale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Piperović: Sud dobro detektovao manjkavosti optužnice protiv Mijajlovića i grupe",
+              "url": "https://www.pobjeda.me/clanak/piperovic-sud-dobro-detektovao-manjkavosti-optuznice-protiv-mijajlovica-i-grupe",
+              "publishedAt": "2026-08-05T07:45:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegrinischer Analyst: Italiens Drittstaaten-Migrationsplan ohne breite EU-Unterstützung",
+          "summaryDe": [
+            "Ein montenegrinischer Analyst hat Italiens Vorschlag zur Einrichtung von Aufnahmezentren für Migranten in Drittstaaten als weitgehend unilaterale Initiative bewertet, hinter der die EU als Ganzes nicht stehen werde.",
+            "Die Skepsis stützt sich auf unterschiedliche nationale Interessenlagen innerhalb der EU sowie auf rechtliche Hürden im europäischen Asylrecht.",
+            "Montenegro als Beitrittskandidat verfolgt die europäische Migrationspolitik mit besonderem Interesse, da das Land selbst als Transitland auf dem Westbalkan gilt.",
+            "Die Debatte steht im Zusammenhang mit wachsendem politischen Druck in mehreren EU-Staaten, Migrationsbewegungen durch Externalisierung zu begrenzen.",
+            "Ob der Vorschlag eine formale EU-Agenda erreicht, bleibt nach dieser Einschätzung fraglich."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Europäische Migrationspolitik und mögliche EU-weite Lösungen berühren auch deutsche Interessen und innenpolitische Debatten."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Bewertung eines einzelnen nationalen Vorschlags durch einen regionalen Analysten hat begrenzte, aber relevante europapolitische Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Bugarin: Ideja o centru za migrante je unitarna inicijativa iza koje neće stati cijela EU",
+              "url": "https://www.pobjeda.me/clanak/bugarin-ideja-o-centru-za-migrante-je-unitarna-inicijativa-iza-koje-nece-stati-cijela-eu",
+              "publishedAt": "2026-08-05T07:15:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
