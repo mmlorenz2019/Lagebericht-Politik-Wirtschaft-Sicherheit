@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-06",
+  "generatedAt": "2026-08-06T14:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Fauci verweigert Aussage – Senat stimmt über Verachtungsvorwurf ab",
+          "summaryDe": [
+            "Der US-Senat hat unter Leitung von Senator Rand Paul über eine Verachtungsresolution gegen den ehemaligen Gesundheitsbehördenchef Dr. Anthony Fauci abgestimmt, nachdem dieser bei einer Anhörung zur COVID-19-Pandemie den fünften Zusatzartikel der Verfassung in Anspruch genommen und Aussagen verweigert hatte.",
+            "Der Schritt markiert eine politisch aufgeladene Eskalation im langjährigen Konflikt zwischen konservativen Senatoren und Fauci über die Aufarbeitung der Pandemiepolitik.",
+            "Die Abstimmung verdeutlicht die anhaltende Polarisierung in der Bewertung staatlicher Gesundheitsentscheidungen während der Pandemie.",
+            "Das Ergebnis dürfte die inneramerikanische Debatte über Rechenschaftspflicht und politische Instrumentalisierung von Anhörungen weiter befeuern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Vorgang betrifft ausschließlich innenpolitische US-amerikanische Verfahrensfragen ohne direkte Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Verachtungsabstimmung gegen einen ehemaligen ranghohen Regierungsbeamten ist innenpolitisch ein bedeutendes Ereignis im US-System."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Senate committee set to vote on whether to hold Fauci in contempt of Congress",
+              "url": "https://www.npr.org/2026/08/06/nx-s1-5921383/anthony-fauci-contempt-of-congress-vote",
+              "publishedAt": "2026-08-06T07:16:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "JPMorgan-Chef warnt vor hohem Verschuldungsgrad an Finanzmärkten",
+          "summaryDe": [
+            "JPMorgan-CEO Jamie Dimon hat öffentlich vor erhöhtem Verschuldungsgrad an globalen Finanzmärkten gewarnt und dabei insbesondere verstecktes Fremdkapital als potenziellen Verstärker künftiger Marktverwerfungen bezeichnet.",
+            "Dimon verwendete die Formulierung, jemand werde den Markt stören, was als Warnsignal vor systemischen Risiken gewertet wird.",
+            "Die Aussagen fallen in ein Umfeld hoher geopolitischer Unsicherheit, laufender US-China-Handelsspannungen und volatiler Rohstoffpreise.",
+            "Für internationale Finanzmärkte einschließlich europäischer und deutscher Institutionen ist eine solche Warnung von einem der einflussreichsten Banker weltweit relevant."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Systemische Risiken an globalen Finanzmärkten betreffen auch deutsche Banken, Exporteure und Kapitalanlagen direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine explizite Warnung des JPMorgan-Chefs vor Marktinstabilität hat erfahrungsgemäß Signalwirkung für das gesamte Finanzsystem."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+              "url": "https://www.cnbc.com/2026/08/06/jpmorgan-jamie-dimon-leverage-market-disruption.html",
+              "publishedAt": "2026-08-06T02:02:39Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Drohne mit Sprengstoff an deutschem Flughafen gefunden – Behörden sprechen von neuer Bedrohungsqualität",
+          "summaryDe": [
+            "An einem deutschen Flughafen wurde eine Drohne mit befestigtem Sprengstoff entdeckt; zuständige Sicherheitsbehörden charakterisierten den Fund als eine neue Qualität der Bedrohungslage für kritische Infrastruktur.",
+            "Der Vorfall verdeutlicht die wachsende Gefahr durch den kombinierten Einsatz von handelsüblichen Drohnen und Explosivstoffen gegen zivile Einrichtungen.",
+            "Bundesbehörden und Flughafensicherheit dürften nun Protokolle und Abwehrmaßnahmen gegen derartige Angriffe überprüfen.",
+            "Der Vorfall reiht sich in eine internationale Serie von Sabotageakten gegen Infrastruktur ein und wird voraussichtlich sicherheitspolitische Konsequenzen auf Bundes- und EU-Ebene nach sich ziehen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der Vorfall betrifft direkt deutsches Staatsgebiet, kritische Infrastruktur und die innere Sicherheit."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Sprengstoffdrohnen an zivilen Flughäfen stellen eine qualitative Eskalation der Angriffsmethoden auf kritische Infrastruktur dar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Drone with explosives found at German airport, official sees 'new quality' of threat",
+              "url": "https://www.npr.org/2026/08/06/g-s1-137571/germany-drone-explosives-airport",
+              "publishedAt": "2026-08-06T05:23:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ehemaliger Rüstungsbeamter wegen Bestechung zu zehn Jahren Haft verurteilt",
+          "summaryDe": [
+            "Zhang Jianhua, früherer stellvertretender Leiter der chinesischen Staatsbehörde für Wissenschaft, Technologie und Industrie im Verteidigungsbereich, ist wegen der Annahme von Bestechungsgeldern in Höhe von 43 Millionen Yuan zu zehn Jahren Gefängnis verurteilt worden.",
+            "Der Fall entspricht dem gegenwärtigen Muster der Anti-Korruptionskampagne der Kommunistischen Partei, die sich zunehmend auf sensible Bereiche des Verteidigungssektors erstreckt.",
+            "Angesichts seiner Position hatte Zhang Zugang zu strategisch bedeutsamen Rüstungsprojekten, was die Korruptionsermittlungen in diesem Sektor besonders sicherheitspolitisch relevant macht.",
+            "Das Urteil unterstreicht die anhaltende Bereitschaft der Führung, ranghohe Funktionäre auch in militärnahen Behörden öffentlich zu bestrafen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Verfahren ist eine innenpolitische Maßnahme Chinas ohne direkte Auswirkungen auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Korruptionsurteile im chinesischen Verteidigungssektor sind politisch bedeutsam, folgen aber einem bekannten Muster."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China jails retired defence tech overseer for 10 years in US$6.3m corruption case",
+              "url": "https://www.scmp.com/news/china/politics/article/3363082/china-jails-retired-defence-tech-overseer-10-years-us63m-corruption-case",
+              "publishedAt": "2026-08-05T13:48:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China verhängt neue Drohnen-Exportkontrollen und Gegensanktionen gegen US-Firmen",
+          "summaryDe": [
+            "China hat neue Exportkontrollen für Drohnen-Lieferketten sowie Gegensanktionen gegen sieben amerikanische Unternehmen angekündigt und damit auf US-Handelsrestriktionen reagiert.",
+            "Die Maßnahmen stellen das breiteste Paket chinesischer Handelsgegenmittel seit dem Handelsabkommen vom Oktober 2025 dar und fallen zeitlich wenige Wochen vor einem geplanten Xi-Trump-Gipfel.",
+            "Analysten werten die Schritte als Zeichen, dass Peking sein wirtschaftspolitisches Instrumentarium gezielt erweitert und bereit ist, es einzusetzen, um Verhandlungsposition zu stärken.",
+            "Für europäische und deutsche Unternehmen, die in globale Drohnenzulieferketten eingebunden sind, könnten sich indirekte Lieferketteneffekte ergeben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Unternehmen könnten als Zulieferer oder Handelspartner indirekt von chinesischen Exportkontrollen und Gegensanktionen betroffen sein."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Ausweitung chinesischer Handelsgegenmittel kurz vor einem Gipfeltreffen ist eine bedeutende geopolitisch-ökonomische Eskalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China adds US sanctions, drone curbs in trade tit-for-tat",
+              "url": "https://www.scmp.com/plus/news/china/politics/article/3363167/china-adds-us-sanctions-drone-curbs-trade-tit-tat",
+              "publishedAt": "2026-08-06T09:01:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinesische und russische Kriegsschiffe umkreisen Japan in 17-tägiger Patrouille",
+          "summaryDe": [
+            "Kriegsschiffe der chinesischen und russischen Marine haben Japan in einer koordinierten 17-tägigen Patrouille umkreist und damit ein deutliches Signal militärischer Zusammenarbeit an Tokio und Washington gesandt.",
+            "Die Übung verdeutlicht die zunehmende operative Abstimmung zwischen den Streitkräften beider Länder im westlichen Pazifik.",
+            "Gleichzeitig zeigte das chinesische Staatsfernsehen CCTV in einer Dokumentation seltene Aufnahmen, die den US-Luftwaffenstützpunkt Kadena auf Okinawa offenbar als Ziel der PLA-Raketentruppen darstellen.",
+            "Die zeitliche Koinzidenz beider Ereignisse – Flottenpatrouille und Medienbotschaft über US-Stützpunkt als potentielles Ziel – unterstreicht den demonstrativen Charakter der chinesisch-russischen Kooperation gegenüber den USA und deren Verbündeten."
+          ],
+          "additionalImportant": "Zusätzlich haben US-Falken Druck auf die Trump-Regierung ausgeübt, ein 14-Milliarden-Dollar-Rüstungspaket für Taiwan vor dem geplanten Xi-Trump-Gipfel dem Kongress vorzulegen, was die geopolitische Spannung im Vorfeld des Treffens weiter erhöht.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Destabilisierung im Indo-Pazifik hätte indirekte wirtschaftliche und sicherheitspolitische Folgewirkungen für Deutschland als Exportnation und NATO-Partner."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die koordinierte Einkreisung Japans durch chinesische und russische Streitkräfte kombiniert mit gezielten Medienbotschaften stellt eine außergewöhnliche militärische Demonstration mit internationaler Tragweite dar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese and Russian warships were seen circling Japan. What could it mean?",
+              "url": "https://www.scmp.com/news/china/military/article/3363143/their-warships-encircle-japan-what-signals-are-china-and-russia-sending",
+              "publishedAt": "2026-08-06T06:41:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Has China's missile force got America's Kadena base in Japan in its sights?",
+              "url": "https://www.scmp.com/news/china/military/article/3363170/has-chinas-missile-force-got-americas-kadena-base-japan-its-sights",
+              "publishedAt": "2026-08-06T10:00:16Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US hawks push Trump on multibillion-dollar Taiwan arms deal ahead of Xi summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363085/us-hawks-push-trump-multibillion-dollar-taiwan-arms-deal-ahead-xi-summit",
+              "publishedAt": "2026-08-05T15:00:10Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Deadline für Beitrittsgespräche auf Anfang 2027 verschoben – Ziel '28by28' in Gefahr",
+          "summaryDe": [
+            "Die Frist für die Abschlussverhandlungen Montenegros mit der EU wurde auf Anfang 2027 verlängert, was Zweifel aufwirft, ob das ambitionierte Ziel eines Beitritts bis 2028 noch realisierbar ist.",
+            "Das Ziel '28by28' – Vollmitgliedschaft bis 2028 – war als generationelles Projekt der politischen Führung des Landes deklariert worden und hat hohe symbolische Bedeutung.",
+            "Gleichzeitig sorgt die umstrittene Besetzung der Wahlkommission (CIK) für politische Spannungen, da die EU-Delegation eine rechtskonforme Bildung bis Ende August erwartet und Vorwürfe der Gesetzesverletzung im Raum stehen.",
+            "Interne Spaltungen innerhalb der Serbisch-Orthodoxen Kirche zwischen dem pro-europäischen und dem serbisch-nationalistisch orientierten Flügel belasten zusätzlich das gesellschaftliche Klima im Vorfeld weiterer Reformschritte."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als wichtiger EU-Akteur indirekt am Erweiterungsprozess beteiligt; eine Verzögerung des montenegrinischen Beitritts berührt die EU-Erweiterungspolitik."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Verschiebung der EU-Beitrittsfrist ist für Montenegro politisch bedeutend, hat aber begrenzte internationale Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Trka s vremenom za generacijski san: Hoće li „28by28",
+              "url": "https://www.pobjeda.me/clanak/trka-s-vremenom-za-generacijski-san-hoce-li-28by28-ostati-samo-slogan",
+              "publishedAt": "2026-08-06T06:35:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "CIK ne smije biti formiran pod teretom sumnje i kršenja zakona",
+              "url": "https://www.pobjeda.me/clanak/cik-ne-smije-biti-formiran-pod-teretom-sumnje-i-krsenja-zakona",
+              "publishedAt": "2026-08-06T08:25:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "PODJELE U SPC: Joanikije i Metodije u klinču zbog Vučića",
+              "url": "https://www.pobjeda.me/clanak/podjele-u-spc-joanikije-i-metodije-u-klincu-zbog-vucica",
+              "publishedAt": "2026-08-06T06:33:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegro setzt auf Gaming-Tourismus als Milliarden-Chance",
+          "summaryDe": [
+            "Montenegro erkundet die Kombination aus Gaming, Tourismus und internationalen E-Sport-Turnieren als neues Wirtschaftsfeld mit einem geschätzten Milliardenvolumen.",
+            "Befürworter sehen in der Anziehung professioneller Teams und Turniere eine Möglichkeit, die stark saisonal geprägte Tourismuswirtschaft des Landes zu diversifizieren.",
+            "Das kleine Adrialand steht vor der Herausforderung, geeignete Infrastruktur und regulatorische Rahmenbedingungen aufzubauen, um international konkurrenzfähig zu sein.",
+            "Der Vorstoß reiht sich in ähnliche Strategien kleinerer Länder ein, die digitale Wirtschaftszweige als Wachstumshebel nutzen wollen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Vorhaben betrifft die montenegrinische Binnenwirtschaft ohne erkennbare direkte Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Es handelt sich um eine wirtschaftliche Planungsüberlegung mit begrenzter internationaler Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Od gejminga do turizma - šansa Crne Gore vrijedna milijarde",
+              "url": "https://www.pobjeda.me/clanak/od-gejminga-do-turizma-sansa-crne-gore-vrijedna-milijarde",
+              "publishedAt": "2026-08-06T06:54:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
