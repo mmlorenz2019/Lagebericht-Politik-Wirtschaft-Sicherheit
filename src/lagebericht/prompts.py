@@ -10,6 +10,11 @@ def _safe_json(value) -> str:
 DAILY_RULES = (
     "Erstelle einen strukturierten Tagesbericht auf Deutsch in klarer, erwachsener Sprache. "
     "Wähle pro Land und Kategorie das bestgeeignete vorhandene Ereignis mit vier bis fünf Sätzen. "
+    "Variiere Satzbau, Länge und Einstieg von Meldung zu Meldung; verfalle nicht in ein wiederkehrendes "
+    "Schema wie 'Fakt – Einordnung – Verdeutlichung – Ausblick' in immer derselben Reihenfolge und mit "
+    "denselben Signalwörtern (etwa 'markiert', 'verdeutlicht', 'dürfte künftig'). Schreibe jede Meldung so, "
+    "wie ein Mensch sie eigenständig erzählen würde: Was an dieser Meldung konkret bemerkenswert ist, "
+    "entscheidet den Aufbau, nicht eine feste Satzfolge. "
     "Eine niedrige Bewertung ist kein Ausschlussgrund. Eine Meldung aus einer einzigen seriösen Quelle "
     "darf veröffentlicht werden und ist als single_source zu kennzeichnen. Verwende no_major_development "
     "nur, wenn für die Kategorie kein Ereignis mit sourceCandidates vorhanden ist. Bewerte jede veröffentlichte "
