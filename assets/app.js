@@ -6,9 +6,9 @@ const ALLOWED_HOSTS = new Set([
   'chinadaily.com.cn', 'www.chinadaily.com.cn', 'vijesti.me', 'www.vijesti.me', 'pobjeda.me', 'www.pobjeda.me'
 ]);
 const CATEGORY_LABELS = {
-  politics_society: ['Politik & Gesellschaft', '🏛️'],
-  economy_technology: ['Wirtschaft & Technologie', '⚙️'],
-  foreign_security: ['Außenpolitik & Sicherheit', '🛡️']
+  politics_society: 'Politik & Gesellschaft',
+  economy_technology: 'Wirtschaft & Technologie',
+  foreign_security: 'Außenpolitik & Sicherheit'
 };
 const COUNTRY_LABELS = { usa: 'USA', china: 'China', montenegro: 'Montenegro' };
 const state = {
@@ -33,6 +33,28 @@ function node(tag, text, className) {
   if (text !== undefined && text !== null) value.textContent = text;
   if (className) value.className = className;
   return value;
+}
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+function leafIcon(filled, color) {
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('viewBox', '0 0 16 16');
+  svg.setAttribute('class', 'leaf');
+  svg.setAttribute('aria-hidden', 'true');
+  const path = document.createElementNS(SVG_NS, 'path');
+  path.setAttribute('d', 'M8 1 C13 3 14 9 8 15 C2 9 3 3 8 1 Z');
+  path.setAttribute('fill', filled ? color : 'none');
+  path.setAttribute('stroke', color);
+  path.setAttribute('stroke-width', '1.3');
+  svg.append(path);
+  return svg;
+}
+
+function leafRow(score, color) {
+  const wrap = node('span', null, 'leaf-row');
+  for (let i = 0; i < 3; i += 1) wrap.append(leafIcon(i < score, color));
+  return wrap;
 }
 
 function renderNotice() {
@@ -148,20 +170,27 @@ function renderRatings(item, article) {
   group.setAttribute('aria-label', 'Bedeutungsbewertung');
   ratings.forEach((rating) => {
     const details = node('details', null, `rating ${rating.className}`);
-    const value = rating.legacy ? 'alter Datenstand' : `${rating.score} von 3`;
-    details.append(node('summary', `${rating.icon} ${rating.label}: ${value}`));
+    const summary = document.createElement('summary');
+    if (rating.legacy) {
+      summary.append(node('span', rating.label, 'rating-label'), node('span', 'alter Datenstand', 'rating-legacy-note'));
+    } else {
+      const color = rating.key === 'germany' ? 'var(--brass)' : 'var(--rust)';
+      summary.append(leafRow(rating.score, color), node('span', rating.label, 'rating-label'));
+    }
+    details.append(summary);
     details.append(node('p', rating.reasonDe, 'rating-reason'));
     group.append(details);
   });
   article.append(group);
 }
 
-function renderStory(item) {
+function renderStory(item, index) {
   const article = node('article', null, 'story');
-  const [label, icon] = CATEGORY_LABELS[item.id] || [item.id, '•'];
-  article.append(node('div', icon, 'story-icon'));
+  const label = CATEGORY_LABELS[item.id] || item.id;
+  const chip = node('div', null, 'story-num');
+  chip.append(leafIcon(true, 'currentColor'), document.createTextNode(` No. ${String(index + 1).padStart(3, '0')} — ${label}`));
+  article.append(chip);
   const top = node('div', null, 'story-top');
-  top.append(node('p', label, 'eyebrow'));
   top.append(node('span', RatingModel.badgeForItem(item), 'badge'));
   article.append(top);
   if (item.status === 'no_major_development') {
@@ -211,7 +240,7 @@ function renderReport() {
     elements.completeness.textContent = coverage.label;
   }
   elements.updated.textContent = isDaily ? `Bericht vom ${report.reportDate} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}` : `${report.periodStart} bis ${report.periodEnd} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}`;
-  elements.stories.replaceChildren(...(country.categories || country.sections || []).map(renderStory));
+  elements.stories.replaceChildren(...(country.categories || country.sections || []).map((item, index) => renderStory(item, index)));
   elements.overall.hidden = isDaily;
   elements.overallCopy.replaceChildren();
   if (!isDaily) (report.overallSummary || []).forEach((sentence) => elements.overallCopy.append(node('p', sentence)));
