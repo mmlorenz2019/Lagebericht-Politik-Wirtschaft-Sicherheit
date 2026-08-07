@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-07",
+  "generatedAt": "2026-08-07T10:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump unterzeichnet neue Dekrete zur Geburtsortstaatsbürgerschaft – Senat votiert gegen Fauci",
+          "summaryDe": [
+            "Präsident Trump hat zwei Exekutivverfügungen unterzeichnet, die die Geburtsortstaatsbürgerschaft einschränken und den sogenannten 'Geburtstourismus' bekämpfen sollen.",
+            "Die Maßnahmen kommen, nachdem der Oberste Gerichtshof Trumps ursprüngliche Politik im Juni zurückgewiesen hatte; die neuen Dekrete suchen alternative Rechtswege.",
+            "Parallel dazu stimmte ein republikanisch geführter Senatsausschuss dafür, den ehemaligen NIAID-Direktor Anthony Fauci wegen Missachtung des Kongresses zu belangen, da Fauci trotz präsidentiellem Begnadigungsakt bei einer Anhörung Aussagen verweigerte.",
+            "Beide Vorgänge spiegeln den anhaltenden innenpolitischen Konfrontationskurs der Trump-Regierung gegenüber verfassungsrechtlichen und institutionellen Grenzen wider.",
+            "Die Rechtmäßigkeit der neuen Einwanderungsdekrete wird voraussichtlich erneut gerichtlich angefochten werden."
+          ],
+          "additionalImportant": "Das US-Rechnungsprüfungsamt (GAO) hat festgestellt, dass DOGEs behauptete Einsparungen von 110 Milliarden Dollar erheblich übertrieben sind – ein Befund mit möglichen Folgen für Haushaltsdiskussionen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "US-Einwanderungspolitik und institutionelle Konflikte haben indirekte Signalwirkung für demokratische Normdiskussionen in Europa."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Exekutivdekrete nach höchstrichterlicher Abfuhr und parlamentarische Strafmaßnahmen gegen einen prominenten Wissenschaftler markieren eine größere innenpolitische Eskalation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Trump signs 2 immigration actions to curb 'birth tourism,' limit birthright citizenship",
+              "url": "https://www.npr.org/2026/08/06/g-s1-137686/trump-birthright-citizenship-immigration-curb",
+              "publishedAt": "2026-08-06T22:06:35Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "News Wrap: Senate committee votes to hold Fauci in contempt of Congress",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-senate-committee-votes-to-hold-fauci-in-contempt-of-congress",
+              "publishedAt": "2026-08-06T22:50:41Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA verhängen 15-Prozent-Zoll auf Polysilizium – GAO widerlegt DOGEs Sparversprechen",
+          "summaryDe": [
+            "Die Trump-Regierung hat einen Zoll von 15 Prozent auf Polysilizium eingeführt und Preisuntergrenzen festgelegt, um Chinas Marktdominanz bei einem Schlüsselrohstoff für Solarpanele und Halbleiter entgegenzuwirken.",
+            "Gleichzeitig hat das Government Accountability Office festgestellt, dass DOGEs Angaben über Bundesausgabenkürzungen in Höhe von 110 Milliarden Dollar erheblich aufgebauscht waren.",
+            "Der Polysilizium-Zoll trifft unmittelbar die globalen Lieferketten für erneuerbare Energien und Chipproduktion, was auch europäische Hersteller betrifft.",
+            "Die GAO-Prüfung stellt erstmals unabhängig fest, dass die von Elon Musk geleitete Sparinitiative ihre eigenen Zielvorgaben weit verfehlt hat.",
+            "Beide Entwicklungen dürften die Debatten über US-Industriepolitik und Haushaltsdisziplin in der kommenden Kongresssitzung prägen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Der Polysilizium-Zoll berührt direkt deutsche Solarenergie- und Halbleiterzulieferer, die auf globale Rohstoffmärkte angewiesen sind."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein gezielter Rohstoffzoll gegen China und die GAO-Widerlegung zentraler DOGE-Behauptungen sind bedeutende wirtschaftspolitische Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Trump Issues Tariffs on Key Ingredient for Electronics and Solar Panels",
+              "url": "https://www.nytimes.com/2026/08/06/us/politics/trump-tariffs-solar-panels.html",
+              "publishedAt": "2026-08-06T21:53:18Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
+              "url": "https://www.cnbc.com/2026/08/06/doge-elon-musk-gao-government-cost-cuts.html",
+              "publishedAt": "2026-08-06T22:19:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran droht mit Hormuz-Sperrung – Trump-Administration weist Vorstoß zurück",
+          "summaryDe": [
+            "Das iranische Parlament berät einen Plan, US-amerikanische und israelische Schiffe vollständig aus der Straße von Hormuz auszuschließen und anderen Ländern Durchfahrtsgebühren zu erheben.",
+            "Die Trump-Administration hat den Vorschlag umgehend abgelehnt und als unakzeptabel bezeichnet.",
+            "Die Straße von Hormuz ist eine der weltweit bedeutendsten Schifffahrtsrouten für Öltransporte; eine Sperrung würde globale Energiemärkte unmittelbar erschüttern.",
+            "Iranische Unterhändler haben der US-Seite gleichzeitig 'Theaterdiplomatie' vorgeworfen, was auf eine erhebliche Vertrauenskrise in laufenden Verhandlungen hindeutet.",
+            "Beobachter werten den parlamentarischen Vorstoß als Druckmittel im Kontext stockender Nuklearverhandlungen und wachsender interner Spannungen im Iran."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Eskalation in der Straße von Hormuz würde die europäische Energieversorgung und deutsche Industrieunternehmen direkt über steigende Ölpreise belasten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine potenzielle Sperrung der Straße von Hormuz ist eine größere geopolitische Drohung mit weitreichenden Folgen für globale Energiemärkte."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Iran aims to ban U.S. and Israeli ships from Strait of Hormuz and charge others a toll",
+              "url": "https://www.npr.org/2026/08/06/nx-s1-5923623/iran-strait-hormuz-us-israel-ban",
+              "publishedAt": "2026-08-06T20:58:56Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Plane takeoff during Marine One flight renews concerns about D.C.'s busy airspace",
+              "url": "https://www.pbs.org/newshour/show/plane-takeoff-during-marine-one-flight-renews-concerns-about-d-c-s-busy-airspace",
+              "publishedAt": "2026-08-06T22:45:46Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinesische Medien kontern US-Bericht über drastischen Rückgang chinesischer Studentenvisa",
+          "summaryDe": [
+            "Ein US-amerikanischer Think-Tank begrüßte öffentlich einen Rückgang chinesischer Studentenvisa um 46 Prozent – ein Bericht, der in chinesischen Staatsmedien umgehend scharfe Kritik auslöste.",
+            "Peking wirft Washington vor, akademische Austausche zu politisieren und Sicherheitsbedenken gegenüber chinesischen Studierenden zu instrumentalisieren.",
+            "Der Vorwurf recycelter Sicherheitsnarrative spiegelt eine tiefergehende Auseinandersetzung um den Zugang chinesischer Staatsangehöriger zu US-amerikanischen Bildungseinrichtungen wider.",
+            "Der Rückgang trifft auch US-Universitäten finanziell, da chinesische Studierende traditionell einen überproportional hohen Anteil der Studiengebühreneinnahmen beisteuern.",
+            "Der Konflikt steht sinnbildlich für die zunehmende Entkopplung im Bildungsbereich zwischen den beiden Großmächten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Hochschulen könnten indirekt profitieren, wenn chinesische Studierende verstärkt auf europäische Alternativstandorte ausweichen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Disput ist relevant als Symptom der sino-amerikanischen Entkopplung, hat aber begrenzten unmittelbaren Handlungscharakter."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Media backlash in China after US think tank hails 46% drop in Chinese student visas",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363195/chinese-media-hits-back-after-us-think-tank-hails-46-drop-chinese-student-visas",
+              "publishedAt": "2026-08-06T11:19:32Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Argentinien verlängert 19-Milliarden-Dollar-Währungsswap mit China trotz US-Druck",
+          "summaryDe": [
+            "Argentinien hat seinen Währungsswap-Vertrag mit China im Umfang von 19 Milliarden US-Dollar um weitere fünf Jahre verlängert und damit dem expliziten Druck der Trump-Regierung widerstanden.",
+            "Die Vereinbarung sichert Buenos Aires eine wichtige Devisenreserve und stützt die wirtschaftliche Stabilisierung des Landes.",
+            "Für Peking ist die Verlängerung ein diplomatischer Erfolg und unterstreicht Chinas wachsenden Einfluss in Lateinamerika trotz US-amerikanischer Gegenmaßnahmen.",
+            "Der Schritt zeigt, dass selbst unter wirtschaftlichem Druck aus Washington lateinamerikanische Staaten eigenständige Entscheidungen zugunsten chinesischer Finanzinstrumente treffen.",
+            "Beobachter werten den Vorgang als weiteren Beleg für die Grenzen des US-amerikanischen Einflusses in der Region."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die zunehmende chinesische Finanzdominanz in Lateinamerika berührt indirekt europäische Handels- und Investitionsinteressen in der Region."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Verlängerung entgegen US-Druck markiert eine bedeutende Verschiebung geopolitischer Einflussstrukturen in Lateinamerika."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Argentina renews US$19 billion China currency swap, brushing off Washington's pressure",
+              "url": "https://www.scmp.com/news/china/article/3363219/argentina-renews-us19-billion-china-currency-swap-brushing-washingtons-pressure",
+              "publishedAt": "2026-08-06T19:21:23Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China-USA: Gegenseitige Sanktionen, Drohnenexportkontrolle und Spannungen im Südchinesischen Meer",
+          "summaryDe": [
+            "Peking und Washington haben erneut gegenseitige Handelsmaßnahmen verhängt: China sanktionierte sieben US-Unternehmen und verschärfte Exportkontrollen für Drohnen unter Berufung auf nationale Sicherheitsinteressen.",
+            "Beobachter bezeichnen die jüngsten Schritte als 'Geschwindigkeitsbremse', halten ein Xi-Trump-Gipfeltreffen aber weiterhin für möglich.",
+            "Parallel bestätigte China den Tod zweier Küstenwachoffiziere bei einer Kollision im Scarborough-Riff während einer Verfolgungsjagd mit philippinischen Schiffen – ein Vorfall, der die Spannungen im Südchinesischen Meer weiter anheizt.",
+            "Zudem zeigte das chinesische Staatsfernsehen Satellitenaufnahmen des US-Luftwaffenstützpunkts Kadena auf Okinawa als potenzielles Ziel während eines Militärdokumentarfilms.",
+            "Die Häufung dieser Ereignisse signalisiert eine breite Intensivierung der Konfrontation zwischen beiden Großmächten auf militärischer, wirtschaftlicher und diplomatischer Ebene."
+          ],
+          "additionalImportant": "Eine aktuelle Umfrage zeigt, dass Deutsche die größten China-Skeptiker in Europa sind: 49 Prozent betrachten Peking als Rivalen oder Gegner – ein Befund mit direkter Relevanz für die deutsche Außen- und Wirtschaftspolitik.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eskalationen im US-chinesischen Handels- und Sicherheitskonflikt sowie die Ergebnisse zur deutschen China-Wahrnehmung haben konkrete Folgen für Berlins Außen- und Wirtschaftspolitik."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die gleichzeitige Eskalation auf Handels-, Militär- und Seegebietsebene zwischen den beiden größten Volkswirtschaften ist ein systemisch bedeutsames Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Will latest trade 'speed bump' slow China-US ties, or even stop Xi-Trump summit?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363156/will-latest-trade-speed-bump-slow-china-us-ties-or-even-stop-xi-trump-summit",
+              "publishedAt": "2026-08-06T14:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Has China's missile force got America's Kadena base in Japan in its sights?",
+              "url": "https://www.scmp.com/news/china/military/article/3363170/has-chinas-missile-force-got-americas-kadena-base-japan-its-sights",
+              "publishedAt": "2026-08-06T10:00:16Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Germans emerge as Europe's biggest China hawks as economic pain begins to bite",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363227/germans-emerge-europes-biggest-china-hawks-economic-pain-begins-bite",
+              "publishedAt": "2026-08-07T02:00:21Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Mehrere Strafverfolgungsfälle in Montenegro: Unfallflucht, Drohbrief und Eigentumsdelikte",
+          "summaryDe": [
+            "In Bar wurde ein Fahrer festgenommen, der nach dem Anfahren eines fünfjährigen Kindes vom Unfallort geflüchtet war – das Kind überlebte.",
+            "Die montenegrinischen Behörden identifizierten eine verdächtige Person, die einen Drohbrief an das Parlament geschickt hatte, durch den sich Abgeordneter Zirojević bedroht fühlte; gegen die Person wurde Untersuchungshaft angeordnet.",
+            "Zudem wurden Personen wegen des Diebstahls eines E-Rollers, eines Fahrrads sowie von Bargeld in Höhe von 1.100 Euro verdächtig.",
+            "Gegen einen serbischen Staatsbürger wurde Anklage wegen Steuer- und Beitragshinterziehung in Höhe von über 40.000 Euro erhoben.",
+            "Die Häufung der Fälle ist Routine im montenegrinischen Strafverfolgungsalltag, verdeutlicht jedoch die anhaltende Herausforderung grenzüberschreitender Kleinkriminalität."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die geschilderten Vorgänge sind lokale montenegrinische Strafverfolgungsangelegenheiten ohne erkennbaren Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Es handelt sich um routinemäßige Kriminalfälle ohne überregionale oder politische Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Bar: Uhapšen vozač koji je nakon obaranja petogodišnjeg djeteta pobjegao sa mjesta nezgode",
+              "url": "https://www.pobjeda.me/clanak/bar-uhapsen-vozac-koji-je-nakon-obaranja-petogodisnjeg-djeteta-pobjegao-sa-mjesta-nezgode",
+              "publishedAt": "2026-08-05T09:24:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Identifikovana osoba osumnjičena da je uputila pismo Skupštini zbog kojeg se Zirojević osjećao ugroženo",
+              "url": "https://www.pobjeda.me/clanak/identifikovana-osoba-osumnjicena-da-je-uputila-pismo-skupstini-zbog-kojeg-se-zirojevic-osjecao-ugrozeno",
+              "publishedAt": "2026-08-05T11:33:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Određeno zadržavanje osobi koja je prijetila Zirojeviću",
+              "url": "https://www.pobjeda.me/clanak/odredeno-zadrzavanje-osobi-koja-je-prijetila-zirojevicu",
+              "publishedAt": "2026-08-07T08:42:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
