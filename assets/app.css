@@ -77,6 +77,8 @@ p { line-height: 1.6; }
 .additional { border-left: 2px solid var(--rust); padding-left: .8rem; font-style: italic; }
 .ratings { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: .9rem; }
 .rating { min-width: min(100%, 15rem); border: 1px solid var(--line); background: var(--card); }
+.rating-germany { color: var(--brass); }
+.rating-overall { color: var(--rust); }
 .rating summary { cursor: pointer; display: flex; align-items: center; gap: .5rem; padding: .5rem .7rem; font-size: .82rem; }
 .rating-label { font-style: italic; }
 .rating-legacy-note { color: var(--muted); font-size: .78rem; }

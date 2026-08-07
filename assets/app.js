@@ -53,6 +53,8 @@ function leafIcon(filled, color) {
 
 function leafRow(score, color) {
   const wrap = node('span', null, 'leaf-row');
+  wrap.setAttribute('role', 'img');
+  wrap.setAttribute('aria-label', `${score} von 3`);
   for (let i = 0; i < 3; i += 1) wrap.append(leafIcon(i < score, color));
   return wrap;
 }
@@ -169,13 +171,12 @@ function renderRatings(item, article) {
   const group = node('div', null, 'ratings');
   group.setAttribute('aria-label', 'Bedeutungsbewertung');
   ratings.forEach((rating) => {
-    const details = node('details', null, `rating ${rating.className}`);
+    const details = node('details', null, `rating rating-${rating.key}`);
     const summary = document.createElement('summary');
     if (rating.legacy) {
       summary.append(node('span', rating.label, 'rating-label'), node('span', 'alter Datenstand', 'rating-legacy-note'));
     } else {
-      const color = rating.key === 'germany' ? 'var(--brass)' : 'var(--rust)';
-      summary.append(leafRow(rating.score, color), node('span', rating.label, 'rating-label'));
+      summary.append(leafRow(rating.score, 'currentColor'), node('span', rating.label, 'rating-label'));
     }
     details.append(summary);
     details.append(node('p', rating.reasonDe, 'rating-reason'));
