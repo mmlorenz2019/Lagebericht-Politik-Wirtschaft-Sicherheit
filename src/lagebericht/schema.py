@@ -144,8 +144,8 @@ def validate_daily_report(report: dict, allowed_domains: set[str]) -> None:
     _iso_datetime(report["generatedAt"], "generatedAt")
     if report["status"] not in REPORT_STATUS:
         _fail("status", "unknown report status")
-    if not isinstance(report["countries"], list) or len(report["countries"]) != len(COUNTRIES):
-        _fail("countries", "must contain exactly one entry per country")
+    if not isinstance(report["countries"], list) or not 1 <= len(report["countries"]) <= len(COUNTRIES):
+        _fail("countries", "must contain one to four countries")
     seen = []
     for country_index, country in enumerate(report["countries"]):
         path = f"countries[{country_index}]"
@@ -160,8 +160,8 @@ def validate_daily_report(report: dict, allowed_domains: set[str]) -> None:
             _category(item, f"{path}.categories[{category_index}]", allowed_domains, schema_version)
         if set(x["id"] for x in country["categories"]) != set(CATEGORY_IDS):
             _fail(f"{path}.categories", "must contain every category exactly once")
-    if set(seen) != set(COUNTRIES) or len(set(seen)) != len(COUNTRIES):
-        _fail("countries", "must contain every country exactly once")
+    if len(set(seen)) != len(seen):
+        _fail("countries", "must not contain a duplicate country")
 
 
 def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
@@ -190,8 +190,8 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
         _fail("overallSummary", f"must contain {limits[0]}-{limits[1]} sentences")
     for index, sentence in enumerate(report["overallSummary"]):
         _string(sentence, f"overallSummary[{index}]", 500)
-    if not isinstance(report["countries"], list) or len(report["countries"]) != len(COUNTRIES):
-        _fail("countries", "must contain every country exactly once")
+    if not isinstance(report["countries"], list) or not 1 <= len(report["countries"]) <= len(COUNTRIES):
+        _fail("countries", "must contain one to four countries")
     seen = []
     for country_index, country in enumerate(report["countries"]):
         path = f"countries[{country_index}]"
@@ -204,8 +204,8 @@ def validate_period_report(report: dict, allowed_domains: set[str]) -> None:
             _fail(f"{path}.sections", "must contain 1-3 sections")
         for section_index, section in enumerate(country["sections"]):
             _category(section, f"{path}.sections[{section_index}]", allowed_domains, schema_version)
-    if set(seen) != set(COUNTRIES) or len(set(seen)) != len(COUNTRIES):
-        _fail("countries", "must contain every country exactly once")
+    if len(set(seen)) != len(seen):
+        _fail("countries", "must not contain a duplicate country")
     for field in ("sourceReportDates", "missingReportDates"):
         if not isinstance(report[field], list):
             _fail(field, "must be an array")

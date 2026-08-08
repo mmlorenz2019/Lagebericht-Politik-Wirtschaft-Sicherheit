@@ -158,7 +158,7 @@ PERIOD_CONTENT_SCHEMA = {
     "properties": {
         "overallSummary": {"type": "array", "minItems": 1, "maxItems": 8, "items": {"type": "string", "maxLength": 500}},
         "countries": {
-            "type": "array", "minItems": len(COUNTRY_ORDER), "maxItems": len(COUNTRY_ORDER),
+            "type": "array", "minItems": 1, "maxItems": len(COUNTRY_ORDER),
             "items": {
                 "type": "object", "additionalProperties": False,
                 "required": ["id", "label", "sections"],

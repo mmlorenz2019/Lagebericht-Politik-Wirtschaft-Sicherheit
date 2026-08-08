@@ -149,9 +149,23 @@ class DailyReportValidationTests(unittest.TestCase):
         )
         validate_daily_report(report, ALLOWED_DOMAINS)
 
-    def test_rejects_daily_report_with_only_three_countries_once_eu_exists(self):
+    def test_accepts_report_with_fewer_than_all_known_countries(self):
+        # Every report published before "eu" existed legitimately has only 3
+        # countries - it must stay valid forever, not become retroactively
+        # invalid the moment a 4th country is introduced.
         report = daily_report()
-        with self.assertRaisesRegex(ReportValidationError, "countries"):
+        report["countries"] = report["countries"][:1]
+        validate_daily_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_duplicate_country(self):
+        # Replace (not append) so this stays valid regardless of how many
+        # countries daily_report() returns by default - Task 4 later grows
+        # that fixture to 4, and appending a duplicate would then exceed
+        # len(COUNTRIES) and trip the count check instead of the duplicate
+        # check.
+        report = daily_report()
+        report["countries"][-1] = dict(report["countries"][0])
+        with self.assertRaisesRegex(ReportValidationError, "duplicate"):
             validate_daily_report(report, ALLOWED_DOMAINS)
 
     def test_rejects_javascript_source_url(self):
@@ -237,9 +251,13 @@ class PeriodReportValidationTests(unittest.TestCase):
             validate_period_report(report, ALLOWED_DOMAINS)
 
     def test_rejects_duplicate_or_missing_period_country(self):
+        # Under the corrected design (see 2026-08-08-eu-laenderblock plan's
+        # correction note), a report missing a known country is legitimate
+        # on its own (historical pre-EU reports), so what this scenario
+        # actually trips is the duplicate-id check, not a coverage check.
         report = self.valid_period()
         report["countries"][2]["id"] = "china"
-        with self.assertRaisesRegex(ReportValidationError, "every country"):
+        with self.assertRaisesRegex(ReportValidationError, "duplicate"):
             validate_period_report(report, ALLOWED_DOMAINS)
 
     def test_rejects_unknown_period_type(self):
