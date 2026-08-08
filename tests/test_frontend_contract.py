@@ -335,6 +335,32 @@ class FrontendContractTests(unittest.TestCase):
         validate_period_report(weekly, domains)
         validate_period_report(monthly, domains)
 
+    def test_source_allowed_domains_are_present_in_frontend_allowed_hosts(self):
+        # Guards against config/sources.json and assets/app.js's ALLOWED_HOSTS drifting
+        # apart: every article-serving domain a source is allowed to link to must also
+        # be safelisted client-side, otherwise safeSourceLink() silently nulls the link
+        # out and renderSources() shows "Link nicht freigegeben" for a legitimate source.
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        match = re.search(r"const ALLOWED_HOSTS = new Set\(\[(.*?)\]\);", app, re.DOTALL)
+        self.assertIsNotNone(match, "assets/app.js: could not locate the ALLOWED_HOSTS Set literal")
+        allowed_hosts = set(re.findall(r"'([^']+)'", match.group(1)))
+
+        # Feed-only hosts: they serve a source's RSS/Atom feed but never appear as the
+        # hostname of an article URL, so the frontend never needs them in ALLOWED_HOSTS.
+        # Each has a sibling article-hosting domain from the same source (e.g. NPR's
+        # feeds.npr.org feed vs. its www.npr.org/npr.org article hosts) that IS asserted
+        # below. Keep this list in sync with config/sources.json if a new source adds
+        # another dedicated feed subdomain.
+        feed_only_hosts = {"feeds.npr.org", "rss.nytimes.com", "rss.pobjeda.me"}
+
+        sources = load_sources(ROOT / "config" / "sources.json")
+        for source in sources:
+            for domain in source.allowed_domains:
+                if domain in feed_only_hosts:
+                    continue
+                with self.subTest(source=source.id, domain=domain):
+                    self.assertIn(domain, allowed_hosts)
+
     def test_service_worker_does_not_cache_cross_origin_requests(self):
         worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
         html = (ROOT / "index.html").read_text(encoding="utf-8")
