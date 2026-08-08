@@ -57,6 +57,12 @@ class PublishTests(unittest.TestCase):
         self.assertEqual(index["latestDaily"], "2026-07-31")
         self.assertEqual(index["daily"], [{"date": "2026-07-31", "path": "data/daily/2026-07-31.json"}])
 
+    def test_uses_a_custom_url_prefix_for_index_paths(self):
+        publisher = Publisher(self.root / "en", ALLOWED_DOMAINS, url_prefix="data/en")
+        publisher.publish_daily(daily_report())
+        index = json.loads((self.root / "en" / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(index["daily"], [{"date": "2026-07-31", "path": "data/en/daily/2026-07-31.json"}])
+
     def test_rejects_invalid_report_without_changing_existing_file(self):
         path = self.publisher.publish_daily(daily_report())
         original = path.read_bytes()

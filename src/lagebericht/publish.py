@@ -9,17 +9,17 @@ from .costs import CostDataError, validate_cost_report
 from .schema import validate_daily_report, validate_period_report
 
 
-def _entries(directory: Path, field: str) -> list[dict]:
+def _entries(directory: Path, field: str, url_prefix: str) -> list[dict]:
     if not directory.exists():
         return []
     result = []
     for path in sorted(directory.glob("*.json"), reverse=True):
         value = path.stem
-        result.append({field: value, "path": f"data/{directory.name}/{path.name}"})
+        result.append({field: value, "path": f"{url_prefix}/{directory.name}/{path.name}"})
     return result
 
 
-def _period_entries(directory: Path, field: str, daily_dates: set[str]) -> list[dict]:
+def _period_entries(directory: Path, field: str, daily_dates: set[str], url_prefix: str) -> list[dict]:
     if not directory.exists():
         return []
     result = []
@@ -35,15 +35,15 @@ def _period_entries(directory: Path, field: str, daily_dates: set[str]) -> list[
             or any(not isinstance(value, str) or value not in daily_dates for value in source_dates)
         ):
             continue
-        result.append({field: path.stem, "path": f"data/{directory.name}/{path.name}"})
+        result.append({field: path.stem, "path": f"{url_prefix}/{directory.name}/{path.name}"})
     return result
 
 
-def rebuild_index(data_root: Path) -> dict:
-    daily = _entries(data_root / "daily", "date")
+def rebuild_index(data_root: Path, url_prefix: str = "data") -> dict:
+    daily = _entries(data_root / "daily", "date", url_prefix)
     daily_dates = {entry["date"] for entry in daily}
-    weekly = _period_entries(data_root / "weekly", "period", daily_dates)
-    monthly = _period_entries(data_root / "monthly", "period", daily_dates)
+    weekly = _period_entries(data_root / "weekly", "period", daily_dates, url_prefix)
+    monthly = _period_entries(data_root / "monthly", "period", daily_dates, url_prefix)
     current_costs = None
     costs_directory = data_root / "costs"
     if costs_directory.exists():
@@ -91,12 +91,13 @@ def _atomic_json(path: Path, value: dict) -> None:
 
 
 class Publisher:
-    def __init__(self, data_root: Path, allowed_domains: set[str]):
+    def __init__(self, data_root: Path, allowed_domains: set[str], *, url_prefix: str = "data"):
         self.data_root = data_root
         self.allowed_domains = allowed_domains
+        self.url_prefix = url_prefix
 
     def _index(self) -> None:
-        _atomic_json(self.data_root / "index.json", rebuild_index(self.data_root))
+        _atomic_json(self.data_root / "index.json", rebuild_index(self.data_root, self.url_prefix))
 
     def publish_daily(self, report: dict) -> Path:
         validate_daily_report(report, self.allowed_domains)
