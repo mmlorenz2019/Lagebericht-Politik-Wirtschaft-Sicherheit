@@ -79,6 +79,7 @@ def daily_report():
             },
             {"id": "china", "label": "China", "categories": [category("politics_society"), category("economy_technology"), category("foreign_security")]},
             {"id": "montenegro", "label": "Montenegro", "categories": [category("politics_society"), category("economy_technology"), category("foreign_security")]},
+            {"id": "eu", "label": "EU", "categories": [category("politics_society"), category("economy_technology"), category("foreign_security")]},
         ],
     }
 
@@ -142,13 +143,6 @@ class DailyReportValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ReportValidationError, "countries\\[0\\].id"):
             validate_daily_report(report, ALLOWED_DOMAINS)
 
-    def test_accepts_eu_as_fourth_country(self):
-        report = daily_report()
-        report["countries"].append(
-            {"id": "eu", "label": "EU", "categories": [category("politics_society"), category("economy_technology"), category("foreign_security")]}
-        )
-        validate_daily_report(report, ALLOWED_DOMAINS)
-
     def test_accepts_report_with_fewer_than_all_known_countries(self):
         # Every report published before "eu" existed legitimately has only 3
         # countries - it must stay valid forever, not become retroactively
@@ -207,6 +201,7 @@ class PeriodReportValidationTests(unittest.TestCase):
                 {"id": "usa", "label": "USA", "sections": [category("politics_society")]},
                 {"id": "china", "label": "China", "sections": [category("economy_technology")]},
                 {"id": "montenegro", "label": "Montenegro", "sections": [category("foreign_security")]},
+                {"id": "eu", "label": "EU", "sections": [category("politics_society")]},
             ],
             "sourceReportDates": ["2026-07-27", "2026-07-28", "2026-07-30", "2026-08-02"],
             "missingReportDates": ["2026-07-29", "2026-07-31", "2026-08-01"],
@@ -229,6 +224,7 @@ class PeriodReportValidationTests(unittest.TestCase):
             {"id": "usa", "label": "USA", "sections": [period_category("politics_society")]},
             {"id": "china", "label": "China", "sections": [period_category("economy_technology")]},
             {"id": "montenegro", "label": "Montenegro", "sections": [period_category("foreign_security")]},
+            {"id": "eu", "label": "EU", "sections": [period_category("politics_society")]},
         ]
         return report
 

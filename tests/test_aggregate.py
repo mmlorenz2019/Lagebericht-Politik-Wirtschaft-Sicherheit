@@ -22,6 +22,7 @@ class ContentAI:
                 {"id": "usa", "label": "USA", "sections": [period_category("politics_society")]},
                 {"id": "china", "label": "China", "sections": [period_category("economy_technology")]},
                 {"id": "montenegro", "label": "Montenegro", "sections": [period_category("foreign_security")]},
+                {"id": "eu", "label": "EU", "sections": [period_category("politics_society")]},
             ],
         }
 
@@ -48,6 +49,7 @@ class MissingCountryAI(ContentAI):
             content["countries"][0],
             content["countries"][1],
             copy.deepcopy(content["countries"][1]),
+            content["countries"][3],
         ]
         return content
 
@@ -90,16 +92,7 @@ class AggregateTests(unittest.TestCase):
 
     def test_builds_week_including_the_eu_country(self):
         self.publish_days(date(2026, 7, 27), 4)
-
-        class FourCountryAI(ContentAI):
-            def generate_json(self, model, instructions, input_text, schema_name, schema):
-                content = super().generate_json(model, instructions, input_text, schema_name, schema)
-                content["countries"].append(
-                    {"id": "eu", "label": "EU", "sections": [period_category("politics_society")]}
-                )
-                return content
-
-        report = PeriodAggregator(self.root, FourCountryAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+        report = PeriodAggregator(self.root, ContentAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
         self.assertEqual([country["id"] for country in report["countries"]], ["usa", "china", "montenegro", "eu"])
 
     def test_builds_version_two_week_from_legacy_daily_reports(self):
@@ -141,7 +134,7 @@ class AggregateTests(unittest.TestCase):
 
         report = PeriodAggregator(self.root, MissingCountryAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
 
-        self.assertEqual([country["id"] for country in report["countries"]], ["usa", "china", "montenegro"])
+        self.assertEqual([country["id"] for country in report["countries"]], ["usa", "china", "montenegro", "eu"])
         fallback = report["countries"][2]
         self.assertEqual(fallback["label"], "Montenegro")
         for section in fallback["sections"]:

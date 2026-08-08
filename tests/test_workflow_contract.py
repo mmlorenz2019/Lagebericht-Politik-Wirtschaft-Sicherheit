@@ -46,6 +46,7 @@ def valid_week_report(source_dates):
             {"id": "usa", "label": "USA", "sections": [category("politics_society")]},
             {"id": "china", "label": "China", "sections": [category("economy_technology")]},
             {"id": "montenegro", "label": "Montenegro", "sections": [category("foreign_security")]},
+            {"id": "eu", "label": "EU", "sections": [category("politics_society")]},
         ],
         "sourceReportDates": list(source_dates),
         "missingReportDates": missing,
