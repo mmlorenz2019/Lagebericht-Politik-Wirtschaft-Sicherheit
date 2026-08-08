@@ -179,7 +179,7 @@ In the same file, replace the `PERIOD_CONTENT_SCHEMA`'s `countries` property (cu
 with:
 ```python
         "countries": {
-            "type": "array", "minItems": len(COUNTRY_ORDER), "maxItems": len(COUNTRY_ORDER),
+            "type": "array", "minItems": 1, "maxItems": len(COUNTRY_ORDER),
             "items": {
                 "type": "object", "additionalProperties": False,
                 "required": ["id", "label", "sections"],
@@ -192,7 +192,7 @@ with:
         },
 ```
 
-This is safe because `COUNTRY_ORDER` (line 68) is defined earlier in the module than `PERIOD_CONTENT_SCHEMA` (line 154) — Python evaluates the dict literal at import time, by which point `COUNTRY_ORDER` is already bound.
+`minItems: 1`, not `len(COUNTRY_ORDER)` — this file constrains *period* (weekly/monthly) aggregation output, not fresh daily generation. `normalize_period_content` already backfills any country missing from the model's response using `_daily_snapshot_country`, so forcing the model to invent an EU section from EU-less daily source data (for periods that started before "eu" existed) would be worse than letting it omit the section and relying on the existing backfill path. This is safe because `COUNTRY_ORDER` (line 68) is defined earlier in the module than `PERIOD_CONTENT_SCHEMA` (line 154) — Python evaluates the dict literal at import time, by which point `COUNTRY_ORDER` is already bound.
 
 - [ ] **Step 5: Derive `EVENT_SCHEMA`'s country enum from `schema.COUNTRIES`**
 
