@@ -9,7 +9,7 @@ from .events import build_event_input, deduplicate_candidates
 from .fetch import FetchError
 from .normalize import FeedNormalizationError, normalize_feed
 from .prompts import build_daily_prompt, build_daily_repair_prompt, build_extraction_prompt
-from .schema import ReportValidationError, validate_daily_report
+from .schema import COUNTRIES, ReportValidationError, validate_daily_report
 
 
 class PipelineError(RuntimeError):
@@ -103,7 +103,7 @@ EVENT_SCHEMA = {
                 "required": ["id", "country", "category", "summary", "candidateIndexes", "contradictions"],
                 "properties": {
                     "id": {"type": "string"},
-                    "country": {"enum": ["usa", "china", "montenegro"]},
+                    "country": {"enum": list(COUNTRIES)},
                     "category": {"enum": ["politics_society", "economy_technology", "foreign_security"]},
                     "summary": {"type": "string"},
                     "candidateIndexes": {"type": "array", "items": {"type": "integer", "minimum": 0}},

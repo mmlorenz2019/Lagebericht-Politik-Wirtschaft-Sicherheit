@@ -84,6 +84,20 @@ class AggregateTests(unittest.TestCase):
         self.assertEqual(ai.models, ["claude-sonnet-4-6"])
         self.assertEqual(report["schemaVersion"], 3)
         self.assertEqual(len(report["overallSummary"]), 8)
+
+    def test_builds_week_including_the_eu_country(self):
+        self.publish_days(date(2026, 7, 27), 4)
+
+        class FourCountryAI(ContentAI):
+            def generate_json(self, model, instructions, input_text, schema_name, schema):
+                content = super().generate_json(model, instructions, input_text, schema_name, schema)
+                content["countries"].append(
+                    {"id": "eu", "label": "EU", "sections": [period_category("politics_society")]}
+                )
+                return content
+
+        report = PeriodAggregator(self.root, FourCountryAI(), ALLOWED_DOMAINS).build_week(date(2026, 8, 2))
+        self.assertEqual([country["id"] for country in report["countries"]], ["usa", "china", "montenegro", "eu"])
         section = report["countries"][0]["sections"][0]
         self.assertEqual(section["germanyRelevance"]["score"], 1)
         self.assertEqual(section["overallSignificance"]["score"], 2)

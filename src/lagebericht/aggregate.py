@@ -65,7 +65,7 @@ def period_content_schema(period_type: str) -> dict:
     return schema
 
 
-COUNTRY_ORDER = ("usa", "china", "montenegro")
+COUNTRY_ORDER = ("usa", "china", "montenegro", "eu")
 
 
 def _daily_snapshot_country(reports: list[dict], country_id: str) -> dict | None:
@@ -158,12 +158,12 @@ PERIOD_CONTENT_SCHEMA = {
     "properties": {
         "overallSummary": {"type": "array", "minItems": 1, "maxItems": 8, "items": {"type": "string", "maxLength": 500}},
         "countries": {
-            "type": "array", "minItems": 3, "maxItems": 3,
+            "type": "array", "minItems": len(COUNTRY_ORDER), "maxItems": len(COUNTRY_ORDER),
             "items": {
                 "type": "object", "additionalProperties": False,
                 "required": ["id", "label", "sections"],
                 "properties": {
-                    "id": {"enum": ["usa", "china", "montenegro"]},
+                    "id": {"enum": list(COUNTRY_ORDER)},
                     "label": {"type": "string"},
                     "sections": {"type": "array", "minItems": 1, "maxItems": 3, "items": SECTION_SCHEMA},
                 },

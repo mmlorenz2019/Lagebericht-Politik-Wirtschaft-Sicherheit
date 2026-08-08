@@ -142,6 +142,18 @@ class DailyReportValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ReportValidationError, "countries\\[0\\].id"):
             validate_daily_report(report, ALLOWED_DOMAINS)
 
+    def test_accepts_eu_as_fourth_country(self):
+        report = daily_report()
+        report["countries"].append(
+            {"id": "eu", "label": "EU", "categories": [category("politics_society"), category("economy_technology"), category("foreign_security")]}
+        )
+        validate_daily_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_daily_report_with_only_three_countries_once_eu_exists(self):
+        report = daily_report()
+        with self.assertRaisesRegex(ReportValidationError, "countries"):
+            validate_daily_report(report, ALLOWED_DOMAINS)
+
     def test_rejects_javascript_source_url(self):
         report = daily_report()
         report["countries"][0]["categories"][0]["sources"][0]["url"] = "javascript:alert(1)"
