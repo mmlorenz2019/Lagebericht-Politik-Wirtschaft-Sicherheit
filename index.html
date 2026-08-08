@@ -11,21 +11,24 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/app.css">
-  <script src="assets/freshness-model.js?v=12" defer></script>
-  <script src="assets/rating-model.js?v=12" defer></script>
-  <script src="assets/period-model.js?v=12" defer></script>
-  <script src="assets/cost-model.js?v=12" defer></script>
-  <script src="assets/app.js?v=12" defer></script>
+  <script src="assets/freshness-model.js?v=13" defer></script>
+  <script src="assets/rating-model.js?v=13" defer></script>
+  <script src="assets/period-model.js?v=13" defer></script>
+  <script src="assets/cost-model.js?v=13" defer></script>
+  <script src="assets/app.js?v=13" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#report">Zum Bericht springen</a>
+  <a class="skip-link" id="skip-link" href="#report">Zum Bericht springen</a>
   <header class="site-header">
     <div>
       <p class="eyebrow">Politik · Wirtschaft · Sicherheit</p>
       <h1>Persönlicher Lagebericht</h1>
       <p id="updated" class="muted">Bericht wird geladen …</p>
     </div>
-    <button type="button" id="theme-toggle" class="theme-toggle"></button>
+    <div class="header-actions">
+      <button type="button" id="language-toggle" class="theme-toggle"></button>
+      <button type="button" id="theme-toggle" class="theme-toggle"></button>
+    </div>
   </header>
 
   <main>
@@ -35,7 +38,7 @@
         <button type="button" data-archive-type="weekly" aria-pressed="false">Wochen</button>
         <button type="button" data-archive-type="monthly" aria-pressed="false">Monate</button>
       </div>
-      <label for="period-select">Zeitraum</label>
+      <label for="period-select" id="period-label">Zeitraum</label>
       <select id="period-select" aria-label="Zeitraum auswählen"></select>
     </section>
 
@@ -49,7 +52,7 @@
     </nav>
 
     <section id="overall" class="overall" hidden aria-labelledby="overall-title">
-      <p class="eyebrow">Gesamtlage</p>
+      <p class="eyebrow" id="overall-eyebrow">Gesamtlage</p>
       <h2 id="overall-title">Der Zeitraum im Überblick</h2>
       <div id="overall-copy"></div>
     </section>
@@ -70,7 +73,7 @@
     <section id="cost-meter" class="cost-meter" aria-labelledby="cost-title" hidden>
       <div class="cost-heading">
         <div>
-          <p class="eyebrow">Transparenz</p>
+          <p class="eyebrow" id="cost-eyebrow">Transparenz</p>
           <h2 id="cost-title">Geschätzte API-Kosten</h2>
         </div>
         <div class="cost-value">
@@ -87,7 +90,7 @@
       <div id="cost-ticks" class="cost-ticks" aria-hidden="true" hidden></div>
       <p id="cost-note" class="cost-note"></p>
     </section>
-    <p>Keine Anmeldung, kein Tracking und keine Werbung. Originalquellen öffnen sich online in einem neuen Tab.</p>
+    <p id="footer-note">Keine Anmeldung, kein Tracking und keine Werbung. Originalquellen öffnen sich online in einem neuen Tab.</p>
   </footer>
 </body>
 </html>

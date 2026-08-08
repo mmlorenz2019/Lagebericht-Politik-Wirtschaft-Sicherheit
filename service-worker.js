@@ -1,6 +1,6 @@
-const SHELL_CACHE = 'lagebericht-shell-v12';
+const SHELL_CACHE = 'lagebericht-shell-v13';
 const DATA_CACHE = 'lagebericht-data-v1';
-const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/freshness-model.js?v=12', './assets/rating-model.js?v=12', './assets/period-model.js?v=12', './assets/cost-model.js?v=12', './assets/app.js?v=12', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
+const SHELL = ['./', './index.html', './offline.html', './manifest.webmanifest', './assets/app.css', './assets/freshness-model.js?v=13', './assets/rating-model.js?v=13', './assets/period-model.js?v=13', './assets/cost-model.js?v=13', './assets/app.js?v=13', './assets/icons/icon.svg', './assets/icons/icon-192.png', './assets/icons/icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL.map((url) => new Request(url, { cache: 'reload' })))));

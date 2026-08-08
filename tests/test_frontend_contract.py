@@ -214,15 +214,15 @@ class FrontendContractTests(unittest.TestCase):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
-        self.assertLess(html.index("assets/period-model.js?v=12"), html.index("assets/app.js?v=12"))
-        self.assertLess(html.index("assets/cost-model.js?v=12"), html.index("assets/app.js?v=12"))
+        self.assertLess(html.index("assets/period-model.js?v=13"), html.index("assets/app.js?v=13"))
+        self.assertLess(html.index("assets/cost-model.js?v=13"), html.index("assets/app.js?v=13"))
         self.assertIn("PeriodModel.coverage(report)", app)
         self.assertIn("Einordnung", app)
         self.assertIn("item.contextDe || []", app)
         self.assertNotRegex(app, r"\.innerHTML\s*=")
-        self.assertIn("lagebericht-shell-v12", worker)
-        self.assertIn("./assets/period-model.js?v=12", worker)
-        self.assertIn("./assets/cost-model.js?v=12", worker)
+        self.assertIn("lagebericht-shell-v13", worker)
+        self.assertIn("./assets/period-model.js?v=13", worker)
+        self.assertIn("./assets/cost-model.js?v=13", worker)
     def test_freshness_uses_berlin_date_and_reports_missing_today(self):
         result = run_freshness({"latestDaily": "2026-08-01"}, "2026-08-02T21:30:00Z")
 
@@ -301,12 +301,12 @@ class FrontendContractTests(unittest.TestCase):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         worker = (ROOT / "service-worker.js").read_text(encoding="utf-8")
 
-        self.assertLess(html.index("assets/freshness-model.js?v=12"), html.index("assets/app.js?v=12"))
+        self.assertLess(html.index("assets/freshness-model.js?v=13"), html.index("assets/app.js?v=13"))
         self.assertIn("visibilitychange", app)
         self.assertIn("document.visibilityState === 'visible'", app)
         self.assertIn("FreshnessModel.dailyNotice", app)
-        self.assertIn("lagebericht-shell-v12", worker)
-        self.assertIn("./assets/freshness-model.js?v=12", worker)
+        self.assertIn("lagebericht-shell-v13", worker)
+        self.assertIn("./assets/freshness-model.js?v=13", worker)
 
     def test_empty_categories_do_not_claim_multiple_verification(self):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
@@ -317,6 +317,35 @@ class FrontendContractTests(unittest.TestCase):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("🇺🇸", html)
         self.assertEqual(html.count('class="country-code"'), 4)
+
+    def test_language_toggle_button_exists_in_markup(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn('id="language-toggle"', html)
+        self.assertIn('id="skip-link"', html)
+        self.assertIn('id="period-label"', html)
+        self.assertIn('id="overall-eyebrow"', html)
+        self.assertIn('id="cost-eyebrow"', html)
+        self.assertIn('id="footer-note"', html)
+
+    def test_app_js_defines_a_strings_table_for_both_languages(self):
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("const STRINGS", app)
+        self.assertIn("de:", app)
+        self.assertIn("en:", app)
+        self.assertIn("function dataRoot", app)
+        self.assertIn("data/en", app)
+
+    def test_language_toggle_never_uses_a_synchronous_alert_or_confirm(self):
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        self.assertNotIn("alert(", app)
+        self.assertNotIn("confirm(", app)
+
+    def test_cost_meter_always_reads_the_german_index_regardless_of_language(self):
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        load_costs_start = app.index("async function loadCurrentCosts")
+        load_costs_body = app[load_costs_start:app.index("\n}\n", load_costs_start)]
+        self.assertIn("'data/index.json'", load_costs_body)
+        self.assertNotIn("dataRoot()", load_costs_body)
 
     def test_frontend_has_no_external_resources_or_dynamic_inner_html(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -367,11 +396,11 @@ class FrontendContractTests(unittest.TestCase):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertIn("url.origin !== self.location.origin", worker)
         self.assertIn("request.method !== 'GET'", worker)
-        self.assertIn("lagebericht-shell-v12", worker)
+        self.assertIn("lagebericht-shell-v13", worker)
         self.assertIn("./assets/rating-model.js", worker)
-        self.assertIn('assets/rating-model.js?v=12', html)
-        self.assertIn('assets/app.js?v=12', html)
-        self.assertIn("service-worker.js?v=12", app)
+        self.assertIn('assets/rating-model.js?v=13', html)
+        self.assertIn('assets/app.js?v=13', html)
+        self.assertIn("service-worker.js?v=13", app)
         self.assertIn("request.mode === 'navigate'", worker)
         self.assertIn("fetch(request)", worker)
 
