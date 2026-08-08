@@ -1,6 +1,6 @@
 # Persönlicher Lagebericht
 
-Installierbare, statische PWA für einen täglichen Überblick über USA, China und Montenegro. Die Seite enthält keine Anmeldung, keine Analytics und keine Secrets. Eine getrennte GitHub Action ruft fest konfigurierte Quellen ab, erzeugt validierte Tagesberichte und verdichtet abgeschlossene Wochen und Monate.
+Installierbare, statische PWA für einen täglichen Überblick über USA, China, Montenegro und die EU. Die Seite enthält keine Anmeldung, keine Analytics und keine Secrets. Eine getrennte GitHub Action ruft fest konfigurierte Quellen ab, erzeugt validierte Tagesberichte und verdichtet abgeschlossene Wochen und Monate.
 
 **Web-App:** https://mmlorenz2019.github.io/Lagebericht-Politik-Wirtschaft-Sicherheit/
 

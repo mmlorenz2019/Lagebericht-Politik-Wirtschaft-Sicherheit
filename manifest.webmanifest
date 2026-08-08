@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Persönlicher Lagebericht",
   "short_name": "Lagebericht",
-  "description": "Täglicher Überblick zu USA, China und Montenegro.",
+  "description": "Täglicher Überblick zu USA, China, Montenegro und der EU.",
   "lang": "de",
   "start_url": "./",
   "scope": "./",
