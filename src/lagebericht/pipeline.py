@@ -163,6 +163,13 @@ class DailyPipeline:
             daily_schema = json.loads(self.daily_schema_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as exc:
             raise PipelineError(f"cannot load daily report schema: {exc}") from exc
+        # The on-disk schema's countries.minItems is relaxed to 1 so it can validate
+        # historical/persisted reports (see schema.py). For a live API call we want the
+        # stricter guarantee back: every currently-configured country must be addressed.
+        # daily_schema is a fresh json.loads() result used only within this method call,
+        # so mutating it in place here is safe and doesn't affect the on-disk contract.
+        daily_schema["properties"]["countries"]["minItems"] = len(COUNTRIES)
+        daily_schema["properties"]["countries"]["maxItems"] = len(COUNTRIES)
         report = self.ai_client.generate_json(
             self.summary_model, daily_instructions, daily_text, "daily_report", daily_schema
         )

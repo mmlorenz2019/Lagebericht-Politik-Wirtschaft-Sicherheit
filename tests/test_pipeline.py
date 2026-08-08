@@ -5,6 +5,7 @@ from datetime import date
 from lagebericht.config import SourceConfig
 from lagebericht.fetch import FetchError, FetchResult
 from lagebericht.pipeline import DailyPipeline, PipelineError
+from lagebericht.schema import COUNTRIES
 from tests.test_schema import ALLOWED_DOMAINS, daily_report
 
 
@@ -31,10 +32,14 @@ class QueueAI:
         self.values = list(values)
         self.models = []
         self.input_texts = []
+        self.schema_names = []
+        self.schemas = []
 
     def generate_json(self, model, instructions, input_text, schema_name, schema):
         self.models.append(model)
         self.input_texts.append(input_text)
+        self.schema_names.append(schema_name)
+        self.schemas.append(schema)
         return self.values.pop(0)
 
 
@@ -130,6 +135,23 @@ class PipelineTests(unittest.TestCase):
         result = pipeline.run(date(2026, 7, 31))
         self.assertEqual(result["reportDate"], "2026-07-31")
         self.assertEqual(ai.models, ["claude-haiku-4-5-20251001", "claude-sonnet-4-6"])
+
+    def test_live_daily_report_schema_requires_every_configured_country(self):
+        report = daily_report()
+        ai = QueueAI([{"events": [{"id": "event-1"}]}, report])
+        pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
+
+        pipeline.run(date(2026, 7, 31))
+
+        daily_report_schemas = [
+            schema for schema_name, schema in zip(ai.schema_names, ai.schemas)
+            if schema_name == "daily_report"
+        ]
+        self.assertTrue(daily_report_schemas)
+        for schema in daily_report_schemas:
+            countries_schema = schema["properties"]["countries"]
+            self.assertEqual(countries_schema["minItems"], len(COUNTRIES))
+            self.assertEqual(countries_schema["maxItems"], len(COUNTRIES))
 
     def test_uses_requested_date_for_report_metadata(self):
         report = daily_report()
