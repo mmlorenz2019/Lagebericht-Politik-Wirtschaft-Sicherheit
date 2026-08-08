@@ -188,30 +188,99 @@ class DailyCliTests(unittest.TestCase):
         self.assertEqual(result.returncode, 3)
         self.assertIn("Keine gültigen Tagesberichte für diesen Zeitraum; Claude wurde nicht aufgerufen.", result.stderr)
 
-    def test_daily_main_wires_translation_after_a_successful_german_publish(self):
+    def test_daily_main_exit_code_is_unaffected_by_a_translation_failure(self):
         import inspect
         import scripts.run_daily as run_daily
+        from lagebericht.translate import TranslationError
+        from tests.test_schema import ALLOWED_DOMAINS, daily_report
 
+        # Still confirm the wiring shape exists (spec compliance), then
+        # verify the actual behavioral guarantee below.
         source = inspect.getsource(run_daily.main)
         self.assertIn("publish_translation", source)
         self.assertIn("except TranslationError", source)
-        # The translation call must be nested inside the `else` branch that
-        # only runs on a successful (non-dry-run) German publish, and must
-        # not be able to change main()'s final `return 0` for that branch.
-        publish_index = source.index("Publisher(args.data_root, allowed_domains).publish_daily(report)")
-        translation_index = source.index("publish_translation(")
-        self.assertLess(publish_index, translation_index)
 
-    def test_period_main_wires_translation_after_a_successful_german_publish(self):
+        class FakePipeline:
+            def __init__(self, *args, **kwargs):
+                pass
+
+            def run(self, report_date):
+                report = daily_report()
+                report["reportDate"] = report_date.isoformat()
+                return report
+
+        def fake_publish_translation(*args, **kwargs):
+            raise TranslationError("simulated translation failure")
+
+        original_pipeline = run_daily.DailyPipeline
+        original_publish_translation = run_daily.publish_translation
+        run_daily.DailyPipeline = FakePipeline
+        run_daily.publish_translation = fake_publish_translation
+        self.addCleanup(setattr, run_daily, "DailyPipeline", original_pipeline)
+        self.addCleanup(setattr, run_daily, "publish_translation", original_publish_translation)
+
+        # test_cli.py has no ambient ANTHROPIC_API_KEY (subprocess tests set it
+        # per-call via an env dict); main() reads it from os.environ directly
+        # since we call it in-process here, so set/restore it manually.
+        original_api_key = os.environ.get("ANTHROPIC_API_KEY")
+        os.environ["ANTHROPIC_API_KEY"] = "test-key"
+        if original_api_key is None:
+            self.addCleanup(os.environ.pop, "ANTHROPIC_API_KEY", None)
+        else:
+            self.addCleanup(os.environ.__setitem__, "ANTHROPIC_API_KEY", original_api_key)
+
+        with tempfile.TemporaryDirectory() as folder:
+            exit_code = run_daily.main([
+                "--date", "2026-08-03", "--data-root", folder,
+            ])
+
+            self.assertEqual(exit_code, 0)
+            self.assertTrue((Path(folder) / "daily" / "2026-08-03.json").exists())
+
+    def test_period_main_exit_code_is_unaffected_by_a_translation_failure(self):
         import inspect
         import scripts.run_period as run_period
+        from lagebericht.translate import TranslationError
+        from tests.test_translate import _valid_period_report
 
         source = inspect.getsource(run_period.main)
         self.assertIn("publish_translation", source)
         self.assertIn("except TranslationError", source)
-        publish_index = source.index("Publisher(args.data_root, domains).publish_period(report)")
-        translation_index = source.index("publish_translation(")
-        self.assertLess(publish_index, translation_index)
+
+        class FakeAggregator:
+            def __init__(self, *args, **kwargs):
+                pass
+
+            def build_week(self, period_end):
+                return _valid_period_report("week")
+
+            def build_month(self, year, month):
+                return _valid_period_report("month")
+
+        def fake_publish_translation(*args, **kwargs):
+            raise TranslationError("simulated translation failure")
+
+        original_aggregator = run_period.PeriodAggregator
+        original_publish_translation = run_period.publish_translation
+        run_period.PeriodAggregator = FakeAggregator
+        run_period.publish_translation = fake_publish_translation
+        self.addCleanup(setattr, run_period, "PeriodAggregator", original_aggregator)
+        self.addCleanup(setattr, run_period, "publish_translation", original_publish_translation)
+
+        original_api_key = os.environ.get("ANTHROPIC_API_KEY")
+        os.environ["ANTHROPIC_API_KEY"] = "test-key"
+        if original_api_key is None:
+            self.addCleanup(os.environ.pop, "ANTHROPIC_API_KEY", None)
+        else:
+            self.addCleanup(os.environ.__setitem__, "ANTHROPIC_API_KEY", original_api_key)
+
+        with tempfile.TemporaryDirectory() as folder:
+            exit_code = run_period.main([
+                "week", "--end-date", "2026-08-02", "--data-root", folder,
+            ])
+
+            self.assertEqual(exit_code, 0)
+            self.assertTrue((Path(folder) / "weekly" / "2026-W31.json").exists())
 
 
 if __name__ == "__main__":
