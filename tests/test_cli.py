@@ -188,6 +188,20 @@ class DailyCliTests(unittest.TestCase):
         self.assertEqual(result.returncode, 3)
         self.assertIn("Keine gültigen Tagesberichte für diesen Zeitraum; Claude wurde nicht aufgerufen.", result.stderr)
 
+    def test_daily_main_wires_translation_after_a_successful_german_publish(self):
+        import inspect
+        import scripts.run_daily as run_daily
+
+        source = inspect.getsource(run_daily.main)
+        self.assertIn("publish_translation", source)
+        self.assertIn("except TranslationError", source)
+        # The translation call must be nested inside the `else` branch that
+        # only runs on a successful (non-dry-run) German publish, and must
+        # not be able to change main()'s final `return 0` for that branch.
+        publish_index = source.index("Publisher(args.data_root, allowed_domains).publish_daily(report)")
+        translation_index = source.index("publish_translation(")
+        self.assertLess(publish_index, translation_index)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -14,6 +14,7 @@ from lagebericht.anthropic_client import AnthropicError, AnthropicMessagesClient
 from lagebericht.pipeline import DailyPipeline, PipelineError
 from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
+from lagebericht.translate import TranslationError, publish_translation
 
 
 ROOT = Path(__file__).parents[1]
@@ -77,6 +78,19 @@ def main(argv=None) -> int:
         else:
             path = Publisher(args.data_root, allowed_domains).publish_daily(report)
             print(path)
+            try:
+                en_path = publish_translation(
+                    report,
+                    client,
+                    allowed_domains,
+                    ROOT / "schemas" / "daily-report.schema.json",
+                    args.data_root,
+                    "publish_daily",
+                    model=os.environ.get("ANTHROPIC_TRANSLATION_MODEL", "claude-haiku-4-5-20251001"),
+                )
+                print(en_path)
+            except TranslationError as exc:
+                print(f"Übersetzung fehlgeschlagen, deutscher Bericht bleibt veröffentlicht: {exc}", file=sys.stderr)
         return 0
     except (AnthropicError, PipelineError, ValueError, OSError) as exc:
         print(f"Tageslauf fehlgeschlagen: {exc}", file=sys.stderr)
