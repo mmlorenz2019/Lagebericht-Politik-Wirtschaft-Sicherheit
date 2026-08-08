@@ -57,6 +57,16 @@ class ConfigTests(unittest.TestCase):
         scmp = next(item for item in sources if item.id == "scmp-china")
         self.assertEqual(scmp.feed_url, "https://www.scmp.com/rss/4/feed/")
 
+    def test_loads_eu_sources_covering_all_three_categories(self):
+        config_path = Path(__file__).resolve().parents[1] / "config" / "sources.json"
+        sources = load_sources(config_path)
+        eu_sources = [item for item in sources if item.country == "eu"]
+        self.assertGreaterEqual(len(eu_sources), 1)
+        covered = {category for item in eu_sources for category in item.categories}
+        self.assertEqual(covered, {"politics_society", "economy_technology", "foreign_security"})
+        for item in eu_sources:
+            self.assertEqual(item.retrieval, "rss")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -62,6 +62,27 @@
       "feedUrl": "https://rss.pobjeda.me/",
       "allowedDomains": ["rss.pobjeda.me", "www.pobjeda.me", "pobjeda.me"],
       "type": "montenegrinische Tageszeitung", "language": "cnr", "retrieval": "rss", "paywall": false, "maxCandidates": 18
+    },
+    {
+      "id": "politico-europe", "name": "Politico Europe", "country": "eu",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://www.politico.eu/feed/",
+      "allowedDomains": ["www.politico.eu", "politico.eu", "www.politico.com", "politico.com"],
+      "type": "überregional", "language": "en", "retrieval": "rss", "paywall": false, "maxCandidates": 18
+    },
+    {
+      "id": "euobserver", "name": "EUobserver", "country": "eu",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://euobserver.com/feed/",
+      "allowedDomains": ["euobserver.com", "www.euobserver.com"],
+      "type": "unabhängiger EU-Journalismus", "language": "en", "retrieval": "rss", "paywall": false, "maxCandidates": 15
+    },
+    {
+      "id": "ec-presscorner", "name": "Europäische Kommission – Pressestelle", "country": "eu",
+      "categories": ["politics_society", "economy_technology", "foreign_security"],
+      "feedUrl": "https://ec.europa.eu/commission/presscorner/api/rss",
+      "allowedDomains": ["ec.europa.eu"],
+      "type": "institutionelle Perspektive", "language": "en", "retrieval": "rss", "paywall": false, "maxCandidates": 10
     }
   ]
 }
