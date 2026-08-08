@@ -18,6 +18,10 @@
 
 ---
 
+### ⚠️ Correction discovered during Task 1 execution (read before Task 2)
+
+Task 1 as originally written below required `len(report["countries"]) == len(COUNTRIES)` (exactly one entry per known country, always). This retroactively invalidates every daily/weekly/monthly report published before "eu" existed — confirmed live: `test_example_reports_satisfy_data_contracts` fails against the real committed 3-country files in `data/daily/`. The correct rule is a **range with uniqueness**, not an exact match: `1 <= len(countries) <= len(COUNTRIES)`, with a duplicate-id check replacing the "every country exactly once" check. This preserves the guarantee that new reports use every configured country (the pipeline always processes every configured source/country in one run) while keeping historical pre-EU data valid forever, matching the project's existing "vergangene Tagesberichte bleiben dauerhaft erhalten" principle. **Task 2's JSON Schema edits (below) already reflect this correction (`minItems: 1`, not `4`) — this note explains why they don't just mirror Task 1's original literal `4`/`4`.**
+
 ### Task 1: Extend the country enum in the Python validation/aggregation layer
 
 **Files:**
@@ -42,9 +46,23 @@ Add to `tests/test_schema.py`, inside `class DailyReportValidationTests` (after 
         )
         validate_daily_report(report, ALLOWED_DOMAINS)
 
-    def test_rejects_daily_report_with_only_three_countries_once_eu_exists(self):
+    def test_accepts_report_with_fewer_than_all_known_countries(self):
+        # Every report published before "eu" existed legitimately has only 3
+        # countries - it must stay valid forever, not become retroactively
+        # invalid the moment a 4th country is introduced.
         report = daily_report()
-        with self.assertRaisesRegex(ReportValidationError, "countries"):
+        report["countries"] = report["countries"][:1]
+        validate_daily_report(report, ALLOWED_DOMAINS)
+
+    def test_rejects_duplicate_country(self):
+        # Replace (not append) so this stays valid regardless of how many
+        # countries daily_report() returns by default - Task 4 later grows
+        # that fixture to 4, and appending a duplicate would then exceed
+        # len(COUNTRIES) and trip the count check instead of the duplicate
+        # check.
+        report = daily_report()
+        report["countries"][-1] = dict(report["countries"][0])
+        with self.assertRaisesRegex(ReportValidationError, "duplicate"):
             validate_daily_report(report, ALLOWED_DOMAINS)
 ```
 
@@ -66,13 +84,13 @@ Add to `tests/test_aggregate.py`, inside `class AggregateTests` (near `test_buil
         self.assertEqual([country["id"] for country in report["countries"]], ["usa", "china", "montenegro", "eu"])
 ```
 
-Note: `tests/test_schema.py`'s `daily_report()` fixture and `tests/test_aggregate.py`'s `ContentAI` still only produce 3 countries at this point in the plan (Task 4 updates the shared fixtures) — that is exactly why `test_accepts_eu_as_fourth_country` builds its own 4-country report inline rather than relying on the fixture yet, and why `test_rejects_daily_report_with_only_three_countries_once_eu_exists` is expected to start passing (a 3-country report becomes invalid) the moment Task 1's schema change lands.
+Note: `tests/test_schema.py`'s `daily_report()` fixture and `tests/test_aggregate.py`'s `ContentAI` still only produce 3 countries at this point in the plan (Task 4 updates the shared fixtures) — that is exactly why `test_accepts_eu_as_fourth_country` builds its own 4-country report inline rather than relying on the fixture yet. `test_accepts_report_with_fewer_than_all_known_countries` and `test_rejects_duplicate_country` are both written to stay valid regardless of the fixture's country count (see the comment in `test_rejects_duplicate_country`), so Task 4's later fixture change does not require touching them.
 
 - [ ] **Step 2: Run the tests to verify they fail**
 
-Run: `cd "06 Privat/App-Ideen/Persönlicher Lagebericht" && PYTHONPATH=src python -m unittest tests.test_schema.DailyReportValidationTests.test_accepts_eu_as_fourth_country tests.test_schema.DailyReportValidationTests.test_rejects_daily_report_with_only_three_countries_once_eu_exists tests.test_aggregate.AggregateTests.test_builds_week_including_the_eu_country -v`
+Run: `cd "06 Privat/App-Ideen/Persönlicher Lagebericht" && PYTHONPATH=src python -m unittest tests.test_schema.DailyReportValidationTests.test_accepts_eu_as_fourth_country tests.test_schema.DailyReportValidationTests.test_accepts_report_with_fewer_than_all_known_countries tests.test_schema.DailyReportValidationTests.test_rejects_duplicate_country tests.test_aggregate.AggregateTests.test_builds_week_including_the_eu_country -v`
 
-Expected: `test_accepts_eu_as_fourth_country` FAILS with `countries[3].id: unknown country`. `test_rejects_daily_report_with_only_three_countries_once_eu_exists` FAILS because the 3-country report is currently still valid (no exception raised). `test_builds_week_including_the_eu_country` FAILS with an unknown-country schema error from the fake AI's structured-output validation.
+Expected: `test_accepts_eu_as_fourth_country` FAILS with `countries[3].id: unknown country`. `test_accepts_report_with_fewer_than_all_known_countries` FAILS because the current exact-match check rejects a 1-country report ("must contain exactly three countries"). `test_rejects_duplicate_country` FAILS because the current check message is "must contain every country exactly once", not "duplicate" (regex mismatch). `test_builds_week_including_the_eu_country` FAILS with an unknown-country schema error from the fake AI's structured-output validation.
 
 - [ ] **Step 3: Extend `COUNTRIES` and derive the count checks from it**
 
@@ -92,9 +110,10 @@ Replace line 147:
 ```
 with:
 ```python
-    if not isinstance(report["countries"], list) or len(report["countries"]) != len(COUNTRIES):
-        _fail("countries", "must contain exactly one entry per country")
+    if not isinstance(report["countries"], list) or not 1 <= len(report["countries"]) <= len(COUNTRIES):
+        _fail("countries", "must contain one to four countries")
 ```
+(**not** `!= len(COUNTRIES)` — see the correction note above Task 1. A report may legitimately contain fewer than all known countries, e.g. every report published before "eu" existed. What must never happen is a duplicate or unknown country id, which the per-item loop below already checks via `country["id"] not in COUNTRIES`.)
 
 Replace line 163:
 ```python
@@ -103,8 +122,8 @@ Replace line 163:
 ```
 with:
 ```python
-    if set(seen) != set(COUNTRIES) or len(set(seen)) != len(COUNTRIES):
-        _fail("countries", "must contain every country exactly once")
+    if len(set(seen)) != len(seen):
+        _fail("countries", "must not contain a duplicate country")
 ```
 
 Replace line 193 (inside `validate_period_report`):
@@ -114,8 +133,8 @@ Replace line 193 (inside `validate_period_report`):
 ```
 with:
 ```python
-    if not isinstance(report["countries"], list) or len(report["countries"]) != len(COUNTRIES):
-        _fail("countries", "must contain every country exactly once")
+    if not isinstance(report["countries"], list) or not 1 <= len(report["countries"]) <= len(COUNTRIES):
+        _fail("countries", "must contain one to four countries")
 ```
 
 Replace line 207:
@@ -125,8 +144,8 @@ Replace line 207:
 ```
 with:
 ```python
-    if set(seen) != set(COUNTRIES) or len(set(seen)) != len(COUNTRIES):
-        _fail("countries", "must contain every country exactly once")
+    if len(set(seen)) != len(seen):
+        _fail("countries", "must not contain a duplicate country")
 ```
 
 Leave every other `!= 3` / `1 <= ... <= 3` check in `schema.py` untouched — those count *categories per country* (always exactly 3: politics_society, economy_technology, foreign_security), which this plan does not change.
@@ -226,8 +245,10 @@ Replace:
 ```
 with:
 ```json
-    "countries": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/country"}}
+    "countries": {"type": "array", "minItems": 1, "maxItems": 4, "items": {"$ref": "#/$defs/country"}}
 ```
+
+(`minItems: 1` not `4` — see the correction note above Task 1: exact-4 would retroactively invalidate every pre-EU report. `maxItems: 4` still caps it at the known country count. Uniqueness of `id` within the array is enforced Python-side by `schema.py`, not by this JSON Schema file.)
 
 Replace:
 ```json
@@ -246,8 +267,10 @@ Replace:
 ```
 with:
 ```json
-    "countries": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"$ref": "#/$defs/country"}},
+    "countries": {"type": "array", "minItems": 1, "maxItems": 4, "items": {"$ref": "#/$defs/country"}},
 ```
+
+(same reasoning as Step 1 — `minItems: 1` preserves pre-EU period reports' validity.)
 
 Replace:
 ```json
@@ -419,16 +442,7 @@ add a fourth entry before the closing `],`:
     }
 ```
 
-Because Task 1 added `test_rejects_daily_report_with_only_three_countries_once_eu_exists`, this fixture change should make that specific test's premise (a plain `daily_report()` now has 4 countries, not 3) still hold — that test builds its own report and does NOT call `.append`, so verify after this edit that `test_rejects_daily_report_with_only_three_countries_once_eu_exists` still asserts against a 3-country report explicitly (re-read its body from Task 1 — it calls `daily_report()` directly without modification, so once this fixture changes to return 4 countries, that test's premise breaks). **Fix**: update that test (added in Task 1) to explicitly `.pop()` the EU entry instead of relying on the fixture accidentally being 3-long:
-```python
-    def test_rejects_daily_report_with_only_three_countries_once_eu_exists(self):
-        report = daily_report()
-        report["countries"].pop()
-        with self.assertRaisesRegex(ReportValidationError, "countries"):
-            validate_daily_report(report, ALLOWED_DOMAINS)
-```
-
-Also update `test_accepts_eu_as_fourth_country` (Task 1) — it currently does `report["countries"].append(...)` expecting to go from 3 to 4; once the fixture already returns 4, that test would produce 5 and fail differently. **Fix**: since `daily_report()` now already includes `"eu"`, delete `test_accepts_eu_as_fourth_country` entirely (its coverage is now subsumed by `test_accepts_valid_daily_report`, which already calls `validate_daily_report(daily_report(), ALLOWED_DOMAINS)` and will now exercise all four countries automatically).
+Update `test_accepts_eu_as_fourth_country` (Task 1) — it currently does `report["countries"].append(...)` expecting to go from 3 to 4; once the fixture already returns 4, that test would produce 5 (and a duplicate `"eu"` id) and fail. **Fix**: since `daily_report()` now already includes `"eu"`, delete `test_accepts_eu_as_fourth_country` entirely (its coverage is now subsumed by `test_accepts_valid_daily_report`, which already calls `validate_daily_report(daily_report(), ALLOWED_DOMAINS)` and will now exercise all four countries automatically). `test_accepts_report_with_fewer_than_all_known_countries` and `test_rejects_duplicate_country` need no change here — both were written in Task 1 to stay correct regardless of the fixture's country count.
 
 - [ ] **Step 2: Add a fourth country to `valid_period()` and `valid_period_v3()`**
 
