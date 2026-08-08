@@ -12,6 +12,7 @@ from lagebericht.costs import CostRecorder, context_from_environment
 from lagebericht.anthropic_client import AnthropicError, AnthropicMessagesClient
 from lagebericht.publish import Publisher
 from lagebericht.schedule import berlin_now
+from lagebericht.translate import TranslationError, publish_translation
 
 
 ROOT = Path(__file__).parents[1]
@@ -89,9 +90,10 @@ def main(argv=None) -> int:
         observer = build_period_usage_observer(
             args.data_root, args.mode, report_id
         )
+        client = build_period_client(api_key, usage_observer=observer)
         aggregator = PeriodAggregator(
             args.data_root,
-            build_period_client(api_key, usage_observer=observer),
+            client,
             domains,
             model=os.environ.get("ANTHROPIC_SUMMARY_MODEL", "claude-sonnet-4-6"),
         )
@@ -107,6 +109,19 @@ def main(argv=None) -> int:
             print(json.dumps(report, ensure_ascii=False, indent=2))
         else:
             print(Publisher(args.data_root, domains).publish_period(report))
+            try:
+                en_path = publish_translation(
+                    report,
+                    client,
+                    domains,
+                    ROOT / "schemas" / "period-report.schema.json",
+                    args.data_root,
+                    "publish_period",
+                    model=os.environ.get("ANTHROPIC_TRANSLATION_MODEL", "claude-haiku-4-5-20251001"),
+                )
+                print(en_path)
+            except TranslationError as exc:
+                print(f"Übersetzung fehlgeschlagen, Rückblick bleibt veröffentlicht: {exc}", file=sys.stderr)
         return 0
     except (AnthropicError, ValueError, OSError) as exc:
         print(f"Rückblick fehlgeschlagen: {exc}", file=sys.stderr)

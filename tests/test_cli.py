@@ -202,6 +202,17 @@ class DailyCliTests(unittest.TestCase):
         translation_index = source.index("publish_translation(")
         self.assertLess(publish_index, translation_index)
 
+    def test_period_main_wires_translation_after_a_successful_german_publish(self):
+        import inspect
+        import scripts.run_period as run_period
+
+        source = inspect.getsource(run_period.main)
+        self.assertIn("publish_translation", source)
+        self.assertIn("except TranslationError", source)
+        publish_index = source.index("Publisher(args.data_root, domains).publish_period(report)")
+        translation_index = source.index("publish_translation(")
+        self.assertLess(publish_index, translation_index)
+
 
 if __name__ == "__main__":
     unittest.main()
