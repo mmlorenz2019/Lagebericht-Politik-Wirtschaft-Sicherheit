@@ -39,9 +39,10 @@ def _period_entries(directory: Path, field: str, daily_dates: set[str], url_pref
     return result
 
 
-def rebuild_index(data_root: Path, url_prefix: str = "data") -> dict:
+def rebuild_index(data_root: Path, url_prefix: str = "data", daily_dates: set[str] | None = None) -> dict:
     daily = _entries(data_root / "daily", "date", url_prefix)
-    daily_dates = {entry["date"] for entry in daily}
+    if daily_dates is None:
+        daily_dates = {entry["date"] for entry in daily}
     weekly = _period_entries(data_root / "weekly", "period", daily_dates, url_prefix)
     monthly = _period_entries(data_root / "monthly", "period", daily_dates, url_prefix)
     current_costs = None
@@ -91,13 +92,25 @@ def _atomic_json(path: Path, value: dict) -> None:
 
 
 class Publisher:
-    def __init__(self, data_root: Path, allowed_domains: set[str], *, url_prefix: str = "data"):
+    def __init__(
+        self,
+        data_root: Path,
+        allowed_domains: set[str],
+        *,
+        url_prefix: str = "data",
+        daily_dates_root: Path | None = None,
+    ):
         self.data_root = data_root
         self.allowed_domains = allowed_domains
         self.url_prefix = url_prefix
+        self.daily_dates_root = daily_dates_root
 
     def _index(self) -> None:
-        _atomic_json(self.data_root / "index.json", rebuild_index(self.data_root, self.url_prefix))
+        daily_dates = None
+        if self.daily_dates_root is not None:
+            daily_directory = self.daily_dates_root / "daily"
+            daily_dates = {path.stem for path in daily_directory.glob("*.json")} if daily_directory.exists() else set()
+        _atomic_json(self.data_root / "index.json", rebuild_index(self.data_root, self.url_prefix, daily_dates))
 
     def publish_daily(self, report: dict) -> Path:
         validate_daily_report(report, self.allowed_domains)

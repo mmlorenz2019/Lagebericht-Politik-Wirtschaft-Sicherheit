@@ -126,6 +126,55 @@ class PublishTests(unittest.TestCase):
             "path": "data/weekly/2026-W31.json",
         }])
 
+    def test_rebuild_index_accepts_an_explicit_daily_dates_set(self):
+        source_dates = ["2026-07-31", "2026-08-01", "2026-08-02"]
+        weekly = self.root / "weekly" / "2026-W31.json"
+        weekly.parent.mkdir(parents=True)
+        weekly.write_text(json.dumps({
+            "sourceReportDates": source_dates,
+            "missingReportDates": [],
+        }), encoding="utf-8")
+        # No daily/ directory in self.root at all - the explicit daily_dates
+        # set must be what backs the check, not self.root's own (empty) list.
+        index = rebuild_index(self.root, daily_dates=set(source_dates))
+        self.assertEqual(index["weekly"], [{
+            "period": "2026-W31",
+            "path": "data/weekly/2026-W31.json",
+        }])
+
+    def test_rebuild_index_without_explicit_daily_dates_falls_back_to_its_own(self):
+        source_dates = ["2026-07-31", "2026-08-01", "2026-08-02"]
+        weekly = self.root / "weekly" / "2026-W31.json"
+        weekly.parent.mkdir(parents=True)
+        weekly.write_text(json.dumps({
+            "sourceReportDates": source_dates,
+            "missingReportDates": [],
+        }), encoding="utf-8")
+        # No daily/ directory and no explicit daily_dates -> falls back to
+        # the (empty) self-computed set, so the period entry is correctly excluded.
+        index = rebuild_index(self.root)
+        self.assertEqual(index["weekly"], [])
+
+    def test_publisher_uses_daily_dates_from_a_separate_root_when_given(self):
+        german_root = self.root / "de"
+        english_root = self.root / "en"
+        for value in ["2026-07-31", "2026-08-01", "2026-08-02"]:
+            daily = german_root / "daily" / f"{value}.json"
+            daily.parent.mkdir(parents=True, exist_ok=True)
+            daily.write_text("{}", encoding="utf-8")
+        weekly = english_root / "weekly" / "2026-W31.json"
+        weekly.parent.mkdir(parents=True)
+        weekly.write_text(json.dumps({
+            "sourceReportDates": ["2026-07-31", "2026-08-01", "2026-08-02"],
+            "missingReportDates": [],
+        }), encoding="utf-8")
+        # english_root has NO daily/ directory of its own at all - this is
+        # the exact scenario that broke before the fix.
+        publisher = Publisher(english_root, ALLOWED_DOMAINS, daily_dates_root=german_root)
+        publisher._index()
+        index = json.loads((english_root / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(index["weekly"], [{"period": "2026-W31", "path": "data/weekly/2026-W31.json"}])
+
     def test_rebuild_index_exposes_latest_valid_cost_month(self):
         costs = self.root / "costs" / "2026-08.json"
         costs.parent.mkdir(parents=True)

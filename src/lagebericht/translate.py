@@ -162,9 +162,12 @@ def publish_translation(
     """
     translated = translate_report(report, ai_client, allowed_domains, schema_path, model=model)
     en_publisher = Publisher(
-        data_root / "en", allowed_domains, url_prefix=f"{data_root.as_posix()}/en"
+        data_root / "en",
+        allowed_domains,
+        url_prefix=f"{data_root.as_posix()}/en",
+        daily_dates_root=data_root,
     )
     try:
         return getattr(en_publisher, publish_method_name)(translated)
-    except OSError as exc:
+    except (OSError, ValueError) as exc:
         raise TranslationError(f"failed to publish translated report: {exc}") from exc
