@@ -154,8 +154,8 @@ def publish_translation(
 ):
     """Translate `report` and publish it under `data_root / "en"`.
 
-    Raises TranslationError (never publishes anything) if translation or
-    validation fails; the caller decides what a failure means for its own
+    Raises TranslationError (never publishes anything) if translation,
+    validation, or publishing fails; the caller decides what a failure means for its own
     exit code and messaging. `publish_method_name` is `"publish_daily"` or
     `"publish_period"` — kept as a string so this single helper serves both
     scripts/run_daily.py and scripts/run_period.py without importing either.
@@ -164,4 +164,7 @@ def publish_translation(
     en_publisher = Publisher(
         data_root / "en", allowed_domains, url_prefix=f"{data_root.as_posix()}/en"
     )
-    return getattr(en_publisher, publish_method_name)(translated)
+    try:
+        return getattr(en_publisher, publish_method_name)(translated)
+    except OSError as exc:
+        raise TranslationError(f"failed to publish translated report: {exc}") from exc

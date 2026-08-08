@@ -205,3 +205,16 @@ class PublishTranslationTests(unittest.TestCase):
             )
             self.assertTrue(path.exists())
             self.assertIn("weekly", path.parts)
+
+    def test_wraps_oserror_from_the_english_publish_step_as_translation_error(self):
+        report = daily_report()
+        ai = RecordingAI(response=english_daily_translation(report))
+        with tempfile.TemporaryDirectory() as folder:
+            data_root = Path(folder)
+            # Create a file at the path where the "en" directory should be created.
+            # This will cause Publisher to raise an OSError when trying to mkdir.
+            (data_root / "en").write_text("blocking file")
+            with self.assertRaises(TranslationError):
+                publish_translation(
+                    report, ai, ALLOWED_DOMAINS, DAILY_SCHEMA_PATH, data_root, "publish_daily"
+                )
