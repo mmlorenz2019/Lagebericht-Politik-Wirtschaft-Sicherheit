@@ -146,3 +146,41 @@ footer { color: var(--muted); font-size: .8rem; padding: 1.6rem 0 2.4rem; }
     --cost-track: #34383a;
   }
 }
+
+:root[data-theme="dark"] {
+  --paper: #1b1d1f;
+  --card: #232628;
+  --ink: #eceeec;
+  --muted: #9aa0a3;
+  --line: #3a3d3f;
+  --rust: #c97a52;
+  --brass: #6f9291;
+  --warn-ink: #e8c98f;
+  --warn-bg: #3a2c14;
+  --cost-normal: #6f9291;
+  --cost-warning: #c97a52;
+  --cost-over: #d97a7a;
+  --cost-track: #34383a;
+}
+
+:root[data-theme="light"] {
+  --paper: #e6e8e6;
+  --card: #eef0ee;
+  --ink: #20242a;
+  --muted: #5c6266;
+  --line: #cbd0cd;
+  --rust: #a8542e;
+  --brass: #4a6b6a;
+  --warn-ink: #7a4a12;
+  --warn-bg: #f1e6d2;
+  --cost-normal: #4a6b6a;
+  --cost-warning: #a8542e;
+  --cost-over: #8a2f2f;
+  --cost-track: #d9dcd6;
+}
+
+.theme-toggle {
+  border: 1px solid var(--line); background: none; color: var(--ink); cursor: pointer;
+  font-family: "Baskerville", "Palatino Linotype", Georgia, serif; font-style: italic;
+  font-size: .78rem; letter-spacing: .03em; padding: .4rem .8rem; align-self: flex-start; white-space: nowrap;
+}

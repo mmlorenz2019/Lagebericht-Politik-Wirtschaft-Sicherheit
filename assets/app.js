@@ -25,8 +25,33 @@ const elements = {
   costMeter: document.getElementById('cost-meter'), costMonth: document.getElementById('cost-month'),
   costPercent: document.getElementById('cost-percent'), costTrack: document.getElementById('cost-track'),
   costFill: document.getElementById('cost-fill'), costTicks: document.getElementById('cost-ticks'),
-  costNote: document.getElementById('cost-note')
+  costNote: document.getElementById('cost-note'), themeToggle: document.getElementById('theme-toggle')
 };
+
+const THEME_STORAGE_KEY = 'lagebericht-theme';
+const THEME_ORDER = ['system', 'light', 'dark'];
+const THEME_LABELS = { system: 'Farbschema: System', light: 'Farbschema: Hell', dark: 'Farbschema: Dunkel' };
+
+function readStoredTheme() {
+  let stored = null;
+  try { stored = localStorage.getItem(THEME_STORAGE_KEY); } catch (_) { stored = null; }
+  return THEME_ORDER.includes(stored) ? stored : 'system';
+}
+
+function applyTheme(theme) {
+  if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
+  else document.documentElement.removeAttribute('data-theme');
+  elements.themeToggle.textContent = THEME_LABELS[theme];
+}
+
+function cycleTheme() {
+  const next = THEME_ORDER[(THEME_ORDER.indexOf(readStoredTheme()) + 1) % THEME_ORDER.length];
+  try { localStorage.setItem(THEME_STORAGE_KEY, next); } catch (_) { /* storage unavailable, theme just won't persist */ }
+  applyTheme(next);
+}
+
+applyTheme(readStoredTheme());
+elements.themeToggle.addEventListener('click', cycleTheme);
 
 function node(tag, text, className) {
   const value = document.createElement(tag);
