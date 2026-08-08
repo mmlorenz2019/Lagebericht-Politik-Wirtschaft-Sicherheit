@@ -425,11 +425,11 @@ async function start() {
 async function refreshIndex({ preferLatest = false } = {}) {
   const previousPath = elements.select.value;
   const previousLatest = state.index && state.index.latestDaily;
+  void loadCurrentCosts();
   try {
     const response = await fetch(`${dataRoot()}/index.json`, { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.index = await response.json();
-    void loadCurrentCosts();
     state.freshnessNotice = FreshnessModel.dailyNotice(state.index, new Date());
     renderNotice();
     fillPeriodSelect();
@@ -443,7 +443,6 @@ async function refreshIndex({ preferLatest = false } = {}) {
     if (!preferLatest && !hasNewDaily && hasPreviousPath) elements.select.value = previousPath;
     await loadSelectedReport();
   } catch (error) {
-    renderCosts(null);
     showNotice(strings().archiveLoadError(error.message));
     elements.report.setAttribute('aria-busy', 'false');
   }
