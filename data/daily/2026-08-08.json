@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-08",
+  "generatedAt": "2026-08-08T08:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bundesgericht bestätigt Blockade von Trumps Umbauplan für das Weiße Haus",
+          "summaryDe": [
+            "Ein Bundesberufungsgericht hat die gerichtliche Verfügung gegen Trumps geplanten 400-Millionen-Dollar-Ballsaal im Weißen Haus aufrechterhalten.",
+            "Das Gericht entschied, dass ein solches Bauprojekt der Zustimmung des Kongresses bedarf und nicht allein per Präsidialerlass durchgesetzt werden kann.",
+            "Der Fall beleuchtet erneut die anhaltenden Spannungen zwischen der Exekutive und der Justiz in Fragen der Haushaltskontrolle.",
+            "Für die Trump-Administration ist es eine weitere juristische Niederlage in einer Reihe von Klagen rund um Amtsführung und Verfassungsgrenzen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Verfahren betrifft innenpolitische US-Kompetenzfragen ohne direkte Auswirkungen auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Urteil ist staatsrechtlich bedeutsam, da es die Kontrollbefugnisse des Kongresses gegenüber der Exekutive bekräftigt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Trener sjajnih kadetkinja: Nijesmo završili posao, uz ovakvu borbu granice ne postoje",
+              "url": "https://www.pobjeda.me/clanak/trener-sjajnih-kadetkinja-nijesmo-zavrsili-posao-uz-ovakvu-borbu-granice-ne-postoje",
+              "publishedAt": "2026-08-07T21:32:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Arbeitsmarkt verliert überraschend 23.000 Stellen im Juli",
+          "summaryDe": [
+            "Im Juli haben US-Arbeitgeber per saldo 23.000 Stellen abgebaut – ein Wert, den Ökonomen so nicht erwartet hatten und der den schwächsten Beschäftigungsrückgang seit Jahren darstellt.",
+            "Hinzu kommt, dass auch die Zahlen der Vormonate nach unten korrigiert wurden, was das Bild eines sich abschwächenden Arbeitsmarkts weiter verdüstert.",
+            "Auffällig ist dabei, dass die Arbeitslosenquote zuletzt weniger wegen neu geschaffener Stellen sank, sondern weil Menschen den Arbeitsmarkt ganz verließen.",
+            "Die Fed steht damit vor einem schwierigen Abwägungsproblem: Zinssenkungen zur Konjunkturstützung einerseits, hartnäckige Inflationsrisiken andererseits.",
+            "Für den weiteren Jahresverlauf wachsen die Sorgen, dass der Konsum einbrechen könnte, wenn die Haushaltseinkommen unter Druck geraten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine US-Konjunktureintrübung trifft die exportabhängige deutsche Wirtschaft über nachlassende Nachfrage und Wechselkurseffekte direkt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein unerwarteter Beschäftigungsrückgang in der weltgrößten Volkswirtschaft hat systemische Signalwirkung für die Finanzmärkte und Geldpolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Employers unexpectedly cut 23,000 jobs in a sign of a wilting labor market",
+              "url": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve",
+              "publishedAt": "2026-08-07T13:10:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Straße von Hormuz: Iran-Oman-Gespräche stocken trotz gemeldeter Fortschritte",
+          "summaryDe": [
+            "Berichte über Fortschritte bei den Verhandlungen zwischen Iran und Oman über eine Wiedereröffnung der Straße von Hormuz haben sich bisher nicht in konkreten Ergebnissen niedergeschlagen.",
+            "Die Straße ist eine der wichtigsten Schiffspassagen weltweit; ihre Sperrung würde den globalen Ölhandel empfindlich treffen.",
+            "Teheran hat zudem angekündigt, US-Schiffen die Durchfahrt verbieten zu wollen – eine Drohung, die angesichts des laufenden diplomatischen Prozesses die Lage weiter verkompliziert.",
+            "Wie belastbar die gemeldeten Gesprächsfortschritte sind, lässt sich derzeit nicht unabhängig bestätigen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Eskalation in der Straße von Hormuz würde Energiepreise und Lieferketten treffen, von denen auch Deutschland abhängig ist."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Straße von Hormuz ist ein globaler Energieengpass; Unsicherheit dort hat unmittelbare Folgen für Märkte und Geopolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Trump targets birthright citizenship. And, Iran aims to ban U.S. from Strait of Hormuz",
+              "url": "https://www.npr.org/2026/08/07/g-s1-137730/up-first-newsletter-trump-birthright-citizenship-iran-oman-strait-of-hormuz-anthony-fauci-mitch-mcconnell",
+              "publishedAt": "2026-08-07T10:56:19Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taifun Dolphin trifft Chinas Ostküste – Drohnen und KI im Katastropheneinsatz",
+          "summaryDe": [
+            "Taifun Dolphin hat sich der chinesischen Ostküste genähert und zwingt Behörden zu massiven Evakuierungen von Fischern sowie zur Sperrung von Fährverbindungen.",
+            "China setzt dabei erstmals im großen Maßstab Drohnen und KI-gestützte Überwachungssysteme zur Echtzeitbeobachtung der betroffenen Gebiete ein – ein Bereich, der die Fläche der gesamten Provinz Zhejiang übertrifft.",
+            "In Shanghai und umliegenden Regionen kam es zu erheblichem Flugchaos; Hunderte Flüge wurden gestrichen oder umgeleitet.",
+            "Die kombinierte Nutzung autonomer Systeme zur Notfallkoordination gilt als Pilotmodell für künftige Katastropheneinsätze und wird international aufmerksam beobachtet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Taifun betrifft China direkt; für Deutschland ergeben sich allenfalls marginale Lieferketteneffekte."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Einsatz von KI und Drohnen im Katastrophenschutz im industriell bedeutenden Küstenraum Chinas ist technologisch und logistisch bemerkenswert."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "1,230 times the size of Hong Kong: China deploys drones, AI as Typhoon Dolphin nears coast",
+              "url": "https://www.scmp.com/news/china/politics/article/3363262/13-times-size-zhejiang-china-deploys-drones-ai-typhoon-dolphin-nears-coast",
+              "publishedAt": "2026-08-07T05:53:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Typhoon Dolphin causes flight chaos in China, with Shanghai set to enter danger zone",
+              "url": "https://www.scmp.com/news/china/article/3363380/typhoon-dolphin-causes-flight-chaos-china-shanghai-set-enter-danger-zone",
+              "publishedAt": "2026-08-08T05:04:04Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China plant 50-Prozent-Produktionssteigerung an weltgrößter Seltene-Erden-Mine",
+          "summaryDe": [
+            "An der Bayan-Obo-Mine in der Inneren Mongolei – der nach Reserven weltgrößten Lagerstätte für Seltene Erden – soll die Förderkapazität um 50 Prozent ausgebaut werden.",
+            "Für das Vorhaben sind Investitionen von umgerechnet mehr als 74 Millionen US-Dollar vorgesehen.",
+            "Der Zeitpunkt ist kein Zufall: Inmitten des Handelskonflikts mit den USA und angesichts westlicher Bemühungen um alternative Lieferketten unterstreicht Peking damit seine strategische Dominanz über kritische Rohstoffe.",
+            "Seltene Erden sind unverzichtbar für Elektromotoren, Windkraftanlagen und Rüstungssysteme – Branchen, in denen auch Deutschland stark engagiert ist."
+          ],
+          "additionalImportant": "Parallel hat die USA eigene Abkommen zu kritischen Mineralien angekündigt, die explizit als Gegengewicht zur chinesischen Marktmacht positioniert werden.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die deutsche Industrie – von Elektromobilität bis Verteidigung – ist auf Seltene Erden angewiesen und von Chinas Marktposition direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Der Ausbau der weltgrößten Seltene-Erden-Lagerstätte verschiebt das globale Kräfteverhältnis bei strategisch entscheidenden Rohstoffen weiter zugunsten Chinas."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China plans to increase mine output in world's largest rare earth deposit by 50%",
+              "url": "https://www.scmp.com/news/china/science/article/3363230/china-plans-increase-mine-output-worlds-largest-rare-earth-deposit-50",
+              "publishedAt": "2026-08-07T11:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China verhängt Gegensanktionen gegen US-Stellen und schränkt Drohnenexporte ein",
+          "summaryDe": [
+            "Als Reaktion auf US-Sanktionen hat Peking Gegensanktionen gegen amerikanische Einrichtungen verhängt und zugleich Exportbeschränkungen für Produkte der Drohnenindustrie angekündigt.",
+            "China ist weltgrößter Drohnenproduzent; Exportkontrollen in diesem Sektor hätten direkte Folgen für Abnehmer auf mehreren Kontinenten, darunter auch europäische Kunden.",
+            "Die Gegensanktionen folgen einem zunehmend etablierten Muster: Peking reagiert auf jeden US-Schritt mit symmetrischen oder gezielt asymmetrischen Gegenmaßnahmen.",
+            "Beobachter sehen darin eine Eskalationsdynamik, die kurzfristige diplomatische Deeskalation unwahrscheinlicher macht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Drohnenexportbeschränkungen Chinas betreffen Lieferketten und Beschaffungsmärkte, die auch europäische und deutsche Akteure nutzen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die wechselseitigen Sanktionen zwischen den größten Volkswirtschaften der Welt verschärfen die geopolitische Entkopplung spürbar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China retaliates on US sanctions; North Korea's dog meat advisory: SCMP's 7 highlights",
+              "url": "https://www.scmp.com/news/china/article/3363234/china-retaliates-us-sanctions-north-koreas-dog-meat-advisory-scmps-7-highlights",
+              "publishedAt": "2026-08-07T04:15:05Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegros Handball-Kadettinnen stehen im WM-Finale",
+          "summaryDe": [
+            "Die montenegrinische Handball-Kadettinnenmannschaft hat sich für das Finale der Weltmeisterschaft qualifiziert und damit eine der größten Überraschungen des Turniers geschafft.",
+            "Staatspräsident Milatović, Regierungschef Spajić und weitere Politiker gratulierten öffentlich – ein Zeichen dafür, welche symbolische Bedeutung dem Erfolg im kleinen Land beigemessen wird.",
+            "Trainer und Spielerinnen betonten nach dem Halbfinalsieg, die Arbeit sei noch nicht getan; die Mannschaft wolle auch das Finale gewinnen.",
+            "Für den montenegrinischen Handball, der auf Seniorenebene bereits international anerkannt ist, könnte der WM-Titel im Nachwuchsbereich eine neue Generation von Sportlerinnen prägen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das sportliche Ereignis hat keine politische oder wirtschaftliche Relevanz für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der WM-Finaleinzug ist für ein kleines Land wie Montenegro eine beachtliche sportliche Leistung mit nationalem Identitätsbezug."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Spektakularne ,,lavice\": Kadetkinje u finalu Svjetskog prvenstva!",
+              "url": "https://www.pobjeda.me/clanak/mlade-lavice-u-finalu-svjetskog-prvenstva",
+              "publishedAt": "2026-08-07T19:17:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Milatović čestitao mladim \"lavicama\": Pred crnogorskim rukometom...",
+              "url": "https://www.vijesti.me/sport/rukomet/821236/milatovic-cestitao-mladim-lavicama-pred-crnogorskim-rukometom-je-svijetla-buducnost",
+              "publishedAt": "2026-08-07T20:13:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
