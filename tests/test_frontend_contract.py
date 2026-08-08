@@ -316,7 +316,7 @@ class FrontendContractTests(unittest.TestCase):
     def test_country_symbols_do_not_depend_on_emoji_flag_fonts(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("🇺🇸", html)
-        self.assertEqual(html.count('class="country-code"'), 3)
+        self.assertEqual(html.count('class="country-code"'), 4)
 
     def test_frontend_has_no_external_resources_or_dynamic_inner_html(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")

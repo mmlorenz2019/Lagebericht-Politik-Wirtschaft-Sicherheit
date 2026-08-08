@@ -3,14 +3,16 @@
 const ALLOWED_HOSTS = new Set([
   'npr.org', 'www.npr.org', 'nytimes.com', 'www.nytimes.com', 'cnbc.com', 'www.cnbc.com',
   'pbs.org', 'www.pbs.org', 'caixinglobal.com', 'www.caixinglobal.com', 'scmp.com', 'www.scmp.com',
-  'chinadaily.com.cn', 'www.chinadaily.com.cn', 'vijesti.me', 'www.vijesti.me', 'pobjeda.me', 'www.pobjeda.me'
+  'chinadaily.com.cn', 'www.chinadaily.com.cn', 'vijesti.me', 'www.vijesti.me', 'pobjeda.me', 'www.pobjeda.me',
+  'politico.eu', 'www.politico.eu', 'politico.com', 'www.politico.com', 'euobserver.com', 'www.euobserver.com',
+  'ec.europa.eu'
 ]);
 const CATEGORY_LABELS = {
   politics_society: 'Politik & Gesellschaft',
   economy_technology: 'Wirtschaft & Technologie',
   foreign_security: 'Außenpolitik & Sicherheit'
 };
-const COUNTRY_LABELS = { usa: 'USA', china: 'China', montenegro: 'Montenegro' };
+const COUNTRY_LABELS = { usa: 'USA', china: 'China', montenegro: 'Montenegro', eu: 'EU' };
 const state = {
   index: null, archiveType: 'daily', country: 'usa', report: null,
   costs: null, freshnessNotice: '', reportNotice: ''
