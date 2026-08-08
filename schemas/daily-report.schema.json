@@ -10,7 +10,7 @@
     "reportDate": {"type": "string", "format": "date"},
     "generatedAt": {"type": "string", "format": "date-time"},
     "status": {"enum": ["complete", "partial"]},
-    "countries": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/country"}}
+    "countries": {"type": "array", "minItems": 1, "maxItems": 4, "items": {"$ref": "#/$defs/country"}}
   },
   "$defs": {
     "rating": {
@@ -56,7 +56,7 @@
       "additionalProperties": false,
       "required": ["id", "label", "categories"],
       "properties": {
-        "id": {"enum": ["usa", "china", "montenegro"]},
+        "id": {"enum": ["usa", "china", "montenegro", "eu"]},
         "label": {"type": "string", "minLength": 1, "maxLength": 30},
         "categories": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/category"}}
       }
