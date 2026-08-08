@@ -120,7 +120,8 @@ footer { color: var(--muted); font-size: .8rem; padding: 1.6rem 0 2.4rem; }
 }
 
 @media (max-width: 640px) {
-  .site-header { padding-top: 1.4rem; }
+  .site-header { padding-top: 1.4rem; flex-wrap: wrap; }
+  .header-actions { margin-left: auto; }
   .toolbar { grid-template-columns: 1fr; }
   .toolbar label { margin-bottom: -.5rem; }
   .segmented button { flex: 1; }
