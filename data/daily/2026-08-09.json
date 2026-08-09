@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-09",
+  "generatedAt": "2026-08-09T08:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Senat bestätigt Todd Blanche als Justizminister mit hauchdünner Mehrheit",
+          "summaryDe": [
+            "Todd Blanche, Trumps früherer Privatanwalt, wurde in einer nächtlichen Senatssitzung mit 50 zu 49 Stimmen als Justizminister bestätigt – eine der knappsten Bestätigungen für dieses Amt in jüngerer Geschichte.",
+            "Er ist der zweite Justizminister seit Trumps Rückkehr ins Weiße Haus und übernimmt damit eine der politisch sensibelsten Positionen im Kabinett.",
+            "Die enge Abstimmung spiegelt die anhaltende Polarisierung im Senat und die Umstrittenheit von Blanche wider, der Trump in mehreren Strafverfahren vertreten hatte.",
+            "Mit seiner Amtsübernahme dürfte die Justizpolitik der Regierung weiter in den Fokus öffentlicher und juristischer Debatten geraten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die personelle Ausrichtung des US-Justizministeriums kann indirekt Auswirkungen auf transatlantische Rechtshilfefragen und Politikgestaltung haben."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine derart knappe Senatsbestätigung für den Justizminister ist ein bedeutendes innenpolitisches Ereignis mit Signalwirkung für die Gewaltenteilung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Traže uklanjanje crkve na Rumiji: Peticija sa oko hiljadu potpisa dostavljena celnicima drzave i opstine bar",
+              "url": "https://www.vijesti.me/vijesti/politika/821306/traze-uklanjanje-crkve-na-rumiji-peticija-sa-oko-hiljadu-potpisa-dostavljena-celnicima-drzave-i-opstine-bar",
+              "publishedAt": "2026-08-09T05:45:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Mehrere KI-Unternehmen gehackt – Cybersicherheitsexperten warnen vor neuer Bedrohungsära",
+          "summaryDe": [
+            "Anthropic, Meta, OpenAI und Hugging Face wurden binnen kurzer Zeit Opfer von Cyberangriffen, was Sicherheitsexperten als Beginn einer qualitativ neuen Phase von KI-bezogenen Cyberbedrohungen werten.",
+            "Besonders brisant ist, dass die Angriffe auf Infrastruktur abzielten, die selbst für Sicherheitsanwendungen genutzt wird – der Schaden geht also über Datenverlust hinaus.",
+            "Viele betroffene Unternehmen, so Experten, seien sich des Ausmaßes ihrer Verwundbarkeit noch nicht bewusst.",
+            "Der Vorfall stellt die gesamte KI-Branche vor die Frage, wie Sicherheitsstandards bei gleichzeitig rapidem Wachstum aufrechterhalten werden können."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Unternehmen und Behörden, die KI-Dienste dieser Anbieter nutzen, sind von den Sicherheitslücken potenziell konkret betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Koordinierte Angriffe auf führende KI-Anbieter gleichzeitig sind ein Warnsignal mit weitreichenden Folgen für die digitale Sicherheitsarchitektur."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+              "url": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+              "publishedAt": "2026-08-08T12:00:01Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran blockiert Straße von Hormuz – Tankerseeleute in gefährlicher Warteschleife",
+          "summaryDe": [
+            "Nachdem die Vereinigten Arabischen Emirate meldeten, eines ihrer Schiffe sei durch einen Luftangriff getroffen worden, hat Iran Bedingungen für die Wiedereröffnung der Straße von Hormuz gestellt.",
+            "Teheran macht unmissverständlich klar: Die strategisch bedeutendste Meerenge der Welt bleibt geschlossen, bis Washington Irans Forderungen akzeptiert.",
+            "Für die Besatzungen gestrandeter Tanker bedeutet das anhaltende persönliche Gefahr ohne erkennbaren diplomatischen Ausweg.",
+            "Angesichts des laufenden US-Iran-Konflikts beobachten Russland und China die rapide schwindenden amerikanischen Waffenvorräte genau – was die geopolitische Risikorechnung für alle Beteiligten verändert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine anhaltende Sperrung der Straße von Hormuz trifft Deutschlands Energieversorgung und maritime Handelsrouten unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Blockade einer der wichtigsten Schifffahrtsrouten der Welt durch Iran ist ein außergewöhnliches geopolitisches Ereignis mit globalen Folgen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "\"Ako ne uzvratimo tehnofasistima, nećemo imati budućnost\"",
+              "url": "https://www.vijesti.me/svijet/globus/821298/ako-ne-uzvratimo-tehnofasistima-necemo-imati-buducnost",
+              "publishedAt": "2026-08-09T05:30:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Strani uticaj u medijima brine Evropu, ali država još nema odgovor",
+              "url": "https://www.pobjeda.me/clanak/strani-uticaj-u-medijima-brine-evropu-ali-drzava-jos-nema-odgovor",
+              "publishedAt": "2026-08-09T07:00:35Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taiwan versucht erstmals, pro-pekingistische Partei aufzulösen – Debatte über politische Zensur entbrannt",
+          "summaryDe": [
+            "Taiwans Innenministerium hat die Auflösung der Chinesischen Vereinigungsförderungspartei (CUPP) beantragt, weil sie Sicherheitsrisiken darstelle und Verbindungen zur organisierten Kriminalität unterhalte.",
+            "Es ist der erste Versuch in Taiwans Geschichte, eine politische Partei auf diesem Weg zu verbieten – ein rechtliches wie politisches Novum mit offenem Ausgang.",
+            "Kritiker sehen darin einen gefährlichen Präzedenzfall für politische Zensur, während Befürworter auf die nachgewiesenen Querverbindungen der Partei zu Peking verweisen.",
+            "Der Schritt verschärft die ohnehin angespannte Lage zwischen Taipei und Peking und dürfte international aufmerksam verfolgt werden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Entwicklung ist für die deutsche Außenpolitik im Kontext der Taiwan-Frage indirekt relevant, unmittelbare Folgen sind aber nicht zu erwarten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein erstmaliger Parteiverbotsversuch in einer demokratischen Gesellschaft wie Taiwan ist ein politisch bedeutsames Ereignis mit regionaler Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan's push to dissolve pro-Beijing party triggers political censorship debate",
+              "url": "https://www.scmp.com/news/china/politics/article/3363313/taiwans-push-dissolve-pro-beijing-party-triggers-political-censorship-debate",
+              "publishedAt": "2026-08-08T01:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesisch geführtes Team bestätigt Existenz von Gluebällen – Physikdurchbruch nach 50 Jahren Suche",
+          "summaryDe": [
+            "Auf der Internationalen Konferenz für Hochenergiephysik präsentierte ein von chinesischen Wissenschaftlern geleitetes internationales Team den Nachweis von Gluebällen – Teilchen, die ausschließlich aus der starken Kernkraft bestehen und kein Quark enthalten.",
+            "Die Suche nach diesem theoretisch vorhergesagten Zustand der Materie dauerte über 50 Jahre; der jetzt vorgelegte Beleg gilt nach 15 Jahren spezifischer Forschungsarbeit als belastbar.",
+            "Gluebälle existieren am Rande des Standardmodells der Teilchenphysik und könnten helfen zu erklären, wie die starke Kernkraft Materie zusammenhält.",
+            "Der Fund stärkt zugleich Chinas Reputation als Akteur in der Grundlagenforschung auf Weltniveau."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Für deutsche Teilchenphysikforschung und internationale Kooperationen ist das Ergebnis indirekt relevant, direkte Auswirkungen fehlen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Der Nachweis eines seit Jahrzehnten gesuchten fundamentalen Materiezustands ist ein außergewöhnlicher wissenschaftlicher Durchbruch."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "What is a glueball? Chinese-led team finds rare particle made entirely of force",
+              "url": "https://www.scmp.com/news/china/science/article/3363404/what-glueball-chinese-led-team-finds-rare-particle-made-entirely-force",
+              "publishedAt": "2026-08-08T13:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwans Präsident Lai probt nächtliche Notevakuierung – Reaktion auf PLA-Enthauptungsszenarien",
+          "summaryDe": [
+            "Bei einer Militärübung hat Taiwans Präsident William Lai einen nächtlichen Notfalleinsatz geprobt, bei dem er per Panzerwagen zu einem sicheren Kommandozentrum gebracht wurde.",
+            "Hintergrund ist die wachsende Sorge, dass die Volksbefreiungsarmee im Ernstfall gezielte Schläge gegen die politische und militärische Führung Taiwans führen könnte – sogenannte Decapitation Strikes.",
+            "Dass solche Übungen nun öffentlich bekannt werden, ist selbst eine strategische Botschaft: Taipei signalisiert Entschlossenheit und Durchhaltefähigkeit.",
+            "Die Übung fällt in eine Phase erhöhter chinesisch-taiwanischer Spannungen und ergänzt Taiwans breiteren Aufbau asymmetrischer Verteidigungskapazitäten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Taiwan-Frage berührt deutsche Sicherheits- und Wirtschaftsinteressen, die Übung selbst hat aber keine unmittelbaren Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine öffentlich kommunizierte Führungsschutzübung des taiwanischen Staatschefs ist ein klares Signal in der regionalen Sicherheitslage und geopolitisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan's William Lai rehearses late-night emergency escape during military drill",
+              "url": "https://www.scmp.com/news/china/military/article/3363402/taiwans-william-lai-rehearses-late-night-emergency-escape-during-military-drill",
+              "publishedAt": "2026-08-08T11:01:34Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Gabriel Attal erstattet Anzeige wegen mutmaßlicher russischer Einmischung in französischen Präsidentschaftswahlkampf",
+          "summaryDe": [
+            "Der ehemalige französische Premierminister Gabriel Attal hat Strafanzeige erstattet, weil er eine koordinierte russische Desinformationskampagne zur Beeinflussung der Präsidentschaftswahl 2027 vermutet.",
+            "Der Vorgang reiht sich in eine europaweit wachsende Besorgnis über Moskaus hybride Operationen im Vorfeld demokratischer Wahlen ein.",
+            "Frankreich gilt als besonders exponiert, weil die Polarisierung des politischen Raums russischen Narrativen ein günstiges Umfeld bietet.",
+            "Eine formelle Anzeige eines prominenten Politikers erhöht den Druck auf die Justiz und könnte die Debatte über gesetzliche Schutzmaßnahmen gegen ausländische Einmischung beschleunigen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russische Desinformationsoperationen in einem wichtigen EU-Mitgliedstaat betreffen die demokratische Stabilität Europas und damit auch Deutschlands."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Strafanzeige gegen staatlich gelenkte ausländische Wahlbeeinflussung in der zweitgrößten EU-Volkswirtschaft ist ein politisch gewichtiger Vorgang."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Gabriel Attal alleges Russian interference in French presidential race",
+              "url": "https://www.politico.eu/article/gabriel-attal-files-complaint-over-alleged-russian-disinformation-campaign",
+              "publishedAt": "2026-08-08T09:44:38Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Extremhitze droht Europas Wirtschaft bis zu 800 Milliarden Euro zu kosten – Deutschland besonders hart getroffen",
+          "summaryDe": [
+            "Einer Analyse zufolge könnte die anhaltende Hitzewelle einen wirtschaftlichen Schaden von bis zu 800 Milliarden Euro in der EU verursachen, wobei Deutschland, Frankreich und Italien am stärksten exponiert sind.",
+            "Betriebsstillstände auf Baustellen und Einbußen in der Landwirtschaft machen den größten Teil der prognostizierten Verluste aus, während gleichzeitig die Frage nach Klimaanpassungsinfrastruktur drängender wird.",
+            "Die Zahlen stehen in direktem Zusammenhang mit einer breiteren Debatte, ob Klimaanlagen in Europa künftig als lebensnotwendige Infrastruktur eingestuft werden sollten.",
+            "Für Deutschland als Exportnation mit energieintensiver Industrie summieren sich Produktionsunterbrechungen durch Hitze zu einer strukturellen Herausforderung, die über den Sommer hinausreicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland ist laut der Analyse einer der am stärksten betroffenen Mitgliedstaaten mit konkreten wirtschaftlichen Einbußen durch die Hitzewelle."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein prognostizierter Schaden in dreistelliger Milliardenhöhe durch eine einzelne Hitzewelle ist eine größere wirtschaftliche Entwicklung mit systemischer Dimension."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Extreme heat puts €800bn hole in Europe's economy — as Germany, France and Italy bear the brunt",
+              "url": "https://euobserver.com/228758/extreme-heat-poses-e800bn-threat-to-eu-economies-with-germany-most-exposed",
+              "publishedAt": "2026-08-06T10:28:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU überweist 1,4 Milliarden Euro aus russischen Zinserträgen an Ukraine-Unterstützung",
+          "summaryDe": [
+            "Die Europäische Kommission hat 1,4 Milliarden Euro erhalten, die aus Zinsen auf eingefrorene russische Zentralbankvermögen stammen, und stellt diese Mittel für die Ukraine bereit.",
+            "Das Instrument der Ertragsabschöpfung aus immobilisierten Reserven ist mittlerweile zu einem festen Bestandteil der europäischen Ukraine-Finanzierung geworden.",
+            "Russland hatte die Maßnahme wiederholt als illegal bezeichnet und mit Gegenmaßnahmen gedroht, ohne dass dies die EU-Beschlüsse bislang aufgehalten hätte.",
+            "Die Überweisung unterstreicht, dass Europa trotz innenpolitischer Debatten über Kriegsmüdigkeit weiterhin substanzielle Mittel in die Ukraine fließen lässt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Als größter EU-Beitragszahler ist Deutschland an der politischen und finanziellen Tragfähigkeit dieser Mechanismen direkt beteiligt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die regelmäßige Auszahlung erheblicher Summen aus russischen Zinseinnahmen ist ein gewichtiges Instrument der europäischen Außen- und Sicherheitspolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "EU receives €1.4 billion in revenue from immobilised Russian assets to be used for supporting Ukraine",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1721",
+              "publishedAt": "2026-08-04T22:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
