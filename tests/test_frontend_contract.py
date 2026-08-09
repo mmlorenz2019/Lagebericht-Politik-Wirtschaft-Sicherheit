@@ -335,6 +335,14 @@ class FrontendContractTests(unittest.TestCase):
         self.assertIn("function dataRoot", app)
         self.assertIn("data/en", app)
 
+    def test_missing_country_shows_an_honest_message_instead_of_silently_switching(self):
+        app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("countryUnavailable:", app)
+        # The old silent fallback (`|| countries[0]`) must not come back -
+        # clicking a country that isn't in the report should never make the
+        # view jump to a different country without saying so.
+        self.assertNotIn("countries.find((item) => item.id === state.country) || countries[0]", app)
+
     def test_language_toggle_never_uses_a_synchronous_alert_or_confirm(self):
         app = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertNotIn("alert(", app)

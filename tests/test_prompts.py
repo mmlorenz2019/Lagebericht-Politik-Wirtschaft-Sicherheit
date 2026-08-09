@@ -40,6 +40,17 @@ class PromptTests(unittest.TestCase):
         self.assertTrue(input_text.startswith("<untrusted_repair_data>"))
         self.assertTrue(input_text.endswith("</untrusted_repair_data>"))
 
+    def test_repair_prompt_names_missing_countries_inside_untrusted_data(self):
+        instructions, input_text = prompts.build_daily_repair_prompt(
+            [{"country": "montenegro", "category": "politics_society"}],
+            {"status": "partial"},
+            [],
+            None,
+            ["montenegro"],
+        )
+        self.assertIn("ganzes Land", instructions)
+        self.assertIn('"missingCountries": ["montenegro"]', input_text)
+
     def test_period_prompt_requires_development_lines(self):
         instructions, input_text = build_period_prompt([{"reportDate": "2026-07-31"}], "week")
         self.assertIn("Entwicklungslinien", instructions)

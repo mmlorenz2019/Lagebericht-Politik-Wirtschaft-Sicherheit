@@ -35,6 +35,7 @@ const STRINGS = {
     reportLoadError: (message) => `Bericht konnte nicht geladen werden. Ein zuvor gelesener Bericht ist offline möglicherweise weiterhin verfügbar. (${message})`,
     archiveLoadError: (message) => `Das Archiv konnte nicht geladen werden. (${message})`,
     missingReportsNotice: (count, list) => `Für diesen Rückblick fehlen ${count} Tagesberichte: ${list}.`,
+    countryUnavailable: (label) => `Für ${label} liegt in diesem Bericht kein Eintrag vor.`,
     categoryLabels: {
       politics_society: 'Politik & Gesellschaft',
       economy_technology: 'Wirtschaft & Technologie',
@@ -70,6 +71,7 @@ const STRINGS = {
     reportLoadError: (message) => `The report could not be loaded. A previously read report may still be available offline. (${message})`,
     archiveLoadError: (message) => `The archive could not be loaded. (${message})`,
     missingReportsNotice: (count, list) => `This review is missing ${count} daily reports: ${list}.`,
+    countryUnavailable: (label) => `No entry is available for ${label} in this report.`,
     categoryLabels: {
       politics_society: 'Politics & Society',
       economy_technology: 'Economy & Technology',
@@ -376,12 +378,28 @@ function renderReport() {
   const s = strings();
   const isDaily = Object.hasOwn(report, 'reportDate');
   const countries = report.countries || [];
-  const country = countries.find((item) => item.id === state.country) || countries[0];
-  if (!country) throw new Error('Bericht enthält keine Länderansicht.');
-  state.country = country.id;
+  const country = countries.find((item) => item.id === state.country);
   document.querySelectorAll('[data-country]').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.country === state.country)));
-  elements.countryTitle.textContent = country.label || COUNTRY_LABELS[country.id];
   elements.kicker.textContent = isDaily ? s.kicker.daily : s.kicker[report.periodType];
+  elements.updated.textContent = isDaily ? `Bericht vom ${report.reportDate} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}` : `${report.periodStart} bis ${report.periodEnd} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}`;
+  elements.overall.hidden = isDaily;
+  elements.overallCopy.replaceChildren();
+  if (!isDaily) (report.overallSummary || []).forEach((sentence) => elements.overallCopy.append(node('p', sentence)));
+  const missing = report.missingReportDates || [];
+  showNotice(missing.length ? s.missingReportsNotice(missing.length, missing.join(', ')) : '');
+  if (!country) {
+    // The clicked country genuinely has no entry in this report (e.g. a
+    // pipeline gap, or - for "eu" - a report published before that block
+    // existed). Say so honestly instead of silently falling back to a
+    // different country, which used to look like the button was broken.
+    elements.countryTitle.textContent = COUNTRY_LABELS[state.country] || state.country;
+    elements.completeness.className = 'muted';
+    elements.completeness.textContent = '';
+    elements.stories.replaceChildren(node('p', s.countryUnavailable(COUNTRY_LABELS[state.country] || state.country), 'empty'));
+    elements.report.setAttribute('aria-busy', 'false');
+    return;
+  }
+  elements.countryTitle.textContent = country.label || COUNTRY_LABELS[country.id];
   if (isDaily) {
     elements.completeness.className = 'muted';
     elements.completeness.textContent = report.status === 'complete' ? s.completeness.complete : s.completeness.partial;
@@ -390,13 +408,7 @@ function renderReport() {
     elements.completeness.className = 'muted period-coverage';
     elements.completeness.textContent = coverage.label;
   }
-  elements.updated.textContent = isDaily ? `Bericht vom ${report.reportDate} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}` : `${report.periodStart} bis ${report.periodEnd} · erzeugt ${new Date(report.generatedAt).toLocaleString('de-DE')}`;
   elements.stories.replaceChildren(...(country.categories || country.sections || []).map((item, index) => renderStory(item, index)));
-  elements.overall.hidden = isDaily;
-  elements.overallCopy.replaceChildren();
-  if (!isDaily) (report.overallSummary || []).forEach((sentence) => elements.overallCopy.append(node('p', sentence)));
-  const missing = report.missingReportDates || [];
-  showNotice(missing.length ? s.missingReportsNotice(missing.length, missing.join(', ')) : '');
   elements.report.setAttribute('aria-busy', 'false');
 }
 

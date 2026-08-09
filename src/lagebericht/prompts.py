@@ -56,17 +56,21 @@ def build_daily_repair_prompt(
     rejected_report: dict,
     missing_slots: list[tuple[str, str]],
     validation_error: str | None = None,
+    missing_countries: list[str] | None = None,
 ) -> tuple[str, str]:
     instructions = DAILY_RULES + (
-        " Der erste Entwurf ließ belegte Kategorien aus oder verletzte den Datenvertrag. Erstelle den vollständigen "
-        "Bericht neu, behebe den genannten Validierungsfehler und veröffentliche für jeden genannten Slot ein "
-        "Ereignis aus sourceCandidates."
+        " Der erste Entwurf ließ belegte Kategorien aus, verletzte den Datenvertrag oder ließ ein ganzes Land "
+        "vollständig aus. Erstelle den vollständigen Bericht neu, behebe den genannten Validierungsfehler, "
+        "veröffentliche für jeden genannten Slot ein Ereignis aus sourceCandidates und ergänze jedes genannte "
+        "fehlende Land mit allen drei Kategorien (no_major_development oder unavailable, falls dafür kein "
+        "Ereignis mit sourceCandidates vorhanden ist)."
     )
     payload = {
         "events": events,
         "rejectedReport": rejected_report,
         "missingSlots": [list(slot) for slot in missing_slots],
         "validationError": validation_error,
+        "missingCountries": missing_countries or [],
     }
     return instructions, f"<untrusted_repair_data>{_safe_json(payload)}</untrusted_repair_data>"
 

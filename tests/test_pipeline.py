@@ -5,7 +5,6 @@ from datetime import date
 from lagebericht.config import SourceConfig
 from lagebericht.fetch import FetchError, FetchResult
 from lagebericht.pipeline import DailyPipeline, PipelineError
-from lagebericht.schema import COUNTRIES
 from tests.test_schema import ALLOWED_DOMAINS, daily_report
 
 
@@ -136,22 +135,32 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(result["reportDate"], "2026-07-31")
         self.assertEqual(ai.models, ["claude-haiku-4-5-20251001", "claude-sonnet-4-6"])
 
-    def test_live_daily_report_schema_requires_every_configured_country(self):
-        report = daily_report()
-        ai = QueueAI([{"events": [{"id": "event-1"}]}, report])
-        pipeline = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS)
+    def test_retries_when_model_omits_an_entire_country(self):
+        incomplete_report = daily_report()
+        del incomplete_report["countries"][2]  # drop montenegro entirely, not just a category
+        ai = QueueAI([
+            {"events": [complete_event()]},
+            incomplete_report,
+            daily_report(),
+        ])
 
-        pipeline.run(date(2026, 7, 31))
+        result = DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 7, 31))
 
-        daily_report_schemas = [
-            schema for schema_name, schema in zip(ai.schema_names, ai.schemas)
-            if schema_name == "daily_report"
-        ]
-        self.assertTrue(daily_report_schemas)
-        for schema in daily_report_schemas:
-            countries_schema = schema["properties"]["countries"]
-            self.assertEqual(countries_schema["minItems"], len(COUNTRIES))
-            self.assertEqual(countries_schema["maxItems"], len(COUNTRIES))
+        self.assertEqual([c["id"] for c in result["countries"]], ["usa", "china", "montenegro", "eu"])
+        self.assertEqual(ai.models.count("claude-sonnet-4-6"), 2)
+        self.assertIn('"missingCountries": ["montenegro"]', ai.input_texts[2])
+
+    def test_fails_when_repair_still_omits_a_country(self):
+        incomplete_report = daily_report()
+        del incomplete_report["countries"][2]
+        ai = QueueAI([
+            {"events": [complete_event()]},
+            incomplete_report,
+            incomplete_report,
+        ])
+
+        with self.assertRaisesRegex(PipelineError, "omitted entire countries: montenegro"):
+            DailyPipeline([SOURCE], FakeFetcher(), ai, ALLOWED_DOMAINS).run(date(2026, 7, 31))
 
     def test_uses_requested_date_for_report_metadata(self):
         report = daily_report()

@@ -74,6 +74,15 @@ def _normalize_empty_categories(report: dict) -> None:
             category["sources"] = []
 
 
+def _missing_countries(report: dict) -> list[str]:
+    present = {
+        country.get("id")
+        for country in report.get("countries", [])
+        if isinstance(country, dict)
+    }
+    return [country_id for country_id in COUNTRIES if country_id not in present]
+
+
 def _missing_published_slots(report: dict, events: list[dict]) -> list[tuple[str, str]]:
     eligible = {
         (event.get("country"), event.get("category"))
@@ -163,27 +172,21 @@ class DailyPipeline:
             daily_schema = json.loads(self.daily_schema_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as exc:
             raise PipelineError(f"cannot load daily report schema: {exc}") from exc
-        # The on-disk schema's countries.minItems is relaxed to 1 so it can validate
-        # historical/persisted reports (see schema.py). For a live API call we want the
-        # stricter guarantee back: every currently-configured country must be addressed.
-        # daily_schema is a fresh json.loads() result used only within this method call,
-        # so mutating it in place here is safe and doesn't affect the on-disk contract.
-        daily_schema["properties"]["countries"]["minItems"] = len(COUNTRIES)
-        daily_schema["properties"]["countries"]["maxItems"] = len(COUNTRIES)
         report = self.ai_client.generate_json(
             self.summary_model, daily_instructions, daily_text, "daily_report", daily_schema
         )
         report["reportDate"] = report_date.isoformat()
         _normalize_empty_categories(report)
         missing_slots = _missing_published_slots(report, enriched_events)
+        missing_countries = _missing_countries(report)
         validation_error = None
         try:
             validate_daily_report(report, self.allowed_domains)
         except ReportValidationError as exc:
             validation_error = str(exc)
-        if missing_slots or validation_error:
+        if missing_slots or missing_countries or validation_error:
             repair_instructions, repair_text = build_daily_repair_prompt(
-                enriched_events, report, missing_slots, validation_error
+                enriched_events, report, missing_slots, validation_error, missing_countries
             )
             report = self.ai_client.generate_json(
                 self.summary_model, repair_instructions, repair_text, "daily_report", daily_schema
@@ -194,6 +197,9 @@ class DailyPipeline:
             if missing_slots:
                 formatted = ", ".join(f"{country}/{category}" for country, category in missing_slots)
                 raise PipelineError(f"summary omitted sourced slots: {formatted}")
+            missing_countries = _missing_countries(report)
+            if missing_countries:
+                raise PipelineError(f"summary omitted entire countries: {', '.join(missing_countries)}")
             try:
                 validate_daily_report(report, self.allowed_domains)
             except ReportValidationError as exc:
