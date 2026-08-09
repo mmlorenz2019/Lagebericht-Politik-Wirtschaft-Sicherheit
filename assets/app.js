@@ -475,5 +475,5 @@ document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') refreshIndex({ preferLatest: state.archiveType === 'daily' });
 });
 
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=13', { updateViaCache: 'none' }));
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js?v=14', { updateViaCache: 'none' }));
 start();
