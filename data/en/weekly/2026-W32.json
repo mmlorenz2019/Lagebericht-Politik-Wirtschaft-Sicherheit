@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 3,
+  "periodType": "week",
+  "periodStart": "2026-08-03",
+  "periodEnd": "2026-08-09",
+  "generatedAt": "2026-08-10T09:09:20.184367Z",
+  "status": "complete",
+  "overallSummary": [
+    "The first week of August 2026 is marked by multiple concurrent geopolitical crises that reinforce each other and place global stability under pressure.",
+    "The US-Iran conflict over the Strait of Hormuz is the most pressing single event: from volatile attack announcements through an Iranian ultimatum to the actual blockade of the waterway at week's end, an escalation line runs through that directly threatens energy markets and the global economy.",
+    "In parallel, the Sino-American systemic conflict sharpens on multiple levels simultaneously: mutual sanctions, drone export restrictions, China's expansion of its nuclear naval forces, coordinated encirclement of Japan with Russian ships, and AI-driven military planning systems intensify into an image of strategic escalation.",
+    "The USA experiences a week of institutional upheaval domestically: narrow Senate confirmations, court decisions against executive projects, an unexpected job loss of 23,000 positions, and social welfare cuts affecting millions of SNAP recipients show a democracy under pressure.",
+    "China demonstrates strategic depth: alongside military modernization and raw material dominance—particularly through the planned expansion of the world's largest rare earth mine—the country achieves scientific breakthroughs of global rank that underpin its claim to leadership in fundamental research.",
+    "Montenegro struggles against a looming delay in its EU accession: the postponed negotiation deadline to early 2027 jeopardizes the '28by28' goal, while institutional weaknesses in electoral commission staffing and ongoing legal proceedings against the old ruling elite reflect ongoing political polarization.",
+    "In the European Union, two structural challenges converge: extreme heat threatens the EU economy with damage of up to 800 billion euros, Germany is particularly exposed; simultaneously, alleged Russian disinformation operations in France strain the democratic resilience of the continent.",
+    "For Germany, this week yields multiple direct implications: a explosive-laden drone find at its own airport, export burdens from US polysilicon tariffs, heat damage to industry, growing dependence on Chinese AI models, and the Hormuz blockade as an energy price driver.",
+    "The trend of the week is a convergence of multiple crises without recognizable diplomatic outlets: negotiations on Iran are stalling, the Xi-Trump summit is under pressure from mutual sanctions, and European institutions respond rather reactively than proactively.",
+    "Overall, the first week of August 2026 marks a point at which many of the tensions laid out in the preceding months simultaneously transition into open conflicts or threshold crossings."
+  ],
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Institutional Erosion and Social Cutbacks Shape Domestic Politics of the Week",
+          "summaryDe": [
+            "Multiple concurrent developments converge this week into an image of growing executive power expansion and social retrenchment policy.",
+            "Over four million people have lost their SNAP food assistance since July 2025; the cuts are considered historically unprecedented and hit low-income households, families, and elderly people particularly hard.",
+            "Trump signed new executive orders restricting birthplace citizenship after the Supreme Court rejected his first attempt in June—a pattern illustrating the executive's willingness to seek alternative legal routes after judicial defeats.",
+            "A federal appeals court simultaneously blocked Trump's $400 million White House renovation plan and reaffirmed Congressional budget control.",
+            "Trump's former personal lawyer Todd Blanche was confirmed as Attorney General in a razor-thin 50-to-49 vote—one of the narrowest in recent history—raising questions about prosecutorial independence.",
+            "A Senate committee voted in parallel for a resolution of contempt against former NIAID director Fauci; meanwhile, the GAO found that DOGE's claimed savings of $110 billion were significantly inflated."
+          ],
+          "contextDe": [
+            "The combination of social welfare cuts, immigration orders, and staffing the Justice Department with a loyal confidant reflects a systematic overhaul of state institutions that critics characterize as democratic erosion.",
+            "Historically, narrow cabinet confirmations and repeated executive orders after Supreme Court rejections mark unusual pressure on the balance of powers.",
+            "The consequences are likely to extend beyond the summer: legal challenges to immigration orders are announced, and fall budget discussions will be burdened by GAO findings on DOGE."
+          ],
+          "additionalImportant": "The Justice Department increasingly pursues federal conspiracy charges against protestors opposing ICE deportations; wildfires near Spokane forced tens of thousands to evacuate and intensified political debate over climate consequences and FEMA cuts.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "US domestic political developments have indirect signaling effect for democratic norm discussions in Europe; direct consequences for Germany remain limited."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneous erosion of multiple institutional safeguards—judiciary, parliament, social state—in the world's largest democracy is of considerable international significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Trump signs 2 immigration actions to curb 'birth tourism,' limit birthright citizenship",
+              "url": "https://www.npr.org/2026/08/06/g-s1-137686/trump-birthright-citizenship-immigration-curb",
+              "publishedAt": "2026-08-06T22:06:35Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "News Wrap: Senate committee votes to hold Fauci in contempt of Congress",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-senate-committee-votes-to-hold-fauci-in-contempt-of-congress",
+              "publishedAt": "2026-08-06T22:50:41Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
+              "url": "https://www.cnbc.com/2026/08/06/doge-elon-musk-gao-government-cost-cuts.html",
+              "publishedAt": "2026-08-06T22:19:52Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US Trade Policy Under Legal and Economic Pressure—Labor Market Weaker Than Expected",
+          "summaryDe": [
+            "25 US states filed suit jointly against new global tariffs from the Trump administration affecting 60 economies, including EU member states, China, Japan, and India.",
+            "The suing states argue the tariffs replace levies that courts had already ruled impermissible—a legal lever that could fundamentally restrict the government's trade policy.",
+            "An additional 15-percent tariff on polysilicon and export restrictions on defense supply chains from China fit into a decoupling strategy that brings substantial costs and supply shortages.",
+            "The labor market unexpectedly lost 23,000 net jobs in July; prior month data were also revised downward, increasing pressure on the Fed.",
+            "JPMorgan CEO Jamie Dimon publicly warned of elevated leverage and systemic market risks in an environment marked by trade uncertainty and geopolitical volatility.",
+            "SpaceX released its first public quarterly report showing solid revenue growth, yet the stock price remained under pressure—a sentiment test for the entire private space sector."
+          ],
+          "contextDe": [
+            "The simultaneous legal challenge to tariff policy by a coalition of states is historically unusual and signals that the Trump administration's trade strategy is encountering domestic opposition.",
+            "A weakening labor market combined with inflation risks from tariffs puts the US Federal Reserve in a classic stagflation dilemma that constrains monetary policy paralyzing.",
+            "For Germany and Europe, the combination of US tariffs and economic deterioration presents a double burden: declining export demand and rising costs for intermediate products."
+          ],
+          "additionalImportant": "BP reported more than doubled profits from the Iran war and high fuel prices; Trump publicly criticized oil companies. Several leading AI companies—including Anthropic, Meta, OpenAI, and Hugging Face—became targets of cyberattacks, which experts view as a new phase of AI-related cyber threats.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "EU member states are directly affected by the tariffs; the polysilicon tariff hits German solar and semiconductor suppliers; a weakening US labor market burdens export demand."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A coordinated lawsuit by 25 states, an unexpected drop in employment, and explicit financial market warning signals together constitute a significant weekly economic policy picture."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Trump election claims debunked, US critical minerals fears: 7 US-China relations reads",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3362449/trump-election-claims-debunked-us-critical-minerals-fears-7-us-china-relations-reads",
+              "publishedAt": "2026-08-03T14:00:10Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "Trump Issues Tariffs on Key Ingredient for Electronics and Solar Panels",
+              "url": "https://www.nytimes.com/2026/08/06/us/politics/trump-tariffs-solar-panels.html",
+              "publishedAt": "2026-08-06T21:53:18Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Employers unexpectedly cut 23,000 jobs in a sign of a wilting labor market",
+              "url": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve",
+              "publishedAt": "2026-08-07T13:10:10Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "JPMorgan's Jamie Dimon warns of high leverage: 'Somebody will disrupt the market'",
+              "url": "https://www.cnbc.com/2026/08/06/jpmorgan-jamie-dimon-leverage-market-disruption.html",
+              "publishedAt": "2026-08-06T02:02:39Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Strait of Hormuz: From Trump's Ultimatum to Iran's Blockade—A Week of Escalation",
+          "summaryDe": [
+            "The week begins with Trump publicly offering Iran a last chance to negotiate and ends with Iran having effectively sealed the Strait of Hormuz for US and Israeli vessels—an escalation line whose speed surprised observers.",
+            "Meanwhile, Trump announced attacks, then stopped them, while military operations factually continued—a pattern of abrupt policy shifts that systematically undermines diplomatic initiatives.",
+            "The Iranian parliament deliberated a plan to completely exclude US and Israeli vessels and charge other countries transit fees; the Trump administration dismissed this as unacceptable.",
+            "Following an attack on an Emirati vessel, Iran set conditions for reopening the waterway through which a significant portion of global oil supplies flow.",
+            "The FBI simultaneously reported cyberattacks on water supply systems in at least seven US states, for which Iran is considered the suspected perpetrator.",
+            "Israel expressed serious concerns about the Gaza peace plan proposed by Trump; Israeli airstrikes in Gaza jeopardized its feasibility according to observers' assessments."
+          ],
+          "contextDe": [
+            "The Strait of Hormuz is one of the world's most critical chokepoints; even temporary uncertainty there drives oil prices and burdens energy supply chains all the way to Europe.",
+            "The combination of military volatility, contradictory signals from the US government, and Israeli self-interest shows a US Middle East policy lacking coherent strategic direction.",
+            "Russia and China carefully observe rapidly depleting US weapon stocks in the Iran conflict—a factor that alters geopolitical risk calculations far beyond the region."
+          ],
+          "additionalImportant": "US embassies issued travel warnings for Americans abroad; tanker crews in the waterway are stuck without recognizable diplomatic exit.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A sustained Hormuz blockade directly burdens Germany's energy supply and industrial production via rising oil and gas prices."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The blockade of one of the world's most important shipping routes by a state actor in active military conflict with a superpower is an extraordinary geopolitical event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Trump claims 'last chance' for Iran to strike deal in latest warning",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3362850/trump-claims-last-chance-iran-strike-deal-latest-warning",
+              "publishedAt": "2026-08-03T21:23:20Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Iran aims to ban U.S. and Israeli ships from Strait of Hormuz and charge others a toll",
+              "url": "https://www.npr.org/2026/08/06/nx-s1-5923623/iran-strait-hormuz-us-israel-ban",
+              "publishedAt": "2026-08-06T20:58:56Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "Israeli Strikes May Undermine Trump's Peace Plan for Gaza",
+              "url": "https://www.nytimes.com/2026/08/05/world/middleeast/israel-strikes-gaza-peace-deal.html",
+              "publishedAt": "2026-08-05T08:59:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Domestic Signals: Beidaihe Retreat, Taiwan Party Ban, and Crisis Rhetoric from Local Officials",
+          "summaryDe": [
+            "China's political and scientific elite gathered for the annual Beidaihe summer retreat, which this year attracted particular attention given technology rivalry and trade conflicts.",
+            "In parallel, the Changchun party secretary broke with political conventions by publicly warning of 'unprecedented difficulties' for the city economy—statements subsequently censored and illustrating tension between Beijing's stability narratives and on-the-ground reality.",
+            "A former defense official was sentenced to ten years imprisonment for bribery, continuing the pattern of anti-corruption campaigns in the security-policy-sensitive defense sector.",
+            "Taiwan initiated its first-ever party dissolution proceeding against the pro-reunification United Promotion Party, triggering debates about political censorship and sharpening tensions with Beijing.",
+            "Chinese state media engaged in debate over English abbreviations in everyday communication—symptomatic of the cultural-political direction of the Xi era, emphasizing national autonomy even in language."
+          ],
+          "contextDe": [
+            "Censorship of open economic crisis admissions by local officials and the Beidaihe retreat under worsening economic conditions show how the regime simultaneously suppresses and processes internal pressure signals.",
+            "Taiwan's party dissolution proceeding is legally and politically unprecedented, testing both Taiwan's democratic resilience and the diplomatic sustainability of relations with Beijing.",
+            "The anti-corruption campaign in the defense sector increases reform pressure but also risks destabilizing strategically relevant projects through personnel changes."
+          ],
+          "additionalImportant": "Severe flooding in Gansu claimed at least 25 lives; Typhoon Dolphin struck the east coast and demonstrated first-time large-scale deployment of drones and AI in disaster response at provincial level. An explosion at Baotou Steel killed 10 people; severe safety deficiencies were identified.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's domestic policy direction signals from Beidaihe and economic crisis indicators at local authorities could medium-term affect foreign trade and technology policy, with indirect consequences for Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Open economic crisis admissions with subsequent censorship, a historically first-ever party dissolution proceeding in Taiwan, and continuation of anti-corruption campaigns in the defense sector together constitute significant political signals."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's political and scientific elite head to Beidaihe for summer retreat season",
+              "url": "https://www.scmp.com/news/china/politics/article/3362838/chinas-political-and-scientific-elite-head-beidaihe-summer-retreat-season",
+              "publishedAt": "2026-08-03T14:32:36Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan's push to dissolve pro-Beijing party triggers political censorship debate",
+              "url": "https://www.scmp.com/news/china/politics/article/3363313/taiwans-push-dissolve-pro-beijing-party-triggers-political-censorship-debate",
+              "publishedAt": "2026-08-09T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Raw Material Dominance, Scientific Breakthroughs, and AI Security Questions: China's Strategic Breadth",
+          "summaryDe": [
+            "At the Bayan Obo mine in Inner Mongolia—the world's largest rare earth deposit by reserves—China plans a 50-percent production increase, backed by more than $74 million in investments.",
+            "The timing effect is strategic: amid trade conflict with the US and while Western countries seek alternative supply chains, Beijing underscores its market power over irreplaceable raw materials for electric vehicles, wind power, and armaments.",
+            "China imposed new drone export controls and countermeasures against seven US companies—the broadest retaliation package since the October 2025 trade agreement, weeks before the planned Xi-Trump summit.",
+            "Argentina extended its $19 billion currency swap with China despite explicit US pressure—a diplomatic success for Beijing demonstrating China's growing financial influence in Latin America.",
+            "In fundamental research, a Chinese-led team achieved two breakthroughs: detection of the highest-energy light particle ever measured and the first conclusive evidence of glueballs after over 50 years of searching.",
+            "US AI companies increasingly resort to Chinese open-weight models, raising considerable concerns in American security circles and raising the question for Germany of secure AI base models for authorities and infrastructure."
+          ],
+          "contextDe": [
+            "The expansion of rare earth mining shifts the global balance of power over strategically decisive raw materials further in China's favor and increases pressure on Western buyers to develop alternative supply chains—a process requiring years.",
+            "Scientific breakthroughs in fundamental research combined with AI military applications show a Chinese strategy of developing technological leadership simultaneously for civilian and military purposes.",
+            "Acceptance of Chinese AI models by leading US companies undermines one's own security argumentation and creates a dilemma between economic rationality and geopolitical hedging that Europe and Germany must equally face."
+          ],
+          "additionalImportant": "China Road and Bridge Corporation secured a $1.2 billion contract for Nairobi airport; a $900 million port deal in Angola solidifies China's strategic infrastructure presence in Africa.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German industry—from electric vehicles to semiconductors and defense—depends on rare earths; Chinese AI models and drone export controls directly affect German companies and authorities."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The combination of strategic raw material power demonstration, cutting-edge scientific results, and economic-political countermeasures shows China's broad strategic capability at the highest level."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China plans to increase mine output in world's largest rare earth deposit by 50%",
+              "url": "https://www.scmp.com/news/china/science/article/3363230/china-plans-increase-mine-output-worlds-largest-rare-earth-deposit-50",
+              "publishedAt": "2026-08-07T11:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "What is a glueball? Chinese-led team finds rare particle made entirely of force",
+              "url": "https://www.scmp.com/news/china/science/article/3363404/what-glueball-chinese-led-team-finds-rare-particle-made-entirely-force",
+              "publishedAt": "2026-08-08T13:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China adds US sanctions, drone curbs in trade tit-for-tat",
+              "url": "https://www.scmp.com/plus/news/china/politics/article/3363167/china-adds-us-sanctions-drone-curbs-trade-tit-tat",
+              "publishedAt": "2026-08-06T09:01:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China's Military Escalation Strategy: Missiles, AI, Submarine Cables, and Coordinated Fleet Exercises",
+          "summaryDe": [
+            "China conducted the first confirmed test of the submarine-based intercontinental missile JL-3 on July 6—a milestone in second-strike nuclear capacity that alters global security calculations.",
+            "The military publicly presented an AI system for planning and coordinating mass air attacks with over 100 units—a deliberate demonstration toward potential adversaries.",
+            "PLA scientists published a study arguing that submarine cables carrying 99 percent of global data traffic could be easily attacked by cost-effective drones—a message not lost on NATO planners.",
+            "Chinese and Russian naval vessels encircled Japan in a coordinated 17-day patrol; Chinese state television showed satellite imagery of US Air Force base Kadena as a potential missile target.",
+            "Taiwan's president conducted nighttime emergency evacuation drills to respond to PLA scenarios of targeted leadership strikes—a publicly communicated signal of determination.",
+            "China confirmed the death of two coast guard officers in a collision at Scarborough Reef and warned the Philippines of a 'powerful counterattack'—tensions establishing the South China Sea as another conflict arena."
+          ],
+          "contextDe": [
+            "The JL-3 test, AI mass attack systems, and coordinated fleet exercises with Russia fit together into a coherent picture: China systematically prepares for its self-imposed goal of military parity with the US by 2027.",
+            "The publicly published analysis of submarine cable vulnerability by state PLA researchers is unusually candid and likely calculated—as a warning signal forcing adversaries to commit resources for infrastructure protection.",
+            "For Germany and NATO, these developments are action-relevant: submarine cables in the Atlantic and North Sea are critical communication arteries whose protection concepts must be reconsidered."
+          ],
+          "additionalImportant": "US hawks pressed the Trump administration to present a $14 billion arms package for Taiwan to Congress before the planned Xi-Trump summit. Survey data show: 49 percent of Germans view China as rival or adversary—the most skeptical stance across all of Europe.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "China's nuclear modernization, AI military applications, and explicit threats against submarine cable infrastructure directly affect European security calculations and NATO strategy debate; German China skeptic numbers carry immediate foreign policy relevance."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The simultaneous demonstration of nuclear second-strike capacity, military AI systems, coordinated fleet operations with Russia, and asymmetric vulnerability analysis constitutes an extraordinary bundle of security policy escalation signals."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Why China's JL-3 made waves with first submarine-based missile test in over 40 years",
+              "url": "https://www.scmp.com/news/china/military/article/3362640/why-chinas-jl-3-made-waves-first-submarine-based-missile-test-over-40-years",
+              "publishedAt": "2026-08-01T12:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese military unveils AI system to plan and coordinate mass air strikes",
+              "url": "https://www.scmp.com/news/china/military/article/3362824/chinese-military-unveils-ai-system-plan-and-coordinate-mass-air-strikes",
+              "publishedAt": "2026-08-03T13:00:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese and Russian warships were seen circling Japan. What could it mean?",
+              "url": "https://www.scmp.com/news/china/military/article/3363143/their-warships-encircle-japan-what-signals-are-china-and-russia-sending",
+              "publishedAt": "2026-08-06T06:41:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "PLA scientists say submarine cables carrying 99% of global data could be 'easy target'",
+              "url": "https://www.scmp.com/news/china/science/article/3363019/pla-scientists-say-submarine-cables-carrying-99-global-data-could-be-easy-target",
+              "publishedAt": "2026-08-05T10:30:10Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU Accession Goal '28by28' in Jeopardy—Domestic Tensions and Legal Proceedings Mark the Week",
+          "summaryDe": [
+            "The deadline for completing EU accession negotiations for Montenegro was extended to early 2027, raising serious doubts about the achievability of the goal of 'full membership by 2028'.",
+            "The controversial staffing of the electoral commission CIK stands at the center of institutional criticism: the EU delegation expects compliant formation by end of August, while accusations of legal violations hang in the air.",
+            "Debates over Montenegro's state identity—civic versus ethnically defined—were ignited by the categorization of the 'New Serbian Response' as part of the power structure and reflect ongoing tension between pro-Serbian and pro-Montenegrin camps.",
+            "Internal divisions within the Serbian Orthodox Church between a pro-European and a Serbian-nationalist-oriented wing additionally burden the social climate.",
+            "The indictment against Aco Đukanović, son of long-time leader Milo Đukanović, was confirmed; a Croatian politician praised Milo Đukanović as a key figure in bilateral normalization—statements that remained contentious domestically."
+          ],
+          "contextDe": [
+            "Montenegro is in a critical phase where institutional reform steps—electoral commission, judiciary, press freedom—serve as a benchmark for the EU accession process and are under international observation.",
+            "The postponement of the negotiation deadline is no technical detail but rather a political signal endangering the credibility of the accession perspective and weakening pro-European forces in the country.",
+            "The entanglement of church divisions, ethnic identity questions, and legal proceedings against the old elite shows how fragile the political balance in Montenegro remains despite nominal reform progress."
+          ],
+          "additionalImportant": "Formal indictment deficiencies in another legal case (Mijajlović) were identified by the court and referred back to the prosecution—a recurring pattern burdening the efficiency of the criminal justice system.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany acts as an important EU player in the enlargement process; a delay in Montenegro's accession affects the credibility of EU enlargement policy."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Endangerment of a symbolically charged accession goal and institutional weaknesses in an EU candidate country are regionally significant but have limited international reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Trka s vremenom za generacijski san: Hoće li „28by28",
+              "url": "https://www.pobjeda.me/clanak/trka-s-vremenom-za-generacijski-san-hoce-li-28by28-ostati-samo-slogan",
+              "publishedAt": "2026-08-06T06:35:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Potvrđena optužnica protiv Aca Đukanovića",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/820714/potvrdjena-optuznica-protiv-aca-djukanovica",
+              "publishedAt": "2026-08-04T10:33:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tourism as Economic Anchor: Record Numbers in Lovćen National Park and Gaming Ambitions",
+          "summaryDe": [
+            "Lovćen National Park recorded record visitor numbers with revenues up 30 percent compared to the prior year—evidence of the tourism sector's sustained growth as the most important foreign currency source.",
+            "Montenegro is simultaneously exploring gaming tourism and international e-sports tournaments as a new economic field to diversify its heavily seasonally dependent economy.",
+            "Both developments stand in contrast to structural challenges: seasonal dependence, inadequate infrastructure outside the coast, and the need to regulatory access new digital economic sectors."
+          ],
+          "contextDe": [
+            "Tourism remains one of Montenegro's few reliable growth sources, but carries the risk of structural monoculture making the country vulnerable to external shocks.",
+            "The gaming tourism initiative follows a strategy of smaller countries using digital economic sectors as growth levers but faces considerable infrastructure and regulatory hurdles.",
+            "Sustainable economic development of Montenegro requires EU approximation and associated investment impulses—an interaction that makes the accession process economically relevant."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Tourism figures and economic diversification plans of a small Balkan country bear no direct relation to Germany."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Positive tourism statistics and economic planning considerations are routine reports without supra-regional significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Rekordna posjeta Lovćenu, prihodi veći za 30 odsto",
+              "url": "https://www.pobjeda.me/clanak/rekordna-posjeta-lovcenu-prihodi-veci-za-30-ooodsto",
+              "publishedAt": "2026-08-04T07:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Migration Policy and Bilateral Normalization: Montenegro's Foreign Policy Week",
+          "summaryDe": [
+            "Prime Minister Spajić categorically ruled out Montenegro establishing EU reception centers for migrants from EU countries—a direct rejection of workaround models by individual EU member states.",
+            "A Montenegrin analyst assessed Italy's third-country migration plan as largely a unilateral initiative without broad EU support and pointed to legal obstacles in European asylum law.",
+            "The positionings show Montenegro caught in a tension between EU approximation rhetoric and demarcation from concrete EU policy contents—a pattern complicating accession negotiations."
+          ],
+          "contextDe": [
+            "Montenegro itself is considered a transit country on the Western Balkans route, making the migration question domestically sensitive and doubly relevant for EU integration.",
+            "Rejection of reception centers by an EU accession candidate sends an ambivalent signal: on one hand, sovereign political will; on the other, potential strain on ongoing accession negotiations.",
+            "The European migration debate remains without a consensus-capable all-European solution, placing third countries like Montenegro in a difficult mediator position."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as central receiving country and driving force behind EU outsourcing models, is directly affected by Montenegro's rejection."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Rejection by an EU candidate country is politically relevant to EU migration debate but remains limited in immediate reach."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Spajić: Centra za prihvat migranata iz zemalja EU u Crnoj Gori...",
+              "url": "https://www.vijesti.me/vijesti/politika/820713/spajic-centra-za-prihvat-migranata-iz-zemalja-eu-u-crnoj-gori-nece-biti",
+              "publishedAt": "2026-08-04T10:26:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Bugarin: Ideja o centru za migrante je unitarna inicijativa iza koje neće stati cijela EU",
+              "url": "https://www.pobjeda.me/clanak/bugarin-ideja-o-centru-za-migrante-je-unitarna-inicijativa-iza-koje-nece-stati-cijela-eu",
+              "publishedAt": "2026-08-05T07:15:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russian Election Interference in France: Attal Files Complaint Before 2027 Presidential Election",
+          "summaryDe": [
+            "Former French Prime Minister Gabriel Attal filed a criminal complaint alleging coordinated Russian disinformation campaigns aimed at influencing the 2027 presidential election.",
+            "France is considered particularly exposed because political polarization provides a favorable environment for Russian narratives; the formal complaint by a prominent politician increases pressure on the judiciary.",
+            "The incident fits into a continent-wide growing concern about Moscow's hybrid operations and could accelerate debate over legal protections against foreign interference."
+          ],
+          "contextDe": [
+            "Russian disinformation operations before elections are not a new phenomenon in Europe, yet the formal legal escalation by a former head of government marks a new quality of political response.",
+            "France as the EU's second-largest economy and permanent UN Security Council member is a particularly attractive target; a weakened French government after the 2027 election would have far-reaching EU consequences.",
+            "Germany has its own experiences with Russian hybrid operations; the French case creates precedent arguments for tougher European protection standards."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russian disinformation operations in a central EU member state affect Europe's democratic stability and are immediately relevant to Germany as closely intertwined partner of France."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A criminal complaint against state-directed foreign election interference in the second-largest EU economy immediately before a presidential election is a politically significant proceeding."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Gabriel Attal alleges Russian interference in French presidential race",
+              "url": "https://www.politico.eu/article/gabriel-attal-files-complaint-over-alleged-russian-disinformation-campaign",
+              "publishedAt": "2026-08-08T09:44:38Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Extreme Heat Costs Europe Up to €800 Billion—Germany Particularly Exposed",
+          "summaryDe": [
+            "An analysis quantifies the economic damage from the sustained heat wave in the EU at up to €800 billion; Germany, France, and Italy are most severely affected.",
+            "Operational shutdowns on construction sites and harvest losses in agriculture constitute the largest portion of projected losses; simultaneously, debate over climate adaptation infrastructure becomes more urgent.",
+            "For Germany as an export nation with energy-intensive industry, production interruptions from heat sum to a structural challenge extending beyond summer and affecting investment decisions."
+          ],
+          "contextDe": [
+            "Extreme heat was previously underrepresented in European economic calculations; the scale of projected damage clarifies that climate consequences already in this decade are becoming a first-rank economic policy issue.",
+            "Debate over air conditioning as vital infrastructure is politically charged, as it touches energy supply, social inequality, and climate goals simultaneously.",
+            "Germany faces the dilemma of financing climate adaptation investments while fiscal policy restrictions and economic deterioration narrow the scope for action."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "According to the analysis, Germany ranks among the most severely affected EU member states with concrete economic losses from the heat wave."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Projected damage in the three-digit billion-euro range from a single heat wave is a major economic development with systemic dimension for the EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Extreme heat puts €800bn hole in Europe's economy — as Germany, France and Italy bear the brunt",
+              "url": "https://euobserver.com/228758/extreme-heat-poses-e800bn-threat-to-eu-economies-with-germany-most-exposed",
+              "publishedAt": "2026-08-06T10:28:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU Transfers €1.4 Billion From Russian Interest Income to Ukraine",
+          "summaryDe": [
+            "The European Commission transferred €1.4 billion from interest income on frozen Russian central bank assets to Ukraine—the instrument is now an established component of European Ukraine financing.",
+            "Russia had repeatedly characterized the measure as illegal and threatened countermeasures, without being able to halt EU decisions.",
+            "The transfer underscores that Europe continues channeling substantial funds to Ukraine despite domestic debates over war fatigue, and the instrument of profit confiscation has achieved political consolidation."
+          ],
+          "contextDe": [
+            "Regular payouts from Russian interest income have proven legally and politically sustainable as an instrument partially decoupling European Ukraine support from national budget discussions.",
+            "Continuation of these payments despite Russian threat gestures signals that the EU has drawn a red line on this point—with potential escalation risks in relation to Moscow.",
+            "For Germany as the largest EU taxpayer, the political and financial sustainability of this mechanism is a core question for medium-term budget planning."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the largest EU taxpayer, Germany is directly engaged in the political and financial sustainability of Ukraine financing mechanisms."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Regular disbursement of substantial sums from Russian interest income is an important instrument of European foreign and security policy with strategic signaling effect."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "EU receives €1.4 billion in revenue from immobilised Russian assets to be used for supporting Ukraine",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1721",
+              "publishedAt": "2026-08-04T22:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceReportDates": [
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-08",
+    "2026-08-09"
+  ],
+  "missingReportDates": []
+}

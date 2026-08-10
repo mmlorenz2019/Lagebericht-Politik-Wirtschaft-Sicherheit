@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-10",
+  "generatedAt": "2026-08-10T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Joe Bidens Krebserkrankung hat sich ausgebreitet – Hunter Biden spricht öffentlich",
+          "summaryDe": [
+            "Hunter Biden hat in einem BBC-Interview offenbart, dass der Prostatakrebs seines Vaters Joe Biden weiter fortgeschritten ist und ihm Schmerzen bereitet.",
+            "Er beschrieb die Situation als sehr traurig anzusehen – ein seltener persönlicher Einblick in den Gesundheitszustand des früheren Präsidenten.",
+            "Dass ein Familienmitglied an die Öffentlichkeit geht, anstatt Auskünfte über offizielle Kanäle zu geben, verleiht der Meldung besonderes Gewicht.",
+            "Der Zustand Bidens dürfte die innenpolitische Debatte über Alter, Gesundheit und Führungsfähigkeit demokratischer Kandidaten erneut befeuern."
+          ],
+          "additionalImportant": "Alexandria Ocasio-Cortez hat in einem Interview erklärt, sie lasse ihre Eizellen einfrieren, und schließt eine Präsidentschafts- oder Senatskandidatur 2028 nicht aus. Das signalisiert eine strategische Neuausrichtung der progressiven Demokratin.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Bidens gesundheitlicher Zustand berührt die US-Innenpolitik und hat indirekt Bedeutung für transatlantische Partnerschaften."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die öffentliche Enthüllung durch ein Familienmitglied über den Gesundheitszustand eines früheren US-Präsidenten ist eine ungewöhnliche und politisch relevante Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Južna Koreja i SAD održaće vojne vježbe zbog promjenjivih...",
+              "url": "https://www.vijesti.me/svijet/globus/821459/juzna-koreja-i-sad-odrzace-vojne-vjezbe-zbog-promjenjivih-prijetnji-iz-sjeverne-koreje",
+              "publishedAt": "2026-08-10T07:17:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA blockieren Hormuzstraße seit fünf Monaten – 55 Schiffe abgewiesen, Märkte volatil",
+          "summaryDe": [
+            "Fünf Monate nach der Schließung der Hormuzstraße weisen US-Streitkräfte weiterhin täglich Dutzende Schiffe ab; zuletzt waren es 55 innerhalb kurzer Zeit.",
+            "Die festgefahrenen Verhandlungen mit dem Iran haben die Ölpreise in Bewegung gehalten, während US-Präsident Trump wiederholt Einigungen andeutete, die dann nicht materialisierten.",
+            "Dass die Märkte trotz ausbleibender Durchbrüche auf Trumps Ankündigungen reagierten, zeigt das anhaltende Unsicherheitsgefälle zwischen politischem Signal und realwirtschaftlicher Lage.",
+            "Gleichzeitig beschuldigt Trump ExxonMobil und Chevron, übermäßig von der Ölpreissituation zu profitieren – ein ungewöhnlicher Angriff auf die eigene Branche."
+          ],
+          "additionalImportant": "Berkshire-Hathaway-CEO Greg Abel investiert erhebliche Teile der unter Warren Buffett angehäuften Barreserven, was Beobachter als Vertrauenssignal in die mittelfristige Wirtschaftsentwicklung werten.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine anhaltende Blockade der Hormuzstraße trifft deutsche Energieimporte und die exportabhängige Industrie konkret."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die fünf Monate andauernde Sperrung einer der wichtigsten Schifffahrtsrouten der Welt ist ein systemisches Ereignis mit globalwirtschaftlicher Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump teased an Iran deal that didn't come, but markets soared. Here's why it keeps happening",
+              "url": "https://www.cnbc.com/2026/08/07/trump-iran-hormuz-deal-stocks-oil.html",
+              "publishedAt": "2026-08-07T17:50:12Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard",
+              "url": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
+              "publishedAt": "2026-08-08T13:28:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Netanjahu lehnt Trumps Gaza-Plan ab – Forderung nach Hamas-Entwaffnung als Vorbedingung",
+          "summaryDe": [
+            "Nur eine Woche nachdem US-Präsident Trump ein historisches Abkommen verkündet hatte, hat Israels Premier Netanjahu den vorgelegten Gaza-Friedensplan öffentlich zurückgewiesen.",
+            "Bedingung Israels ist eine vollständige Entwaffnung der Hamas, bevor weitere Schritte möglich sind – eine Forderung, die den Verhandlungsspielraum erheblich einschränkt.",
+            "Der offene Widerspruch zwischen Trumps Darstellung und Israels Position untergräbt die Glaubwürdigkeit der US-Vermittlung in der Region.",
+            "Parallel dazu intensivieren Israel und die USA ihre koordinierten Angriffe auf Hisbollah-Finanzstrukturen im Libanon, was die gesamte Nahostlage weiter verkompliziert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als EU-Mitglied und Akteur im Nahost-Quartett indirekt betroffen, ohne unmittelbare bilaterale Konsequenzen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Der öffentliche Bruch zwischen Washington und Jerusalem über einen laufenden Friedensprozess ist ein außergewöhnlich bedeutsames diplomatisches Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Mitropolit Metodije u Gornjem Zaostru ponovo prekraja istoriju: Turci pobijedili u Drugom svjetskom ratu pod drugim imenom, Pavle Đurišić i četnici junaci poput oslobodilaca sa Vučjeg dola i Fundine",
+              "url": "https://www.pobjeda.me/clanak/mitropolit-metodije-u-gornjem-zaostru-ponovo-prekraja-istoriju-turci-pobijedili-u-drugom-svjetskom-ratu-pod-drugim-imenom-pavle-durisic-i-cetnici-junaci-poput-oslobodilaca-sa-vucjeg-dola-i-fundine",
+              "publishedAt": "2026-08-10T09:53:00Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Inside the War on Hezbollah's Finances",
+              "url": "https://www.nytimes.com/2026/08/09/world/europe/lebanon-hezbollah-iran-us-finances.html",
+              "publishedAt": "2026-08-09T09:00:15Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taifun Dolphin trifft Zhejiang: 80–90 % der Shanghaier Flüge gestrichen",
+          "summaryDe": [
+            "Taifun Dolphin ist mit Windgeschwindigkeiten von 151 km/h auf die chinesische Küstenprovinz Zhejiang getroffen und hat umgehend massive Verkehrsausfälle ausgelöst.",
+            "In Shanghai wurden 80 bis 90 Prozent aller Flüge gestrichen; Züge und Fährverbindungen waren ebenfalls stark eingeschränkt.",
+            "Gleichzeitig wird nach einem neunjährigen Jungen gesucht, der beim Herannahen des Taifuns an der Küste von einer Welle erfasst und mitgerissen wurde.",
+            "Die Rettungsarbeiten gestalten sich wegen der anhaltend gefährlichen Seeverhältnisse schwierig."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Ein Taifun in Ostchina hat keine direkten Auswirkungen auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Ein schwerer Taifuntreffer mit massiven Transportausfällen in einer der wichtigsten Wirtschaftsregionen Chinas ist regional bedeutsam, bleibt aber ein regelmäßig wiederkehrendes Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Red alert: Shanghai cancels 80% of flights as Typhoon Dolphin makes landfall",
+              "url": "https://www.scmp.com/news/china/article/3363428/red-alert-shanghai-cancels-60-flights-typhoon-dolphin-closes",
+              "publishedAt": "2026-08-09T05:10:53Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese boy, 9, missing after being swept away by wave as Typhoon Dolphin approached coast",
+              "url": "https://www.scmp.com/news/china/article/3363450/chinese-boy-9-missing-after-being-swept-away-wave-typhoon-dolphin-approached-coast",
+              "publishedAt": "2026-08-09T11:47:14Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesisches Team weist Glueball-Teilchen nach – internationaler Durchbruch der Teilchenphysik",
+          "summaryDe": [
+            "Nach 15 Jahren Forschung hat ein chinesisch geführtes internationales Team auf der International Conference on High Energy Physics in Brasilien die Existenz eines Glueball-Teilchens bestätigt.",
+            "Glubälle bestehen ausschließlich aus Gluonen, den Kraftträgern der starken Kernkraft, und galten als theoretisch vorhergesagtes, aber nie eindeutig nachgewiesenes Objekt.",
+            "US-amerikanische und israelische Physiker haben die Entdeckung bereits als Triumph bezeichnet, was die wissenschaftliche Tragweite über nationale Grenzen hinaus unterstreicht.",
+            "Für China bedeutet der Fund einen weiteren Beleg, dass das Land in der Grundlagenforschung inzwischen zur Weltspitze aufschließt."
+          ],
+          "additionalImportant": "Chinesische Forscher haben zudem ein quelloffenes KI-System zur DNA-Analyse bei seltenen Erbkrankheiten veröffentlicht, das kostenlos genutzt werden kann und einen diagnostischen Engpass global adressiert.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Durchbrüche in der Grundlagenforschung aus China tangieren indirekt den globalen Wissenschaftswettbewerb, an dem deutsche Institutionen teilnehmen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die experimentelle Bestätigung eines seit Jahrzehnten theoretisch postulierten Teilchens ist ein außergewöhnliches Ereignis für die Physik."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "What is a glueball? Chinese-led team finds rare particle made entirely of force",
+              "url": "https://www.scmp.com/news/china/science/article/3363404/what-glueball-chinese-led-team-finds-rare-particle-made-entirely-force",
+              "publishedAt": "2026-08-08T13:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Matter of pure force: US, Israeli physicists hail China's glueball discovery as 'triumph'",
+              "url": "https://www.scmp.com/news/china/science/article/3363444/matter-pure-force-us-israeli-physicists-hail-chinas-glueball-discovery-triumph",
+              "publishedAt": "2026-08-09T10:05:54Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinas Hyperschall-Raketendemonstration verschiebt Kräfteverhältnis im Westpazifik",
+          "summaryDe": [
+            "China hat Hyperschallraketen des Typs YJ-20 von Lenkwaffenzerstörern der Klasse 052D aus demonstrativ eingesetzt und damit seine Fähigkeiten gegen Flugzeugträger sichtbar weiterentwickelt.",
+            "Die Waffe ist auf Ziele in der ersten Inselkette ausgelegt und könnte im Fall einer Taiwan-Eskalation US-amerikanische Trägerkampfgruppen binden oder ablenken.",
+            "Beobachter sehen darin eine gezielte Botschaft an Washington und seine Verbündeten in der Region, ohne dass es sich um eine unmittelbare Provokation handelt.",
+            "Parallel signalisiert der Mekka-Pakt zwischen Saudi-Arabien, der Türkei und Pakistan eine Verschiebung im Golf-Sicherheitsgefüge, die Peking strategisch zugutekommen könnte."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Verschiebungen der Machtbalance im Westpazifik berühren Deutschland indirekt über NATO-Verpflichtungen und Handelsrouten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die öffentliche Demonstration neuer Hyperschallkapazitäten durch China ist eine militärstrategisch bedeutsame Entwicklung für die gesamte indopazifische Region."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "How Beijing's hypersonic 'carrier killers' could distract US forces in a Taiwan conflict",
+              "url": "https://www.scmp.com/news/china/military/article/3363386/how-chinas-hypersonic-carrier-killers-could-distract-us-forces-taiwan-conflict",
+              "publishedAt": "2026-08-08T14:00:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China waits in wings as Mecca pact signals Gulf shift away from US security umbrella",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363452/china-waits-wings-mecca-pact-signals-gulf-shift-away-us-security-umbrella",
+              "publishedAt": "2026-08-09T16:00:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bewaffneter Raubüberfall in Budva: 320.000 Euro aus Supermarkt gestohlen",
+          "summaryDe": [
+            "In Budva haben Unbekannte unter Waffenandrohung 320.000 Euro aus einem Markt entwendet – eine für montenegrinische Verhältnisse ungewöhnlich hohe Beute.",
+            "Die Polizei hat Ermittlungen aufgenommen und fahndet aktiv nach den Tätern, ohne bislang Festnahmen zu melden.",
+            "Der Vorfall wirft Fragen zur Sicherheitslage in der Tourismusregion Budva auf, gerade in der Hochsaison.",
+            "Gleichzeitig steht Montenegros Regierung wegen widersprüchlicher außenpolitischer Signale verschiedener Staatsebenen in der Kritik, was die institutionelle Kohärenz des Landes als internationalen Partner schwächt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Ein lokaler Raubüberfall in Montenegro hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Fall ist lokal bedeutsam, bleibt aber auf Montenegro beschränkt ohne überregionale Implikationen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Budva: Uz prijetnju pištoljem uzeli iz marketa 320.000 eura, policija intezivno traga za počiniocima",
+              "url": "https://www.pobjeda.me/clanak/budva-uz-prijetnju-pistoljem-uzeli-iz-marketa-320000-eura-policija-intezivno-traga-za-pociniocima",
+              "publishedAt": "2026-08-09T12:37:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fährroute Kamenari–Lepetane erwirtschaftet 5,4 Millionen Euro in acht Monaten",
+          "summaryDe": [
+            "Die montenegrinische Fährverbindung zwischen Kamenari und Lepetane hat in den ersten acht Monaten des Jahres 2026 einen Umsatz von 5,4 Millionen Euro erzielt.",
+            "Das entspricht 57 Prozent des Jahresziels und einem Anstieg von sieben Prozent gegenüber dem Vorjahreszeitraum.",
+            "Die Route ist für den Tourismus in der Bucht von Kotor eine zentrale Infrastrukturader und ihre Ertragsentwicklung gilt als Indikator für die Tourismuskonjunktur.",
+            "Die Zahlen fügen sich in eine breitere Debatte über den Ausbau der Grenzübergänge ein, die angesichts wachsender Reisezahlen dringend kapazitätserweiternd ausgebaut werden müssten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Einnahmen einer lokalen montenegrinischen Fährroute haben keinen Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Es handelt sich um routinemäßige wirtschaftliche Betriebskennzahlen einer nationalen Verkehrsinfrastruktur."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Trajekti za tri godine „donijeli",
+              "url": "https://www.pobjeda.me/clanak/trajekti-za-tri-godine-donijeli-drzavi-30-miliona-eura",
+              "publishedAt": "2026-08-10T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Frankreich legalisiert assistierten Suizid – Flickenteppich der Sterbehilfegesetze in der EU wächst",
+          "summaryDe": [
+            "Frankreich hat als eines der bevölkerungsreichsten EU-Länder das Recht auf assistiertes Sterben bei unheilbaren Krankheiten eingeführt und schließt sich damit einer wachsenden Gruppe europäischer Staaten an.",
+            "Die nationalen Regelungen unterscheiden sich erheblich: Während die Niederlande und Belgien aktive Sterbehilfe seit Jahren kennen, ist der rechtliche Rahmen in anderen Mitgliedstaaten nach wie vor restriktiv.",
+            "Eine Harmonisierung auf EU-Ebene ist nicht absehbar, da Bioethik und Gesundheitsrecht klar nationale Kompetenz bleiben.",
+            "Frankreichs Schritt dürfte die gesellschaftliche Debatte in Ländern wie Deutschland erneut anheizen, wo das Bundesverfassungsgericht bereits 2020 ein Grundrecht auf selbstbestimmten Tod festgestellt hat."
+          ],
+          "additionalImportant": "Spanien und Italien haben wegen eines Migrationsstreits interne Grenzkontrollen wieder eingeführt, was die Stabilität des Schengen-Raums erneut unter Druck setzt und Reisende in der Hochsaison betrifft.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Sterbehilfedebatte und die Rückkehr von Grenzkontrollen im Schengen-Raum haben konkrete gesellschaftspolitische und praktische Auswirkungen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Votum eines großen EU-Mitgliedstaats für assistierten Suizid und gleichzeitige Schengen-Erosion sind beide größere europapolitische Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "France becomes latest to back assisted dying as patchwork of laws emerges across EU",
+              "url": "https://euobserver.com/231767/france-becomes-latest-to-back-assisted-dying-as-patchwork-of-laws-emerges-across-eu",
+              "publishedAt": "2026-08-07T14:26:01Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Sánchez-Meloni clash brings back borders — and headaches for tourists",
+              "url": "https://www.politico.eu/article/spain-italy-reintroduce-border-controls-amid-migration-feud",
+              "publishedAt": "2026-08-08T12:58:52Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU legt Scaleup Europe Fund mit 5-Milliarden-Ziel auf – Wagniskapital für europäische Startups",
+          "summaryDe": [
+            "Die Europäische Kommission hat die rechtlichen Voraussetzungen für den Start des Scaleup Europe Fund abgeschlossen, der mit einem anfänglichen Zielvolumen von fünf Milliarden Euro europäische Wachstumsunternehmen global wettbewerbsfähiger machen soll.",
+            "Der Fonds adressiert eine strukturelle Schwäche des EU-Binnenmarkts: Viele europäische Startups scheitern nicht in der Frühphase, sondern beim Skalieren auf internationales Niveau.",
+            "Ob die angepeilte Summe tatsächlich erreicht wird, hängt von der Beteiligung privater Investoren ab, die der Fonds durch staatliche Risikoübernahme anlocken soll.",
+            "Parallel prüft die Kommission, ob ein spanischer Schiedsspruch zugunsten des japanischen Konzerns JGC Holdings im Bereich erneuerbarer Energieförderung unzulässige Beihilfe darstellt – ein Thema, das auch andere Investitionsschutzstreitigkeiten in der EU berührt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland als größtes EU-Startup-Ökosystem profitiert direkt von besseren Skalierungsmöglichkeiten für europäische Wachstumsunternehmen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein öffentlich geförderter Fonds in dieser Größenordnung für europäische Technologieunternehmen ist eine strategisch relevante industriepolitische Maßnahme."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Scaleup Europe Fund to start making investments",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1718",
+              "publishedAt": "2026-08-03T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission opens in-depth State aid investigation into arbitration award ordering Spain to pay compensation to JGC Holdings Corporation",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1719",
+              "publishedAt": "2026-08-04T08:02:27Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Deutschland meldet täglich hybride Angriffe – Minister warnt vor Eskalation",
+          "summaryDe": [
+            "Ein deutscher Minister hat öffentlich erklärt, dass Deutschland täglich hybride Kriegsführungsangriffe erlebt, darunter Drohnenvorfälle, und vor einer weiteren Intensivierung gewarnt.",
+            "Die Aussage ist ungewöhnlich direkt und legt nahe, dass die Bedrohungslage eine neue Qualität erreicht hat, die öffentliche Kommunikation erfordert.",
+            "Im Kontext des andauernden Ukraine-Kriegs – russische und ukrainische Seiten tauschen weiterhin Nacht für Nacht Angriffe aus, zuletzt mit Zerstörung eines WHO-Lagerhauses mit humanitären Gütern – wächst die Sorge vor einem Überschwappen des Konflikts auf NATO-Gebiet.",
+            "Ergänzend hat Russland mit dem Rassvet-Satellitennetz erstmals Internetzugang über der Ukraine geschaffen, was künftig die Drohnensteuerung erleichtern könnte."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland ist unmittelbar betroffen: Hybride Angriffe auf deutschem Territorium sind eine direkte Sicherheitsbedrohung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Tägliche hybride Angriffe auf ein NATO-Kernmitglied und neue russische Satellitenfähigkeiten über der Ukraine sind systemisch bedeutsame Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Germany battling 'daily' hybrid warfare attacks, minister warns",
+              "url": "https://www.politico.eu/article/germany-battling-daily-hybrid-warfare-attacks-minister-warns",
+              "publishedAt": "2026-08-09T09:16:31Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Another record-distance Ukrainian strike leaves Russia's Wildberries facing collapse — unless the Kremlin steps in(Ukraine Battlefield update, Day 1,625)",
+              "url": "https://euobserver.com/231772/another-record-distance-ukrainian-strike-leaves-russias-wildberries-facing-collapse-unless-the-kremlin-steps-inukraine-battlefield-update-day-1625",
+              "publishedAt": "2026-08-07T14:03:01Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
