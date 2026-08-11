@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-11",
+  "generatedAt": "2026-08-11T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump signs executive order on childhood vaccinations – false autism claims included",
+          "summaryDe": [
+            "By signing a new executive order, Trump has reduced the number of recommended childhood vaccinations and widened the spacing between vaccination appointments – based on scientifically debunked claims about a link to autism.",
+            "Public health experts responded with sharp criticism: particularly for measles and whooping cough, there is a risk of surging case numbers if vaccination gaps emerge.",
+            "RFK Jr., long an opponent of the existing vaccination schedule, had worked toward this decision; the executive order now provides his agenda with a formal foundation in the executive branch.",
+            "For Germany and the EU, the development is relevant insofar as it can strengthen vaccine skepticism movements in Europe through argumentation and make imported infections more likely in cross-border outbreaks."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Vaccine skepticism is a pan-European phenomenon; a U.S. presidential executive order can fuel disinformation campaigns here."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A presidential executive order that bases itself on demonstrably false information as a policy foundation has far-reaching consequences for the public health system."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Trump signs executive order calling for fewer childhood vaccines, falsely linking shots to autism",
+              "url": "https://www.cnbc.com/2026/08/10/trump-vaccine-executive-order-autism.html",
+              "publishedAt": "2026-08-10T20:51:17Z"
+            },
+            {
+              "name": "NPR",
+              "type": "Public broadcaster",
+              "titleOriginal": "Trump and RFK Jr. try again to upend vaccines for kids",
+              "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order",
+              "publishedAt": "2026-08-10T20:25:02Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Nvidia secures $500 billion financing – Jensen Huang pitches chips as asset class",
+          "summaryDe": [
+            "According to company CEO Jensen Huang, Nvidia has arranged a $500 billion financing line with banks and asset managers; Huang described the graphics processors in a CNBC interview as a fully-fledged asset class for institutional lenders.",
+            "Behind the move lies rapidly growing demand for AI computing capacity, which has put Nvidia in a market position that few technology companies have achieved before.",
+            "The scale of the financing underscores how deeply AI infrastructure is already embedded in global financial markets – and how dependent the system has become on a few key producers.",
+            "For Germany and Europe, which want to build their own semiconductor and AI capacities, this concentration highlights the strategic challenge."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Nvidia chips are central to European AI investments; the financing structure affects prices and availability."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A financing line of this magnitude is unprecedented and demonstrates the systemic importance of the AI chip market."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are 'investable asset'",
+              "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+              "publishedAt": "2026-08-10T22:09:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump demands compensation from Iran – Hormuz negotiations effectively failed",
+          "summaryDe": [
+            "The U.S. President has publicly demanded that Iran make compensation payments for attacks and repression; Tehran countered with a demand for compensation for war damages.",
+            "In doing so, both sides are blocking each other, and hopes for an agreement to open the Strait of Hormuz are fading.",
+            "The waterway remains one of the world's most important energy routes; a prolonged standstill drives up oil prices and burdens the global economy noticeably.",
+            "Germany, as an energy-import dependent economy, would be directly affected by persistently high crude oil prices."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Blocked Strait of Hormuz means higher energy prices with direct consequences for the German economy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The failure of negotiations endangers global energy supply and increases escalation risk."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Trump demands Iran pay compensation as hopes fade for Hormuz agreement",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3363579/trump-demands-iran-pay-compensation-hopes-fade-hormuz-agreement",
+              "publishedAt": "2026-08-10T19:25:31Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taiwan throttles mobile network for the first time – wartime exercise affects 17 million people",
+          "summaryDe": [
+            "For the first time in its history, Taiwan has conducted a deliberate throttling of its mobile network to test how communications can be maintained in a defense scenario.",
+            "17 million people were affected by reduced network coverage during the exercise – an intentional decision to test system resilience under realistic conditions.",
+            "The move is part of a series of other recent civilian preparedness measures and shows how seriously Taipei takes a possible escalation by Beijing.",
+            "As a test case for digital resilience, the exercise also has significance beyond Taiwan: European defense planners are watching such experiments as blueprints for their own concepts."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Taiwan scenarios flow into European and German defense planning; indirect relevance."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "First-ever network shutdown exercise of this scale is a regionally significant signal of war preparation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Why Taiwan is conducting its first-ever mobile network throttling exercise",
+              "url": "https://www.scmp.com/news/china/politics/article/3363551/why-taiwan-conducting-its-first-ever-mobile-network-throttling-exercise",
+              "publishedAt": "2026-08-10T10:59:19Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's Long March 7A rocket explodes 90 seconds after launch – satellite lost",
+          "summaryDe": [
+            "Shortly after liftoff from the Wenchang Space Center, the Long March 7A carrier rocket exploded, destroying the communications satellite ChinaSat-4B aboard.",
+            "For China's space program, this is a rare and painful failure: the Long March series is regarded as reliable, and failures of this kind have barely occurred in recent years.",
+            "Beyond the financial damage – the satellite and launch costs are likely to run into the hundreds of millions – there is now a risk of delays to planned follow-up projects as the launch sequence must be reviewed.",
+            "Internationally, such failures are carefully noted as they provide insight into the actual technical maturity of China's space sector."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "No direct relevance to Germany; at most indirect competitive significance in the space sector."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Unusual setback for China's space program, but remains limited to national level."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "A rare rocket failure led to knock-on effects on China's space launches. What happened?",
+              "url": "https://www.scmp.com/news/china/military/article/3363574/chinas-long-march-7a-rocket-explodes-after-launch-satellite-lost",
+              "publishedAt": "2026-08-10T16:09:01Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Pakistan, Turkey, and Saudi Arabia conclude defense pact – nuclear triangle becomes more complicated",
+          "summaryDe": [
+            "In Mecca, Pakistan, Turkey, and Saudi Arabia have signed a mutual defense agreement that will significantly alter the security landscape in South and Central Asia.",
+            "For the already fragile nuclear triangle of China–India–Pakistan, the agreement represents a new variation: Pakistan can now point to broader regional backing.",
+            "China, which maintains close economic and strategic relations with all three signatory states, faces the question of how to interpret the agreement – as a strengthening of its sphere of influence or as a potential constraint.",
+            "For Europe and Germany, such a pact increases unpredictability in a region that is directly linked to European security policy through energy routes, migration, and terrorism prevention."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Shifts in South Asia's security architecture affect German interests through energy supply and stability."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A three-way defense pact fundamentally alters the regional balance of power."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "China, India and Pakistan's dangerous nuclear triangle just became more complicated",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363555/china-india-and-pakistans-dangerous-nuclear-triangle-just-became-more-complicated",
+              "publishedAt": "2026-08-10T14:07:41Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Dispute over bishop alliance: criticism of Metropolitan Metodije for closeness to Belgrade church hierarchy",
+          "summaryDe": [
+            "Montenegrin politician Miličević has publicly criticized Metropolitan Metodije for aligning himself with the Serbian Orthodox Church in Belgrade on historical commemoration issues rather than taking independent Montenegrin positions.",
+            "The accusation hits a sensitive point: the question of which church hierarchy the Orthodox in Montenegro should follow has been politically charged for years and is closely tied to the national identity debate.",
+            "In the background lies the ongoing dispute between the Montenegrin Orthodox Church and the Serbian Orthodox Church over property, recognition, and influence.",
+            "While such debates remain an internal societal matter, they reflect the deep entanglement of religion and politics that repeatedly strains Montenegro's EU accession process."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Internal ecclesiastical Montenegrin dispute without direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant to Montenegro's internal political stability, but remains regionally limited."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Milićević: Metodije je na liniji beogradske crkvene vrhuške",
+              "url": "https://www.pobjeda.me/clanak/milicevic-metodije-je-na-liniji-beogradske-crkvene-vrhuske",
+              "publishedAt": "2026-08-11T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Startup Index 2026: Montenegro's innovation ecosystem is young – and still very small",
+          "summaryDe": [
+            "An analysis of the Startup Index Montenegro 2026 paints a picture of an ecosystem in its earliest stage of development: only 65 startups were examined, and the average age of companies is unusually low.",
+            "On one hand, this is a sign of emerging entrepreneurial dynamism; on the other, it indicates that venture capital, mentoring structures, and scaling options are still sorely lacking.",
+            "Montenegro has been attempting for years to position itself as a tech hub for the Western Balkans; the numbers show how far that journey still is.",
+            "For German and European investors, the market could become interesting in the long term, but it is currently too fragmented for substantial engagement."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's startup scene currently has no immediate relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Routine analysis of a very small market without trans-regional significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "Independent news outlet",
+              "titleOriginal": "Analiza Startup Index Crne Gore 2026: Crnogorski inovacioni ekosistem izuzetno mlad",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/821608/analiza-startup-index-crne-gore-2026-crnogorski-inovacioni-ekosistem-izuzetno-mlad",
+              "publishedAt": "2026-08-11T08:08:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Major raid in Podgorica: over 50 foreigners arrested for alleged online fraud",
+          "summaryDe": [
+            "In a coordinated police operation in the capital, more than 50 foreign nationals were arrested, with authorities accusing them of organized online fraud activities; the majority of suspects are reportedly Ukrainian citizens.",
+            "Such call-center fraud networks increasingly operate from countries with comparatively lax law enforcement and exploit geographic location as protection.",
+            "For Montenegro, which is conducting EU accession negotiations, such operations are a test of credibility: Brussels is watching how consistently authorities tackle transnational crime.",
+            "Germany is among the frequent target countries for such fraud schemes, which means successful dismantling of operations indirectly benefits German consumers."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German consumers are frequent victims of online fraud; raid in Podgorica has indirect protective effect."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant as a signal of Montenegro's law enforcement capacity in the EU accession process."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Barselona odbila prvu ponudu PSŽ-a za Ferana Toresa vrijednu 50 miliona eura",
+              "url": "https://www.pobjeda.me/clanak/barselona-odbila-prvu-ponudu-psz-a-za-ferana-toresa-vrijednu-50-miliona-eura",
+              "publishedAt": "2026-08-10T22:05:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Le Pen and NATO: warning of a France outside the military alliance",
+          "summaryDe": [
+            "A French political scientist warns in an interview that Marine Le Pen, if she wins the 2027 election, could lead France out of NATO's integrated military structure – a development that would shake the alliance to its foundations.",
+            "Le Pen has never fully clarified her position on NATO and transatlantic security over the years; precisely this ambiguity makes scenarios difficult for defense planners to calculate.",
+            "For Germany, such a step would be dramatic: France is the most important European partner in defense and nuclear deterrence.",
+            "The report appears at a moment when Europe is already debating strategic autonomy and the reliability of the U.S. umbrella – and gives this debate new urgency."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A French exit from NATO would have immediate and far-reaching consequences for German and European security architecture."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The scenario of a NATO exit by the nuclear power France would be an extraordinary security policy watershed."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "Independent EU journalism",
+              "titleOriginal": "[Interview] Far-right Le Pen in the Élysée could pull France out of Nato's military command, French political scientist warns",
+              "url": "https://euobserver.com/231219/interview-far-right-le-pen-in-the-elysee-could-pull-france-out-of-natos-military-command-french-political-scientist-warns",
+              "publishedAt": "2026-08-10T06:56:58Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europe's summer devours growth: heat waves cost Netherlands and France economic output",
+          "summaryDe": [
+            "A new report shows that Europe's persistent heat waves during the summer of 2026 are noticeably slowing European economic growth: the Netherlands is seeing its growth nearly completely melt away, and France faces the prospect of contraction.",
+            "Tourism, construction, and agriculture rank among the hardest-hit sectors – both branches that traditionally contribute substantially to economic output in summer.",
+            "The findings supplement the already-known finding that climate costs in Europe are no longer abstract-future concerns, but are now visible in current quarterly accounts.",
+            "Germany, whose economy is already under pressure, is indirectly affected through interlinked supply chains and shared markets; the report provides another argument for investments in climate resilience."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is directly affected through trade and growth linkages from stagnating growth in France and the Netherlands."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Quantifiable economic heat damage at the EU level is a major development with policy implications."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "Supranational",
+              "titleOriginal": "Europe's scorching summer is erasing its economic growth, says report",
+              "url": "https://www.politico.eu/article/europes-scorching-summer-could-erase-blocs-2026-growth",
+              "publishedAt": "2026-08-10T15:53:32Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Europe running out of Patriot missiles – Ukraine faces defenseless winter attacks",
+          "summaryDe": [
+            "New reports warn that European stockpiles of Patriot air defense missiles are dangerously low while Ukraine prepares for intensified Russian air attacks in winter.",
+            "New production cannot come close to matching consumption; the defense industry structurally lags behind demand.",
+            "At the same time, battlefield reports from the Donbas show that Russian tanks, promoted as drone-proof, are being overwhelmed by Ukrainian drone swarms – underscoring the need for ongoing Western support.",
+            "For Germany, which ranks among the most important suppliers of Patriot systems to Ukraine, the question sharpens of which systems can still be released from its own stocks without jeopardizing its own defense capability."
+          ],
+          "additionalImportant": "Banned Russian fuel is reportedly continuing to enter EU ports, with freight volumes doubled in July – a separate but equally weighted sanctions problem.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany is directly affected as a Patriot supplier; shortage of air defense endangers Ukrainian stability and thus European security."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Potential failure of European air defense capacity for Ukraine is a systemically critical problem for the war situation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "Supranational",
+              "titleOriginal": "Europe is running out of Patriot missiles as Ukraine braces for Russia's winter attacks",
+              "url": "https://www.politico.eu/article/europe-patriot-missile-ukraine-russia-war-winter-attack",
+              "publishedAt": "2026-08-10T14:54:52Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "Independent EU journalism",
+              "titleOriginal": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
+              "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
+              "publishedAt": "2026-08-10T15:11:36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
