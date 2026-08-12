@@ -11,6 +11,11 @@ on:
     - cron: '53 11 * * *'
       timezone: "Europe/Berlin"
   workflow_dispatch:
+    inputs:
+      date:
+        description: "Verpasstes Datum nachholen (YYYY-MM-DD), leer lassen für heute"
+        required: false
+        type: string
 
 concurrency:
   group: daily-report
@@ -39,7 +44,13 @@ jobs:
         env:
           PYTHONPATH: src
           TZ: Europe/Berlin
-        run: python -m lagebericht.schedule >> "$GITHUB_OUTPUT"
+          MANUAL_DATE: ${{ github.event.inputs.date }}
+        run: |
+          if [ -n "$MANUAL_DATE" ]; then
+            python -m lagebericht.schedule --date "$MANUAL_DATE" >> "$GITHUB_OUTPUT"
+          else
+            python -m lagebericht.schedule >> "$GITHUB_OUTPUT"
+          fi
       - name: Tagesbericht erzeugen
         if: steps.schedule.outputs.daily == 'true'
         env:

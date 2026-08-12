@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import calendar
 import json
 from dataclasses import dataclass
@@ -118,8 +119,18 @@ def due_outputs(day: date, data_root: Path) -> dict[str, bool]:
 
 
 def main() -> None:
-    now = berlin_now()
-    day = now.date()
+    parser = argparse.ArgumentParser(
+        description="Bestimmt fällige Tages-, Wochen- und Monatsberichte für ein Datum."
+    )
+    parser.add_argument(
+        "--date",
+        type=date.fromisoformat,
+        default=None,
+        help="Berliner Datum überschreiben (YYYY-MM-DD), z. B. um einen verpassten Tag "
+        "manuell nachzuholen. Standard: das heutige Berliner Datum.",
+    )
+    args = parser.parse_args()
+    day = args.date or berlin_now().date()
     targets = period_targets(day)
     outputs = due_outputs(day, Path("data"))
     print(f"daily={str(outputs['daily']).lower()}")

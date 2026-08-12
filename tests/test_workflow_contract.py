@@ -107,6 +107,28 @@ class WorkflowContractTests(unittest.TestCase):
             weekly.write_text(json.dumps(valid_week_report(["2026-08-02"])), encoding="utf-8")
             complete = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True)
             self.assertEqual(complete.returncode, 0)
+
+    def test_schedule_cli_accepts_a_manual_date_override(self):
+        env = {**os.environ, "PYTHONPATH": str(ROOT / "src"), "TZ": "Europe/Berlin"}
+        result = subprocess.run(
+            [sys.executable, "-m", "lagebericht.schedule", "--date", "2026-08-12"],
+            cwd=ROOT, env=env, capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0)
+        self.assertIn("date=2026-08-12", result.stdout)
+        # 2026-08-12 is a Wednesday: neither a week nor a month is due for it.
+        self.assertIn("week=false", result.stdout)
+        self.assertIn("month=false", result.stdout)
+
+    def test_schedule_cli_defaults_to_todays_berlin_date_without_override(self):
+        env = {**os.environ, "PYTHONPATH": str(ROOT / "src"), "TZ": "Europe/Berlin"}
+        result = subprocess.run(
+            [sys.executable, "-m", "lagebericht.schedule"],
+            cwd=ROOT, env=env, capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0)
+        self.assertRegex(result.stdout, r"date=\d{4}-\d{2}-\d{2}")
+
     def test_monday_targets_previous_calendar_week(self):
         targets = period_targets(date(2026, 8, 3))
         self.assertEqual(targets.week_end, date(2026, 8, 2))
@@ -302,6 +324,12 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("if: always()", text)
         self.assertIn("python scripts/verify_periods.py", text)
         self.assertEqual(text.count("continue-on-error: true"), 2)
+
+    def test_daily_workflow_manual_trigger_accepts_a_date_override(self):
+        text = (ROOT / ".github" / "workflows" / "daily-report.yml").read_text(encoding="utf-8")
+        self.assertIn("workflow_dispatch:", text)
+        self.assertIn("date:", text)
+        self.assertIn("--date \"$MANUAL_DATE\"", text)
         self.assertRegex(text, r"(?s)- name: Wochenbericht erzeugen.*?continue-on-error: true")
         self.assertRegex(text, r"(?s)- name: Monatsbericht erzeugen.*?continue-on-error: true")
         self.assertIn("if: ${{ !cancelled() && steps.schedule.outputs.week == 'true' }}", text)
