@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-13",
+  "generatedAt": "2026-08-12T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "White House Loses Press Secretary: Karoline Leavitt Steps Down",
+          "summaryDe": [
+            "Karoline Leavitt, White House press secretary, has announced her resignation – citing the desire to spend more time with her family following the birth of her second child.",
+            "She was one of the most prominent faces of the Trump administration and one of the youngest people to hold the position.",
+            "The White House initially left open the question of her successor; President Trump confirmed the report via Truth Social.",
+            "The departure comes during an already turbulent period in which the government's communication strategy has repeatedly come under pressure."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "A personnel change in the White House press office does not directly affect Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Personnel announcements from government are relevant but remain limited to domestic politics."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "White House press secretary leaving",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929560/karoline-leavitt-white-house-press-secretary-leaving",
+              "publishedAt": "2026-08-12T20:05:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US Inflation Weaker in July – Fed Rate Hike Less Likely in September",
+          "summaryDe": [
+            "Consumer prices in the US rose just 0.1 percent in July; the annual rate stands at 3.4 percent.",
+            "Gasoline and food prices declined and were the main drivers of the slowdown.",
+            "For the Federal Reserve, this reduces pressure to raise rates further at its September meeting.",
+            "At the same time, the Treasury Department reported the highest monthly budget deficit since March 2021 in July; the ten-year fiscal year total is approaching 1.8 trillion dollars.",
+            "The combination of falling inflation and rising deficits poses difficult trade-offs for the administration's fiscal policy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "US interest rate decisions indirectly influence European capital markets and the euro-dollar exchange rate."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Inflation and budget data from the world's largest economy are significant for global markets and monetary policy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "Inflation eases in July as gasoline and grocery prices fall",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929122/inflation-cpi-economy-gas-grocery",
+              "publishedAt": "2026-08-12T14:00:29Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news outlet",
+              "titleOriginal": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+              "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+              "publishedAt": "2026-08-12T14:27:35Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Colombia Earthquake Kills Over 200 – New Government Under Pressure",
+          "summaryDe": [
+            "A magnitude 7.4 earthquake struck Colombia's west coast on August 12, killing more than 200 people.",
+            "Rescue efforts continue as the new government coordinates disaster response – an early test for the fresh cabinet.",
+            "China offered immediate aid and apparently leveraged the offer diplomatically, as Bogotá under new leadership has been tilting more toward Washington.",
+            "The US has not yet announced major aid of its own; the geopolitical dimension of the earthquake is likely to influence relations between the three countries in the coming weeks."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The earthquake affects Colombia and the US-China rivalry in Latin America; Germany is not directly affected."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Over 200 deaths and a geopolitically charged aid debate make the event a significant international story."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China offers Colombia quake relief as new president's US pivot leaves Beijing waiting",
+              "url": "https://www.scmp.com/news/china/article/3363834/china-offers-colombia-quake-relief-new-presidents-us-pivot-leaves-beijing-waiting",
+              "publishedAt": "2026-08-12T22:15:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Reform Architect Zhu Rongji Dead – End of an Economic Era",
+          "summaryDe": [
+            "Zhu Rongji, China's former premier and driving force behind the economic reforms of the 1990s, has died at age 97 in Beijing.",
+            "He oversaw China's WTO accession in 2001, restructured ailing state enterprises, and laid the foundation for the country's economic rise.",
+            "Zhu was unusually direct for a top Chinese politician – and polarized accordingly: admiration and criticism were often equally divided during his lifetime.",
+            "With him, China loses one of the last great reform politicians of the Deng Xiaoping era, whose pragmatic approach differs markedly from today's state capitalism under Xi Jinping."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Zhu Rongji's reforms created the economic foundation of German-Chinese trade relations, but his death has no direct political impact."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The death of a historically formative figure in Chinese economic history is internationally significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Zhu Rongji, China's chief engineer of economic reform and former premier, dies aged 97",
+              "url": "https://www.scmp.com/news/china/politics/article/3363792/chinese-economic-reformer-zhu-rongji-dies-aged-97",
+              "publishedAt": "2026-08-12T10:01:47Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinese Physicists Deliver Strongest Evidence for Mysterious Glueball Particle",
+          "summaryDe": [
+            "A Chinese-led research team has provided the most convincing evidence yet for the existence of the so-called glueball – a particle composed exclusively of the strong nuclear force, without quarks.",
+            "American and Israeli physicists praised the finding as a scientific triumph; for decades, the glueball was theoretically predicted but experimentally elusive.",
+            "The discovery would not refute the Standard Model of particle physics but would significantly complement it.",
+            "For China's scientific reputation, the finding is considerable: it shows that the country competes with leading Western institutions in fundamental research."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German particle physics facilities such as DESY and research groups at CERN closely follow such fundamental discoveries."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A confirmed glueball would be a milestone in particle physics with implications for understanding the strong interaction."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's glueball 'triumph'; SpaceX rocket debris caught on video: 7 science highlights",
+              "url": "https://www.scmp.com/news/china/science/article/3363605/chinas-glueball-triumph-spacex-rocket-debris-caught-video-7-science-highlights",
+              "publishedAt": "2026-08-12T07:30:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US and 40 Allies Demand 24-Hour Warning Before Chinese Missile Tests",
+          "summaryDe": [
+            "Following a rare Chinese long-range missile test in the Pacific last month, the US and approximately 40 allies have issued a joint demand that Beijing provide at least 24 hours' notice before such launches.",
+            "The test had drawn international attention because China did not communicate the timing or target area in advance – endangering shipping and airspace.",
+            "The collective response from so many countries signals how seriously the concerns are being taken, even though China faces no legal obligation.",
+            "Meanwhile, the PLA and Indonesian armed forces announced their first joint naval exercises east of Taiwan – a signal underscoring Beijing's growing influence with Southeast Asian partners."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany, as a NATO member and signatory to relevant arms control initiatives, is indirectly affected."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A coordinated demand from 40 states for military transparency toward China is diplomatically unusual and significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "After China's missile test, US and allies demand 24-hour warning next time",
+              "url": "https://www.scmp.com/news/china/military/article/3363754/after-chinas-missile-test-us-and-allies-demand-24-hour-warning-next-time",
+              "publishedAt": "2026-08-12T07:01:49Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Wildfires Rage in Multiple Regions – Firefighters Battle Shifting Winds",
+          "summaryDe": [
+            "Simultaneous fires in Nikšić, Bar, Herceg Novi, and Kolašin are straining Montenegro's firefighting crews; shifting winds significantly complicate extinguishing efforts.",
+            "Several houses near Herceg Novi were evacuated as a precaution; emergency personnel managed to secure the threatened structures for now.",
+            "The fires coincide with a period of sustained summer heat affecting other parts of the Balkans and the Adriatic region.",
+            "For local residents and tourism, the fires represent a major burden during peak season."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Local fires in Montenegro have no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Simultaneous fires across four regions are significant for Montenegro but remain nationally limited."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business news outlet",
+              "titleOriginal": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+              "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+              "publishedAt": "2026-08-12T14:27:35Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tourism Data: Germans and Poles Coming More Frequently, Turkish Guests Plummet",
+          "summaryDe": [
+            "Current figures show that Montenegro's tourism is experiencing a distinctly changed country-of-origin profile: German visitors are increasing, Polish overnight stays grew by 31 percent to 145,000, US visits rose 22 percent to 115,000.",
+            "At the same time, the number of Turkish tourists has fallen sharply – a decline that is economically noticeable, as Turkey had previously been an important source market.",
+            "For Montenegro's coastal tourism, the shift toward Western European guests could mean higher per-capita spending in the medium term.",
+            "The figures are likely to reignite debate over infrastructure and capacity along the Adriatic."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Growing German tourist numbers in Montenegro demonstrate a direct connection, even if the economic impact on Germany itself is minimal."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Tourism figures are relevant for a small economy like Montenegro but lack broader international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "ICE plans to outfit officers with electric shock gloves",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929545/ice-buys-electric-shock-gloves",
+              "publishedAt": "2026-08-12T22:13:57Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegro's New Security Strategy: Organized Crime and Emigration as Main Threats",
+          "summaryDe": [
+            "Montenegro has released its third national security document, identifying a broad threat spectrum: from organized crime and corruption to youth emigration, climate change, energy security, and food supply.",
+            "The inclusion of emigration as a security threat is unusual and reflects concern that continued brain drain endangers structural state capacity.",
+            "A concrete implementation plan remains outstanding, which critics see as a weakness of the document.",
+            "For a country on the EU accession path, functioning security policy is also a prerequisite for alignment with Brussels."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As an EU accession candidate, Montenegro's internal security situation is relevant to the EU and thus indirectly to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "National security strategies of small Balkan states are regionally relevant but have limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business news outlet",
+              "titleOriginal": "Trump says Karoline Leavitt resigning as White House press secretary",
+              "url": "https://www.cnbc.com/2026/08/12/trump-white-house-karoline-leavitt-resigning-.html",
+              "publishedAt": "2026-08-12T22:08:51Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russian Disinformation Targets German Federal Election: Operation 'Matryoshka' Floods German Internet",
+          "summaryDe": [
+            "According to an EUobserver report, Russia is deliberately deploying AI-generated fakes masquerading as BBC, ARD, and German newspapers to manipulate public opinion ahead of Germany's federal election in September.",
+            "The operation, called 'Matryoshka,' is disseminating content massively across social networks, targeting German-language users.",
+            "The approach demonstrates a new level of sophistication: not just texts but videos are produced in a deceptively authentic style of established news media.",
+            "For Germany, this represents a direct threat to the integrity of the electoral process weeks before the vote."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The operation explicitly targets the German federal election and uses counterfeit German media brands."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "State-directed AI disinformation against an election in Europe's largest democracy has systemic significance for the entire EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Operation Matryoshka: Russia using 'BBC news' fakes to pervert key German vote",
+              "url": "https://euobserver.com/231951/operation-matryoshka-russia-using-bbc-news-fakes-to-pervert-key-german-vote",
+              "publishedAt": "2026-08-11T13:03:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Russian Fuel Embargo Leaky: Deliveries to EU Ports Doubled in July",
+          "summaryDe": [
+            "Despite existing sanctions, 18 shipments of oil products from refineries that process Russian crude oil reached EU ports in July – double the number from the previous month.",
+            "The EUobserver report illustrates how difficult it is to enforce sanctions in a globally connected tanker industry, especially when intermediaries and transshipment hubs are deliberately exploited to obscure origin.",
+            "For EU member states, including Germany, this is politically sensitive: sanctions policy loses credibility if prohibited fuel continues to be imported through workarounds.",
+            "The European Commission has yet to present a concrete mechanism to close these loopholes."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany imports energy products and, as the largest EU budget contributor, is directly affected by the effectiveness of Russia sanctions."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematic circumvention of EU sanctions through doubled cargo volumes in July is a significant development in European energy policy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
+              "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
+              "publishedAt": "2026-08-10T15:11:36Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Germany Strengthens Intelligence Services Against Russian Hybrid Threat",
+          "summaryDe": [
+            "According to EUobserver, the German government is planning a comprehensive reform of German intelligence services, granting them significantly expanded powers to counter hybrid Russian attacks.",
+            "A stated goal is reducing dependence on US intelligence – a motive that has gained urgency since Washington's partial withdrawal from European security structures.",
+            "Hybrid threats, including cyberattacks, sabotage, and the disinformation described above, have increased markedly in Germany in recent years.",
+            "The reform signals that Berlin no longer assumes Washington will fill these gaps."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "This is a direct reform of German security architecture with immediate consequences for the German state."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A reorientation of German intelligence has implications for the entire European security architecture."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "What is now happening at the viral Moscow refinery whose 'roof flew off' in a blast in June? (Ukraine Battlefield update, Day 1,630)",
+              "url": "https://euobserver.com/232193/what-is-now-happening-at-the-viral-moscow-refinery-whose-roof-flew-off-in-a-blast-in-june-ukraine-battlefield-update-day-1630",
+              "publishedAt": "2026-08-12T14:21:21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

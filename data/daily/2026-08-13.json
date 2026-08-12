@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-13",
+  "generatedAt": "2026-08-12T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Weißes Haus verliert Sprecherin: Karoline Leavitt tritt zurück",
+          "summaryDe": [
+            "Karoline Leavitt, Sprecherin des Weißen Hauses, hat ihren Rücktritt erklärt – nach eigenen Angaben um nach der Geburt ihres zweiten Kindes mehr Zeit mit ihrer Familie verbringen zu können.",
+            "Sie gehörte zu den markantesten Gesichtern der Trump-Administration und war eine der jüngsten Personen, die das Amt je bekleidet haben.",
+            "Wer ihr nachfolgt, ließ das Weiße Haus zunächst offen; Präsident Trump bestätigte die Meldung über Truth Social.",
+            "Der Abgang fällt in eine ohnehin turbulente Phase, in der die Kommunikationsstrategie der Regierung wiederholt unter Druck geraten ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Ein personeller Wechsel in der Pressestelle des Weißen Hauses berührt Deutschland nicht direkt."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Personalnachrichten aus der Regierung sind relevant, bleiben aber innenpolitisch begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "White House press secretary leaving",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929560/karoline-leavitt-white-house-press-secretary-leaving",
+              "publishedAt": "2026-08-12T20:05:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Inflation im Juli schwächer – Fed-Zinserhöhung im September unwahrscheinlicher",
+          "summaryDe": [
+            "Die Verbraucherpreise in den USA stiegen im Juli nur um 0,1 Prozent; die Jahresrate liegt bei 3,4 Prozent.",
+            "Benzin- und Lebensmittelpreise gaben nach und trugen maßgeblich zur Abschwächung bei.",
+            "Für die Federal Reserve reduziert das den Druck, auf ihrer September-Sitzung die Zinsen weiter anzuheben.",
+            "Gleichzeitig meldete das Finanzministerium für Juli das höchste Haushaltsdefizit seit März 2021; das Zehnjahres-Fiskaljahr-Total nähert sich 1,8 Billionen Dollar.",
+            "Die Kombination aus sinkender Inflation und wachsendem Defizit stellt die Haushaltspolitik der Administration vor schwierige Abwägungen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "US-Zinsentscheidungen beeinflussen indirekt europäische Kapitalmärkte und den Euro-Dollar-Kurs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Inflations- und Haushaltsdaten der weltgrößten Volkswirtschaft sind für globale Märkte und Geldpolitik bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Inflation eases in July as gasoline and grocery prices fall",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929122/inflation-cpi-economy-gas-grocery",
+              "publishedAt": "2026-08-12T14:00:29Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+              "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+              "publishedAt": "2026-08-12T14:27:35Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Kolumbien-Erdbeben fordert über 200 Tote – neue Regierung unter Druck",
+          "summaryDe": [
+            "Ein Erdbeben der Stärke 7,4 erschütterte am 12. August die Westküste Kolumbiens und tötete mehr als 200 Menschen.",
+            "Rettungskräfte suchen weiter nach Überlebenden, während die neue Regierung die Katastrophenreaktion koordiniert – ein früher Stresstest für das frische Kabinett.",
+            "China bot Soforthilfe an und nutzte das Angebot offenbar auch diplomatisch, da Bogotá unter der neuen Führung eher Richtung Washington tendiert.",
+            "Die USA haben bislang keine größere eigene Hilfsankündigung gemacht; die geopolitische Dimension des Erdbebens dürfte die Beziehungen zwischen den drei Ländern in den kommenden Wochen beeinflussen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Erdbeben betrifft Kolumbien und die US-China-Rivalität in Lateinamerika; Deutschland ist nicht unmittelbar betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Über 200 Todesopfer und eine geopolitisch aufgeladene Hilfsdebatte machen das Ereignis zu einer bedeutenden internationalen Meldung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China offers Colombia quake relief as new president's US pivot leaves Beijing waiting",
+              "url": "https://www.scmp.com/news/china/article/3363834/china-offers-colombia-quake-relief-new-presidents-us-pivot-leaves-beijing-waiting",
+              "publishedAt": "2026-08-12T22:15:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Reformarchitekt Zhu Rongji gestorben – das Ende einer Wirtschaftsära",
+          "summaryDe": [
+            "Zhu Rongji, Chinas ehemaliger Premierminister und treibende Kraft hinter den Wirtschaftsreformen der 1990er Jahre, ist im Alter von 97 Jahren in Peking gestorben.",
+            "Er verantwortete den WTO-Beitritt Chinas im Jahr 2001, sanierte marode Staatsunternehmen und legte damit das Fundament für den wirtschaftlichen Aufstieg des Landes.",
+            "Zhu galt als ungewöhnlich direkt für einen chinesischen Spitzenpolitiker – und polarisierte entsprechend: Bewunderung und Kritik hielten sich zu Lebzeiten oft die Waage.",
+            "Mit ihm verliert China einen der letzten großen Reformpolitiker der Deng-Xiaoping-Ära, deren pragmatischer Kurs sich vom heutigen Staatskapitalismus unter Xi Jinping deutlich unterscheidet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Zhu Rongjis Reformen schufen die wirtschaftliche Grundlage der deutsch-chinesischen Handelsbeziehungen, sein Tod hat jedoch keinen unmittelbaren politischen Effekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Tod einer historisch prägenden Figur der chinesischen Wirtschaftsgeschichte ist international bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Zhu Rongji, China's chief engineer of economic reform and former premier, dies aged 97",
+              "url": "https://www.scmp.com/news/china/politics/article/3363792/chinese-economic-reformer-zhu-rongji-dies-aged-97",
+              "publishedAt": "2026-08-12T10:01:47Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesische Physiker liefern stärkste Belege für mysteriöses Glueball-Teilchen",
+          "summaryDe": [
+            "Einem chinesisch geführten Forschungsteam ist es gelungen, die bisher überzeugendsten Beweise für die Existenz des sogenannten Glueballs vorzulegen – einem Teilchen, das ausschließlich aus der starken Kernkraft besteht, ohne Quarks.",
+            "Amerikanische und israelische Physiker lobten den Befund als wissenschaftlichen Triumph; jahrzehntelang galt das Glueball als theoretisch vorhergesagt, aber experimentell kaum greifbar.",
+            "Der Nachweis würde das Standardmodell der Teilchenphysik nicht widerlegen, aber entscheidend ergänzen.",
+            "Für Chinas wissenschaftliche Reputation ist der Fund erheblich: Er zeigt, dass das Land in der Grundlagenforschung mit den führenden westlichen Einrichtungen konkurriert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Teilchenphysikeinrichtungen wie DESY und Forschungsgruppen am CERN verfolgen solche Grundlagenentdeckungen eng."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein bestätigtes Glueball wäre ein Meilenstein in der Teilchenphysik mit Auswirkungen auf das Verständnis der starken Wechselwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's glueball 'triumph'; SpaceX rocket debris caught on video: 7 science highlights",
+              "url": "https://www.scmp.com/news/china/science/article/3363605/chinas-glueball-triumph-spacex-rocket-debris-caught-video-7-science-highlights",
+              "publishedAt": "2026-08-12T07:30:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA und 40 Verbündete fordern 24-Stunden-Warnung vor chinesischen Raketentests",
+          "summaryDe": [
+            "Nach einem seltenen chinesischen Langstreckenraketentest im Pazifik im vergangenen Monat haben die USA und rund 40 Verbündete eine gemeinsame Forderung formuliert: Peking soll künftig mindestens 24 Stunden vor solchen Abschüssen warnen.",
+            "Der Test hatte international für Aufsehen gesorgt, weil China weder Zeitpunkt noch Zielgebiet vorab kommuniziert hatte – was Schifffahrt und Luftraum gefährdete.",
+            "Die kollektive Reaktion so vieler Staaten signalisiert, wie ernst die Bedenken genommen werden, auch wenn China keine rechtliche Verpflichtung trifft.",
+            "Gleichzeitig meldeten PLA und indonesische Streitkräfte das erste gemeinsame Marinmanöver östlich Taiwans – ein Signal, das Pekings wachsenden Einfluss auf südostasiatische Partnerländer unterstreicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als NATO-Mitglied und Unterzeichner entsprechender Rüstungskontrollinitiativen indirekt berührt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine koordinierte Forderung von 40 Staaten nach militärischer Transparenz gegenüber China ist diplomatisch ungewöhnlich und bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "After China's missile test, US and allies demand 24-hour warning next time",
+              "url": "https://www.scmp.com/news/china/military/article/3363754/after-chinas-missile-test-us-and-allies-demand-24-hour-warning-next-time",
+              "publishedAt": "2026-08-12T07:01:49Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Waldbrände wüten in mehreren Regionen – Feuerwehr kämpft gegen wechselnde Winde",
+          "summaryDe": [
+            "Gleichzeitige Brände in Nikšić, Bar, Herceg Novi und Kolašin halten Montenegros Feuerwehren in Atem; wechselnde Winde erschweren die Löscharbeiten erheblich.",
+            "Bei Herceg Novi wurden mehrere Häuser vorsorglich evakuiert, die Einsatzkräfte konnten die bedrohten Objekte vorerst sichern.",
+            "Die Brände fallen in eine Periode anhaltender Sommerhitze, die auch andere Teile des Balkans und der Adria-Region belastet.",
+            "Für die lokale Bevölkerung und den Tourismus bedeuten die Feuer eine erhebliche Belastung in der Hochsaison."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Lokale Brände in Montenegro haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die gleichzeitigen Brände in vier Regionen sind für Montenegro bedeutsam, bleiben aber national begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+              "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+              "publishedAt": "2026-08-12T14:27:35Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tourismusdaten: Deutsche und Polen kommen häufiger, türkische Gäste brechen ein",
+          "summaryDe": [
+            "Aktuelle Zahlen zeigen, dass Montenegros Tourismus ein deutlich verändertes Herkunftsprofil bekommt: Deutsche Besucher legen zu, polnische Übernachtungen wuchsen um 31 Prozent auf 145.000, US-amerikanische um 22 Prozent auf 115.000.",
+            "Gleichzeitig ist die Zahl türkischer Touristen drastisch gefallen – ein Rückgang, der wirtschaftlich spürbar ist, da die Türkei bislang ein wichtiger Quellmarkt war.",
+            "Für den montenegrinischen Küstentourismus könnte die Verschiebung Richtung westeuropäischer Gäste mittelfristig höhere Ausgaben pro Kopf bedeuten.",
+            "Die Zahlen dürften die Debatte über Infrastruktur und Kapazitäten an der Adria neu befeuern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Wachsende deutsche Touristenzahlen in Montenegro zeigen eine direkte Verbindung, auch wenn die wirtschaftlichen Auswirkungen auf Deutschland selbst gering sind."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Tourismuszahlen sind für eine kleine Volkswirtschaft wie Montenegro relevant, haben aber keine breitere internationale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "ICE plans to outfit officers with electric shock gloves",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929545/ice-buys-electric-shock-gloves",
+              "publishedAt": "2026-08-12T22:13:57Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegros neue Sicherheitsstrategie: Organisierte Kriminalität und Abwanderung als Hauptbedrohungen",
+          "summaryDe": [
+            "Montenegro hat sein drittes nationales Sicherheitsdokument vorgelegt, das ein breites Bedrohungsspektrum benennt: von organisierter Kriminalität und Korruption über Jugendabwanderung bis hin zu Klimawandel, Energiesicherheit und Lebensmittelversorgung.",
+            "Die Aufnahme von Emigration als Sicherheitsbedrohung ist ungewöhnlich und spiegelt die Sorge wider, dass der anhaltende Braindrain strukturelle staatliche Kapazitäten gefährdet.",
+            "Ein konkreter Umsetzungsplan steht noch aus, was Kritiker als Schwachpunkt des Dokuments sehen.",
+            "Für ein Land auf dem EU-Beitrittsweg ist eine funktionierende Sicherheitspolitik auch Voraussetzung für die Annäherung an Brüssel."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als EU-Beitrittskandidat ist Montenegros innere Sicherheitslage für die EU und damit indirekt für Deutschland relevant."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Nationale Sicherheitsstrategien kleiner Balkanstaaten sind regional relevant, aber von begrenzter internationaler Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump says Karoline Leavitt resigning as White House press secretary",
+              "url": "https://www.cnbc.com/2026/08/12/trump-white-house-karoline-leavitt-resigning-.html",
+              "publishedAt": "2026-08-12T22:08:51Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russische Desinformation zielt auf Bundestagswahl: Operation 'Matryoshka' flutet deutsches Netz",
+          "summaryDe": [
+            "Russland setzt laut einem Bericht des EUobserver gezielt KI-generierte Gefälschte ein, die sich als BBC, ARD und deutsche Tageszeitungen tarnen, um im Vorfeld der deutschen Bundestagswahl im September die öffentliche Meinung zu manipulieren.",
+            "Die als 'Matryoshka' bezeichnete Operation verbreitet die Inhalte massenhaft über soziale Netzwerke, ausgerichtet auf deutschsprachige Nutzer.",
+            "Das Vorgehen zeigt eine neue Qualität: Nicht nur Texte, sondern auch Videos werden täuschend echt im Stil etablierter Nachrichtenmedien produziert.",
+            "Für Deutschland bedeutet das eine direkte Bedrohung der Integrität des Wahlprozesses wenige Wochen vor der Abstimmung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Operation richtet sich explizit gegen die deutsche Bundestagswahl und nutzt gefälschte deutsche Medienmarken."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Staatlich gesteuerte KI-Desinformation gegen eine Wahl in Europas größter Demokratie hat systemische Bedeutung für die gesamte EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Operation Matryoshka: Russia using 'BBC news' fakes to pervert key German vote",
+              "url": "https://euobserver.com/231951/operation-matryoshka-russia-using-bbc-news-fakes-to-pervert-key-german-vote",
+              "publishedAt": "2026-08-11T13:03:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Russisches Treibstoff-Embargo löchrig: Lieferungen in EU-Häfen im Juli verdoppelt",
+          "summaryDe": [
+            "Trotz bestehender Sanktionen gelangten im Juli 18 Schiffsladungen Ölprodukte aus Raffinerien, die zum Teil russisches Rohöl verarbeiten, in EU-Häfen – doppelt so viele wie im Vormonat.",
+            "Die Meldung des EUobserver verdeutlicht, wie schwer es ist, Sanktionen in einer global vernetzten Tankerwirtschaft durchzusetzen, zumal Zwischenhändler und Umladehäfen gezielt zur Verschleierung genutzt werden.",
+            "Für die EU-Mitgliedstaaten, darunter Deutschland, ist das politisch heikel: Die Sanktionspolitik verliert an Glaubwürdigkeit, wenn verbotener Brennstoff über Umwege weiter eingeführt wird.",
+            "Die Europäische Kommission hat bislang keinen konkreten Schließungsmechanismus für diese Schlupflöcher präsentiert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland importiert Energieprodukte und ist als größter EU-Haushaltszahler direkt von der Wirksamkeit der Russland-Sanktionen betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematisches Unterlaufen von EU-Sanktionen durch doppelte Rohstoffmengen im Juli ist eine bedeutende Entwicklung in der europäischen Energiepolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Banned Russian fuel keeps re-entering EU ports, with cargoes doubling in July",
+              "url": "https://euobserver.com/231924/banned-russian-fuel-keeps-re-entering-eu-ports-with-cargoes-doubling-in-july",
+              "publishedAt": "2026-08-10T15:11:36Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Deutschland stärkt Geheimdienste gegen russische Hybridbedrohung",
+          "summaryDe": [
+            "Die Bundesregierung plant laut EUobserver eine umfangreiche Reform der deutschen Nachrichtendienste und gibt ihnen deutlich erweiterte Befugnisse zur Abwehr hybrider russischer Angriffe.",
+            "Ein erklärtes Ziel ist die Verringerung der Abhängigkeit von US-Geheimdienstinformationen – ein Motiv, das seit dem partiellen Rückzug Washingtons aus europäischen Sicherheitsstrukturen an Dringlichkeit gewonnen hat.",
+            "Hybride Bedrohungen, zu denen Cyberangriffe, Sabotage und die oben beschriebene Desinformation gehören, haben in Deutschland in den vergangenen Jahren deutlich zugenommen.",
+            "Die Reform signalisiert, dass Berlin nicht länger darauf vertraut, dass Washington diese Lücken füllt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Es handelt sich um eine direkte Reform der deutschen Sicherheitsarchitektur mit unmittelbaren Folgen für den deutschen Staat."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Neuausrichtung des deutschen Geheimdienstwesens hat Auswirkungen auf die gesamte europäische Sicherheitsarchitektur."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "What is now happening at the viral Moscow refinery whose 'roof flew off' in a blast in June? (Ukraine Battlefield update, Day 1,630)",
+              "url": "https://euobserver.com/232193/what-is-now-happening-at-the-viral-moscow-refinery-whose-roof-flew-off-in-a-blast-in-june-ukraine-battlefield-update-day-1630",
+              "publishedAt": "2026-08-12T14:21:21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
