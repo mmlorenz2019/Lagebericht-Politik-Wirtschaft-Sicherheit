@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-14",
+  "generatedAt": "2026-08-14T09:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Tod von Ex-Premier Zhu Rongji – Architekt von Chinas Wirtschaftsaufstieg",
+          "summaryDe": [
+            "Zhu Rongji, Chinas Premierminister von 1998 bis 2003, ist am 12. August 2026 im Alter von 97 Jahren gestorben.",
+            "Er gilt als zentrale Figur hinter den Marktreformen der 1990er-Jahre, dem Abbau staatlicher Überkapazitäten und vor allem dem WTO-Beitritt Chinas im Jahr 2001.",
+            "Malaysias Premier Anwar Ibrahim würdigte Zhu als persönlichen Freund und politischen Wegbereiter für die wirtschaftliche Integration Asiens.",
+            "Chinas heutige Führung steht vor der Frage, wie sie das Erbe eines Mannes einordnet, dessen reformerische Offenheit sich von der heutigen Parteilinie teils deutlich unterscheidet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Zhu Rongji prägte die globale Wirtschaftsintegration Chinas, die auch Deutschland als wichtigsten Exportmarkt in Asien erheblich beeinflusste."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Tod einer der einflussreichsten Reformfiguren der modernen chinesischen Geschichte ist ein historisch bedeutendes Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Zhu Rongji reforms fuel China's economic transformation",
+              "url": "https://www.scmp.com/plus/news/china/politics/article/3363910/zhu-rongji-reforms-fuel-chinas-economic-transformation",
+              "publishedAt": "2026-08-13T09:06:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Malaysia's Anwar looks back on relationship 'well beyond affairs of state' with Zhu Rongji",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363926/malaysias-anwar-looks-back-relationship-well-beyond-affairs-state-zhu-rongji",
+              "publishedAt": "2026-08-13T11:30:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA werfen China systematische Zolltricks über Drittländer vor",
+          "summaryDe": [
+            "Die Trump-Regierung hat einen Bericht veröffentlicht, der chinesischen Exporteuren vorwirft, US-Zölle durch Umleitung ihrer Waren über mehr als 40 Drittländer zu umgehen – intern als 'Great Transshipment Scam' bezeichnet.",
+            "Neun lateinamerikanische Länder werden explizit als Transitknoten benannt, was die diplomatischen Spannungen weit über den bilateralen Rahmen hinausträgt.",
+            "Konkrete Strafmaßnahmen gegen die betroffenen Länder sind bislang nicht angekündigt, doch der Bericht erhöht den politischen Druck erheblich.",
+            "Für globale Lieferketten, die ohnehin unter den US-China-Spannungen leiden, bedeutet dies eine weitere Ebene der Unsicherheit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Exporteure und Zwischenhändler könnten durch verschärfte US-Zollkontrollen in Drittländern direkt betroffen werden."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Ausweitung des Zollstreits auf Transitländer weltweit ist eine bedeutende Eskalation im US-chinesischen Handelskonflikt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US accuses Chinese exporters of masterminding 'Great Transshipment Scam'",
+              "url": "https://www.scmp.com/news/us/article/3363925/us-accuses-chinese-exporters-masterminding-great-transshipment-scam",
+              "publishedAt": "2026-08-13T10:45:16Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US accuses 9 Latin American countries of helping China avoid Trump's tariffs",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3363963/us-accuses-9-latin-american-countries-helping-china-avoid-trumps-tariffs",
+              "publishedAt": "2026-08-13T23:20:03Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinas Raketen-KI soll Tarnkappenflugzeuge mit über 90 Prozent Treffsicherheit verfolgen",
+          "summaryDe": [
+            "Chinesische Forscher haben nach Berichten ein KI-gestütztes Raketensystem entwickelt, das Infrarotsignaturen von F-22- und F-35-Tarnkappenjets mit einer Erkennungsrate von über 90 Prozent verfolgt.",
+            "Besonders bemerkenswert ist der Anspruch, dass das System konventionelle Täuschraketen (Flares) überlisten kann, indem es Wärmemuster analysiert statt nur auf die stärkste Wärmequelle zu reagieren.",
+            "Unabhängige Überprüfungen dieser Angaben liegen nicht vor; derartige Meldungen aus chinesischen Militärkreisen enthalten regelmäßig eine strategische Signalkomponente.",
+            "Sollten sich die Fähigkeiten bestätigen, würde dies die Luftüberlegenheitsannahmen der NATO und der USA im Pazifik grundlegend herausfordern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Verschobene Luftkampfgleichgewichte im Pazifik beeinflussen mittelbar NATO-Planungen und Rüstungspolitik, an denen Deutschland beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Falls technisch belastbar, wäre dies ein erheblicher Schritt bei der Überwindung westlicher Stealth-Technologievorteile."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese missile AI tracks F-22, F-35-like heat signatures with over 90% accuracy",
+              "url": "https://www.scmp.com/news/china/science/article/3363843/chinese-missile-ai-tracks-f-22-f-35-heat-signatures-over-90-accuracy",
+              "publishedAt": "2026-08-13T14:00:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump-Regierung entzieht 25 eingebürgerten Amerikanern die Staatsbürgerschaft",
+          "summaryDe": [
+            "Das Justizministerium hat Einbürgerungen von 25 Personen rückgängig gemacht und die Denaturalisierung zur strategischen Priorität erklärt – mit Verweis auf versteckte Vorstrafen und Einwanderungsverstöße.",
+            "Das Werkzeug der Denaturalisierung wurde in den USA jahrzehntelang kaum eingesetzt; sein systematischer Einsatz stellt einen qualitativen Bruch in der Einwanderungspolitik dar.",
+            "Kritiker sehen darin eine Verlängerung der auf Exekutivbefugnissen gestützten Einwanderungsverschärfungen, die ohne Kongressbeteiligung durchgesetzt werden.",
+            "Rechtliche Anfechntungen sind zu erwarten, da Gerichte bei Staatsbürgerschaftsentzug traditionell hohe Hürden anlegen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Vorgehen sendet ein Signal an andere westliche Demokratien und könnte die Debatte über Staatsbürgerschaftsentzug auch in Europa beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der systematische Einsatz von Denaturalisierung als Einwanderungsinstrument ist eine außergewöhnliche Eskalation der US-Innenpolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Datumi izlaska knjiga nepoznati, a na rječnike se čeka i po 18 godina",
+              "url": "https://www.pobjeda.me/clanak/datumi-izlaska-knjiga-nepoznati-a-na-rjecnike-se-ceka-i-po-18-godina",
+              "publishedAt": "2026-08-14T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Apple eröffnet Werk in Houston – Tim Cook signalisiert Führungswechsel",
+          "summaryDe": [
+            "Apple-Chef Tim Cook eröffnete gemeinsam mit Finanzminister Howard Lutnick ein Produktionswerk in Houston – ein seltenes Auftreten eines Kabinettsmitglieds bei einer Unternehmenseröffnung.",
+            "Die Zeremonie wird von Beobachtern auch als Signal gewertet, dass Cook sich auf eine Rolle als Verwaltungsratsvorsitzender vorbereitet, nachdem er jahrelang als CEO die Geschicke des Konzerns lenkte.",
+            "Das Werk steht im Kontext der Trump-Regierung, die US-Fertigungsansiedlungen als politischen Erfolg vermarktet.",
+            "Für den globalen Apple-Lieferverbund, dessen Kern weiterhin in Asien liegt, ändert eine einzelne US-Fabrik vorerst wenig an der strukturellen Abhängigkeit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Apple ist auch für den deutschen Technologie- und Einzelhandelsmarkt ein wichtiger Akteur; Produktionsverlagerungen können mittelbar Lieferketten berühren."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Fabrikeröffnung ist politisch aufgeladen, bleibt aber in ihrer wirtschaftlichen Dimension zunächst begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ukinute koncesije, šljunak i pijesak vadiće isključivo državno preduzeće",
+              "url": "https://www.pobjeda.me/clanak/ukinute-koncesije-sljunak-i-pijesak-vadice-iskljucivo-drzavno-preduzece",
+              "publishedAt": "2026-08-14T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Erdbeben der Stärke 7,4 in Kolumbien – über 260 Tote",
+          "summaryDe": [
+            "Ein schweres Erdbeben erschütterte am 13. August 2026 Westkolumbien; nach bisherigen Angaben kamen mehr als 260 Menschen ums Leben, die Such- und Rettungsarbeiten dauern an.",
+            "Der Bürgermeister von Cali koordiniert die Katastrophenreaktion; Schäden an Infrastruktur und Gebäuden in mehreren Regionen sind gemeldet.",
+            "Kolumbien liegt in einer seismisch hochaktiven Zone; die Intensität dieses Bebens übertrifft jedoch die meisten Ereignisse der vergangenen Jahrzehnte in der Region.",
+            "Internationale Hilfsangebote werden erwartet, während erste Bilder aus dem Epizentrum das Ausmaß der Zerstörung zeigen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Erdbeben betrifft Kolumbien direkt; ein konkreter Bezug zu Deutschland ist derzeit nicht erkennbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Erdbeben mit über 260 Todesopfern ist ein humanitäres Großereignis mit internationaler Aufmerksamkeit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Produžen pritvor strancima osumnjičenim za pljačku 100.000 eura u Kotoru",
+              "url": "https://www.pobjeda.me/clanak/produzen-pritvor-strancima-osumnjicenim-za-pljacku-100000-eura-u-kotoru",
+              "publishedAt": "2026-08-12T16:37:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Israelische Touristen in Montenegro von Gruppe angegriffen",
+          "summaryDe": [
+            "Zwei israelische Touristen wurden in Montenegro von einer Gruppe von rund 15 Personen durch die Straßen verfolgt und angegriffen.",
+            "Der Vorfall ereignete sich in einem Land, das sich als sicheres Touristenziel positioniert und stark von ausländischen Besuchern abhängt.",
+            "Details zu Festnahmen oder Ermittlungsstand wurden bislang nicht offiziell bestätigt; der Angriff hat jedoch auch wegen des antisemitischen Kontexts internationale Aufmerksamkeit erregt.",
+            "Montenegro steht im EU-Beitrittsprozess unter besonderer Beobachtung, wenn es um Rechtsstaatlichkeit und öffentliche Sicherheit geht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Reisende sind häufig in Montenegro unterwegs; Sicherheitsvorfälle gegen Touristen können Reisehinweise beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Angriff ist lokal bedeutsam und hat wegen des Opferhintergrunds eine über Montenegro hinausgehende symbolische Dimension."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Šelton bez izgubljenog seta odbranio titulu u Montrealu",
+              "url": "https://www.vijesti.me/sport/tenis/822023/selton-bez-izgubljenog-seta-odbranio-titulu-u-montrealu",
+              "publishedAt": "2026-08-14T08:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegro verstaatlicht Kies- und Sandgewinnung aus Flüssen",
+          "summaryDe": [
+            "Die montenegrinische Regierung hat private Konzessionen für die Entnahme von Kies und Sand aus Flussbetten aufgehoben; künftig darf ausschließlich ein staatliches Unternehmen diese Rohstoffe abbauen.",
+            "Die Entscheidung wird offiziell mit Umweltschutz und besserer staatlicher Kontrolle begründet, wirft aber Fragen zur wirtschaftlichen Effizienz und möglichen politischen Einflussnahme auf.",
+            "Montenegro bewegt sich damit gegen den Trend der Liberalisierung natürlicher Ressourcen, den die EU-Annäherung eigentlich fördern soll.",
+            "Für das Baugewerbe und die Infrastrukturprojekte des Landes könnte die Monopolisierung mittelfristig zu Engpässen und Preissteigerungen führen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Maßnahme betrifft den montenegrinischen Binnenmarkt und hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Verstaatlichung ist eine bemerkenswerte wirtschaftspolitische Weichenstellung auf nationaler Ebene."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Uhapšen advokat Damir Lekić",
+              "url": "https://www.pobjeda.me/clanak/uhapsen-advokat-damir-lekic",
+              "publishedAt": "2026-08-14T10:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ungarn wählt András Baka zum neuen Staatspräsidenten – Signal für Rechtsstaat",
+          "summaryDe": [
+            "Die neue ungarische Regierung unter Péter Magyar hat András Baka zum Staatspräsidenten bestimmt – einen Juristen, den Viktor Orbán einst aus dem Amt drängte und dessen Fall vor dem Europäischen Gerichtshof für Menschenrechte Ungarn verurteilte.",
+            "Bakas Ernennung ist damit nicht nur ein personeller, sondern ein explizit symbolischer Akt: Die Regierung Magyar will demonstrieren, dass sie mit der Orbán-Ära bricht.",
+            "Magyar selbst äußerte öffentlich Zweifel am umstrittenen Atomkraftabkommen mit Russland, das unter Orbán geschlossen wurde – ein weiteres Zeichen des Bruchs mit der Vorregierung.",
+            "Ob die institutionellen Reformen mit der politischen Symbolik Schritt halten können, wird entscheidend für Ungarns EU-Beziehungen in den kommenden Monaten sein."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Normalisierung der ungarischen Rechtsstaatlichkeit hat direkte Folgen für blockierte EU-Mittel und Abstimmungsmuster im Rat, die Deutschland als größten Nettozahler betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein glaubwürdiger Kurswechsel in Ungarn nach Jahren demokratischen Rückschritts wäre eine bedeutende Entwicklung für die gesamte EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Ousted by Orbán, back with a vengeance: Hungary's president András Baka to restore rule of law",
+              "url": "https://euobserver.com/232128/ousted-by-orban-back-with-a-vengeance-hungarys-president-to-restore-rule-of-law",
+              "publishedAt": "2026-08-12T10:45:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Magyar casts doubt on Hungary-Russia nuclear power deal",
+              "url": "https://www.politico.eu/article/peter-magyar-danube-hungary-russia-nuclear-deal",
+              "publishedAt": "2026-08-13T20:14:05Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Satellitenflotte IRIS² geht in die Volldeployment-Phase",
+          "summaryDe": [
+            "Die Europäische Kommission hat ein Umsetzungsabkommen für die IRIS²-Satellitenkonstellation unterzeichnet, das 66 zusätzliche Satelliten vorsieht und die Gesamtflotte auf 348 Einheiten bringt.",
+            "Das Projekt verlässt damit die Planungsphase und tritt in die vollständige Realisierung ein – ein entscheidender Schritt für Europas eigene Breitband- und Sicherheitskommunikation aus dem Orbit.",
+            "IRIS² soll Europa unabhängiger von US-amerikanischen (Starlink) und chinesischen Systemen machen, was angesichts der geopolitischen Lage wachsende strategische Bedeutung hat.",
+            "Deutschland ist als Industriestandort und potenzieller Nutzer militärischer wie ziviler Konnektivität direkt an dem Programm beteiligt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Raumfahrtunternehmen und Bundeswehr gehören zu den direkten Interessenten und potenziellen Nutzern von IRIS²."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Übergang zur Volldeployment-Phase eines eigenen EU-Satellitennetzes ist ein strategisch bedeutender Schritt für die europäische Technologieautonomie."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission accelerates IRIS² deployment with enhanced security and expanded satellites network",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726",
+              "publishedAt": "2026-08-06T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ukraine meldet größte Gebietsrückeroberung seit vier Jahren",
+          "summaryDe": [
+            "Die Ukraine hat nach eigenem Bekunden die umfangreichste Rückeroberung von Territorium seit 2022 vollzogen; Details zu Ort und Ausmaß wurden zunächst aus operativen Gründen zurückgehalten.",
+            "Die Offensive stützt sich offenbar auf den kombinierten Einsatz kostengünstiger Drohnen mit KI-gestützter Zielerfassung, wobei die letzte Entscheidung über Waffeneinsatz nach wie vor beim Menschen verbleibt.",
+            "Für Russland bedeutet die Defensive in diesem Abschnitt einen PR-Rückschlag, während Kiew den Druck auf die eigene Bevölkerung und westliche Partner, an der Unterstützung festzuhalten, reduzieren kann.",
+            "Wie nachhaltig die Geländegewinne sind, hängt von der weiteren Versorgungslage und möglichen russischen Gegenangriffen ab."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist einer der größten Waffenlieferanten und Finanzgeber der Ukraine; Fortschritte auf dem Schlachtfeld beeinflussen die innenpolitische Debatte über weitere Unterstützung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die größte ukrainische Gebietsrückeroberung seit Kriegsbeginn wäre ein außergewöhnliches militärisches Ereignis mit weitreichenden Folgen für den Kriegsverlauf."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Silence ended: Ukraine reveals its largest liberation of territory in four years (Ukraine Battlefield update, Day 1,631)",
+              "url": "https://euobserver.com/232354/silence-ended-ukraine-reveals-its-largest-liberation-of-territory-in-four-years-ukraine-battlefield-update-day-1631",
+              "publishedAt": "2026-08-13T14:41:43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
