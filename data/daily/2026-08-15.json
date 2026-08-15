@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-15",
+  "generatedAt": "2026-08-15T08:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Mangione bekennt sich schuldig – kulturelle Resonanz eines Mordfalls",
+          "summaryDe": [
+            "Luigi Mangione hat vor einem Bundesgericht in einem Fall, der die USA monatelang beschäftigt hat, auf schuldig plädiert: Er wird beschuldigt, den Chef des Krankenversicherers UnitedHealthcare, Brian Thompson, getötet zu haben.",
+            "Das Schuld-Bekenntnis betrifft bundesrechtliche Anklagepunkte; ein separates Strafverfahren auf Ebene des Bundesstaates bleibt davon unberührt und sein Ausgang ist weiterhin offen.",
+            "Bemerkenswert an dem Fall ist die öffentliche Resonanz: Teile der Bevölkerung zeigen offen Sympathie für den Angeklagten, was Beobachter als Ausdruck tiefer Frustration über das amerikanische Gesundheitssystem deuten.",
+            "Ob dieser emotionale Unterton das staatliche Verfahren beeinflusst, bleibt abzuwarten – rechtlich steht Mangione weiterhin vor erheblichen Konsequenzen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Fall betrifft ausschließlich das US-Rechtssystem und innenpolitische Stimmungslagen ohne direkte Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Fall hat in den USA eine ungewöhnlich breite kulturelle Debatte über das Gesundheitssystem ausgelöst."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Mangione pleads guilty in federal court, leaving fate of state trial uncertain",
+              "url": "https://www.npr.org/2026/08/14/nx-s1-5930700/mangione-federal-charges-guilty-plea",
+              "publishedAt": "2026-08-14T16:05:24Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Luigi Mangione pleads guilty in federal case related to UnitedHealthcare CEO killing",
+              "url": "https://www.cnbc.com/2026/08/14/luigi-mangione-pleads-guilty-brian-thompson-killing.html",
+              "publishedAt": "2026-08-14T19:50:11Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kupfer als Echtzeit-Barometer für Trumps nächsten Zollschlag",
+          "summaryDe": [
+            "Die Preisdifferenz für Kupfer zwischen verschiedenen Rohstoffbörsen hat sich zu einem inoffiziellen Echtzeitindikator für das Zollrisiko der Trump-Regierung entwickelt.",
+            "Händler und Analysten beobachten den Spread zwischen amerikanischen und internationalen Notierungen genau, weil er Erwartungen über bevorstehende Zollankündigungen widerspiegelt – schneller als jeder offizielle Kommunikationskanal.",
+            "Das Phänomen zeigt, wie tief die handelspolitische Unberechenbarkeit der Regierung in die Marktstruktur eingedrungen ist.",
+            "Für Deutschland und Europa als exportabhängige Volkswirtschaften ist der Kupfermarkt ein früher Signalgeber, wenn neue Zollbeschränkungen drohen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Kupfer ist ein wichtiger Industrierohstoff; Zollbewegungen haben direkte Auswirkungen auf deutsche Fertigungsindustrien."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Instrumentalisierung eines Rohstoffmarktes als Zoll-Frühwarnsystem ist ein ungewöhnliches Zeichen handelspolitischer Unsicherheit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "How a niche copper trade became a real-time gauge of Trump's next tariff move",
+              "url": "https://www.cnbc.com/2026/08/14/copper-trump-tariffs-metal-commodities-trade-war.html",
+              "publishedAt": "2026-08-14T13:24:54Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USS Abraham Lincoln: Versorgungskrise nach Iranangriffen auf US-Stützpunkt",
+          "summaryDe": [
+            "Der US-Flugzeugträger USS Abraham Lincoln steckt in einer ernsthaften Versorgungsmisere, die auf iranische Angriffe gegen den US-Stützpunkt in Bahrain zu Beginn des Konflikts zurückgeführt wird.",
+            "Als Reaktion verlegte die Marine ihre Logistikbasis auf den Stützpunkt Diego Garcia im Indischen Ozean, was zu verlängerten Einsatzzeiten und unzureichenden Lebensbedingungen an Bord geführt hat.",
+            "Senator Ruben Gallego bezeichnete den Umgang mit der Situation als Führungsversagen; der Kongress fordert Untersuchungen.",
+            "Der Fall beleuchtet die operativen Belastungen der US-Marine unter den Bedingungen des anhaltenden Konflikts mit dem Iran und wirft Fragen über die Durchhaltefähigkeit im Westpazifik und Nahen Osten auf."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die operative Belastung der US-Streitkräfte berührt indirekt NATO-Planungen und transatlantische Sicherheitsabsprachen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein in Versorgungsproblemen steckender Flugzeugträger inmitten eines aktiven Konflikts ist ein erhebliches militärstrategisches Signal."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Sen. Ruben Gallego on handling of USS Lincoln conditions: 'That's not proper leadership'",
+              "url": "https://www.npr.org/2026/08/14/nx-s1-5930365/uss-abraham-lincoln-iran-navy-ruben-gallego",
+              "publishedAt": "2026-08-14T10:47:19Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Navy and USS Lincoln's Problems Are Tied to Attacks on U.S. Base Early in War",
+              "url": "https://www.nytimes.com/2026/08/14/us/politics/uss-abraham-lincoln-trump-supplies-diego-garcia.html",
+              "publishedAt": "2026-08-14T22:35:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Zhu Rongji gestorben – Abgang des letzten großen Wirtschaftsreformers",
+          "summaryDe": [
+            "Der ehemalige chinesische Premierminister Zhu Rongji ist im Alter von 97 Jahren gestorben. Er gilt als einer der prägendsten Architekten des wirtschaftlichen Aufstiegs Chinas in den 1990er Jahren.",
+            "Unter seiner Führung wurden staatliche Unternehmen umgebaut, die Inflation bezwungen und Chinas Beitritt zur Welthandelsorganisation vorbereitet – Maßnahmen, die das Land für Jahrzehnte formten.",
+            "Zhu stand für einen Reformstil, der in der heutigen chinesischen Politik kaum mehr vorkommt: technokratisch, bisweilen eigensinnig gegenüber Parteistrukturen und offen für marktwirtschaftliche Prinzipien.",
+            "Mit seinem Tod endet eine personelle Verbindung zu jener Ära, in der Chinas Wirtschaftspolitik noch stärker von pragmatischen Experimenten als von ideologischer Konsolidierung geprägt war."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Zhu Rongjis Reformen legten die Grundlage für Chinas Integration in den Welthandel, von der auch Deutschland profitierte."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Tod einer historischen Schlüsselfigur der chinesischen Wirtschaftsgeschichte ist ein bedeutendes Ereignis."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "The death of Zhu Rongji, China's economic reformer",
+              "url": "https://www.scmp.com/news/china/article/3364003/death-zhu-rongji-chinas-economic-reformer",
+              "publishedAt": "2026-08-14T06:39:56Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "10,8-Milliarden-Dollar-Kanal verbindet Chinas Binnenland mit Südostasien",
+          "summaryDe": [
+            "China hat den ersten vollständigen Testdurchlauf seines neuen Kanalgroßprojekts abgeschlossen, das eine direkte Wasserverbindung zwischen einer Binnenregion und Südostasien herstellt und mit 10,8 Milliarden US-Dollar veranschlagt ist.",
+            "Das Projekt zielt darauf ab, Transportwege zu verkürzen, Abhängigkeiten von bestehenden Meeresrouten zu reduzieren und Chinas wirtschaftliche Vernetzung in der Region strukturell zu vertiefen.",
+            "Der erfolgreiche Test ist ein Meilenstein, wenngleich der kommerzielle Betrieb noch aussteht und die geopolitischen Implikationen für die Anrainerstaaten bereits diskutiert werden.",
+            "Für Europa und Deutschland könnte die veränderte Logistikgeografie langfristig Auswirkungen auf Lieferketten und die Wettbewerbsposition asiatischer Handelspartner haben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Veränderte Handelsrouten in Asien können mittelbar europäische und deutsche Logistik- und Importstrukturen beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein fertiggestelltes Kanal-Infrastrukturprojekt dieser Größenordnung verändert regionale Handels- und Transportdynamiken erheblich."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China tests canal link to Southeast Asia; rocket failure concerns: SCMP's 7 highlights",
+              "url": "https://www.scmp.com/news/china/article/3363971/china-tests-canal-link-southeast-asia-rocket-failure-concerns-scmps-7-highlights",
+              "publishedAt": "2026-08-14T04:15:07Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Peking nervös: Trump-Chaos in Washington trübt Stimmung vor Xi-Besuch",
+          "summaryDe": [
+            "Wenige Wochen vor dem geplanten Staatsbesuch von Xi Jinping in den USA zeigt sich Peking beunruhigt über das Maß an Unordnung im Weißen Haus unter Trump.",
+            "Chinesische Diplomaten und Analysten fürchten, dass ein chaotisches Umfeld die Vorbereitung sinnvoller Abkommen erschwert und Xi dem Risiko aussetzt, ohne greifbare Ergebnisse heimzukehren.",
+            "Das Muster ist nicht neu: Auch bei früheren Gipfeltreffen zwischen chinesischen Staatschefs und unberechenbaren US-Präsidenten musste Peking kurzfristig umdisponieren.",
+            "Die Lage illustriert das strukturelle Dilemma chinesischer Außenpolitik gegenüber Washington: Man braucht Stabilität im Gegenüber, hat aber kaum Einfluss darauf."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Verhältnis zwischen den USA und China beeinflusst indirekt die handelspolitischen Rahmenbedingungen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Unsicherheit vor einem Xi-Trump-Gipfel hat das Potenzial, global bedeutsame Vereinbarungen zu verzögern oder zu verhindern."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China rattled by Trump White House chaos weeks ahead of Xi visit. It has happened before",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364025/china-rattled-trump-white-house-chaos-weeks-ahead-xi-visit-it-has-happened",
+              "publishedAt": "2026-08-14T23:30:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ex-Politiker Lekić nach Geldwäschevorwürfen mit Auflagen belegt",
+          "summaryDe": [
+            "Der frühere montenegrinische Politiker Lekić wurde wegen des Verdachts auf Geldwäsche in Höhe von 100.000 Euro vorübergehend festgenommen und anschließend für 72 Stunden in Gewahrsam genommen.",
+            "Nach dem Verhör wurden ihm gerichtliche Auflagen erteilt: Er darf seinen Aufenthaltsort nicht verlassen und bestimmte Personen nicht treffen.",
+            "Lekić selbst weist die Vorwürfe zurück und erklärt, das Geld sei legal erworben und für den Kauf einer Familienimmobilie vorgesehen gewesen.",
+            "Der Fall folgt einem Muster, das in Montenegro immer wieder sichtbar wird: staatsanwaltschaftliche Ermittlungen gegen Politiker und Funktionäre, deren Ausgang oft politisch beobachtet wird."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Fall hat keinen erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Eine Strafverfolgung gegen einen bekannten Politiker ist innenpolitisch relevant, bleibt aber auf Montenegro begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Lekiću određena zabrana napuštanja boravišta i sastajanja s određenim licima",
+              "url": "https://www.pobjeda.me/clanak/lekicu-odredena-zabrana-napustanja-boravista-i-sastajanja-s-odredenim-licima",
+              "publishedAt": "2026-08-14T14:05:09Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Deutschlands Geheimdienst erhält offensive Befugnisse – Tabubruch nach dem Kalten Krieg",
+          "summaryDe": [
+            "Der deutsche Inlandsgeheimdienst bekommt künftig offensive Fähigkeiten – ein Schritt, der einen Nachkriegsgrundsatz der deutschen Sicherheitspolitik aufbricht, der Inlandsdienste strikt auf defensive und beobachtende Aufgaben beschränkte.",
+            "Die Erweiterung der Befugnisse wird mit dem veränderten Bedrohungsumfeld begründet, insbesondere mit hybriden Angriffen, Cyberoperationen und Spionage durch staatliche Akteure.",
+            "Kritiker sehen darin eine gefährliche Annäherung an Strukturen, die historisch mit dem Begriff der Geheimpolizei verknüpft sind – und warnen vor mangelnder demokratischer Kontrolle.",
+            "Für die EU ist die Entscheidung des größten Mitgliedstaates ein Signal: Auch andere Länder stehen unter Druck, ihre Nachrichtendienste ähnlich umzurüsten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Reform betrifft unmittelbar deutsches Recht, die Verfassung der Sicherheitsbehörden und Grundrechte im Inland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine solche Kompetenzerweiterung bricht mit einem jahrzehntelangen sicherheitspolitischen Konsens und setzt europaweit ein Precedent."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "German spies to get offensive powers, breaking post-Cold War taboo on 'secret police'",
+              "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
+              "publishedAt": "2026-08-14T10:54:09Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Niedrige Gasspeicher: EU droht Preisspirale im Winter",
+          "summaryDe": [
+            "Die europäischen Erdgasspeicher sind auf einem besorgniserregend niedrigen Stand, und Marktanalysen prognostizieren Preise von bis zu 60 Euro pro Megawattstunde im Winter.",
+            "Anders als in den Vorjahren fehlt diesmal ein ausreichender Puffer, der Nachfragespitzen in den kälteren Monaten abfedern könnte – die Lage hat sich im Laufe des Sommers verschärft.",
+            "Deutschland als größter Gasverbraucher der EU wäre von steigenden Preisen besonders betroffen, sowohl für Haushalte als auch für die energieintensive Industrie.",
+            "Politisch gerät die EU unter Druck, Notfallmechanismen zu aktivieren – während gleichzeitig die Debatte über langfristige Energieunabhängigkeit weitergeht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland ist als größter EU-Gasverbraucher direkt von steigenden Winterpreisen und Versorgungsrisiken betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein drohender Preisspiralen-Szenario beim Gas hat weitreichende wirtschaftliche und politische Folgen für die gesamte EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU risks winter gas-price spiral, as stocks run low",
+              "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
+              "publishedAt": "2026-08-13T15:01:23Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "NATO schießt Drohne über Lettland ab – russische Elektronikkriegsführung im Verdacht",
+          "summaryDe": [
+            "NATO-Kampfjets haben eine Drohne über lettischem Territorium abgeschossen, die nach vorläufigen Erkenntnissen russischer elektromagnetischer Kriegsführung zugerechnet wird.",
+            "Der Vorfall ereignete sich über einem NATO-Mitgliedstaat an der östlichen Flanke des Bündnisses und unterstreicht die anhaltend hohe Spannungslage im Baltikum.",
+            "Für Deutschland als Rahmennation der NATO-Präsenz in Litauen und als Land mit erheblichem Engagement in der Ostflankenverteidigung ist solch ein Zwischenfall unmittelbar relevant.",
+            "Es ist bislang unklar, ob der Abschuss als Einzelereignis eingestuft wird oder Teil eines Musters zunehmender russischer Provokationen im baltischen Luftraum ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland trägt als NATO-Rahmennation in der Region erhebliche Verantwortung und ist bei Zwischenfällen in der Ostflanke direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Drohnenabschuss durch NATO-Jets über einem Bündnisgebiet ist ein eskalationsträchtiger Vorfall mit militärstrategischer Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "NATO jets shoot down drone over Latvia",
+              "url": "https://www.politico.eu/article/nato-jets-shoot-down-drone-over-latvia",
+              "publishedAt": "2026-08-14T10:18:39Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
