@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-16",
+  "generatedAt": "2026-08-16T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "OCC approves Trump-backed crypto firm for national bank status",
+          "summaryDe": [
+            "The US regulatory authority OCC has provisionally granted a national banking license to World Liberty Trust Co., a cryptocurrency company backed by the Trump family, which enables the issuance of stablecoins.",
+            "This gives a company with direct ties to the presidential family regulatory powers that were previously reserved for traditional banks.",
+            "Critics see this as a significant conflict of interest, as Trump as the sitting president has regulatory influence over the same agency that has now given the green light to his company.",
+            "The development fits into a growing debate about the blending of government office and private interests under the current administration."
+          ],
+          "additionalImportant": "The US Strategic Petroleum Reserve is approaching a critical fill level at which damage to storage caverns threatens – a logistical and security policy risk that receives little public attention.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A growing cryptocurrency regulatory gap in the US could indirectly affect European financial markets and competitive conditions."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The linking of the presidential family and a national bank license is institutionally significant and has precedent-setting character."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Trump family-backed crypto firm World Liberty gets conditional bank charter approval",
+              "url": "https://www.cnbc.com/2026/08/14/world-liberty-trump-occ-bank-charter-stablecoin.html",
+              "publishedAt": "2026-08-14T23:41:50Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Anthropic reports jump to $11.5 billion quarterly revenue",
+          "summaryDe": [
+            "AI developer Anthropic has reportedly achieved revenue of over $11.5 billion in the second quarter of 2026 – a figure underscoring the rapid monetization of large language models.",
+            "At the same time, the company is apparently preparing for a possible initial public offering, which would further set the AI industry in motion.",
+            "Berkshire Hathaway meanwhile increased its Alphabet stake by $17 billion, making Google its third-largest holding in the portfolio – a signal that even conservative major investors are betting on AI infrastructure.",
+            "Nvidia, in turn, disclosed a $21 billion stake in SpaceX, illustrating the growing intertwining of semiconductor, space, and AI industries."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany's economy and technology policy are directly affected by global AI investment dynamics, as European companies must compete with US corporations."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Such revenue and investment figures noticeably shift the balance of power in the global technology sector."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
+              "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+              "publishedAt": "2026-08-15T14:45:31Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Berkshire adds $17 billion to Alphabet stake",
+              "url": "https://www.cnbc.com/2026/08/15/berkshire-adds-17-billion-to-alphabet-stake.html",
+              "publishedAt": "2026-08-15T12:50:41Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+              "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+              "publishedAt": "2026-08-14T21:45:19Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA withdraws last aircraft carrier from Asia – allies concerned",
+          "summaryDe": [
+            "Washington has withdrawn the last aircraft carrier from the Asia-Pacific region and redeployed it to the Middle East, where the Trump administration has concentrated its foreign policy priorities around Iran.",
+            "For allies such as Japan, South Korea, and Taiwan, the realignment raises an urgent question: Would the US intervene militarily in an emergency while China continuously expands its regional influence?",
+            "At the same time, the Trump administration is threatening Iran in the dispute over the Persian Gulf – Tehran has sharply rejected claims and insists on Iranian sovereignty over the waterway.",
+            "The interplay of military regrouping, rhetoric-laden Iran confrontation, and waning presence in Asia leads observers to doubt the strategic coherence of US foreign policy."
+          ],
+          "additionalImportant": "Israel tested the ceasefire with Lebanon agreed in June through air strikes in which at least eleven people died – another flashpoint that binds US resources.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A security policy vacuum in Asia and escalated tensions around Iran hit Germany as an export nation with substantial trade interests in both regions."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The withdrawal of the last US carrier from Asia is a strategic signal of far-reaching geopolitical significance for the entire Indo-Pacific balance of power."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "As China Pushes to Expand in Asia, Trump Focuses on Iran",
+              "url": "https://www.nytimes.com/2026/08/15/us/politics/china-expansion-asia-trump-iran.html",
+              "publishedAt": "2026-08-15T09:01:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "China's prosecution service: lawyer concerns in organized crime raid – Zhu Rongji's legacy",
+          "summaryDe": [
+            "In the course of a new campaign against organized crime, Chinese lawyers are reporting concerns about wrongful convictions – a case such as that of Zeng Jianbin, whose 20-year prison sentence was only overturned on appeal, stands exemplarily for structural weaknesses in the proceedings.",
+            "At the same time, former premier Zhu Rongji died, one of the last politicians of the reform era who took personal risks for a rapprochement with the US – his death symbolically marks the end of a diplomatic epoch.",
+            "Additionally, China lodged a formal protest against Japanese Defense Minister's visit to the Yasukuni Shrine on the 81st anniversary of Japan's surrender, an annually recurring point of friction in bilateral relations.",
+            "All three developments show how China's domestic rule of law debate and foreign policy sensitivities remain closely intertwined."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's domestic developments and relations with Japan touch German interest in stable East Asian conditions only indirectly."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant individual signals on Chinese domestic and regional politics, but without immediate global explosiveness."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "As China launches new gang crackdown, lawyers fear wrongful convictions",
+              "url": "https://www.scmp.com/news/china/politics/article/3364158/china-launches-new-gang-crackdown-lawyers-fear-wrongful-convictions",
+              "publishedAt": "2026-08-16T02:00:15Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's perovskite solar farm beats silicon at industrial scale",
+          "summaryDe": [
+            "A Chinese research team has successfully operated a 1-megawatt perovskite solar facility at industrial scale and outperformed conventional silicon systems – a breakthrough that could significantly accelerate commercialization of this technology.",
+            "Perovskite has been considered a promising alternative to silicon for years, but has so far failed at scaling; the now-demonstrated industrial scale removes a central barrier.",
+            "In parallel, Chinese scientists achieved a quantum entanglement record over 420 kilometers between cold atoms – four times farther than before – laying the groundwork for city-spanning quantum networks.",
+            "Both developments together show that China is pursuing leadership positions in strategic future technologies simultaneously on multiple fronts."
+          ],
+          "additionalImportant": "The Chinese yuan is gaining weight in Africa as an alternative currency to the US dollar, as more and more financial institutions are connected to China's cross-border payment system.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Chinese leadership in solar energy and quantum technology directly affects German industrial and research interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Two simultaneous technological breakthroughs in strategically relevant fields are industrially significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's 1MW perovskite solar farm beats silicon system in industrial-scale test",
+              "url": "https://www.scmp.com/news/china/science/article/3364155/chinas-1mw-perovskite-solar-farm-beats-silicon-system-industrial-scale-test",
+              "publishedAt": "2026-08-15T22:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Beijing concerned about US chaos ahead of planned Xi visit to Washington",
+          "summaryDe": [
+            "Weeks before President Xi Jinping's planned state visit to Washington, Beijing is alarmed about the organizational chaos in the White House – a condition that hampers negotiations and calls diplomatic reliability into question.",
+            "At the same time, Washington sent a Coast Guard training team to Taiwan, while China intensified its military presence east of the island – a signal that comes at a particularly unfavorable time for Beijing just before the summit meeting.",
+            "Additionally, Beijing released ecological reports on nine disputed reefs and islands in the South China Sea to lend additional legitimacy to territorial claims in its dispute with Washington.",
+            "The juxtaposition of summit preparations and ongoing confrontations over Taiwan and the South China Sea shows how fragile the framework conditions for the meeting are."
+          ],
+          "additionalImportant": "A US appeals court gives drone manufacturer DJI another chance to challenge its removal from the Pentagon blacklist – a years-long legal dispute with economic and security policy dimensions.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The course and outcome of the Xi-Trump meeting have direct consequences for global trade and thus for export-dependent German industry."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The upcoming summit of the two largest economies is of systemic international significance; pre-summit tensions increase the risk of failure."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China rattled by Trump White House chaos weeks ahead of Xi visit. It has happened before",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364025/china-rattled-trump-white-house-chaos-weeks-ahead-xi-visit-it-has-happened",
+              "publishedAt": "2026-08-14T23:30:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegrin police uses drones for festival monitoring and fire detection",
+          "summaryDe": [
+            "At the ECHO Festival in Kolašin and in Bijelo Polje, Montenegrin police used drones for surveillance – in one case, this was used to identify a person who lit an open fire in violation of restrictions.",
+            "The deployment marks a growing practice of technology-enabled policing in Montenegro, which raises both security and data protection questions.",
+            "In parallel, a third suspect was arrested in connection with vehicle arson fires, while the government coordinated the return of Montenegrin citizens from Sicily.",
+            "The picture of the day is one of routine internal security – remarkable less because of individual incidents than because of the systematic expansion of digital surveillance tools in everyday life."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Events in Montenegro do not directly affect German interests."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Local security incidents without cross-regional significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Policija dronovima nadzire Kolašin ECHO Festival, zatvorene pojedine ulice",
+              "url": "https://www.pobjeda.me/clanak/policija-dronovima-nadzire-kolasin-echo-festival-zatvorene-pojedine-ulice",
+              "publishedAt": "2026-08-15T10:52:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Bijelo Polje: Policija dronom detektovala lice koje je palilo vatru na otvorenom",
+              "url": "https://www.pobjeda.me/clanak/bijelo-polje-policija-dronom-detektovala-lice-koje-je-palilo-vatru-na-otvorenom",
+              "publishedAt": "2026-08-15T12:38:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent news daily",
+              "titleOriginal": "MVP: Dolazak crnogorskih državljana sa Sicilije u Podgoricu...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/822198/mvp-dolazak-crnogorskih-drzavljana-sa-sicilije-u-podgoricu-ocekuje-se-oko-dva-casa-nakon-ponoci",
+              "publishedAt": "2026-08-15T16:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "German intelligence services granted offensive powers – taboo-breaking since Cold War",
+          "summaryDe": [
+            "Germany has granted offensive powers to its domestic intelligence services for the first time since the end of the Cold War – a decision that fundamentally changes the previous self-understanding of intelligence services as purely defensive institutions.",
+            "The reform met with unease even among parts of the governing coalition; critics warn of a creeping expansion of state surveillance power without sufficient parliamentary oversight.",
+            "Also in Germany: Rights groups have filed criminal charges over Meta's Ray-Ban smart glasses, which enable covert filming of people – a case that makes the AI regulation debate concrete in everyday life.",
+            "Hungary's new president András Baka took office after the Tisza Party of Péter Magyar successfully secured the office of head of state – another step by the new Budapest government toward institutional consolidation."
+          ],
+          "additionalImportant": "Five EU member states are preparing an agreement with Uganda for September to establish a return center for rejected asylum seekers – a model that is politically controversial across Europe.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The expansion of offensive intelligence powers directly affects Germany as a law-making state; the smart glasses criminal complaint is also filed in Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The breaking of the post-war taboo on German intelligence services is a significant security policy realignment with European signaling effect."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "German spies to get offensive powers, breaking post-Cold War taboo on 'secret police'",
+              "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
+              "publishedAt": "2026-08-14T10:54:09Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Meta and Ray-Ban's 'pervert glasses' prompt criminal complaint in Germany",
+              "url": "https://euobserver.com/232385/meta-and-ray-bans-pervert-glasses-prompt-criminal-complaint-in-germany",
+              "publishedAt": "2026-08-14T15:56:49Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "As new president András Baka arrives, is Orbán preparing to leave Hungary? (Day 94 of the Tisza government)",
+              "url": "https://euobserver.com/232339/as-new-president-andras-baka-arrives-is-orban-preparing-to-leave-hungary-day-93-of-the-tisza-government",
+              "publishedAt": "2026-08-14T07:49:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU risks winter gas price spiral – storage under pressure",
+          "summaryDe": [
+            "European energy analysts warn of a price increase in natural gas to around 60 euros per megawatt-hour this winter, compared to currently about 45 euros – triggered by below-average storage fill levels.",
+            "For Germany as an industrially intensive gas consumer, this means increased cost pressure in an already difficult economic environment.",
+            "Additionally, there are structural questions: The EU Commission acknowledged that it still has no clear plan for so-called residual emissions from agriculture, industry, and aviation – sectors that cannot be fully decarbonized by 2040.",
+            "The combination of short-term gas price uncertainty and long-term climate goal gaps burdens European energy policy on two time horizons simultaneously."
+          ],
+          "additionalImportant": "The EU is accelerating the deployment of the IRIS² satellite constellation and adding 66 additional satellites – a strategic project for sovereign European communication infrastructure.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Rising gas prices hit German industry directly, and the unresolved treatment of residual emissions affects German sectors such as agriculture and aviation."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A looming winter gas price spiral is an economically and socially significant development for all of Europe."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU risks winter gas-price spiral, as stocks run low",
+              "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
+              "publishedAt": "2026-08-13T15:01:23Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "NATO shoots down drone over Latvia – US threatens EU with sanctions over green reporting",
+          "summaryDe": [
+            "NATO fighter jets shot down an unidentified drone over Latvia that, according to Latvian military reports, had strayed from course due to Russian electronic warfare – an incident demonstrating the vulnerability of NATO airspace to hybrid means.",
+            "Estonia became the first member state to receive a payment of 351.6 million euros from the EU's new SAFE defense instrument, underscoring the increasing institutionalization of European military financing.",
+            "On the diplomatic level, the Trump administration threatened the EU with sanctions, arguing that Brussels has failed to implement the agreements from the transatlantic trade agreement of the previous year – particularly on green reporting.",
+            "The simultaneous escalation at NATO's outer borders and in transatlantic trade relations shows that the EU is under pressure both in security and economic policy."
+          ],
+          "additionalImportant": "Ukraine reported its largest territorial recovery in four years through a quiet advance that forced Russia to defensive regroupings on the eastern front.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "NATO airspace incidents on the eastern flank and US sanctions threats against EU regulation directly affect Germany as a central alliance partner and exporter."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Russian hybrid operations in NATO airspace and US sanctions threats against the EU are extraordinary security and trade policy signals."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national newspaper",
+              "titleOriginal": "NATO jets shoot down drone over Latvia",
+              "url": "https://www.politico.eu/article/nato-jets-shoot-down-drone-over-latvia",
+              "publishedAt": "2026-08-14T10:18:39Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Silence ended: Ukraine reveals its largest liberation of territory in four years (Ukraine Battlefield update, Day 1,631)",
+              "url": "https://euobserver.com/232354/silence-ended-ukraine-reveals-its-largest-liberation-of-territory-in-four-years-ukraine-battlefield-update-day-1631",
+              "publishedAt": "2026-08-13T14:41:43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
