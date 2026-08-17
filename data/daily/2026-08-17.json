@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-17",
+  "generatedAt": "2026-08-17T08:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Justizminister verweigert Bekenntnis zur Unabhängigkeit von Trump",
+          "summaryDe": [
+            "Der neue Justizminister der USA hat in einem Fernsehauftritt bei 'Meet the Press' offen gelassen, ob er unabhängig von Präsident Trump agieren werde.",
+            "Er erklärte lediglich, der Präsident habe ihn nie aufgefordert, bestimmte Personen zu verfolgen – eine Formulierung, die Kritiker als bewusste Ausweichung werten.",
+            "Für eine Demokratie ist die institutionelle Unabhängigkeit der Staatsanwaltschaft ein zentrales Prinzip; jede Relativierung davon hat weitreichende Signalwirkung.",
+            "Angesichts laufender politisch aufgeladener Verfahren in den USA beobachten Verbündete und Gegner diesen Vorgang mit Aufmerksamkeit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Entwicklung der Rechtsstaatlichkeit in den USA hat mittelbare Bedeutung für transatlantische Beziehungen und den globalen Demokratiediskurs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die öffentliche Weigerung eines Justizministers, sich zur Unabhängigkeit zu bekennen, ist eine größere institutionelle Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Tajna carskog zlata sa dna Jadrana",
+              "url": "https://www.pobjeda.me/clanak/tajna-carskog-zlata-sa-dna-jadrana",
+              "publishedAt": "2026-08-17T07:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Anthropic meldet Quartalsumsatz von über 11,5 Milliarden Dollar",
+          "summaryDe": [
+            "Der KI-Konzern Anthropic, Entwickler des Claude-Chatbots, hat im zweiten Quartal 2026 einen Umsatz von mehr als 11,5 Milliarden Dollar erzielt – ein Sprung, der Marktbeobachter überraschte.",
+            "Das Unternehmen bereitet sich offenbar auf einen potenziell milliardenschweren Börsengang vor.",
+            "Die Zahlen verdeutlichen das rasante Wachstum im KI-Sektor und den intensiven Wettbewerb mit OpenAI, Google und Meta.",
+            "Für europäische und deutsche Unternehmen, die in diesem Bereich konkurrieren wollen, verschärfen solche Bewertungsgrößen den Rückstand im globalen KI-Rennen spürbar."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das KI-Wachstum US-amerikanischer Anbieter erhöht den Wettbewerbsdruck auf europäische und deutsche Technologieunternehmen indirekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Umsatzanstieg dieser Größenordnung bei einem führenden KI-Unternehmen ist eine bedeutende Marktentwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter",
+              "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+              "publishedAt": "2026-08-15T14:45:31Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump ordnet Abbau gemeinsamer Militärübungen mit Südkorea an",
+          "summaryDe": [
+            "Präsident Trump hat das Pentagon angewiesen, die gemeinsamen Militärmanöver mit Südkorea erheblich zu reduzieren – mit der Begründung, sie seien teuer und ein feindseliges Signal gegenüber Nordkorea.",
+            "Trump verwies dabei ausdrücklich auf seine nach eigener Darstellung gute Beziehung zu Kim Jong-un.",
+            "Der Schritt beunruhigt Seoul und stellt die Verlässlichkeit der US-Sicherheitsgarantien im Indopazifik grundsätzlich in Frage.",
+            "Für Deutschland und die NATO ist das eine weitere Datenlage darüber, wie Trump militärische Bündnisverpflichtungen instrumentell bewertet.",
+            "Parallel dazu hat die Ukraine einen der größten Drohnenangriffe des Krieges gegen Russland durchgeführt und dabei mindestens sechs Menschen getötet – ein Zeichen dafür, dass die Intensität des Konflikts trotz diplomatischer Bewegungen anhält."
+          ],
+          "additionalImportant": "Die Verknüpfung beider Entwicklungen – Rückzug aus asiatischen Verpflichtungen und anhaltender Ukrainekonflikt – zeigt das Spannungsfeld der US-Außenpolitik unter Trump.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Signale über reduzierte US-Bündnisverlässlichkeit betreffen direkt die NATO-Strategie und Deutschlands Sicherheitsplanung."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein präsidialer Befehl zur Reduzierung von Übungen mit einem Kernverbündeten ist eine bedeutende sicherheitspolitische Entscheidung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "'What are we going to do?' The mom of a trans teen grapples with Trump's Medicaid move",
+              "url": "https://www.npr.org/2026/08/16/nx-s1-5932491/transgender-health-care-medicaid-trump-oz",
+              "publishedAt": "2026-08-16T11:54:19Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+              "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+              "publishedAt": "2026-08-16T10:12:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi ehrt Jiang Zemin zum 100. Geburtstag – Partei inszeniert Einheitsbotschaft",
+          "summaryDe": [
+            "In der Großen Halle des Volkes in Peking hat Präsident Xi Jinping an einer Gedenkveranstaltung zum 100. Geburtstag des verstorbenen Staatsführers Jiang Zemin teilgenommen und dessen Verdienste öffentlich gewürdigt.",
+            "Kurz zuvor hatte die Kommunistische Partei Jiangs Erbe bereits in einem Appell zur Parteieinheit und zur Unterstützung Xis Führung beschworen – ein ungewöhnlich explizites politisches Signal.",
+            "Der Kontext ist bedeutsam: Zhu Rongji, Ministerpräsident unter Jiang, war erst kürzlich im Alter von 97 Jahren verstorben, was beide Gedenkanlässe miteinander verknüpft.",
+            "Die Inszenierung dient erkennbar der Legitimation Xis vor einem größeren Führungswechsel und soll interne Geschlossenheit demonstrieren."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Interne Machtsignale aus Peking sind für deutsche Chinapolitik und Wirtschaftsbeziehungen mittelfristig relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die koordinierte Nutzung historischer Führungsfiguren zur Legitimation des gegenwärtigen Machtapparats ist ein bedeutendes innenpolitisches Signal."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's Xi praises former president Jiang's contribution in show of party unity",
+              "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
+              "publishedAt": "2026-08-17T01:59:50Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Communist Party of China invokes Jiang's legacy in call to rally round Xi's leadership",
+              "url": "https://www.scmp.com/news/china/politics/article/3364198/communist-party-china-invokes-jiangs-legacy-call-rally-round-xis-leadership",
+              "publishedAt": "2026-08-16T13:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Yuan-Internationalisierung: China drängt afrikanische Finanzinstitutionen ins CIPS-System",
+          "summaryDe": [
+            "Chinas Bemühungen, den Renminbi als alternative Leitwährung in Afrika zu etablieren, gewinnen konkrete Form: Immer mehr afrikanische Finanzinstitutionen integrieren sich in das chinesische Cross-Border Interbank Payment System (CIPS), nachdem Libyen als jüngstes Land ein Teilnahmeabkommen unterzeichnet hat.",
+            "Dahinter steckt eine strategische Logik – je mehr Länder CIPS nutzen, desto weniger abhängig sind Transaktionen vom SWIFT-System und damit vom US-Dollar.",
+            "Für den Westen ist das mehr als eine Währungsfrage: Es geht um geopolitischen Einfluss und die Architektur des globalen Finanzsystems.",
+            "Ob der Yuan Afrika tatsächlich dominieren kann, hängt von Faktoren wie Wechselkursstabilität und Vertrauen in chinesische Institutionen ab – beides bleibt umstritten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Erosion des Dollar-dominanten Finanzsystems hätte langfristig Folgen für den internationalen Handel, auch für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die systematische Ausdehnung des CIPS-Netzwerks in Afrika ist ein messbarer Schritt in der De-Dollarisierungsstrategie."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why the Chinese yuan could soon be Africa's most important currency",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364171/why-chinese-yuan-could-soon-be-africas-most-important-currency",
+              "publishedAt": "2026-08-16T06:00:20Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China gibt Ökologiebericht zu umstrittenen Südchinesee-Inseln heraus",
+          "summaryDe": [
+            "Peking hat Umweltberichte zu neun umstrittenen Gebieten im Südchinesischen Meer veröffentlicht – ein Schritt, der juristisch und diplomatisch als Vertiefung der Souveränitätsansprüche zu werten ist.",
+            "Der Zeitpunkt ist kein Zufall: China und die USA liegen im Streit über Pekings Errichtung eines 'nationalen Naturschutzgebiets' in denselben Gewässern, das Anrainerstaaten als illegitime Territorialaneignung betrachten.",
+            "Ökologische Gutachten werden hier als Mittel der Rechtfertigung eingesetzt, ähnlich wie es China in der Vergangenheit mit Fischereiregulierungen getan hat.",
+            "Parallel dazu zeigt ein offizieller taiwanesischer Audit erhebliche Lücken in der Drohnenabwehr gegenüber chinesischen Systemen – ein gesondertes, aber strukturell verbundenes Signal über das militärische Kräfteverhältnis in der Region."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Spannungen im Südchinesischen Meer berühren Seewege, die für den deutschen Außenhandel erhebliche Bedeutung haben."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Chinas Strategie, Gebietsansprüche mit Umweltberichten zu untermauern, stellt eine neue Dimension im Südchinesee-Konflikt dar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing issues ecological report to solidify South China Sea claims amid US row",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364152/beijing-issues-ecological-report-solidify-south-china-sea-claims-amid-us-row",
+              "publishedAt": "2026-08-15T11:45:14Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan drone defences fall short against Beijing's evolving technology, audit reveals",
+              "url": "https://www.scmp.com/news/china/military/article/3364142/taiwan-drone-defences-fall-short-against-beijings-evolving-technology-audit-reveals",
+              "publishedAt": "2026-08-15T14:00:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Serbischer Einfluss auf Montenegro im Fokus – Vorwürfe eines hybriden Kriegs gegen Podgorica",
+          "summaryDe": [
+            "Montenegrinische Regierungsvertreter erheben schwere Vorwürfe gegen Belgrad: Präsident Vučić nutze den ehemaligen Politiker Marović als Instrument eines hybriden Krieges gegen Podgorica, so ein Regierungsmitglied gegenüber der Zeitung Pobjeda.",
+            "Marović soll über Insiderwissen aus montenegrinischen Strukturen verfügen und unter dem Schutz Belgrads stehen.",
+            "Hintergrund ist eine anhaltende Spannung zwischen den montenegrinischen EU-Integrationsbestrebungen und dem serbischen Einflussinteresse auf dem westlichen Balkan.",
+            "Ein weiterer Regierungsvertreter formulierte es direkt: Podgorica sei gerade wegen seiner Erfolge auf dem europäischen Weg zum neuen Feind des Vučić-Regimes geworden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der EU-Beitrittsprozess Montenegros und serbische Einflussoperationen auf dem Balkan sind mittelbar für die EU-Erweiterungspolitik relevant, an der Deutschland aktiv beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Vorwürfe sind politisch relevant für die Balkanstabilität, haben aber begrenzte internationale Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ninić za Pobjedu: Vučić koristi Marovića u hibridnom ratu protiv Podgorice",
+              "url": "https://www.pobjeda.me/clanak/ninic-za-pobjedu-vucic-koristi-marovica-u-hibridnom-ratu-protiv-podgorice",
+              "publishedAt": "2026-08-17T06:50:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ponoš za Pobjedu: Podgorica je zbog uspjeha na evropskom putu novi neprijatelj Vučićevog režima",
+              "url": "https://www.pobjeda.me/clanak/podgorica-je-zbog-uspjeha-na-evropskom-putu-novi-neprijatelj-vucicevog-rezima",
+              "publishedAt": "2026-08-16T16:41:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Strafanzeige in Deutschland: Meta-Ray-Ban-Brille als Instrument verdeckter Aufnahmen",
+          "summaryDe": [
+            "Bürgerrechtsgruppen haben in Deutschland Strafanzeige gegen den Einsatz der Meta-Ray-Ban-Smartbrille erstattet, die unbemerkt Videoaufnahmen im öffentlichen Raum ermöglicht.",
+            "Konkret geht es um das Risiko nicht-einvernehmlicher Sexualisierung – eine Gefährdung, der vor allem Frauen ausgesetzt sein können, ohne es zu wissen.",
+            "Die Anzeige richtet sich auch gegen die nach Ansicht der Kläger unzureichende Regulierung solcher Geräte durch den europäischen Rechtsrahmen.",
+            "Das Verfahren könnte Signalwirkung für die laufende EU-Debatte über den AI Act und Verbraucherschutz im Umgang mit tragbaren Kameras entfalten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Strafanzeige wurde in Deutschland eingereicht und betrifft deutsches Strafrecht sowie EU-Regulierungsfragen mit unmittelbarer nationaler Relevanz."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Fall berührt grundlegende Fragen des Persönlichkeitsschutzes im Zeitalter allgegenwärtiger Kameratechnologie."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Meta and Ray-Ban's 'pervert glasses' prompt criminal complaint in Germany",
+              "url": "https://euobserver.com/232385/meta-and-ray-bans-pervert-glasses-prompt-criminal-complaint-in-germany",
+              "publishedAt": "2026-08-13T15:56:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU droht Gaspreis-Spirale im Winter – Speicher zu niedrig, Preis zieht an",
+          "summaryDe": [
+            "Europäische Gasspeicher sind auf einem niedrigen Stand, und britische Energieanalysten prognostizieren für den Winter 2026 Großhandelspreise von rund 60 Euro pro Megawattstunde – deutlich über dem Basiswert von 45 Euro.",
+            "Das trifft Deutschland besonders, da die Industrie stark gasabhängig ist und höhere Energiepreise die ohnehin schwächelnde Wettbewerbsfähigkeit weiter belasten.",
+            "Hinzu kommt der Strukturtrend: Ohne russisches Pipelinegas ist Europa dauerhaft auf teurere Flüssiggas-Importe angewiesen, die stärker globalen Preisschocks ausgesetzt sind.",
+            "Eine parallele Entwicklung unterstreicht den Reformdruck: EU-Beamte räumen ein, kein klares Konzept für 'Restemissionen' aus Landwirtschaft, Industrie und Luftfahrt zu haben – was das Klimaziel 2040 gefährdet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Steigende Gaspreise treffen die deutsche Industrie direkt und können Heizkosten sowie Produktionskosten erheblich erhöhen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine drohende Gaspreisspiral in Europa ist eine größere wirtschaftliche Entwicklung mit weitreichenden Folgen für Haushalte und Industrie."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU risks winter gas-price spiral, as stocks run low",
+              "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
+              "publishedAt": "2026-08-13T15:01:23Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Deutsche Geheimdienste erhalten erstmals Offensivbefugnisse",
+          "summaryDe": [
+            "Deutschland bricht mit einem Nachkriegstabu: Die Bundesregierung hat beschlossen, den Geheimdiensten offensive Operationsbefugnisse zu erteilen – eine Abkehr von dem seit dem Kalten Krieg geltenden Grundsatz, keine 'Geheimpolizei' mit aktiven Eingriffsrechten zu schaffen.",
+            "Hintergrund sind wachsende Bedrohungen durch staatliche und nichtstaatliche Akteure sowie der Druck, mit Partnerdiensten in NATO und EU gleichziehen zu können.",
+            "Kritiker warnen vor einer schleichenden Erosion der Bürgerrechte und fordern robuste parlamentarische Kontrolle als Gegengewicht.",
+            "Gleichzeitig hat die Ukraine nach eigenen Angaben ihre größte Gebietsrückeroberung seit vier Jahren vollzogen – ein Entwicklungssprung, der den europäischen Druck auf weitere Militärhilfe verstärkt, während US-Hilfe auf null gefallen ist."
+          ],
+          "additionalImportant": "Der Rückzug der USA aus der Ukraine-Finanzierung verschärft Europas sicherheitspolitische Verantwortung strukturell.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Ausweitung deutscher Geheimdienstbefugnisse ist unmittelbar innenpolitisch relevant und betrifft Grundrechte und Sicherheitsarchitektur Deutschlands."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Bruch mit einem jahrzehntelangen Nachkriegstabu durch eine der größten europäischen Demokratien ist eine bedeutende Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "German spies to get offensive powers, breaking post-Cold War taboo on 'secret police'",
+              "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
+              "publishedAt": "2026-08-14T10:54:09Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Silence ended: Ukraine reveals its largest liberation of territory in four years (Ukraine Battlefield update, Day 1,631)",
+              "url": "https://euobserver.com/232354/silence-ended-ukraine-reveals-its-largest-liberation-of-territory-in-four-years-ukraine-battlefield-update-day-1631",
+              "publishedAt": "2026-08-13T14:41:43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
