@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-18",
+  "generatedAt": "2026-08-17T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Berufungsgericht stoppt Trumps Taktik zur Umgehung des Kongresses bei Staatsanwälten",
+          "summaryDe": [
+            "Ein Berufungsgericht hat die Praxis der Trump-Administration zurückgewiesen, Bundesstaatsanwälte durch Interimsernennung am Bestätigungsverfahren des Kongresses vorbeizuschleusen.",
+            "Das Urteil ist ein direkter Eingriff in eine gezielte Personalpolitik, mit der die Exekutive Schlüsselpositionen in der Justiz besetzte, ohne den Senat einzuschalten.",
+            "Parallel dazu klagt eine frühere Bundesstaatsanwältin gegen das Justizministerium wegen angeblich rechtswidriger und vergeltender Entlassung nach Verfahren gegen Abtreibungsgegner – ein weiteres Zeichen für politisch aufgeladene Personalentscheidungen im DOJ.",
+            "Gemeinsam illustrieren beide Vorgänge, wie stark die Auseinandersetzung zwischen Exekutive und Justiz über institutionelle Kontrolle eskaliert ist."
+          ],
+          "additionalImportant": "Schwere Überschwemmungen im Mittleren Westen töteten mindestens sieben Menschen, Hurrikan Lala hinterließ Verwüstungen auf Hawaii.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant als Signal für den Zustand der Gewaltenteilung in der größten Volkswirtschaft der Welt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Urteil greift direkt in die Personalhoheit der Exekutive über Strafverfolgungsbehörden ein und ist damit eine größere verfassungsrechtliche Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Appeals Court Rejects Trump's Strategy of Picking U.S. Attorneys",
+              "url": "https://www.nytimes.com/2026/08/17/us/us-attorneys-interim-appointments.html",
+              "publishedAt": "2026-08-17T22:37:18Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Former federal prosecutor is suing DOJ for 'unlawful and retaliatory' firing",
+              "url": "https://www.npr.org/2026/08/17/g-s1-138997/former-federal-prosecutor-sue-doj-retaliatory-firing",
+              "publishedAt": "2026-08-17T21:01:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Staatsschulden kurz vor 40-Billionen-Dollar-Marke – Anleiherenditen auf 19-Jahres-Hoch",
+          "summaryDe": [
+            "Die amerikanische Staatsverschuldung nähert sich der symbolischen Grenze von 40 Billionen Dollar, während die Rendite 30-jähriger Staatsanleihen mit 5,31 Prozent den höchsten Stand seit 19 Jahren erreichte.",
+            "Märkte und Ökonomen sehen das Zusammentreffen beider Entwicklungen als Warnsignal: Steigende Finanzierungskosten für einen ohnehin überschuldeten Staat können einen Rückkopplungseffekt auslösen, der Schuldenabbau strukturell erschwert.",
+            "Hinzu kommt, dass Nvidia 105 Milliarden Dollar für die Finanzierung eines OpenAI-Rechenzentrums in Ohio bereitstellt – ein privates Investitionsvolumen, das die staatliche Haushaltslage kontrastiert und zeigt, wie konzentriert Kapital im KI-Sektor fließt.",
+            "Anthropic meldete unterdessen einen annualisierten Umsatz von 65 Milliarden Dollar, siebenmal mehr als ein Jahr zuvor – auch das ein Hinweis darauf, wie schnell sich wirtschaftliche Schwerpunkte verschieben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Anleiherenditen verteuern globale Finanzierung und beeinflussen Kapitalflüsse sowie Zinsniveau auch in Deutschland."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Staatsverschuldung und Anleiherenditen auf Rekordniveau sind systemisch relevante Entwicklungen mit globaler Ausstrahlung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "30-year Treasury yield tops 5.31%, the highest in 19 years",
+              "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
+              "publishedAt": "2026-08-17T20:04:53Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "National debt nears $40 trillion: How we got here and why it matters",
+              "url": "https://www.pbs.org/newshour/show/national-debt-nears-40-trillion-how-we-got-here-and-why-it-matters",
+              "publishedAt": "2026-08-17T22:40:49Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
+              "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+              "publishedAt": "2026-08-17T21:22:37Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran-Waffenstillstand ausgelaufen – Trump droht Oman, während Südkorea auf Abkühlung der US-Bündnisgarantien reagiert",
+          "summaryDe": [
+            "Die von Trump gesetzte 60-Tage-Frist für eine Einigung mit Iran ist verstrichen, und der Präsident drohte dem Vermittlerland Oman mit Bombardierung – ein Bruch diplomatischer Gepflogenheiten, der die Verhandlungslandschaft weiter verengt.",
+            "Gleichzeitig forderte Trump eine Reduzierung gemeinsamer Militärübungen mit Südkorea und bezeichnete sie als unnötig provokativ gegenüber Nordkorea; Seouls Präsident Lee mahnte daraufhin, das Land müsse sich auf ein 'schlimmstes Szenario' vorbereiten.",
+            "Beide Entwicklungen zusammen signalisieren eine Neuausrichtung amerikanischer Sicherheitsgarantien in zwei Krisenregionen gleichzeitig – Iran und Korea-Halbinsel – was Verbündete und Gegner gleichermaßen zur Lagebeurteilung zwingt.",
+            "Im Hintergrund verhandelten Kushner und Netanyahu über Gaza, ohne dass eine Einigung in Sicht ist; Netanyahus Weigerung, Truppen zurückzuziehen, blockiert den US-Friedensplan weiterhin."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eskalation rund um Iran und Erosion von US-Bündnisgarantien betreffen europäische Sicherheitsarchitektur und Energiemärkte direkt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Gleichzeitige Bündniskrise in Asien und eskalierende Iran-Diplomatie sind außergewöhnliche außenpolitische Entwicklungen mit globaler Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "As Iran Truce Expires and Options Shrivel, Trump Lashes Out",
+              "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-truce-oman.html",
+              "publishedAt": "2026-08-17T20:02:21Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Trump lashes out at South Korea over its refusal to join Iran war",
+              "url": "https://www.pbs.org/newshour/show/trump-lashes-out-at-south-korea-over-its-refusal-to-join-iran-war",
+              "publishedAt": "2026-08-17T22:50:23Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
+              "url": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
+              "publishedAt": "2026-08-17T21:23:29Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping inszeniert Jiang-Zemin-Gedenkfeier als Signal der Parteieinheit",
+          "summaryDe": [
+            "Zum hundertsten Geburtstag des 2022 verstorbenen Staatschefs Jiang Zemin leitete Xi Jinping in Peking eine staatliche Gedenkveranstaltung, bei der Jiangs Verdienste für Partei und Land hervorgehoben wurden.",
+            "Solche Feiern für frühere Führungsfiguren sind im chinesischen System selten ein Akt der Nostalgie – sie dienen der Botschaft nach innen: Die Partei bleibt geeint, Abweichung hat keinen Platz.",
+            "Auffällig ist der Zeitpunkt: Inmitten wirtschaftlicher Abkühlung und wachsender außenpolitischer Spannungen braucht Xi demonstrative Kohäsion.",
+            "Parallels dazu forderten staatliche Medien, englische KI-Begriffe durch chinesische Äquivalente zu ersetzen – auch das ist Innenpolitik, verpackt als Sprachpflege, tatsächlich aber Teil eines breiteren Kampfs um 'Diskursmacht'."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Rein innenpolitische Symbolik ohne erkennbare direkte Auswirkung auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant als Indikator für Xis Herrschaftsstil, aber ohne unmittelbare operative Konsequenzen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's Xi praises former president Jiang Zemin's contribution in show of party unity",
+              "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
+              "publishedAt": "2026-08-17T01:59:50Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas Wirtschaft kühlt sich ab: Einzelhandel und Industrieproduktion verfehlen Erwartungen",
+          "summaryDe": [
+            "Im Juli wuchs der chinesische Einzelhandel nur um 0,6 Prozent – halb so viel wie Analysten prognostiziert hatten. Auch die Industrieproduktion mit 4,5 Prozent und das Investitionstempo blieben hinter den Prognosen zurück.",
+            "Die Zahlen kommen zu einem Zeitpunkt, an dem Peking ohnehin mit deflationärem Druck und schwacher Binnennachfrage kämpft, während US-Exportbeschränkungen den Technologiesektor belasten.",
+            "Chinesische Forscher präsentierten unterdessen das aerodynamische Modell eines Nurflügel-Passagierflugzeugs für mehr als 800 Personen – ein ambitioniertes Signal, dass Peking den Rückstand im Großluftfahrzeugbau trotz Gegenwind schließen will.",
+            "Ob solche Großprojekte die strukturelle Konsumflaute kompensieren können, ist fraglich; sie adressieren unterschiedliche Problemlagen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine anhaltende Konjunkturabkühlung in China trifft die exportabhängige deutsche Industrie direkt, besonders Maschinenbau und Automobil."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Enttäuschende Wirtschaftsdaten der zweitgrößten Volkswirtschaft sind eine größere Entwicklung mit globalen Folgen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's economy cools amid debate about risks of global crisis",
+              "url": "https://www.scmp.com/plus/economy/china-economy/article/3364282/chinas-economy-cools-amid-debate-about-risks-global-crisis",
+              "publishedAt": "2026-08-17T09:00:33Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan rüstet asymmetrisch auf – Pentagon prüft Universitäten auf China-Verbindungen",
+          "summaryDe": [
+            "Taiwan schloss mit dem US-Rüstungs-Start-up Vatn Systems einen Vertrag zur Entwicklung autonomer Unterwasserdrohnen – ein gezielter Ausbau asymmetrischer Fähigkeiten, der Pekings Überlegenheit in konventioneller Seekriegsführung durch technologische Nischenwaffen kontern soll.",
+            "Zeitgleich wies das US-Verteidigungsministerium 30 Universitäten an, ihre Forschungskooperationen mit chinesischen Institutionen und ehemaligen Konfuzius-Institut-Netzwerken zu prüfen.",
+            "Beide Maßnahmen zeigen denselben strategischen Reflex: Washington und seine Partner versuchen, die Grenze zwischen ziviler und militärischer Zusammenarbeit mit China neu zu ziehen.",
+            "Hinzu kommt die strategische Bedeutung der Nordseeroute, die chinesische und russische Reedereien angesichts von Suezkanal-Störungen intensiver nutzen – ein geografischer Verhandlungsvorteil, den Moskau bewusst kultiviert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant: Verschärfte US-Hochschulprüfungen betreffen auch deutsch-chinesische Wissenschaftskooperationen als Signal."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Taiwans Aufrüstung und Pentagon-Audits sind Bausteine einer größeren strukturellen Entkopplung zwischen dem Westen und China."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan teams up with US start-up on underwater drones to boost island's defences",
+              "url": "https://www.scmp.com/news/china/military/article/3364328/taiwan-teams-us-start-underwater-drones-boost-islands-defences",
+              "publishedAt": "2026-08-17T13:04:02Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Vorwürfe serbischer Einflussnahme und innenpolitische Spannungen prägen Montenegros Debatte",
+          "summaryDe": [
+            "Ein politischer Kommentator warf der serbischen Führung vor, einen ehemaligen montenegrinischen Funktionär gezielt im Rahmen eines hybriden Krieges gegen Podgorica einzusetzen – ein Vorwurf, der in der kleinen Adria-Republik auf höchst empfindlichen historischen Boden trifft.",
+            "Intern mahnte ein ranghoher Politiker, Parteiführungen priorisierten sichere Listenplätze und gefügige Abgeordnete statt einer glaubwürdigen Wahlverwaltung – ein seltenes öffentliches Signal interner Unzufriedenheit.",
+            "Ein weiterer Politiker erklärte, die parteiübergreifende Regierungskoalition in Podgorica sei tragfähig und könne bis zu den Kommunalwahlen im Juni nächsten Jahres halten.",
+            "Zusammen zeichnen diese Meldungen das Bild eines politischen Systems, das nach außen unter Druck steht und nach innen mit Glaubwürdigkeitsfragen kämpft."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegrinische Innenpolitik hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant im regionalen Kontext der Westbalkan-Stabilität, aber von begrenzter überregionaler Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ninić za Pobjedu: Vučić koristi Marovića u hibridnom ratu protiv Podgorice",
+              "url": "https://www.pobjeda.me/clanak/ninic-za-pobjedu-vucic-koristi-marovica-u-hibridnom-ratu-protiv-podgorice",
+              "publishedAt": "2026-08-17T06:50:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Zvrko: Koalicija može trajati do lokalnih izbora u junu naredne godine",
+              "url": "https://www.pobjeda.me/clanak/zvrko-koalicija-moze-trajati-do-lokalnih-izbora-u-junu-naredne-godine",
+              "publishedAt": "2026-08-17T19:50:02Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kraftstoffpreise steigen ab Mitternacht spürbar an",
+          "summaryDe": [
+            "Ab Mitternacht verteuerte sich Benzin in Montenegro um sieben Cent pro Liter, Diesel um sechs Cent – eine überschaubare, aber im Alltag unmittelbar spürbare Belastung.",
+            "Preisanpassungen dieser Größenordnung folgen typischerweise Bewegungen auf den internationalen Rohölmärkten und treffen besonders ländliche Bevölkerungsgruppen mit hoher Pkw-Abhängigkeit hart.",
+            "Weitere wirtschaftliche Daten zu Wachstum, Investitionen oder Handel lagen für diesen Berichtstag nicht vor."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Lokale Kraftstoffpreisanpassung ohne Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Routineanpassung von Kraftstoffpreisen mit rein lokaler Relevanz."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Gorivo skuplje od ponoći",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/822503/gorivo-skuplje-od-ponoci",
+              "publishedAt": "2026-08-17T19:05:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Moldaus Präsidentin Sandu beschuldigt Russland des gezielten Drohneneinflugs",
+          "summaryDe": [
+            "Moldaus Staatspräsidentin Maja Sandu erklärte, Russland sende absichtlich Drohnen in moldauischen Luftraum und betonte, mehr Unterstützung für die Ukraine sei der wirksamste Weg, diese Übergriffe zu stoppen.",
+            "Die Aussage ist politisch bemerkenswert: Sandu benennt direkt die russische Absicht – kein technisches Versehen, sondern kalkulierter Druck auf ein kleines Nicht-NATO-Land.",
+            "Für Montenegro, das als NATO-Mitglied Grenzen zu keiner aktiven Konfliktzone teilt, verdeutlicht der moldauische Fall gleichwohl, wie nah russischer Druck an die unmittelbare Nachbarschaft reicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Russische Druckausübung auf EU- und NATO-Anrainer hat indirekte Bedeutung für die europäische Sicherheitsarchitektur."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Direkte Beschuldigung russischer Absichten durch ein Staatsoberhaupt ist eine ernst zu nehmende diplomatische Eskalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Maja Sandu optužila Rusiju za namjerno slanje dronova u moldavski vazdusni prostor",
+              "url": "https://www.vijesti.me/svijet/evropa/822507/maja-sandu-optuzila-rusiju-za-namjerno-slanje-dronova-u-moldavski-vazdusni-prostor",
+              "publishedAt": "2026-08-17T19:29:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ungarn unter Tisza: Erste Verfassungsänderungen vollzogen, Orbán-Rückkehr spekuliert",
+          "summaryDe": [
+            "Ungarns neuer Premierminister Péter Magyar und seine Tisza-Partei haben bis Mitte August erste Verfassungsänderungen durchgesetzt, darunter den Austausch des Staatspräsidenten.",
+            "Der rasante institutionelle Umbau – 94 Tage nach Regierungsantritt – signalisiert, dass Magyar die Fenstern seiner parlamentarischen Mehrheit nutzt, bevor eine mögliche Konsolidierung des Orbán-Lagers die Reformen bremst.",
+            "Spekulationen über Orbáns mögliche Ausreise aus Ungarn kursieren öffentlich, was die Dramatik des politischen Wandels unterstreicht.",
+            "Für die EU ist die Entwicklung unmittelbar bedeutsam: Ein demokratisch reformiertes Ungarn könnte die seit Jahren schwelenden Rechtsstaatskonflikte mit Brüssel rasch auflösen."
+          ],
+          "additionalImportant": "Fünf EU-Länder verhandeln mit Uganda über ein Rückführzentrum für abgelehnte Asylbewerber; ein Treffen zur Finalisierung ist für September geplant.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein stabiles, rechtsstaatskonformes Ungarn wäre für die EU-Entscheidungsfähigkeit auch im deutschen Interesse, die Auswirkungen sind aber nicht unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ungarns demokratischer Umbau ist eine der bedeutendsten innenpolitischen Entwicklungen innerhalb der EU seit Jahren."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "As new president András Baka arrives, is Orbán preparing to leave Hungary? (Day 94 of the Tisza government)",
+              "url": "https://euobserver.com/232339/as-new-president-andras-baka-arrives-is-orban-preparing-to-leave-hungary-day-93-of-the-tisza-government",
+              "publishedAt": "2026-08-14T07:49:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Satellitenkonstellation IRIS² nimmt konkrete Form an – Vertrag mit SpaceRISE unterzeichnet",
+          "summaryDe": [
+            "Die Europäische Kommission und das SpaceRISE-Konsortium haben einen Umsetzungsvertrag für IRIS² unterzeichnet, das neue EU-Satellitennetzwerk wird um 66 Einheiten auf insgesamt 348 Satelliten erweitert.",
+            "IRIS² soll Europa sichere Konnektivität und strategische Kommunikationsunabhängigkeit verschaffen – eine direkte Antwort auf die Abhängigkeit von nicht-europäischen Systemen wie Starlink.",
+            "Gleichzeitig warnen Branchenexperten, europäische Automobilhersteller könnten beim chinesischen Elektrofahrzeugwettbewerb denselben Niedergang erleben wie Nokia in der Mobiltelefonieindustrie – auch das eine Frage technologischer Souveränität.",
+            "Beide Themen zusammen zeigen, wie intensiv die EU gerade darum ringt, in strategisch zentralen Technologiefeldern nicht dauerhaft abgehängt zu werden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "IRIS² betrifft Deutschland als Mitgliedstaat und wichtigen Industriestandort direkt; die Auto-Wettbewerbswarnung trifft eine der Kernindustrien des Landes."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Konkrete Umsetzungsschritte bei IRIS² und strukturelle Warnungen zur Automobilindustrie sind bedeutende technologie- und industriepolitische Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission accelerates IRIS² deployment with enhanced security and expanded satellites network",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726",
+              "publishedAt": "2026-08-06T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] EU's carmakers face their own Nokia challenge to survive Chinese threat, says industry expert",
+              "url": "https://euobserver.com/230968/eus-carmakers-face-their-own-nokia-challenge-to-survive-chinese-threat-says-industry-expert",
+              "publishedAt": "2026-08-15T09:43:39Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Marokko nutzt US-Rückendeckung als Hebel gegen Spanien – EU-Grenzfinanzierung unter Kritik",
+          "summaryDe": [
+            "Marokko, gestärkt durch enge Beziehungen zur Trump-Administration, erhöht den Druck auf Spaniens nordafrikanische Enklaven Ceuta und Melilla und demonstriert offen seine Fähigkeit, Migrationsströme als politisches Instrument einzusetzen.",
+            "Berichte über Kämpfe an der Ceuta-Grenze zeigen dabei, dass EU-Mittel für Drittstaaten zur Migrationsabwehr teils für Polizeibrutalität, Wüstenabschiebungen und rassistisches Profiling verwendet werden.",
+            "Ein EU-Polizeieinsatz gegen das nihilistische Extremistennetzwerk 'The Com' verdeutlichte unterdessen, dass klassische Terrorismuskategorien mit modernen, digital organisierten Bedrohungsformen nicht mehr Schritt halten.",
+            "Alle drei Entwicklungen berühren dieselbe Grundfrage: Wie weit ist die EU bereit, Sicherheitspartnerschaften einzugehen, die ihre eigenen Werte untergraben?"
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "EU-Außengrenzpolitik und ihre moralischen Kosten betreffen Deutschland als Mitgliedstaat und Aufnahmegesellschaft indirekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Marokkos gezielter Einsatz von Migration als Druckmittel und der Wertekonflikt in der EU-Migrationspolitik sind größere politische Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Morocco flaunts power to stop EU-bound migrants",
+              "url": "https://euobserver.com/232543/morocco-flaunts-power-to-stop-eu-bound-migrants",
+              "publishedAt": "2026-08-16T15:23:27Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU action against 'The Com', a nihilist online extremist network, shows that security policies might be outdated",
+              "url": "https://euobserver.com/232048/eu-action-against-the-com-a-nihilist-online-extremist-network-shows-that-security-policies-might-be-outdated",
+              "publishedAt": "2026-08-17T10:41:43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

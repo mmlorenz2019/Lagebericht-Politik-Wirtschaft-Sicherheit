@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-18",
+  "generatedAt": "2026-08-17T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Appeals Court Blocks Trump's Tactic to Bypass Congress on Federal Prosecutors",
+          "summaryDe": [
+            "An appeals court has rejected the Trump administration's practice of circumventing the Senate confirmation process by using interim appointments to place federal prosecutors in key positions.",
+            "The ruling is a direct intervention in a targeted personnel policy through which the executive branch filled key positions in the judiciary without involving the Senate.",
+            "Concurrently, a former federal prosecutor is suing the Justice Department for allegedly unlawful and retaliatory dismissal following proceedings against anti-abortion activists – another sign of politically charged personnel decisions within the DOJ.",
+            "Together, both cases illustrate how severely the conflict between the executive and judiciary over institutional checks and balances has escalated."
+          ],
+          "additionalImportant": "Severe flooding in the Midwest killed at least seven people; Hurricane Lala left devastation across Hawaii.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirectly relevant as a signal of the state of separation of powers in the world's largest economy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The ruling directly impacts the executive branch's personnel authority over law enforcement agencies and represents a significant constitutional development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Appeals Court Rejects Trump's Strategy of Picking U.S. Attorneys",
+              "url": "https://www.nytimes.com/2026/08/17/us/us-attorneys-interim-appointments.html",
+              "publishedAt": "2026-08-17T22:37:18Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "Former federal prosecutor is suing DOJ for 'unlawful and retaliatory' firing",
+              "url": "https://www.npr.org/2026/08/17/g-s1-138997/former-federal-prosecutor-sue-doj-retaliatory-firing",
+              "publishedAt": "2026-08-17T21:01:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US National Debt Approaches $40 Trillion – Treasury Bond Yields Hit 19-Year High",
+          "summaryDe": [
+            "American national debt is approaching the symbolic $40 trillion mark, while the yield on 30-year Treasury bonds has reached 5.31 percent, the highest level in 19 years.",
+            "Markets and economists view the convergence of both developments as a warning signal: rising financing costs for an already heavily indebted state can trigger a feedback loop that structurally complicates debt reduction.",
+            "Adding to this, Nvidia is providing $105 billion in financing for an OpenAI data center in Ohio – a private investment volume that contrasts with the state's fiscal situation and demonstrates how concentrated capital flows are within the AI sector.",
+            "Anthropic, meanwhile, reported annualized revenue of $65 billion, seven times higher than a year earlier – another indication of how rapidly economic priorities are shifting."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising US Treasury yields increase global financing costs and influence capital flows as well as interest rate levels in Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "National debt and bond yields at record levels are systemically significant developments with global implications."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "financial news",
+              "titleOriginal": "30-year Treasury yield tops 5.31%, the highest in 19 years",
+              "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
+              "publishedAt": "2026-08-17T20:04:53Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "National debt nears $40 trillion: How we got here and why it matters",
+              "url": "https://www.pbs.org/newshour/show/national-debt-nears-40-trillion-how-we-got-here-and-why-it-matters",
+              "publishedAt": "2026-08-17T22:40:49Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "financial news",
+              "titleOriginal": "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
+              "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+              "publishedAt": "2026-08-17T21:22:37Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran Ceasefire Expires – Trump Threatens Oman as South Korea Braces for Worst-Case Scenario",
+          "summaryDe": [
+            "Trump's 60-day deadline for reaching a deal with Iran has expired, and the president threatened the mediating country Oman with bombing – a breach of diplomatic conventions that further narrows the negotiation landscape.",
+            "Simultaneously, Trump demanded a reduction in joint military exercises with South Korea, calling them unnecessarily provocative toward North Korea; Seoul's President Lee subsequently warned that the country must prepare for a 'worst-case scenario.'",
+            "Together, both developments signal a realignment of American security guarantees in two crisis regions simultaneously – Iran and the Korean Peninsula – forcing allies and adversaries alike to reassess the situation.",
+            "In the background, Kushner and Netanyahu negotiated over Gaza without a deal in sight; Netanyahu's refusal to withdraw troops continues to block the US peace plan."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Escalation around Iran and erosion of US alliance guarantees directly affect European security architecture and energy markets."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Simultaneous alliance crisis in Asia and escalating Iran diplomacy are extraordinary foreign policy developments with global reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "As Iran Truce Expires and Options Shrivel, Trump Lashes Out",
+              "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-truce-oman.html",
+              "publishedAt": "2026-08-17T20:02:21Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "Trump lashes out at South Korea over its refusal to join Iran war",
+              "url": "https://www.pbs.org/newshour/show/trump-lashes-out-at-south-korea-over-its-refusal-to-join-iran-war",
+              "publishedAt": "2026-08-17T22:50:23Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
+              "url": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
+              "publishedAt": "2026-08-17T21:23:29Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping Stages Jiang Zemin Memorial as Signal of Party Unity",
+          "summaryDe": [
+            "For the centenary of former state leader Jiang Zemin, who died in 2022, Xi Jinping presided over a state memorial ceremony in Beijing, where Jiang's contributions to the party and nation were highlighted.",
+            "In China's political system, such ceremonies for former leaders are rarely acts of nostalgia – they serve an internal message: the party remains united, and dissent has no place.",
+            "Notably timed, the event comes amid economic slowdown and growing foreign policy tensions, where Xi requires demonstrative cohesion.",
+            "Alongside this, state media called for replacing English AI terminology with Chinese equivalents – also internal politics, packaged as language care, but actually part of a broader struggle for 'discourse power.'"
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Purely domestic symbolism with no discernible direct impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant as an indicator of Xi's leadership style, but without immediate operational consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's Xi praises former president Jiang Zemin's contribution in show of party unity",
+              "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
+              "publishedAt": "2026-08-17T01:59:50Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's Economy Cools: Retail Sales and Industrial Production Miss Expectations",
+          "summaryDe": [
+            "In July, Chinese retail sales grew by only 0.6 percent – half of what analysts had predicted. Industrial production at 4.5 percent and investment pace also lagged behind forecasts.",
+            "The figures come at a time when Beijing is already grappling with deflationary pressure and weak domestic demand, while US export restrictions burden the technology sector.",
+            "Chinese researchers meanwhile presented the aerodynamic model of a blended-wing passenger aircraft for more than 800 people – an ambitious signal that Beijing intends to close the gap in large aircraft manufacturing despite headwinds.",
+            "Whether such major projects can compensate for the structural consumption slump is questionable; they address different problem areas."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Sustained economic slowdown in China directly impacts export-dependent German industry, particularly machinery and automotive sectors."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Disappointing economic data from the world's second-largest economy is a significant development with global consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's economy cools amid debate about risks of global crisis",
+              "url": "https://www.scmp.com/plus/economy/china-economy/article/3364282/chinas-economy-cools-amid-debate-about-risks-global-crisis",
+              "publishedAt": "2026-08-17T09:00:33Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan Upgrades Asymmetrically – Pentagon Reviews Universities for China Ties",
+          "summaryDe": [
+            "Taiwan signed a contract with US defense startup Vatn Systems to develop autonomous underwater drones – a targeted expansion of asymmetric capabilities designed to counter Beijing's conventional naval superiority through technological niche weapons.",
+            "Simultaneously, the US Defense Department instructed 30 universities to review their research partnerships with Chinese institutions and former Confucius Institute networks.",
+            "Both measures reflect the same strategic reflex: Washington and its partners are attempting to redraw the line between civilian and military cooperation with China.",
+            "Adding to this is the strategic significance of the Northern Sea Route, which Chinese and Russian shipping companies are using more intensively in light of Suez Canal disruptions – a geographic advantage that Moscow is deliberately cultivating."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Tightened US university reviews also affect German-Chinese scientific cooperation as a signal."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Taiwan's military upgrades and Pentagon audits are building blocks of a larger structural decoupling between the West and China."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan teams up with US start-up on underwater drones to boost island's defences",
+              "url": "https://www.scmp.com/news/china/military/article/3364328/taiwan-teams-us-start-underwater-drones-boost-islands-defences",
+              "publishedAt": "2026-08-17T13:04:02Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Serbian Influence Allegations and Internal Political Tensions Shape Montenegro's Debate",
+          "summaryDe": [
+            "A political commentator accused Serbian leadership of deliberately deploying a former Montenegrin official as part of a hybrid war against Podgorica – an accusation that touches highly sensitive historical ground in the small Adriatic republic.",
+            "Internally, a senior politician warned that party leaders prioritized safe list positions and compliant legislators over credible electoral administration – a rare public signal of internal discontent.",
+            "Another politician declared that the cross-party governing coalition in Podgorica is stable and can hold together until municipal elections next June.",
+            "Together, these reports paint a picture of a political system that faces external pressure and struggles internally with credibility questions."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegrin domestic politics have no direct connection to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant in the regional context of Western Balkans stability, but of limited broader significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Ninić za Pobjedu: Vučić koristi Marovića u hibridnom ratu protiv Podgorice",
+              "url": "https://www.pobjeda.me/clanak/ninic-za-pobjedu-vucic-koristi-marovica-u-hibridnom-ratu-protiv-podgorice",
+              "publishedAt": "2026-08-17T06:50:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Zvrko: Koalicija može trajati do lokalnih izbora u junu naredne godine",
+              "url": "https://www.pobjeda.me/clanak/zvrko-koalicija-moze-trajati-do-lokalnih-izbora-u-junu-naredne-godine",
+              "publishedAt": "2026-08-17T19:50:02Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fuel Prices Rise Sharply from Midnight",
+          "summaryDe": [
+            "From midnight, gasoline became more expensive by seven cents per liter, diesel by six cents – a modest but immediately noticeable burden in daily life.",
+            "Price adjustments of this magnitude typically follow movements on international crude oil markets and hit rural populations with high car dependency particularly hard.",
+            "No further economic data on growth, investments, or trade were available for this report date."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Local fuel price adjustment with no connection to Germany."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Routine fuel price adjustment with purely local relevance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent news outlet",
+              "titleOriginal": "Gorivo skuplje od ponoći",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/822503/gorivo-skuplje-od-ponoci",
+              "publishedAt": "2026-08-17T19:05:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Moldova's President Sandu Accuses Russia of Deliberate Drone Incursions",
+          "summaryDe": [
+            "Moldova's President Maja Sandu stated that Russia deliberately sends drones into Moldovan airspace and emphasized that greater support for Ukraine is the most effective way to stop these incursions.",
+            "The statement is politically significant: Sandu directly names Russian intent – not a technical accident, but calculated pressure on a small non-NATO country.",
+            "For Montenegro, which as a NATO member shares borders with no active conflict zone, the Moldovan case nonetheless demonstrates how close Russian pressure reaches to the immediate neighborhood."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Russian pressure on EU and NATO neighbors is indirectly significant for European security architecture."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A head of state's direct accusation of Russian intent is a serious diplomatic escalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent news outlet",
+              "titleOriginal": "Maja Sandu optužila Rusiju za namjerno slanje dronova u moldavski vazdusni prostor",
+              "url": "https://www.vijesti.me/svijet/evropa/822507/maja-sandu-optuzila-rusiju-za-namjerno-slanje-dronova-u-moldavski-vazdusni-prostor",
+              "publishedAt": "2026-08-17T19:29:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Hungary under Tisza: First Constitutional Changes Enacted, Orbán Return Speculated",
+          "summaryDe": [
+            "Hungary's new Prime Minister Péter Magyar and his Tisza party have enacted the first constitutional amendments by mid-August, including the replacement of the state president.",
+            "The rapid institutional overhaul – 94 days after taking office – signals that Magyar is using the window of his parliamentary majority before possible consolidation by the Orbán camp could slow reforms.",
+            "Public speculation about Orbán's possible departure from Hungary circulates, underscoring the drama of the political transformation.",
+            "For the EU, the development has immediate significance: a democratically reformed Hungary could rapidly resolve the long-simmering rule-of-law conflicts with Brussels."
+          ],
+          "additionalImportant": "Five EU countries are negotiating with Uganda over a deportation center for rejected asylum seekers; a meeting to finalize the arrangement is planned for September.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A stable, rule-of-law-compliant Hungary would be in Germany's interest for EU decision-making capacity, but the impacts are not immediately direct."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Hungary's democratic overhaul is one of the most significant domestic political developments within the EU in years."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "As new president András Baka arrives, is Orbán preparing to leave Hungary? (Day 94 of the Tisza government)",
+              "url": "https://euobserver.com/232339/as-new-president-andras-baka-arrives-is-orban-preparing-to-leave-hungary-day-93-of-the-tisza-government",
+              "publishedAt": "2026-08-14T07:49:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Satellite Constellation IRIS² Takes Concrete Shape – SpaceRISE Contract Signed",
+          "summaryDe": [
+            "The European Commission and the SpaceRISE consortium have signed an implementation contract for IRIS², expanding the new EU satellite network by 66 units to a total of 348 satellites.",
+            "IRIS² is intended to provide Europe with secure connectivity and strategic communications independence – a direct response to dependence on non-European systems like Starlink.",
+            "Simultaneously, industry experts warn that European automakers could experience the same decline vis-à-vis Chinese electric vehicle competitors that Nokia suffered in the mobile phone industry – also a question of technological sovereignty.",
+            "Together, both topics show how intensely the EU is struggling to avoid being permanently disadvantaged in strategically central technology fields."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "IRIS² affects Germany as an EU member state and important industrial location; the auto competition warning targets one of the country's core industries."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Concrete implementation steps for IRIS² and structural warnings about the automotive industry are significant technology and industrial policy developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission accelerates IRIS² deployment with enhanced security and expanded satellites network",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726",
+              "publishedAt": "2026-08-06T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "[Interview] EU's carmakers face their own Nokia challenge to survive Chinese threat, says industry expert",
+              "url": "https://euobserver.com/230968/eus-carmakers-face-their-own-nokia-challenge-to-survive-chinese-threat-says-industry-expert",
+              "publishedAt": "2026-08-15T09:43:39Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Morocco Leverages US Backing Against Spain – EU Border Financing Under Fire",
+          "summaryDe": [
+            "Morocco, emboldened by close relations with the Trump administration, increases pressure on Spain's North African enclaves of Ceuta and Melilla, openly demonstrating its ability to use migration flows as a political instrument.",
+            "Reports of clashes at the Ceuta border show that EU funds to third countries for migration deterrence are partly used for police brutality, desert deportations, and discriminatory profiling.",
+            "An EU police operation against the nihilist extremist network 'The Com' meanwhile illustrated that traditional terrorism categories no longer keep pace with modern, digitally organized threats.",
+            "All three developments address the same fundamental question: how far is the EU willing to go in security partnerships that undermine its own values?"
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "EU external border policy and its moral costs indirectly affect Germany as an EU member state and receiving society."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Morocco's deliberate use of migration as leverage and the values conflict in EU migration policy are significant political developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Morocco flaunts power to stop EU-bound migrants",
+              "url": "https://euobserver.com/232543/morocco-flaunts-power-to-stop-eu-bound-migrants",
+              "publishedAt": "2026-08-16T15:23:27Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU action against 'The Com', a nihilist online extremist network, shows that security policies might be outdated",
+              "url": "https://euobserver.com/232048/eu-action-against-the-com-a-nihilist-online-extremist-network-shows-that-security-policies-might-be-outdated",
+              "publishedAt": "2026-08-17T10:41:43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
