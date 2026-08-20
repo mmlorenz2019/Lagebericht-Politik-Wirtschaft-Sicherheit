@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-20",
+  "generatedAt": "2026-08-20T07:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump's Candidates Lose Primaries – Influence on Republican Base Questionable",
+          "summaryDe": [
+            "In Florida, progressive Democrat Angie Nixon won against the more moderate Alexander Vindman, revealing internal Democratic tensions – while on the Republican side, several candidates personally supported by Trump lost their primaries.",
+            "The pattern repeats: Trump's endorsement is no guarantee of success, raising questions about the actual reach of his control over the party base.",
+            "In parallel, a Trump-aligned think tank has influenced a Census report on non-citizen voter participation; methodology critics see this as an attempt to underpin political narratives with government data.",
+            "For the power balance within Republicans through the midterms, these early rifts could prove more significant than individual primary results suggest at first glance."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Domestic American primary politics with no direct bearing on German interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Early signs of waning intra-party authority for Trump are a significant signal for U.S. domestic politics."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Francuska osudila američke sankcije protiv Međunarodnog krivičnog...",
+              "url": "https://www.vijesti.me/svijet/evropa/822819/francuska-osudila-americke-sankcije-protiv-medjunarodnog-krivicnog-suda",
+              "publishedAt": "2026-08-19T19:42:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump Pauses Canada Tariffs – Trade Negotiations Continue",
+          "summaryDe": [
+            "Washington has temporarily suspended the announced 50-percent tariffs on Canadian imports; negotiators from both sides are working toward a more comprehensive agreement.",
+            "In Washington, the move is not viewed as a policy reversal but as a tactical pause – the threat remains in place as long as no final deal is signed.",
+            "For Germany and the EU, the signal is mixed: the immediate risk of escalation in North Atlantic trade declines for now, but tariffs remain a fixed tool in U.S. negotiating strategy.",
+            "Additionally, U.S. government debt has surpassed the $40 trillion mark – a context that could constrain Washington's trade policy flexibility in the medium term."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "U.S. trade policy has direct impact on German export economy and ongoing EU trade negotiations."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The tactical pullback on Canada tariffs and record debt together constitute a significant economic development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national outlet",
+              "titleOriginal": "Trump backed down from 50 percent tariffs on Canada. It's not a TACO.",
+              "url": "https://www.politico.com/news/2026/08/19/trump-backed-down-from-50-percent-tariffs-on-canada-its-not-a-taco-01042377",
+              "publishedAt": "2026-08-19T21:09:51Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national outlet",
+              "titleOriginal": "Zelenskyy's rival Fedorov overplays his hand with election push",
+              "url": "https://www.politico.eu/article/mykhailo-fedorov-volodymyr-zelenskyy-ukraine-overplays-hand-election-push",
+              "publishedAt": "2026-08-19T19:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump Announces Kim Meeting – South Korea Alliance Under Pressure",
+          "summaryDe": [
+            "U.S. President Trump has announced he will meet North Korea's leader Kim Jong Un, citing North Korea's nuclear arsenal of 57 warheads – a figure Washington has rarely publicly confirmed until now.",
+            "Simultaneously, Washington has reduced joint military exercises with South Korea, pushing Seoul and other regional allies toward independent defense planning.",
+            "Experts warn that withdrawal from established alliance routines damages American security guarantee credibility – especially at a moment when the Iran war already binds U.S. capacity.",
+            "The announced 'Golden Dome' air defense system, meanwhile, faces skepticism: it is unlikely to offer complete protection nor prevent China and Russia from further expanding their arsenals."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Shifts in U.S. alliance reliability indirectly affect NATO security architecture."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Kim rapprochement and reduced alliance exercises together signal a substantial shift in U.S. security policy in Asia."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national outlet",
+              "titleOriginal": "Trump says he will meet with North Korea's Kim Jong Un",
+              "url": "https://www.politico.com/news/2026/08/19/trump-says-he-will-meet-with-north-koreas-kim-jong-un-01041655",
+              "publishedAt": "2026-08-19T16:23:42Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national outlet",
+              "titleOriginal": "Trump's snub of South Korea sends region scrambling",
+              "url": "https://www.politico.com/news/2026/08/19/trump-south-korea-snub-region-scrambling-01042987",
+              "publishedAt": "2026-08-19T23:55:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Animation Film Becomes Phenomenon – Chinese Audience Flocks to Cinema It Despises",
+          "summaryDe": [
+            "Der chinesische Animationsfilm „The Arrival of the Ox",
+            ",&Ox\", hat trotz überwiegend negativer Nutzerkritiken einen unerwarteten Kassenerfolg verzeichnet, nachdem er auf sozialen Netzwerken viral ging.",
+            "Das Phänomen ist in China nicht neu, erhält aber durch die schiere Geschwindigkeit des viralen Zulaufs eine neue Qualität: Nutzer gehen ins Kino, um ihre Ablehnung kollektiv auszudrücken – und treiben damit die Einnahmen in die Höhe.",
+            "Der Vorgang sagt etwas über den Zustand des chinesischen Online-Diskurses aus: Ironie und kollektive Protestgeste ersetzen dort, wo offene Kritik schwierig ist, die konventionelle Rezension.",
+            "Für Beobachter der chinesischen Kulturpolitik ist bemerkenswert, dass staatlich gefördertes Material auf diese Weise zum Gegenstand subversiver Teilhabe wird."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Cultural phenomenon with no direct bearing on German interests."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The event illuminates mechanisms of Chinese online discourse but remains limited in its scope."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Why Chinese film-goers are flocking to a movie they hate",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3364373/why-chinese-film-goers-are-flocking-movie-they-hate",
+              "publishedAt": "2026-08-20T01:30:07Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "LandSpace Lands Rocket Stage – China Pushes Into Reusable Launch Vehicle Market",
+          "summaryDe": [
+            "Chinese private company LandSpace has successfully launched the Zhuque-3 rocket and recovered the first stage after flight – giving China independent reusable launch vehicle capability after SpaceX.",
+            "Reusability drastically cuts launch costs; European providers like Arianespace face mounting competitive pressure from another direction.",
+            "That Chinese fighter jet designers simultaneously warn internally about AI hallucinations in weapons systems shows: Beijing does discuss technological risks openly internally, while projecting strength externally.",
+            "Together, both reports paint a picture of Chinese technology policy advancing ambitiously while not ignoring the limits of new systems."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinese space launch competitiveness indirectly affects market shares of European and thus German space industry participants."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The first successful first-stage recovery by a Chinese private company marks a technologically relevant turning point."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "China joins Musk's SpaceX with reusable rocket breakthroughs",
+              "url": "https://www.scmp.com/plus/news/china/science/article/3364562/china-joins-musks-spacex-reusable-rocket-breakthroughs",
+              "publishedAt": "2026-08-19T09:11:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "China's J-36 fighter jet designers report danger of military AI hallucinations",
+              "url": "https://www.scmp.com/news/china/science/article/3364546/chinas-j-36-fighter-jet-designers-report-danger-military-ai-hallucinations",
+              "publishedAt": "2026-08-19T14:00:14Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China Blocks EU Investigation Into JD.com – Regulatory Conflict Escalates",
+          "summaryDe": [
+            "Beijing has formally instructed Chinese companies and authorities not to support an EU investigation into online retail giant JD.com, calling the proceeding an impermissible exercise of extraterritorial jurisdiction.",
+            "The move follows a pattern Beijing has recently applied to audits of foreign accounting firms – regulatory sovereignty is increasingly becoming a foreign policy instrument.",
+            "In parallel, basic details of planned AI talks between Washington and Beijing surrounding Xi Jinping's planned White House visit remain open: venue, participants, and scope are unclear.",
+            "For the EU – and thus Germany as the bloc's largest economy – the JD.com blockade sets a precedent that could substantially hamper future enforcement action against Chinese digital firms."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Blocking an EU investigation affects the European single market directly and thus German interests as the largest EU economy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "China's open refusal to cooperate with EU regulatory authorities represents a significant escalation in legal conflict."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "China blocks firms from aiding EU's JD.com probe as regulatory clash deepens",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364599/china-blocks-firms-aiding-eus-jdcom-probe-regulatory-clash-deepens",
+              "publishedAt": "2026-08-19T13:40:51Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "As Xi's US visit approaches, basic details of planned AI talks remain uncertain",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364549/xis-us-visit-approaches-basic-details-planned-ai-talks-remain-uncertain",
+              "publishedAt": "2026-08-19T10:00:15Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Disinformation Allegations and Serb-Montenegrin Tensions in Focus",
+          "summaryDe": [
+            "A Montenegrin government official has publicly stated that an apparently funded disinformation campaign is deliberately targeting him – backers were not named.",
+            "In broader context stands the relationship between Belgrade and Podgorica: Montenegrin observers describe Serbian attitude toward the neighboring country as an expression of a structural problem persisting for over a century.",
+            "Both developments occur during a period in which Montenegro formally continues its EU integration course, though it remains internally contested.",
+            "The struggle for political narrative control on the Western Balkans is increasingly conducted through media campaigns – a pattern EU observers have tracked for years."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Montenegro as EU candidate country is relevant to German Western Balkans policy, though concrete developments lack immediate consequences."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Local political dispute with regional context, lacking greater systemic significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Naslovnica ",
+              "url": "https://www.pobjeda.me/clanak/naslovnica-pobjede-20-avgust-2026",
+              "publishedAt": "2026-08-20T06:20:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Mass Grave Discovered Near Zubin Potok in Kosovo",
+          "summaryDe": [
+            "Kosovo authorities have discovered the remains of at least 23 persons near Zubin Potok, apparently stemming from the conflict of the late 1990s.",
+            "The discovery shows that addressing war crimes on the Western Balkans has not been completed despite decades of legal efforts.",
+            "For Montenegro, the discovery in immediate proximity is politically significant, as the country undergoes its own transitional justice processes and Serbian-Montenegrin relations are already strained.",
+            "Identification of victims and criminal prosecution are likely to take further months, if not years."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany as the largest KFOR troop contributor and EU member is indirectly invested in Kosovo stability."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Another mass grave discovery underscores persistent humanitarian and legal deficits in the Western Balkans, yet remains regionally circumscribed."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Kosovo: U Zubinom Potoku pronađeni posmrtni ostaci najmanje 23...",
+              "url": "https://www.vijesti.me/svijet/balkan/822810/kosovo-u-zubinom-potoku-pronadjeni-posmrtni-ostaci-najmanje-23-osobe",
+              "publishedAt": "2026-08-19T19:29:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU Migration Policy Under Pressure: Violence Allegations Against Morocco Cooperation and Italy's Albania Model",
+          "summaryDe": [
+            "Amnesty International has sharply criticized Italy's migration agreement with Albania and accused EU external border protection of effectively hollowing out asylum rights; talk of authoritarian methods is widespread.",
+            "Simultaneously, reports show that EU funding for border control operations in Morocco has financed police violence, desert deportations, and racist profiling.",
+            "The structural dilemma of Union migration policy thus becomes clear: political pressure for outsourcing and third-country cooperation grows, while rule-of-law risks rise.",
+            "Germany is directly affected as the largest receiving country and net payer of EU migration policy by both developments."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is directly affected as the largest receiving country and net payer of EU migration policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematic allegations of violence financing in EU external border policy represent a significant development in rule-of-law discourse."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Amnesty demands EU stops 'outsourcing asylum' and accuses Meloni of authoritarian tricks to push Albania deal",
+              "url": "https://euobserver.com/232860/amnesty-demands-eu-stops-outsourcing-asylum-and-accuses-meloni-of-authoritarian-tricks-to-push-albania-deal",
+              "publishedAt": "2026-08-20T05:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 17 / 08 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1737",
+              "publishedAt": "2026-08-17T08:46:28Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "BRICS Condemns EU Carbon Border Tax as Protectionist",
+          "summaryDe": [
+            "BRICS countries have issued a joint statement condemning the EU's carbon border adjustment mechanism as punitive and protectionist, taking a coordinated position against a central instrument of European climate policy.",
+            "For Germany as an export-oriented economy with close trade ties to several BRICS countries, the announcement of potential countermeasures is particularly relevant.",
+            "The timing is no accident: the mechanism is phasing in, and international pressure grows before Brussels implements it fully.",
+            "Whether the BRICS statement leads to concrete trade measures or remains rhetorical will emerge in coming weeks – but the political signal is substantial in any case."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The EU carbon border adjustment is a central trade issue for Germany as an export nation with global supply chains."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Coordinated pushback from major emerging economies against EU climate policy carries far-reaching trade implications."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "BRICS countries condemn EU carbon tax as 'punitive and protectionist'",
+              "url": "https://euobserver.com/232793/brics-countries-condemn-eu-carbon-tax-as-punitive-and-protectionist",
+              "publishedAt": "2026-08-19T11:26:50Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ukraine Deploys Slovak MiG-29s Against Russian Bridges – Drone War Intensifies",
+          "summaryDe": [
+            "Ukrainian forces have destroyed Russian supply bridges using MiG-29 jets supplied by Slovakia; Russia simultaneously deploys faster and deadlier Shahed drones built with smuggled Western technology.",
+            "Both sides improvise and scale – Ukraine with European legacy equipment, Russia with industrially advanced drone variants. This is the character of the war in its third year.",
+            "Additionally, the Iran war binds U.S. naval resources, weakening anti-Somali piracy patrols – with potential consequences for global shipping lanes used by German exporters.",
+            "Estonia's first disbursement of 351.6 million euros from the EU defense instrument SAFE shows the Union is systematically building its own defense financing in parallel with Ukraine engagement."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ukraine war, EU defense spending, and affected shipping lanes directly concern Germany as the largest EU contributor and export nation."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Escalation in drone technology, resource binding from the Iran war, and EU defense buildup together are extraordinarily system-relevant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Ukraine using Slovak MiG-29s to destroy Russian bridges (Ukraine Battlefield update, Day 1,637)",
+              "url": "https://euobserver.com/232841/ukraine-using-slovak-mig-29s-to-destroy-russian-bridges-ukraine-battlefield-update-day-1637",
+              "publishedAt": "2026-08-19T13:51:18Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Russia is adapting its drone-warfare strategy, with faster and deadlier 'Shaheds' (Ukraine Battlefield update, Day 1,636)",
+              "url": "https://euobserver.com/232726/russia-is-adapting-its-drone-warfare-strategy-with-faster-and-deadlier-shaheds-ukraine-battlefield-update-day-1636",
+              "publishedAt": "2026-08-18T16:56:49Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 12 / 08 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1733",
+              "publishedAt": "2026-08-12T08:08:40Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
