@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-21",
+  "generatedAt": "2026-08-21T10:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "DHS korrigiert Wahlbetrugsbehauptung dramatisch – von 16.000 auf 185 Fälle",
+          "summaryDe": [
+            "Das US-Heimatschutzministerium hat seine Behauptung über angeblich nicht wahlberechtigte Wähler in Nevada still und leise von 'fast 16.000' auf 185 'potenzielle' Fälle reduziert – ein Rückgang um mehr als 99 Prozent.",
+            "Die ursprüngliche Zahl hatte Präsident Trump zur Untermauerung von Wahlbetrugsvorwürfen verwendet; dass sie nun weitgehend kollabiert ist, wirft erhebliche Fragen über die Qualitätsprüfung innerhalb der Behörde auf.",
+            "Parallel dazu hält das Weiße Haus einen vom Kongress gesetzlich geforderten Bericht über ausländische Einmischung in die Wahl 2024 zurück – trotz öffentlicher Bekenntnisse zur Transparenz.",
+            "Die Gleichzeitigkeit beider Ereignisse gibt Kritikern neuen Stoff: Während unbelegte Wahlbetrugsbehauptungen verbreitet werden, bleibt ein offiziell angefordertes Dokument unter Verschluss."
+          ],
+          "additionalImportant": "Aisha Wahab, demokratische Staatssenatorin aus Kalifornien, gewann die Nachwahl für den Sitz des zurückgetretenen Eric Swalwell. Swalwells Haus und elektronische Geräte wurden im Zuge einer Ermittlung wegen sexueller Übergriffe durchsucht.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Erosion institutioneller Glaubwürdigkeit in den USA betrifft indirekt das transatlantische Vertrauen in gemeinsame demokratische Normen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine behördlich bestätigte Falschangabe in einer politisch aufgeladenen Wahldebatte ist eine erhebliche innenpolitische Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Karmelo Anthony's lawyer asks for new trial over track meet killing as new details emerge",
+              "url": "https://www.pbs.org/newshour/nation/karmelo-anthonys-lawyer-asks-for-new-trial-over-track-meet-killing-as-new-details-emerge",
+              "publishedAt": "2026-08-21T00:57:53Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Homeland Security Made a Big Claim About Noncitizen Voting. Now It Can't Prove It.",
+              "url": "https://www.nytimes.com/2026/08/20/us/politics/trump-nevada-voter-election-fraud.html",
+              "publishedAt": "2026-08-21T02:13:46Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Staatsanleiherenditen auf 20-Jahres-Hoch – KI-Investitionen als Treiber",
+          "summaryDe": [
+            "Langfristige US-Staatsanleihen rentieren auf dem höchsten Stand seit zwei Jahrzehnten, angetrieben durch eine anhaltende Verkaufswelle am Bondmarkt und die gigantischen Kreditaufnahmen großer Technologiekonzerne für KI-Infrastruktur.",
+            "JPMorgan-Analysten verglichen die bisherigen Gegenmaßnahmen von Finanzminister Bessent mit dem Bezahlen einer Hypothek per Kreditkarte: Das Problem wird nicht gelöst, sondern nur verschoben.",
+            "Gleichzeitig überquerte die gesamte US-Bundesverschuldung in dieser Woche die Marke von 40 Billionen Dollar; die jährlichen Zinszahlungen übersteigen inzwischen eine Billion Dollar.",
+            "Die Kombination aus strukturell steigenden Renditen, explodierender Staatsverschuldung und ungelöster Marktdynamik lässt Ökonomen zunehmend besorgt auf die mittelfristige Tragfähigkeit der US-Finanzlage blicken."
+          ],
+          "additionalImportant": "Walmart-Aktien brachen um 9 Prozent ein, nachdem der Konzern mit seinem Ausblick für das zweite Fiskalquartal die Erwartungen der Wall Street verfehlte. Zudem warnen Analysten vor einem sich zuspitzenden Engpass bei der globalen Nahrungsmittelversorgung, da steigende Getreidepreise und Zweifel an der Anbaukapazität der Landwirte für das kommende Jahr zusammentreffen.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Renditen verteuern Kapital weltweit und belasten deutsche Exporteure sowie den europäischen Anleihemarkt direkt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "20-Jahres-Hochs bei US-Staatsanleiherenditen kombiniert mit 40-Billionen-Dollar-Schuldenstand sind ein systemisch relevantes Signal für die globale Finanzstabilität."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "How Big Tech's A.I. Borrowing Binge Is Driving Up Bond Yields",
+              "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
+              "publishedAt": "2026-08-20T20:50:00Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "U.S. bond intervention is like 'paying your mortgage with your credit card,' JPMorgan's Sullivan says",
+              "url": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html",
+              "publishedAt": "2026-08-21T02:48:10Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Why Treasury yields are at 20-year highs – and why it matters",
+              "url": "https://www.pbs.org/newshour/show/why-treasury-yields-are-at-20-year-highs-and-why-it-matters",
+              "publishedAt": "2026-08-20T22:55:50Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Washington setzt Iran-Kurs fort: Wirtschaftsdruck statt Militär – Russland beschießt Ukraine",
+          "summaryDe": [
+            "Vizepräsident Vance und Finanzminister Bessent haben in seltener Klarheit formuliert, was die Trump-Regierung von Iran will: maximalen wirtschaftlichen Druck, der einer militärischen Konfrontation vorgezogen wird.",
+            "Bessent forderte China auf, sich dem beschriebenen 'vernichtendsten Wirtschaftseinsatz' gegen Teheran anzuschließen – nachdem Verhandlungen zur Wiedereröffnung der Straße von Hormuz gescheitert waren.",
+            "Während Washington auf diesen Kurs setzt, griff Russland die Ukraine mit mehreren Raketen und 168 Drohnen an; mindestens 17 Zivilisten kamen ums Leben, über 40 wurden verletzt, und Kiew drängt auf Nachschub an Patriot-Abfangraketen.",
+            "Die gleichzeitige Doppelbelastung – Iran-Sanktionsdiplomatie und Ukraine-Unterstützung – verdeutlicht, wie stark außenpolitische Kapazitäten der USA derzeit beansprucht werden."
+          ],
+          "additionalImportant": "Die USS Abraham Lincoln kehrt nach neunmonatigem Einsatz im Mittleren Osten in ihre Heimatbasis San Diego zurück. Somalische Piraten verzeichneten zwei Entführungen binnen vier Tagen; Experten sehen eine Verbindung zur destabilisierten Regionalordnung durch den Iran-Konflikt.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russische Angriffe auf die Ukraine und der Iran-Sanktionskurs betreffen deutsche Energieversorgung, Rüstungslieferungen und Handelswege unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Tödliche Massenangriffe auf die Ukraine und ein gescheiterter Hormuz-Kompromiss haben weitreichende sicherheits- und energiepolitische Folgen für die gesamte westliche Welt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "War crimes are part of Russia's strategy in Ukraine, retired U.S. Army colonel says",
+              "url": "https://www.pbs.org/newshour/show/war-crimes-are-part-of-russias-strategy-in-ukraine-retired-u-s-army-colonel-says",
+              "publishedAt": "2026-08-20T22:42:08Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "'A delicate dance': JD Vance says economic pressure is the best way to achieve Washington's objectives in Iran",
+              "url": "https://www.cnbc.com/2026/08/21/us-iran-war-trump-hormuz-vance-economic-pressure.html",
+              "publishedAt": "2026-08-21T04:32:59Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "The Message Behind Trump's Threats of 'Economic Warfare' Against Iran",
+              "url": "https://www.nytimes.com/2026/08/20/world/europe/trump-iran-economy-sanctions-threats.html",
+              "publishedAt": "2026-08-21T02:58:51Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Weniger Gaokao-Anmeldungen: Chinas Demografie spiegelt sich im Bildungssystem",
+          "summaryDe": [
+            "Für die nationale Hochschulzulassungsprüfung Gaokao haben sich 2026 rund 12,9 Millionen Schülerinnen und Schüler angemeldet – 450.000 weniger als im Vorjahr.",
+            "Der Rückgang ist kein Ausreißer, sondern Folge einer langfristigen demografischen Kontraktion: Die Jahrgänge, die jetzt das Prüfungsalter erreichen, sind erheblich kleiner als jene der 2000er-Jahre.",
+            "Für Chinas Bildungsinstitutionen, Hochschulen und letztlich den Arbeitsmarkt bedeutet das eine schrittweise Schrumpfung des qualifizierten Nachwuchses in einem Moment, in dem Peking technologische Führerschaft anstrebt.",
+            "Die Zahl ist zugleich ein früher Indikator dafür, wie stark der demographische Wandel mittelfristig auf Wirtschaftswachstum und soziale Systeme drücken wird."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Chinas interne Bildungsdemografie hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Trend illustriert strukturelle Langzeitrisiken für Chinas Wirtschaftskraft, bleibt aber eine erwartbare Entwicklung ohne akuten Handlungsdruck."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's falling gaokao numbers offer a revealing snapshot",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3364311/chinas-falling-gaokao-numbers-offer-revealing-snapshot",
+              "publishedAt": "2026-08-20T12:30:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Stammzelltherapie kehrt Herzinsuffizienz bei 90 Prozent der Patienten um – Nature-Medicine-Studie",
+          "summaryDe": [
+            "Wissenschaftler am Nanjing Drum Tower Hospital haben in einer klinischen Phase-2-Studie eine Stammzelltherapie erprobt, die bei 90 Prozent der behandelten Patienten eine Herzinsuffizienz zurückdrängte.",
+            "Die Ergebnisse wurden in der Fachzeitschrift Nature Medicine publiziert, was dem Befund wissenschaftliche Seriosität verleiht – auch wenn Phase-2-Studien noch keine Marktzulassung bedeuten.",
+            "Sollten sich die Ergebnisse in größeren Phase-3-Studien bestätigen, könnte dies die Behandlung von Herzinsuffizienz – einer der häufigsten Todesursachen weltweit – grundlegend verändern.",
+            "China investiert seit Jahren massiv in Biotechnologie und Stammzellforschung; ein klinischer Durchbruch in diesem Bereich wäre zugleich ein Signal für den wachsenden globalen Anspruch chinesischer Wissenschaft."
+          ],
+          "additionalImportant": "Peking wies einen US-Regierungsbericht zurück, demzufolge chinesische Exporteure Waren über Mexiko umleiten, um US-Zölle zu umgehen – und bezeichnete die Darstellung als 'falsche Erzählung'. Mexiko kündigte eigene Importbeschränkungen gegenüber China an.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein potenzieller Durchbruch in der Herzinsuffizienztherapie wäre für deutsche Pharma- und Medizintechnikunternehmen mittelfristig wettbewerbsrelevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine in Nature Medicine publizierte Studie mit 90-Prozent-Erfolgsrate bei Herzinsuffizienz ist eine bedeutende medizinische Entwicklung mit globalem Potenzial."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese stem cell therapy reverses heart failure in 90% of patients in landmark trial",
+              "url": "https://www.scmp.com/news/china/science/article/3364718/chinese-stem-cell-therapy-reverses-heart-failure-90-patients-landmark-trial",
+              "publishedAt": "2026-08-20T14:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan plant Rekordverteidigungshaushalt – USA drängen China zu Iran-Sanktionen",
+          "summaryDe": [
+            "Taiwan hat für 2027 einen Verteidigungshaushalt von umgerechnet 35 Milliarden US-Dollar vorgeschlagen – ein Plus von 18,2 Prozent gegenüber dem Vorjahr und der höchste Betrag in der Geschichte der Insel.",
+            "Der Anstieg ist unmittelbare Reaktion auf den wachsenden militärischen Druck der Volksbefreiungsarmee, die ihre Übungen und Präsenz in der Taiwanstraße in den vergangenen Jahren kontinuierlich intensiviert hat.",
+            "Gleichzeitig bat US-Finanzminister Bessent Peking, gemeinsam mit Washington schärfste Wirtschaftssanktionen gegen Iran zu unterstützen – eine Forderung, die Beijing angesichts seiner Energieabhängigkeit von Teheran in eine schwierige Lage bringt.",
+            "Außenminister Wang Yi warb unterdessen in Seoul für 'echte strategische Autonomie' Südkoreas und plädierte dafür, sich nicht einseitig an Washington zu binden – ein Signal, dass Peking die Blockkonfrontation in der Region aktiv zu lockern versucht."
+          ],
+          "additionalImportant": "Japan plant vom 24. bis 27. August eine parteiübergreifende Parlamentarierdelegation nach Peking – der erste solche Besuch seit zehn Monaten. Experten halten eine grundlegende Entspannung jedoch für unwahrscheinlich.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Spannungen in der Taiwanstraße und die Iran-Sanktionsfrage berühren indirekt deutsche Handels- und Sicherheitsinteressen im Indo-Pazifik."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Rekordverteidigungshaushalt Taiwans und US-Druck auf China in der Iran-Frage sind zwei gleichzeitige Eskalationssignale in der indo-pazifischen Sicherheitsordnung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan proposes record US$35b defence budget for 2027 as PLA's pressure grows",
+              "url": "https://www.scmp.com/news/china/military/article/3364713/taiwan-proposes-record-us35b-defence-budget-2027-plas-pressure-grows",
+              "publishedAt": "2026-08-20T13:00:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Staatsbürgerschaftsdokumente von Premierminister Spajić im Mittelpunkt politischer Kontroverse",
+          "summaryDe": [
+            "Interne Dokumente sollen belegen, dass Premierminister Milojko Spajić bei seinem Ausscheiden aus der serbischen Staatsbürgerschaft Angaben zum Reservistenstatus der Armee machte – ein Umstand, der nun politisch und rechtlich heiß diskutiert wird.",
+            "Oppositionspolitiker werfen Spajić vor, die Unschuldsvermutung sei in der öffentlichen Debatte mit Füßen getreten worden, während Spajić-Kritiker beharren, keiner seiner Widersprüche sei bislang ausgeräumt.",
+            "Eine Belgrader Rechtsanwältin erläuterte öffentlich, dass nach dem Austritt aus der serbischen Staatsbürgerschaft eine Zugehörigkeit zum Reservekorps rechtlich ausgeschlossen sei – was die Chronologie der Ereignisse infrage stellt.",
+            "Der Streit berührt grundlegende Fragen über Transparenz und Rechtsstaatlichkeit in einem Land, das seit Jahren EU-Beitrittsverhandlungen führt und dabei unter besonderer Beobachtung steht."
+          ],
+          "additionalImportant": "Ein Mitglied des Kavač-Clans wurde auf Kreta mit gefälschten Dokumenten festgenommen – ein weiteres Zeichen für die grenzüberschreitende Reichweite montenegrinischer Organisierter Kriminalität.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die innenpolitische Debatte um den Staatsbürgerschaftsstatus des Premierministers hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Affäre belastet die Glaubwürdigkeit der Regierung in einem EU-Kandidatenland, bleibt aber von begrenzter regionaler Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Begović: Pretpostavka nevinosti bačena pod noge",
+              "url": "https://www.pobjeda.me/clanak/begovic-pretpostavka-nevinosti-bacena-pod-noge",
+              "publishedAt": "2026-08-20T18:05:27Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "ANALIZA: Dokumenti o Spajiću otkrivaju drugačiju priču: Rezervni sastav bio uslov za otpust iz državljanstva Srbije",
+              "url": "https://www.pobjeda.me/clanak/analiza-dokumenti-o-spajicu-otkrivaju-drugaciju-pricu-rezervni-sastav-bio-uslov-za-otpust-iz-drzavljanstva-srbije",
+              "publishedAt": "2026-08-20T18:36:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Förderung von 147 Millionen Euro für montenegrinischen Straßenabschnitt bestätigt",
+          "summaryDe": [
+            "Montenegro erhält 147,4 Millionen Euro als nicht rückzahlbaren EU-Zuschuss für den Bau des Straßenabschnitts von Mateševo nach Andrijevica – eine Präzisierung der Förderbedingungen, die zuvor unklar war.",
+            "Die Strecke ist Teil der strategisch wichtigen Bar-Boljare-Autobahn, die Montenegro mit Serbien verbinden soll und zu den zentralen Infrastrukturprojekten des Landes zählt.",
+            "Für ein kleines Land mit rund 620.000 Einwohnern ist die Summe außerordentlich bedeutsam und unterstreicht Brüssels Interesse daran, Montenegros EU-Annäherung auch materiell zu stützen.",
+            "Die Förderzusage kommt zu einem Zeitpunkt, an dem Montenegros innenpolitische Stabilität durch die Spajić-Dokumentenaffäre belastet ist – was zeigt, dass die europäische Integration auf Projektebene trotzdem Fahrt aufnimmt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "EU-Infrastrukturförderung für Montenegro betrifft Deutschland als Beitragszahler nur marginal und ohne direkte Auswirkung."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Bestätigung der Fördersumme ist für Montenegro bedeutsam, hat aber begrenzte regionale oder internationale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Precizirano da Crna Gora bespovratno dobije 147,4 miliona eura za izgradnju dionice od Mateševa do Andrijevica",
+              "url": "https://www.pobjeda.me/clanak/precizirano-da-crna-gora-bespovratno-dobije-1474-miliona-eura-za-izgradnju-dionice-od-mateseva-do-andrijevica",
+              "publishedAt": "2026-08-21T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Kommission und Frankreich unter Druck: Minderjährige Migranten, Redefreiheit und Islamdebatte",
+          "summaryDe": [
+            "Spanien hat angekündigt, alleinreisende minderjährige Migranten in Ceuta zu versorgen – während die EU-Kommission gleichzeitig Forderungen unterstützt, diese Kinder zurückzuschicken, was humanitären Organisationen als Anlehnung an Rechtspopulisten gilt.",
+            "Frankreichs Versuch, soziale Medien für unter 15-Jährige zu verbieten, scheiterte vor Gericht; die Debatte um Kinder und digitale Plattformen läuft nun in mehreren Mitgliedstaaten parallel weiter, ohne koordinierten EU-Rahmen.",
+            "Dänemarks Premierministerin Frederiksen sorgte mit der Aussage für Aufsehen, Menschen mit islamischem Hintergrund wollten keine offene, freie europäische Gesellschaft – eine Verallgemeinerung, die innerhalb der EU scharfe Kritik ausgelöst hat.",
+            "Alle drei Entwicklungen bündeln sich zu einem Bild: In Migrations-, Kinderrechts- und Identitätsfragen driften die Mitgliedstaaten auseinander, während Brüssel zwischen politischem Pragmatismus und Werteversprechen laviert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Migrations- und Minderjährigenpolitik sowie innereuropäische Debatten über Islam und Digitalisierung betreffen Deutschland als bevölkerungsreichsten Mitgliedstaat direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die gleichzeitigen Konflikte um Migration, Kinderrechte und gesellschaftliche Werte zeigen eine systemische Spaltung innerhalb der EU-Gemeinschaft."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Spain to care for lone migrant children, as EU Commission joins far-right calls to send them back",
+              "url": "https://euobserver.com/233047/spain-to-care-for-migrant-children-as-eu-commission-joins-far-right-calls-to-send-them-back",
+              "publishedAt": "2026-08-20T16:56:57Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Putin has become a prisoner of his own war",
+              "url": "https://euobserver.com/232387/putin-has-become-a-prisoner-of-his-own-war",
+              "publishedAt": "2026-08-19T10:14:11Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Potsdam-Institut: Europas Waldbrandfläche wächst bis 2100 um 39 Prozent",
+          "summaryDe": [
+            "Forscher des Potsdam-Instituts für Klimafolgenforschung haben errechnet, dass selbst im günstigsten Emissionsszenario die durch Waldbrände verwüstete Fläche in Europa bis zum Ende des Jahrhunderts um 39 Prozent zunehmen wird.",
+            "Besonders betroffen sind südeuropäische Länder, doch die Modelle zeigen, dass auch Mitteleuropa in Zukunft häufiger mit großen Feuerereignissen rechnen muss.",
+            "Die Zahlen stellen Regierungen vor konkrete Planungsfragen: Brandschutz, Forstwirtschaft und Katastrophenschutz müssen strukturell angepasst werden, nicht nur reaktiv nach einzelnen Katastrophen.",
+            "Gleichzeitig warnen Experten, dass der politische Wille für langfristige Investitionen in diesem Bereich häufig erlahmt, sobald akute Feuersaisons vorbei sind."
+          ],
+          "additionalImportant": "Im europäischen Bankensektor verändert generative KI bereits die Arbeitsabläufe von 2,6 Millionen Beschäftigten. Rechtswissenschaftler streiten darüber, ob KI-generierte Inhalte überhaupt urheberrechtlich schützbar sind – eine für Wirtschaft und Kreativbranche offene Rechtsfrage.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Als größte Volkswirtschaft der EU ist Deutschland von steigenden Klimaschäden, KI-bedingtem Strukturwandel im Bankwesen und ungeklärten Urheberrechtsfragen unmittelbar betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Wissenschaftlich fundierte Prognosen über dramatisch wachsende Waldbrandrisiken in Europa sind eine bedeutende klimapolitische Grundlage."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "The drone war is coming for global shipping",
+              "url": "https://www.politico.eu/article/drone-war-global-shipping-attacks-threat-ukraine-russia-shadow-fleet",
+              "publishedAt": "2026-08-21T02:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Rumänien schießt Drohne nahe Gasplattform ab – Kiew fordert mehr Patriot-Abfangsysteme",
+          "summaryDe": [
+            "Rumäniens Militär hat eine Drohne in der Nähe einer Offshore-Gasförderanlage abgeschossen; Staatspräsident Iohannis machte Moskau für den Angriff auf kritische Infrastruktur im Schwarzen Meer verantwortlich.",
+            "Der Vorfall unterstreicht, wie weit russische Drohnenangriffe geografisch reichen – und dass NATO-Mitgliedstaaten, nicht nur die Ukraine, inzwischen direkt unter Beschuss geraten.",
+            "Estland erhielt parallel dazu die erste Tranche von 351,6 Millionen Euro aus dem neuen EU-Verteidigungsinstrument SAFE, womit Brüssel sein Engagement für osteuropäische Sicherheit konkret unterlegt.",
+            "Die EU lieferte zudem 10,5 Millionen Euro humanitäre Hilfe für Myanmar, wo der Bürgerkrieg über 100.000 Menschenleben gefordert hat – ein Hinweis darauf, dass die Union außerhalb des Ukraine-Fokus auch andernorts präsent bleibt."
+          ],
+          "additionalImportant": "BRICS-Staaten haben den EU-Kohlenstoffgrenzmechanismus als 'strafend und protektionistisch' verurteilt und damit eine neue handelspolitische Front eröffnet, die Deutschland als Exportnation direkt berühren könnte.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Drohnenangriffe auf NATO-Territorium und das neue EU-Verteidigungsinstrument SAFE betreffen Deutschland als zentralen Bündnispartner und größten EU-Beitragszahler konkret."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Drohnenangriff auf ein NATO-Mitglied und die erste Auszahlung des EU-Verteidigungsfonds SAFE sind signifikante sicherheitspolitische Ereignisse."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Romanian jet blasts drone near offshore gas production platform",
+              "url": "https://www.politico.eu/article/romania-jet-blasts-drone-near-offshore-gas-production-platform",
+              "publishedAt": "2026-08-20T18:02:33Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 13 / 08 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1734",
+              "publishedAt": "2026-08-13T09:07:51Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

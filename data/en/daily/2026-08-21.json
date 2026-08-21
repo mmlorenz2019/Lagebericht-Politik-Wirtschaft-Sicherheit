@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-21",
+  "generatedAt": "2026-08-21T10:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "DHS korrigiert Wahlbetrugsbehauptung dramatisch – von 16.000 auf 185 Fälle",
+          "summaryDe": [
+            "The U.S. Department of Homeland Security has quietly reduced its claim about allegedly ineligible voters in Nevada from 'nearly 16,000' to 185 'potential' cases – a decline of more than 99 percent.",
+            "President Trump had used the original figure to bolster election fraud allegations; the fact that it has now largely collapsed raises significant questions about quality control within the agency.",
+            "Meanwhile, the White House is withholding a congressionally mandated report on foreign interference in the 2024 election – despite public commitments to transparency.",
+            "The simultaneous occurrence of both events gives critics new ammunition: while unsubstantiated election fraud claims are being circulated, an officially requested document remains under lock and key."
+          ],
+          "additionalImportant": "Aisha Wahab, a Democratic state senator from California, won a special election to fill the seat of Eric Swalwell, who resigned. Swalwell's home and electronic devices were searched as part of an investigation into sexual assault allegations.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Erosion of institutional credibility in the United States indirectly affects transatlantic trust in shared democratic norms."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A government-confirmed false claim in a politically charged election debate is a significant domestic political development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "Karmelo Anthony's lawyer asks for new trial over track meet killing as new details emerge",
+              "url": "https://www.pbs.org/newshour/nation/karmelo-anthonys-lawyer-asks-for-new-trial-over-track-meet-killing-as-new-details-emerge",
+              "publishedAt": "2026-08-21T00:57:53Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Homeland Security Made a Big Claim About Noncitizen Voting. Now It Can't Prove It.",
+              "url": "https://www.nytimes.com/2026/08/20/us/politics/trump-nevada-voter-election-fraud.html",
+              "publishedAt": "2026-08-21T02:13:46Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Staatsanleiherenditen auf 20-Jahres-Hoch – KI-Investitionen als Treiber",
+          "summaryDe": [
+            "Long-term U.S. Treasury bonds are yielding at their highest level in two decades, driven by persistent selling pressure in the bond market and massive borrowing by major technology companies for AI infrastructure.",
+            "JPMorgan analysts compared the Treasury Department's countermeasures so far to paying a mortgage with a credit card: the problem is not solved, only delayed.",
+            "Meanwhile, total U.S. federal debt crossed the $40 trillion mark this week; annual interest payments now exceed $1 trillion.",
+            "The combination of structurally rising yields, exploding government debt, and unresolved market dynamics is increasingly alarming economists about the medium-term sustainability of the U.S. financial situation."
+          ],
+          "additionalImportant": "Walmart stock plunged 9 percent after the company missed Wall Street expectations with its second fiscal quarter outlook. Analysts are also warning of an intensifying crunch in global food supply as rising grain prices and doubts about farmers' planting capacity converge for the coming year.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising U.S. yields make capital more expensive worldwide and directly burden German exporters and the European bond market."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "20-year highs in U.S. Treasury yields combined with a $40 trillion debt load are a systemically significant signal for global financial stability."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "How Big Tech's A.I. Borrowing Binge Is Driving Up Bond Yields",
+              "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
+              "publishedAt": "2026-08-20T20:50:00Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "U.S. bond intervention is like 'paying your mortgage with your credit card,' JPMorgan's Sullivan says",
+              "url": "https://www.cnbc.com/2026/08/21/us-bond-intervention-shifting-problem-future-jpmorgan.html",
+              "publishedAt": "2026-08-21T02:48:10Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "Why Treasury yields are at 20-year highs – and why it matters",
+              "url": "https://www.pbs.org/newshour/show/why-treasury-yields-are-at-20-year-highs-and-why-it-matters",
+              "publishedAt": "2026-08-20T22:55:50Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Washington setzt Iran-Kurs fort: Wirtschaftsdruck statt Militär – Russland beschießt Ukraine",
+          "summaryDe": [
+            "Vice President Vance and Treasury Secretary Bessent have articulated with rare clarity what the Trump administration wants from Iran: maximum economic pressure, preferred over military confrontation.",
+            "Bessent called on China to join the described 'most devastating economic offensive' against Tehran – after negotiations to reopen the Strait of Hormuz had failed.",
+            "While Washington pursues this course, Russia attacked Ukraine with multiple missiles and 168 drones; at least 17 civilians were killed, over 40 wounded, and Kyiv is pressing for supplies of Patriot air defense missiles.",
+            "The simultaneous double burden – Iran sanctions diplomacy and Ukraine support – demonstrates how heavily U.S. foreign policy capacity is currently taxed."
+          ],
+          "additionalImportant": "The USS Abraham Lincoln is returning to its San Diego home base after a nine-month deployment in the Middle East. Somali pirates recorded two hijackings within four days; experts see a connection to the destabilized regional order caused by the Iran conflict.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russian attacks on Ukraine and the Iran sanctions course directly affect German energy supplies, arms deliveries, and shipping lanes."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Deadly mass attacks on Ukraine and a failed Hormuz compromise have far-reaching security and energy policy consequences for the entire Western world."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "War crimes are part of Russia's strategy in Ukraine, retired U.S. Army colonel says",
+              "url": "https://www.pbs.org/newshour/show/war-crimes-are-part-of-russias-strategy-in-ukraine-retired-u-s-army-colonel-says",
+              "publishedAt": "2026-08-20T22:42:08Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "'A delicate dance': JD Vance says economic pressure is the best way to achieve Washington's objectives in Iran",
+              "url": "https://www.cnbc.com/2026/08/21/us-iran-war-trump-hormuz-vance-economic-pressure.html",
+              "publishedAt": "2026-08-21T04:32:59Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "The Message Behind Trump's Threats of 'Economic Warfare' Against Iran",
+              "url": "https://www.nytimes.com/2026/08/20/world/europe/trump-iran-economy-sanctions-threats.html",
+              "publishedAt": "2026-08-21T02:58:51Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Weniger Gaokao-Anmeldungen: Chinas Demografie spiegelt sich im Bildungssystem",
+          "summaryDe": [
+            "For China's national college entrance examination gaokao, approximately 12.9 million students registered in 2026 – 450,000 fewer than the previous year.",
+            "The decline is no anomaly but rather the consequence of long-term demographic contraction: the age cohorts now reaching examination age are significantly smaller than those of the 2000s.",
+            "For China's educational institutions, universities, and ultimately the job market, this means a gradual decline in qualified young talent at a moment when Beijing is pursuing technological leadership.",
+            "The figure is also an early indicator of how strongly demographic change will weigh on economic growth and social systems in the medium term."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "China's internal education demographics have no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The trend illustrates structural long-term risks to China's economic strength but remains an expected development without acute pressure for action."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's falling gaokao numbers offer a revealing snapshot",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3364311/chinas-falling-gaokao-numbers-offer-revealing-snapshot",
+              "publishedAt": "2026-08-20T12:30:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Stammzelltherapie kehrt Herzinsuffizienz bei 90 Prozent der Patienten um – Nature-Medicine-Studie",
+          "summaryDe": [
+            "Researchers at Nanjing Drum Tower Hospital have conducted a Phase 2 clinical trial of a stem cell therapy that reversed heart failure in 90 percent of treated patients.",
+            "The results were published in the journal Nature Medicine, which lends scientific credibility to the findings – although Phase 2 studies do not yet mean market approval.",
+            "Should the results be confirmed in larger Phase 3 trials, this could fundamentally change the treatment of heart failure – one of the leading causes of death worldwide.",
+            "China has been investing heavily in biotechnology and stem cell research for years; a clinical breakthrough in this field would simultaneously signal the growing global ambitions of Chinese science."
+          ],
+          "additionalImportant": "Beijing rejected a U.S. government report claiming that Chinese exporters are rerouting goods through Mexico to circumvent U.S. tariffs – and called the portrayal a 'false narrative.' Mexico announced its own import restrictions against China.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A potential breakthrough in heart failure therapy would be competitively relevant for German pharmaceutical and medical technology companies in the medium term."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A study published in Nature Medicine with a 90 percent success rate in heart failure is a significant medical development with global potential."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese stem cell therapy reverses heart failure in 90% of patients in landmark trial",
+              "url": "https://www.scmp.com/news/china/science/article/3364718/chinese-stem-cell-therapy-reverses-heart-failure-90-patients-landmark-trial",
+              "publishedAt": "2026-08-20T14:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan plant Rekordverteidigungshaushalt – USA drängen China zu Iran-Sanktionen",
+          "summaryDe": [
+            "Taiwan has proposed a 2027 defense budget of approximately $35 billion USD – a 18.2 percent increase over the previous year and the largest amount in the island's history.",
+            "The increase is a direct response to growing military pressure from the People's Liberation Army, which has continuously intensified its exercises and presence in the Taiwan Strait in recent years.",
+            "At the same time, U.S. Treasury Secretary Bessent asked Beijing to support the strictest possible economic sanctions against Iran alongside Washington – a demand that puts China in a difficult position given its energy dependence on Tehran.",
+            "Foreign Minister Wang Yi meanwhile campaigned in Seoul for 'genuine strategic autonomy' for South Korea and advocated against being one-sidedly tied to Washington – a signal that Beijing is actively trying to ease bloc confrontation in the region."
+          ],
+          "additionalImportant": "Japan plans a cross-party parliamentary delegation to Beijing from August 24-27 – the first such visit in ten months. Experts, however, consider a fundamental thaw unlikely.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Tensions in the Taiwan Strait and the Iran sanctions question indirectly touch German trade and security interests in the Indo-Pacific."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A record defense budget for Taiwan and U.S. pressure on China over Iran are two simultaneous escalation signals in the Indo-Pacific security order."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan proposes record US$35b defence budget for 2027 as PLA's pressure grows",
+              "url": "https://www.scmp.com/news/china/military/article/3364713/taiwan-proposes-record-us35b-defence-budget-2027-plas-pressure-grows",
+              "publishedAt": "2026-08-20T13:00:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Staatsbürgerschaftsdokumente von Premierminister Spajić im Mittelpunkt politischer Kontroverse",
+          "summaryDe": [
+            "Internal documents reportedly show that Prime Minister Milojko Spajić made statements regarding his reserve military service status when withdrawing from Serbian citizenship – a matter now being hotly debated both politically and legally.",
+            "Opposition politicians accuse Spajić of having the presumption of innocence trampled in public debate, while Spajić critics insist that none of his contradictions have been resolved to date.",
+            "A Belgrade lawyer publicly explained that after withdrawing from Serbian citizenship, membership in the reserve corps would be legally excluded – raising questions about the chronology of events.",
+            "The dispute touches on fundamental issues of transparency and rule of law in a country that has been conducting EU accession negotiations for years and is under special scrutiny."
+          ],
+          "additionalImportant": "A member of the Kavač clan was arrested on Crete with forged documents – another sign of the cross-border reach of Montenegrin organized crime.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The domestic political debate over the prime minister's citizenship status has no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The affair damages the credibility of the government in an EU candidate country but remains of limited regional reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Begović: Pretpostavka nevinosti bačena pod noge",
+              "url": "https://www.pobjeda.me/clanak/begovic-pretpostavka-nevinosti-bacena-pod-noge",
+              "publishedAt": "2026-08-20T18:05:27Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "ANALIZA: Dokumenti o Spajiću otkrivaju drugačiju priču: Rezervni sastav bio uslov za otpust iz državljanstva Srbije",
+              "url": "https://www.pobjeda.me/clanak/analiza-dokumenti-o-spajicu-otkrivaju-drugaciju-pricu-rezervni-sastav-bio-uslov-za-otpust-iz-drzavljanstva-srbije",
+              "publishedAt": "2026-08-20T18:36:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Förderung von 147 Millionen Euro für montenegrinischen Straßenabschnitt bestätigt",
+          "summaryDe": [
+            "Montenegro is receiving 147.4 million euros as a non-repayable EU grant for construction of the road section from Mateševo to Andrijevica – a clarification of funding conditions that had previously been unclear.",
+            "The stretch is part of the strategically important Bar-Boljare highway, which is to connect Montenegro with Serbia and ranks among the country's central infrastructure projects.",
+            "For a small country with approximately 620,000 inhabitants, the sum is extraordinarily significant and underscores Brussels' interest in materially supporting Montenegro's EU rapprochement.",
+            "The funding commitment comes at a time when Montenegro's domestic political stability is strained by the Spajić documents affair – showing that European integration at the project level is nonetheless gaining momentum."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "EU infrastructure funding for Montenegro affects Germany as a contributor only marginally and without direct impact."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Confirmation of the grant amount is significant for Montenegro but has limited regional or international reach."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Precizirano da Crna Gora bespovratno dobije 147,4 miliona eura za izgradnju dionice od Mateševa do Andrijevica",
+              "url": "https://www.pobjeda.me/clanak/precizirano-da-crna-gora-bespovratno-dobije-1474-miliona-eura-za-izgradnju-dionice-od-mateseva-do-andrijevica",
+              "publishedAt": "2026-08-21T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Kommission und Frankreich unter Druck: Minderjährige Migranten, Redefreiheit und Islamdebatte",
+          "summaryDe": [
+            "Spain has announced it will provide care for unaccompanied minor migrants in Ceuta – while the EU Commission simultaneously supports calls for these children to be sent back, which humanitarian organizations view as alignment with right-wing populists.",
+            "France's attempt to ban social media for children under 15 failed in court; the debate over children and digital platforms is now proceeding in multiple member states in parallel without a coordinated EU framework.",
+            "Denmark's Prime Minister Frederiksen drew controversy with the statement that people with Islamic backgrounds do not want an open, free European society – a generalization that has triggered sharp criticism within the EU.",
+            "All three developments bundle into a picture: on migration, children's rights, and identity questions, member states are drifting apart, while Brussels wavers between political pragmatism and value commitments."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Migration and minor welfare policy as well as intra-European debates on Islam and digitalization directly affect Germany as the most populous member state."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneous conflicts over migration, children's rights, and societal values reveal a systemic split within the EU community."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Spain to care for lone migrant children, as EU Commission joins far-right calls to send them back",
+              "url": "https://euobserver.com/233047/spain-to-care-for-migrant-children-as-eu-commission-joins-far-right-calls-to-send-them-back",
+              "publishedAt": "2026-08-20T16:56:57Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Putin has become a prisoner of his own war",
+              "url": "https://euobserver.com/232387/putin-has-become-a-prisoner-of-his-own-war",
+              "publishedAt": "2026-08-19T10:14:11Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Potsdam-Institut: Europas Waldbrandfläche wächst bis 2100 um 39 Prozent",
+          "summaryDe": [
+            "Researchers at the Potsdam Institute for Climate Impact Research have calculated that even in the most favorable emissions scenario, the area devastated by forest fires in Europe will increase by 39 percent by the end of the century.",
+            "Southern European countries are particularly affected, but the models show that Central Europe will also have to expect more frequent major fire events in the future.",
+            "The figures confront governments with concrete planning questions: fire protection, forestry, and disaster management must be structurally adapted, not just reacted to after individual catastrophes.",
+            "At the same time, experts warn that political will for long-term investment in this area often flags once acute fire seasons are over."
+          ],
+          "additionalImportant": "In the European banking sector, generative AI is already changing work processes for 2.6 million employees. Legal scholars are debating whether AI-generated content can even be protected by copyright – an unresolved legal question for business and the creative industries.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the EU's largest economy, Germany is directly affected by rising climate damages, AI-driven structural change in banking, and unresolved copyright questions."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Scientifically-grounded forecasts of dramatically rising forest fire risks across Europe form an important basis for climate policy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "international newspaper",
+              "titleOriginal": "The drone war is coming for global shipping",
+              "url": "https://www.politico.eu/article/drone-war-global-shipping-attacks-threat-ukraine-russia-shadow-fleet",
+              "publishedAt": "2026-08-21T02:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Rumänien schießt Drohne nahe Gasplattform ab – Kiew fordert mehr Patriot-Abfangsysteme",
+          "summaryDe": [
+            "Romania's military shot down a drone near an offshore gas production platform; President Iohannis blamed Moscow for the attack on critical infrastructure in the Black Sea.",
+            "The incident underscores how far Russian drone attacks reach geographically – and that NATO member states, not just Ukraine, are now coming under direct fire.",
+            "Estonia meanwhile received the first tranche of 351.6 million euros from the new EU defense instrument SAFE, with which Brussels concretely backs up its commitment to East European security.",
+            "The EU also delivered 10.5 million euros in humanitarian aid to Myanmar, where civil war has claimed over 100,000 lives – indicating that the Union remains present beyond the Ukraine focus."
+          ],
+          "additionalImportant": "BRICS states have condemned the EU's Carbon Border Adjustment Mechanism as 'punitive and protectionist,' opening a new trade policy front that could directly touch Germany as an exporting nation.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Drone attacks on NATO territory and the new EU defense instrument SAFE directly affect Germany as a central alliance partner and largest EU contributor."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A drone attack on a NATO member and the first disbursement of the EU Defense Fund SAFE are significant security policy developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "international newspaper",
+              "titleOriginal": "Romanian jet blasts drone near offshore gas production platform",
+              "url": "https://www.politico.eu/article/romania-jet-blasts-drone-near-offshore-gas-production-platform",
+              "publishedAt": "2026-08-20T18:02:33Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 13 / 08 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1734",
+              "publishedAt": "2026-08-13T09:07:51Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
