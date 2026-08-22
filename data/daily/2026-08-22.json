@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-22",
+  "generatedAt": "2026-08-21T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bundesrichter kippt Trumps Visaverbot für 75 Länder",
+          "summaryDe": [
+            "Ein US-Bundesgericht hat Trumps Erlass für ungültig erklärt, der Bürgern aus 75 Staaten die Einreise in die USA verweigerte.",
+            "Das Gericht befand, Außenminister Marco Rubio habe mit der Umsetzung des Verbots seine gesetzlichen Befugnisse überschritten.",
+            "Das Urteil ist Teil einer Reihe juristischer Niederlagen der Trump-Administration in Einwanderungsfragen, die die Grenzen exekutiver Macht ausloten.",
+            "Ob die Regierung Berufung einlegt und wie der Oberste Gerichtshof längerfristig entscheiden wird, bleibt abzuwarten."
+          ],
+          "additionalImportant": "Parallel läuft die Debatte um Briefwahlbeschränkungen: Die Postal Service veröffentlichte einen Plan, der Trumps Dekret zur Einschränkung von Briefwahlzetteln umsetzt – auch dieser Erlass liegt dem Supreme Court zur Prüfung vor.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein engeres US-Visaregime kann indirekt deutsche Staatsbürger und Handelsbeziehungen betreffen, die unmittelbaren Folgen sind aber begrenzt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Urteil betrifft Millionen potenzieller Einreisender weltweit und stellt eine bedeutende rechtliche Grenze gegenüber exekutiver Machtausdehnung dar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Amid intense backlash, people are vandalizing Flock surveillance cameras",
+              "url": "https://www.npr.org/2026/08/21/nx-s1-5939851/flock-cameras-police-block-surveillance-vandalize",
+              "publishedAt": "2026-08-21T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA verhängen 50-Prozent-Zölle auf kanadische Waren – Ottawa kündigt Gegenzölle an",
+          "summaryDe": [
+            "Nach dem Scheitern von Verhandlungen in letzter Minute haben die USA Zölle in Höhe von 50 Prozent auf kanadische Produkte im Wert von 20 Milliarden Dollar eingeführt.",
+            "Kanada reagierte prompt mit eigenen Gegenzöllen und leitete damit eine neue Eskalationsstufe im bilateralen Handelskrieg ein.",
+            "Für Deutschland und die EU ist die Entwicklung relevant, weil sie globale Lieferketten belastet und signalisiert, wie weit Washington auch gegenüber engen Verbündeten zu gehen bereit ist.",
+            "Offen bleibt, ob weitere Verhandlungsrunden die Spirale stoppen oder ob sich der Konflikt auf andere Handelspartner ausweitet."
+          ],
+          "additionalImportant": "Ebenfalls bemerkenswert: TikTok und ByteDance einigten sich mit dem US-Justizministerium auf eine Vergleichszahlung von 400 Millionen Dollar wegen Datenschutzverletzungen gegenüber Minderjährigen – der bislang größte Vergleich dieser Art im Tech-Bereich.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein eskalierender US-Kanadischer Handelskonflikt wirkt sich auf globale Handelsmuster aus und erhöht den Druck auf europäische Exporteure."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Maßnahme verschärft den Handelskrieg zwischen zwei der engsten Verbündeten erheblich und hat Signalwirkung für die internationale Handelsordnung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "The Los Angeles Lakers sold for $12.5 billion. Here's what every NBA team is now worth",
+              "url": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html",
+              "publishedAt": "2026-08-21T13:15:27Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "As Trump courts Kim, Pyongyang ups the price, while Seoul fears being sidelined",
+              "url": "https://www.npr.org/2026/08/21/g-s1-139466/as-trump-courts-kim-pyongyang-ups-price-while-seoul-fears-being-sidelined",
+              "publishedAt": "2026-08-21T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Israel bombardiert syrischen Luftwaffenstützpunkt – USA kritisieren Verbündeten öffentlich",
+          "summaryDe": [
+            "Israelische Streitkräfte griffen einen syrischen Militärflughafen weit entfernt von der gemeinsamen Grenze an und lösten damit scharfe Verurteilungen aus Damaskus, Ankara und Washington aus.",
+            "Besonders auffällig: Der US-Botschafter in der Türkei bezeichnete den Angriff öffentlich als unnötige Eskalation – ein ungewöhnlich deutlicher Ton gegenüber dem engsten amerikanischen Verbündeten in der Region.",
+            "Der Vorfall zeigt, wie fragil die sicherheitspolitische Lage in Syrien weiterhin ist, auch nachdem sich die internen Machtverhältnisse dort verschoben haben.",
+            "Wie Israel auf die US-Kritik reagiert und ob der Vorfall diplomatische Konsequenzen hat, war zum Berichtszeitpunkt noch offen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Nahöstliche Eskalationen können indirekt europäische Sicherheitsinteressen und Migrationsdynamiken berühren, eine direkte deutsche Betroffenheit ist derzeit nicht erkennbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein israelischer Angriff, der öffentlich von der eigenen Schutzmacht USA kritisiert wird, ist diplomatisch außergewöhnlich und signalisiert wachsende Spannungen innerhalb der westlichen Allianz im Nahen Osten."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Naslovna strana \"Vijesti\" za 22. avgust 2026. godine",
+              "url": "https://www.vijesti.me/naslovne-strane/823121/naslovna-strana-vijesti-za-22-avgust-2026-godine",
+              "publishedAt": "2026-08-22T05:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taifun Maysak: Todeszahl in Guangxi steigt auf 159",
+          "summaryDe": [
+            "Was zunächst als schwerer Sturm mit 39 Todesopfern gemeldet wurde, hat sich zu einer der schlimmsten Naturkatastrophen der Region in jüngerer Zeit ausgeweitet: Die Zahl der Toten durch Taifun Maysak in der südchinesischen Provinz Guangxi stieg auf 159, zehn Menschen werden noch vermisst.",
+            "Rund 1,65 Millionen Menschen sind von den Folgen des historisch seltenen Starkregens betroffen, der Infrastruktur und Landwirtschaft in der Region schwer beschädigt hat.",
+            "Die Katastrophe setzt Peking unter Druck, seine Frühwarnsysteme und Notfallkapazitäten für Extremwetterereignisse zu überprüfen, die im Zuge des Klimawandels häufiger werden.",
+            "Internationale Hilfsangebote wurden bislang nicht gemeldet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Eine regionale Naturkatastrophe in Südchina berührt deutsche Interessen derzeit nicht direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Mit fast 160 Toten und 1,65 Millionen Betroffenen ist das Ereignis humanitär bedeutend und verweist auf wachsende Klimarisiken in der Region."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Wang Yi visits South Korea, China's economy cools, Warsh speaks at Jackson Hole",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3364793/wang-yi-visits-south-korea-chinas-economy-cools-warsh-speaks-jackson-hole",
+              "publishedAt": "2026-08-21T09:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas Regulierer bestrafen Wertpapiertochter wegen Devisenverstößen",
+          "summaryDe": [
+            "Die Aufsichtsbehörden verhängten gegen den Vermögensverwaltungsarm von Guotai Haitong Securities eine Strafe von 52,5 Millionen Yuan, umgerechnet rund 7,8 Millionen US-Dollar, wegen Verstößen gegen Devisenvorschriften bei Auslandsinvestitionen.",
+            "Der Fall steht im Kontext einer gezielten Verschärfung der Kapitalflusskontrolle durch Peking, die in den vergangenen Monaten mehrere Finanzinstitute erfasst hat.",
+            "Für ausländische Investoren ist das Signal klar: China schränkt die Bewegungsfreiheit von Kapital über die Grenzen weiter ein, was die Attraktivität des Marktes für internationale Anleger schmälern könnte.",
+            "Ob weitere Institute von der laufenden Überprüfungswelle betroffen sein werden, ist noch unklar."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Verschärfte chinesische Kapitalkontrollen können indirekt deutsche Unternehmen und Investoren mit China-Engagement treffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Geldstrafe selbst ist moderat, als Teil einer gezielten Regulierungskampagne hat sie aber Signalwirkung für den Finanzsektor."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese regulators slap US$7.8m penalty on Guotai Haitong arm amid capital flow crackdown",
+              "url": "https://www.scmp.com/business/china-business/article/3364770/chinese-regulators-slap-us78m-penalty-guotai-haitong-arm-amid-capital-flow-crackdown",
+              "publishedAt": "2026-08-21T05:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinas wiederverwendbare Raketen: Ziviler Fortschritt mit militärischer Relevanz",
+          "summaryDe": [
+            "LandSpace, ein chinesisches Raumfahrtunternehmen, hat erstmals Raketentriebstufen erfolgreich zurückgeführt und damit einen technologischen Meilenstein erreicht, den bislang nur SpaceX vorweisen konnte.",
+            "Militäranalysten weisen darauf hin, dass diese Fähigkeit Chinas Volksbefreiungsarmee künftig ermöglichen könnte, Satelliten schneller und kostengünstiger zu ersetzen – ein kritischer Vorteil in der modernen Kriegsführung, wo satellitengestützte Zielerfassung zentral ist.",
+            "Der Durchbruch unterstreicht, wie eng zivile Raumfahrtprogramme und militärische Kapazitäten in China miteinander verflochten sind.",
+            "Für westliche Verteidigungsplaner stellt die rasch wachsende Fähigkeit zur Satelliten-Neubestückung eine ernste strategische Herausforderung dar."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas wachsende militärische Weltraumkapazitäten betreffen die NATO-Planung und damit mittelbar auch Deutschland als Bündnismitglied."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Wiederverwendbare Raketentechnologie mit militärischer Anwendbarkeit verändert das strategische Gleichgewicht und ist geopolitisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why China's reusable rocket breakthrough matters for the PLA's 'kill chain'",
+              "url": "https://www.scmp.com/news/china/military/article/3364878/why-chinas-reusable-rocket-breakthrough-matters-plas-kill-chain",
+              "publishedAt": "2026-08-21T13:12:24Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Gewalt gegen Frauen in Berane: Hohe Dunkelziffer, kaum Konsequenzen",
+          "summaryDe": [
+            "Jede vierte junge Frau in der nordmontenegrinischen Stadt Berane hat Gewalt erlebt – trotzdem wurden bei 75 gemeldeten häuslichen Gewaltvorfällen im vergangenen Jahr lediglich drei Kontaktverbote ausgesprochen und keine einzige Freiheitsstrafe verhängt.",
+            "Die Zahlen offenbaren eine eklatante Lücke zwischen der formalen Rechtslage und der tatsächlichen Strafverfolgungspraxis.",
+            "Frauenrechtsorganisationen kritisieren seit Jahren, dass montenegrinische Gerichte häusliche Gewalt systematisch zu milde ahnden.",
+            "Der Befund aus Berane ist kein Einzelfall, sondern spiegelt ein landesweites Problem wider, das auch im Kontext der EU-Beitrittsverhandlungen Montenegros unter Beobachtung steht."
+          ],
+          "additionalImportant": "Ebenfalls gemeldet: Uroš Ninković, Mitglied des Kavač-Clans, wurde auf Kreta mit gefälschten Papieren festgenommen – ein weiterer Hinweis auf die anhaltende internationale Mobilität organisierter Kriminalität aus der Region.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Thema betrifft innermontenegrinische Strukturprobleme ohne erkennbare direkte Auswirkungen auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Daten illustrieren systemische Strafverfolgungsdefizite in Montenegro, die im Rahmen der EU-Annäherung relevant sind."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Prosječna cijena kvadrata u novogradnji 2.557 eura",
+              "url": "https://www.pobjeda.me/clanak/prosjecna-cijena-kvadrata-u-novogradnji-2557-eura",
+              "publishedAt": "2026-08-21T16:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Migrationsstreit: Spanien schützt Minderjährige – Kommission fordert Rückführungen",
+          "summaryDe": [
+            "In Ceuta, der spanischen Exklave an der marokkanischen Grenze, leben unbegleitete minderjährige Migranten unter prekären Bedingungen, teils auf der Straße und Gewalt ausgesetzt.",
+            "Während Spanien sich zur Fürsorge für die Kinder bekennt, schlägt die EU-Kommission härtere Töne an und schließt sich Forderungen nach beschleunigten Rückführungen an, die bislang vor allem von rechten Parteien erhoben wurden.",
+            "Damit vertieft sich der Riss zwischen humanitären Schutzpflichten und dem politischen Druck auf eine restriktivere Migrationspolitik, der die EU seit Jahren durchzieht.",
+            "Für Spanien als derzeit zuständigen Mitgliedstaat entstehen erhebliche politische und rechtliche Spannungen zwischen nationalem Engagement und dem Kurs Brüssels."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die EU-Migrationspolitik berührt Deutschland als großen Aufnahme- und Transitstaat indirekt, die unmittelbaren Folgen dieses konkreten Falls betreffen jedoch primär Spanien."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Fall illustriert die anhaltende Spannung zwischen EU-Migrationsrecht und humanitären Schutzstandards, ohne eine systemische Wende darzustellen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Ukrainian spy chief predicts Putin's plans: missile terrorism and Donbas meat-grinding (Ukraine Battlefield update, Day 1,638)",
+              "url": "https://euobserver.com/233005/ukrainian-spy-chief-predicts-putins-plans-missile-terrorism-and-donbas-meat-grinding-ukraine-battlefield-update-day-1638",
+              "publishedAt": "2026-08-20T14:06:11Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europas Waldbrandrisiko könnte bis Jahrhundertende um 39 Prozent steigen",
+          "summaryDe": [
+            "Neue Forschungsergebnisse zeigen, dass die durch Waldbrände verursachten Schäden in Europa bis zum Ende des 21. Jahrhunderts um mindestens 39 Prozent zunehmen könnten – selbst wenn die Emissionen stark reduziert werden.",
+            "Im schlimmsten Fall droht fast eine Verdreifachung der Verwüstung, was Südeuropa, aber auch zunehmend mittel- und nordeuropäische Regionen betreffen würde.",
+            "Für die EU bedeutet das erheblichen Handlungsbedarf bei Katastrophenschutz, Forstwirtschaft und Klimaanpassung, der bislang politisch nicht ausreichend adressiert ist.",
+            "Die Ergebnisse dürften die Debatte über EU-Klimaschutzziele und Ressourcen für den Bevölkerungsschutz befeuern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als EU-Mitglied von gemeinsamen Katastrophenschutzanforderungen und Klimafolgekosten betroffen, wenn auch weniger akut als Südeuropa."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine wissenschaftlich belegte, weiträumige Zunahme von Waldbrandschäden in Europa ist eine bedeutende Warnung mit direkter Politikrelevanz."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Europe's wildfire devastation could almost triple, new research finds",
+              "url": "https://euobserver.com/232936/europes-wildfire-devastation-could-almost-triple-new-research-finds",
+              "publishedAt": "2026-08-20T10:56:49Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Deutschland plant 12-Milliarden-Programm für Marschflugkörper und Hyperschallwaffen",
+          "summaryDe": [
+            "Berlin hat ein Rüstungsprogramm im Umfang von 12 Milliarden Euro angekündigt, das Marschflugkörper, Tomahawk-Raketen und Hyperschallwaffen umfassen soll und explizit auf die Abschreckung Russlands ausgerichtet ist.",
+            "Es ist eines der ambitioniertesten deutschen Rüstungsvorhaben seit Jahrzehnten und zeigt, wie ernst die Bundesregierung die militärische Bedrohung durch Moskau inzwischen nimmt.",
+            "Das Programm fügt sich in die allgemeine Aufrüstungswelle innerhalb der NATO ein, stellt aber durch die explizite Benennung von Langstreckenwaffen einen qualitativen Schritt in der deutschen Verteidigungspolitik dar.",
+            "Offen sind Fragen zur Finanzierung, zu Beschaffungszeiträumen und zur parlamentarischen Debatte, die dieses Vorhaben begleiten wird."
+          ],
+          "additionalImportant": "Die ukrainische Aufklärung warnt unterdessen vor einer brutalen russischen Winteroffensive im Donbas und verstärktem Raketenterror gegen Städte; nordkoreanische Truppen und Waffenlieferungen stützen laut diesen Berichten die russischen Operationen.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Das Programm betrifft direkt den deutschen Verteidigungshaushalt, die Bundeswehrplanung und Deutschlands Rolle in der NATO-Abschreckungsarchitektur."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein 12-Milliarden-Rüstungsprogramm mit Langstreckenwaffen markiert einen außergewöhnlichen Kurswechsel in der deutschen Sicherheitspolitik mit gesamteuropäischer Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Germany plans a €12B missile program to deter Putin",
+              "url": "https://www.politico.eu/article/germany-missile-program-deter-russia-vladimirputin",
+              "publishedAt": "2026-08-21T11:44:06Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

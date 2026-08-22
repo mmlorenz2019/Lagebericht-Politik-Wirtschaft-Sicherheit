@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-22",
+  "generatedAt": "2026-08-21T23:59:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Federal judge strikes down Trump visa ban for 75 countries",
+          "summaryDe": [
+            "A U.S. federal court has invalidated Trump's executive order denying entry to citizens from 75 nations.",
+            "The court found that Secretary of State Marco Rubio exceeded his statutory authority in implementing the ban.",
+            "The ruling is part of a series of legal setbacks for the Trump administration on immigration matters that test the limits of executive power.",
+            "Whether the government appeals and how the Supreme Court ultimately decides remains to be seen."
+          ],
+          "additionalImportant": "In parallel, debate continues over mail-in voting restrictions: the Postal Service released a plan implementing Trump's decree to limit mail-in ballots – this executive order is also under review by the Supreme Court.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A tighter U.S. visa regime could indirectly affect German citizens and trade relations, though the immediate consequences are limited."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The ruling affects millions of potential entrants worldwide and represents a significant legal check on executive power expansion."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "Amid intense backlash, people are vandalizing Flock surveillance cameras",
+              "url": "https://www.npr.org/2026/08/21/nx-s1-5939851/flock-cameras-police-block-surveillance-vandalize",
+              "publishedAt": "2026-08-21T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA impose 50% tariffs on Canadian goods – Ottawa announces retaliatory measures",
+          "summaryDe": [
+            "Following failed last-minute negotiations, the U.S. has imposed 50% tariffs on Canadian products worth $20 billion.",
+            "Canada promptly responded with its own countermeasures, escalating bilateral trade tensions to a new level.",
+            "For Germany and the EU, this development is relevant because it strains global supply chains and signals how far Washington is willing to go even toward close allies.",
+            "It remains unclear whether further rounds of negotiations can halt the spiral or whether the conflict spreads to other trade partners."
+          ],
+          "additionalImportant": "Also noteworthy: TikTok and ByteDance reached a settlement with the U.S. Justice Department involving a $400 million payment for data privacy violations against minors – the largest settlement of its kind in the tech sector to date.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An escalating U.S.-Canada trade conflict affects global trading patterns and increases pressure on European exporters."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The measure significantly heightens the trade war between two of the closest allies and has signaling effects for the international trading order."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "The Los Angeles Lakers sold for $12.5 billion. Here's what every NBA team is now worth",
+              "url": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html",
+              "publishedAt": "2026-08-21T13:15:27Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "As Trump courts Kim, Pyongyang ups the price, while Seoul fears being sidelined",
+              "url": "https://www.npr.org/2026/08/21/g-s1-139466/as-trump-courts-kim-pyongyang-ups-price-while-seoul-fears-being-sidelined",
+              "publishedAt": "2026-08-21T09:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Israel bombs Syrian air base – U.S. publicly criticizes ally",
+          "summaryDe": [
+            "Israeli forces attacked a Syrian military airfield far from their shared border, drawing sharp condemnations from Damascus, Ankara, and Washington.",
+            "Particularly striking: the U.S. ambassador to Turkey publicly called the strike an unnecessary escalation – an unusually blunt tone toward America's closest regional ally.",
+            "The incident shows how fragile the security situation in Syria remains, even after internal power dynamics there have shifted.",
+            "How Israel responds to U.S. criticism and whether the incident carries diplomatic consequences was still unclear at the time of reporting."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Middle Eastern escalations can indirectly touch European security interests and migration dynamics, though direct German impact is not currently apparent."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An Israeli strike publicly criticized by its own security guarantor is diplomatically extraordinary and signals growing tensions within the Western alliance in the Middle East."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily newspaper",
+              "titleOriginal": "Naslovna strana \"Vijesti\" za 22. avgust 2026. godine",
+              "url": "https://www.vijesti.me/naslovne-strane/823121/naslovna-strana-vijesti-za-22-avgust-2026-godine",
+              "publishedAt": "2026-08-22T05:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Typhoon Maysak: death toll in Guangxi rises to 159",
+          "summaryDe": [
+            "What initially was reported as a severe storm with 39 deaths has evolved into one of the worst natural disasters the region has seen in recent years: the death toll from Typhoon Maysak in the southern Chinese province of Guangxi has risen to 159, with ten people still missing.",
+            "Approximately 1.65 million people are affected by the aftermath of the historically rare rainfall, which has severely damaged infrastructure and agriculture in the region.",
+            "The catastrophe puts pressure on Beijing to review its early warning systems and emergency response capacity for extreme weather events, which are becoming more frequent due to climate change.",
+            "International aid offers have not been reported so far."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "A regional natural disaster in southern China does not currently directly affect German interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "With nearly 160 deaths and 1.65 million affected, the event is humanitarily significant and points to growing climate risks in the region."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Wang Yi visits South Korea, China's economy cools, Warsh speaks at Jackson Hole",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3364793/wang-yi-visits-south-korea-chinas-economy-cools-warsh-speaks-jackson-hole",
+              "publishedAt": "2026-08-21T09:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's regulators penalize securities subsidiary for foreign exchange violations",
+          "summaryDe": [
+            "Authorities imposed a penalty of 52.5 million yuan, approximately 7.8 million U.S. dollars, on the wealth management arm of Guotai Haitong Securities for violations of foreign exchange regulations on overseas investments.",
+            "The case occurs within the context of a targeted tightening of capital flight controls by Beijing, which has affected several financial institutions in recent months.",
+            "The signal to foreign investors is clear: China is further restricting the freedom of capital movement across borders, which could diminish market attractiveness for international investors.",
+            "Whether additional institutions will be affected by the ongoing review wave remains uncertain."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Tightened Chinese capital controls could indirectly affect German companies and investors with China exposure."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The fine itself is moderate, but as part of a targeted regulatory campaign it carries signal value for the financial sector."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese regulators slap US$7.8m penalty on Guotai Haitong arm amid capital flow crackdown",
+              "url": "https://www.scmp.com/business/china-business/article/3364770/chinese-regulators-slap-us78m-penalty-guotai-haitong-arm-amid-capital-flow-crackdown",
+              "publishedAt": "2026-08-21T05:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China's reusable rockets: civilian progress with military relevance",
+          "summaryDe": [
+            "LandSpace, a Chinese aerospace company, has successfully recovered rocket stages for the first time, achieving a technological milestone previously matched only by SpaceX.",
+            "Military analysts point out that this capability could enable China's People's Liberation Army to replace satellites faster and more cost-effectively in the future – a critical advantage in modern warfare, where satellite-based targeting is central.",
+            "The breakthrough underscores how closely intertwined civilian space programs and military capabilities are in China.",
+            "For Western defense planners, rapidly growing satellite replacement capabilities pose a serious strategic challenge."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's expanding military space capabilities affect NATO planning and thus indirectly Germany as an alliance member."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Reusable rocket technology with military applications alters the strategic balance and is geopolitically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Why China's reusable rocket breakthrough matters for the PLA's 'kill chain'",
+              "url": "https://www.scmp.com/news/china/military/article/3364878/why-chinas-reusable-rocket-breakthrough-matters-plas-kill-chain",
+              "publishedAt": "2026-08-21T13:12:24Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Violence against women in Berane: high dark figure, few consequences",
+          "summaryDe": [
+            "One in four young women in the northern Montenegrin city of Berane has experienced violence – yet of 75 reported domestic violence incidents last year, only three restraining orders were issued and not a single prison sentence was handed down.",
+            "The figures reveal a stark gap between formal law and actual prosecution practice.",
+            "Women's rights organizations have criticized for years how Montenegrin courts systematically impose lenient sentences for domestic violence.",
+            "The findings from Berane are not an isolated case but reflect a nationwide problem also under scrutiny in the context of Montenegro's EU accession negotiations."
+          ],
+          "additionalImportant": "Also reported: Uroš Ninković, a member of the Kavač clan, was arrested on Crete with forged papers – another indication of the continuing international mobility of organized crime from the region.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The issue concerns inner-Montenegrin structural problems with no apparent direct impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The data illustrates systemic prosecution deficiencies in Montenegro relevant in the context of EU alignment."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Prosječna cijena kvadrata u novogradnji 2.557 eura",
+              "url": "https://www.pobjeda.me/clanak/prosjecna-cijena-kvadrata-u-novogradnji-2557-eura",
+              "publishedAt": "2026-08-21T16:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU migration dispute: Spain protects minors – Commission demands returns",
+          "summaryDe": [
+            "In Ceuta, the Spanish enclave on the Moroccan border, unaccompanied migrant minors live under precarious conditions, some on the streets and exposed to violence.",
+            "While Spain commits to caring for the children, the EU Commission takes a harder tone and joins calls for accelerated returns, demands previously made mainly by right-wing parties.",
+            "This deepens the rift between humanitarian protection obligations and the political pressure for more restrictive migration policy that has characterized the EU for years.",
+            "For Spain, as the currently responsible member state, significant political and legal tensions arise between national commitment and Brussels's course."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "EU migration policy indirectly affects Germany as a major reception and transit country, though the immediate consequences of this specific case primarily concern Spain."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The case illustrates the ongoing tension between EU migration law and humanitarian protection standards without representing a systemic turning point."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Ukrainian spy chief predicts Putin's plans: missile terrorism and Donbas meat-grinding (Ukraine Battlefield update, Day 1,638)",
+              "url": "https://euobserver.com/233005/ukrainian-spy-chief-predicts-putins-plans-missile-terrorism-and-donbas-meat-grinding-ukraine-battlefield-update-day-1638",
+              "publishedAt": "2026-08-20T14:06:11Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europe's wildfire risk could increase by 39 percent by century's end",
+          "summaryDe": [
+            "New research shows that forest fire damage in Europe could increase by at least 39 percent by the end of the 21st century – even if emissions are substantially reduced.",
+            "In the worst case scenario, devastation could almost triple, affecting southern Europe but increasingly also central and northern European regions.",
+            "For the EU, this means considerable need for action on disaster protection, forestry, and climate adaptation, which has not been adequately addressed politically to date.",
+            "The findings are likely to fuel debate over EU climate protection targets and resources for population protection."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany, as an EU member, is affected by shared disaster protection requirements and climate consequence costs, though less acutely than southern Europe."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A scientifically documented, widespread increase in forest fire damage across Europe is a significant warning with direct policy relevance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe's wildfire devastation could almost triple, new research finds",
+              "url": "https://euobserver.com/232936/europes-wildfire-devastation-could-almost-triple-new-research-finds",
+              "publishedAt": "2026-08-20T10:56:49Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Germany plans €12 billion program for cruise missiles and hypersonic weapons",
+          "summaryDe": [
+            "Berlin has announced an arms program worth €12 billion covering cruise missiles, Tomahawk rockets, and hypersonic weapons, explicitly aimed at deterring Russia.",
+            "It is one of the most ambitious German defense initiatives in decades and shows how seriously the federal government now takes the military threat from Moscow.",
+            "The program fits into the broader NATO rearmament wave but represents a qualitative step in German defense policy through the explicit deployment of long-range weapons.",
+            "Questions remain open regarding financing, procurement timelines, and the parliamentary debate that will accompany this initiative."
+          ],
+          "additionalImportant": "Ukrainian intelligence, meanwhile, warns of a brutal Russian winter offensive in the Donbas and intensified missile terror against cities; according to these reports, North Korean troops and weapons supplies are supporting Russian operations.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The program directly affects the German defense budget, Bundeswehr planning, and Germany's role in NATO deterrence architecture."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A €12 billion arms program with long-range weapons marks an extraordinary shift in German security policy with pan-European signaling effects."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "international",
+              "titleOriginal": "Germany plans a €12B missile program to deter Putin",
+              "url": "https://www.politico.eu/article/germany-missile-program-deter-russia-vladimirputin",
+              "publishedAt": "2026-08-21T11:44:06Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
