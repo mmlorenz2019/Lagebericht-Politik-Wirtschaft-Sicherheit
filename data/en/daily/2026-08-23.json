@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-23",
+  "generatedAt": "2026-08-23T08:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Federal judge strikes down Trump's visa suspension for 75 countries",
+          "summaryDe": [
+            "A U.S. federal judge has declared invalid Trump's executive order that suspended visa processing for nationals from 75 countries.",
+            "The court found that the president exceeded his authority and discriminated on the basis of nationality.",
+            "The ruling is a rare judicial setback for the administration's immigration policy and could have far-reaching precedential effects.",
+            "How the administration responds – whether through appeal or legislative initiative – will determine the course of the immigration debate in the coming weeks."
+          ],
+          "additionalImportant": "The U.S. tariff dispute with Canada escalates further: Washington imposes 50 percent tariffs on Canadian goods worth 20 billion dollars, and Ottawa announces counter-tariffs effective September 8.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "U.S. entry rules affect German nationals and businesses only indirectly, but could have signaling effects for transatlantic relations."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A federal court has invalidated a central immigration policy measure of the Trump administration – that is a significant legal development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcast",
+              "titleOriginal": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+              "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries",
+              "publishedAt": "2026-08-22T16:50:24Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "TikTok and ByteDance pay $400 million in U.S. data privacy case",
+          "summaryDe": [
+            "TikTok and its parent company ByteDance have agreed to a settlement of 400 million dollars with the U.S. Department of Justice over violations of children's privacy protections.",
+            "It is one of the highest payments in a privacy case involving minors, and follows years of government investigations.",
+            "The settlement does not involve admission of criminal guilt but establishes new standards of liability for social media platforms regarding younger users.",
+            "Meanwhile, Nvidia reports that the company is warning key customers of potential 15 percent price increases for AI chip servers – a sign of sustained demand power."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "TikTok is widely used in Germany; data protection standards from U.S. proceedings can influence European regulatory debates."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The record settlement sets a precedent for handling children's data by global platforms."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "TikTok, ByteDance agree to US$400 million settlement with US over children's privacy suit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364895/tiktok-bytedance-agree-us400-million-settlement-us-over-childrens-privacy-suit",
+              "publishedAt": "2026-08-21T21:39:53Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcast",
+              "titleOriginal": "TikTok reaches $400 million settlement with Justice Department over children's privacy",
+              "url": "https://www.pbs.org/newshour/nation/tiktok-reaches-400-million-settlement-with-justice-department-over-childrens-privacy",
+              "publishedAt": "2026-08-22T17:04:29Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump announces Iran's denuclearization – facts contradict",
+          "summaryDe": [
+            "President Trump claimed that Iran has been essentially denuclearized, yet official reports on existing enrichment capacities and uranium stockpiles directly contradict this assertion.",
+            "The discrepancy between political rhetoric and established factual circumstances intensifies international uncertainty about the actual status of any negotiations.",
+            "In parallel, Washington explicitly declared economic warfare against Tehran and threatened tougher sanctions; Iran called this a failed strategy and criticized the extraterritorial reach of U.S. measures.",
+            "How the contradictory signals from Washington affect possible diplomacy remains unclear – allied governments face significant interpretation challenges."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is directly affected as part of Iran nuclear diplomacy (E3); false U.S. statements on the situation complicate a coordinated European position."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Contradictory statements on the nuclear issue of one of the world's most sensitive proliferation cases have immediate systemic significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Trump declares economic warfare on Iran. And, SCOTUS to rule on White House ballroom",
+              "url": "https://www.npr.org/2026/08/21/g-s1-139542/up-first-newsletter-trump-iran-economy-white-house-ballroom-bond-market",
+              "publishedAt": "2026-08-21T11:25:10Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcast",
+              "titleOriginal": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+              "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries",
+              "publishedAt": "2026-08-22T16:50:24Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Centennial of Jiang Zemin as signal of political continuity",
+          "summaryDe": [
+            "Through commemorative events marking the hundredth birthday of former president Jiang Zemin, who died in 2022, the Communist Party of China sends a deliberate message: the economic reform years of the 1990s are regarded as the foundation, not as a departure from today's course.",
+            "Beijing uses the jubilee to solidify a narrative of continuity intended to provide historical legitimacy to Xi Jinping's rule.",
+            "Viewed critically, the instrumentalization of Jiang – whose more liberal governing style would have few precedents under Xi – raises questions about which aspects of his tenure are highlighted and which are omitted.",
+            "The event illustrates how memory politics in China is deliberately used for stabilization in the present."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "China's internal memory politics have no direct connection to German interests."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Revealing for the Communist Party's self-presentation, but not an acute political event."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China is using Jiang Zemin centenary to signal political continuity",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3364540/china-using-jiang-zemin-centenary-signal-political-continuity",
+              "publishedAt": "2026-08-21T12:30:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's breakthrough in reusable rockets strengthens military capabilities",
+          "summaryDe": [
+            "China has achieved significant technical progress in reusable launch vehicles, according to analysts, with direct consequences for the military infrastructure of the People's Liberation Army.",
+            "Specifically, it concerns the ability to maintain satellite-based target acquisition and strike chains more quickly and cost-effectively – a decisive factor in potential conflicts over Taiwan or in the South China Sea.",
+            "In contrast, a separate study shows that China's drone production capacity could only cover 60 percent of military demand in wartime – a structural gap that puts Beijing's military planners under pressure.",
+            "Together, both developments paint a picture of armed forces that are upgrading technologically but still face significant bottlenecks in consumables."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's military-technological development is changing the global security environment and is indirectly relevant for German defense planning in the NATO context."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Rocket and drone capabilities of the PLA are a central element of regional and global power balance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Why China's reusable rocket breakthrough matters for the PLA's 'kill chain'",
+              "url": "https://www.scmp.com/news/china/military/article/3364878/why-chinas-reusable-rocket-breakthrough-matters-plas-kill-chain",
+              "publishedAt": "2026-08-21T13:12:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's drone production capacity can only meet 60% of war demand: study",
+              "url": "https://www.scmp.com/news/china/science/article/3364661/chinas-drone-production-capacity-can-only-meet-60-war-demand-study",
+              "publishedAt": "2026-08-21T10:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China expands military exercises – Indonesia, Egypt, spy ship near Taiwan",
+          "summaryDe": [
+            "Three foreign and military events converge: Chinese J-16 fighter jets have arrived for a joint exercise with Egypt, while China and Indonesia are conducting a joint naval exercise near Taiwan – raising the question of whether other Southeast Asian states will follow.",
+            "Additionally, a Chinese research vessel has been spotted for the third time since May near Taiwan's largest naval base, which experts regard as systematic reconnaissance.",
+            "Beijing is thus expanding its military engagement simultaneously toward the Middle East and Southeast Asia, while intelligence activities around Taiwan continue unabated.",
+            "China's foreign minister also rejected South Korea's demand for multilateral peace talks with North Korea during his visit to Seoul – a diplomatic setback for Seoul that reveals Beijing's interest in an uncontrolled rapprochement between the U.S. and Pyongyang."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's growing global military presence and Taiwan policy indirectly touch German security and trade route interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The combination of reconnaissance activities, military maneuvers across multiple continents, and diplomatic moves demonstrates China's increasingly coordinated power projection."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Will other Southeast Asian countries follow Indonesia's example with joint China drill?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364862/will-other-southeast-asian-countries-follow-indonesias-example-joint-china-drill",
+              "publishedAt": "2026-08-21T11:57:39Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese J-16 fighters arrive in Egypt ahead of Eagles of Civilisation 2026 joint drill",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364913/chinese-j-16-fighters-arrive-egypt-ahead-eagles-civilisation-2026-joint-drill",
+              "publishedAt": "2026-08-22T12:00:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Mainland Chinese research ship spotted near Taiwan's largest naval base",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364922/mainland-chinese-research-ship-spotted-near-taiwans-largest-naval-base",
+              "publishedAt": "2026-08-22T09:31:25Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Why Chinese foreign minister's trip to South Korea 'dealt a low blow' to Seoul",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364877/why-chinese-foreign-ministers-trip-south-korea-dealt-low-blow-seoul",
+              "publishedAt": "2026-08-22T02:00:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Europe's wildfire risk could nearly triple by century's end",
+          "summaryDe": [
+            "New research shows that damage caused by wildfires in Europe could increase by 39 percent by 2100 even in the most optimistic emissions scenario – in worse scenarios, nearly a tripling would be possible.",
+            "Heat waves, droughts, and changing vegetation patterns in Southern Europe reinforce each other and create conditions under which fires spread faster and become more uncontrollable.",
+            "Simultaneously, the EU Commission reported that it is mobilizing disaster relief assistance for earthquake-affected Colombia – an indication that the EU is increasingly deploying its civilian protection capacity globally.",
+            "Both events underscore the growing pressure on EU member states to substantially expand climate impact adaptation and disaster protection."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany is less affected by wildfires than Southern Europe, but contributes to EU disaster protection mechanisms and feels economic consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The study provides the first quantified scenarios for Europe-wide wildfire damage and is directly relevant to climate policy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe's wildfire devastation could almost triple, new research finds",
+              "url": "https://euobserver.com/232936/europes-wildfire-devastation-could-almost-triple-new-research-finds",
+              "publishedAt": "2026-08-20T10:56:49Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "EU mobilises civil protection assistance for earthquake-hit Colombia",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1738",
+              "publishedAt": "2026-08-17T14:45:21Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "The Mistral paradox: Europe's AI sovereignty push relies on Chinese models",
+          "summaryDe": [
+            "The French AI company Mistral AI, regarded as the flagship of European technological independence, according to research by the South China Morning Post, relies on models from Chinese provider Z.ai.",
+            "This raises fundamental questions about whether Europe's claim to digital sovereignty is substantively supported or primarily serves as political narrative.",
+            "This debate is intensified by a report from EUobserver showing that generative AI already affects the work practices of 2.6 million employees in the European banking sector – often faster than regulation and co-determination structures can keep pace.",
+            "China, meanwhile, is using its trade surplus with EU member states as leverage ahead of the October negotiation round; structural European dependence manifests itself in both technological and trade policy terms."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as the EU's largest economy, is directly affected by both the Chinese trade surplus and AI dependencies in critical sectors."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneity of technological dependence and trade pressure from China structurally calls into question Europe's strategic autonomy ambitions."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "The Mistral paradox: Europe's push for tech sovereignty relies on China's Z.ai",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364745/mistral-paradox-europes-push-tech-sovereignty-relies-chinas-zai",
+              "publishedAt": "2026-08-21T10:30:06Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Who profits from banking's AI moment?",
+              "url": "https://euobserver.com/232859/who-profits-from-bankings-ai-moment",
+              "publishedAt": "2026-08-20T09:27:47Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's trade grip tightens in Europe as clock ticks towards October deadline",
+              "url": "https://www.scmp.com/economy/china-economy/article/3364791/chinas-trade-grip-tightens-europe-clock-ticks-towards-october-deadline",
+              "publishedAt": "2026-08-21T14:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ukrainian intelligence chief warns of Putin's winter offensive – Russia infiltrates positions near Slovyansk",
+          "summaryDe": [
+            "The Ukrainian intelligence chief predicted that Russia will launch a brutal wave of attacks in the Donbas combined with missile strikes on civilian infrastructure during the winter, supported by North Korean troops and missiles.",
+            "Simultaneously, field reports indicate that Russian units have infiltrated the last fortified stronghold before Slovyansk – a strategically significant city whose fall would substantially shift the front line.",
+            "Against this backdrop, a commentary in EUobserver warns that Putin's defeat in Ukraine and Chinese pressure could lead him to test NATO's resolve, for instance through actions against British interests.",
+            "The EU reaffirms its solidarity with Ukraine, while concretely debating the use of an EU blocking regulation that would protect the International Criminal Court from U.S. sanctions."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A Russian winter offensive and potential NATO provocations have immediate impacts on Germany's security situation and its role as a major Ukraine supporter."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Intelligence forecasts of coordinated Russian-North Korean attacks and simultaneous Russian territorial gains are of exceptional security policy significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Ukrainian spy chief predicts Putin's plans: missile terrorism and Donbas meat-grinding (Ukraine Battlefield update, Day 1,638)",
+              "url": "https://euobserver.com/233005/ukrainian-spy-chief-predicts-putins-plans-missile-terrorism-and-donbas-meat-grinding-ukraine-battlefield-update-day-1638",
+              "publishedAt": "2026-08-20T14:06:11Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Putin takes aim at UK in anti-Nato game of fear",
+              "url": "https://euobserver.com/232926/putin-takes-aim-at-uk-in-anti-nato-game-of-fear",
+              "publishedAt": "2026-08-20T13:32:51Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Solidarity with Ukraine",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_24_6565",
+              "publishedAt": "2026-08-17T22:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Multiple wildfires active – firefighting aircraft deployed",
+          "summaryDe": [
+            "Multiple wildfires are currently active across Montenegro, as confirmed by the Interior Ministry; aircraft have been deployed in the Kolašin area to prevent further spread.",
+            "The fire situation affects the country during peak season and strains emergency personnel, who faced similar challenges in the previous year.",
+            "In parallel, health clinics are registering an increase in gastrointestinal illnesses, creating additional pressure on the health system during the heavily touristed summer period.",
+            "The 39th Film Festival in Herceg Novi nevertheless opened as scheduled with a red carpet ceremony – a sign that cultural life continues despite the strains."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The events affect Montenegro internally and have no direct connection to German interests."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Active wildfires with air support are relevant for Montenegro, but not a regionally significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "MUP: Aktivno više požara, vazduhoplovi bili angažovani u Kolašinu",
+              "url": "https://www.vijesti.me/vijesti/drustvo/823227/mup-aktivno-vise-pozara-vazduhoplovi-bili-angazovani-u-kolasinu",
+              "publishedAt": "2026-08-22T19:32:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
