@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-24",
+  "generatedAt": "2026-08-24T09:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bundesrichter kippt Trumps Visaverbot für 75 Länder",
+          "summaryDe": [
+            "Ein US-Bundesgericht hat das Einreiseverbot für Staatsangehörige aus 75 Ländern für rechtswidrig erklärt – die Begründung der Regierung, es schütze vor Personen, die öffentliche Leistungen beanspruchen, überzeugte das Gericht nicht.",
+            "Das Urteil ist eine weitere juristische Niederlage für die Einwanderungspolitik der Trump-Administration, deren Maßnahmen wiederholt an verfassungsrechtlichen Grenzen gescheitert sind.",
+            "Ob Berufung eingelegt wird, ist offen; für bereits gestoppte Visaverfahren bleibt die praktische Lage vorerst unübersichtlich.",
+            "Politisch erhöht das Urteil den Druck auf eine Regierung, die Einwanderungskontrolle zu einem zentralen Versprechen ihrer zweiten Amtszeit gemacht hat."
+          ],
+          "additionalImportant": "Aus Key West wurde bekannt, dass ein legal beschäftigter Handwerker mit gültigem Arbeitserlaubnis von der Grenzpolizei festgenommen wurde, während er auf die Rückkehr seines Sohnes von einem Marineeinsatz wartete – ein Einzelfall, der das Klima der Durchsetzungspraxis anschaulich macht.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Urteil betrifft primär US-Einwanderungsrecht, könnte aber indirekt deutsche Unternehmen mit Mitarbeitern aus betroffenen Ländern berühren."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Bundesgericht, das eine derart weitreichende Einwanderungsmaßnahme kippt, ist eine bedeutsame innenpolitische Entscheidung mit Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Der Herbst des Friedrich Merz",
+              "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/der-herbst-des-friedrich-merz",
+              "publishedAt": "2026-08-24T03:30:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA kündigen härteste Iran-Sanktionen aller Zeiten an – Ölpreise geben nach",
+          "summaryDe": [
+            "Washington bereitet sich auf die Enthüllung einer als historisch eingestuften Finanzoffensive gegen Teheran vor, nachdem ein 60-tägiges Zeitfenster für eine diplomatische Einigung verstrichen ist.",
+            "An den Ölmärkten fielen die Preise zunächst, weil Investoren auf konkrete Details warteten, bevor sie ihre Positionen anpassten – ein Zeichen, dass die Ankündigung allein noch keine volle Risikoprämie rechtfertigt.",
+            "Parallel dazu brach der Kurs von Alibaba um rund zehn Prozent ein, nachdem das Unternehmen eine Kapitalerhöhung über 10,2 Milliarden US-Dollar zur Finanzierung von KI-Investitionen angekündigt hatte.",
+            "Beide Meldungen zusammen illustrieren, wie stark geopolitische Unsicherheit und der kostspielige KI-Wettlauf die globalen Märkte gleichzeitig belasten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Stark steigende Energiepreise infolge von Iran-Sanktionen hätten konkrete Folgen für die deutsche Industrie und Verbraucher."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine neue Sanktionswelle gegen den Iran mit unmittelbaren Auswirkungen auf Ölmärkte und Schifffahrt im Persischen Golf ist eine außergewöhnlich brisante Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Bešović: U više opština zatražena pomoć iz vazduha u gašenju...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/823409/besovic-u-vise-opstina-zatrazena-pomoc-iz-vazduha-u-gasenju-pozara-situacija-stabilna",
+              "publishedAt": "2026-08-24T07:18:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Potrošači mogu raskinuti ugovor ako misle da su usluge preskupe",
+              "url": "https://www.pobjeda.me/clanak/potrosaci-mogu-raskinuti-ugovor-ako-misle-da-su-usluge-preskupe",
+              "publishedAt": "2026-08-24T07:19:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Maximaler Finanzdruck auf Teheran – Iran droht mit Schiffsbeschlagnahmen",
+          "summaryDe": [
+            "Die USA kündigen an, die umfangreichste Finanzkampagne gegen den Iran ihrer Geschichte zu starten; gleichzeitig warnte ein iranischer Sicherheitsbeamter, jede Unterstützung für US-Maßnahmen werde als Kriegshandlung gewertet.",
+            "Irans Präsident versuchte dagegen, das bestehende Memorandum als besten verfügbaren Ausweg zu verteidigen – ein interner Widerspruch, der die Einschätzung Teherans erheblich erschwert.",
+            "Die Drohung, Schiffe im Persischen Golf zu beschlagnahmen, erhöht die Risiken für die globale Energieversorgung und den internationalen Schiffsverkehr spürbar.",
+            "Für die regionale Stabilität und die NATO-Partner, darunter Deutschland, bedeutet die Lage eine Phase erhöhter Alarmbereitschaft ohne klare diplomatische Deeskalationsoption."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als Exportnation und NATO-Mitglied direkt von einer Eskalation im Persischen Golf und möglichen Energiepreisschocks betroffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine historisch eingestufte Sanktionsoffensive kombiniert mit militärischen Drohgebärden Irans ist eine außergewöhnlich brisante geopolitische Konstellation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Bešović: U više opština zatražena pomoć iz vazduha u gašenju...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/823409/besovic-u-vise-opstina-zatrazena-pomoc-iz-vazduha-u-gasenju-pozara-situacija-stabilna",
+              "publishedAt": "2026-08-24T07:18:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Tod von Ex-Premier Zhu Rongji – Chinas Wirtschaftsreformer hinterlässt zwiespältiges Erbe",
+          "summaryDe": [
+            "Zhu Rongji, der als Premierminister von 1998 bis 2003 den WTO-Beitritt Chinas vorantrieb und marode Staatsbetriebe sanierte, ist gestorben.",
+            "Sein Name steht für eine Phase, in der wirtschaftlicher Pragmatismus Vorrang vor ideologischer Kontrolle hatte – ein Kontrast, der in der aktuellen Debatte über Chinas wirtschaftliche Richtung unausgesprochen mitschwingt.",
+            "In der Öffentlichkeit löst sein Tod Reflexionen über eine Reformära aus, die unter Xi Jinping deutlich an Dynamik verloren hat.",
+            "International war Zhu die Schlüsselfigur hinter der Integration Chinas in das globale Handelssystem – eine Entscheidung, deren Folgewirkungen bis heute die Weltwirtschaft prägen."
+          ],
+          "additionalImportant": "Separat warnt ein Akademiker, dass Reformen beim Hochschulzulassungsexamen Gaokao dazu führen, dass immer weniger Schüler Geschichte als Pflichtfach wählen – was die Bevölkerung langfristig anfälliger für nationalistische Pseudohistorie machen könnte.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Ereignis betrifft Chinas Innenpolitik und Geschichte ohne direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Tod einer Schlüsselfigur der chinesischen Wirtschaftsmodernisierung hat symbolische und historische Bedeutung weit über China hinaus."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Remembering Zhu Rongji and understanding his legacy",
+              "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3364730/remembering-zhu-rongji-and-understanding-his-legacy",
+              "publishedAt": "2026-08-24T01:30:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China erschließt Afrikas KI- und E-Auto-Markt – struktureller Wettbewerbsvorteil gegenüber dem Westen",
+          "summaryDe": [
+            "Afrikanische Technologieunternehmen greifen zunehmend auf chinesische KI-Modelle zurück und verfolgen eine pragmatische Mehranbieter-Strategie, anstatt sich ausschließlich auf westliche Anbieter zu verlassen.",
+            "Dasselbe Muster zeigt sich bei Elektrofahrzeugen: Chinas günstige Batterietechnologie zieht afrikanische Firmen an, die Alternativen zu westlichen Lieferketten suchen.",
+            "Preisvorteil und Verfügbarkeit verschaffen China eine strukturelle Ausgangsposition auf einem Kontinent mit erheblichem Wachstumspotenzial, den westliche Anbieter lange vernachlässigt haben.",
+            "Für deutsche Automobilhersteller und Technologieunternehmen bedeutet diese Entwicklung einen wachsenden Wettbewerbsnachteil in Märkten, die künftig an globaler Bedeutung gewinnen werden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Automobilhersteller und Technologieunternehmen verlieren Marktanteile an ein zunehmend von China dominiertes Afrika-Geschäft."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die koordinierte chinesische Expansion in KI und Elektromobilität in Afrika ist eine größere geopolitisch-wirtschaftliche Verschiebung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why China's EV boom is seen as an 'unparalleled opportunity' in Africa",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364799/why-chinas-ev-boom-seen-unparalleled-opportunity-africa",
+              "publishedAt": "2026-08-22T10:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "The African firms adopting Chinese AI as US-China rivalry intensifies",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364966/african-firms-adopting-chinese-ai-us-china-rivalry-intensifies",
+              "publishedAt": "2026-08-23T12:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinesisches Aufklärungsschiff erneut nahe Taiwans Marinestützpunkt – J-16-Jets erstmals in Afrika",
+          "summaryDe": [
+            "Das chinesische Forschungsschiff Tong Ji ist zum dritten Mal binnen drei Monaten nahe dem größten taiwanischen Marinestützpunkt bei Liuqiu gesichtet worden – die Regelmäßigkeit legt systematisches Aufklärungsverhalten unter zivilem Deckmantel nahe.",
+            "Solche Dual-Use-Schiffe sind besonders schwer zu verfolgen und diplomatisch kaum anzusprechen, was Taiwan und seine Partner vor ein strukturelles Dilemma stellt.",
+            "Gleichzeitig entsandte China erstmals J-16-Kampfjets nach Ägypten für das gemeinsame Manöver Eagles of Civilisation 2026 – der erste Einsatz dieses Flugzeugtyps auf afrikanischem Boden signalisiert einen erweiterten militärischen Aktionsradius Pekings.",
+            "Beide Ereignisse zusammen zeigen, dass China seine militärische Präsenz und Geheimdienstaktivitäten in sehr unterschiedlichen Weltregionen gleichzeitig ausbaut."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Steigende Spannungen in der Taiwanstraße und eine expandierende chinesische Militärpräsenz betreffen indirekt deutsche Lieferketten und sicherheitspolitische Interessen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Wiederholte verdeckte Aufklärungsaktivitäten nahe einem zentralen Marinestützpunkt kombiniert mit einer ersten Auslandsdeployment eines Kampfflugzeugtyps sind bedeutsame sicherheitspolitische Signale."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Mainland Chinese research ship spotted near Taiwan's largest naval base",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364922/mainland-chinese-research-ship-spotted-near-taiwans-largest-naval-base",
+              "publishedAt": "2026-08-22T09:31:25Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese J-16 fighters arrive in Egypt ahead of Eagles of Civilisation 2026 joint drill",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364913/chinese-j-16-fighters-arrive-egypt-ahead-eagles-civilisation-2026-joint-drill",
+              "publishedAt": "2026-08-22T12:00:05Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Belgrads Einfluss auf Montenegros Serben und innenpolitische Spannungen",
+          "summaryDe": [
+            "Belgrad versucht weiterhin, über kirchliche Führungsernennungen und politische Netzwerke vollen Einfluss auf die serbische Gemeinschaft in Montenegro zu behalten – so die Einschätzung von Analysten gegenüber der Zeitung Pobjeda.",
+            "Das Thema ist nicht neu, erhält aber durch aktuelle Justizdebatten neue Brisanz: Ein Verfassungsrechtler diskutiert, ob der Generalstaatsanwalt Mitglied oder Vorsitzender des Verfassungsrats sein sollte – eine Frage mit Konsequenzen für die Unabhängigkeit der Justiz.",
+            "Ergänzt wird das Bild durch eine verstärkte Polizeioperation in Ulcinj, bei der über 300 Personen kontrolliert und neun festgenommen wurden.",
+            "Zusammengenommen zeigen diese parallelen Entwicklungen, wie fragil Montenegros innenpolitische Lage zwischen externem Einfluss, Justizreform und lokaler Sicherheitslage bleibt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als EU-Beitrittskandidat ist Montenegros politische Stabilität für den europäischen Integrationsprozess von indirekter Relevanz für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Entwicklungen sind innenpolitisch relevant, bleiben aber auf Montenegro und die westliche Balkanregion begrenzt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Dvadeset devet nezgodnih pitanja",
+              "url": "https://www.vijesti.me/kolumne/823322/dvadeset-devet-nezgodnih-pitanja",
+              "publishedAt": "2026-08-24T08:00:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Vukčević za Pobjedu: Prihvatljivije da VDT bude član Tužilačkog savjeta, a ne predsjednik",
+              "url": "https://www.pobjeda.me/clanak/vukcevic-prihvatljivije-da-vdt-bude-clan-tuzilackog-savjeta-a-ne-predsjednik",
+              "publishedAt": "2026-08-24T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU genehmigt 6,1 Milliarden Euro für Ukraines Verteidigung – Montenegro als NATO-Mitglied im Blick",
+          "summaryDe": [
+            "Die Europäische Kommission hat am ukrainischen Unabhängigkeitstag Rüstungsbeschaffungen im Wert von 6,1 Milliarden Euro für Kiew freigegeben, darunter Flugabwehr- und Raketensysteme.",
+            "Für Montenegro als NATO-Mitglied und EU-Beitrittskandidat ist die anhaltende russische Eskalation in der Ukraine keine abstrakte Entwicklung, sondern ein direkter Faktor für die eigene Sicherheitspolitik.",
+            "Die montenegrinische Öffentlichkeit verfolgt die Lage in der Ukraine aufmerksam, da das Land selbst unter erheblichem serbisch-russischem Einfluss steht und die NATO-Mitgliedschaft innenpolitisch umstritten bleibt.",
+            "Der EU-Beschluss unterstreicht die wachsende finanzielle Last der europäischen Ukraineunterstützung, an der sich Montenegro als Beitrittsanwärter perspektivisch beteiligen müsste."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die EU-Verteidigungsfinanzierung für die Ukraine betrifft Deutschland als größten Beitragszahler direkt, jedoch ist der Montenegro-spezifische Bezug indirekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Sechs-Milliarden-Rüstungspaket der EU für die Ukraine ist eine bedeutsame sicherheitspolitische Entscheidung mit regionaler Ausstrahlungskraft auf den Westbalkan."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ursula fon der Lajen: Ukrajini odobreno 6,1 milijardi eura za...",
+              "url": "https://www.vijesti.me/svijet/evropa/823408/ursula-fon-der-lajen-ukrajini-odobreno-61-milijardi-eura-za-odbranu",
+              "publishedAt": "2026-08-24T07:11:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Schengen unter Druck – Binnengrenzen werden zum politischen Instrument",
+          "summaryDe": [
+            "Mehrere EU-Mitgliedstaaten setzen Grenzkontrollen zunehmend als innenpolitisches Druckmittel ein, anstatt sie als sicherheitspolitische Ausnahme zu behandeln – das untergräbt die Grundlage des Schengen-Abkommens schleichend.",
+            "Migrationspolitik bleibt der zentrale Treiber: Spanien kündigte an, unbegleitete minderjährige Migranten zu versorgen, während die EU-Kommission in auffälliger Übereinstimmung mit rechten Positionen deren Rückführung fordert.",
+            "Keine einzelne Maßnahme ist spektakulär genug, um breiten Widerstand auszulösen – die Erosion vollzieht sich unterhalb der öffentlichen Aufmerksamkeitsschwelle.",
+            "Für Deutschland als zentralen Transitstaat hat die Aufweichung von Schengen konkrete Konsequenzen für den Warenverkehr, die Arbeitnehmerfreizügigkeit und die Kosten von Grenzpendlern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als Kernland des Schengen-Raums direkt von zunehmenden Binnengrenzkontrollen und deren wirtschaftlichen Folgen betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Instrumentalisierung von Grenzen durch Mitgliedstaaten bedroht eines der zentralen Fundamente der europäischen Integration."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Domestic politics and impunity, not migration, is greatest threat to Schengen",
+              "url": "https://euobserver.com/233077/domestic-politics-and-impunity-not-migration-is-greatest-threat-to-schengen",
+              "publishedAt": "2026-08-21T13:01:12Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "KI verändert Europas Bankensektor – Rechtsfragen bei KI-Inhalten ungeklärt",
+          "summaryDe": [
+            "Generative KI wird im europäischen Bankwesen rasant eingesetzt und betrifft bereits 2,6 Millionen Beschäftigte, deren Tätigkeitsprofile sich grundlegend wandeln – wer von den Produktivitätsgewinnen profitiert, bleibt regulatorisch ungeregelt.",
+            "Parallel dazu bleibt die Rechtslage bei KI-generierten Inhalten im europäischen Urheberrecht offen: Weder Gerichte noch der Gesetzgeber beantworten eindeutig, ob Maschinen Schutzrechte beanspruchen können und wie viel menschlicher Input erforderlich ist.",
+            "Europa hat zwar einen regulatorischen Rahmen für KI aufgebaut, hinkt aber bei den konkreten wirtschaftlichen und rechtlichen Folgeproblemen deutlich hinter der technologischen Realität her.",
+            "Für den deutschen Finanzsektor und exportorientierte Unternehmen, die selbst stark auf KI setzen, sind diese Lücken ein wachsendes Risiko."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschlands großer Finanzsektor und exportorientierte Unternehmen sind direkt von KI-bedingten Arbeitsmarktveränderungen und urheberrechtlichen Unsicherheiten betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die gleichzeitige technologische Transformation und rechtliche Leerstelle bei KI im Finanzsektor ist eine größere strukturelle Herausforderung für ganz Europa."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Who profits from banking's AI moment?",
+              "url": "https://euobserver.com/232859/who-profits-from-bankings-ai-moment",
+              "publishedAt": "2026-08-20T09:27:47Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] Does copyright protect your AI-generated content in Europe? Let's find out",
+              "url": "https://euobserver.com/232898/interview-does-copyright-protect-your-ai-generated-content-in-europe-lets-find-out",
+              "publishedAt": "2026-08-20T10:39:04Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU genehmigt 6,1 Milliarden Euro für Ukraines Verteidigung – Russland rückt auf Slowjansk vor",
+          "summaryDe": [
+            "Die Europäische Kommission hat am ukrainischen Unabhängigkeitstag Rüstungsbeschaffungen im Wert von 6,1 Milliarden Euro für Kiew freigegeben, darunter Flugabwehr- und Raketensysteme.",
+            "An der Front ist die Lage gleichzeitig schlechter geworden: Russische Einheiten haben den letzten Verteidigungsriegel vor Slowjansk durchbrochen, während erschöpfte ukrainische Verteidiger und nordkoreanische Waffenlieferungen die Kräfteverhältnisse verschieben.",
+            "Die Gleichzeitigkeit von europäischem Finanzierungsbeschluss und militärischer Verschlechterung zeigt das strukturelle Dilemma – Europas Unterstützung wächst, doch das Tempo der Eskalation hält Schritt.",
+            "Nordkoreanische Raketen erhöhen Russlands offensive Kapazitäten spürbar und könnten die Winterkampagne entscheidend beeinflussen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland trägt als größter europäischer Beitragszahler direkt zu den EU-Verteidigungsausgaben bei und ist als NATO-Mitglied unmittelbar von der Sicherheitslage in der Ukraine betroffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Sechs-Milliarden-Rüstungspaket kombiniert mit fortschreitenden russischen Geländegewinnen und nordkoreanischen Waffenlieferungen ist eine außergewöhnlich bedeutsame Entwicklung im europäischen Sicherheitsumfeld."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Russians infiltrate last stronghold before Sloviansk, as North Korea supplies devastating new missiles (Ukraine Battlefield update, Day 1,639)",
+              "url": "https://euobserver.com/233160/russians-infiltrate-last-stronghold-before-sloviansk-as-north-korea-supplies-devastating-new-missiles-ukraine-battlefield-update-day-1639",
+              "publishedAt": "2026-08-21T14:38:14Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ursula fon der Lajen: Ukrajini odobreno 6,1 milijardi eura za...",
+              "url": "https://www.vijesti.me/svijet/evropa/823408/ursula-fon-der-lajen-ukrajini-odobreno-61-milijardi-eura-za-odbranu",
+              "publishedAt": "2026-08-24T07:11:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
