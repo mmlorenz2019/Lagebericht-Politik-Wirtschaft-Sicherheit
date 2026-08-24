@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 3,
+  "periodType": "week",
+  "periodStart": "2026-08-17",
+  "periodEnd": "2026-08-23",
+  "generatedAt": "2026-08-24T10:13:26.223708Z",
+  "status": "complete",
+  "overallSummary": [
+    "Die Woche vom 17. bis 23. August 2026 war von einer außergewöhnlichen Häufung systemrelevanter Entwicklungen geprägt, die sich zu übergreifenden Trendlinien verdichten.",
+    "In den USA eskalierte die Auseinandersetzung zwischen Exekutive und Justiz auf mehreren Fronten gleichzeitig: Gerichte beschränkten Trumps Personalpolitik bei Staatsanwälten und kassierten den Visastopp für 75 Länder, während die US-Staatsverschuldung die 40-Billionen-Dollar-Marke überschritt und Anleiherenditen auf 20-Jahres-Hochs kletterten.",
+    "Außenpolitisch agierte Washington transaktionaler denn je: Die Iran-Diplomatie scheiterte, Militärübungen mit Südkorea wurden halbiert, und Trump kündigte ein Kim-Treffen an – mit gravierenden Folgen für die globale Bündnisarchitektur.",
+    "China demonstrierte in derselben Woche technologische Stärke durch wiederverwendbare Raketen und militärische Ambitionen durch PLA-Übungen für ein Taiwan-Szenario, während die Wirtschaft mit schwachen Konsumzahlen und deflationärem Druck kämpfte.",
+    "Pekings gleichzeitige Blockade einer EU-Untersuchung gegen JD.com und die BRICS-Verurteilung des EU-Kohlenstoffgrenzmechanismus zeigten, dass China die regulatorische Konfrontation mit dem Westen systematisch ausweitet.",
+    "Montenegro bewegte sich in kleinerem Maßstab durch denselben geopolitischen Sog: Serbische Einflussoperationen, die Staatsbürgerschaftsaffäre um Premier Spajić und ein EU-Infrastrukturpaket von 147 Millionen Euro für den Autobahnbau spiegeln ein Land, das EU-Integration anstrebt, aber innenpolitisch fragil bleibt.",
+    "Für die EU war die Woche von drei Großthemen bestimmt: Der Ukraine-Krieg eskalierte mit russischen Massenangriffen und Warnungen vor einer Winteroffensive, Deutschland kündigte ein 12-Milliarden-Rüstungsprogramm für Langstreckenwaffen an, und die Drohne nahe einer rumänischen Gasplattform zeigte, dass NATO-Territorium bereits direkt beschossen wird.",
+    "Hinzu kam der Druck auf die europäische Wirtschaftsposition: Steigende Gaspreise, die Nokia-Warnung für die Automobilindustrie, das IRIS²-Satellitenprojekt und die Enthüllung, dass Europas vermeintlich eigenständiges KI-Flaggschiff Mistral auf chinesische Modelle zurückgreift, verdichten sich zu einem strukturellen Bild technologischer Abhängigkeit.",
+    "Die Migrationsdebatte belastete die EU-Kohäsion zusätzlich, mit wachsenden Spannungen zwischen humanitären Schutzpflichten und politischem Druck auf restriktivere Außengrenzpolitik – verschärft durch Marokkos instrumentellen Einsatz von Migrationsströmen unter US-Rückendeckung.",
+    "Insgesamt zeigt die Woche ein globales System unter simultanem Druck: US-Bündnisverlässlichkeit erodiert, China rüstet technologisch und militärisch auf, Russland eskaliert in der Ukraine, und Europa reagiert mit mehr Verteidigungsausgaben und wachsender institutioneller Eigenständigkeit – ohne jedoch die strukturellen Abhängigkeiten bereits überwunden zu haben."
+  ],
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Justiz setzt Grenzen: Gerichte beschränken Trumps Exekutivmacht bei Personal und Migration",
+          "summaryDe": [
+            "Ein Berufungsgericht wies Trumps Strategie zurück, Bundesstaatsanwälte per Interimsernennung am Senatsverfahren vorbeizuschleusen; parallel klagte eine entlassene Staatsanwältin gegen vergeltungsartige Entlassung durch das Justizministerium.",
+            "Ein Bundesrichter erklärte den Visastopp für 75 Länder für nichtig, da Außenminister Rubio seine gesetzlichen Befugnisse überschritten habe – eine weitere juristische Niederlage für die Exekutive.",
+            "Gleichzeitig korrigierte das Heimatschutzministerium seine Wahlbetrugsbehauptung dramatisch: von angeblich 16.000 nicht wahlberechtigten Wählern in Nevada auf 185 mögliche Fälle – ein Rückgang von über 99 Prozent.",
+            "Das Weiße Haus hält zudem einen gesetzlich geforderten Bericht über ausländische Wahleinmischung 2024 zurück, obwohl ABC/Disney über seine Tochtergesellschaft wegen mutmaßlicher politisch motivierter FCC-Ermittlungen klagte.",
+            "Am Periodenende stehen mehrere juristisch gesicherte Grenzen gegenüber einer Exekutive, die institutionelle Unabhängigkeit in Justiz, Medien und Behörden systematisch unter Druck setzt."
+          ],
+          "contextDe": [
+            "Der Justizminister hatte bereits zu Wochenbeginn offen gelassen, ob er unabhängig von Präsident Trump agiere – eine Haltung, die den institutionellen Rahmen für alle nachfolgenden Konflikte setzte.",
+            "Die Häufung gerichtlicher Rückschläge innerhalb einer Woche ist ungewöhnlich und deutet darauf hin, dass Bundesgerichte eine koordiniertere Gegenmacht zur Exekutivausdehnung bilden als bisher.",
+            "Mittelfristig hängt die Tragweite dieser Urteile davon ab, wie der Oberste Gerichtshof über Berufungsverfahren entscheidet – die Instanz, bei der die Trump-Administration in der Vergangenheit häufig Erfolge erzielte."
+          ],
+          "additionalImportant": "Trump nominierte eine FDA-Kommissarin mit ideologisch aufgeladenem Profil; das Muster, loyale Kandidaten in Schlüsselbehörden zu platzieren, setzt sich trotz juristischer Niederlagen fort.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Erosion institutioneller Gewaltenteilung in den USA berührt transatlantisches Vertrauen in gemeinsame Rechtsstaatsnormen und US-Verlässlichkeit als Bündnispartner mittelbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die geballte Häufung juristischer Eingriffe in Exekutivmaßnahmen innerhalb einer Woche ist eine bedeutende verfassungsrechtliche Entwicklung in der größten Demokratie der Welt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Appeals Court Rejects Trump's Strategy of Picking U.S. Attorneys",
+              "url": "https://www.nytimes.com/2026/08/17/us/us-attorneys-interim-appointments.html",
+              "publishedAt": "2026-08-17T22:37:18Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Homeland Security Made a Big Claim About Noncitizen Voting. Now It Can't Prove It.",
+              "url": "https://www.nytimes.com/2026/0820/us/politics/trump-nevada-voter-election-fraud.html",
+              "publishedAt": "2026-08-21T02:13:46Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
+              "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries",
+              "publishedAt": "2026-08-22T16:50:24Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Staatsverschuldung übersteigt 40 Billionen Dollar – Anleiherenditen auf 20-Jahres-Hoch",
+          "summaryDe": [
+            "Die amerikanische Staatsverschuldung überschritt erstmals die 40-Billionen-Dollar-Grenze, während 30-jährige Staatsanleihen mit über 5,3 Prozent den höchsten Stand seit zwei Jahrzehnten erreichten und Big-Tech-Kreditaufnahmen für KI-Infrastruktur den Kapitalmarkt zusätzlich belasten.",
+            "JPMorgan-Analysten verglichen die Interventionsversuche von Finanzminister Bessent mit dem Bezahlen einer Hypothek per Kreditkarte – das Problem werde verschoben, nicht gelöst; jährliche Zinszahlungen übersteigen bereits eine Billion Dollar.",
+            "Im Handelsbereich eskalierte der Konflikt mit Kanada: Nach einem kurzfristigen dreitägigen Aufschub traten 50-Prozent-Zölle auf kanadische Waren in Kraft, Ottawa kündigte Gegenzölle ab September an.",
+            "Der KI-Sektor zeigte davon unbeeindrucktes Wachstum: Anthropic meldete annualisierte Umsätze von 65 Milliarden Dollar, Nvidia stellt 105 Milliarden Dollar für ein OpenAI-Rechenzentrum in Ohio bereit – private Kapitalkonzentration auf einem Niveau, das staatliche Finanzprobleme kontrastiert.",
+            "Am Ende der Berichtswoche stehen strukturell steigende Kreditkosten für den US-Staat, eine noch ungelöste Handelskrise mit dem engsten Nachbarn und ein privater KI-Sektor, der Kapital in historischem Maßstab anzieht."
+          ],
+          "contextDe": [
+            "Der gleichzeitige Anstieg von Staatsverschuldung und Anleiherenditen schafft einen Rückkopplungseffekt: Je teurer neue Schulden werden, desto schwerer wird Konsolidierung – ein Mechanismus, den Ökonomen seit Jahren als Risikoszenario beschreiben.",
+            "Das Kanada-Zollmuster – maximaler Druck bis kurz vor dem Stichtag, dann Aufschub, dann Eskalation – hat sich in dieser Woche vollständig entfaltet und erzeugt erhebliche Planungsunsicherheit für Unternehmen auf beiden Seiten der Grenze.",
+            "Für Europa und Deutschland ist die fiskalische Lage der USA kein abstraktes Problem: Steigende US-Renditen verteuern globale Finanzierung, treiben Kapital aus anderen Märkten ab und setzen Wechselkurse unter Druck."
+          ],
+          "additionalImportant": "Walmart-Aktien brachen um 9 Prozent ein, nachdem der Konzern seinen Ausblick verfehlt hatte; Analysten warnen zudem vor einem globalen Engpass bei der Nahrungsmittelversorgung durch steigende Getreidepreise.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Anleiherenditen verteuern globale Finanzierung und belasten deutsche Exporteure sowie den europäischen Kapitalmarkt direkt; der Kanada-Zollkonflikt signalisiert, wie weit Washington auch gegen enge Handelspartner zu gehen bereit ist."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "40 Billionen Dollar Staatsschulden kombiniert mit 20-Jahres-Hochs bei Anleiherenditen und eskalierende Handelsstreitigkeiten mit dem engsten Handelspartner sind zusammen ein systemisch relevantes Signal für die globale Finanzstabilität."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "National debt nears $40 trillion: How we got here and why it matters",
+              "url": "https://www.pbs.org/newshour/show/national-debt-nears-40-trillion-how-we-got-here-and-why-it-matters",
+              "publishedAt": "2026-08-17T22:40:49Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "30-year Treasury yield tops 5.31%, the highest in 19 years",
+              "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
+              "publishedAt": "2026-08-17T20:04:53Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "How Big Tech's A.I. Borrowing Binge Is Driving Up Bond Yields",
+              "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
+              "publishedAt": "2026-08-20T20:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Bündniserosion und Iran-Eskalation: Trump setzt US-Außenpolitik neu – mit globalen Folgen",
+          "summaryDe": [
+            "Die Trump-Administration reduzierte gemeinsame Militärübungen mit Südkorea auf die Hälfte, kündigte ein Treffen mit Kim Jong Un an und bestätigte damit eine fundamentale Neuausrichtung der US-Sicherheitspolitik in Ostasien, die Seoul zu eigenständiger Verteidigungsplanung drängt.",
+            "Parallel lief die 60-tägige Iran-Verhandlungsfrist ab; Trump drohte dem Vermittlerland Oman mit Bombardierung und erklärte anschließend wirtschaftlichen Kriegszustand gegen Teheran – obwohl er öffentlich behauptete, der Iran sei entnuklearisiert, was offizielle Berichte direkt widersprachen.",
+            "US-Vizepräsident Vance und Finanzminister Bessent formulierten, dass maximaler Wirtschaftsdruck statt Militär Washingtons Instrument sei; Bessent forderte China auf, sich dem Sanktionskurs anzuschließen – eine Forderung, die Peking in Bezug auf seine Energieabhängigkeit von Teheran in eine schwierige Lage bringt.",
+            "Rohölpreise stiegen auf über 91 Dollar pro Barrel; die Ukraine führte zeitgleich einen ihrer größten Drohnenangriffe gegen Russland durch, tötete mindestens sechs Menschen und signalisierte damit, dass der Krieg trotz diplomatischer Bewegungen an Intensität nicht nachlässt.",
+            "Am Periodenende dominiert das Bild einer zutiefst transaktionalen US-Außenpolitik: Bündnisverpflichtungen werden instrumentell bewertet, diplomatische Signale sind widersprüchlich, und die globale Ordnung muss mit erheblicher US-Unberechenbarkeit kalkulieren."
+          ],
+          "contextDe": [
+            "Der gleichzeitige Rückzug aus Bündnisroutinen in Ostasien und das Scheitern der Iran-Diplomatie sind kein Zufall, sondern spiegeln eine kohärente Priorisierungslogik wider: Washington versucht, Ressourcen zu schonen und durch Unberechenbarkeit Druck zu erzeugen.",
+            "Für die NATO-Allianz ist die Korea-Entwicklung direkt relevant: Wenn bewährte Sicherheitsgarantien für einen der engsten asiatischen Verbündeten öffentlich relativiert werden, müssen auch europäische Partner die Verlässlichkeit amerikanischer Zusagen neu bewerten.",
+            "Die widersprüchlichen Iran-Aussagen Trumps schaffen ein besonderes Problem für die E3-Diplomatie (Deutschland, Frankreich, Großbritannien), die auf belastbare US-Informationen angewiesen ist, um koordinierte Positionen zu entwickeln."
+          ],
+          "additionalImportant": "Kushner und Netanyahu verhandelten ohne Einigung über Gaza; somalische Piraten entführten zwei Schiffe binnen vier Tagen, was Analysten mit der Destabilisierung regionaler Ordnung durch den Iran-Konflikt verbinden.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Erosion von US-Bündnisgarantien, steigende Ölpreise durch Hormuz-Risiken und widersprüchliche Iran-Signale betreffen Deutschlands Sicherheitsplanung, Energieversorgung und E3-Diplomatie unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das gleichzeitige Scheitern der Iran-Diplomatie, die Halbierung der Südkorea-Übungen und das angekündigte Kim-Treffen sind außergewöhnliche außenpolitische Ereignisse mit globaler systemischer Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "As Iran Truce Expires and Options Shrivel, Trump Lashes Out",
+              "url": "https://www.nytimes.com/2026/08/17/us/politics/trump-iran-truce-oman.html",
+              "publishedAt": "2026-08-17T20:02:21Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Trump says he will meet with North Korea's Kim Jong Un",
+              "url": "https://www.politico.com/news/2026/08/19/trump-says-he-will-meet-with-north-koreas-kim-jong-un-01041655",
+              "publishedAt": "2026-08-19T16:23:42Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "'A delicate dance': JD Vance says economic pressure is the best way to achieve Washington's objectives in Iran",
+              "url": "https://www.cnbc.com/2026/08/21/us-iran-war-trump-hormuz-vance-economic-pressure.html",
+              "publishedAt": "2026-08-21T04:32:59Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Jiang-Zemin-Gedenkwoche als Instrument der Machtstabilisierung Xi Jinpings",
+          "summaryDe": [
+            "Zum hundertsten Geburtstag des 2022 verstorbenen Expräsidenten Jiang Zemin inszenierte Xi Jinping eine mehrtägige Reihe staatlicher Gedenkveranstaltungen, bei der die Partei Jiangs Erbe explizit als Aufruf zur Einheit hinter Xis Führung deutete.",
+            "Der Tod von Ex-Premier Zhu Rongji im Alter von 97 Jahren verband beide Gedenkanlässe: Xi leitete persönlich die Abschiedszeremonie vor der Einäscherung, begleitet von der gesamten Parteiführung.",
+            "Die gleichzeitige Erinnerung an zwei Reformarchitekten der 1990er dient erkennbar der Legitimation Xis – obwohl Jiangs liberalerer Regierungsstil mit Xis Führungsphilosophie kaum kompatibel ist.",
+            "Staatliche Medien forderten parallel, englische KI-Begriffe durch chinesische Äquivalente zu ersetzen – ein weiteres Element des Kampfs um kulturelle und diskursive Eigenständigkeit."
+          ],
+          "contextDe": [
+            "Die Nutzung historischer Führungsfiguren zur politischen Gegenwartsstabilisierung ist im chinesischen System eine bewährte Technik, die besonders dann zum Einsatz kommt, wenn wirtschaftlicher oder außenpolitischer Druck Legitimationsbedarf erzeugt.",
+            "Der Zeitpunkt ist signifikant: Inmitten schwacher Wirtschaftsdaten, eskalierenden Tech-Konflikts mit den USA und militärischer Spannungen rund um Taiwan braucht Xi demonstrative Kohäsion nach innen.",
+            "Ob die Gedenkwoche tatsächlich interne Fraktionskonflikte dämpft oder nur überdeckt, bleibt von außen kaum beurteilbar – sie ist jedoch ein messbares Signal des Herrschaftsstils."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Innenpolitische Machtsignale aus Peking sind für deutsche Chinapolitik und Wirtschaftsbeziehungen mittelfristig relevant, haben aber keine unmittelbaren Folgen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant als Indikator für Xis Herrschaftsstil und innenpolitische Legitimationsstrategie, aber ohne unmittelbare operative Konsequenzen für die internationale Ordnung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's Xi praises former president Jiang's contribution in show of party unity",
+              "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
+              "publishedAt": "2026-08-17T01:59:50Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese President Xi Jinping leads party elite in final farewell for ex-premier Zhu Rongji",
+              "url": "https://www.scmp.com/news/china/politics/article/3364422/chinese-president-xi-jinping-leads-party-elite-final-farewell-ex-premier-zhu-rongji",
+              "publishedAt": "2026-08-18T08:48:58Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Schwache Wirtschaftsdaten, technologischer Ehrgeiz und Yuan-Internationalisierung",
+          "summaryDe": [
+            "Im Juli wuchs Chinas Einzelhandel nur um 0,6 Prozent – halb so viel wie prognostiziert; auch Industrieproduktion und Investitionen blieben hinter den Erwartungen zurück, während deflationärer Druck und schwache Binnennachfrage anhalten.",
+            "Gleichzeitig demonstrierte China technologische Ambitionen: LandSpace erreichte als erste nicht-amerikanische Nation die Rückführung von Orbitalraketen über zwei technologisch unterschiedliche Verfahren – ein Meilenstein, der SpaceX in diesem spezifischen Bereich übertrifft.",
+            "In Afrika vertiefte China seine CIPS-Strategie weiter: Libyen unterzeichnete als jüngstes Land ein Teilnahmeabkommen am chinesischen Interbank-Zahlungssystem, das den Yuan als Alternative zum Dollar-SWIFT-System positioniert.",
+            "Chinesische Stammzellforscher publizierten in Nature Medicine eine Phase-2-Studie mit 90-Prozent-Erfolgsrate bei Herzinsuffizienz – ein Signal für Chinas wachsenden globalen Anspruch in der Biomedizin, wenn auch noch weit von der Marktzulassung entfernt.",
+            "Am Ende der Woche steht das Bild einer Volkswirtschaft, die konjunkturell schwächelt, aber in strategisch gewählten Technologiefeldern Fortschritte erzielt, die Westeuropa und die USA herausfordern."
+          ],
+          "contextDe": [
+            "Die Kombination aus schwacher Binnennachfrage, Deflationsdruck und US-Exportbeschränkungen im Technologiebereich setzt Peking unter erheblichen strukturellen Druck, ohne dass kurzfristige fiskalische Impulse die strukturellen Probleme lösen können.",
+            "Die Yuan-Internationalisierung über CIPS ist eine langfristige Strategie, die nur dann Wirkung entfaltet, wenn Vertrauen in chinesische Institutionen und Wechselkursstabilität gegeben sind – beides bleibt umstritten.",
+            "Chinas wiederverwendbare Raketen haben direkte militärische Relevanz für die PLA: Günstigere Satellitenbestückung könnte die Zielerfassungs- und Vernichtungskette in möglichen Konflikten erheblich verbessern."
+          ],
+          "additionalImportant": "US-Regulierungsbehörden verschärften im selben Zeitraum Verbote gegen chinesische Roboter und Solarwechselrichter; 30 US-Universitäten wurden angewiesen, Forschungskooperationen mit China zu überprüfen.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Chinas Konjunkturabkühlung trifft die exportabhängige deutsche Industrie direkt; die CIPS-Expansion und Raketenfortschritte sind mittelfristig für Handels- und Sicherheitsinteressen relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Schwache Wirtschaftsdaten der zweitgrößten Volkswirtschaft kombiniert mit technologischen Durchbrüchen bei Raketen und Biomedizin sind eine bedeutende Entwicklung mit globaler Signalwirkung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's economy cools amid debate about risks of global crisis",
+              "url": "https://www.scmp.com/plus/economy/china-economy/article/3364282/chinas-economy-cools-amid-debate-about-risks-global-crisis",
+              "publishedAt": "2026-08-17T09:00:33Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China becomes first nation to recover orbital launch rockets with two distinct paths",
+              "url": "https://www.scmp.com/news/china/science/article/3364492/chinas-landspace-beats-spacex-steel-booster-recovery-after-orbital-launch",
+              "publishedAt": "2026-08-19T00:28:33Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why the Chinese yuan could soon be Africa's most important currency",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364171/why-chinese-yuan-could-soon-be-africas-most-important-currency",
+              "publishedAt": "2026-08-16T06:00:20Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinas koordinierte Machtprojektion: Taiwan, Südostasien, Ägypten und EU-Regulierungsblockade",
+          "summaryDe": [
+            "Die PLA führte eine Übung zur kriegszeitlichen Finanzunterstützung durch, bei der Drohnen Bargeld, Goldbarren sowie Taiwan-Dollar und US-Dollar an Truppen lieferten – ein Szenario, das offenkundig eine Taiwan-Operation simuliert; der Bericht wurde nach kurzer Zeit von staatlichen Plattformen gelöscht.",
+            "Gleichzeitig dehnte Peking sein militärisches Engagement aus: Chinesische J-16-Kampfjets trafen für ein Manöver mit Ägypten ein, China und Indonesien hielten eine gemeinsame Marineübung nahe Taiwan ab, und ein chinesisches Forschungsschiff wurde zum dritten Mal seit Mai nahe Taiwans größtem Marinestützpunkt gesichtet.",
+            "In der Regulierungspolitik eskalierte die Konfrontation mit Europa: Peking wies chinesische Unternehmen an, eine EU-Untersuchung gegen JD.com nicht zu unterstützen, und bezeichnete das Verfahren als unzulässige extraterritoriale Jurisdiktion – ein Präzedenzfall, der künftige EU-Durchsetzungsmaßnahmen gegen chinesische Digitalkonzerne erheblich erschwert.",
+            "Taiwan antwortete auf den wachsenden Druck mit dem höchsten Verteidigungshaushalt seiner Geschichte: 35 Milliarden US-Dollar für 2027, ein Plus von 18,2 Prozent, erstmals auf Drohnenabwehr und asymmetrische Seekriegsführung ausgerichtet.",
+            "Am Periodenende zeigt sich Chinas Außenpolitik als koordinierte Kombination aus militärischer Demonstration, diplomatischer Einflussnahme in Südostasien, Einschränkung westlicher Regulierungsreach und paralleler Gesprächsbereitschaft – das Xi-Besuch in Washington bleibt angekündigt, Grunddetails der KI-Gespräche sind weiterhin offen."
+          ],
+          "contextDe": [
+            "Chinas Blockade der JD.com-Untersuchung folgt demselben Muster wie frühere Einschränkungen bei Audits ausländischer Wirtschaftsprüfer: Regulatorische Souveränität wird zum außenpolitischen Instrument, das westlichen Behörden systematisch die Durchsetzungsfähigkeit nimmt.",
+            "Die gleichzeitigen Militärmanöver in verschiedenen Regionen – Nahes Osten, Südostasien, Taiwan-Straße – sind kein Zufall, sondern Teil einer koordinierten Machtprojektion, die zeigen soll, dass Chinas Reichweite global ist.",
+            "Taiwans Rekordverteidigungshaushalt und die Übungsberichte der PLA befeuern sich gegenseitig: Je mehr Peking eskaliert, desto mehr Rückendeckung erhält Taipeh von Washington und desto höher schraubt es seine Rüstungsausgaben."
+          ],
+          "additionalImportant": "Wang Yi lehnte in Seoul südkoreanische Forderungen nach multilateralen Nordkorea-Gesprächen ab und warb stattdessen für strategische Autonomie gegenüber Washington – ein diplomatischer Schachzug, der Chinas Interesse an unkontrollierbarer US-Nordkoreapolitik offenbart.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Blockade der EU-Untersuchung gegen JD.com betrifft den europäischen Binnenmarkt direkt und damit deutsche Handelsinteressen als größte EU-Wirtschaft; Spannungen in der Taiwanstraße berühren globale Lieferketten."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Konkrete PLA-Übungen für ein Taiwan-Szenario, globale Militärmanöver auf mehreren Kontinenten und die offene Regulierungsblockade gegenüber der EU sind zusammen außergewöhnlich sicherheits- und handelspolitisch relevant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "PLA troops sent gold, New Taiwan and US dollars in 'wartime financial support' drill",
+              "url": "https://www.scmp.com/news/china/military/article/3364423/pla-troops-sent-gold-new-taiwan-and-us-dollars-wartime-financial-support-drill",
+              "publishedAt": "2026-08-18T10:00:30Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China blocks firms from aiding EU's JD.com probe as regulatory clash deepens",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364599/china-blocks-firms-aiding-eus-jdcom-probe-regulatory-clash-deepens",
+              "publishedAt": "2026-08-19T13:40:51Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan proposes record US$35b defence budget for 2027 as PLA's pressure grows",
+              "url": "https://www.scmp.com/news/china/military/article/3364713/taiwan-proposes-record-us35b-defence-budget-2027-plas-pressure-grows",
+              "publishedAt": "2026-08-20T13:00:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Serbischer Einfluss, Staatsbürgerschaftsaffäre und innenpolitische Instabilität prägen Montenegros Woche",
+          "summaryDe": [
+            "Montenegrinische Regierungsvertreter erhoben schwere Vorwürfe gegen Belgrad: Präsident Vučić nutze einen ehemaligen Politiker als Instrument eines hybriden Krieges gegen Podgorica – ein Vorwurf, der von ranghohen Kommentatoren als strukturelles Problem seit mehr als einem Jahrhundert beschrieben wird.",
+            "Parallel beherrschte die Staatsbürgerschaftsaffäre um Premier Spajić die Innenpolitik: Interne Dokumente sollen belegen, dass Spajić bei seinem Austritt aus der serbischen Staatsbürgerschaft unzutreffende Angaben zum Reservistenstatus machte; Oppositionspolitiker warfen der öffentlichen Debatte vor, die Unschuldsvermutung zu verletzen.",
+            "In Podgorica wurden elf türkische Staatsangehörige mit Computertechnik in einer Wohnung entdeckt und drei Personen festgenommen – Hintergründe blieben zunächst unklar; die Untersuchungen laufen.",
+            "Ein Oppositionspolitiker bezeichnete Montenegro als 'Land ohne Regierung und ohne Premierminister', während eine parteipolitische Stimme die Regierungskoalition als bis zu den Kommunalwahlen im Juni 2027 tragfähig einschätzte.",
+            "Am Ende der Berichtswoche steht ein politisches System, das gleichzeitig unter externem Druck aus Belgrad und internen Glaubwürdigkeitsproblemen steht, während der EU-Integrationskurs formal fortgesetzt wird."
+          ],
+          "contextDe": [
+            "Montenegros Balanceakt zwischen EU-Annäherung und serbischem Einfluss ist kein neues Problem, gewinnt aber an Schärfe, je mehr das Land konkrete Fortschritte in den Beitrittsverhandlungen erzielt – was offenbar den Widerstand Belgrads verstärkt.",
+            "Die Staatsbürgerschaftsaffäre um Spajić ist symptomatisch für ein breiteres Transparenzproblem: In einem EU-Kandidatenland, das unter besonderer rechtsstaatlicher Beobachtung steht, wiegen ungeklärte Widersprüche beim Regierungschef besonders schwer.",
+            "Medienkampagnen und Desinformationsvorwürfe als politische Kampfmittel sind auf dem Westbalkan kein Einzelphänomen, sondern ein dokumentiertes Muster, das EU-Beobachter seit Jahren beschäftigt."
+          ],
+          "additionalImportant": "Ein Mitglied des Kavač-Clans wurde auf Kreta mit gefälschten Dokumenten festgenommen – ein weiteres Zeichen für die anhaltende grenzüberschreitende Mobilität montenegrinischer organisierter Kriminalität.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Montenegro als EU-Beitrittskandidat ist für die deutsche Westbalkanpolitik relevant; konkrete Stabilitätsprobleme können den Beitrittsprozess verzögern, an dem Deutschland aktiv beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Vorgänge sind innenpolitisch und regional relevant für die Westbalkan-Stabilität, haben aber begrenzte überregionale Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Ninić za Pobjedu: Vučić koristi Marovića u hibridnom ratu protiv Podgorice",
+              "url": "https://www.pobjeda.me/clanak/ninic-za-pobjedu-vucic-koristi-marovica-u-hibridnom-ratu-protiv-podgorice",
+              "publishedAt": "2026-08-17T06:50:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "ANALIZA: Dokumenti o Spajiću otkrivaju drugačiju priču: Rezervni sastav bio uslov za otpust iz državljanstva Srbije",
+              "url": "https://www.pobjeda.me/clanak/analiza-dokumenti-o-spajicu-otkrivaju-drugaciju-pricu-rezervni-sastav-bio-uslov-za-otpust-iz-drzavljanstva-srbije",
+              "publishedAt": "2026-08-20T18:36:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Förderzusage von 147 Millionen Euro für strategischen Autobahnabschnitt bestätigt",
+          "summaryDe": [
+            "Die EU hat einen nicht rückzahlbaren Zuschuss von 147,4 Millionen Euro für den Bau des Straßenabschnitts Mateševo–Andrijevica bestätigt – Teil der strategisch wichtigen Bar-Boljare-Autobahn, die Montenegro mit Serbien verbinden soll.",
+            "Für ein Land mit rund 620.000 Einwohnern ist die Summe außerordentlich bedeutsam und unterstreicht Brüssels materielle Bereitschaft, Montenegros EU-Annäherung zu unterstützen.",
+            "Kraftstoffpreise stiegen im Berichtszeitraum merklich an – Benzin um sieben Cent, Diesel um sechs Cent pro Liter –, was besonders ländliche Bevölkerungsgruppen mit hoher Pkw-Abhängigkeit belastet."
+          ],
+          "contextDe": [
+            "Die Förderzusage kommt in einem Moment, in dem Montenegros innenpolitische Stabilität durch die Spajić-Affäre belastet ist, was zeigt, dass die europäische Integration auf Projektebene trotz politischer Turbulenzen Fahrt aufnimmt.",
+            "Infrastrukturprojekte dieser Größenordnung schaffen konkrete wirtschaftliche Bindungen an die EU und erschweren einen Rückzug aus dem Annäherungsprozess – eine strategisch bewusste Logik der EU-Erweiterungspolitik.",
+            "Mögliche Auswirkungen auf Montenegros EU-Zeitplan durch Islands mögliche Rückkehr in Beitrittsverhandlungen bleiben spekulativ, könnten aber skeptische Mitgliedstaaten von der Machbarkeit weiterer Aufnahmen überzeugen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "EU-Infrastrukturförderung für Montenegro betrifft Deutschland als Beitragszahler nur marginal und ohne direkte Auswirkung."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Bedeutsam für Montenegros EU-Annäherung und materielle Investitionsgrundlage, aber von begrenzter regionaler Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Precizirano da Crna Gora bespovratno dobije 147,4 miliona eura za izgradnju dionice od Mateševa do Andrijevica",
+              "url": "https://www.pobjeda.me/clanak/precizirano-da-crna-gora-bespovratno-dobije-1474-miliona-eura-za-izgradnju-dionice-od-mateseva-do-andrijevica",
+              "publishedAt": "2026-08-21T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Massengrab in Kosovo, Moldaus Drohnenvorwürfe und regionales Sicherheitsumfeld Montenegros",
+          "summaryDe": [
+            "Kosovarische Behörden entdeckten nahe Zubin Potok sterbliche Überreste von mindestens 23 Personen, die mutmaßlich aus dem Konflikt der späten 1990er stammen – ein Beleg dafür, dass die Aufarbeitung der Westbalkan-Kriege trotz jahrzehntelanger Bemühungen nicht abgeschlossen ist.",
+            "Moldaus Staatspräsidentin Sandu beschuldigte Russland, absichtlich Drohnen in moldauischen Luftraum zu senden, und bezeichnete stärkere Ukraine-Unterstützung als wirksamsten Weg, diese Übergriffe zu stoppen – ein direktes Signal in der unmittelbaren Nachbarschaft Montenegros.",
+            "Mehrere gleichzeitig aktive Waldbrände im Inland, darunter mit Luftfahrzeugeinsatz im Raum Kolašin, belasteten in der zweiten Wochenhälfte zusätzlich die Einsatzkapazitäten des Landes."
+          ],
+          "contextDe": [
+            "Der Massengrabfund bei Zubin Potok verdeutlicht, dass ungelöste Vergangenheitsfragen auf dem Westbalkan politischen Zündstoff bergen, der die Normalisierung zwischen ehemaligen Konfliktparteien immer wieder belastet.",
+            "Russischer Druck auf NATO-Anrainer und EU-Kandidaten wie Moldau ist für Montenegro als NATO-Mitglied kein abstraktes Thema, sondern spiegelt das Sicherheitsumfeld wider, in dem Podgorica seine Beitrittspolitik verfolgt.",
+            "Montenegros Fähigkeit, gleichzeitig innenpolitische Krisen, Naturkatastrophen und regionale Sicherheitsbedrohungen zu managen, ist eine implizite Anforderung der EU-Beitrittskapitel zu Good Governance und Katastrophenschutz."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als KFOR-Truppensteller im Kosovo und Ukraine-Unterstützer indirekt an der Stabilität des gesamten regionalen Umfelds interessiert."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Regionalpolitisch relevante Entwicklungen, die zusammen das prekäre Sicherheitsumfeld Montenegros illustrieren, aber ohne überregionale systemische Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kosovo: U Zubinom Potoku pronađeni posmrtni ostaci najmanje 23 osobe",
+              "url": "https://www.vijesti.me/vijesti/balkan/822810/kosovo-u-zubinom-potoku-pronadjeni-posmrtni-ostaci-najmanje-23-osobe",
+              "publishedAt": "2026-08-19T19:29:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Maja Sandu optužila Rusiju za namjerno slanje dronova u moldavski vazdusni prostor",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/822507/maja-sandu-optuzila-rusiju-za-namjerno-slanje-dronova-u-moldavski-vazdusni-prostor",
+              "publishedAt": "2026-08-17T19:29:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ungarn im demokratischen Umbau, EU-Migrationsdebatte spaltet Mitgliedstaaten",
+          "summaryDe": [
+            "Ungarns neuer Premier Péter Magyar und seine Tisza-Partei setzten bis Mitte August erste Verfassungsänderungen durch, darunter den Austausch des Staatspräsidenten – 94 Tage nach Regierungsantritt und in einem Tempo, das die Nutzung parlamentarischer Mehrheitsfenster vor einer möglichen Orbán-Konsolidierung zeigt.",
+            "Gleichzeitig vertiefte sich der EU-interne Migrationsstreit: Die Kommission schloss sich Forderungen nach beschleunigten Rückführungen unbegleiteter Minderjähriger an, die bislang vor allem Rechtspopulisten erhoben hatten, während Spanien sich zur Fürsorge für die Kinder bekannte.",
+            "Amnesty International kritisierte Italiens Albanien-Abkommen scharf, und Berichte belegten, dass EU-Mittel für Marokkos Grenzschutz polizeiliche Gewalt und Wüstenabschiebungen mitfinanziert haben – ein strukturelles Dilemma zwischen Sicherheitszielen und rechtsstaatlichen Grundsätzen.",
+            "Dänemarks Premierministerin sorgte mit einer pauschalen Aussage über Menschen mit islamischem Hintergrund für europäische Kritik; Frankreichs Versuch, Social-Media-Nutzung für Unter-15-Jährige gesetzlich zu verbieten, scheiterte vor Gericht.",
+            "Am Ende der Woche zeigt die EU ein Bild divergierender Mitgliedstaaten in Migrations-, Werte- und Kinderrechtsfragen, während Brüssel zwischen politischem Pragmatismus und Werteversprechen laviert."
+          ],
+          "contextDe": [
+            "Ein demokratisch reformiertes Ungarn könnte die seit Jahren schwelenden Rechtsstaatskonflikte mit Brüssel rasch auflösen und wäre ein erheblicher Gewinn für die EU-Entscheidungsfähigkeit – weshalb der Umbau europaweit aufmerksam verfolgt wird.",
+            "Die EU-Migrationspolitik befindet sich in einem strukturellen Dilemma: Politischer Druck auf Auslagerung und Drittstaatskooperation wächst, aber die rechtsstaatlichen Risiken solcher Arrangements werden durch Berichte über Gewalt an EU-Außengrenzen zunehmend konkret und öffentlich.",
+            "Marokkos Fähigkeit, Migrationsströme als politisches Druckmittel einzusetzen – verstärkt durch die Rückendeckung der Trump-Administration –, schränkt Europas Handlungsspielraum gegenüber einem wichtigen Grenzschutzpartner strukturell ein."
+          ],
+          "additionalImportant": "Fünf EU-Länder verhandeln mit Uganda über ein Rückführzentrum für abgelehnte Asylbewerber; ein Treffen zur Finalisierung ist für September geplant.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als bevölkerungsreichster Mitgliedstaat, größter Nettozahler und wichtigstes Aufnahmeland von EU-Migrations- und Wertedebatten direkt betroffen; ein rechtsstaatliches Ungarn wäre auch im deutschen Interesse."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ungarns demokratischer Umbau und die systemische Spaltung der EU in Migrationsfragen sind zwei gleichzeitige bedeutende innenpolitische Entwicklungen mit gesamteuropäischer Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "As new president András Baka arrives, is Orbán preparing to leave Hungary? (Day 94 of the Tisza government)",
+              "url": "https://euobserver.com/232339/as-new-president-andras-baka-arrives-is-orban-preparing-to-leave-hungary-day-93-of-the-tisza-government",
+              "publishedAt": "2026-08-14T07:49:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Amnesty demands EU stops 'outsourcing asylum' and accuses Meloni of authoritarian tricks to push Albania deal",
+              "url": "https://euobserver.com/232860/amnesty-demands-eu-stops-outsourcing-asylum-and-accuses-meloni-of-authoritarian-tricks-to-push-albania-deal",
+              "publishedAt": "2026-08-20T05:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europas strukturelle Abhängigkeiten: Gaspreise, Automobilindustrie, KI-Souveränität und CBAM-Angriff",
+          "summaryDe": [
+            "Europäische Gasspeicher stehen auf niedrigem Stand; britische Analysten prognostizierten für den Winter 2026 Großhandelspreise von rund 60 Euro pro Megawattstunde – deutlich über dem Basiswert, wobei Deutschland als gasintensivster Mitgliedstaat besonders exponiert ist.",
+            "Ein Branchenexperte warnte, Europas Automobilhersteller stünden vor einem Nokia-Moment durch chinesische E-Auto-Konkurrenz: Staatlich subventionierte Niedrigpreise aus China setzen Volkswagen, BMW und Mercedes unter existenziellen Kostendruck, den EU-Strafzölle allein nicht kompensieren.",
+            "Das vermeintliche Flaggschiff europäischer KI-Souveränität, Mistral AI, greift nach Recherchen auf Modelle des chinesischen Anbieters Z.ai zurück – ein konkretes Beispiel dafür, wie dünn die Grundlage des digitalen Souveränitätsanspruchs Europas ist.",
+            "Die BRICS-Staaten verurteilten gemeinsam den EU-Kohlenstoffgrenzmechanismus als protektionistisch und eröffneten damit eine neue handelspolitische Front, bevor Brüssel das Instrument vollständig implementiert hat.",
+            "IRIS² machte mit dem unterzeichneten Umsetzungsvertrag und der Erweiterung auf 348 Satelliten einen konkreten Schritt – ein Gegengewicht zur strukturellen Abhängigkeit, das aber erst in Jahren operativ werden kann."
+          ],
+          "contextDe": [
+            "Die Häufung struktureller Schwachstellen – Gas, Autos, KI, Klimahandel – in einer einzigen Woche ist kein Zufall, sondern verdichtet eine längerfristige Entwicklung: Europa hat in den vergangenen Jahren in mehreren strategisch zentralen Sektoren an Wettbewerbsfähigkeit verloren.",
+            "Der BRICS-Angriff auf den Kohlenstoffgrenzmechanismus trifft die EU in einem ungünstigen Moment: Das Instrument ist politisch noch nicht vollständig verankert, und koordinierter Gegendruck großer Schwellenländer könnte Mitgliedstaaten unter Rücknahmedruck setzen.",
+            "Für Deutschland als größte Exportvolkswirtschaft der EU verdichten sich die Handlungsfelder: Energiepreise belasten die Industrie, chinesische E-Autos bedrohen die Kernindustrie, und KI-Abhängigkeiten untergraben den digitalen Standortvorteil."
+          ],
+          "additionalImportant": "Generative KI verändert bereits die Arbeitsabläufe von 2,6 Millionen Beschäftigten im europäischen Bankensektor – oft schneller als Regulierung und Mitbestimmungsstrukturen folgen können.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Steigende Gaspreise, der drohende Einbruch der deutschen Automobilindustrie und KI-Abhängigkeiten betreffen Deutschlands Kernwirtschaft direkt und umfassend."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die gleichzeitige Exposition Europas in Energie, Automobilindustrie, KI und Klimahandel ist eine bedeutende strukturelle Entwicklung mit weitreichenden wirtschaftspolitischen Folgen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU risks winter gas-price spiral, as stocks run low",
+              "url": "https://euobserver.com/232345/eu-risks-winter-gas-price-spiral-as-stocks-run-low",
+              "publishedAt": "2026-08-13T15:01:23Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] EU's carmakers face their own Nokia challenge to survive Chinese threat, says industry expert",
+              "url": "https://euobserver.com/230968/eus-carmakers-face-their-own-nokia-challenge-to-survive-chinese-threat-says-industry-expert",
+              "publishedAt": "2026-08-15T09:43:39Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "The Mistral paradox: Europe's push for tech sovereignty relies on China's Z.ai",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364745/mistral-paradox-europes-push-tech-sovereignty-relies-chinas-zai",
+              "publishedAt": "2026-08-21T10:30:06Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "BRICS countries condemn EU carbon tax as 'punitive and protectionist'",
+              "url": "https://euobserver.com/232793/brics-countries-condemn-eu-carbon-tax-as-punitive-and-protectionist",
+              "publishedAt": "2026-08-19T11:26:49Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission accelerates IRIS² deployment with enhanced security and expanded satellites network",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726",
+              "publishedAt": "2026-08-06T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Deutschland rüstet mit Langstreckenwaffen auf – Ukraine eskaliert, Russland auch",
+          "summaryDe": [
+            "Deutschland kündigte ein 12-Milliarden-Euro-Rüstungsprogramm für Marschflugkörper, Tomahawk-Raketen und Hyperschallwaffen an – eines der ambitioniertesten Rüstungsvorhaben seit Jahrzehnten und ein qualitativer Kurswechsel, der die explizite Abschreckung Russlands als Ziel benennt.",
+            "Parallel eskalierte der Ukraine-Krieg auf beiden Seiten: Russland griff mit Raketen und 168 Drohnen an, tötete mindestens 17 Zivilisten und traf Energieinfrastruktur; die Ukraine setzte slowakische MiG-29 zur Zerstörung russischer Versorgungsbrücken ein und führte den größten Drohnenangriff des Krieges durch.",
+            "Rumäniens Militär schoss eine Drohne nahe einer Offshore-Gasplattform ab; Präsident Iohannis machte Moskau verantwortlich – ein Signal, dass NATO-Territorium bereits direkt beschossen wird und nicht nur die Ukraine.",
+            "Estland erhielt als erstes Land die Tranche von 351,6 Millionen Euro aus dem neuen EU-Verteidigungsinstrument SAFE; griechische Reederschaftsschiffe transportierten nachweislich russisches Arktis-LNG im Wert von 2,35 Milliarden Euro nach Europa und zeigten damit, wie löchrig das westliche Sanktionsregime bleibt.",
+            "Der ukrainische Geheimdienstchef warnte zum Wochenschluss vor einer koordinierten russisch-nordkoreanischen Winteroffensive im Donbas kombiniert mit Raketenterror gegen Städte – eine Prognose, die Europas Sicherheitsplaner unter weiteren Druck setzt."
+          ],
+          "contextDe": [
+            "Deutschlands Entscheidung, Geheimdiensten offensive Befugnisse zu erteilen und ein 12-Milliarden-Rüstungsprogramm aufzulegen, markiert innerhalb einer Woche zwei Brüche mit Nachkriegstraditionen – ein Signal für den Wandel der deutschen Sicherheitskultur unter dem Druck des Ukraine-Krieges.",
+            "Der US-Rückzug aus der Ukraine-Finanzierung auf null verschärft Europas strukturelle Verantwortung: Die EU muss zunehmend eigenständig für Rüstung, Munition und Unterstützung sorgen, ohne die fiskalischen und industriellen Kapazitäten der USA zu haben.",
+            "Russlands Drohnenkrieg gegen NATO-Infrastruktur – die Gasplattform in Rumänien ist das bislang deutlichste Beispiel – verändert die strategische Kalkulation: Artikel-5-Szenarien werden nicht mehr nur theoretisch diskutiert, sondern durch reale Vorfälle vorbereitet."
+          ],
+          "additionalImportant": "Die Niederlande forderten nach US-Sanktionen gegen den ICC-Präsidenten die Unabhängigkeit internationaler Tribunale ein; die EU prüft den Einsatz einer Blockadeverordnung zum Schutz des IStGH vor US-Sanktionen.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Das 12-Milliarden-Rüstungsprogramm, neue Geheimdienstbefugnisse, Russlands Drohnenangriffe auf NATO-Gebiet und die Sanktionsumgehung bei russischem Gas betreffen Deutschland als Bündnispartner, Ukraine-Unterstützer und Energieimporteur unmittelbar und umfassend."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Deutschlands sicherheitspolitischer Kurswechsel, Drohnenangriffe auf NATO-Territorium, russisch-nordkoreanische Winteroffensivplanung und dokumentierte Sanktionsumgehung sind zusammen außergewöhnlich systemrelevant für die europäische Sicherheitsarchitektur."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Germany plans a €12B missile program to deter Putin",
+              "url": "https://www.politico.eu/article/germany-missile-program-deter-russia-vladimirputin",
+              "publishedAt": "2026-08-21T11:44:06Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "German spies to get offensive powers, breaking post-Cold War taboo on 'secret police'",
+              "url": "https://euobserver.com/232465/german-spies-to-get-offensive-powers-breaking-post-cold-war-taboo-on-secret-police",
+              "publishedAt": "2026-08-14T10:54:09Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Romanian jet blasts drone near offshore gas production platform",
+              "url": "https://www.politico.eu/article/romania-jet-blasts-drone-near-offshore-gas-production-platform",
+              "publishedAt": "2026-08-20T18:02:33Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Ukrainian spy chief predicts Putin's plans: missile terrorism and Donbas meat-grinding (Ukraine Battlefield update, Day 1,638)",
+              "url": "https://euobserver.com/233005/ukrainian-spy-chief-predicts-putins-plans-missile-terrorism-and-donbas-meat-grinding-ukraine-battlefield-update-day-1638",
+              "publishedAt": "2026-08-20T14:06:11Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Greek billionaire's ships carried €2.35bn of Russian Arctic gas to Europe this year",
+              "url": "https://euobserver.com/232571/greek-billionaires-ships-carried-e2-35bn-of-russian-arctic-gas-to-europe-this-year",
+              "publishedAt": "2026-08-18T03:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceReportDates": [
+    "2026-08-17",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-22",
+    "2026-08-23"
+  ],
+  "missingReportDates": []
+}
