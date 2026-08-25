@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-25",
+  "generatedAt": "2026-08-25T08:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Supreme Court Allows Trump's Mail-in Ballot Restrictions to Take Effect Provisionally",
+          "summaryDe": [
+            "The Supreme Court has partially suspended an injunction from lower courts, allowing mail-in ballot restrictions from the Trump administration to take provisional effect in 23 states and Washington D.C.",
+            "Only the directive to the U.S. Postal Service remains blocked nationwide, which significantly complicates practical implementation.",
+            "The decision comes at a sensitive time: critics warn that the measures are designed to effectively exclude certain voter groups from mail-in voting rights.",
+            "The extent to which the regulations will have lasting effect will be determined in further proceedings before federal courts."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The domestic U.S. voting rights question has no direct impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A Supreme Court intervention in ongoing electoral rights disputes affecting dozens of states is a significant development in democratic governance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Listen: Has noise become a political issue in Europe?",
+              "url": "https://euobserver.com/233221/listen-has-noise-become-a-political-issue-in-europe",
+              "publishedAt": "2026-08-24T08:36:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Canada Trade Talks Collapse: Trump Threatens 50 Percent Tariffs",
+          "summaryDe": [
+            "Trade negotiations between the United States and Canada have broken down without results. Trump subsequently announced plans to impose 50 percent tariffs on Canadian goods—including automobiles—beginning in January 2027.",
+            "Ottawa responded promptly with announced retaliatory tariffs, significantly accelerating the escalation spiral between the two closest economic partners in North America.",
+            "For the German automotive industry, which manufactures substantially in both Canada and the United States, such tariff shifts have immediate consequences.",
+            "The dispute also brings to the fore the question of how stable North American supply chains will remain, a cornerstone of European suppliers' operations."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German automakers and suppliers with North American operations would be directly affected by massive tariff shifts in US-Canadian trade."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A trade war between the United States and Canada would be systemic and have global repercussions for supply chains, prices, and the multilateral trading system."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission proposes fishing opportunities for 2027 in the Baltic Sea",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1751",
+              "publishedAt": "2026-08-24T08:11:13Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "U.S. Imposes New Sanctions on Iran and Warns Trading Partners Worldwide",
+          "summaryDe": [
+            "The Trump administration has launched a new pressure campaign against Iran under the name 'Operation Economic Outcast,' threatening secondary sanctions against third countries that maintain economic relations with Tehran.",
+            "China is particularly in focus: several Chinese and Hong Kong companies have been directly sanctioned, as they are the primary purchasers of Iranian oil exports.",
+            "Tehran has responded with a threat to completely block oil exports from the Persian Gulf—a scenario that could severely destabilize global energy markets.",
+            "For Germany and Europe, a Strait of Hormuz crisis and rising energy prices would be immediately felt, particularly as supply security remains strained following the Russian gas shutdown."
+          ],
+          "additionalImportant": "Iran has explicitly stated that 'not a single drop of oil' will leave the Gulf—whether this constitutes negotiating rhetoric or genuine escalation intent remains unclear for now.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Energy price shocks from a potential Hormuz crisis would directly impact Germany as a highly import-dependent economy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Secondary sanctions with global reach and an Iranian blockade threat at the Hormuz represent an extraordinary geopolitical escalation scenario."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Video message by President von der Leyen at the ONS Conference",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1754",
+              "publishedAt": "2026-08-24T10:00:44Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "supraregional",
+              "titleOriginal": "Burnham ups the ante in fight against Russia — and leaves Merz in the shade",
+              "url": "https://www.politico.eu/article/british-prime-minister-andy-burnham-ukraine-ups-ante-against-russia",
+              "publishedAt": "2026-08-24T17:00:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Beijing Plans Cross-Border Anti-Corruption Law",
+          "summaryDe": [
+            "China's National People's Congress is deliberating a draft anti-corruption law that, for the first time, explicitly aims to have effect beyond Chinese territory.",
+            "Xi Jinping's anti-corruption campaign has been the Communist Party leadership's most significant domestic policy tool for years—through it, tens of thousands of cadres have been prosecuted and political rivals eliminated.",
+            "The extraterritorial extension of the legal framework would represent a qualitative step: Chinese companies and citizens abroad would be directly subject to domestic criminal law.",
+            "For Western states, including Germany with its strong economic ties to China, new questions of legal conflict and protection of sovereign jurisdiction arise."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German companies and employees with China business could indirectly be affected by extraterritorial Chinese criminal statutes."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A Chinese anti-corruption law with extraterritorial effect would represent a significant step in Beijing's global legal enforcement."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's anti-corruption legal framework is about to extend beyond its borders",
+              "url": "https://www.scmp.com/news/china/politics/article/3365160/chinas-anti-corruption-legal-framework-about-extend-beyond-its-borders",
+              "publishedAt": "2026-08-25T05:53:17Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's anti-corruption fight: data deep dive",
+              "url": "https://www.scmp.com/news/china/politics/series/3365167/chinas-anti-corruption-fight-data-deep-dive",
+              "publishedAt": "2026-08-25T06:49:19Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's Largest Coal-to-Liquids Facility Increases Raw Material Value Sevenfold",
+          "summaryDe": [
+            "In Ningxia province, China's largest coal-to-liquids facility processes 24 million tons of coal annually into rocket propellant, lubricants, and other high-value products.",
+            "The facility aims to increase the economic value of coal by 700 percent—an approach reflecting Beijing's strategy not merely to burn fossil fuels but to utilize them as industrial feedstock.",
+            "As Western decarbonization ambitions advance, this project demonstrates that Beijing is pursuing a parallel technological trajectory that anchors coal in industrial production long-term.",
+            "For global climate objectives, this is ambivalent: higher value-added production does not necessarily reduce coal extraction but can make it economically more attractive."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirect relevance for German energy policy and international competition for industrial raw materials."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Technologically interesting development with energy and climate policy significance, but limited to a single national facility."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China boosts coal's economic value 700% after turning it to liquids: report",
+              "url": "https://www.scmp.com/news/china/science/article/3365027/china-boosts-coals-economic-value-700-after-turning-it-liquids-report",
+              "publishedAt": "2026-08-24T10:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinese Government Ships Around Taiwan Hit Record Levels—Third Consecutive Month",
+          "summaryDe": [
+            "In just the first 24 days of August, 118 sightings of Chinese government vessels in waters near Taiwan were recorded—the third consecutive record month.",
+            "Simultaneously, Taiwan has publicly disclosed specifications for its new Strong Bow air defense missile and requested 1.13 billion U.S. dollars from parliament for mass production.",
+            "The interplay between growing Chinese maritime pressure and Taipei's accelerated rearmament program indicates that both sides view the tension as structural.",
+            "For European semiconductor and technology supply chains, further escalation in the Taiwan Strait would represent an immediate risk scenario."
+          ],
+          "additionalImportant": "U.S. sanctions against Chinese entities over Iran dealings further strain the already tense relationship between Washington and Beijing.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A Taiwan crisis would massively disrupt global supply chains—particularly in the semiconductor and electronics industries, on which Germany depends."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Sustained record presence of Chinese ships combined with Taiwan's rearmament offensive represents a systemic security development of international weight."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Mainland China's ship activity near Taiwan hits record for third month in a row",
+              "url": "https://www.scmp.com/news/china/military/article/3365081/mainland-chinas-ship-activity-near-taiwan-hits-record-third-month-row",
+              "publishedAt": "2026-08-24T15:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan unveils Strong Bow anti-ballistic missile specs in push for US$1.13 billion funding",
+              "url": "https://www.scmp.com/news/china/military/article/3365082/taiwan-unveils-strong-bow-anti-ballistic-missile-specs-push-us113-billion-funding",
+              "publishedAt": "2026-08-24T11:57:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Wildfires Rage Nationwide—Firefighters Battle on Multiple Fronts",
+          "summaryDe": [
+            "Wildfires have broken out simultaneously in at least six regions of Montenegro—including Herceg Novi, Danilovgrad, Kolašin, Cetinje, and Nikšić—stretching firefighters on the ground and in the air.",
+            "The concentration of active fire fronts points to extreme drought and heat, conditions that have become the new normal in the Adriatic region in recent summers.",
+            "Although small in area, Montenegro ranks among the Balkan states most at risk from wildfires—with direct consequences for tourism and the local population.",
+            "International air support has been requested, underscoring the strain on national capacity."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The wildfires in Montenegro have no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "A domestic fire event with regional significance that points to growing climate challenges in the Western Balkans."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Predaja? Ne dolazi u obzir",
+              "url": "https://www.vijesti.me/svijet/evropa/823571/predaja-ne-dolazi-u-obzir",
+              "publishedAt": "2026-08-25T06:20:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Svijet u plamenu: Ekstremni požari u novoj klimatskoj realnosti",
+              "url": "https://www.pobjeda.me/clanak/svijet-u-plamenu-ekstremni-pozari-u-novoj-klimatskoj-realnosti",
+              "publishedAt": "2026-08-25T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Spain Protects Unaccompanied Minors—EU Commission Demands Returns",
+          "summaryDe": [
+            "Madrid has taken a clear position: unaccompanied minor migrants should be cared for in Spain, regardless of origin or status.",
+            "This puts the government in direct conflict with the EU Commission, which has sided with those voices calling for such children to be returned—a position that NGOs characterize as convergence with far-right demands.",
+            "That an EU institution and a major member state are so openly at odds reveals how deeply migration policy continues to divide the Union.",
+            "For Germany, which itself is debating how to handle unaccompanied minors, the pattern is familiar—European consensus on this issue remains elusive."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The tension between the EU Commission and member states over migration policy mirrors a debate being conducted in Germany as well."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The open conflict between Brussels and Madrid over a core question of EU migration policy is politically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Spain to care for lone migrant children, as EU Commission joins far-right calls to send them back",
+              "url": "https://euobserver.com/233047/spain-to-care-for-migrant-children-as-eu-commission-joins-far-right-calls-to-send-them-back",
+              "publishedAt": "2026-08-20T16:56:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Irish Aluminum Refinery Circumvents EU Sanctions on Russia via Paper Tricks",
+          "summaryDe": [
+            "An Irish-based aluminum refinery with Russian connections is exploiting formal documentation procedures to circumvent EU sanctions on Russian imports—a case that exposes structural weaknesses in sanctions enforcement within the single market.",
+            "The refinery sits in the heart of the EU single market and operates as a gateway for Russian raw materials without directly violating applicable rules—at least formally.",
+            "The example shows that the real challenge with sanctions is not formulation but seamless monitoring across 27 member states.",
+            "For Germany as the EU's largest single market, the credibility of the sanctions regime is also a matter of economic competitive fairness."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Circumvention of EU sanctions on Russian goods affects political credibility and economic fairness also toward German companies."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematic sanctions circumvention within the EU represents a significant vulnerability in the common Russia policy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Irish alumina refinery is Russian Trojan Horse in EU sanctions",
+              "url": "https://euobserver.com/232888/irish-alumina-refinery-is-russian-trojan-horse-in-eu-sanctions",
+              "publishedAt": "2026-08-20T14:17:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU Approves €6.1 Billion for Ukrainian Weapons Procurement",
+          "summaryDe": [
+            "The European Commission has released €6.1 billion for the procurement of defense equipment for Ukraine, including air defense systems, missiles, and ammunition—the step came symbolically on Ukrainian Independence Day.",
+            "In parallel, the United Kingdom has announced it will provide Ukraine with classified technical information on SCALP missile components to enable independent production of long-range weapons.",
+            "Both decisions together demonstrate that Western support now aims not only at weapons delivery but increasingly at building Ukrainian defense manufacturing capacity.",
+            "Germany now faces mounting pressure to update its own support framework and adapt it to changed circumstances."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The EU decision and British technology transfer raise expectations for Germany as a central EU member state in Ukraine policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Six billion euros for weapons procurement and missile system technology transfer represents a substantial escalation of Western military aid."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Speech by Commissioner Kos at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756",
+              "publishedAt": "2026-08-25T06:47:24Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-25",
+  "generatedAt": "2026-08-25T08:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Oberster Gerichtshof lässt Trumps Briefwahlbeschränkungen vorerst zu",
+          "summaryDe": [
+            "Der Supreme Court hat eine einstweilige Verfügung mehrerer unterer Instanzen teilweise ausgesetzt und erlaubt damit, dass die Briefwahlbeschränkungen der Trump-Administration in 23 Bundesstaaten sowie Washington D.C. zunächst in Kraft treten können.",
+            "Lediglich die Anweisung an den US-Postdienst bleibt landesweit blockiert, was die praktische Umsetzung erheblich erschwert.",
+            "Der Entscheid fällt zu einem sensiblen Zeitpunkt: Kritiker warnen, die Maßnahmen zielten darauf ab, bestimmte Wählergruppen vom Briefwahlrecht faktisch auszuschließen.",
+            "Wie weit die Regelungen dauerhaft Bestand haben, wird sich in den weiteren Verfahren vor den Bundesgerichten entscheiden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die inneramerikanische Wahlrechtsfrage hat keine direkte Auswirkung auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Eingriff des Supreme Court in laufende Wahlrechtsstreitigkeiten mit Wirkung für Dutzende Bundesstaaten ist eine erhebliche demokratiepolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Listen: Has noise become a political issue in Europe?",
+              "url": "https://euobserver.com/233221/listen-has-noise-become-a-political-issue-in-europe",
+              "publishedAt": "2026-08-24T08:36:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Kanada-Handelsgespräche gescheitert: Trump droht mit 50-Prozent-Zöllen",
+          "summaryDe": [
+            "Die Handelsverhandlungen zwischen den USA und Kanada sind ohne Ergebnis abgebrochen worden. Trump kündigte daraufhin an, ab Januar 2027 Zölle von 50 Prozent auf kanadische Waren – einschließlich Automobile – erheben zu wollen.",
+            "Ottawa reagierte prompt mit angekündigten Gegenzöllen, womit sich die Eskalationsspirale zwischen den beiden engsten Wirtschaftspartnern Nordamerikas deutlich beschleunigt.",
+            "Für die deutsche Automobilindustrie, die erheblich in Kanada und den USA produziert, sind solche Tarifverschiebungen unmittelbar spürbar.",
+            "Der Streit rückt zudem die Frage in den Vordergrund, wie stabil die nordamerikanischen Lieferketten bleiben, auf die europäische Zulieferer stark angewiesen sind."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Autobauer und Zulieferer mit Nordamerika-Präsenz wären von massiven Zollverschiebungen im US-kanadischen Handel konkret betroffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Handelskrieg zwischen den USA und Kanada wäre systemisch und hätte globale Auswirkungen auf Lieferketten, Preise und das multilaterale Handelssystem."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission proposes fishing opportunities for 2027 in the Baltic Sea",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1751",
+              "publishedAt": "2026-08-24T08:11:13Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA verhängen neue Sanktionen gegen Iran und warnen Handelspartner weltweit",
+          "summaryDe": [
+            "Die Trump-Administration hat unter dem Namen 'Operation Economic Outcast' einen neuen Druckfeldzug gegen den Iran gestartet und dabei Sekundärsanktionen gegen Drittstaaten angedroht, die wirtschaftliche Beziehungen zu Teheran unterhalten.",
+            "China steht besonders im Fokus: Mehrere chinesische und Hongkonger Unternehmen wurden unmittelbar sanktioniert, da sie als wichtigste Abnehmer iranischer Ölexporte gelten.",
+            "Teheran reagierte mit einer Drohung, Ölexporte aus dem Persischen Golf vollständig zu blockieren – ein Szenario, das die globalen Energiemärkte in hohem Maße destabilisieren könnte.",
+            "Für Deutschland und Europa wären eine Straße-von-Hormus-Krise und steigende Energiepreise unmittelbar zu spüren, zumal die Versorgungssicherheit nach dem russischen Gasausfall ohnehin angespannt bleibt."
+          ],
+          "additionalImportant": "Iran hat explizit erklärt, 'keinen einzigen Tropfen Öl' werde den Golf verlassen – ob dies als Verhandlungsrhetorik oder reale Eskalationsabsicht zu werten ist, bleibt vorerst unklar.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Energiepreisschocks durch eine mögliche Hormuz-Krise würden Deutschland als stark importabhängige Volkswirtschaft direkt treffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Sekundärsanktionen mit globaler Reichweite und eine iranische Blockadedrohung am Hormuz sind ein außergewöhnliches geopolitisches Eskalationsszenario."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Video message by President von der Leyen at the ONS Conference",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1754",
+              "publishedAt": "2026-08-24T10:00:44Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Burnham ups the ante in fight against Russia — and leaves Merz in the shade",
+              "url": "https://www.politico.eu/article/british-prime-minister-andy-burnham-ukraine-ups-ante-against-russia",
+              "publishedAt": "2026-08-24T17:00:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Peking plant grenzüberschreitendes Antikorruptionsgesetz",
+          "summaryDe": [
+            "Chinas Nationaler Volkskongress berät einen Entwurf für ein Antikorruptionsgesetz, das erstmals ausdrücklich über chinesisches Staatsgebiet hinaus wirken soll.",
+            "Xi Jinpings Antikorruptionskampagne ist seit Jahren das innenpolitisch bedeutendste Instrument der KP-Führung – mit ihr wurden zehntausende Kader verfolgt und politische Rivalen ausgeschaltet.",
+            "Die extraterritoriale Ausdehnung des Rechtsrahmens wäre ein qualitativer Schritt: Chinesische Unternehmen und Staatsbürger im Ausland würden damit direkt unter heimisches Strafrecht fallen.",
+            "Für westliche Staaten, darunter Deutschland mit seinen starken Wirtschaftsbeziehungen zu China, stellen sich damit neue Fragen der Rechtskollision und des Schutzes eigener Jurisdiktion."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Unternehmen und Mitarbeiter mit China-Geschäft könnten indirekt von extraterritorialen chinesischen Strafnormen betroffen sein."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein chinesisches Antikorruptionsgesetz mit extraterritorialer Wirkung wäre ein bedeutsamer Schritt in der globalen Rechtsdurchsetzung Pekings."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's anti-corruption legal framework is about to extend beyond its borders",
+              "url": "https://www.scmp.com/news/china/politics/article/3365160/chinas-anti-corruption-legal-framework-about-extend-beyond-its-borders",
+              "publishedAt": "2026-08-25T05:53:17Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's anti-corruption fight: data deep dive",
+              "url": "https://www.scmp.com/news/china/politics/series/3365167/chinas-anti-corruption-fight-data-deep-dive",
+              "publishedAt": "2026-08-25T06:49:19Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas weltgrößte Kohle-zu-Flüssigkeiten-Anlage steigert Rohstoffwert um das Siebenfache",
+          "summaryDe": [
+            "In der Provinz Ningxia verarbeitet Chinas größtes Coal-to-Liquids-Werk jährlich 24 Millionen Tonnen Kohle zu Raketentreibstoff, Schmierstoffen und anderen Hochwertstoffen.",
+            "Die Anlage soll den wirtschaftlichen Wert der Kohle um 700 Prozent steigern – ein Ansatz, der Chinas Strategie widerspiegelt, fossile Rohstoffe nicht nur zu verbrennen, sondern sie als Industrierohstoff zu nutzen.",
+            "Angesichts westlicher Dekarbonisierungsambitionen zeigt dieses Projekt, dass Peking auf eine parallele Technologiebahn setzt, die Kohle langfristig in der Industrieproduktion verankert.",
+            "Für globale Klimaziele ist das ambivalent: höhere Wertschöpfung verringert nicht zwingend den Kohleabbau, sondern kann ihn wirtschaftlich attraktiver machen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekte Relevanz für deutsche Energiepolitik und den internationalen Wettbewerb um Industrierohstoffe."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Technologisch interessante Entwicklung mit energie- und klimapolitischer Bedeutung, aber begrenzt auf eine nationale Anlage."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China boosts coal's economic value 700% after turning it to liquids: report",
+              "url": "https://www.scmp.com/news/china/science/article/3365027/china-boosts-coals-economic-value-700-after-turning-it-liquids-report",
+              "publishedAt": "2026-08-24T10:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinesische Regierungsschiffe rund um Taiwan auf Rekordniveau – dritten Monat in Folge",
+          "summaryDe": [
+            "Allein in den ersten 24 Tagen des August wurden 118 Sichtungen chinesischer Regierungsschiffe in Gewässern nahe Taiwan registriert – das ist der dritte Rekordmonat in Serie.",
+            "Gleichzeitig hat Taiwan die Spezifikationen seiner neuen Strong-Bow-Abwehrrakete öffentlich gemacht und beantragt beim Parlament 1,13 Milliarden US-Dollar für die Massenproduktion.",
+            "Das Zusammenspiel aus wachsendem chinesischem Maritim-Druck und dem beschleunigten Aufrüstungsprogramm Taipehs lässt erkennen, dass beide Seiten die Spannung für strukturell halten.",
+            "Für europäische Halbleiter- und Technologielieferketten wäre eine weitere Eskalation in der Taiwanstraße ein unmittelbares Risikoszenario."
+          ],
+          "additionalImportant": "US-Sanktionen gegen chinesische Entitäten wegen Iran-Geschäften verschärfen das ohnehin angespannte Verhältnis zwischen Washington und Peking zusätzlich.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Taiwankrise würde globale Lieferketten – insbesondere in der Halbleiter- und Elektronikindustrie, von der auch Deutschland abhängt – massiv stören."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Anhaltende Rekordpräsenz chinesischer Schiffe kombiniert mit Taiwans Rüstungsoffensive ist eine systemische Sicherheitsentwicklung von internationalem Gewicht."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Mainland China's ship activity near Taiwan hits record for third month in a row",
+              "url": "https://www.scmp.com/news/china/military/article/3365081/mainland-chinas-ship-activity-near-taiwan-hits-record-third-month-row",
+              "publishedAt": "2026-08-24T15:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan unveils Strong Bow anti-ballistic missile specs in push for US$1.13 billion funding",
+              "url": "https://www.scmp.com/news/china/military/article/3365082/taiwan-unveils-strong-bow-anti-ballistic-missile-specs-push-us113-billion-funding",
+              "publishedAt": "2026-08-24T11:57:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Waldbrände wüten landesweit – Feuerwehren kämpfen an mehreren Fronten",
+          "summaryDe": [
+            "In mindestens sechs Regionen Montenegros – darunter Herceg Novi, Danilovgrad, Kolašin, Cetinje und Nikšić – sind gleichzeitig Waldbrände ausgebrochen, die Feuerwehren auf dem Boden und aus der Luft binden.",
+            "Die Häufung aktiver Brandherde weist auf extreme Trockenheit und Hitze hin, wie sie in der Adria-Region in den letzten Sommern zur neuen Normalität geworden ist.",
+            "Obwohl Montenegro flächenmäßig klein ist, gehört das Land zu den am stärksten waldbrandgefährdeten Balkanstaaten – mit direkten Folgen für Tourismus und lokale Bevölkerung.",
+            "Internationale Luftunterstützung wurde beantragt, was die Überforderung nationaler Kapazitäten unterstreicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Waldbrände in Montenegro haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Ein nationales Brandereignis mit regionaler Bedeutung, das auf die wachsende Klimaherausforderung im Westbalkan verweist."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Predaja? Ne dolazi u obzir",
+              "url": "https://www.vijesti.me/svijet/evropa/823571/predaja-ne-dolazi-u-obzir",
+              "publishedAt": "2026-08-25T06:20:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Svijet u plamenu: Ekstremni požari u novoj klimatskoj realnosti",
+              "url": "https://www.pobjeda.me/clanak/svijet-u-plamenu-ekstremni-pozari-u-novoj-klimatskoj-realnosti",
+              "publishedAt": "2026-08-25T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Spanien schützt unbegleitete Minderjährige – EU-Kommission fordert Rückführungen",
+          "summaryDe": [
+            "Madrid hat sich klar positioniert: Unbegleitete minderjährige Migranten sollen in Spanien versorgt werden, unabhängig von Herkunft und Status.",
+            "Damit steht die Regierung in direktem Widerspruch zur EU-Kommission, die sich auf die Seite jener Stimmen gestellt hat, die die Rückführung solcher Kinder fordern – eine Position, die NGOs als Annäherung an rechtspopulistische Forderungen werten.",
+            "Dass eine EU-Institution und ein großer Mitgliedstaat so offen auseinanderfallen, zeigt, wie tief die Migrationspolitik die Union nach wie vor spaltet.",
+            "Für Deutschland, das selbst über den Umgang mit unbegleiteten Minderjährigen diskutiert, ist das Muster bekannt – europäische Einigkeit sieht hier weiterhin anders aus."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Spannung zwischen EU-Kommission und Mitgliedstaaten in der Migrationspolitik spiegelt eine Debatte, die auch in Deutschland geführt wird."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der offene Konflikt zwischen Brüssel und Madrid in einer Kernfrage der EU-Migrationspolitik ist politisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Spain to care for lone migrant children, as EU Commission joins far-right calls to send them back",
+              "url": "https://euobserver.com/233047/spain-to-care-for-migrant-children-as-eu-commission-joins-far-right-calls-to-send-them-back",
+              "publishedAt": "2026-08-20T16:56:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Irische Aluminiumraffinerie umgeht EU-Sanktionen gegen Russland über Papiertricks",
+          "summaryDe": [
+            "Eine in Irland ansässige Aluminiumraffinerie mit russischen Verbindungen nutzt formale Dokumentationsverfahren, um die EU-Sanktionen auf russische Importe zu umgehen – ein Fall, der die strukturellen Schwächen der Sanktionsdurchsetzung innerhalb des Binnenmarkts bloßlegt.",
+            "Die Raffinerie sitzt damit mitten im EU-Binnenmarkt und agiert als Einfallstor für russische Rohstoffe, ohne unmittelbar gegen geltende Regeln zu verstoßen – zumindest formal.",
+            "Das Beispiel zeigt, dass die eigentliche Herausforderung bei Sanktionen nicht die Formulierung ist, sondern die lückenlose Kontrolle über 27 Mitgliedstaaten hinweg.",
+            "Für Deutschland als größter Einzelmarkt der EU ist die Glaubwürdigkeit des Sanktionsregimes auch eine Frage wirtschaftlicher Wettbewerbsgleichheit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Umgehung von EU-Sanktionen auf russische Güter berührt die politische Glaubwürdigkeit und wirtschaftliche Fairness auch gegenüber deutschen Unternehmen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematische Sanktionsumgehung innerhalb der EU ist eine erhebliche Schwachstelle in der gemeinsamen Russlandpolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Irish alumina refinery is Russian Trojan Horse in EU sanctions",
+              "url": "https://euobserver.com/232888/irish-alumina-refinery-is-russian-trojan-horse-in-eu-sanctions",
+              "publishedAt": "2026-08-20T14:17:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU bewilligt 6,1 Milliarden Euro für ukrainische Rüstungsbeschaffung",
+          "summaryDe": [
+            "Die Europäische Kommission hat 6,1 Milliarden Euro für die Beschaffung von Rüstungsgütern zugunsten der Ukraine freigegeben, darunter Luftabwehrsysteme, Raketen und Munition – der Schritt erfolgte symbolisch am ukrainischen Unabhängigkeitstag.",
+            "Parallel dazu hat Großbritannien angekündigt, der Ukraine geheime technische Informationen zu SCALP-Raketenbauteilen zu übermitteln, um die eigenständige Produktion weitreichender Waffen zu ermöglichen.",
+            "Beide Entscheidungen zusammen zeigen, dass westliche Unterstützung nicht mehr nur auf Waffenlieferungen abzielt, sondern zunehmend auf den Aufbau ukrainischer Rüstungskapazitäten.",
+            "Deutschland steht damit unter wachsendem Druck, sein eigenes Unterstützungsformat zu aktualisieren und an die veränderten Rahmenbedingungen anzupassen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die EU-Entscheidung und die britische Technologieweitergabe erhöhen den Erwartungsdruck auf Deutschland als zentralen EU-Mitgliedstaat in der Ukrainepolitik."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Sechs Milliarden Euro für Rüstungsbeschaffung und Technologietransfer für Raketensysteme sind eine substanzielle Eskalation der westlichen Militärhilfe."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Speech by Commissioner Kos at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756",
+              "publishedAt": "2026-08-25T06:47:24Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
