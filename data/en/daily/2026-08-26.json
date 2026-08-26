@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-26",
+  "generatedAt": "2026-08-26T09:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Darline Graham wins GOP primary in South Carolina",
+          "summaryDe": [
+            "Trump-backed Darline Graham has won the Republican primary for a full Senate seat in South Carolina—despite giving vague answers during the campaign debate on U.S. policy towards Taiwan and the South China Sea.",
+            "The victory underscores that Trump's personal endorsement of Republican candidates remains decisive, regardless of their foreign policy competence.",
+            "Against the backdrop of growing tensions in the Indo-Pacific, this raises questions about the substantive gaps of a future senator on central security issues.",
+            "For Europe and Germany, it is primarily a signal of how strongly party loyalty is gaining weight over policy substance in Washington."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirectly relevant, as the foreign policy competence of future U.S. senators can influence transatlantic relations and alliance commitments."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Intra-party primary with limited immediate significance, but symptomatic of the state of Republican foreign policy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Trump pick Darline Graham wins election despite struggling over Taiwan question",
+              "url": "https://www.scmp.com/news/us/politics/article/3365262/trump-pick-darline-graham-wins-election-despite-struggling-over-taiwan-question",
+              "publishedAt": "2026-08-26T01:25:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Canada imposes retaliatory tariffs on U.S. goods worth $20 billion",
+          "summaryDe": [
+            "After Trump introduced 50 percent tariffs on Canadian goods and trade negotiations failed, Ottawa has now implemented retaliatory tariffs on American goods worth $20 billion USD.",
+            "The move marks a clear escalation in the trade dispute between the two closest neighbors—a relationship that was long considered a model of economic integration.",
+            "For Germany's export-oriented industry, which is heavily embedded in North American supply chains, this could result in follow-on costs and restructuring pressure.",
+            "At the same time, the step shows that even traditional U.S. allies are now ready to respond to Trump's tariff policy with concrete countermeasures."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Disruptions in North American supply chains directly affect German companies with production and sales in the region."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A concrete trade conflict between the USA and Canada has significant impacts on the world economy and the multilateral trading system."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "MUP daje pola miliona eura za informaciju o Ljubu Miloviću",
+              "url": "https://www.pobjeda.me/clanak/mup-daje-pola-miliona-eura-za-informaciju-o-ljubu-milovicu",
+              "publishedAt": "2026-08-24T16:30:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump halts joint military exercises with South Korea—alliance structure under pressure",
+          "summaryDe": [
+            "On the White House's orders, the Pentagon is to suspend joint military exercises with South Korea—officially for cost reasons and to avoid sending the wrong signals to North Korea.",
+            "Trump is once again intervening in the core mechanism of the U.S.-South Korean defense alliance, which has served as a deterrent signal toward Pyongyang for decades.",
+            "Security experts warn that the suspension of joint exercises will significantly impair the operational readiness of the allied forces.",
+            "The move fits a pattern in which Trump increasingly treats traditional alliance commitments as negotiating chips—with consequences that extend far beyond the Korean Peninsula."
+          ],
+          "additionalImportant": "In parallel, Congress is debating Trump's planned nuclear accord with Saudi Arabia, which experts classify as a proliferation risk.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A weakening of the U.S. alliance architecture in Asia increases pressure on Europe to strengthen its own security guarantees."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Interventions in the alliance structure with South Korea have strategic ramifications for the entire security architecture in the Indo-Pacific."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent news service",
+              "titleOriginal": "Odlazak Doli Parton rastužio svijet: Brojne zvijezde se opraštaju...",
+              "url": "https://www.vijesti.me/zabava/muzika/823733/odlazak-doli-parton-rastuzio-svijet-brojne-zvijezde-se-oprastaju-od-kantautorke",
+              "publishedAt": "2026-08-26T07:11:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping's anti-corruption campaign expands its target group",
+          "summaryDe": [
+            "China's anti-corruption campaign under Xi Jinping is now increasingly targeting retired cadres and officials outside the capital Beijing—a significant expansion of its previous focus.",
+            "In parallel, the People's Liberation Army is publicly calling for reports of procurement violations in the Rocket Force, suggesting ongoing internal investigations.",
+            "The combination of both developments suggests that Xi wants to maintain institutional loyalty within the military and party apparatus much more firmly—even beyond retirement.",
+            "Historically, leaving office in China provided some protection from prosecution; this model apparently no longer applies."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "China's domestic anti-corruption efforts have no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The expansion of the campaign to new target groups is a relevant signal about Xi's consolidation of party and military control."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "No immunity: how Xi's anti-corruption fighters are zeroing in on fresh targets",
+              "url": "https://www.scmp.com/news/china/politics/article/3365175/no-immunity-how-xis-anti-corruption-fighters-are-zeroing-fresh-targets",
+              "publishedAt": "2026-08-25T22:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China seeks public tips on procurement violations as PLA Rocket Force probe continues",
+              "url": "https://www.scmp.com/news/china/military/article/3365247/china-seeks-public-tips-procurement-violations-pla-rocket-force-probe-continues",
+              "publishedAt": "2026-08-25T17:07:45Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump admits U.S. defeat in race for critical minerals—China dominates",
+          "summaryDe": [
+            "In conversation with Brazilian government officials, U.S. President Trump has acknowledged that the USA has lost the race against China for critical minerals—a remarkably candid assessment from the White House.",
+            "China not only controls large portions of global extraction capacity, but especially the processing and refining infrastructure essential for batteries, semiconductors, and military technology.",
+            "Washington is now apparently trying to win Brazil as an alternative supplier—but building competitive processing capacity takes years.",
+            "For Germany and Europe, which themselves depend massively on these raw materials, the assessment is a warning sign: Western dependence on Chinese supply chains is greater than long admitted."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany's industry, particularly automotive and electronics, is directly dependent on critical minerals in which China dominates."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Washington's public acknowledgment of strategic defeat in a key sector is geopolitically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US admits defeat in China minerals race. Can Brazil turn panic into processing power?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365239/us-admits-defeat-china-minerals-race-can-brazil-turn-panic-processing-power",
+              "publishedAt": "2026-08-25T13:48:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan receives first F-16 Block 70 fighter jets—balance of power with China in focus",
+          "summaryDe": [
+            "Taiwan has received the first delivery of American F-16 Block 70 combat aircraft, positioned as a direct response to China's most advanced stealth fighters, the J-20.",
+            "The aircraft feature improved avionics, active AESA radars, and longer range, but are not stealth fighters themselves—whether they can truly close the gap with the J-20 remains disputed among experts.",
+            "From Beijing's perspective, the delivery constitutes interference in the Taiwan question; past U.S. arms sales to Taipei have regularly triggered diplomatic friction.",
+            "In parallel, China conducted joint combat exercises with Egypt's air force, in which J-16 jets engaged against Rafale aircraft—a sign of Beijing's growing interest in international military cooperation."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "An escalation of Taiwan Strait tensions would indirectly affect Germany through trade dependencies and alliance commitments."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The first delivery of modern U.S. combat jets to Taiwan is a concrete military step with implications for the regional balance of power."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Can Taiwan's new F-16s level the playing field against the PLA's J-20 stealth fighters?",
+              "url": "https://www.scmp.com/news/china/military/article/3365234/can-taiwans-new-f-16s-level-playing-field-against-plas-j-20-stealth-fighters",
+              "publishedAt": "2026-08-25T12:41:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's J-16s face off against Egypt's Rafales in combat drills as Iran war rumbles on",
+              "url": "https://www.scmp.com/news/china/military/article/3365163/chinas-j-16s-face-against-egypts-rafales-combat-drills-iran-war-rumbles",
+              "publishedAt": "2026-08-25T10:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU member states cut firefighting personnel in worst wildfire year on record",
+          "summaryDe": [
+            "In the very year that turns out to be Europe's worst wildfire year on record, EU member states have collectively eliminated approximately 18,000 professional firefighters—including over 4,000 in France alone.",
+            "The background is pressure from EU deficit rules, which force governments to cut even critical civil protection budgets, even though climate change has structurally increased fire risk.",
+            "The coincidence of record wildfires and personnel cuts in firefighting raises fundamental questions about the priorities of European budget policy.",
+            "For Germany, the issue is relevant insofar as similar savings debates are being conducted domestically, and climate risks operate across borders."
+          ],
+          "additionalImportant": "The EU has for the first time rejected a citizens' initiative for 'remigration' because it violates fundamental values—observers see in this a possible revitalization of the transnational democracy tool.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is increasingly affected by wildfires, and EU deficit rules also influence Germany's fiscal space for disaster protection."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The systematic reduction of disaster protection capacity in the midst of a climate crisis is a structurally significant development for all of Europe."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "As Europe burns, member states are actually slashing the number of fire-fighters – thanks to EU deficit rules",
+              "url": "https://euobserver.com/233242/as-europe-burns-member-states-are-actually-slashing-the-number-of-fire-fighters-thanks-to-eu-deficit-rules",
+              "publishedAt": "2026-08-24T14:28:35Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europe's research laboratories chronically underfunded—technology sovereignty at risk",
+          "summaryDe": [
+            "The president of the French Academy of Sciences, Françoise Combes, warns in an interview with EUobserver that Europe's research institutions are structurally underfunded and therefore falling behind the U.S. in AI competition and behind SpaceX in space exploration.",
+            "The problem is not new, but has acquired new urgency through accelerated development of large AI models and commercial space travel.",
+            "Without substantial increases in public and private research spending, Europe risks sliding into permanent technological dependency, according to Combes.",
+            "Germany, as Europe's largest research hub, is directly affected by this development—both in terms of funding and international competitiveness."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is the largest research location in the EU; structural underfunding of European laboratories directly affects German science and industry."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Europe's technological sovereignty is a strategic question whose resolution will shape decades to come."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "[Interview] Europe's labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
+              "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
+              "publishedAt": "2026-08-22T09:08:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU approves €6.1 billion for Ukraine armaments—pressure on frozen Russian reserves grows",
+          "summaryDe": [
+            "The European Commission has approved a €6.1 billion package for the procurement of military equipment for Ukraine, including air defense systems, missiles, and radar installations.",
+            "At the same time, voices are mounting calling for the permanent confiscation of frozen Russian currency reserves valued at €210 billion and their use for Ukraine's reconstruction—while EU unity holds after Orbán's departure.",
+            "On the battlefield, Russian units in the Donetsk salient face the risk of encirclement following a Ukrainian advance on Independence Day near Lyman, while Russian forces simultaneously push toward Sloviansk.",
+            "The combination of new armaments package, open discussion about asset confiscation, and front-line movements shows that the war has entered a new, intensified phase."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany is one of the largest contributors to Ukraine support; decisions on armaments packages and frozen reserves directly affect Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A €6 billion armaments package combined with discussions about confiscating Russian reserves and active front-line movements is of extraordinary strategic significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Seize Russia's frozen €210bn for Ukraine now – while EU unity lasts",
+              "url": "https://euobserver.com/233219/seize-russias-frozen-e210bn-for-ukraine-now-while-eu-unity-lasts",
+              "publishedAt": "2026-08-24T10:45:24Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Russian forces in Donetsk salient risk being cut off, after daring Ukrainian manoeuvre on independence day (Ukraine Battlefield update, Day 1,643)",
+              "url": "https://euobserver.com/233599/russian-forces-in-donetsk-salient-risk-being-cut-off-after-daring-ukrainian-manoeuvre-on-independence-day-ukraine-battlefield-update-day-1643",
+              "publishedAt": "2026-08-25T13:31:52Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegro's Interior Ministry offers €500,000 bounty on fugitive Milović",
+          "summaryDe": [
+            "Montenegro's Interior Ministry has posted a reward of €500,000 for information leading to the capture of fugitive Ljubomir Milović.",
+            "The size of the reward is extraordinary by Montenegrin standards and indicates both the seriousness of the case and the authorities' lack of success in locating him so far.",
+            "Meanwhile, further police operations in the north of the country involving weapons discoveries and drug offenses show that security authorities are currently under increased public pressure.",
+            "A concrete judicial or political connection to the Milović case is not confirmed at present."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The case concerns Montenegro's internal security with no apparent direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "For Montenegro, the posted bounty is an unusual step of domestic significance, but limited international reach."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "MUP daje pola miliona eura za informaciju o Ljubu Miloviću",
+              "url": "https://www.pobjeda.me/clanak/mup-daje-pola-miliona-eura-za-informaciju-o-ljubu-milovicu",
+              "publishedAt": "2026-08-24T16:30:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Podgorica resident attempts to smuggle phones worth €2.6 million",
+          "summaryDe": [
+            "Montenegrin customs authorities have stopped a Podgorica resident attempting to smuggle mobile phones valued at approximately €2.6 million across the border.",
+            "The case is unusual because of the high value of the goods and suggests organized structures behind the smuggling operation.",
+            "Montenegro has struggled for years with smuggling and organized crime as an EU candidate country, burdens that complicate the reform process.",
+            "For the accession procedure, such cases are relevant insofar as the EU closely monitors Montenegro's rule of law and border security."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The individual case has no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The high value of smuggled goods points to organized crime and is of some significance in the context of Montenegro's EU accession process."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Podgoričanin pokušao da prokrijumčari telefone vrijedne 2,6 miliona eura",
+              "url": "https://www.pobjeda.me/clanak/podgoricanin-pokusao-da-prokrijumcari-telefone-vrijedne-26-miliona-eura",
+              "publishedAt": "2026-08-25T15:44:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

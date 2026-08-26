@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-26",
+  "generatedAt": "2026-08-26T09:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Darline Graham gewinnt GOP-Vorwahl in South Carolina",
+          "summaryDe": [
+            "Die von Trump unterstützte Darline Graham hat die republikanische Vorwahl für einen vollen Senatssitz in South Carolina gewonnen – obwohl sie im Wahlkampf-Duell Fragen zur US-Politik gegenüber Taiwan und im Südchinesischen Meer nur vage beantworten konnte.",
+            "Der Sieg unterstreicht, dass Trumps persönliche Unterstützung für republikanische Kandidaten nach wie vor entscheidend ist, unabhängig von deren außenpolitischer Kompetenz.",
+            "Gerade vor dem Hintergrund wachsender Spannungen im Indo-Pazifik wirft das inhaltliche Schwächen eines künftigen Senators zu zentralen Sicherheitsfragen auf.",
+            "Für Europa und Deutschland ist das vor allem ein Signal, wie stark Parteiloyalität gegenüber sachpolitischer Substanz in Washington an Gewicht gewinnt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant, da die außenpolitische Kompetenz künftiger US-Senatoren die transatlantischen Beziehungen und Bündnisverpflichtungen beeinflussen kann."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Innerparteiliche Vorwahl mit begrenzter unmittelbarer Bedeutung, aber symptomatisch für den Zustand der republikanischen Außenpolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump pick Darline Graham wins election despite struggling over Taiwan question",
+              "url": "https://www.scmp.com/news/us/politics/article/3365262/trump-pick-darline-graham-wins-election-despite-struggling-over-taiwan-question",
+              "publishedAt": "2026-08-26T01:25:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kanada verhängt Gegenzölle auf US-Waren im Wert von 20 Milliarden Dollar",
+          "summaryDe": [
+            "Nach Trumps Einführung von 50-prozentigen Zöllen auf kanadische Güter und dem Scheitern der Handelsverhandlungen hat Ottawa nun Gegenzölle auf amerikanische Waren im Wert von 20 Milliarden US-Dollar in Kraft gesetzt.",
+            "Der Schritt markiert eine deutliche Eskalation im Handelsstreit zwischen den beiden engsten Nachbarn – einem Verhältnis, das jahrzehntelang als Musterbeispiel wirtschaftlicher Integration galt.",
+            "Für die exportorientierte deutsche Industrie, die stark in nordamerikanische Lieferketten eingebunden ist, könnten sich daraus Folgekosten und Umstrukturierungsdruck ergeben.",
+            "Gleichzeitig zeigt der Schritt, dass mittlerweile auch traditionelle US-Verbündete bereit sind, auf Trumps Zollpolitik mit konkreten Gegenmaßnahmen zu antworten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Störungen in nordamerikanischen Lieferketten treffen deutsche Unternehmen mit Produktion und Absatz in der Region direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein handfester Handelskonflikt zwischen den USA und Kanada hat erhebliche Auswirkungen auf die Weltwirtschaft und das multilaterale Handelssystem."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "MUP daje pola miliona eura za informaciju o Ljubu Miloviću",
+              "url": "https://www.pobjeda.me/clanak/mup-daje-pola-miliona-eura-za-informaciju-o-ljubu-milovicu",
+              "publishedAt": "2026-08-24T16:30:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump stoppt Militärübungen mit Südkorea – Allianzgefüge unter Druck",
+          "summaryDe": [
+            "Auf Anweisung des Weißen Hauses soll das Pentagon gemeinsame Militärmanöver mit Südkorea aussetzen – offiziell aus Kostengründen und um Nordkorea keine falschen Signale zu senden.",
+            "Damit greift Trump erneut in den Kernmechanismus der US-südkoreanischen Verteidigungsallianz ein, der seit Jahrzehnten als Abschreckungssignal gegenüber Pjöngjang gilt.",
+            "Sicherheitsexperten warnen, dass das Aussetzen gemeinsamer Übungen die operative Einsatzbereitschaft der verbündeten Streitkräfte erheblich beeinträchtigt.",
+            "Der Schritt reiht sich in ein Muster ein, bei dem Trump traditionelle Bündnisverpflichtungen zunehmend als Verhandlungsmasse behandelt – mit Folgen, die weit über die koreanische Halbinsel hinausreichen."
+          ],
+          "additionalImportant": "Parallel dazu debattiert der Kongress über Trumps geplantes Nuklearabkommen mit Saudi-Arabien, das Experten als Proliferationsrisiko einstufen.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Schwächung der US-Bündnisarchitektur in Asien erhöht den Druck auf Europa, eigene Sicherheitsgarantien zu stärken."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eingriffe in die Allianzstruktur mit Südkorea haben strategische Auswirkungen auf die gesamte Sicherheitsarchitektur im Indo-Pazifik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Odlazak Doli Parton rastužio svijet: Brojne zvijezde se opraštaju...",
+              "url": "https://www.vijesti.me/zabava/muzika/823733/odlazak-doli-parton-rastuzio-svijet-brojne-zvijezde-se-oprastaju-od-kantautorke",
+              "publishedAt": "2026-08-26T07:11:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinpings Antikorruptionskampagne weitet Zielgruppe aus",
+          "summaryDe": [
+            "Die chinesische Antikorruptionskampagne unter Xi Jinping richtet sich nun verstärkt auch gegen bereits pensionierte Kader und Funktionäre außerhalb der Hauptstadt Peking – eine signifikante Ausweitung des bisherigen Fokus.",
+            "Parallel dazu fordert die Volksbefreiungsarmee öffentlich zur Meldung von Beschaffungsverstößen in der Raketenstreitkraft auf, was auf anhaltende interne Ermittlungen schließen lässt.",
+            "Die Kombination beider Entwicklungen legt nahe, dass Xi die institutionelle Loyalität im Militär- und Parteiapparat deutlich fester im Griff halten will – auch über Pensionsgrenzen hinaus.",
+            "Historisch gesehen war das Ausscheiden aus dem Amt in China ein gewisser Schutz vor Strafverfolgung; dieses Modell gilt offenbar nicht mehr."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Chinas innenpolitische Korruptionsbekämpfung hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Ausweitung der Kampagne auf neue Zielgruppen ist ein relevantes Signal über Xis Konsolidierung der Partei- und Militärkontrolle."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "No immunity: how Xi's anti-corruption fighters are zeroing in on fresh targets",
+              "url": "https://www.scmp.com/news/china/politics/article/3365175/no-immunity-how-xis-anti-corruption-fighters-are-zeroing-fresh-targets",
+              "publishedAt": "2026-08-25T22:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China seeks public tips on procurement violations as PLA Rocket Force probe continues",
+              "url": "https://www.scmp.com/news/china/military/article/3365247/china-seeks-public-tips-procurement-violations-pla-rocket-force-probe-continues",
+              "publishedAt": "2026-08-25T17:07:45Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump räumt US-Niederlage im Rennen um kritische Rohstoffe ein",
+          "summaryDe": [
+            "Gegenüber brasilianischen Regierungsvertretern hat US-Präsident Trump eingestanden, dass die USA das Rennen um kritische Mineralien gegen China verloren haben – eine bemerkenswert offene Einschätzung aus dem Weißen Haus.",
+            "China kontrolliert nicht nur große Teile der globalen Förderkapazitäten, sondern vor allem die Verarbeitungs- und Raffinierungsinfrastruktur, die für Batterien, Halbleiter und Militärtechnik unverzichtbar ist.",
+            "Washington versucht nun offenbar, Brasilien als alternativen Lieferanten zu gewinnen – doch der Aufbau konkurrenzfähiger Verarbeitungskapazitäten dauert Jahre.",
+            "Für Deutschland und Europa, die selbst massiv von diesen Rohstoffen abhängen, ist die Einschätzung ein Warnzeichen: Die westliche Abhängigkeit von chinesischen Lieferketten ist größer als lange zugegeben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschlands Industrie, insbesondere Automotive und Elektronik, ist direkt auf kritische Mineralien angewiesen, bei denen China dominiert."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das öffentliche Eingeständnis Washingtons einer strategischen Niederlage in einem Schlüsselbereich ist geopolitisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US admits defeat in China minerals race. Can Brazil turn panic into processing power?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365239/us-admits-defeat-china-minerals-race-can-brazil-turn-panic-processing-power",
+              "publishedAt": "2026-08-25T13:48:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan erhält erste F-16 Block 70 – Kräftegleichgewicht mit China im Fokus",
+          "summaryDe": [
+            "Taiwan hat die erste Lieferung amerikanischer F-16 Block 70 Kampfflugzeuge erhalten, die gezielt als Antwort auf Chinas modernste Stealth-Jäger vom Typ J-20 positioniert werden.",
+            "Die Maschinen verfügen über verbesserte Avionik, aktive AESA-Radare und eine längere Reichweite, sind jedoch keine Tarnkappenjäger – ob sie die Lücke zur J-20 wirklich schließen können, ist unter Experten umstritten.",
+            "Aus Pekings Sicht stellt die Lieferung eine Einmischung in die Taiwan-Frage dar; vergangene US-Rüstungsverkäufe an Taipei haben regelmäßig diplomatische Verwerfungen ausgelöst.",
+            "Parallel dazu führte China mit Ägyptens Luftwaffe Kampfübungen durch, bei denen J-16-Jets gegen Rafale-Maschinen antraten – ein Hinweis auf Pekings wachsendes Interesse an internationaler Militärkooperation."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Eskalation der Taiwanstraße-Spannungen würde Deutschland über Handelsabhängigkeiten und Bündnisverpflichtungen indirekt berühren."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die erste Lieferung moderner US-Kampfjets an Taiwan ist ein konkreter militärischer Schritt mit Auswirkungen auf das regionale Kräfteverhältnis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Can Taiwan's new F-16s level the playing field against the PLA's J-20 stealth fighters?",
+              "url": "https://www.scmp.com/news/china/military/article/3365234/can-taiwans-new-f-16s-level-playing-field-against-plas-j-20-stealth-fighters",
+              "publishedAt": "2026-08-25T12:41:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's J-16s face off against Egypt's Rafales in combat drills as Iran war rumbles on",
+              "url": "https://www.scmp.com/news/china/military/article/3365163/chinas-j-16s-face-against-egypts-rafales-combat-drills-iran-war-rumbles",
+              "publishedAt": "2026-08-25T10:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Mitgliedstaaten kürzen Feuerwehrpersonal im schlimmsten Brandjahr seit Aufzeichnungsbeginn",
+          "summaryDe": [
+            "Ausgerechnet in dem Jahr, das als das schlimmste Waldbrandjahr in Europa seit Beginn der Aufzeichnungen gilt, haben EU-Mitgliedstaaten insgesamt rund 18.000 hauptberufliche Feuerwehrleute abgebaut – darunter allein über 4.000 in Frankreich.",
+            "Hintergrund ist der Druck der EU-Defizitregeln, der Regierungen zwingt, auch bei der inneren Gefahrenabwehr zu sparen, obwohl der Klimawandel die Brandgefahr strukturell erhöht.",
+            "Die Gleichzeitigkeit von Rekordbränden und Personalabbau in der Brandbekämpfung wirft grundlegende Fragen über die Prioritäten europäischer Haushaltspolitik auf.",
+            "Für Deutschland ist das Thema insofern relevant, als ähnliche Spardebatten auch hierzulande geführt werden und die Klimarisiken grenzüberschreitend wirken."
+          ],
+          "additionalImportant": "Die EU hat erstmals eine Bürgerinitiative zur 'Remigration' abgelehnt, weil sie gegen Grundwerte verstößt – Beobachter sehen darin eine mögliche Belebung des transnationalen Demokratieinstruments.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist von Waldbränden zunehmend betroffen, und EU-Defizitregeln beeinflussen auch den deutschen Haushaltsspielraum für Katastrophenschutz."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der systematische Abbau von Katastrophenschutzkapazitäten inmitten einer Klimakrise ist eine strukturell bedeutsame Entwicklung für ganz Europa."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "As Europe burns, member states are actually slashing the number of fire-fighters – thanks to EU deficit rules",
+              "url": "https://euobserver.com/233242/as-europe-burns-member-states-are-actually-slashing-the-number-of-fire-fighters-thanks-to-eu-deficit-rules",
+              "publishedAt": "2026-08-24T14:28:35Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europas Forschungslabore chronisch unterfinanziert – Technologiesouveränität in Gefahr",
+          "summaryDe": [
+            "Die Präsidentin der Französischen Akademie der Wissenschaften, Françoise Combes, warnt in einem Interview mit EUobserver, dass Europas Forschungseinrichtungen strukturell unterfinanziert sind und deshalb im Wettbewerb mit den USA bei KI und mit SpaceX in der Raumfahrt zurückfallen.",
+            "Das Problem ist nicht neu, hat aber durch die beschleunigte Entwicklung großer KI-Modelle und kommerzielle Raumfahrt eine neue Dringlichkeit bekommen.",
+            "Ohne erhebliche Aufstockung der öffentlichen und privaten Forschungsausgaben drohe Europa technologisch in eine dauerhafte Abhängigkeit zu geraten, so Combes.",
+            "Deutschland als größter EU-Forschungsstandort ist von dieser Entwicklung unmittelbar betroffen – sowohl was Fördermittel als auch internationale Wettbewerbsfähigkeit angeht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist der größte Forschungsstandort in der EU; strukturelle Unterfinanzierung europäischer Labore trifft deutsche Wissenschaft und Industrie direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Technologische Souveränität Europas ist eine strategische Frage, deren Beantwortung Jahrzehnte prägen wird."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] Europe's labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
+              "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
+              "publishedAt": "2026-08-22T09:08:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU bewilligt 6,1 Milliarden Euro für Ukraine-Rüstung – Druck auf eingefrorene Russland-Reserven wächst",
+          "summaryDe": [
+            "Die Europäische Kommission hat ein Paket von 6,1 Milliarden Euro für die Beschaffung von Militärausrüstung für die Ukraine genehmigt, darunter Flugabwehrsysteme, Raketen und Radaranlagen.",
+            "Gleichzeitig mehren sich Stimmen, die fordern, die eingefrorenen russischen Währungsreserven in Höhe von 210 Milliarden Euro endgültig zu konfiszieren und für den Wiederaufbau der Ukraine einzusetzen – solange die EU-Einheit nach dem Abgang Orbáns noch hält.",
+            "Auf dem Schlachtfeld riskieren russische Verbände im Donezker Frontbogen nach einem ukrainischen Vorstoß am Unabhängigkeitstag eine Einkreisung nahe Lyman, während russische Truppen gleichzeitig auf Slowjansk vorrücken.",
+            "Die Kombination aus neuem Rüstungspaket, offener Diskussion über Vermögenskonfiszierung und Frontbewegungen zeigt, dass der Krieg in eine neue, intensivierte Phase eingetreten ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland ist einer der größten Beitragszahler zur Ukraine-Unterstützung; Entscheidungen über Rüstungspakete und eingefrorene Reserven betreffen Deutschland unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein 6-Milliarden-Rüstungspaket kombiniert mit Diskussionen über Konfiszierung russischer Reserven und aktiven Frontbewegungen ist von außergewöhnlicher strategischer Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Seize Russia's frozen €210bn for Ukraine now – while EU unity lasts",
+              "url": "https://euobserver.com/233219/seize-russias-frozen-e210bn-for-ukraine-now-while-eu-unity-lasts",
+              "publishedAt": "2026-08-24T10:45:24Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Russian forces in Donetsk salient risk being cut off, after daring Ukrainian manoeuvre on independence day (Ukraine Battlefield update, Day 1,643)",
+              "url": "https://euobserver.com/233599/russian-forces-in-donetsk-salient-risk-being-cut-off-after-daring-ukrainian-manoeuvre-on-independence-day-ukraine-battlefield-update-day-1643",
+              "publishedAt": "2026-08-25T13:31:52Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegros Innenministerium setzt 500.000 Euro Kopfgeld auf Flüchtigen Milović aus",
+          "summaryDe": [
+            "Das montenegrinische Innenministerium hat eine Belohnung von 500.000 Euro für sachdienliche Hinweise ausgelobt, die zur Ergreifung des flüchtigen Ljubomir Milović führen.",
+            "Die Höhe der Belohnung ist für montenegrinische Verhältnisse außergewöhnlich und deutet auf die Schwere des Falles sowie auf den bisherigen Misserfolg der Behörden bei der Suche hin.",
+            "Gleichzeitig zeigen weitere Polizeieinsätze im Norden des Landes mit Waffenfunden und Drogendelikten, dass Sicherheitsbehörden derzeit unter erhöhtem öffentlichem Druck stehen.",
+            "Ein konkreter gerichtlicher oder politischer Zusammenhang zu Milovićs Fall ist nach aktuellem Stand nicht bestätigt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Fall betrifft die innere Sicherheit Montenegros ohne erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Für Montenegro ist das ausgelobte Kopfgeld ein ungewöhnlicher Schritt, der landesintern von Bedeutung ist, international aber begrenzte Tragweite hat."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "MUP daje pola miliona eura za informaciju o Ljubu Miloviću",
+              "url": "https://www.pobjeda.me/clanak/mup-daje-pola-miliona-eura-za-informaciju-o-ljubu-milovicu",
+              "publishedAt": "2026-08-24T16:30:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Podgoričaner versucht Telefone im Wert von 2,6 Millionen Euro zu schmuggeln",
+          "summaryDe": [
+            "Montenegrinische Zollbehörden haben einen Einwohner Podgoricas gestoppt, der versuchte, Mobiltelefone im Gesamtwert von rund 2,6 Millionen Euro über die Grenze zu schmuggeln.",
+            "Der Fall ist ungewöhnlich wegen des hohen Warenwertes und legt organisierte Strukturen hinter dem Schmuggel nahe.",
+            "Montenegro kämpft als EU-Beitrittskandidat seit Jahren mit Schmuggel und organisierter Kriminalität, die den Reformprozess belasten.",
+            "Für das Beitrittsverfahren sind solche Fälle insofern relevant, als die EU die Rechtsstaatlichkeit und Grenzsicherheit Montenegros genau beobachtet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Einzelfall hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der hohe Warenwert des Schmuggels weist auf organisierte Kriminalität hin und ist im Kontext des EU-Beitrittsprozesses Montenegros von gewisser Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Podgoričanin pokušao da prokrijumčari telefone vrijedne 2,6 miliona eura",
+              "url": "https://www.pobjeda.me/clanak/podgoricanin-pokusao-da-prokrijumcari-telefone-vrijedne-26-miliona-eura",
+              "publishedAt": "2026-08-25T15:44:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
