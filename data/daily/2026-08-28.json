@@ -1,0 +1,466 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-28",
+  "generatedAt": "2026-08-28T21:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Fed-Chef Warsh warnt vor Inflation – Märkte rechnen mit Zinserhöhungen",
+          "summaryDe": [
+            "Fed-Vorsitzender Kevin Warsh hat beim Notenbankertreffen in Jackson Hole öffentlich erklärt, die Inflation sei weiterhin zu hoch, und sich für eine zurückhaltendere Kommunikationspolitik der Zentralbank ausgesprochen.",
+            "An den Finanzmärkten wurden seine Aussagen sofort als Signal für mögliche Zinserhöhungen gewertet – Anleiherenditen zogen an, Aktien gerieten unter Druck.",
+            "Warsh gilt als geldpolitischer Falke; sein öffentlicher Ton unterscheidet sich merklich von dem seines Vorgängers Powell.",
+            "Dass der Notenbankchef so deutlich vor mangelnder Preisstabilität warnt, setzt Konsumenten und Unternehmen gleichermaßen unter Druck – in einem Umfeld, in dem hohe Benzinpreise den Konsum ohnehin dämpfen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "US-Zinsentscheidungen beeinflussen unmittelbar europäische Kapitalmärkte, den Euro-Dollar-Kurs und die Abwägungen der EZB."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine öffentliche Inflationswarnung des Fed-Chefs mit sofortigen Marktreaktionen zählt zu den wichtigsten wirtschaftspolitischen Signalen weltweit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+              "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+              "publishedAt": "2026-08-28T16:11:51Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "NASA startet Roman-Weltraumteleskop – größte Kamera außerhalb der Erde geht ins All",
+          "summaryDe": [
+            "Am 30. August soll das Nancy Grace Roman Space Telescope der NASA abheben – das leistungsstärkste Weltraumobservatorium seit Jahren.",
+            "Sein Sichtfeld ist hundertmal größer als das des Hubble-Teleskops bei vergleichbarer Schärfe; fundamentale kosmologische Fragen zu Dunkler Energie, Supernovae und der Großraumstruktur des Universums stehen im Mittelpunkt der geplanten Beobachtungsprogramme.",
+            "Die Wissenschaftsgemeinde wartet seit Jahren auf diesen Start, der kurz nach dem Ausrollen der Instrumente erste Daten versprechen soll.",
+            "Technologisch ist das Teleskop ein Quantensprung für die internationale Astrophysik."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Forschungsinstitute und die Max-Planck-Gesellschaft sind an Teleskopauswertungen beteiligt, der Effekt bleibt jedoch wissenschaftlich-indirekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Start eines derart leistungsstarken Observatoriums ist ein Meilenstein für die internationale Astrophysik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Experts warn more flooding might hit Nepal. And, Fed chairman to give key address",
+              "url": "https://www.npr.org/2026/08/28/g-s1-140866/up-first-newsletter-nepal-tibet-floods-kevin-warsh-kennedy-center",
+              "publishedAt": "2026-08-28T11:01:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US-Sanktionen gegen ägyptische Bankfiliale in den VAE wegen Iran-Verbindungen",
+          "summaryDe": [
+            "Das US-Finanzministerium hat Sanktionen gegen den VAE-Ableger der ägyptischen Banque Misr angekündigt: Die Filiale soll nach amerikanischen Erkenntnissen rund 1,8 Milliarden Dollar für Irans Schattenbankennetzwerk abgewickelt haben.",
+            "Der Schritt ist Teil einer breiteren Kampagne Washingtons, Teherans Zugang zu internationalen Finanzmärkten weiter abzuschneiden.",
+            "Für die VAE als regionales Finanzzentrum bedeutet das erneuten US-Druck, eigene Aufsichtsstandards zu verschärfen.",
+            "Sekundärsanktionen gegen Finanzinstitute in Drittländern sind ein zentrales Instrument der US-Iranpolitik und senden ein klares Signal auch an andere potenzielle Umgehungsrouten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Banken mit VAE-Präsenz könnten indirekt von verschärften Compliance-Anforderungen betroffen sein."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Sekundärsanktionen gegen Finanzinstitute Dritter sind ein wirkungsvolles Instrument der US-Iranpolitik mit internationalem Signaleffekt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+              "url": "https://www.cnbc.com/2026/08/28/treasury-uae-banque-misr-sanctions-iran.html",
+              "publishedAt": "2026-08-28T18:13:13Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "U.S. targets Egyptian bank's UAE branches under new push for Iran's economic isolation",
+              "url": "https://www.pbs.org/newshour/world/u-s-targets-egyptian-banks-uae-branches-under-new-push-for-irans-economic-isolation",
+              "publishedAt": "2026-08-28T18:27:59Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Gletschersturz an der China-Nepal-Grenze: fast 500 Tote, Trümmersee bedroht Rettungsarbeiten",
+          "summaryDe": [
+            "Ein Gletscherbruch nahe dem Grenzübergang Gyirong hat verheerende Sturzfluten und Erdrutsche ausgelöst; die Opferzahl in beiden Ländern zusammen nähert sich laut Berichten der Marke 500.",
+            "Besonders besorgniserregend ist ein Schuttsee mit dem Volumen von rund 1.000 olympischen Schwimmbecken – sein Bruch könnte laufende Rettungsarbeiten völlig unmöglich machen.",
+            "China schickt Notfallhilfe nach Nepal, während Radarsatelliten hochauflösende Bilder der Einbruchstelle liefern; in sozialen Netzwerken kursieren gleichzeitig Falschinformationen, die chinesische Infrastruktur für die Katastrophe verantwortlich machen, obwohl Wissenschaftler einen natürlichen Gletscherbruch als Ursache bestätigten.",
+            "Die Katastrophe wirft Fragen zur Sicherheit des geplanten Eisenbahnprojekts zwischen China und Nepal auf, das durch ähnlich risikoreiches Gelände führen würde."
+          ],
+          "additionalImportant": "Berichte zu Opferzahlen und genauen Hergang weisen laut Quellenanalyse Widersprüche auf; Angaben sollten als vorläufig betrachtet werden.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Ereignis betrifft Deutschland nicht direkt; humanitäre Aspekte sind allenfalls indirekt relevant."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine Naturkatastrophe mit knapp 500 Todesopfern, drohender Sekundärgefahr und geopolitischen Implikationen ist von außergewöhnlichem internationalem Gewicht."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Nepal floods: debris lake the size of 1,000 Olympic pools in breach danger",
+              "url": "https://www.scmp.com/news/china/politics/article/3365529/china-nepal-disaster-death-toll-nears-500-lake-overflow-threatens-rescue-work",
+              "publishedAt": "2026-08-28T03:51:41Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese rescuers reach checkpoint destroyed by deadly flash floods along Nepal border",
+              "url": "https://www.scmp.com/news/china/politics/article/3365583/china-pledges-send-urgent-emergency-aid-nepal-after-deadly-landslide",
+              "publishedAt": "2026-08-28T08:30:23Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "How the Nepal flash flood unleashed a wave of anti-China misinformation",
+              "url": "https://www.scmp.com/news/china/science/article/3365633/how-nepal-flash-flood-unleashed-wave-anti-china-misinformation",
+              "publishedAt": "2026-08-28T11:58:16Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Could the China-Nepal disaster spur a safety rethink for a flagship rail project?",
+              "url": "https://www.scmp.com/news/china/politics/article/3365587/could-china-nepal-disaster-spur-safety-rethink-flagship-rail-project",
+              "publishedAt": "2026-08-28T10:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China implantiert weltweit erstes kommerzielles Gehirn-Computer-Interface – und bringt gleich eine Versicherung dafür",
+          "summaryDe": [
+            "Chinesische Mediziner haben die erste kommerzielle invasive Gehirn-Computer-Schnittstelle (BCI) weltweit implantiert – ein Eingriff, bei dem Elektroden direkt ins Gehirn eingebracht werden.",
+            "Nahezu zeitgleich wurde die erste Versicherungspolice für solche Implantate lanciert, was auf einen ernsthaften Schritt hin zur klinischen Skalierung hindeutet, weit über den Experimentalstatus hinaus.",
+            "Im Wettlauf mit US-Unternehmen wie Neuralink setzt China damit ein deutliches Zeichen: Neurotechnologie gilt nicht mehr als Experimentierfeld, sondern als kommerzielle Industrie.",
+            "Regulatorisch und ethisch bleiben BCIs hochgradig komplex – insbesondere die Frage, wer Zugang zu Gehirndaten erhält und wie diese geschützt werden, ist international noch weitgehend ungeklärt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Neurotechnologie-Forschung und Regulierungsdiskussionen könnten durch chinesische Kommerzialisierung unter Zugzwang geraten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die erste kommerzielle BCI-Implantation weltweit ist ein technologischer Wendepunkt mit erheblicher geopolitischer und ethischer Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China thinks big on brain-computer interfaces after world-first surgery",
+              "url": "https://www.scmp.com/plus/tech/big-tech/article/3365525/china-thinks-big-brain-computer-interfaces-after-world-first-surgery",
+              "publishedAt": "2026-08-28T03:17:36Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Bangladesch kauft chinesische J-10CE-Kampfjets – und verweist ausdrücklich auf den Rafale-Abschuss",
+          "summaryDe": [
+            "Bangladesch hat den Kauf chinesischer J-10CE-Kampfjets bestätigt und dabei ausdrücklich auf deren Leistung im indisch-pakistanischen Konflikt verwiesen, bei dem J-10CE-Maschinen nach pakistanischen Angaben indische Rafale-Jets abgeschossen haben sollen.",
+            "Diese Begründung ist bemerkenswert offen: Ein Land wählt sein Militärgerät mit explizitem Verweis auf den Kampfeinsatz gegen ein westliches Produkt.",
+            "Für die internationale Rüstungsbranche und westliche Exportnationen signalisiert das, dass chinesische Kampfjettechnologie zunehmend als ernstzunehmende Alternative wahrgenommen wird.",
+            "Xi Jinpings geplantem Washington-Besuch im September – mit Handelswaffenstillstand auf der Agenda – steht dieser sicherheitspolitische Dynamikwechsel in Asien als unruhige Kulisse gegenüber."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Verschiebungen im asiatischen Rüstungsmarkt berühren indirekt europäische Rüstungsexportinteressen und NATO-Technologiebewertungen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein öffentlich begründeter Rüstungskauf, der explizit westliche Technik als unterlegen darstellt, hat erhebliche geopolitische Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Bangladesh confirms Chinese J-10CE jet deal, citing Rafale kill in India-Pakistan clash",
+              "url": "https://www.scmp.com/news/china/military/article/3365553/bangladesh-confirms-chinese-j-10ce-jet-deal-citing-rafale-kill-india-pakistan-clash",
+              "publishedAt": "2026-08-28T09:00:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Spajić: Hybridangriffe zielen auf Montenegros EU-Kurs – Kroatien kritisiert Mladić-Beileidsbekundung",
+          "summaryDe": [
+            "Montenegros Premier Spajić hat öffentlich erklärt, das eigentliche Ziel laufender Hybridangriffe auf sein Land sei der EU-Integrationsprozess; inoffiziellen Angaben zufolge sollen die Angriffe aus Serbien und Albanien kommen.",
+            "Albaniens Außenminister trat diesen Vorwürfen umgehend entgegen und versicherte, sein Land sei an keinem destabilisierenden Szenario in Montenegro beteiligt.",
+            "Zusätzliche Spannung entstand durch Beileidsbekundungen montenegrinischer Politiker zum Tod von Kriegsverbrecher Ratko Mladić – Kroatiens Außenministerium bezeichnete das als inakzeptabel und als Schaden für Montenegros EU-Weg.",
+            "Die Vorgänge fügen sich in ein Muster innenpolitischer und regionaler Einflussnahme, das die fragile Stabilität des EU-Beitrittsprozesses regelmäßig belastet."
+          ],
+          "additionalImportant": "Die Verzögerung bei der Bildung der neuen Wahlkommission (CIK) trotz Brüsseler Fristen kommt als weiteres institutionelles Problem hinzu.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als EU-Mitglied ist Deutschland an einem stabilen Erweiterungsprozess auf dem Westbalkan interessiert; direkte Folgen bleiben aber begrenzt."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Entwicklungen sind für den regionalen EU-Integrationsprozess relevant, überschreiten aber nicht die Schwelle einer größeren internationalen Krise."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Spajić: Meta hibridnog udara je evropski put Crne Gore",
+              "url": "https://www.pobjeda.me/clanak/spajic-meta-hibridnog-udara-je-evropski-put-crne-gore",
+              "publishedAt": "2026-08-28T06:35:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "MVP Hrvatske: Mandićevo saučešće povodom smrti Mladića je neprihvatljivo, ovo ne pomaže EU putu Crne Gore",
+              "url": "https://www.pobjeda.me/clanak/mvp-hrvatske-mandicevo-saucesce-povodom-smrti-mladica-je-neprihvatljivo-ovo-ne-pomaze-eu-putu-crne-gore",
+              "publishedAt": "2026-08-28T15:00:31Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Šef diplomatije Albanije: Nismo dio nijednog destabilizujućeg scenarija u Crnoj Gori",
+              "url": "https://www.pobjeda.me/clanak/sef-diplomatije-albanije-nismo-dio-nijednog-destabilizujuceg-scenarija-u-crnoj-gori",
+              "publishedAt": "2026-08-28T17:52:58Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegros Tourismus wächst erstmals seit zwei Jahren – Türkei-Rückgang von 40 Prozent fällt auf",
+          "summaryDe": [
+            "Nach zwei rückläufigen Jahren verzeichnet Montenegro wieder steigende Übernachtungszahlen, getragen vor allem von serbischen und russischen Gästen.",
+            "Besonders auffällig ist ein Einbruch des türkischen Tourismus um 40 Prozent, für den bislang keine offizielle Erklärung vorliegt.",
+            "Die Abhängigkeit von russischen Gästen ist strukturell heikel: Als EU-Kandidat muss Montenegro westliche Sanktionsvorgaben umsetzen, profitiert wirtschaftlich aber weiterhin von russischem Reiseverkehr.",
+            "Für einen kleinen Küstenstaat, dessen Wirtschaft stark vom Tourismus abhängt, sind solche Verschiebungen in der Herkunftsstruktur strategisch bedeutsam."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegros Tourismusstatistik hat keinen nennenswerten direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Daten sind für Montenegros Wirtschaft relevant, überschreiten aber nicht die Schwelle einer größeren internationalen Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Probijeni rokovi uprkos opomenama iz Brisela",
+              "url": "https://www.pobjeda.me/clanak/probijeni-rokovi-uprkos-opomenama-iz-brisela",
+              "publishedAt": "2026-08-28T18:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "UEFA leitet Verfahren gegen Roter Stern Belgrad ein – wegen Verherrlichung von Kriegsverbrecher Mladić",
+          "summaryDe": [
+            "Die UEFA hat ein Disziplinarverfahren gegen den serbischen Klub Roter Stern Belgrad eröffnet, nachdem Fans des Vereins den verurteilten Kriegsverbrecher Ratko Mladić im Umfeld von Spielen glorifiziert hatten.",
+            "Der Schritt kommt zu einem politisch aufgeladenen Zeitpunkt: In Montenegro haben Politiker öffentlich Beileid zum Tod Mladićs bekundet, was regionalen Unmut ausgelöst und Kroatiens Außenministerium auf den Plan gerufen hat.",
+            "Ob sportrechtliche Sanktionen allein politisch wirksam sind, ist fraglich – sie setzen jedoch ein klares Signal, dass die UEFA derartige Symboliken nicht toleriert.",
+            "Für Montenegro, das seinen EU-Beitrittsprozess voranbringen will, ist die regionale Debatte um Mladić ein weiterer Belastungstest für die Reformglaubwürdigkeit des Landes."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das UEFA-Verfahren gegen einen serbischen Klub hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Das Verfahren ist sportrechtlich und regional politisch relevant, bleibt aber in seiner Reichweite begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Zvezdan Mitrović: Pretrčali su nas i pregazili",
+              "url": "https://www.pobjeda.me/clanak/zvezdan-mitrovic-pretrcali-su-nas-i-pregazili",
+              "publishedAt": "2026-08-28T20:31:22Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Moldau hält erstmals Militärparade zum Unabhängigkeitstag – Sicherheitsgarantien gefordert",
+          "summaryDe": [
+            "Zum 35. Jahrestag seiner Unabhängigkeit hat Moldau erstmals eine Militärparade durch Chișinău abgehalten – ein symbolisch aufgeladenes Zeichen eines Landes, das sich gleichzeitig um EU-Mitgliedschaft bewirbt und unter erheblichem russischen Druck steht.",
+            "Die Parade steht für einen sicherheitspolitischen Bewusstseinswandel: Moldau präsentiert sich nicht mehr als neutraler Puffer, sondern kommuniziert aktiv seine Verteidigungsfähigkeit.",
+            "Analysten fordern als Konsequenz belastbare Sicherheitsgarantien westlicher Partner – Symbolpolitik allein schütze das Land nicht vor Moskaus Einflussnahme.",
+            "Für die EU ist Moldau zugleich ein Test, wie ernsthaft sie den Erweiterungsprozess als geopolitisches Instrument einsetzt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als EU-Mitglied an Moldaus Stabilisierung interessiert, direkte Folgen für Deutschland bleiben jedoch begrenzt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die erste Militärparade eines EU-Beitrittskandidaten angesichts russischen Drucks ist ein geopolitisch bedeutsames Signal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "After today's Independence Day parade, Moldova needs hard security guarantees against Moscow",
+              "url": "https://euobserver.com/233874/after-todays-independence-day-parades-moldova-needs-hard-security-guarantees-against-moscow",
+              "publishedAt": "2026-08-27T10:57:29Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Niederländischer Regierungsdenkfabrik fordert härtere EU-Handelspolitik gegenüber China",
+          "summaryDe": [
+            "Ein Denkfabrik der niederländischen Regierung hat die EU öffentlich aufgefordert, Zölle und Kontrollen gegenüber China zu verschärfen, um zu verhindern, dass verzerrter Handel europäische Standards in den Bereichen Datenschutz, Arbeitnehmerrechte und Klimaschutz untergräbt.",
+            "Der Vorstoß kommt zu einem Zeitpunkt, an dem Xi Jinping für September einen Besuch in Washington plant und ein Handelswaffenstillstand zwischen den USA und China im Raum steht – was die EU unter Zugzwang setzt, eine eigenständige China-Position zu definieren.",
+            "Im Kern geht es um die Frage, ob Brüssel weiterhin einen eigenen Kurs in der China-Politik verfolgt oder sich de facto an der US-Strategie orientiert.",
+            "Deutschland als größte Handelsnation der EU mit intensiven China-Verflechtungen wäre von einer Kursverschärfung besonders direkt betroffen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als größte Exportnation der EU mit starker China-Abhängigkeit von verschärften EU-Handelsmaßnahmen direkt und erheblich betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Regierungsdenkfabrik eines EU-Schwergewichts, der eine Neuausrichtung der China-Handelspolitik fordert, hat politisches Gewicht über die Niederlande hinaus."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Dutch government think‑tank pushes EU for tougher tariffs and controls on China",
+              "url": "https://euobserver.com/233923/dutch-government-thinktank-pushes-eu-for-tougher-tariffs-and-controls-on-china",
+              "publishedAt": "2026-08-27T09:36:32Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Berichte: Putin plant Eskalation trotz CIA-Warnung – Ukraine greift russische Raffinerien an",
+          "summaryDe": [
+            "Neue Geheimdienstberichte deuten darauf hin, dass Putin eine Eskalation des Krieges gegen die Ukraine anstrebt – ungeachtet einer CIA-Warnung, die offenbar an die russische Führung übermittelt wurde.",
+            "Ukrainische Streitkräfte haben zeitgleich russische Raffinerien angegriffen, was zu Treibstoffknappheit in Teilen Russlands geführt haben soll.",
+            "Im Donbas hat Kiew die Verteidigungsführung auf Eliteoffiziere mit umstrittenen Biografien übertragen; Biletskyi und Prokopenko sollen mehr als 100.000 Soldaten befehligen, die unter massivem russischem Angriffsdruck stehen.",
+            "Für die EU-Mitgliedstaaten bedeutet eine mögliche russische Eskalation erhöhten Handlungsdruck bei Sicherheitsgarantien, Waffenlieferungen und eigener Verteidigungsplanung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine russische Kriegseskalation hätte unmittelbare Auswirkungen auf die europäische Sicherheitsarchitektur und Deutschlands Verteidigungsplanung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Berichte über eine bewusste Eskalationsstrategie Putins trotz westlicher Warnungen sind von außergewöhnlicher sicherheitspolitischer Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Alarming reports that Putin aims to escalate war, despite CIA warning (Ukraine Battlefield update, Day 1,645)",
+              "url": "https://euobserver.com/234012/alarming-reports-that-putin-aims-to-escalate-war-despite-cia-warning-ukraine-battlefield-update-day-1645",
+              "publishedAt": "2026-08-27T11:56:28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
