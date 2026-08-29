@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-29",
+  "generatedAt": "2026-08-29T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bundesrichter schützt Stanford-Studierende vor politisch motivierter Abschiebung",
+          "summaryDe": [
+            "Ein Bundesgericht hat entschieden, dass die Trump-Regierung rechtswidrig handelte, als sie Stanford-Studierende wegen Israel-kritischer Äußerungen ins Visier für Abschiebungen nahm.",
+            "Das Urteil ist ein klarer Sieg für die Pressefreiheit: Die Stanford Daily hatte die Betroffenen zuvor öffentlich verteidigt.",
+            "Für die Betroffenen selbst hat die Entscheidung unmittelbare praktische Bedeutung – ihr Aufenthaltsstatus ist nun rechtlich abgesichert.",
+            "Ob das Weiße Haus in Berufung geht, ist offen; der Fall gilt bereits jetzt als Präzedenz für ähnliche Auseinandersetzungen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der Fall hat keine direkte Auswirkung auf Deutschland, könnte aber die transatlantische Debatte über Meinungsfreiheit an Hochschulen beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Gerichtsurteil, das die politisch motivierte Verfolgung von Studierenden durch eine Regierung stoppt, hat über den Einzelfall hinausreichende Bedeutung für den Rechtsstaat."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Donbas defence taken over by elite officers with radical pasts (Ukraine Battlefield update, Day 1,646)",
+              "url": "https://euobserver.com/234274/donbas-defence-taken-over-by-elite-officers-with-radical-pasts-ukraine-battlefield-update-day-1646",
+              "publishedAt": "2026-08-28T15:11:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Meta zahlt 18 Milliarden Dollar für Einigung im Jugendschutzstreit",
+          "summaryDe": [
+            "Der Konzern hat sich in einem Verfahren über Sicherheitsmängel auf Instagram und Facebook auf eine Zahlung von 18 Milliarden Dollar geeinigt – eine der größten Einigungen dieser Art in der Tech-Branche.",
+            "Kern der Vereinbarung sind Nutzungsbeschränkungen für Minderjährige: Nachtzeiten und Schulstunden sollen künftig gesperrt sein.",
+            "Die Einigung dürfte den Druck auf Wettbewerber wie TikTok und YouTube spürbar erhöhen, ähnliche Schutzmaßnahmen einzuführen.",
+            "Für Eltern und Bildungspolitiker, die seit Jahren auf strengere Regeln drängen, ist das Ergebnis ein konkreter Erfolg."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Meta betreibt seine Plattformen weltweit; Einschränkungen für Minderjährige in den USA schaffen Druck auf EU-Regulierer und könnten globale Produktänderungen anstoßen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Milliarden-Einigung mit strukturellen Verhaltensauflagen setzt einen branchenweiten Standard für den Umgang mit minderjährigen Nutzern."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Vučinić za Pobjedu: Potreban hitan odgovor na hibridne prijetnje kojima gotovo svakodnevno svjedočimo",
+              "url": "https://www.pobjeda.me/clanak/vucinic-potreban-hitan-odgovor-na-hibridne-prijetnje-kojima-gotovo-svakodnevno-svjedocimo",
+              "publishedAt": "2026-08-29T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA sichern sich nach Maduro-Verhaftung Zugang zu venezolanischem Öl",
+          "summaryDe": [
+            "Neun Monate nach der militärischen Festnahme von Präsident Nicolás Maduro durch US-Streitkräfte hat die Trump-Regierung nun ein Öl-Abkommen mit Venezuela bekanntgegeben.",
+            "Der Deal verschafft den USA eine Mehrheitsbeteiligung an Reserven von mehr als 65 Milliarden Barrel – einem der größten Vorkommen weltweit.",
+            "Abgewickelt wird das Geschäft über ein privates Unternehmen, was Fragen zur Governance und zur Verteilung der Einnahmen aufwirft.",
+            "Für die Region und internationale Partner ist die Kombination aus militärischer Intervention und anschließender Ressourcenaneignung ein politisch hochbrisantes Signal."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekte Relevanz durch mögliche Auswirkungen auf globale Ölpreise und das Verhältnis der EU zu lateinamerikanischen Staaten."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine militärisch erzwungene Regierungsänderung, gefolgt von einem Rohstoffabkommen dieser Dimension, ist ein außergewöhnlicher Präzedenzfall in der Hemisphäre."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "What it's like to live through Kyiv's constant air raids",
+              "url": "https://www.politico.eu/article/kyiv-air-raid-alerts-russia-war-civilians-ukraine",
+              "publishedAt": "2026-08-28T16:29:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Volkskongressausschuss entzieht zwei hochrangigen Generälen formal ihre Ämter",
+          "summaryDe": [
+            "Der Ständige Ausschuss des Nationalen Volkskongresses hat die ehemaligen Generäle Zhang Youxia und Liu Zhenli offiziell aus der Zentralen Militärkommission entfernt.",
+            "Beide standen seit Januar unter Korruptionsverdacht; die formale Amtsenthebung ist nun der letzte Schritt in einem längeren Verfahren.",
+            "Zhang Youxia bekleidete als erster stellvertretender Vorsitzender der Militärkommission eines der mächtigsten Militärämter des Landes – seine Absetzung ist damit besonders bemerkenswert.",
+            "Die Vorgänge passen in ein Muster systematischer Säuberungen in Chinas Streitkräften, das Xi Jinping seit Jahren betreibt und das die Loyalität der Armee gegenüber der Parteiführung festigen soll."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Innenpolitische Vorgänge in China berühren Deutschland indirekt, da Stabilität und Ausrichtung der Volksbefreiungsarmee langfristig außenpolitische Konsequenzen haben."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die formale Absetzung zweier hochrangiger Militärfunktionäre zeigt den anhaltenden Umfang der Antikorruptionskampagne in Chinas Armee."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China strips former generals Zhang Youxia and Liu Zhenli of top military positions",
+              "url": "https://www.scmp.com/news/china/military/article/3365646/china-strips-former-generals-zhang-youxia-and-liu-zhenli-top-military-positions",
+              "publishedAt": "2026-08-28T13:06:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tibetisches Hochplateau destabilisiert sich: Wissenschaftler warnen vor zunehmendem Chaos am Wasserturm Asiens",
+          "summaryDe": [
+            "Eine in Nature Communications veröffentlichte Studie hat die Entropie des tibetischen Hochplateaus gemessen und kommt zu einem beunruhigenden Ergebnis: Das System steuert auf eine deutlich unberechenbarere Zukunft zu.",
+            "Das Plateau versorgt als 'asiatischer Wasserturm' rund drei Milliarden Menschen mit Süßwasser – sein Stabilitätsverlust hat damit eine geopolitische Dimension, die weit über die Region hinausreicht.",
+            "Die Studie erschien nur wenige Tage vor den verheerenden Gletscherabbrüchen an der chinesisch-nepalesischen Grenze, die Hunderte das Leben kosteten, und erhält dadurch dramatische Aktualität.",
+            "Chinas Infrastrukturpläne in Tibet, darunter die umstrittene Eisenbahnlinie nach Nepal, müssten vor diesem Hintergrund womöglich grundlegend neu bewertet werden."
+          ],
+          "additionalImportant": "Zusätzlich meldete die chinesische Satellitenfirma PIESAT, sie habe innerhalb von Stunden sechs Radarsatelliten auf das Katastrophengebiet ausgerichtet und hochauflösende Geländebilder geliefert – ein Beleg für die gewachsene kommerzielle Raumfahrtkapazität des Landes.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Langfristige Klimafolgen im Himalaya-Raum können globale Wasserversorgung und Migrationsströme beeinflussen, was Deutschland als Teil der internationalen Gemeinschaft indirekt betrifft."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die zunehmende Instabilität des tibetischen Hochplateaus bedroht die Wasserversorgung Milliarden Menschen und ist damit eine der bedeutendsten Klimarisikofragen weltweit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "The 'Asian water tower' is starting to wobble, computer simulations show",
+              "url": "https://www.scmp.com/news/china/science/article/3365514/asian-water-tower-starting-wobble-computer-simulations-show",
+              "publishedAt": "2026-08-28T14:00:14Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Gletscherabbruch an der chinesisch-nepalesischen Grenze fordert Hunderte Todesopfer",
+          "summaryDe": [
+            "Ein massiver Gletscherabbruch im Grenzgebiet zwischen China und Nepal hat katastrophale Sturzfluten und Schlammlawinen ausgelöst; die Zahl der Todesopfer liegt im dreistelligen Bereich, Tausende sind obdachlos.",
+            "Der Grenzübergang Gyirong in Tibet, ein bedeutender Handelsknotenpunkt zwischen beiden Ländern, wurde schwer beschädigt.",
+            "Rettungsteams arbeiten gegen die Zeit im kritischen 72-Stunden-Fenster, während Experten gleichzeitig vor Sekundärflutungen aus Gletscherseen warnen.",
+            "Die Katastrophe stellt Pekings Tibet-Infrastrukturpläne – darunter eine geplante Eisenbahnlinie – vor grundlegende Sicherheitsfragen und könnte das Projekt erheblich verzögern."
+          ],
+          "additionalImportant": "Auf sozialen Netzwerken kursierten im Anschluss zahlreiche Falschnachrichten, die chinesischer Infrastruktur die Schuld gaben; wissenschaftliche Erkenntnisse belegen hingegen den natürlichen Ursprung als Gletscherabbruch.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Keine unmittelbaren Folgen für Deutschland, aber die Katastrophe illustriert globale Klimarisiken, die auch europäische Entwicklungsfinanzierung und Außenpolitik berühren."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine der schwersten Naturkatastrophen in der Region seit Jahren, mit humanitären, geopolitischen und infrastrukturellen Folgen für zwei Länder."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Nepal floods: rescue operations continue under threat of lake collapse",
+              "url": "https://www.scmp.com/news/china/politics/article/3365686/china-nepal-floods-rescuers-pull-2-survivors-out-rubble-near-tibet-border-crossing",
+              "publishedAt": "2026-08-29T04:47:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Could the China-Nepal disaster spur a safety rethink for a flagship rail project?",
+              "url": "https://www.scmp.com/news/china/politics/article/3365587/could-china-nepal-disaster-spur-safety-rethink-flagship-rail-project",
+              "publishedAt": "2026-08-28T10:00:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Präsident Milatović beruft Sicherheitsrat wegen hybriderer Bedrohungen ein",
+          "summaryDe": [
+            "Montenegros Staatspräsident Milatović hat für Montag eine Sondersitzung des Verteidigungs- und Sicherheitsrates einberufen und dabei betont, dringende Antworten auf hybride Bedrohungen seien nötig.",
+            "Hybride Bedrohungen – also verdeckte Operationen, Desinformation und Einschüchterung unterhalb der Schwelle offener militärischer Gewalt – sind für ein kleines NATO-Land wie Montenegro keine abstrakte Gefahr.",
+            "Welche konkreten Geheimdiensterkenntnisse Milatović zu diesem Schritt veranlassten, ist öffentlich nicht bekannt.",
+            "Der Zeitpunkt kurz nach einer Serie interner Sicherheitsvorfälle lässt auf erhöhte Wachsamkeit der montenegrinischen Regierung schließen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als NATO-Mitglied und EU-Beitrittskandidat ist Montenegros Sicherheitslage indirekt von Bedeutung für das westliche Bündnis, dem Deutschland angehört."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Für ein kleines Balkanland ist die Einberufung eines Sicherheitsrates relevant, reicht jedoch über die Region hinaus nur begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Vučinić za Pobjedu: Potreban hitan odgovor na hibridne prijetnje kojima gotovo svakodnevno svjedočimo",
+              "url": "https://www.pobjeda.me/clanak/vucinic-potreban-hitan-odgovor-na-hibridne-prijetnje-kojima-gotovo-svakodnevno-svjedocimo",
+              "publishedAt": "2026-08-29T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegro debattiert Reaktion auf hybride Bedrohungslage",
+          "summaryDe": [
+            "Neben der Sicherheitsratssitzung kursieren in montenegrinischen Medien Berichte über eine als zunehmend drückend wahrgenommene Bedrohungslage durch externe Akteure.",
+            "Das Land, das 2017 der NATO beitrat, gilt als wiederkehrendes Ziel russischer Einflussoperationen auf dem Westbalkan.",
+            "Konkrete Angaben zu Art und Herkunft der aktuellen Bedrohungen machten montenegrinische Stellen öffentlich bisher nicht.",
+            "Die Lage wird im Zusammenhang mit dem breiteren Kontext des russischen Einflusses in Südosteuropa beobachtet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als NATO-Partner und EU-Beitrittskandidat berühren Sicherheitsfragen Montenegros indirekt die deutschen und europäischen Interessen auf dem Westbalkan."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Für den Westbalkan relevant, international aber von begrenzter Reichweite ohne konkrete neue Eskalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Milatović: Kroz pjesmu, igru i običaje čuvamo ono što nas povezuje",
+              "url": "https://www.pobjeda.me/clanak/milatovic-kroz-pjesmu-igru-i-obicaje-cuvamo-ono-sto-nas-povezuje",
+              "publishedAt": "2026-08-29T08:17:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Moldau hält erstmals Militärparade zum Unabhängigkeitstag – EU-Beitritt als Überlebensfrage",
+          "summaryDe": [
+            "Zum 35. Jahrestag der Unabhängigkeit marschierte Moldaus Armee erstmals durch die Hauptstadt Chișinău – ein bewusst gesetztes Symbol für den sicherheitspolitischen Kurswechsel des Landes.",
+            "Unter anhaltendem russischen Druck hat Moldau den EU-Beitritt zur existenziellen Frage erklärt; das Land sieht in der europäischen Integration seinen wichtigsten Schutz vor Destabilisierung.",
+            "Die Parade spiegelt einen tiefgreifenden Wandel in der öffentlichen Wahrnehmung wider: Noch vor wenigen Jahren war Moldau offiziell neutral.",
+            "Für Brüssel ist Moldaus Annäherung ein außenpolitischer Erfolg, der gleichzeitig die Frage aufwirft, wie viel Sicherheitsgarantien die EU einem Beitrittskandidaten geben kann und will."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als größte EU-Volkswirtschaft maßgeblich an Erweiterungsprozessen beteiligt; ein destabilisiertes Moldau würde die östliche EU-Nachbarschaft unmittelbar belasten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Moldaus symbolischer Kurswechsel und die Verknüpfung von Sicherheit und EU-Beitritt sind ein bedeutendes Signal für die Dynamik der östlichen Partnerschaft."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 28 / 08 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1768",
+              "publishedAt": "2026-08-28T10:04:38Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Kommission billigt Griechenlands Sozialen Klimaplan über 4,8 Milliarden Euro",
+          "summaryDe": [
+            "Die Europäische Kommission hat den griechischen Sozialen Klimaplan gebilligt – mit 4,8 Milliarden Euro der bislang größte der fünf bisher angenommenen nationalen Pläne unter dem Sozialen Klimafonds.",
+            "Das Geld soll einkommensschwachen Haushalten, kleinen Unternehmen und Pendlern helfen, die höheren Kosten der grünen Transformation zu stemmen.",
+            "Der Fonds reagiert auf eine politisch heikle Erkenntnis: Die Klimawende kann soziale Ungleichheit verschärfen, wenn Ärmere die Lastverteilung unverhältnismäßig stark spüren.",
+            "Für die EU insgesamt ist der Beschluss ein Signal, dass die Kommission die soziale Dimension des Green Deal ernst nimmt – auch wenn die gesamte Finanzarchitektur des Fonds noch im Aufbau ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der Soziale Klimafonds wird teils durch EU-Haushaltsmittel finanziert, zu denen Deutschland als größter Nettozahler beiträgt; inhaltlich betrifft der griechische Plan aber nur Griechenland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Genehmigung eines nationalen Sozialklimaplans ist ein regulärer Verwaltungsakt mit begrenzter darüber hinausgehender Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Listen: Could Iceland join the EU?",
+              "url": "https://euobserver.com/234138/listen-could-iceland-join-the-eu",
+              "publishedAt": "2026-08-28T08:04:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Deutschland will Russland für Leipzig-Anschlag verantwortlich machen – neue Sanktionen geplant",
+          "summaryDe": [
+            "Bundeskanzler Friedrich Merz bereitet laut Berichten vor, Russland offiziell für den Anschlag in Leipzig verantwortlich zu machen und parallel zu EU-Maßnahmen eigene deutsche Sanktionen gegen russische Stellen zu verhängen.",
+            "Der Schritt würde eine deutliche Eskalation in den ohnehin angespannten deutsch-russischen Beziehungen bedeuten und wäre eine der direktesten öffentlichen Schuldzuweisungen Berlins seit Beginn des Ukraine-Krieges.",
+            "Ob und wie Russland auf einen solchen Schritt reagieren wird, ist unklar – Moskau hat bisher jegliche Beteiligung an Anschlägen in Europa bestritten.",
+            "Für die EU als Ganzes ist die Frage, wie weit einzelne Mitgliedstaaten bilateral über das gemeinsame Sanktionsregime hinausgehen, politisch brisant."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der Anschlag ereignete sich auf deutschem Boden; Berlins direkte Sanktionsmaßnahmen gegen Russland haben unmittelbare Konsequenzen für die deutsche Innen- und Außenpolitik."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine offizielle deutsche Schuldzuweisung für einen Terroranschlag an Russland und begleitende Sanktionen sind eine bedeutende Eskalation in den europäisch-russischen Spannungen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Germany plans to blame Russia for Leipzig attack as tensions with Putin escalate",
+              "url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate",
+              "publishedAt": "2026-08-29T11:01:55Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

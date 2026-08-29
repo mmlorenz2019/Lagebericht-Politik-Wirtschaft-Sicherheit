@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-29",
+  "generatedAt": "2026-08-29T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Federal Judge Protects Stanford Students from Politically Motivated Deportation",
+          "summaryDe": [
+            "A federal court has ruled that the Trump administration acted unlawfully in targeting Stanford students for deportation because of Israel-critical statements.",
+            "The ruling is a clear victory for press freedom: the Stanford Daily had previously publicly defended those affected.",
+            "For those affected themselves, the decision has immediate practical significance – their residency status is now legally secured.",
+            "Whether the White House will appeal remains open; the case is already considered a precedent for similar disputes."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The case has no direct impact on Germany, but could influence the transatlantic debate on academic freedom of expression."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A court ruling that stops politically motivated persecution of students by a government has significance extending beyond the individual case for the rule of law."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Donbas defence taken over by elite officers with radical pasts (Ukraine Battlefield update, Day 1,646)",
+              "url": "https://euobserver.com/234274/donbas-defence-taken-over-by-elite-officers-with-radical-pasts-ukraine-battlefield-update-day-1646",
+              "publishedAt": "2026-08-28T15:11:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Meta Pays 18 Billion Dollars to Settle Youth Protection Dispute",
+          "summaryDe": [
+            "The company has agreed to pay 18 billion dollars to settle proceedings over safety deficiencies on Instagram and Facebook – one of the largest settlements of its kind in the tech industry.",
+            "The core of the agreement involves usage restrictions for minors: nighttime hours and school hours are to be blocked in the future.",
+            "The settlement is likely to significantly increase pressure on competitors such as TikTok and YouTube to introduce similar protective measures.",
+            "For parents and education policymakers who have been pushing for stricter regulations for years, the result is a concrete success."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Meta operates its platforms globally; restrictions on minors in the US create pressure on EU regulators and could trigger global product changes."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A multi-billion settlement with structural behavioral requirements sets an industry-wide standard for handling minor users."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Vučinić za Pobjedu: Potreban hitan odgovor na hibridne prijetnje kojima gotovo svakodnevno svjedočimo",
+              "url": "https://www.pobjeda.me/clanak/vucinic-potreban-hitan-odgovor-na-hibridne-prijetnje-kojima-gotovo-svakodnevno-svjedocimo",
+              "publishedAt": "2026-08-29T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA Secure Access to Venezuelan Oil Following Maduro Arrest",
+          "summaryDe": [
+            "Nine months after the military arrest of President Nicolás Maduro by U.S. forces, the Trump administration has now announced an oil agreement with Venezuela.",
+            "The deal gives the United States a majority stake in reserves of more than 65 billion barrels – one of the world's largest reserves.",
+            "The transaction is conducted through a private company, raising questions about governance and revenue distribution.",
+            "For the region and international partners, the combination of military intervention and subsequent resource appropriation is a highly explosive political signal."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirect relevance through possible impacts on global oil prices and the EU's relationship with Latin American states."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A military-forced government change followed by a resource agreement of this dimension is an extraordinary precedent in the hemisphere."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "What it's like to live through Kyiv's constant air raids",
+              "url": "https://www.politico.eu/article/kyiv-air-raid-alerts-russia-war-civilians-ukraine",
+              "publishedAt": "2026-08-28T16:29:12Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "National People's Congress Standing Committee Formally Strips Two Senior Generals of Office",
+          "summaryDe": [
+            "The Standing Committee of the National People's Congress has officially removed former generals Zhang Youxia and Liu Zhenli from the Central Military Commission.",
+            "Both have been under suspicion of corruption since January; formal removal from office is now the final step in a longer proceedings.",
+            "As first vice chairman of the Military Commission, Zhang Youxia held one of the country's most powerful military positions – his removal is therefore particularly noteworthy.",
+            "These developments fit a pattern of systematic purges in China's armed forces that Xi Jinping has pursued for years, aimed at solidifying the army's loyalty to the party leadership."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Domestic developments in China affect Germany indirectly, as stability and orientation of the People's Liberation Army have long-term foreign policy consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The formal removal of two high-ranking military officials demonstrates the ongoing scope of the anti-corruption campaign in China's military."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "China strips former generals Zhang Youxia and Liu Zhenli of top military positions",
+              "url": "https://www.scmp.com/news/china/military/article/3365646/china-strips-former-generals-zhang-youxia-and-liu-zhenli-top-military-positions",
+              "publishedAt": "2026-08-28T13:06:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tibetan Plateau Destabilizing: Scientists Warn of Growing Chaos at Asia's Water Tower",
+          "summaryDe": [
+            "A study published in Nature Communications has measured the entropy of the Tibetan Plateau and reaches a concerning conclusion: the system is heading toward a significantly more unpredictable future.",
+            "The plateau serves as 'Asia's water tower,' supplying around three billion people with fresh water – its loss of stability thus has a geopolitical dimension far beyond the region.",
+            "The study was published just days before devastating glacier collapses on the China-Nepal border that killed hundreds, giving it dramatic immediacy.",
+            "China's infrastructure plans in Tibet, including the controversial railway line to Nepal, may need to be fundamentally reassessed in light of these findings."
+          ],
+          "additionalImportant": "Additionally, Chinese satellite company PIESAT reported that it had redirected six radar satellites to the disaster area within hours and provided high-resolution terrain imagery – evidence of the country's growing commercial space capacity.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Long-term climate impacts in the Himalayan region can affect global water supply and migration flows, which indirectly affects Germany as part of the international community."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The increasing instability of the Tibetan Plateau threatens water supplies for billions of people and is thus one of the most significant climate risk questions globally."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "The 'Asian water tower' is starting to wobble, computer simulations show",
+              "url": "https://www.scmp.com/news/china/science/article/3365514/asian-water-tower-starting-wobble-computer-simulations-show",
+              "publishedAt": "2026-08-28T14:00:14Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Glacier Collapse on China-Nepal Border Claims Hundreds of Lives",
+          "summaryDe": [
+            "A massive glacier collapse in the border region between China and Nepal triggered catastrophic floods and mudslides; the death toll is in the hundreds, with thousands left homeless.",
+            "The Gyirong border crossing in Tibet, a major trade hub between the two countries, suffered severe damage.",
+            "Rescue teams are racing against time within the critical 72-hour window, while experts simultaneously warn of secondary flooding from glacial lakes.",
+            "The disaster raises fundamental safety questions for Beijing's Tibet infrastructure plans – including a planned railway line – and could significantly delay the project."
+          ],
+          "additionalImportant": "Following the disaster, numerous false claims circulated on social networks blaming Chinese infrastructure; however, scientific evidence confirms the natural origin as a glacier collapse.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "No immediate consequences for Germany, but the disaster illustrates global climate risks that also affect European development finance and foreign policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "One of the region's most severe natural disasters in years, with humanitarian, geopolitical, and infrastructure consequences for two countries."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "China-Nepal floods: rescue operations continue under threat of lake collapse",
+              "url": "https://www.scmp.com/news/china/politics/article/3365686/china-nepal-floods-rescuers-pull-2-survivors-out-rubble-near-tibet-border-crossing",
+              "publishedAt": "2026-08-29T04:47:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "Could the China-Nepal disaster spur a safety rethink for a flagship rail project?",
+              "url": "https://www.scmp.com/news/china/politics/article/3365587/could-china-nepal-disaster-spur-safety-rethink-flagship-rail-project",
+              "publishedAt": "2026-08-28T10:00:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "President Milatović Convenes Security Council Over Hybrid Threats",
+          "summaryDe": [
+            "Montenegro's President Milatović has called an extraordinary meeting of the Defense and Security Council for Monday, emphasizing that urgent responses to hybrid threats are needed.",
+            "Hybrid threats – covert operations, disinformation, and intimidation below the threshold of overt military force – are no abstract danger for a small NATO country like Montenegro.",
+            "What specific intelligence findings prompted Milatović to take this step is not publicly known.",
+            "The timing shortly after a series of internal security incidents suggests heightened vigilance by the Montenegrin government."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As a NATO member and EU candidate, Montenegro's security situation is indirectly significant for the Western alliance, of which Germany is a member."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "For a small Balkan country, convening a security council is relevant, but has only limited reach beyond the region."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Vučinić za Pobjedu: Potreban hitan odgovor na hibridne prijetnje kojima gotovo svakodnevno svjedočimo",
+              "url": "https://www.pobjeda.me/clanak/vucinic-potreban-hitan-odgovor-na-hibridne-prijetnje-kojima-gotovo-svakodnevno-svjedocimo",
+              "publishedAt": "2026-08-29T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegro Debates Response to Hybrid Threat Situation",
+          "summaryDe": [
+            "In addition to the security council meeting, Montenegrin media reports circulate about an increasingly pressing threat perception from external actors.",
+            "The country, which joined NATO in 2017, is considered a recurring target of Russian influence operations in the Western Balkans.",
+            "Montenegrin authorities have not yet publicly specified the nature and origin of current threats.",
+            "The situation is being monitored in the context of the broader pattern of Russian influence in Southeast Europe."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As a NATO partner and EU candidate, Montenegro's security issues indirectly affect German and European interests in the Western Balkans."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant for the Western Balkans, but of limited international reach without concrete new escalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Milatović: Kroz pjesmu, igru i običaje čuvamo ono što nas povezuje",
+              "url": "https://www.pobjeda.me/clanak/milatovic-kroz-pjesmu-igru-i-obicaje-cuvamo-ono-sto-nas-povezuje",
+              "publishedAt": "2026-08-29T08:17:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Moldova Holds First Military Parade on Independence Day – EU Membership as Question of Survival",
+          "summaryDe": [
+            "To mark the 35th anniversary of independence, Moldova's military marched through the capital Chișinău for the first time – a deliberately set symbol of the country's security policy shift.",
+            "Under sustained Russian pressure, Moldova has declared EU membership a matter of existential importance; the country sees European integration as its primary protection against destabilization.",
+            "The parade reflects a profound change in public perception: just a few years ago, Moldova was officially neutral.",
+            "For Brussels, Moldova's rapprochement is a foreign policy success while simultaneously raising the question of how much security guarantees the EU can and is willing to give to a candidate country."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the EU's largest economy, Germany plays a major role in enlargement processes; a destabilized Moldova would directly burden the eastern EU neighborhood."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Moldova's symbolic policy shift and the linking of security to EU membership is a significant signal for the dynamics of the eastern partnership."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 28 / 08 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1768",
+              "publishedAt": "2026-08-28T10:04:38Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Commission Approves Greece's Social Climate Plan for 4.8 Billion Euros",
+          "summaryDe": [
+            "The European Commission has approved Greece's Social Climate Plan – at 4.8 billion euros, the largest of the five national plans approved so far under the Social Climate Fund.",
+            "The money is intended to help low-income households, small businesses, and commuters cope with the higher costs of the green transition.",
+            "The fund responds to a politically sensitive finding: the climate transition can worsen social inequality if poorer populations bear the cost distribution disproportionately.",
+            "For the EU as a whole, the decision signals that the Commission takes the social dimension of the Green Deal seriously – even though the overall financial architecture of the fund is still under development."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The Social Climate Fund is financed in part through EU budget funds, to which Germany contributes as the largest net payer; substantively, however, the Greek plan affects only Greece."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Approval of a national social climate plan is a routine administrative act with limited significance beyond that."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Listen: Could Iceland join the EU?",
+              "url": "https://euobserver.com/234138/listen-could-iceland-join-the-eu",
+              "publishedAt": "2026-08-28T08:04:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Germany Plans to Hold Russia Responsible for Leipzig Attack – New Sanctions Planned",
+          "summaryDe": [
+            "According to reports, Chancellor Friedrich Merz is preparing to formally hold Russia responsible for the Leipzig attack and, in parallel with EU measures, to impose German sanctions against Russian entities.",
+            "The step would represent a clear escalation in already strained German-Russian relations and would be one of Berlin's most direct public accusations of responsibility since the beginning of the Ukraine war.",
+            "How and whether Russia will respond to such a step is unclear – Moscow has so far denied any involvement in attacks in Europe.",
+            "For the EU as a whole, the question of how far individual member states go beyond the common sanctions regime bilaterally is politically sensitive."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The attack occurred on German soil; Berlin's direct sanctions measures against Russia have immediate consequences for German domestic and foreign policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An official German attribution of a terrorist attack to Russia and accompanying sanctions represent a significant escalation in European-Russian tensions."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Germany plans to blame Russia for Leipzig attack as tensions with Putin escalate",
+              "url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate",
+              "publishedAt": "2026-08-29T11:01:55Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
