@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-30",
+  "generatedAt": "2026-08-30T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Federal judge halts deportations of students critical of Israel",
+          "summaryDe": [
+            "A U.S. federal court has ruled that the Trump administration cannot deport students for criticizing Israeli policy – specifically affecting members of the editorial board of a Stanford university newspaper.",
+            "The ruling sets narrow limits on the administration's agenda: The First Amendment protects political speech even for foreign students on U.S. soil.",
+            "For the affected students, this means initial protection from deportation, but the government could appeal to a higher court – the conflict between free speech and immigration policy remains unresolved.",
+            "The case joins a series of legal battles with the Trump administration's deportation policy, which recently also targeted family members of U.S. military supporters."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirectly relevant as the ruling influences international debates on the protection of political speech at U.S. universities where German students are also enrolled."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A court decision with constitutional significance that sets boundaries on immigration enforcement against political activists."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "Trump cannot deport students for criticizing Israel, judge rules",
+              "url": "https://www.pbs.org/newshour/nation/trump-cannot-deport-students-for-criticizing-israel-judge-rules",
+              "publishedAt": "2026-08-29T18:14:48Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Meta pays $18 billion – and puts TikTok and YouTube under pressure",
+          "summaryDe": [
+            "Meta has agreed to pay $18 billion in one of the largest digital youth safety settlements and is now calling on competing platforms like TikTok and YouTube to implement equivalent protections.",
+            "The company simultaneously announced comprehensive restrictions for minors on Instagram and Facebook: access will be automatically blocked at night, with further limits during school hours.",
+            "The initiative is not without self-interest – Meta has faced years of accusations of deliberately endangering young users' mental health to boost engagement metrics.",
+            "Whether the settlement truly initiates a paradigm shift in handling minors or primarily puts regulatory pressure on other platforms remains to be seen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "New platform standards for youth protection would also challenge German media law and supervision by state media authorities."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Settlement of this magnitude sets a precedent for the entire social media industry and is likely to intensify regulatory debates worldwide."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "Meta's $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?",
+              "url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
+              "publishedAt": "2026-08-29T05:00:01Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump announces deal with Venezuela over 65 billion barrels of oil",
+          "summaryDe": [
+            "The Trump administration has announced an agreement with Venezuela that would grant the U.S. majority rights to oil reserves exceeding 65 billion barrels – one of the largest energy deals in recent history, according to its claims.",
+            "Trump presented the accord as a foreign policy success, but details on implementation, legal basis, and Venezuelan compensation remained initially vague.",
+            "Venezuela possesses the world's largest proven oil reserves, but extraction capacity has been severely constrained after years of economic decline and U.S. sanctions.",
+            "Should the deal hold as claimed, it would have far-reaching consequences for global energy markets, the transatlantic relationship, and geopolitical influence in Latin America."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "U.S. structural influence over Venezuelan oil deliveries could affect energy prices and supply routes that also impact Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Such an agreement would be of extraordinary geopolitical and energy-economic scope, should it be confirmed."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "Trump says U.S. has entered deal with Venezuela to control 65 billion barrels of its oil reserves",
+              "url": "https://www.pbs.org/newshour/politics/trump-says-u-s-has-entered-deal-with-venezuela-to-control-65-billion-barrels-of-its-oil-reserves",
+              "publishedAt": "2026-08-28T23:35:32Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Hundreds missing after floods on China-Nepal border",
+          "summaryDe": [
+            "Severe flooding in the border region between China and Nepal has, according to current reports, claimed hundreds of lives, with 261 foreigners from 23 countries among the missing.",
+            "China deployed nine tunnel construction experts to Nepal to support rescue operations – the specialists are intended to help extract those trapped under collapsed structures.",
+            "The disaster strikes a region where Beijing has made substantial infrastructure investments as part of the Belt and Road Initiative, which increases political pressure for rapid action.",
+            "Internationally coordinated rescue operations are underway, but remote terrain and continued rainfall are severely hampering access to affected areas."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German nationals could be among the missing foreigners; the humanitarian dimension also concerns German aid organizations."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Mass disaster with international impact and geopolitical dimension due to location along Chinese infrastructure corridors."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China-Nepal floods: 9 Chinese tunnel experts sent to aid rescue in race against time",
+              "url": "https://www.scmp.com/news/china/politics/article/3365686/china-nepal-floods-rescuers-pull-2-survivors-out-rubble-near-tibet-border-crossing",
+              "publishedAt": "2026-08-29T04:47:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China-Nepal floods: hundreds of foreigners missing in Tibet after disaster",
+              "url": "https://www.scmp.com/news/china/politics/article/3365730/china-nepal-floods-hundreds-foreigners-missing-tibet-after-disaster",
+              "publishedAt": "2026-08-30T04:31:37Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "AI translation of Chinese government language can create misperceptions",
+          "summaryDe": [
+            "Scientists warn that machine translation of Chinese government texts into English often makes the language sound more aggressive and threatening than the original intent.",
+            "Chinese political communication uses highly conventionalized vocabulary whose nuances are embedded in barely translatable formulas and ritual texts – AI systems do not yet reliably capture this cultural coding.",
+            "Researchers advocate for human translators with China expertise to be involved in security-relevant texts to prevent fatal miscalculations in diplomatic or military contexts.",
+            "The debate gains considerable practical urgency given the growing prevalence of AI-driven real-time communication in government agencies."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "For German authorities and think tanks evaluating Chinese primary sources, there is an indirect risk from distorted translations."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant for diplomacy and intelligence services, but so far more of an academic warning without immediate political consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "AI can make China's political language sound more threatening, scholar warns",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365635/ai-can-make-chinas-political-language-sound-more-threatening-scholar-warns",
+              "publishedAt": "2026-08-29T06:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi and Putin meet in Bishkek – pipeline project on agenda",
+          "summaryDe": [
+            "The Kremlin has confirmed that Xi Jinping and Vladimir Putin will meet on the sidelines of a summit in Bishkek, with the long-disputed Power of Siberia 2 gas pipeline project expected to be a central focus.",
+            "The pipeline would transport Russian gas through Mongolia to China and would open a strategically important revenue source for Russia after largely losing the European market.",
+            "For China, the project means affordable energy supplies but also gives Beijing negotiating leverage – the imbalance in negotiations favoring Chinese interests has made Moscow hesitant so far.",
+            "A concrete outcome of the meeting remains open; however, the mere fact of the encounter underscores the advancing strategic alignment of both countries."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Closer Sino-Russian energy partnership strengthens Russia's resilience despite Western sanctions and directly affects German security interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The meeting carries real geopolitical weight for Western sanctions strategy and global energy markets."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin",
+              "publishedAt": "2026-08-29T13:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Suspicious packages found near Mogren – prosecution investigating",
+          "summaryDe": [
+            "Suspicious packages were discovered near the popular Mogren beach in Budva and are now being examined by the Montenegrin prosecution.",
+            "No official information has yet been provided on the exact contents of the packages and any possible criminal background; authorities have secured the area.",
+            "Montenegro is repeatedly a site of organized crime, which is why such findings in tourist-frequented coastal regions attract heightened attention.",
+            "The case is being pursued; results of forensic examination are still pending."
+          ],
+          "additionalImportant": "Also noteworthy: The Stanišić and Džankić families have been remanded in custody for up to 30 days – details on the accusations remained initially unclear.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Local event with no discernible connection to German interests."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Security-relevant incident in a Montenegrin tourism region, but with no known wider dimension to date."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Sumnjivi paketi pronađeni kod „Mogrena",
+              "url": "https://www.pobjeda.me/clanak/sumnjivi-paketi-pronadeni-kod-mogrena-pod-lupom-tuzilastva",
+              "publishedAt": "2026-08-29T16:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Icelanders reject EU accession negotiations in referendum",
+          "summaryDe": [
+            "In a referendum, Icelandic voters have rejected their government's proposal to begin accession negotiations with the European Union – a clear setback for the Brussels expansion agenda.",
+            "Iceland has been closely linked to the EU single market for decades through the European Economic Area, but the question of full membership remains politically highly contentious.",
+            "Critics of membership point particularly to fisheries policy, sovereignty over natural resources, and skepticism toward further political integration.",
+            "The result is likely to further dampen already sluggish expansion discussions in the EU, even though Iceland was not a candidate country in the formal sense."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany generally supports EU enlargement; the Icelandic no weakens momentum without directly affecting Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Politically symbolic significance for EU enlargement debate, but without immediate operational consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Islanđani odbili povratak pregovorima o članstvu u EU",
+              "url": "https://www.pobjeda.me/clanak/islandani-odbili-povratak-pregovorima-o-clanstvu-u-eu",
+              "publishedAt": "2026-08-30T10:37:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU pushes for own military satellites – Ukraine as catalyst",
+          "summaryDe": [
+            "The war in Ukraine has made clear to experts and EU institutions how dependent Europe is on American and commercial satellite systems – a vulnerability that is now being addressed with high priority.",
+            "Several EU member states and the Commission are working to develop independent communications and reconnaissance satellites to avoid dependence on external providers during crises.",
+            "The background also includes experience with failure of commercial satellite services at critical war moments, as well as concern that the U.S. under changing administrations may not durably provide these resources.",
+            "The financial and technological hurdles for an independent European space defense system are substantial; however, first concrete programs are already being established."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany as the largest contributor and with its own defense industry is directly involved in financing and developing corresponding EU programs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Strategically significant for European defense autonomy; a step away from pure dependence on NATO partners in the space sector."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake‑up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russia plans new ground offensive on Kyiv – 72 hours of continuous attacks",
+          "summaryDe": [
+            "The Ukrainian government has warned of an impending Russian ground offensive on Kyiv, while the capital has been subjected to nearly continuous drone and rocket attacks for 72 hours.",
+            "A Russian drone strike on an ammunition depot near residential areas killed at least 37 people according to multiple reports – one of the deadliest single attacks of the war to date.",
+            "The attack series strikes Kyiv's civilian population at a moment when international attention and Western military aid for Ukraine are again being intensely discussed.",
+            "European governments are thus facing mounting pressure to accelerate deliveries of air defense systems and ammunition to maintain Ukraine's resilience."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany is one of Ukraine's most important arms suppliers; new Russian offensives directly increase pressure on the federal government and parliament for further support."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Escalation at one of the most significant contemporary battlefields with potentially far-reaching consequences for Europe's security architecture."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake‑up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "international",
+              "titleOriginal": "Russia plans new ground attack on Kyiv, Ukraine warns",
+              "url": "https://www.politico.eu/article/russia-plans-new-ground-attack-on-kyiv-ukraine-warns",
+              "publishedAt": "2026-08-29T16:01:28Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "Russian strike on a Ukrainian warehouse kills 37 in the war's deadliest attack this year",
+              "url": "https://www.pbs.org/newshour/world/russian-strike-near-kyiv-kills-37-in-one-of-the-years-deadliest-attacks",
+              "publishedAt": "2026-08-29T15:10:40Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-30",
+  "generatedAt": "2026-08-30T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bundesrichter stoppt Abschiebungen israelkritischer Studierender",
+          "summaryDe": [
+            "Ein US-Bundesgericht hat entschieden, dass die Trump-Regierung Studierende nicht wegen Kritik an der israelischen Politik abschieben darf – konkret betroffen waren Mitglieder der Redaktion einer Stanford-Hochschulzeitung.",
+            "Das Urteil setzt dem Vorhaben der Administration enge Grenzen: Der Erste Verfassungszusatz schützt politische Meinungsäußerungen auch für ausländische Studierende auf US-Boden.",
+            "Für die betroffenen Studierenden bedeutet dies zunächst Schutz vor Ausweisung, doch die Regierung könnte auf höherer Instanz Rechtsmittel einlegen – der Konflikt zwischen Meinungsfreiheit und Einwanderungspolitik ist damit nicht beigelegt.",
+            "Der Fall reiht sich in eine Reihe gerichtlicher Auseinandersetzungen mit der Deportationspolitik der Trump-Regierung ein, die zuletzt auch Familienangehörige von US-Militärunterstützern ins Visier nahm."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Mittelbar relevant, da das Urteil internationale Debatten über den Schutz politischer Meinungsäußerung an US-Universitäten beeinflusst, an denen auch deutsche Studierende eingeschrieben sind."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine gerichtliche Entscheidung mit grundrechtlicher Tragweite, die Grenzen der Einwanderungsdurchsetzung gegenüber politischen Aktivisten absteckt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Trump cannot deport students for criticizing Israel, judge rules",
+              "url": "https://www.pbs.org/newshour/nation/trump-cannot-deport-students-for-criticizing-israel-judge-rules",
+              "publishedAt": "2026-08-29T18:14:48Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Meta zahlt 18 Milliarden Dollar – und setzt TikTok und YouTube unter Druck",
+          "summaryDe": [
+            "Meta hat sich in einem der größten Vergleiche zur Jugendsicherheit im Netz auf eine Zahlung von 18 Milliarden Dollar geeinigt und fordert nun, dass konkurrierende Plattformen wie TikTok und YouTube gleichwertige Schutzmaßnahmen einführen.",
+            "Der Konzern kündigte gleichzeitig umfassende Einschränkungen für Minderjährige auf Instagram und Facebook an: Nachts wird der Zugang automatisch gesperrt, während der Schulzeit gelten weitere Limits.",
+            "Die Initiative kommt nicht ohne Eigeninteresse – Meta steht seit Jahren unter dem Vorwurf, die psychische Gesundheit junger Nutzerinnen und Nutzer bewusst zu gefährden, um Engagement-Kennzahlen hochzuhalten.",
+            "Ob der Vergleich tatsächlich einen Paradigmenwechsel im Umgang mit Minderjährigen einleitet oder vor allem anderen Plattformen regulatorischen Druck verschafft, bleibt abzuwarten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Neue Plattformstandards im Jugendschutz würden auch in Deutschland geltendes Medienrecht und die Aufsicht durch Landesmedienanstalten herausfordern."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Vergleich in dieser Höhe setzt einen Präzedenzfall für die gesamte Social-Media-Branche und dürfte Regulierungsdebatte weltweit anheizen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Meta's $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?",
+              "url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
+              "publishedAt": "2026-08-29T05:00:01Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump verkündet Deal mit Venezuela über 65 Milliarden Barrel Öl",
+          "summaryDe": [
+            "Die Trump-Regierung hat nach eigenen Angaben eine Vereinbarung mit Venezuela abgeschlossen, die den USA Mehrheitsrechte an Ölreserven von mehr als 65 Milliarden Barrel einräumen soll – es wäre einer der größten Energiedeal in der neueren Geschichte.",
+            "Trump präsentierte das Abkommen als außenpolitischen Erfolg, Details zur Umsetzung, rechtlichen Grundlage und venezolanischer Gegenleistung blieben zunächst vage.",
+            "Venezuela verfügt über die weltweit größten nachgewiesenen Ölreserven, die Förderkapazitäten sind jedoch nach Jahren wirtschaftlichen Niedergangs und US-Sanktionen stark eingeschränkt.",
+            "Sollte der Deal in der behaupteten Form Bestand haben, hätte das weitreichende Konsequenzen für die globalen Energiemärkte, das transatlantische Verhältnis und den geopolitischen Einfluss in Lateinamerika."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein struktureller Einfluss der USA auf venezolanische Öllieferungen könnte Energiepreise und Versorgungsrouten beeinflussen, die auch Deutschland betreffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein derartiges Abkommen wäre geopolitisch und energiewirtschaftlich von außerordentlicher Reichweite, sofern es sich bestätigt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Trump says U.S. has entered deal with Venezuela to control 65 billion barrels of its oil reserves",
+              "url": "https://www.pbs.org/newshour/politics/trump-says-u-s-has-entered-deal-with-venezuela-to-control-65-billion-barrels-of-its-oil-reserves",
+              "publishedAt": "2026-08-28T23:35:32Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Hunderte Vermisste nach Überschwemmungen an chinesisch-nepalesischer Grenze",
+          "summaryDe": [
+            "Schwere Überflutungen im Grenzgebiet zwischen China und Nepal haben nach bisherigen Erkenntnissen mehrere Hundert Menschen das Leben gekostet; allein unter den Vermissten befinden sich 261 Ausländer aus 23 Staaten.",
+            "China schickte neun Tunnelbauexperten nach Nepal, um die Rettungsarbeiten zu unterstützen – die Spezialisten sollen helfen, Verschüttete unter eingestürzten Strukturen zu bergen.",
+            "Die Katastrophe trifft eine Region, in der Peking erhebliche Infrastrukturinvestitionen im Rahmen der Neuen Seidenstraße getätigt hat, was den politischen Druck zum raschen Handeln erhöht.",
+            "International koordinierte Rettungsaktionen laufen, doch die abgelegene Topografie und anhaltende Regenfälle erschweren den Zugang zu den betroffenen Gebieten erheblich."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Unter den vermissten Ausländern könnten deutsche Staatsangehörige sein; die humanitäre Dimension berührt auch deutsche Hilfsorganisationen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Massenkatastrophe mit internationaler Betroffenheit und geopolitischer Dimension durch die Lage entlang chinesischer Infrastrukturkorridore."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Nepal floods: 9 Chinese tunnel experts sent to aid rescue in race against time",
+              "url": "https://www.scmp.com/news/china/politics/article/3365686/china-nepal-floods-rescuers-pull-2-survivors-out-rubble-near-tibet-border-crossing",
+              "publishedAt": "2026-08-29T04:47:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Nepal floods: hundreds of foreigners missing in Tibet after disaster",
+              "url": "https://www.scmp.com/news/china/politics/article/3365730/china-nepal-floods-hundreds-foreigners-missing-tibet-after-disaster",
+              "publishedAt": "2026-08-30T04:31:37Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "KI-Übersetzung chinesischer Regierungssprache kann Fehlwahrnehmungen erzeugen",
+          "summaryDe": [
+            "Wissenschaftler warnen, dass maschinelle Übersetzung chinesischer Regierungstexte ins Englische die Sprache oft aggressiver und bedrohlicher klingen lässt, als sie im Original gemeint ist.",
+            "Chinesische politische Kommunikation nutzt ein hochgradig konventionalisiertes Vokabular, dessen Nuancen hinter kaum übersetzbare Formeln und Ritualtexte eingebettet sind – KI-Systeme erfassen diese kulturelle Codierung bislang nicht zuverlässig.",
+            "Forscher plädieren dafür, bei sicherheitspolitisch relevanten Texten menschliche Übersetzer mit Chinakenntnissen einzubinden, um fatale Fehleinschätzungen in diplomatischen oder militärischen Kontexten zu vermeiden.",
+            "Die Debatte gewinnt angesichts der wachsenden Verbreitung von KI-gestützter Echtzeit-Kommunikation in Regierungsbehörden erheblich an praktischer Dringlichkeit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Für deutsche Behörden und Think-Tanks, die chinesische Primärquellen auswerten, besteht ein indirektes Risiko durch verzerrte Übersetzungen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant für Diplomatie und Nachrichtendienste, aber bislang eher akademische Warnung ohne unmittelbare politische Folgen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "AI can make China's political language sound more threatening, scholar warns",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365635/ai-can-make-chinas-political-language-sound-more-threatening-scholar-warns",
+              "publishedAt": "2026-08-29T06:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi und Putin treffen sich in Bischkek – Pipeline-Projekt auf der Agenda",
+          "summaryDe": [
+            "Der Kreml hat bestätigt, dass sich Xi Jinping und Wladimir Putin am Rande eines Gipfels in Bischkek treffen werden, wobei das lange umstrittene Gaspipeline-Projekt Power of Siberia 2 im Mittelpunkt stehen soll.",
+            "Die Pipeline würde russisches Gas über die Mongolei nach China leiten und Russland nach dem weitgehenden Verlust des europäischen Marktes eine strategisch wichtige Einnahmequelle erschließen.",
+            "Für China bedeutet das Projekt günstige Energieversorgung, gibt Peking aber auch Verhandlungsmacht – das Ungleichgewicht in den Verhandlungen zugunsten chinesischer Interessen hat Moskau bislang zögern lassen.",
+            "Ein konkretes Ergebnis des Treffens ist offen; allein die Tatsache der Begegnung unterstreicht jedoch die fortschreitende strategische Annäherung beider Länder."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine engere sino-russische Energiepartnerschaft stärkt Russlands Durchhaltevermögen trotz westlicher Sanktionen und berührt damit direkt deutsche Sicherheitsinteressen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Treffen hat reale geopolitische Tragweite für die westliche Sanktionsstrategie und die globalen Energiemärkte."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin",
+              "publishedAt": "2026-08-29T13:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Verdächtige Pakete nahe Mogren – Staatsanwaltschaft ermittelt",
+          "summaryDe": [
+            "In der Nähe des bekannten Strandes Mogren in Budva wurden verdächtige Pakete entdeckt, die nun von der montenegrinischen Staatsanwaltschaft untersucht werden.",
+            "Über den genauen Inhalt der Pakete und einen möglichen kriminellen Hintergrund liegen noch keine offiziellen Angaben vor; die Behörden haben den Bereich gesichert.",
+            "Montenegro ist immer wieder Schauplatz organisierter Kriminalität, weshalb derartige Funde in touristisch frequentierten Küstenregionen erhöhte Aufmerksamkeit erzeugen.",
+            "Der Fall wird weiter verfolgt; Ergebnisse der forensischen Untersuchung stehen noch aus."
+          ],
+          "additionalImportant": "Ebenfalls berichtenswert: Die Familien Stanišić und Džankić wurden für bis zu 30 Tage in Untersuchungshaft genommen – Details zu den Vorwürfen blieben zunächst unklar.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Lokales Ereignis ohne erkennbaren Bezug zu deutschen Interessen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Sicherheitsrelevantes Ereignis in einer Tourismusregion Montenegros, aber ohne bisher bekannte überregionale Dimension."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Sumnjivi paketi pronađeni kod „Mogrena",
+              "url": "https://www.pobjeda.me/clanak/sumnjivi-paketi-pronadeni-kod-mogrena-pod-lupom-tuzilastva",
+              "publishedAt": "2026-08-29T16:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Islands Bürger lehnen EU-Beitrittsverhandlungen per Referendum ab",
+          "summaryDe": [
+            "In einem Referendum haben die isländischen Wählerinnen und Wähler den Vorschlag ihrer Regierung abgelehnt, Beitrittsgespräche mit der Europäischen Union aufzunehmen – ein klarer Rückschlag für die Brüsseler Erweiterungsagenda.",
+            "Island ist seit Jahrzehnten über den Europäischen Wirtschaftsraum eng mit dem EU-Binnenmarkt verflochten, doch die Frage einer vollständigen Mitgliedschaft bleibt politisch hoch umstritten.",
+            "Kritiker einer Mitgliedschaft verweisen vor allem auf die Fischereipolitik, die Souveränität über natürliche Ressourcen und die Skepsis gegenüber weiterer politischer Integration.",
+            "Das Ergebnis dürfte die ohnehin schleppende Erweiterungsdiskussion in der EU zusätzlich dämpfen, auch wenn Island kein Kandidatenland im formellen Sinne war."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland befürwortet EU-Erweiterung grundsätzlich; das isländische Nein schwächt die Dynamik, ohne Deutschland direkt zu betreffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Politisch symbolisch relevant für die EU-Erweiterungsdebatte, aber ohne unmittelbare operative Konsequenzen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Islanđani odbili povratak pregovorima o članstvu u EU",
+              "url": "https://www.pobjeda.me/clanak/islandani-odbili-povratak-pregovorima-o-clanstvu-u-eu",
+              "publishedAt": "2026-08-30T10:37:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU drängt auf eigene Militärsatelliten – Ukraine als Katalysator",
+          "summaryDe": [
+            "Der Krieg in der Ukraine hat nach Einschätzung von Experten und EU-Stellen deutlich gemacht, wie abhängig Europa von US-amerikanischen und kommerziellen Satellitensystemen ist – eine Schwachstelle, die nun mit Hochdruck adressiert werden soll.",
+            "Mehrere EU-Mitgliedstaaten und die Kommission arbeiten daran, eigenständige Kommunikations- und Aufklärungssatelliten zu entwickeln, um im Krisenfall nicht von externen Anbietern abhängig zu sein.",
+            "Hintergrund ist auch die Erfahrung mit dem Ausfall kommerzieller Satellitendienste zu kriegskritischen Momenten sowie die Sorge, dass die USA unter wechselnden Regierungen diese Ressourcen nicht dauerhaft zur Verfügung stellen.",
+            "Die finanziellen und technologischen Hürden für ein eigenständiges europäisches Weltraum-Verteidigungssystem sind erheblich; erste konkrete Programme befinden sich aber bereits im Aufbau."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland als größter Beitragszahler und mit eigener Rüstungsindustrie ist direkt in Finanzierung und Entwicklung entsprechender EU-Programme eingebunden."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Strategisch bedeutsam für die europäische Verteidigungsautonomie; Schritt weg von reiner Abhängigkeit von NATO-Partnern im Weltraumbereich."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake‑up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russland plant neuen Bodenangriff auf Kiew – 72 Stunden Dauerattacken",
+          "summaryDe": [
+            "Die ukrainische Regierung hat vor einem bevorstehenden russischen Bodenangriff auf Kiew gewarnt, während die Hauptstadt seit 72 Stunden nahezu ununterbrochen von Drohnen- und Raketenbeschuss heimgesucht wird.",
+            "Ein russischer Drohnenangriff auf ein Munitionslager nahe Wohngebieten tötete nach übereinstimmenden Berichten mindestens 37 Menschen – einer der tödlichsten Einzelangriffe des bisherigen Kriegsjahres.",
+            "Die Angriffsserie trifft Kiews Zivilbevölkerung in einem Moment, in dem internationale Aufmerksamkeit und westliche Militärhilfe für die Ukraine wieder intensiv diskutiert werden.",
+            "Europäische Regierungen stehen damit unter wachsendem Druck, Luftverteidigungssysteme und Munitionslieferungen zu beschleunigen, um die ukrainische Widerstandsfähigkeit aufrechtzuerhalten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland ist einer der wichtigsten Waffenlieferanten der Ukraine; neue russische Offensiven erhöhen unmittelbar den Druck auf Bundesregierung und Bundestag zur weiteren Unterstützung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eskalation an einem der bedeutendsten Kriegsschauplätze der Gegenwart mit potenziell weitreichenden Folgen für Europas Sicherheitsarchitektur."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake‑up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Russia plans new ground attack on Kyiv, Ukraine warns",
+              "url": "https://www.politico.eu/article/russia-plans-new-ground-attack-on-kyiv-ukraine-warns",
+              "publishedAt": "2026-08-29T16:01:28Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Russian strike on a Ukrainian warehouse kills 37 in the war's deadliest attack this year",
+              "url": "https://www.pbs.org/newshour/world/russian-strike-near-kyiv-kills-37-in-one-of-the-years-deadliest-attacks",
+              "publishedAt": "2026-08-29T15:10:40Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
