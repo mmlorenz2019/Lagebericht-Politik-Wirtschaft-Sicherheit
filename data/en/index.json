@@ -1,7 +1,11 @@
 {
   "schemaVersion": 2,
-  "latestDaily": "2026-08-30",
+  "latestDaily": "2026-08-31",
   "daily": [
+    {
+      "date": "2026-08-31",
+      "path": "data/en/daily/2026-08-31.json"
+    },
     {
       "date": "2026-08-30",
       "path": "data/en/daily/2026-08-30.json"

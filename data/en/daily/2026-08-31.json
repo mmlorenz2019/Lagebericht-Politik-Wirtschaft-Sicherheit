@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-31",
+  "generatedAt": "2026-08-31T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Renaming of Lake Ontario to 'Lake America' – Google implements directive for US users",
+          "summaryDe": [
+            "The Trump administration has ordered the renaming of Lake Ontario to 'Lake America,' and Google Maps has already implemented the change for US users—despite strong protests from Canada.",
+            "Prime Minister Doug Ford responded with open resistance, placing Canadian street signs along the shores to reaffirm the traditional name.",
+            "This action is part of a series of symbolic political name decrees by the Trump administration, which recently affected other geographic designations as well.",
+            "For the already strained US-Canadian relationship, the measure represents a further strain that affects the diplomatic climate beyond mere symbolism."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirectly relevant, as escalation in the North American relationship influences transatlantic dynamics."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Symbolically charged step with genuine diplomatic conflict potential between two G7 states."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "Canada claps back at Trump's efforts to rename Lake Ontario as 'Lake America'",
+              "url": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+              "publishedAt": "2026-08-30T14:36:44Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Lake Ontario now called Lake America on Google Maps for U.S. users after Trump ordered name change",
+              "url": "https://www.pbs.org/newshour/nation/lake-ontario-now-called-lake-america-on-google-maps-for-u-s-users-after-trump-ordered-name-change",
+              "publishedAt": "2026-08-30T22:38:24Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Iran military exchange drives oil price to $90—US gasoline prices 37 percent above pre-conflict level",
+          "summaryDe": [
+            "Following the recent US military strike against Iranian rocket positions at the Strait of Hormuz and Iran's counter-strike, global oil prices have risen to $90 per barrel.",
+            "For American drivers, this translates concretely: gasoline prices are now 37 percent above pre-conflict levels.",
+            "The price rally reflects ongoing uncertainty about transit routes through the Persian Gulf, which accounts for roughly one-fifth of global oil trade.",
+            "Simultaneously, Washington presented an agreement intended to secure US access to Venezuelan oil reserves of 65 billion barrels—though experts doubt this will have a price-dampening effect in the short term."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising energy prices directly impact Germany's export-dependent economy through production and transport costs."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Military exchange at one of the world's most critical sea lanes with immediate consequences for global energy supply."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Nepal warns of possible fresh flooding as communities grapple with devastation",
+              "url": "https://www.pbs.org/newshour/world/nepal-warns-of-possible-fresh-flooding-as-communities-grapple-with-devastation",
+              "publishedAt": "2026-08-30T15:58:55Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US attacks Iranian rocket positions at Strait of Hormuz—Iran responds with missile barrage",
+          "summaryDe": [
+            "For the first time in a month, US military forces have acted against Iran: the target was rocket launchers on an Iranian island in the Strait of Hormuz.",
+            "Tehran responded the same day with missile salvos, resuming the cycle of mutual escalation after a brief lull.",
+            "The Strait of Hormuz is of central importance for global energy supply; further escalation could permanently endanger tanker routes.",
+            "For Europe and Germany, the question arises anew about how close transatlantic coordination should be in a possible conflict expansion scenario."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An escalating Gulf conflict directly threatens Germany's and Europe's energy supply security."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Military exchange between the US and Iran in one of the world's most critical sea passages."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Uprava za šume: Dosta je zloupotrebe institucija i montiranih...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/824523/uprava-za-sume-dosta-je-zloupotrebe-institucija-i-montiranih-prijava-istina-ce-se-utvrdjivati-pred-nadleznim-organima",
+              "publishedAt": "2026-08-31T09:55:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Flooding disaster at China-Nepal border: death toll approaches 1,000, over 260 foreigners missing",
+          "summaryDe": [
+            "Massive rainfall along the border region between China and Nepal has triggered devastating floods and landslides; according to authorities, the number of deaths is approaching 1,000.",
+            "Particularly critical: among more than 1,000 missing persons are 261 foreign nationals last registered in Tibet—apparently including pilgrims from several countries.",
+            "Chinese cyber police have already taken action against the spread of rumors on social media, further complicating the information situation for relatives abroad.",
+            "Rescue operations are in full swing but are hampered by further rainfall and difficult terrain; Nepal is warning of fresh flooding waves."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German nationals may be among the missing foreigners, which could require consular action."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "One of the region's largest cross-border natural disasters with nearly a thousand dead and hundreds of missing foreigners."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China-Nepal floods: 261 foreigners listed missing in Tibet, cyber police target rumours",
+              "url": "https://www.scmp.com/news/china/politics/article/3365730/china-nepal-floods-hundreds-foreigners-missing-tibet-after-disaster",
+              "publishedAt": "2026-08-30T04:31:37Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Rescue work intensifies as death toll in China-Nepal disaster approaches 1,000",
+              "url": "https://www.scmp.com/news/china/politics/article/3365810/rescue-work-intensifies-death-toll-china-nepal-disaster-approaches-1000",
+              "publishedAt": "2026-08-31T06:05:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chip expert moves to Zhejiang University—China strategically strengthens semiconductor research capacity",
+          "summaryDe": [
+            "Semiconductor expert Chen Ye has accepted a professorship at Zhejiang University, which has surpassed Harvard University for the first time in recent research rankings.",
+            "The move is no coincidence: China is systematically investing in bringing key researchers home from abroad to close technological gaps in the chip sector.",
+            "Zhejiang is developing into a gravitational center for semiconductor and AI talent—backed by state funding programs and favorable conditions.",
+            "For Western export controls on chip design and manufacturing, this trend poses a medium-term challenge as China systematically builds its own expertise."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's growing semiconductor competence will affect the competitive position of the German technology industry in the medium term."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "China's strategic talent acquisition in the chip field is part of a broader technological catch-up with systemic consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chip expert Chen Ye joins China's Zhejiang University – as it overtakes Harvard",
+              "url": "https://www.scmp.com/news/china/science/article/3365788/chip-expert-chen-ye-joins-chinas-zhejiang-university-just-overtook-harvard",
+              "publishedAt": "2026-08-31T06:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi and Putin meet in Bishkek—Power of Siberia 2 pipeline and SCO summit in focus",
+          "summaryDe": [
+            "On the sidelines of the SCO summit in Bishkek, Xi Jinping and Vladimir Putin met to discuss, among other things, the long-stalled Power of Siberia 2 gas pipeline project.",
+            "The meeting takes place 25 years after the founding of the Shanghai Cooperation Organization—and at a time when Beijing is expanding the organization as a counterweight to a Western-dominated world order.",
+            "The pipeline would allow Russia to permanently redirect gas exports from the European market to China—for Europe, this would mean a structural weakening of its leverage potential against Moscow.",
+            "In parallel, US sanctions threats against buyers of Iranian oil demonstrate how closely the Chinese-Russian partnership is now embedded in geopolitical tension zones."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russian gas infrastructure permanently redirected eastward would transform European energy geopolitics, on which Germany is heavily dependent."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The meeting solidifies a strategic partnership that will long-term challenge Western sanctions regimes and energy alliances."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin",
+              "publishedAt": "2026-08-29T13:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi is in Bishkek for SCO summit. How does bloc fit China's Eurasian strategy 25 years on?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365768/xi-bishkek-sco-summit-how-does-bloc-fit-chinas-eurasian-strategy-25-years",
+              "publishedAt": "2026-08-31T04:00:13Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Iceland votes against resuming EU accession negotiations—fisheries policy as decisive factor",
+          "summaryDe": [
+            "In a referendum, Iceland rejected the resumption of EU accession negotiations; analysts point to the powerful fishing sector, which feared for its quotas, as decisive.",
+            "The result was surprising insofar as discussion of European security and geopolitical protection needs had gained weight in recent years.",
+            "Commentators note that Iceland is thereby making a decision in an era of hard power politics that corresponds more to the old narrative of national sovereignty than to current security requirements.",
+            "For the EU, the 'no' is a setback, as Iceland would have been a comparatively uncomplicated accession candidate as a stable democracy and NATO member."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The Icelandic vote influences the debate on EU enlargement policy, which touches German foreign policy interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A referendum that halts the accession process of a democratic non-EU state is a significant European political development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Iceland's No to EU was poetic, but decadent in a hard-power era",
+              "url": "https://euobserver.com/234310/icelands-no-to-eu-was-poetic-but-decadent-in-a-hard-power-era",
+              "publishedAt": "2026-08-31T05:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Commission designates ChatGPT, Reddit, and Roblox as very large online platforms under Digital Services Act",
+          "summaryDe": [
+            "The European Commission has formally classified ChatGPT, Reddit, and Roblox as Very Large Online Platforms or Very Large Online Search Engines under the Digital Services Act.",
+            "With this designation, these services will henceforth be subject to stricter transparency, risk assessment, and supervisory obligations—including possible fines of up to six percent of global turnover.",
+            "The classification of ChatGPT is particularly noteworthy, as it marks the first time a generative AI chatbot falls under the DSA high-risk framework and could set precedent for regulating generative AI.",
+            "Germany, as a major digital market and home to numerous authorities enforcing the DSA, benefits directly from EU-wide uniform platform oversight."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The designation strengthens platform oversight in the German market and establishes clear rules for millions of domestic users."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The first DSA classification of a generative AI system sets a regulatory precedent with global signaling effect."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772",
+              "publishedAt": "2026-08-31T07:28:03Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Europe accelerates development of own military satellites following lessons from Ukraine war",
+          "summaryDe": [
+            "The Ukraine conflict has starkly shown the EU how dependent it is on commercial and US satellite systems—since then, Brussels has strategically invested in autonomous military space capabilities.",
+            "The backdrop includes not only the Ukraine experience but also growing strategic rivalry with China and uncertainties about long-term reliability of American partners under changing administrations.",
+            "Specifically, this concerns secure communications, reconnaissance, and navigation independence—areas where Europe has significant gaps.",
+            "For Germany, which has assumed substantial commitments in the NATO context, European space security represents a growing line item in the defense budget."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany contributes as a NATO member and EU state to financing and utilizing European space defense."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The development of independent military satellite capabilities strengthens Europe's strategic autonomy in a critical sector."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake‑up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegro's president reaffirms EU accession course as strategic priority",
+          "summaryDe": [
+            "Montenegro's President Milatović reaffirmed following Iceland's referendum that his country regards the EU accession process as its most important foreign policy goal and seeks to accelerate negotiations.",
+            "The statement should be understood as a signal: while Iceland abandoned the European course, Montenegro consciously positions itself as a pro-European counterexample.",
+            "Montenegro has been in accession negotiations since 2012; progress has recently been slowed by domestic instability and rule-of-law concerns.",
+            "A credible reform perspective could strengthen support from key EU members like Germany, which regard the Western Balkans as strategically significant."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany supports EU enlargement in the Western Balkans; Montenegrin progress or setbacks influence this policy."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Reaffirmations of the EU course are politically important but lack immediate concrete significance absent new decisions."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit",
+              "url": "https://www.cnbc.com/2026/08/31/china-xi-us-trump-visit-sco-brics-modi-india.html",
+              "publishedAt": "2026-08-31T04:57:24Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

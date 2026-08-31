@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-08-31",
+  "generatedAt": "2026-08-31T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Umbenennung des Ontariosees zu 'Lake America' – Google setzt Vorgabe für US-Nutzer um",
+          "summaryDe": [
+            "Die Trump-Administration hat die Umbenennung des Ontariosees in 'Lake America' angeordnet, und Google Maps hat die Änderung bereits für US-amerikanische Nutzer implementiert – trotz scharfer Proteste Kanadas.",
+            "Premierminister Doug Ford reagierte mit offenem Widerstand und ließ kanadische Ortsschilder an den Ufern aufstellen, die den traditionellen Namen bekräftigen.",
+            "Der Vorgang reiht sich in eine Serie symbolpolitischer Namensdekrete der Regierung Trump ein, die zuletzt auch andere geographische Bezeichnungen betrafen.",
+            "Für das ohnehin angespannte US-kanadische Verhältnis bedeutet die Maßnahme eine weitere Belastung, die über Symbolik hinaus das diplomatische Klima beeinträchtigt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant, da die Eskalation im nordamerikanischen Verhältnis transatlantische Dynamiken beeinflusst."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Symbolisch aufgeladener Schritt mit realem diplomatischen Konfliktpotenzial zwischen zwei G7-Staaten."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Canada claps back at Trump's efforts to rename Lake Ontario as 'Lake America'",
+              "url": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+              "publishedAt": "2026-08-30T14:36:44Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Lake Ontario now called Lake America on Google Maps for U.S. users after Trump ordered name change",
+              "url": "https://www.pbs.org/newshour/nation/lake-ontario-now-called-lake-america-on-google-maps-for-u-s-users-after-trump-ordered-name-change",
+              "publishedAt": "2026-08-30T22:38:24Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Iran-Militäraustausch treibt Ölpreis auf 90 Dollar – Benzinpreise in den USA 37 Prozent über Vorkriegsniveau",
+          "summaryDe": [
+            "Nach dem jüngsten US-Militärschlag gegen iranische Raketenstellungen an der Straße von Hormus und dem iranischen Gegenschlag sind die globalen Ölpreise auf 90 Dollar pro Barrel gestiegen.",
+            "Für amerikanische Autofahrer bedeutet das konkret: Der Benzinpreis liegt inzwischen 37 Prozent über dem Niveau vor Ausbruch des Konflikts.",
+            "Die Preisrally reflektiert die anhaltende Unsicherheit über Transitrouten durch den Persischen Golf, der für rund ein Fünftel des weltweiten Ölhandels steht.",
+            "Gleichzeitig präsentierte Washington ein Abkommen, das US-Zugang zu venezolanischen Ölreserven von 65 Milliarden Barrel sichern soll – Experten bezweifeln jedoch, dass dies kurzfristig preisdämpfend wirkt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende Energiepreise treffen die exportabhängige deutsche Wirtschaft direkt über Produktions- und Transportkosten."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Militärischer Schlagabtausch an einer der wichtigsten Meerengen der Welt mit unmittelbaren Folgen für die globale Energieversorgung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Nepal warns of possible fresh flooding as communities grapple with devastation",
+              "url": "https://www.pbs.org/newshour/world/nepal-warns-of-possible-fresh-flooding-as-communities-grapple-with-devastation",
+              "publishedAt": "2026-08-30T15:58:55Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA greifen iranische Raketenstellungen an der Straße von Hormus an – Iran antwortet mit Raketenbeschuss",
+          "summaryDe": [
+            "Erstmals seit einem Monat haben US-Streitkräfte wieder militärisch gegen den Iran agiert: Ziel waren Raketenwerfer auf einer iranischen Insel in der Straße von Hormus.",
+            "Teheran antwortete noch am selben Tag mit Raketensalven, womit der Zyklus gegenseitiger Eskalation nach einer kurzen Ruhephase wieder aufgenommen wurde.",
+            "Die Straße von Hormuz ist für die weltweite Energieversorgung von zentraler Bedeutung; eine weitere Eskalation könnte Tankerrouten dauerhaft gefährden.",
+            "Für Europa und Deutschland stellt sich nun erneut die Frage, wie eng die transatlantische Koordination in einem möglichen Ausdehnungsszenario des Konflikts ausfallen soll."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein eskalierender Golfkonflikt bedroht die Energieversorgungssicherheit Deutschlands und Europas unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Militärischer Schlagabtausch zwischen den USA und dem Iran in einer der neuralgischsten Seepassagen der Welt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Uprava za šume: Dosta je zloupotrebe institucija i montiranih...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/824523/uprava-za-sume-dosta-je-zloupotrebe-institucija-i-montiranih-prijava-istina-ce-se-utvrdjivati-pred-nadleznim-organima",
+              "publishedAt": "2026-08-31T09:55:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Flutkatastrophe an der chinesisch-nepalesischen Grenze: Opferzahl nähert sich 1.000, über 260 Ausländer vermisst",
+          "summaryDe": [
+            "Massiver Regen hat entlang der Grenzregion zwischen China und Nepal verheerende Überschwemmungen und Erdrutsche ausgelöst; die Zahl der Todesopfer nähert sich nach Behördenangaben der Marke von 1.000.",
+            "Besonders heikel: Unter den mehr als 1.000 Vermissten befinden sich allein 261 ausländische Staatsbürger, die zuletzt in Tibet registriert waren – darunter offenbar Pilger aus mehreren Ländern.",
+            "Chinesische Cyberpolizei ist bereits gegen die Verbreitung von Gerüchten in sozialen Medien vorgegangen, was die Informationslage für Angehörige im Ausland zusätzlich erschwert.",
+            "Die Rettungsarbeiten laufen auf Hochtouren, werden aber durch weiteren Regenfall und schwieriges Gelände behindert; Nepal warnt vor erneuten Überflutungswellen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Möglicherweise sind auch deutsche Staatsangehörige unter den vermissten Ausländern, was konsularisches Handeln erfordern könnte."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine der größten grenzüberschreitenden Naturkatastrophen der Region mit fast tausend Toten und Hunderten vermisster Ausländer."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Nepal floods: 261 foreigners listed missing in Tibet, cyber police target rumours",
+              "url": "https://www.scmp.com/news/china/politics/article/3365730/china-nepal-floods-hundreds-foreigners-missing-tibet-after-disaster",
+              "publishedAt": "2026-08-30T04:31:37Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Rescue work intensifies as death toll in China-Nepal disaster approaches 1,000",
+              "url": "https://www.scmp.com/news/china/politics/article/3365810/rescue-work-intensifies-death-toll-china-nepal-disaster-approaches-1000",
+              "publishedAt": "2026-08-31T06:05:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chip-Experte wechselt zur Zhejiang-Universität – China stärkt gezielt Halbleiter-Forschungskapazitäten",
+          "summaryDe": [
+            "Der Halbleiterexperte Chen Ye hat eine Professur an der Zhejiang-Universität angenommen, die in aktuellen Forschungsrankings erstmals die Harvard University überholt hat.",
+            "Der Wechsel ist kein Zufall: China investiert systematisch in die Rückholung von Schlüsselforschern aus dem Ausland, um technologische Engpässe im Chipsektor zu schließen.",
+            "Zhejiang entwickelt sich dabei zum Gravitationszentrum für Halbleiter- und KI-Talente – mit Rückenwind durch staatliche Förderprogramme und günstige Rahmenbedingungen.",
+            "Für westliche Exportkontrollen auf Chipdesign und -fertigung bedeutet dieser Trend eine mittelfristige Herausforderung, da China eigene Expertise systematisch aufbaut."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas wachsende Halbleiterkompetenz berührt mittelfristig die Wettbewerbsposition der deutschen Technologieindustrie."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Chinas strategische Talentakquise im Chipbereich ist Teil einer breiteren technologischen Aufholjagd mit systemischen Folgen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chip expert Chen Ye joins China's Zhejiang University – as it overtakes Harvard",
+              "url": "https://www.scmp.com/news/china/science/article/3365788/chip-expert-chen-ye-joins-chinas-zhejiang-university-just-overtook-harvard",
+              "publishedAt": "2026-08-31T06:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi und Putin treffen sich in Bischkek – Power-of-Siberia-2-Pipeline und SCO-Gipfel im Fokus",
+          "summaryDe": [
+            "Am Rande des SCO-Gipfels in Bischkek sind Xi Jinping und Wladimir Putin zusammengekommen, um unter anderem über das seit Jahren stockende Projekt der Power-of-Siberia-2-Gaspipeline zu beraten.",
+            "Das Treffen findet 25 Jahre nach Gründung der Shanghaier Organisation für Zusammenarbeit statt – und zu einem Zeitpunkt, an dem Peking die Organisation als Gegengewicht zur westlich geprägten Weltordnung ausbaut.",
+            "Die Pipeline würde Russland ermöglichen, Gasexporte vom europäischen Markt dauerhaft nach China umzulenken – für Europa bedeutete das eine strukturelle Schwächung seines Druckmittelpotenzials gegenüber Moskau.",
+            "Parallel belegen US-Sanktionsdrohungen gegenüber Käufern iranischen Öls, wie eng die chinesisch-russische Partnerschaft inzwischen in geopolitische Spannungsfelder eingebettet ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine dauerhaft nach Osten umgeleitete russische Gasinfrastruktur verändert die europäische Energiegeopolitik, von der Deutschland stark abhängt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Treffen festigt eine strategische Partnerschaft, die westliche Sanktionsregimes und Energieallianzen langfristig herausfordert."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin",
+              "publishedAt": "2026-08-29T13:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi is in Bishkek for SCO summit. How does bloc fit China's Eurasian strategy 25 years on?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365768/xi-bishkek-sco-summit-how-does-bloc-fit-chinas-eurasian-strategy-25-years",
+              "publishedAt": "2026-08-31T04:00:13Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Island stimmt gegen Wiederaufnahme von EU-Beitrittsverhandlungen – Fischereipolitik als entscheidender Faktor",
+          "summaryDe": [
+            "In einem Referendum hat Island die Wiederaufnahme von EU-Beitrittsverhandlungen abgelehnt; laut Analysen war der mächtige Fischereisektor, der um seine Quoten fürchtet, ausschlaggebend.",
+            "Das Ergebnis überraschte insofern, als die Diskussion über europäische Sicherheit und geopolitische Schutzbedürfnisse in den vergangenen Jahren an Gewicht gewonnen hatte.",
+            "Kommentatoren weisen darauf hin, dass Island damit in einer Ära harter Machtpolitik eine Entscheidung trifft, die eher dem alten Narrativ nationaler Souveränität als den aktuellen Sicherheitserfordernissen entspricht.",
+            "Für die EU ist das Nein ein Dämpfer, da Island als stabiles demokratisches Land und NATO-Mitglied ein vergleichsweise unkomplizierter Beitrittskandidat gewesen wäre."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das isländische Votum beeinflusst die Debatte über EU-Erweiterungspolitik, die auch deutsche außenpolitische Interessen tangiert."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Volksabstimmung, die den Beitrittsprozess eines demokratischen Nicht-EU-Staates vorerst beendet, ist eine bedeutsame europapolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Iceland's No to EU was poetic, but decadent in a hard-power era",
+              "url": "https://euobserver.com/234310/icelands-no-to-eu-was-poetic-but-decadent-in-a-hard-power-era",
+              "publishedAt": "2026-08-31T05:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Kommission benennt ChatGPT, Reddit und Roblox als sehr große Online-Plattformen nach Digital Services Act",
+          "summaryDe": [
+            "Die Europäische Kommission hat ChatGPT, Reddit und Roblox formell als Very Large Online Platforms bzw. Very Large Online Search Engines unter dem Digital Services Act eingestuft.",
+            "Mit der Designierung unterliegen diese Dienste künftig verschärften Transparenz-, Risikobewertungs- und Aufsichtspflichten – einschließlich möglicher Bußgelder von bis zu sechs Prozent des weltweiten Umsatzes.",
+            "Besonders die Einstufung von ChatGPT ist bemerkenswert, da damit erstmals ein KI-Chatbot in den DSA-Hochrisikorahmen fällt und Präzedenzcharakter für die Regulierung generativer KI haben könnte.",
+            "Deutschland als großer Digitalmarkt und Sitz zahlreicher Behörden, die den DSA durchsetzen, profitiert direkt von einer EU-weit einheitlichen Plattformaufsicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Designierung stärkt die Plattformaufsicht im deutschen Markt und schafft klare Regeln für Millionen inländischer Nutzer."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die erstmalige DSA-Einordnung eines generativen KI-Systems setzt einen regulatorischen Präzedenzfall mit globaler Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772",
+              "publishedAt": "2026-08-31T07:28:03Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Europa beschleunigt Aufbau eigener Militärsatelliten nach Lehren aus dem Ukraine-Krieg",
+          "summaryDe": [
+            "Der Ukraine-Konflikt hat der EU schonungslos vor Augen geführt, wie abhängig sie von kommerziellen und US-amerikanischen Satellitensystemen ist – seitdem investiert Brüssel gezielt in autonome militärische Weltraumkapazitäten.",
+            "Hintergrund ist neben der Erfahrung aus der Ukraine auch die wachsende strategische Rivalität mit China und Unsicherheiten über die langfristige Verlässlichkeit amerikanischer Partner unter wechselnden Regierungen.",
+            "Konkret geht es um sichere Kommunikation, Aufklärung und Navigationsunabhängigkeit – Bereiche, in denen Europa bislang erhebliche Lücken aufweist.",
+            "Für Deutschland, das im NATO-Kontext erhebliche Verpflichtungen übernommen hat, ist die europäische Weltraumsicherheit ein wachsender Posten im Verteidigungshaushalt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland trägt als NATO-Mitglied und EU-Staat zur Finanzierung und Nutzung europäischer Weltraumverteidigung bei."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Aufbau eigenständiger militärischer Satellitenkapazitäten stärkt Europas strategische Autonomie in einem zentralen Bereich."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake‑up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegros Präsident bekräftigt EU-Beitrittskurs als strategische Priorität",
+          "summaryDe": [
+            "Montenegros Staatspräsident Milatović hat nach dem isländischen Referendum bekräftigt, dass sein Land den EU-Beitrittsprozess als wichtigstes außenpolitisches Ziel betrachtet und eine Beschleunigung der Verhandlungen anstrebt.",
+            "Die Aussage ist als Signal zu verstehen: Während Island den europäischen Kurs verwarf, positioniert sich Montenegro bewusst als proeuropäisches Gegenbeispiel.",
+            "Montenegro befindet sich seit 2012 in Beitrittsverhandlungen; der Fortschritt war zuletzt durch innenpolitische Instabilität und Rechtsstaatlichkeitsfragen verlangsamt worden.",
+            "Eine glaubwürdige Reformperspektive könnte die Unterstützung wichtiger EU-Mitglieder wie Deutschland stärken, die den Westbalkan als sicherheitspolitisch relevant einstufen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland unterstützt die EU-Erweiterung auf dem Westbalkan; montenegrinische Fortschritte oder Rückschläge beeinflussen diese Politik."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Bekräftigungen des EU-Kurses sind politisch wichtig, aber ohne neue konkrete Entscheidung von begrenzter unmittelbarer Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit",
+              "url": "https://www.cnbc.com/2026/08/31/china-xi-us-trump-visit-sco-brics-modi-india.html",
+              "publishedAt": "2026-08-31T04:57:24Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
