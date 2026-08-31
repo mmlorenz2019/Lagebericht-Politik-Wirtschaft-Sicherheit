@@ -1,0 +1,684 @@
+{
+  "schemaVersion": 3,
+  "periodType": "week",
+  "periodStart": "2026-08-24",
+  "periodEnd": "2026-08-30",
+  "generatedAt": "2026-08-31T17:19:38.654727Z",
+  "status": "partial",
+  "overallSummary": [
+    "The week of August 24-30, 2026 was characterized by the simultaneity of escalating geopolitical conflicts, erosion of liberal political orders at home, and structural shifts in the global balance of power.",
+    "The USA tightened the screws on Iran with the sanctions campaign 'Operation Economic Outcast', while Tehran threatened to blockade the Strait of Hormuz – a constellation that puts global energy markets under immediate pressure.",
+    "In parallel, US-Canada trade entered a serious crisis: failed negotiations, 50-percent tariffs and Canadian counter-tariffs mark the most severe rupture between the two closest economic partners in North America.",
+    "In the Ukraine war, Russia escalated on multiple fronts simultaneously: advancing on Sloviansk, subjecting Kyiv to 72 hours of continuous bombardment, and intelligence reports point to deliberate Russian escalation strategy – despite CIA warning.",
+    "The EU responded with a €6.1 billion defence package for Ukraine and discussions about seizing frozen Russian reserves, while Germany announced it would officially hold Russia responsible for the Leipzig attack.",
+    "China made several headlines: record-high military presence around Taiwan, the world's first commercial brain-computer interface, systematic expansion of its anti-corruption campaign to retired military personnel, and a catastrophic glacier collapse on the Nepal border with hundreds dead.",
+    "Montenegro faced increased threat pressure from hybrid attacks with suspected ties to Serbia and Russia; Premier Spajić declared the country's EU course to be the main target of these attacks, while condolences from Montenegrin politicians for war criminal Mladić further poisoned regional dynamics.",
+    "Structurally significant is the pattern of technological decoupling: Trump admitted losing the race for critical raw materials to China, while Chinese AI and electric vehicle products increasingly dominate African markets and displace European suppliers.",
+    "For Germany, four fields of action condense in this week to become immediately relevant: energy supply security in light of the Iran-Hormuz scenario, mounting pressure for further Ukraine support, consequences of the US-Canada trade crisis for North American supply chains, and the question of how far Berlin will go bilaterally beyond the EU sanctions regime against Russia.",
+    "Overall, the week demonstrates a structural concentration of crises in which classical de-escalation pathways – diplomacy, multilateral institutions, rules-based trade order – are simultaneously coming under pressure."
+  ],
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trumps Einwanderungspolitik vor Gericht – Gerichte bremsen Visaverbot und Abschiebepraxis",
+          "summaryDe": [
+            "Two separate federal court judgments set clear limits on the Trump administration this week: one court struck down the entry ban for nationals of 75 countries as legally untenable, another prohibited the deportation of Israeli-critical Stanford students citing the First Amendment.",
+            "At the same time, the Supreme Court, in a partial intervention, allowed ballot restrictions in 23 states to remain provisionally in effect – only the directive to the postal service remained blocked nationwide.",
+            "The GOP primary in South Carolina was meanwhile won by Trump-backed Darline Graham, despite her inability to answer fundamental foreign policy questions – evidence that party loyalty is increasingly replacing substantive competence.",
+            "At the end of the period, an administration stands whose immigration agenda repeatedly fails in courts, yet whose legal strategy continues to pursue escalation and appeals."
+          ],
+          "contextDe": [
+            "Trump's second term has made immigration control the top domestic political priority and has issued a multitude of measures that systematically run into constitutional limits.",
+            "The accumulation of court defeats weakens the deterrent effect of measures without resolving societal polarization.",
+            "Long-term, the question stands whether federal courts will endure as a corrective or whether Supreme Court appointments will shift the balance."
+          ],
+          "additionalImportant": "A tradesman with a valid work permit was arrested while waiting for his son to return from a Marine deployment – a single case that vividly illustrates the climate of enforcement practice.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "US domestic law developments indirectly touch Germany through debates on freedom of expression, transatlantic academic partnerships, and the image of the USA as a constitutional democracy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Court restrictions on core government measures by multiple instances simultaneously represent a significant democratic-political signal."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "transnational",
+              "titleOriginal": "Der Herbst des Friedrich Merz",
+              "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/der-herbst-des-friedrich-merz",
+              "publishedAt": "2026-08-24T03:30:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Listen: Has noise become a political issue in Europe?",
+              "url": "https://euobserver.com/233221/listen-has-noise-become-a-political-issue-in-europe",
+              "publishedAt": "2026-08-24T08:36:01Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Trump cannot deport students for criticizing Israel, judge rules",
+              "url": "https://www.pbs.org/newshour/nation/trump-cannot-deport-students-for-criticizing-israel-judge-rules",
+              "publishedAt": "2026-08-29T18:14:48Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Trump pick Darline Graham wins election despite struggling over Taiwan question",
+              "url": "https://www.scmp.com/news/us/politics/article/3365262/trump-pick-darline-graham-wins-election-despite-struggling-over-taiwan-question",
+              "publishedAt": "2026-08-26T01:25:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Kanada-Handelskrieg eskaliert – Zölle, Gegenzölle und globale Lieferkettenrisiken",
+          "summaryDe": [
+            "After trade negotiations between Washington and Ottawa ended fruitlessly, Trump followed through with an announcement of 50-percent tariffs on Canadian goods from January 2027 – Canada responded promptly with counter-tariffs on US goods worth $20 billion.",
+            "The escalation spiral between two countries that for decades had been a model of economic integration sets a new quality in trade dispute: no longer abstract threats, but concrete counter-tariffs mark the new reality.",
+            "Fed Chair Kevin Warsh further darkened the economic picture by warning publicly at the Jackson Hole gathering about persistent inflation, thereby fueling expectations of interest rate hikes.",
+            "Meta closed the week with an $18 billion settlement in a youth protection dispute – a precedent that puts TikTok, YouTube and other platforms under comparable regulatory pressure."
+          ],
+          "contextDe": [
+            "The North American free trade zone had for decades been the foundation of a deeply integrated value chain on which European – in particular German – automotive manufacturers and suppliers are heavily dependent.",
+            "Trump's tariff policy increasingly treats trade agreements as short-term negotiating currency, which fundamentally undermines planning certainty for multinational corporations.",
+            "The simultaneous warning from the Fed chair about inflation signals that US monetary policy could generate additional economic headwinds."
+          ],
+          "additionalImportant": "Trump admitted to Brazilian government officials that the US has lost the race for critical minerals to China – a remarkably candid strategic self-assessment from the White House.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German automakers, suppliers and the financial sector are directly affected by tariff shifts in the North American space, US interest rate decisions and new platform regulations."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "An outright trade war between the two largest North American economies combined with monetary policy headwinds has systemic global reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US admits defeat in China minerals race. Can Brazil turn panic into processing power?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365239/us-admits-defeat-china-minerals-race-can-brazil-turn-panic-processing-power",
+              "publishedAt": "2026-08-25T13:48:52Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+              "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+              "publishedAt": "2026-08-28T16:11:51Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "Meta's $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?",
+              "url": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
+              "publishedAt": "2026-08-29T05:00:01Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran-Sanktionskampagne, Venezuela-Öldeal und geschwächte Allianzarchitektur – Washingtons außenpolitische Woche",
+          "summaryDe": [
+            "With 'Operation Economic Outcast', the USA launched what it describes as the most comprehensive financial offensive against Iran, accompanied by secondary sanctions against Chinese companies as the main buyers of Iranian oil – Tehran threatened to fully blockade the Persian Gulf.",
+            "Parallel to this, Trump announced an oil deal with Venezuela that would grant the US majority rights to more than 65 billion barrels of reserves – under unclear legal and governmental preconditions.",
+            "In the Indo-Pacific, the administration set multiple risk signals: Trump halted joint military exercises with South Korea, while Congress debated a nuclear agreement with Saudi Arabia that experts classify as a proliferation risk.",
+            "The overall picture of the week shows a foreign policy that increasingly treats traditional alliance commitments as negotiating currency and confronts both allies and adversaries with maximum pressure instruments."
+          ],
+          "contextDe": [
+            "US Iran policy has been oriented toward maximum pressure since 2018; the new sanctions round extends this concept for the first time consistently to third countries trading with Tehran.",
+            "The suspension of joint maneuvers with South Korea hollows out a core mechanism of deterrence against North Korea that for decades has secured stability on the Korean peninsula.",
+            "For European allies, this combination increases pressure to formulate their own security guarantees and no longer rely solely on US alliance reliability."
+          ],
+          "additionalImportant": "Iran declared that 'not a single drop of oil' would leave the Gulf – whether this is negotiating rhetoric or genuine escalation intent remains unclear and significantly raises the risk of miscalculation.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A Hormuz crisis would directly hit Germany as a heavily energy-import-dependent economy; the weakening of US alliance architecture increases pressure for European autonomy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Simultaneous sanctions offensive against Iran with global third-party pressure, resource appropriation in Venezuela and hollowing out of Asian alliance structures are of extraordinary geopolitical reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
+              "url": "https://www.cnbc.com/2026/08/28/treasury-uae-banque-misr-sanctions-iran.html",
+              "publishedAt": "2026-08-28T18:13:13Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Trump says U.S. has entered deal with Venezuela to control 65 billion barrels of its oil reserves",
+              "url": "https://www.pbs.org/newshour/politics/trump-says-u-s-has-entered-deal-with-venezuela-to-control-65-billion-barrels-of-its-oil-reserves",
+              "publishedAt": "2026-08-28T23:35:32Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "transnational",
+              "titleOriginal": "Burnham ups the ante in fight against Russia — and leaves Merz in the shade",
+              "url": "https://www.politico.eu/article/british-prime-minister-andy-burnham-ukraine-ups-ante-against-russia",
+              "publishedAt": "2026-08-24T17:00:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi festigt Kontrolle – Antikorruptionskampagne, Militärsäuberungen und Gesetz mit globaler Reichweite",
+          "summaryDe": [
+            "The week brought three parallel signals of intensification in Xi's power consolidation: the National People's Congress formally removed two senior generals – including former deputy chairman of the Central Military Commission Zhang Youxia – from their posts.",
+            "Simultaneously, the campaign expanded its focus to retired cadres and procurement violations in the rocket force, while a new anti-corruption law with explicitly extraterritorial reach was debated in the People's Congress.",
+            "The combination suggests that Xi is systematically re-anchoring institutional loyalty within the People's Liberation Army – retirement no longer protects against prosecution.",
+            "The death of former Premier Zhu Rongji prompted public reflection on a reform era that has clearly lost momentum under Xi – an unspoken but palpable contrast to the present."
+          ],
+          "contextDe": [
+            "Xi's anti-corruption campaign began in 2012 and has since captured tens of thousands of cadres; it serves both discipline and elimination of political rivals.",
+            "The extraterritorial extension of the legal framework would be qualitatively new: Chinese citizens and companies abroad would then fall directly under domestic criminal law – with consequences for legal conflicts in partner countries.",
+            "Xi's reach into military leadership beyond retirement age signals that he wants to close structural loyalty gaps in the military before strategic tensions escalate."
+          ],
+          "additionalImportant": "A scholar warns that reforms to the gaokao exam are leading fewer students to choose history as a required subject – which long-term could increase susceptibility to nationalist historical narratives.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German companies and employees with intensive China business could be indirectly affected by extraterritorial Chinese criminal norms; military purges signal medium-term stability risks."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematic expansion of a power consolidation campaign to new target groups and international legal dimensions is a significant signal for Xi's long-term rule strategy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "No immunity: how Xi's anti-corruption fighters are zeroing in on fresh targets",
+              "url": "https://www.scmp.com/news/china/politics/article/3365175/no-immunity-how-xis-anti-corruption-fighters-are-zeroing-fresh-targets",
+              "publishedAt": "2026-08-25T22:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's anti-corruption legal framework is about to extend beyond its borders",
+              "url": "https://www.scmp.com/news/china/politics/article/3365160/chinas-anti-corruption-legal-framework-about-extend-beyond-its-borders",
+              "publishedAt": "2026-08-25T05:53:17Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China strips former generals Zhang Youxia and Liu Zhenli of top military positions",
+              "url": "https://www.scmp.com/news/china/military/article/3365646/china-strips-former-generals-zhang-youxia-and-liu-zhenli-top-military-positions",
+              "publishedAt": "2026-08-28T13:06:16Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Remembering Zhu Rongji and understanding his legacy",
+              "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3364730/remembering-zhu-rongji-and-understanding-his-legacy",
+              "publishedAt": "2026-08-24T01:30:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas technologische Expansion – Afrika, Neurotechnik und der 'asiatische Wasserturm' unter Stress",
+          "summaryDe": [
+            "African technology firms increasingly turn to Chinese AI models and pursue a multi-vendor strategy; simultaneously, China's low-cost battery technology attracts African companies for electric vehicles – Western providers are structurally losing market share on a growth continent.",
+            "In medical technology, China set a global precedent: the first commercial invasive brain-computer interface was implanted, almost simultaneously with the first insurance policy for such procedures – a clear step toward clinical scaling beyond experimental status.",
+            "Scientifically alarming is the study in Nature Communications documenting increasing destabilization of the Tibetan plateau – the 'Asian water tower' that supplies fresh water to roughly three billion people.",
+            "China's coal-to-liquids facility in Ningxia, which aims to increase the economic value of coal by 700 percent, demonstrates Beijing's parallel industrial strategy: not merely burning fossil fuels but utilizing them as high-value industrial raw materials."
+          ],
+          "contextDe": [
+            "China's systematic market penetration in Africa follows a familiar pattern: price advantage and state backing enable market breakthrough in segments Western providers have neglected.",
+            "Commercial BCI implantation signals that China regards the neurotechnology race not as an experimental field but as an industrial policy mandate – with regulatory and ethical questions that remain internationally unresolved.",
+            "Destabilization of the Himalayan plateau has geopolitical dimension: it affects water supply, border security and planning of infrastructure projects like the contested Tibet-Nepal railway."
+          ],
+          "additionalImportant": "The satellite company PIESAT directed six radar satellites to the disaster area within hours – evidence of China's grown commercial space capabilities as a security-policy-relevant resource.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German automotive and technology companies are losing market share in Africa to China; German neurotech regulation faces pressure from Chinese commercialization; water tower instability affects global climate risk planning."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "China's coordinated technological expansion on multiple fields simultaneously – markets, medical technology and raw materials strategy – represents a structurally significant geopolitical-economic shift."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Why China's EV boom is seen as an 'unparalleled opportunity' in Africa",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3364799/why-chinas-ev-boom-seen-unparalleled-opportunity-africa",
+              "publishedAt": "2026-08-22T10:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China thinks big on brain-computer interfaces after world-first surgery",
+              "url": "https://www.scmp.com/plus/tech/big-tech/article/3365525/china-thinks-big-brain-computer-interfaces-after-world-first-surgery",
+              "publishedAt": "2026-08-28T03:17:36Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "The 'Asian water tower' is starting to wobble, computer simulations show",
+              "url": "https://www.scmp.com/news/china/science/article/3365514/asian-water-tower-starting-wobble-computer-simulations-show",
+              "publishedAt": "2026-08-28T14:00:14Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China boosts coal's economic value 700% after turning it to liquids: report",
+              "url": "https://www.scmp.com/news/china/science/article/3365027/china-boosts-coals-economic-value-700-after-turning-it-liquids-report",
+              "publishedAt": "2026-08-24T10:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Rekorddruck auf Taiwan, erste F-16-Lieferung und Bangladeschs Rüstungswahl als Signal",
+          "summaryDe": [
+            "Chinese government ships were sighted near Taiwan 118 times in the first 24 days of August – the third record month in a row; the Tong-Ji research vessel operated near Taiwan's largest naval base for the third time in three months.",
+            "Taiwan responded by unveiling specifications for its new Strong Bow defense missile and a parliamentary motion for $1.13 billion for mass production; simultaneously, Taipei received its first F-16 Block 70 fighters from US delivery.",
+            "Bangladesh's publicly justified decision for Chinese J-10CE jets – with explicit reference to their alleged downing of Indian Rafale aircraft – sends a clear signal to the global arms market: Chinese combat jet technology is increasingly viewed as a credible Western alternative.",
+            "Xi and Putin confirmed a meeting in Bishkek with the Power of Siberia 2 pipeline project on the agenda – a sign of continued Sino-Russian rapprochement, which structurally undermines Western sanctions strategies."
+          ],
+          "contextDe": [
+            "The record presence of Chinese ships follows a pattern that uses military reconnaissance under civilian cover – diplomatically difficult to grasp, operationally highly effective.",
+            "Transfer of Western combat jet technology to Taiwan expands Taipei's operational capabilities but does not close the gap with the J-20 – which maintains long-term structural asymmetry.",
+            "Sino-Russian energy partnership strengthens Moscow's economic endurance despite Western sanctions and is thereby an indirect factor in European Ukraine strategy."
+          ],
+          "additionalImportant": "US sanctions against Chinese companies over Iran dealings escalate the Washington-Beijing relationship further and raise the risk of new coupling of trade and security conflicts.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An escalation in the Taiwan Strait would massively disrupt semiconductor and electronics supply chains on which German industry also depends heavily; the Sino-Russian pipeline strengthens Russia's sanctions resilience and directly affects German security interests."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Sustained record presence of Chinese ships, Taiwan's rearmament offensive, a geopolitically impactful arms purchase in Bangladesh and Sino-Russian rapprochement together represent an extraordinary security-political concentration."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Mainland China's ship activity near Taiwan hits record for third month in a row",
+              "url": "https://www.scmp.com/news/china/military/article/3365081/mainland-chinas-ship-activity-near-taiwan-hits-record-third-month-row",
+              "publishedAt": "2026-08-24T15:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan unveils Strong Bow anti-ballistic missile specs in push for US$1.13 billion funding",
+              "url": "https://www.scmp.com/news/china/military/article/3365082/taiwan-unveils-strong-bow-anti-ballistic-missile-specs-push-us113-billion-funding",
+              "publishedAt": "2026-08-24T11:57:12Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Bangladesh confirms Chinese J-10CE jet deal, citing Rafale kill in India-Pakistan clash",
+              "url": "https://www.scmp.com/news/china/military/article/3365553/bangladesh-confirms-chinese-j-10ce-jet-deal-citing-rafale-kill-india-pakistan-clash",
+              "publishedAt": "2026-08-28T09:00:12Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin",
+              "publishedAt": "2026-08-29T13:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Hybridbedrohungen, Mladić-Eklat und institutionelle Schwächen belasten Montenegros EU-Kurs",
+          "summaryDe": [
+            "Montenegro faced triple domestic political pressure this week: Premier Spajić declared EU integration process to be the main target of ongoing hybrid attacks with suspected ties to Serbia; President Milatović convened a special security council.",
+            "Expressions of condolence from Montenegrin politicians for convicted war criminal Ratko Mladić triggered sharp Croatian criticism and created a public image defect that Brussels could not have missed.",
+            "Parallel institutional deficits remained visible: formation of the new electoral commission failed despite Brussels timelines; debates over the general prosecutor's role in the constitutional council reveal unresolved justice reform questions.",
+            "Widespread forest fires in at least six regions, requiring international air support, and the high bounty on fugitive Milović complemented the picture of a government under pressure on multiple fronts simultaneously."
+          ],
+          "contextDe": [
+            "Montenegro achieved NATO membership in 2017 and seeks EU accession, but faces sustained Russian-Serbian influence attempting to systematically slow reform processes.",
+            "Hybrid attacks below the threshold of overt violence – disinformation, political networks, religious influence – are particularly difficult for a small country like Montenegro to counter and diplomatically difficult to escalate.",
+            "Public veneration of war criminals by political actors of an EU accession candidate is a direct impediment to the accession process and signals the depth of nationalist counter-current."
+          ],
+          "additionalImportant": "Smuggling of mobile phones worth €2.6 million across the Montenegrin border points to organized criminal structures – a topic the EU closely monitors in accession dialogue under the rule of law chapter.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As an EU member, Germany has an interest in stable and credible Western Balkans enlargement; direct consequences for Germany remain limited."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Developments are relevant for Montenegro's EU integration process and regional Balkans stability but do not cross the threshold of international crisis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Spajić: Meta hibridnog udara je evropski put Crne Gore",
+              "url": "https://www.pobjeda.me/clanak/spajic-meta-hibridnog-udara-je-evropski-put-crne-gore",
+              "publishedAt": "2026-08-28T06:35:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "MVP Hrvatske: Mandićevo saučešće povodom smrti Mladića je neprihvatljivo, ovo ne pomaže EU putu Crne Gore",
+              "url": "https://www.pobjeda.me/clanak/mvp-hrvatske-mandicevo-saucesce-povodom-smrti-mladica-je-neprihvatljivo-ovo-ne-pomaze-eu-putu-crne-gore",
+              "publishedAt": "2026-08-28T15:00:31Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent news",
+              "titleOriginal": "Dvadeset devet nezgodnih pitanja",
+              "url": "https://www.vijesti.me/kolumne/823322/dvadeset-devet-nezgodnih-pitanja",
+              "publishedAt": "2026-08-24T08:00:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Vučinić za Pobjedu: Potreban hitan odgovor na hibridne prijetnje kojima gotovo svakodnevno svjedočimo",
+              "url": "https://www.pobjeda.me/clanak/vucinic-potreban-hitan-odgovor-na-hibridne-prijetnje-kojima-gotovo-svakodnevno-svjedocimo",
+              "publishedAt": "2026-08-29T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "contextDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU-Rüstungspaket und Mladić-Debatte: Montenegro im Spannungsfeld zwischen NATO-Bündnis und regionaler Symbolpolitik",
+          "summaryDe": [
+            "The €6.1 billion EU defence package for Ukraine is no abstract development for Montenegro as a NATO member and EU accession candidate: the country itself faces considerable Russian-Serbian influence and must repeatedly actively reaffirm its positioning alongside Western partners.",
+            "Public expressions of condolence from Montenegrin politicians for war criminal Ratko Mladić – which the UEFA simultaneously used as occasion for disciplinary proceedings against Red Star Belgrade – undermine precisely this credibility.",
+            "The UEFA proceeding is limited in sports jurisdiction but sends a clear signal that veneration of convicted war criminals finds no tolerance in European institutions.",
+            "At the period's end, Montenegro stands as a country security-policy oriented toward the West but regularly pulled by nationalist forces domestically back toward old alignments."
+          ],
+          "contextDe": [
+            "Montenegro's 2017 NATO accession was highly controversial domestically and accompanied by Russian influence; alliance loyalty has since been continuously tested.",
+            "Veneration of figures from the Yugoslav wars is a persistent political tool in the Western Balkans that undermines both reform process and accountability for the past.",
+            "European institutions like the UEFA can set symbolic sanctions in isolated cases but cannot substitute political conditioning in the EU accession process."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As an EU member and NATO partner, Germany has an interest in Montenegro's stability and the credibility of the enlargement process; direct consequences remain limited."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant for regional EU integration process and NATO coherence on the Western Balkans; no immediate international escalation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent news",
+              "titleOriginal": "Ursula fon der Lajen: Ukrajini odobreno 6,1 milijardi eura za odbranu",
+              "url": "https://www.vijesti.me/svijet/evropa/823408/ursula-fon-der-lajen-ukrajini-odobreno-61-milijardi-eura-za-odbranu",
+              "publishedAt": "2026-08-24T07:11:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Zvezdan Mitrović: Pretrčali su nas i pregazili",
+              "url": "https://www.pobjeda.me/clanak/zvezdan-mitrovic-pretrcali-su-nas-i-pregazili",
+              "publishedAt": "2026-08-28T20:31:22Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Schengen-Erosion, Migrationspolitik-Spaltung und Moldaus sicherheitspolitischer Kurswechsel",
+          "summaryDe": [
+            "Multiple EU member states increasingly use internal border controls as domestic political leverage rather than security exception – a creeping erosion of the Schengen agreement occurring below public attention.",
+            "In migration disputes, Spain and the EU Commission stand openly in conflict: Madrid houses unaccompanied minor migrants while Brussels, in a stance assessed by NGOs as approximation to right-wing positions, demands their return.",
+            "Moldova held its first military parade on Independence Day – a symbolically loaded signal that the country no longer understands itself as neutral buffer, and simultaneously a test of what concrete security guarantees the EU can provide an accession candidate.",
+            "Iceland rejected EU accession talks in a referendum – a politically symbolic setback for already sluggish enlargement discussion."
+          ],
+          "contextDe": [
+            "Border instrumentalization by member states is not new but has become structural in character since the 2015 migration crisis and is intensified by political competition in many EU countries.",
+            "Moldova's shift toward open Western orientation occurred under direct impression of Russian aggression against Ukraine and illustrates how security threats can accelerate accession dynamics.",
+            "Iceland's no shows enlargement is not automatic even where tight economic integration already exists."
+          ],
+          "additionalImportant": "The EU rejected a citizen initiative on 'remigration' for the first time because it violated fundamental values – observers see this as possible revitalization of the transnational democracy instrument.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany as core Schengen territory and largest EU contributor is directly affected by border controls, migration policy and enlargement dynamics."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Simultaneous erosion of central EU integration mechanisms – Schengen, migration coherence, enlargement dynamics – is structurally significant for the union's self-conception."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Domestic politics and impunity, not migration, is greatest threat to Schengen",
+              "url": "https://euobserver.com/233077/domestic-politics-and-impunity-not-migration-is-greatest-threat-to-schengen",
+              "publishedAt": "2026-08-21T13:01:12Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Spain to care for lone migrant children, as EU Commission joins far-right calls to send them back",
+              "url": "https://euobserver.com/233047/spain-to-care-for-migrant-children-as-eu-commission-joins-far-right-calls-to-send-them-back",
+              "publishedAt": "2026-08-20T16:56:57Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "After today's Independence Day parade, Moldova needs hard security guarantees against Moscow",
+              "url": "https://euobserver.com/233874/after-todays-independence-day-parades-moldova-needs-hard-security-guarantees-against-moscow",
+              "publishedAt": "2026-08-27T10:57:29Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Technologiesouveränität unter Druck – KI im Bankensektor, Forschungsfinanzierung und Sanktionsumgehung",
+          "summaryDe": [
+            "Generative AI is structurally transforming Europe's banking sector: 2.6 million workers are affected, productivity gains remain unallocated through regulation, and copyright questions regarding AI-generated content remain unresolved both judicially and legislatively.",
+            "The president of the French Academy of Sciences warns that Europe's research institutions are chronically underfunded and thus permanently fall behind in competition with the US in AI and with SpaceX in space – without substantial increases, technological permanent dependence threatens.",
+            "A Dutch government think tank called on the EU to tighten tariffs and controls against China to prevent competition that undermines European standards in data protection, labor rights and climate protection – a proposal with direct consequences for Germany's China policy.",
+            "Within the internal market, an Irish alumina refinery with Russian connections uses accounting tricks to circumvent EU sanctions – a structural enforcement deficit burdening the credibility of the sanctions regime."
+          ],
+          "contextDe": [
+            "Europe's technological gap versus the US and China is recognized in science and politics, yet counter-measures regularly fail due to funding constraints, fragmented national strategies and missing joint investment frameworks.",
+            "Sanctions evasion within the internal market illustrates that effectiveness of EU sanctions depends not only on their formulation but on seamless enforcement across 27 member states – a structurally difficult task.",
+            "Dutch calls for a harder China trade line come at a moment when Xi Jinping wants to visit Washington and a Sino-American trade ceasefire is in the air, putting the EU under pressure toward independent positioning."
+          ],
+          "additionalImportant": "EU deficit rules force member states to reduce firefighter personnel – in the year classified as Europe's worst wildfire year on record. France alone cut over 4,000 professional firefighters.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is the EU's largest research location and largest exporting nation with intensive China entanglement; AI regulatory gaps, research funding and trade policy directly affect German interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneity of technological transformation without regulatory framework, research underfunding, China trade debate and sanctions evasion within the internal market represents a structurally significant weakening of European competitive position."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Who profits from banking's AI moment?",
+              "url": "https://euobserver.com/232859/who-profits-from-bankings-ai-moment",
+              "publishedAt": "2026-08-20T09:27:47Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "[Interview] Europe's labs are chronically underfunded and sovereignty is at stake, says French Academy chief Françoise Combes",
+              "url": "https://euobserver.com/229995/interview-europes-labs-are-chronically-underfunded-and-sovereignty-is-at-stake-says-french-academy-chief-francoise-combes",
+              "publishedAt": "2026-08-22T09:08:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Dutch government think-tank pushes EU for tougher tariffs and controls on China",
+              "url": "https://euobserver.com/233923/dutch-government-thinktank-pushes-eu-for-tougher-tariffs-and-controls-on-china",
+              "publishedAt": "2026-08-27T09:36:32Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Irish alumina refinery is Russian Trojan Horse in EU sanctions",
+              "url": "https://euobserver.com/232888/irish-alumina-refinery-is-russian-trojan-horse-in-eu-sanctions",
+              "publishedAt": "2026-08-20T14:17:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ukraine-Krieg eskaliert: EU-Rüstungspaket, russische Offensivpläne und Deutschlands Leipzig-Sanktionen",
+          "summaryDe": [
+            "The EU approved €6.1 billion for Ukrainian arms procurement – air defense, missiles, ammunition – symbolically on Ukraine's Independence Day; Britain simultaneously announced transfer of classified SCALP missile technology to Kyiv to enable Ukrainian indigenous production of long-range weapons.",
+            "On the battlefield, the situation simultaneously deteriorated: Russia broke through defense lines before Sloviansk, bombarded Kyiv for nearly 72 hours almost continuously, killed at least 37 people in a drone attack on a munitions depot and plans further escalation according to intelligence reports despite CIA warning.",
+            "Chancellor Merz prepared, according to reports, official attribution to Russia for the Leipzig attack and plans bilateral sanctions – one of Berlin's most direct public responsibility assignments since war's beginning.",
+            "Voices in the EU demand seizure of frozen Russian reserves of €210 billion for Ukrainian reconstruction while EU unity remains after Orbán's departure; Europe is additionally working on autonomous military satellites to reduce dependence on US systems."
+          ],
+          "contextDe": [
+            "The defence package marks a qualitative shift in Western support: no longer merely weapons deliveries but rather building Ukrainian arms production capacity stands in foreground – a response to experience that supply chains respond too slowly.",
+            "North Korean weapons deliveries to Russia have noticeably raised Moscow's offensive capacity and could prove decisive for winter campaign – an asymmetry to which the West has not yet found convincing response.",
+            "Germany's decision to escalate bilaterally beyond the EU sanctions regime is domestically sensitive and raises the question of how far European member states should and want to independently escalate in Russia policy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany is largest European contributor to Ukraine support, directly affected by Russian escalation in NATO security architecture and plans with the Leipzig sanctions step a direct bilateral confrontation with Moscow."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The combination of €6 billion defence package, Russian escalation strategy despite warnings, massive civilian-targeting strike on Kyiv and Germany's Leipzig sanctions plan is of extraordinary strategic significance for Europe's security architecture."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion for Ukraine's defence",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+              "publishedAt": "2026-08-23T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Alarming reports that Putin aims to escalate war, despite CIA warning (Ukraine Battlefield update, Day 1,645)",
+              "url": "https://euobserver.com/234012/alarming-reports-that-putin-aims-to-escalate-war-despite-cia-warning-ukraine-battlefield-update-day-1645",
+              "publishedAt": "2026-08-27T11:56:28Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Russian strike near Kyiv kills 37 in one of the year's deadliest attacks",
+              "url": "https://www.pbs.org/newshour/world/russian-strike-near-kyiv-kills-37-in-one-of-the-years-deadliest-attacks",
+              "publishedAt": "2026-08-29T15:10:40Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "transnational",
+              "titleOriginal": "Germany plans to blame Russia for Leipzig attack as tensions with Putin escalate",
+              "url": "https://www.politico.eu/article/friedrich-merz-berlin-sanctions-russia-vladimir-putin-leipzig-attach-ascalate",
+              "publishedAt": "2026-08-29T11:01:55Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Seize Russia's frozen €210bn for Ukraine now – while EU unity lasts",
+              "url": "https://euobserver.com/233219/seize-russias-frozen-e210bn-for-ukraine-now-while-eu-unity-lasts",
+              "publishedAt": "2026-08-24T10:45:24Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe scrambles to secure its own military satellites after Ukraine's wake-up call",
+              "url": "https://euobserver.com/231080/europe-scrambles-to-secure-its-own-military-satellites-after-ukraines-wakeup-call",
+              "publishedAt": "2026-08-29T06:02:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceReportDates": [
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30"
+  ],
+  "missingReportDates": [
+    "2026-08-27"
+  ]
+}
