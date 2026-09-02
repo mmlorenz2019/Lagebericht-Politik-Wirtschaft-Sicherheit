@@ -50,14 +50,17 @@ def build_period_client(
 ) -> AnthropicMessagesClient:
     options = {
         "max_tokens": int(os.environ.get("ANTHROPIC_PERIOD_MAX_TOKENS", "16384")),
-        # The August month report (31 days x 4 countries) timed out in
-        # production at the previous 600s default ("The read operation
-        # timed out") - a month report over four countries is far larger
-        # than anything measured when that default was chosen. Doubled
-        # with headroom; this only affects the unattended weekly/monthly
-        # background job, so a longer wait has no user-facing cost.
+        # Even at 1200s, the August month report (31 days x 4 countries)
+        # still hit "The read operation timed out": a non-streaming request
+        # blocks on a single read() for the model's ENTIRE generation time,
+        # so raising this value only delays the same failure once
+        # generation runs long enough. Streaming (below) sends incremental
+        # chunks throughout generation, so this timeout only has to cover
+        # the gap between chunks, not the whole request - kept generous
+        # as a safety margin, not because the request is expected to need it.
         "timeout_seconds": float(os.environ.get("ANTHROPIC_PERIOD_TIMEOUT_SECONDS", "1200")),
         "usage_observer": usage_observer,
+        "stream": True,
     }
     if transport is not None:
         options["transport"] = transport

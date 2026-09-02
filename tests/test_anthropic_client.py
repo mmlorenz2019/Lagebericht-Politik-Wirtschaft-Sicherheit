@@ -1,5 +1,6 @@
 from copy import deepcopy
 from io import BytesIO
+import json
 import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError, URLError
@@ -159,6 +160,102 @@ class AnthropicClientTests(unittest.TestCase):
         request = opener.call_args.args[0]
         self.assertEqual(request.full_url, "https://api.anthropic.com/v1/messages")
         self.assertEqual(opener.call_args.kwargs["timeout"], 180.0)
+
+    def test_streaming_transport_reconstructs_content_stop_reason_and_usage(self):
+        # Non-streaming period-report requests measured "The read operation
+        # timed out" in production: a single response.read() call blocks for
+        # the ENTIRE generation time of a large report, so raising the
+        # client timeout just delays the same failure. SSE streaming sends
+        # incremental chunks throughout generation, so the read timeout only
+        # has to cover the gap between chunks, not the whole request. This
+        # reconstructs a non-streaming-shaped result from raw SSE bytes -
+        # the exact wire format from the Anthropic API docs - so the rest of
+        # generate_json() needs no branching.
+        client_class = load_client_class()
+        observed = []
+        sse_body = (
+            b'event: message_start\n'
+            b'data: {"type":"message_start","message":{"id":"msg_1","usage":'
+            b'{"input_tokens":500,"cache_creation_input_tokens":0,'
+            b'"cache_read_input_tokens":0,"output_tokens":1}}}\n'
+            b'\n'
+            b'event: content_block_start\n'
+            b'data: {"type":"content_block_start","index":0,"content_block":'
+            b'{"type":"text","text":""}}\n'
+            b'\n'
+            b'event: content_block_delta\n'
+            b'data: {"type":"content_block_delta","index":0,"delta":'
+            b'{"type":"text_delta","text":"{\\"ok\\":"}}\n'
+            b'\n'
+            b'event: content_block_delta\n'
+            b'data: {"type":"content_block_delta","index":0,"delta":'
+            b'{"type":"text_delta","text":"true}"}}\n'
+            b'\n'
+            b'event: content_block_stop\n'
+            b'data: {"type":"content_block_stop","index":0}\n'
+            b'\n'
+            b'event: message_delta\n'
+            b'data: {"type":"message_delta","delta":{"stop_reason":"end_turn"},'
+            b'"usage":{"output_tokens":4}}\n'
+            b'\n'
+            b'event: message_stop\n'
+            b'data: {"type":"message_stop"}\n'
+            b'\n'
+        )
+        with patch(
+            "lagebericht.anthropic_client.urlopen",
+            return_value=FakeHttpResponse(sse_body),
+        ) as opener:
+            client = client_class(
+                "secret",
+                stream=True,
+                usage_observer=lambda model, usage, outcome: observed.append(
+                    (model, usage, outcome)
+                ),
+            )
+            result = client.generate_json("model", "Rules", "Input", "example", {})
+
+        self.assertEqual(result, {"ok": True})
+        sent_payload = json.loads(opener.call_args.args[0].data.decode("utf-8"))
+        self.assertIs(sent_payload["stream"], True)
+        # output_tokens from message_start (1, still generating) must be
+        # overwritten by the final count from message_delta (4), while
+        # input_tokens (only ever sent once, on message_start) is kept.
+        self.assertEqual(
+            observed,
+            [(
+                "model",
+                {
+                    "input_tokens": 500,
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "output_tokens": 4,
+                },
+                "end_turn",
+            )],
+        )
+
+    def test_streaming_transport_without_a_terminal_message_delta_fails_safely(self):
+        client_class = load_client_class()
+        error_class = load_error_class()
+        sse_body = (
+            b'event: message_start\n'
+            b'data: {"type":"message_start","message":{"id":"msg_1","usage":'
+            b'{"input_tokens":5,"output_tokens":0}}}\n'
+            b'\n'
+            b'event: content_block_delta\n'
+            b'data: {"type":"content_block_delta","index":0,"delta":'
+            b'{"type":"text_delta","text":"{}"}}\n'
+            b'\n'
+        )
+        with patch(
+            "lagebericht.anthropic_client.urlopen",
+            return_value=FakeHttpResponse(sse_body),
+        ):
+            with self.assertRaisesRegex(error_class, "finish safely"):
+                client_class("secret", stream=True).generate_json(
+                    "model", "Rules", "Input", "example", {}
+                )
 
     def test_rejects_an_http_response_larger_than_two_megabytes(self):
         client_class = load_client_class()

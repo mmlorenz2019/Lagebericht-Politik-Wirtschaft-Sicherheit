@@ -37,6 +37,55 @@ def _anthropic_schema(value):
     return value
 
 
+def _parse_sse_response(body: bytes) -> dict:
+    """Reassemble a non-streaming-shaped result from raw SSE bytes.
+
+    Wire format is the Anthropic Messages API's documented SSE stream:
+    message_start carries the initial usage (input_tokens; output_tokens
+    starts at 0 or a small placeholder), content_block_delta text_delta
+    events carry the growing text per block index, and message_delta
+    carries the final stop_reason plus the final output_tokens - which
+    must overwrite, not add to, message_start's placeholder.
+    """
+    text_by_index: dict[int, str] = {}
+    stop_reason = None
+    usage: dict | None = None
+    for raw_line in body.decode("utf-8", errors="replace").split("\n"):
+        line = raw_line.strip()
+        if not line.startswith("data:"):
+            continue
+        try:
+            data = json.loads(line[len("data:"):].strip())
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(data, dict):
+            continue
+        event_type = data.get("type")
+        if event_type == "message_start":
+            message = data.get("message")
+            if isinstance(message, dict) and isinstance(message.get("usage"), dict):
+                usage = dict(message["usage"])
+        elif event_type == "content_block_delta":
+            delta = data.get("delta")
+            index = data.get("index")
+            if (
+                isinstance(delta, dict)
+                and delta.get("type") == "text_delta"
+                and isinstance(index, int)
+                and isinstance(delta.get("text"), str)
+            ):
+                text_by_index[index] = text_by_index.get(index, "") + delta["text"]
+        elif event_type == "message_delta":
+            delta = data.get("delta")
+            if isinstance(delta, dict) and "stop_reason" in delta:
+                stop_reason = delta["stop_reason"]
+            delta_usage = data.get("usage")
+            if isinstance(delta_usage, dict):
+                usage = {**(usage or {}), **delta_usage}
+    content = [{"type": "text", "text": text_by_index[index]} for index in sorted(text_by_index)]
+    return {"content": content, "stop_reason": stop_reason, "usage": usage}
+
+
 def _default_transport(url: str, headers: dict, payload: dict, timeout: float) -> dict:
     request = Request(
         url,
@@ -49,6 +98,8 @@ def _default_transport(url: str, headers: dict, payload: dict, timeout: float) -
             body = response.read(2_000_001)
             if len(body) > 2_000_000:
                 raise AnthropicError("Anthropic response exceeded size limit")
+            if payload.get("stream"):
+                return _parse_sse_response(body)
             return json.loads(body)
     except HTTPError as exc:
         try:
@@ -69,6 +120,7 @@ class AnthropicMessagesClient:
         usage_observer: Callable[[str, dict | None, str], None] | None = None,
         timeout_seconds: float = 180.0,
         max_tokens: int = 8192,
+        stream: bool = False,
     ):
         if not api_key or not api_key.strip():
             raise AnthropicError("ANTHROPIC_API_KEY is required for model processing")
@@ -77,6 +129,7 @@ class AnthropicMessagesClient:
         self.usage_observer = usage_observer
         self.timeout_seconds = timeout_seconds
         self.max_tokens = max_tokens
+        self.stream = stream
 
     def _observe(self, model: str, usage: dict | None, outcome: str) -> None:
         if self.usage_observer is None:
@@ -113,6 +166,8 @@ class AnthropicMessagesClient:
                 }
             },
         }
+        if self.stream:
+            payload["stream"] = True
         try:
             response = self.transport(
                 url,

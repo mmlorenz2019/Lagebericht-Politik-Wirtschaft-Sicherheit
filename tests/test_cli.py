@@ -97,6 +97,10 @@ class DailyCliTests(unittest.TestCase):
         self.assertEqual(client.generate_json("model", "rules", "input", "schema", {}), {"ok": True})
         self.assertEqual(captured["max_tokens"], 16384)
         self.assertEqual(captured["timeout"], 1200.0)
+        # Streaming: a period report's generation time can exceed any fixed
+        # read-timeout (production hit "The read operation timed out" on a
+        # non-streaming request even at 1200s) - see anthropic_client.py.
+        self.assertIs(captured["stream"], True)
 
     def test_period_client_preserves_usage_observer_injection(self):
         import scripts.run_period as run_period
