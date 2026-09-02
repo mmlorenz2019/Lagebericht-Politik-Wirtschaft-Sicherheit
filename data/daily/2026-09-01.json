@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-01",
+  "generatedAt": "2026-09-02T22:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump-Regierung verstärkt Jagd auf nichtbürgerliche Wähler vor den Midterms",
+          "summaryDe": [
+            "Die Trump-Administration hat eine groß angelegte Kampagne gestartet, um angeblichen Wählerbetrugdurch Nichtstaatsbürger aufzudecken – obwohl Wahlexperten und Behörden dieses Phänomen als außerordentlich selten einstufen.",
+            "Der Zeitpunkt kurz vor den Midterm-Wahlen lässt politische Motive vermuten: Kritiker sehen darin weniger eine Maßnahme zur Wahlsicherheit als vielmehr ein Mobilisierungsinstrument.",
+            "Parallel dazu hat die Einwanderungsbehörde ICE Elektroschockhandschuhe im Wert von 17 Millionen Dollar beschafft – ein Schritt, der Menschenrechtsorganisationen alarmiert, die vor potenziellem Missbrauch bei der Inhaftiertenkontrolle warnen.",
+            "In Miami sorgt ein neues Gerichtsverfahren mit sogenannten Massenanhörungen für chaotische Zustände und lange Warteschlangen, was die ohnehin belastete Einwanderungsgerichtsbarkeit weiter unter Druck setzt."
+          ],
+          "additionalImportant": "Medizinische Fachverbände haben Impfempfehlungen für COVID-19, Grippe und RSV herausgegeben, nachdem die Bundesbehörde ihre eigene Empfehlungsfunktion eingestellt hat – ein ungewöhnlicher Vorgang in der US-amerikanischen Gesundheitspolitik.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Maßnahmen betreffen primär die US-Innenpolitik, könnten aber das transatlantische Bild der amerikanischen Demokratie beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die gleichzeitige Eskalation bei Wahlrechts- und Einwanderungsthemen deutet auf eine systematische politische Neuausrichtung vor den Midterms hin."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Englezi su ,,neki drugi svijet\": U Premijer ligi potrošeno više nego u svim ostalim ,,ligama petice\" zajedno",
+              "url": "https://www.pobjeda.me/clanak/englezi-su-neki-drugi-svijet-u-premijer-ligi-potroseno-vise-nego-u-svim-ostalim-ligama-petice-zajedno",
+              "publishedAt": "2026-09-02T20:03:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Google entgeht Zerschlagung im Kartellverfahren – muss aber Praktiken ändern",
+          "summaryDe": [
+            "Ein US-Gericht hat entschieden, dass Google im Anzeigentechnik-Geschäft kartellrechtlich gegen geltendes Recht verstoßen hat, aber nicht zerschlagen werden muss.",
+            "Stattdessen sind Verhaltensänderungen angeordnet – was die Marktmacht des Konzerns erhält, aber künftig stärker reguliert.",
+            "Für die Digitalwirtschaft ist das Urteil dennoch bedeutsam: Es ist das bisher weitreichendste gerichtliche Eingreifen gegen Googles Anzeigengeschäft und könnte Maßstäbe für ähnliche Verfahren in Europa setzen.",
+            "Chevron hat unterdessen eine Ausweitung seiner Aktivitäten in Venezuela bekanntgegeben, nachdem die Trump-Regierung einen Öldeal mit Caracas geschlossen hat – ein geopolitisch heikler Schritt angesichts anhaltender Sanktionsregimes."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Google-Urteil könnte als Präzedenz für laufende EU-Verfahren gegen Digitalkonzerne relevant werden."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Entscheidung gegen Google ist ein seltener, konkreter kartellrechtlicher Eingriff in den US-Digitalmarkt mit internationaler Ausstrahlungswirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Put do polufinala Eurovoleja je rutina za Srbiju i Italiju - svedskoj nisu pomogla ni 42 poena Izabel Hak",
+              "url": "https://www.vijesti.me/sport/odbojka/824915/put-do-polufinala-eurovoleja-je-rutina-za-srbiju-i-italiju-svedskoj-nisu-pomogla-ni-42-poena-izabel-hak",
+              "publishedAt": "2026-09-02T20:28:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US-Iran-Krieg dauert sechs Monate: Neue Angriffe und Beratungen über Ausmaß der Schäden",
+          "summaryDe": [
+            "Sechs Monate nach Ausbruch des US-Iran-Konflikts hat Teheran erneut Nachbarstaaten am Golf mit Raketen angegriffen – offenbar als Vergeltung für amerikanische Luftschläge nach einer einmonatigen Feuerpause.",
+            "Die USA berichten von militärischen Gegenschlägen, während der Iran zivile Opfer meldet – die Darstellungen widersprechen sich in wesentlichen Punkten.",
+            "Der anhaltende Krieg belastet die Weltwirtschaft spürbar, insbesondere über die Energiemärkte und globale Lieferketten.",
+            "Trump und Xi stehen kurz vor einem Gipfeltreffen in Washington – weniger als sechs Wochen vor den Midterms, was dem Treffen innenpolitische Brisanz verleiht."
+          ],
+          "additionalImportant": "Der Flugzeugträger USS Abraham Lincoln hat in Thailand angelegt, um der erschöpften Besatzung nach monatelangem Einsatz in der Golfregion eine Pause zu gönnen – ein Signal, dass die US-Marine den operativen Rhythmus bewusst anpasst.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Der anhaltende Golfkonflikt trifft Deutschland über Energiepreise, Exportwege und die sicherheitspolitische Belastung der NATO-Partner."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein aktiver Kriegszustand zwischen den USA und Iran mit globalen Wirtschaftsfolgen ist von außerordentlicher systemischer Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source",
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Tramp: Vazdušni napadi SAD protiv Irana neće trajati predugo",
+              "url": "https://www.vijesti.me/vijesti/globus/824916/tramp-vazdusni-napadi-sad-protiv-irana-nece-trajati-predugo",
+              "publishedAt": "2026-09-02T20:41:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China erreicht Zwei-Wege-Laserkommunikation Erde–Mond – aber langsamer als NASA 2013",
+          "summaryDe": [
+            "Chinesischen Forschern ist es gelungen, eine bidirektionale Laserkommunikationsverbindung zwischen Erde und Mond herzustellen – ein technisches Kunststück, das als Meilenstein des nationalen Raumfahrtprogramms gefeiert wird.",
+            "Die erzielte Übertragungsrate bleibt allerdings deutlich hinter dem zurück, was die NASA bereits 2013 im Rahmen der LLCD-Mission demonstriert hatte – ein Befund, der die Eigendarstellung relativiert.",
+            "Trotzdem ist der Fortschritt nicht trivial: China baut systematisch Fähigkeiten für tiefräumliche Kommunikation auf, die für künftige Mondmissionen und eine mögliche Mondstation relevant sind.",
+            "Ebenfalls bemerkenswert ist ein Durchbruch chinesischer Wissenschaftler beim Reisanbau: Ein Team hat eine genetische Kreuzungsbarriere zwischen asiatischen und afrikanischen Reissorten identifiziert und Lösungsansätze für ertragreichere Hybridvarianten entwickelt – mit potenziellem Nutzen für die globale Ernährungssicherheit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Fortschritte Chinas in Weltraumtechnologie und Agrarforschung sind für die internationale Wettbewerbsposition Deutschlands mittelbar relevant."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Beide Entwicklungen sind wissenschaftlich interessant, bleiben aber in ihrer unmittelbaren Tragweite begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's 2026 moon laser communication speed is slower than Nasa's in 2013",
+              "url": "https://www.scmp.com/news/china/science/article/3365942/chinas-2026-moon-laser-communication-speed-slower-nasas-2013",
+              "publishedAt": "2026-09-02T04:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "SCO-Gipfel in Bischkek: Iran erhält Rückendeckung, trilaterales Treffen Xi–Trump–Putin im Gespräch",
+          "summaryDe": [
+            "Auf dem Jubiläumsgipfel der Shanghaier Organisation für Zusammenarbeit (SCO) in Bischkek hat die Organisation Iran in einem Grundsatzdokument zur nuklearen Sicherheit den Rücken gestärkt – ein politisches Signal gegen die US-Luftangriffe auf Teheran.",
+            "Ob diese Solidaritätsbekundung praktische Folgen hat, bleibt offen: Die SCO ist kein formelles Militärbündnis, baut aber seit Jahren informellen Gegendruck gegenüber westlich geführten Institutionen auf.",
+            "Parallel dazu berichten russische Quellen, dass Xi Jinping, Donald Trump und Wladimir Putin möglicherweise am Rande des APEC-Forums im November 2026 in Shenzhen zusammentreffen könnten – ein trilaterales Format, das es in dieser Besetzung noch nie gegeben hat.",
+            "Xi ist derzeit auf einer Nahost-Reise unterwegs, die ihn unter anderem nach Ägypten führt, wo gemeinsame Militärübungen mit der ägyptischen Luftwaffe Chinas wachsende Militärpräsenz in Afrika demonstrieren."
+          ],
+          "additionalImportant": "Amerikanische Diplomaten reisten parallel zum SCO-Gipfel nach Bischkek, um Zentralasiens Staatschefs zu umwerben – ein Beleg für den wachsenden geopolitischen Wettbewerb um Einfluss in der Region.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "SCO-Rückendeckung für Iran und ein mögliches Xi-Trump-Putin-Treffen berühren europäische Sicherheitsinteressen und die NATO-Kohäsion unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Verdichtung antiwestlicher Koordination auf dem SCO-Gipfel kombiniert mit einem möglichen historischen Dreiertreffen hat systemische geopolitische Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Iran wins SCO backing against US strikes. Will it be enough?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366129/iran-wins-sco-backing-against-us-strikes-will-it-be-enough",
+              "publishedAt": "2026-09-02T11:22:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Politische Krise um Präsident Mandić spitzt sich zu – Bošnjaken und Albaner beraten über Abberufung",
+          "summaryDe": [
+            "Die Bošnjakische Partei hat angekündigt, für eine Amtsenthebung von Präsident Mandić zu stimmen, und begründet dies mit programmatischen sowie grundsätzlichen politischen Erwägungen.",
+            "Der Albanische Forum will am 7. September entscheiden, ob er die Initiative unterstützt – ohne die Entscheidung vorab festzulegen.",
+            "Parallel dazu sorgt ein Vorfall für Empörung: An der Einfriedung des Hauses der Abgeordneten Kenana Strujić Harbić wurden Graffiti gefunden, die den verurteilten Kriegsverbrecher Ratko Mladić verherrlichen – die Betroffene fordert strafrechtliche Ermittlungen.",
+            "Sicherheitspolitisch beschäftigt Montenegro ein Schusswaffenvorfall an einem Schießstand; Polizei und Geheimdienst reagierten nach Behördenangaben effizient, doch der Ruf nach strengerer Regulierung privater Schießanlagen wird lauter."
+          ],
+          "additionalImportant": "Über 60 Prozent der Kinder wurden zu Beginn des Kindergartenjahres abgewiesen, weil ihre Eltern keine Impfdokumente vorlegen konnten – das Bildungsministerium steht unter Druck, das Problem rasch zu lösen.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die montenegrinischen Innenpolitik betrifft Deutschland derzeit nicht direkt."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Mandić-Krise ist innenpolitisch relevant für Montenegro, hat aber begrenzte regionale Außenwirkung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Policija i ANB odgovorili efikasno, sada država mora stroze urediti rad strelista",
+              "url": "https://www.pobjeda.me/clanak/policija-i-anb-odgovorili-efikasno-sada-drzava-mora-stroze-urediti-rad-strelista",
+              "publishedAt": "2026-09-02T08:58:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Albanski forum: 7. septembra će biti razmatrana inicijativa za razrjesenje Mandica-odluke se ne mogu prejudicirati",
+              "url": "https://www.vijesti.me/vijesti/politika/824900/albanski-forum-7-septembra-ce-biti-razmatrana-inicijativa-za-razrjesenje-mandica-odluke-se-ne-mogu-prejudicirati",
+              "publishedAt": "2026-09-02T18:24:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Vraneš: Ispisivanje grafita na ogradi kuće Harbić Strujić je klasicna podmetacina-opstina ce ga prekreciti",
+              "url": "https://www.vijesti.me/vijesti/politika/824901/vranes-ispisivanje-grafita-na-ogradi-kuce-harbic-strujic-je-klasicna-podmetacina-opstina-ce-ga-prekreciti",
+              "publishedAt": "2026-09-02T18:33:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU verfolgt Meta-Verfahren nach Jugendschutz weiter – AfD in Sachsen-Anhalt vor Wahlerfolg",
+          "summaryDe": [
+            "Die Europäische Kommission treibt ihr Verfahren gegen Meta unter dem Digitale-Dienste-Gesetz voran, das den Schutz Minderjähriger in sozialen Netzwerken betrifft – ungeachtet eines jüngsten Vergleichs des Konzerns in den USA.",
+            "Damit signalisiert Brüssel, dass amerikanische Regulierungskompromisse keine Bindungswirkung für den europäischen Rechtsraum entfalten.",
+            "In Deutschland steht am 6. September die Landtagswahl in Sachsen-Anhalt an, bei der die AfD laut Prognosen als stärkste Kraft erwartet wird; die Partei hat als erste politische Priorität Maßnahmen gegen Journalisten angekündigt.",
+            "Dänemark hat unterdessen erneut Gespräche über Abschiebezentren außerhalb der EU angestoßen – trotz gescheiterter Vorgängerinitiativen und Widerstand aus Spanien und Frankreich."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Der mögliche AfD-Sieg in Sachsen-Anhalt und das Meta-Verfahren berühren Deutschland als Mitgliedstaat und Medienstandort direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Digitalpolitische Durchsetzung gegenüber US-Konzernen und Verschiebungen im deutschen Parteiensystem sind bedeutsame europäische Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 02 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
+              "publishedAt": "2026-09-02T07:22:18Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Denmark to host talks to push failed deportation centres abroad – again",
+              "url": "https://euobserver.com/234725/denmark-hosting-foreign-deportation-centre-meeting",
+              "publishedAt": "2026-09-01T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU genehmigt deutschen Kapazitätsmechanismus für Stromversorgungssicherheit ab 2031",
+          "summaryDe": [
+            "Die Europäische Kommission hat einen deutschen Kapazitätsmechanismus im Umfang von bis zu 35 Milliarden Euro genehmigt, der ab 2031 die Versorgungssicherheit im deutschen Stromnetz absichern soll.",
+            "Das Instrument ist die Antwort auf die strukturelle Herausforderung, die der schrittweise Ausstieg aus fossilen Kraftwerken bei gleichzeitig schwankender erneuerbarer Erzeugung mit sich bringt.",
+            "Für Deutschland ist die Genehmigung ein wichtiger Schritt, weil sie langfristige Planungssicherheit für Investoren in regelbare Kraftwerkskapazität schafft.",
+            "Parallel verhandelt die EU mit China über ein Handelsungleichgewicht, das Brüssel als nicht tragbar bezeichnet – eine Oktober-Frist setzt den Rahmen für mögliche Gegenmaßnahmen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der genehmigte Kapazitätsmechanismus betrifft direkt die deutsche Energieversorgung und die Investitionsplanung für die Energiewende."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Entscheidung setzt einen Präzedenzfall für staatliche Eingriffe zur Stromnetzstabilisierung in der Energiewende und hat Signalwirkung für andere EU-Staaten."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "After deadly summer in Ukraine and Gaza, EU defence ministers refuse Patriot missiles and sidestep Israel sanctions",
+              "url": "https://euobserver.com/234784/after-deadly-summer-in-ukraine-and-gaza-eu-defence-ministers-refuse-patriot-missiles-and-sidestep-israel-sanctions",
+              "publishedAt": "2026-09-01T16:13:29Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "EU trade enforcers descend on Beijing demanding China fix 'untenable' imbalances",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366067/eu-trade-enforcers-descend-beijing-demanding-china-fix-untenable-imbalances",
+              "publishedAt": "2026-09-02T10:12:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russischer Anschlagsversuch auf Leipziger Flughafen löst EU-weite Reaktion aus – Von der Leyen und Rutte machen gemeinsame Front",
+          "summaryDe": [
+            "Ein vereitelter russischer Sabotageakt gegen den Leipziger Flughafen, der als Drehscheibe für Ukraine-Hilfsgüter dient, hat eine scharfe Reaktion auf EU- und NATO-Ebene ausgelöst: Kommissionspräsidentin von der Leyen und NATO-Generalsekretär Rutte erklärten gemeinsam, russische Einschüchterungsversuche würden die Unterstützung für Kiew nicht stoppen.",
+            "Deutschland schloss daraufhin ein russisches Konsulat, und auf EU-Ebene werden weitere Ausweisungen russischer Diplomaten diskutiert – Polen hat explizit dazu aufgerufen.",
+            "Der Vorfall reiht sich in ein Muster ein: Russland hat nach Einschätzung westlicher Sicherheitsbehörden auf Jet-Drohnen als Waffe umgestellt und zielt dabei zunehmend auf europäische Rüstungsproduktionsstätten und Infrastruktur.",
+            "EU-Verteidigungsminister haben jedoch abgelehnt, zusätzliche Patriot-Systeme an die Ukraine abzugeben – trotz eines blutigen Sommers, der die Dringlichkeit weiterer Luftabwehr unterstreicht."
+          ],
+          "additionalImportant": "Der Iran-Nuklearkonflikt war auch Thema beim G20-Finanzministertreffen in Asheville, wo die EU eine gemeinsame Erklärung zu Teherans Raketen- und Atomprogramm verabschiedete.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Ein russischer Anschlagsversuch auf deutschen Boden und die Schließung eines russischen Konsulats sind unmittelbar sicherheitsrelevante Ereignisse für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Russische Sabotageakte gegen NATO-Infrastruktur in Verbindung mit koordinierten diplomatischen Gegenmaßnahmen sind von außerordentlicher sicherheitspolitischer Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+              "publishedAt": "2026-09-02T10:28:49Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Von der Leyen, Rutte say Russian 'intimidation will not work' to stop Ukraine aid",
+              "url": "https://www.politico.eu/article/eu-ursula-von-der-leyen-nato-mark-rutte-say-russian-intimidation-will-not-work-to-stop-ukraine-aid",
+              "publishedAt": "2026-09-02T13:44:58Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU net‑zero target 'not politically credible', warns Belgian ECB policymaker",
+              "url": "https://euobserver.com/234866/eu-netzero-target-not-politically-credible-warns-belgian-ecb-policymaker",
+              "publishedAt": "2026-09-02T13:05:25Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
