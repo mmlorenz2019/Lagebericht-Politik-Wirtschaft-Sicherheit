@@ -96,7 +96,7 @@ class DailyCliTests(unittest.TestCase):
         client = run_period.build_period_client("test-key", transport=transport)
         self.assertEqual(client.generate_json("model", "rules", "input", "schema", {}), {"ok": True})
         self.assertEqual(captured["max_tokens"], 16384)
-        self.assertEqual(captured["timeout"], 600.0)
+        self.assertEqual(captured["timeout"], 1200.0)
 
     def test_period_client_preserves_usage_observer_injection(self):
         import scripts.run_period as run_period

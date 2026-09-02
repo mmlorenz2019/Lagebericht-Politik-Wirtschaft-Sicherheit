@@ -50,7 +50,13 @@ def build_period_client(
 ) -> AnthropicMessagesClient:
     options = {
         "max_tokens": int(os.environ.get("ANTHROPIC_PERIOD_MAX_TOKENS", "16384")),
-        "timeout_seconds": float(os.environ.get("ANTHROPIC_PERIOD_TIMEOUT_SECONDS", "600")),
+        # The August month report (31 days x 4 countries) timed out in
+        # production at the previous 600s default ("The read operation
+        # timed out") - a month report over four countries is far larger
+        # than anything measured when that default was chosen. Doubled
+        # with headroom; this only affects the unattended weekly/monthly
+        # background job, so a longer wait has no user-facing cost.
+        "timeout_seconds": float(os.environ.get("ANTHROPIC_PERIOD_TIMEOUT_SECONDS", "1200")),
         "usage_observer": usage_observer,
     }
     if transport is not None:
