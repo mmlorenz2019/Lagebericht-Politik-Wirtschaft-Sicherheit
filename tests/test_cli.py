@@ -4,8 +4,10 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
+
+from lagebericht.costs import berlin_month
 
 
 ROOT = Path(__file__).parents[1]
@@ -36,8 +38,15 @@ class DailyCliTests(unittest.TestCase):
                 ),
                 {"ok": True},
             )
+            # The cost ledger files under the CURRENT Berlin billing month
+            # (when the call actually happens), not the report_date passed
+            # above - those are intentionally independent. Deriving the
+            # expected filename the same way the production code does keeps
+            # this test correct across every future month boundary, instead
+            # of hardcoding the month the test happened to be written in.
+            current_month = berlin_month(datetime.now(timezone.utc))
             ledger = json.loads(
-                (Path(folder) / "costs" / "2026-08.json").read_text(encoding="utf-8")
+                (Path(folder) / "costs" / f"{current_month}.json").read_text(encoding="utf-8")
             )
 
         self.assertEqual(ledger["events"][0]["reportType"], "daily")

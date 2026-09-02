@@ -65,23 +65,32 @@ class WorkflowContractTests(unittest.TestCase):
         # it made this test fail permanently as soon as real usage landed,
         # blocking every later CI run (and therefore report generation) for
         # the rest of the month.
-        path = ROOT / "data" / "costs" / "2026-08.json"
+        #
+        # The current month itself is ALSO not hard-coded here anymore - an
+        # earlier version of this test hard-coded "2026-08" the same way the
+        # cost/index values below used to be hard-coded, and it broke the
+        # exact same way the moment real usage crossed into September: the
+        # index legitimately started pointing at data/costs/2026-09.json,
+        # and this assertion never updated. Ask the index which month is
+        # current instead of computing or hard-coding one independently, so
+        # this test can't drift from what the index actually says again.
+        index = json.loads((ROOT / "data" / "index.json").read_text(encoding="utf-8"))
+        self.assertEqual(index["schemaVersion"], 2)
+        current_costs = index["currentCosts"]
+        self.assertIsNotNone(current_costs, "no current cost month is set in data/index.json")
+        expected_month = current_costs["month"]
+        self.assertEqual(current_costs["path"], f"data/costs/{expected_month}.json")
+
+        path = ROOT / current_costs["path"]
         cost_report = json.loads(path.read_text(encoding="utf-8"))
 
-        self.assertTrue(validate_cost_report(cost_report, expected_month="2026-08"))
-        self.assertEqual(cost_report["collectionStartedAt"], "2026-08-03T00:00:00+02:00")
+        self.assertTrue(validate_cost_report(cost_report, expected_month=expected_month))
+        self.assertTrue(cost_report["collectionStartedAt"].startswith(expected_month))
         for key in public_keys(cost_report):
             lowered = key.lower()
             self.assertFalse(any(forbidden in lowered for forbidden in (
                 "key", "secret", "prompt", "message", "header", "requestid",
             )))
-
-        index = json.loads((ROOT / "data" / "index.json").read_text(encoding="utf-8"))
-        self.assertEqual(index["schemaVersion"], 2)
-        self.assertEqual(index["currentCosts"], {
-            "month": "2026-08",
-            "path": "data/costs/2026-08.json",
-        })
 
     def test_period_verifier_reports_missing_week_and_accepts_partial_artifact(self):
         env = {**os.environ, "PYTHONPATH": str(ROOT / "src")}
