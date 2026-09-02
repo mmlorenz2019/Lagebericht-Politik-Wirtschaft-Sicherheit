@@ -1,0 +1,467 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-02",
+  "generatedAt": "2026-09-02T23:59:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Iran War and Domestic Tensions Shape the Day",
+          "summaryDe": [
+            "The U.S. Congress passed legislation to identify foreign states behind illegal robocalls, but the dominant issue remains the six-month-long war with Iran: After a one-month combat pause, U.S. forces struck Iran again, prompting Tehran to launch retaliatory attacks on American allies in the Gulf.",
+            "Ahead of the midterm elections, the Trump administration launched a large-scale search for non-citizens on voter rolls, claiming without evidence that tens of thousands were unlawfully registered—critics see this as a politically motivated intimidation attempt.",
+            "A new DOJ legal opinion requires states to share data on undocumented persons to the immigration agency DHS or risk cuts to social benefits—the measure significantly escalates the conflict between the federal government and Democratic-run states.",
+            "Senator Ed Markey, 80, prevailed in Massachusetts's Democratic primary against 47-year-old challenger Seth Moulton, who had campaigned for generational change—a signal that incumbency and networks still trump renewal rhetoric."
+          ],
+          "additionalImportant": "U.S. immigration agency ICE faces international pressure following the death of a Chinese national in custody: Beijing is demanding explanations, and at least 57 detainees have died in ICE custody since Trump took office in January 2025.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The escalating U.S.-Iran confrontation and domestic developments indirectly affect German foreign and energy policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The resumption of active combat operations in the U.S.-Iran war is an extraordinary, internationally systemically significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcast",
+              "titleOriginal": "Iran fires on its Gulf neighbors, retaliating for U.S. strikes after a monthlong lull",
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates",
+              "publishedAt": "2026-09-02T15:18:09Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Massachusetts Sen. Markey wins primary over opponent who called for generational change",
+              "url": "https://www.pbs.org/newshour/politics/massachusetts-sen-markey-wins-primary-over-opponent-who-called-for-generational change",
+              "publishedAt": "2026-09-02T16:18:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "U.S. Bond Yields at Three-Year High—Google Wins Antitrust Case",
+          "summaryDe": [
+            "The yield on ten-year U.S. Treasury bonds reached its highest level since November 2023; New York's Fed President John Williams attributes the rise to robust economic expectations, but analysts also point to growing concerns about government debt.",
+            "A federal judge ruled against breaking up Google in the antitrust case but imposed restrictions on its advertising business—an important signal to the tech industry about how far antitrust law extends in practice.",
+            "According to the Inspector General of the IRS, staff reductions and restructuring have measurably reduced tax revenues from audit procedures—a structural budget problem that fuels the debt debate further.",
+            "Uber is laying off roughly ten percent of its workforce, citing the goal of moving faster and leaner; simultaneously, remote work was eliminated for nearly all staff and small teams were nearly halved."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising U.S. bond yields and the Google decision directly influence European financial markets and regulatory debates."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Together, the yield increase, antitrust ruling, and Uber layoffs paint a picture of structural shifts in the U.S. economy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcast",
+              "titleOriginal": "New immigration court tactic leads to huge lines and chaos in Miami",
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5951523/immigration-court-miami-backlog-mega-master",
+              "publishedAt": "2026-09-02T16:42:48Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "New York Fed's Williams says yield surge due to strong economic prospects",
+              "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
+              "publishedAt": "2026-09-02T17:21:59Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "Why bond yields are rising and why everyone should care",
+              "url": "https://www.pbs.org/newshour/economy/why-bond-yields-are-rising-and-why-everyone-should-care",
+              "publishedAt": "2026-09-02T17:27:16Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Record Oil Flows Through Hormuz Strait—Iran Attacks Gulf Neighbors",
+          "summaryDe": [
+            "Amid the ongoing U.S.-Iran war, Energy Secretary Chris Wright reported that on Monday more than 17 million barrels of oil transited the Strait of Hormuz—a wartime record showing how well global oil flows are being maintained despite active combat operations.",
+            "President Trump proposed renaming the strait the 'Trump Strait'—a remark that drew international mockery and raised questions about diplomatic seriousness.",
+            "Iran resumed fire on U.S. allies in the Gulf after a one-month combat pause; the resumption of hostilities increases the risk of further escalation in a region critical to the global economy.",
+            "The USS Abraham Lincoln docked at a Thai port after a demanding deployment phase in the Iran war—a rare public reference to the human dimension of a conflict often discussed in Washington in terms of numbers and strategy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Escalation in the Persian Gulf threatens energy supply and concretely strains German foreign and security policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The resumption of military action between the U.S. and Iran is an extraordinary event with global impact."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcast",
+              "titleOriginal": "Iran fires on its Gulf neighbors, retaliating for U.S. strikes after a monthlong lull",
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates",
+              "publishedAt": "2026-09-02T15:18:09Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+              "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html",
+              "publishedAt": "2026-09-02T15:57:08Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
+              "url": "https://www.nytimes.com/2026/09/02/world/asia/uss-lincoln-arrives-thailand.html",
+              "publishedAt": "2026-09-02T09:32:29Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "American Journalist Convicted of Espionage for Beijing",
+          "summaryDe": [
+            "Thomas Weir Pauken II, a U.S. journalist who worked for Chinese state media, was sentenced to two years in prison after pleading guilty to acting as an undeclared agent of Beijing.",
+            "The case is symptomatic of a hardened U.S. stance toward foreign influence operations: using state media as a platform for intelligence work is a pattern that American authorities are increasingly pursuing.",
+            "For China, the verdict is diplomatically awkward, coming as both countries work toward a bilateral summit meeting.",
+            "The concrete prison sentence sends a clear signal to other foreign media representatives in the U.S. about the consequences of covert work for foreign governments."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The verdict has indirect bearing on German debates about foreign influence on media and the public."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The espionage case touches on fundamental questions about state influence operations via media channels and is thus of greater significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US journalist jailed for 2 years for working as a Chinese agent",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366062/us-journalist-jailed-2-years-working-chinese-agent",
+              "publishedAt": "2026-09-02T05:07:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Trade Delegation Pushes Beijing to Correct 'Untenable' Trade Imbalances",
+          "summaryDe": [
+            "A European Commission delegation led by chief trade overseer Denis Redonnet is negotiating with Beijing over reducing China's massive trade surplus with the EU—with a deadline set for October.",
+            "Since the last round of talks in June, negotiations have shown little progress, raising pressure on both sides and raising questions about whether Brussels will take further steps.",
+            "In parallel, according to separate reports, the EU is planning new 'diversification rules' to reduce structural dependencies on Chinese supply chains—together, this paints a picture of increasingly coordinated economic decoupling.",
+            "For German companies heavily engaged in China business, both developments are of immediate practical significance."
+          ],
+          "additionalImportant": "Chinese researchers have discovered a genetic mechanism preventing crossbreeding between African and Asian rice varieties and are proposing a way to produce higher-yielding hybrids—a potentially significant contribution to global food security.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "EU-China trade talks and planned diversification rules directly affect export-oriented German industry."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The stalled negotiations and parallel EU decoupling strategy represent a major economic policy shift."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's 2026 moon laser communication speed is slower than Nasa's in 2013",
+              "url": "https://www.scmp.com/news/china/science/article/3365942/chinas-2026-moon-laser-communication-speed-slower-nasas-2013",
+              "publishedAt": "2026-09-02T04:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "SCO Celebrates 25th Anniversary in Bishkek—Possible Xi-Trump-Putin Trilateral at APEC",
+          "summaryDe": [
+            "At the SCO anniversary summit in Bishkek, the organization declared its support for Iran in light of ongoing U.S. attacks and adopted its first independent statement on nuclear security—a substantive step beyond previous SCO practice.",
+            "The Kremlin meanwhile raised the possibility that Xi Jinping, Donald Trump, and Vladimir Putin could meet trilaterally at the APEC summit on November 18-19 in Shenzhen—if realized, this would be a diplomatic event without recent precedent.",
+            "Xi Jinping traveled to Egypt ahead of a planned White House summit, where economic agreements are to be signed—the visit underscores Beijing's efforts to expand its influence in the Middle East and Africa.",
+            "China's military reach was demonstrated in parallel through joint air force exercises with Egypt ('Eagles of Civilisation'), in which J-16 fighter jets were deployed, and in documented transport flights of the Y-20 family carrying military material to the Pacific region."
+          ],
+          "additionalImportant": "U.S. envoys presented themselves at the margins of the SCO summit in Bishkek to offer a counter-narrative on the 'home turf' of Beijing and Moscow—an unusual diplomatic move illustrating competition for influence in Central Asia.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A possible Xi-Trump-Putin trilateral summit and SCO shifts would have direct consequences for European security and foreign policy, in which Germany plays a major role."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The combination of SCO nuclear diplomacy, Iran backing, and possible trilateral summit represents an extraordinary geopolitical overall picture."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "How the SCO chips away at US power without an alliance system",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3366054/how-sco-chips-away-us-power-without-alliance-system",
+              "publishedAt": "2026-09-02T08:30:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Iran wins SCO backing against US strikes. Will it be enough?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366129/iran-wins-sco-backing-against-us-strikes-will-it-be-enough",
+              "publishedAt": "2026-09-02T11:22:43Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "SCO takes landmark stand on nuclear security as Iran comes under renewed attack",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366108/sco-takes-landmark-stand-nuclear-security-iran-comes-under-renewed-attack",
+              "publishedAt": "2026-09-02T15:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi, Trump and Putin may hold trilateral meeting at next Apec forum, Kremlin says",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366039/xi-trump-and-putin-may-hold-trilateral-meeting-next-apec-forum-kremlin-says",
+              "publishedAt": "2026-09-01T23:53:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Political Dispute Over Mandić Recall—Graffiti Honors War Criminal Mladić",
+          "summaryDe": [
+            "In Montenegro, multiple parties are disputing an initiative to recall Mandić from office: The Bosniak Party and Democratic Montenegro support the move, while the Albanian Platform and ruling party PES under Prime Minister Spajić oppose it—a balance of power that makes the initiative questionable at the present time.",
+            "Graffiti honoring convicted war criminal Ratko Mladić was painted on the fence of activist Kenana Strujić Harbić; the Bosniak Party called on police and prosecutors to investigate.",
+            "Such incidents are not isolated in Montenegro—they reflect ongoing social tensions about coming to terms with the Yugoslav wars and show how close past and current politics remain.",
+            "Together, both events illustrate how strongly ethnic and historical conflict lines shape Montenegrin internal affairs, especially in phases of political polarization."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's domestic political events have no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The incidents are relevant domestically but remain limited in reach to Montenegro and the Western Balkans region."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Na dvorišnom zidu Kenane Strujić Harbić ispisan grafit koji veliča Ratka Mladića",
+              "url": "https://www.pobjeda.me/clanak/na-dvorisnom-zidu-kenane-strujic-harbic-ispisan-grafit-koji-velica-ratka-mladica",
+              "publishedAt": "2026-09-02T15:41:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent news outlet",
+              "titleOriginal": "Kalas: Ministri podržali zabranu ulaska usmjerenu na ruske vojne...",
+              "url": "https://www.vijesti.me/svijet/evropa/824911/kalas-ministri-podrzali-zabranu-ulaska-usmjerenu-na-ruske-vojne-veterane-i-stroze-vize-za-ruske-turiste",
+              "publishedAt": "2026-09-02T19:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Leipzig Attack Plot: Russian Diplomats Leave Brussels, Germany Closes Another Consulate",
+          "summaryDe": [
+            "Russian diplomats have quietly left Brussels after the EU made corresponding demands; Germany in turn responded by closing another Russian consulate in connection with the uncovered sabotage plan against Leipzig airport, through which military aid to Ukraine is routed.",
+            "Poland subsequently called for EU-wide expansion of Russian diplomatic expulsions, asserting that the attack attempt should not be treated merely as a bilateral German matter.",
+            "Commission President von der Leyen and NATO Secretary General Rutte discussed the Russian attack and reaffirmed continued Ukraine support—a reaction intended to signal unity without announcing new escalation steps.",
+            "The fact that an attack on civilian infrastructure used for military supplies now leads to concrete diplomatic consequences in several EU capitals shows a new willingness by the EU to respond directly to hybrid attacks."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany is directly and extensively affected as the target country of the sabotage act and as an actor in consulate closures."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Coordinated diplomatic expulsions following a Russian sabotage act on EU territory constitute an extraordinarily systemically significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Exclusive: Russian diplomats quietly leave Brussels, as Germany shuts another consulate over Leipzig plot",
+              "url": "https://euobserver.com/234820/exclusive-russian-diplomats-quietly-leave-brussels-as-germany-shuts-another-consulate-over-leipzig-plot",
+              "publishedAt": "2026-09-02T08:42:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Moscow likely behind drone-factory arson, says Poland's Tusk",
+              "url": "https://www.politico.eu/article/polands-donald-tusk-blames-moscow-over-a-drone-factory-fire",
+              "publishedAt": "2026-09-02T19:05:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Plans Diversification Rules Against China Dependency—Import Ban for Brazilian Meat",
+          "summaryDe": [
+            "The EU Commission is working on new regulations requiring European companies to diversify supply chains away from China; meanwhile, a visit by trade chief Denis Redonnet to Beijing showed that negotiations have made little progress since June.",
+            "The planned regulatory framework would be a structural intervention in corporate strategy that goes far beyond previous voluntary measures and would realign European industrial policy.",
+            "On another trade front, EU officials confirmed an import ban on Brazilian meat and dairy products due to phytosanitary standards—a measure that carries political explosive power in the context of the controversial EU-Mercosur agreement.",
+            "EU legislators are meanwhile resisting calls to ban Meta smart glasses over data protection violations, pointing to existing digital data protection frameworks as sufficient regulatory foundation."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "New diversification rules and the Brazilian import ban directly affect German companies and trade relations."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "EU-wide supply chain requirements would represent a major economic policy shift with global signaling effect."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU plans new 'diversification' rules to cut dependence on China",
+              "url": "https://euobserver.com/234989/eu-plans-new-diversification-rules-to-cut-dependence-on-china",
+              "publishedAt": "2026-09-02T15:48:44Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU officials confirm ban on Brazilian meat and dairy amid health concerns",
+              "url": "https://euobserver.com/234750/eu-officials-confirm-ban-on-brazilian-meat-and-dairy-amid-health-concerns",
+              "publishedAt": "2026-09-01T15:51:14Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU resists calls to ban Meta 'pervert glasses' despite voyeur privacy fears",
+              "url": "https://euobserver.com/235000/eu-resists-calls-to-ban-meta-pervert-glasses-despite-voyeur-privacy-fears",
+              "publishedAt": "2026-09-02T17:23:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russian Drone Capacity Grows—Arson Attack on Polish Drone Factory",
+          "summaryDe": [
+            "Russia has retrofitted its Geran drones with jet engines, significantly increasing their speed and making them harder to intercept; Ukrainian air defense systems face mounting pressure, and the threat will perspectively extend to all of Europe.",
+            "A drone factory in Poland that works for Ukrainian military production caught fire; Prime Minister Tusk blamed Moscow for the arson attack—an accusation holding Russia responsible for using EU territory as a theater of covert warfare.",
+            "Together, both incidents illustrate a qualitative escalation of Russian hybrid warfare: no longer just disinformation or cyberattacks, but physical sabotage of industrial capacity on NATO territory.",
+            "EU foreign policy chief Kallas also reported that EU foreign ministers approved entry bans for Russian military veterans and tighter visa rules for Russian tourists—a further response to the series of Russian attacks."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Sabotage on EU and NATO territory plus tightened Russia sanctions directly affect Germany as a central EU and NATO partner."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Physical sabotage of military production facilities on NATO territory by a state is an extraordinary, systemically significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Moscow likely behind drone-factory arson, says Poland's Tusk",
+              "url": "https://www.politico.eu/article/polands-donald-tusk-blames-moscow-over-a-drone-factory-fire",
+              "publishedAt": "2026-09-02T19:05:42Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Exclusive: Russian diplomats quietly leave Brussels, as Germany shuts another consulate over Leipzig plot",
+              "url": "https://euobserver.com/234820/exclusive-russian-diplomats-quietly-leave-brussels-as-germany-shuts-another-consulate-over-leipzig-plot",
+              "publishedAt": "2026-09-02T08:42:36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

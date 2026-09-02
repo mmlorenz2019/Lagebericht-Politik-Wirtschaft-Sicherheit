@@ -1,7 +1,11 @@
 {
   "schemaVersion": 2,
-  "latestDaily": "2026-08-31",
+  "latestDaily": "2026-09-02",
   "daily": [
+    {
+      "date": "2026-09-02",
+      "path": "data/daily/2026-09-02.json"
+    },
     {
       "date": "2026-08-31",
       "path": "data/daily/2026-08-31.json"
@@ -143,7 +147,7 @@
   ],
   "monthly": [],
   "currentCosts": {
-    "month": "2026-08",
-    "path": "data/costs/2026-08.json"
+    "month": "2026-09",
+    "path": "data/costs/2026-09.json"
   }
 }

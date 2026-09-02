@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-09",
+  "timezone": "Europe/Berlin",
+  "budgetEur": 5.0,
+  "estimatedCostUsd": 0.24052,
+  "estimatedCostEur": 0.211176,
+  "budgetPercent": 4.2,
+  "unmeasuredCalls": 0,
+  "collectionStartedAt": "2026-08-03T00:00:00+02:00",
+  "priceVersion": "anthropic-2026-08-03",
+  "rate": {
+    "usdToEur": 0.878,
+    "effectiveDate": "2026-07-27"
+  },
+  "events": [
+    {
+      "eventId": "631c0e0316b7c12f23b96412da3b7787e0a031d6f68d8c6d0cf1cac9c7d2f451",
+      "occurredAt": "2026-09-02T20:33:26.558139+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-02",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 24180,
+        "output_tokens": 3557,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.041965,
+      "estimatedCostEur": 0.036845
+    },
+    {
+      "eventId": "95980d76cfc9fa646d7e522095476a917cf6242736f9a1ac00615f157f4e932a",
+      "occurredAt": "2026-09-02T20:36:11.213395+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-02",
+      "model": "claude-sonnet-4-6",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 13021,
+        "output_tokens": 8044,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.159723,
+      "estimatedCostEur": 0.140237
+    },
+    {
+      "eventId": "127548ebf8cc090a4184c18b5f3d3ffa9db7ccf9752f664f02a4093b8c82df40",
+      "occurredAt": "2026-09-02T20:37:10.724599+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-02",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 9892,
+        "output_tokens": 5788,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.038832,
+      "estimatedCostEur": 0.034094
+    }
+  ]
+}
