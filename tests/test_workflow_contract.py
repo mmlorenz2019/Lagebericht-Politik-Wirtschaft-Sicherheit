@@ -59,12 +59,11 @@ class WorkflowContractTests(unittest.TestCase):
         # month, not a static fixture: real scheduled runs append real events
         # to this exact file. Only assert invariants that remain true no
         # matter how many events have accumulated (schema/consistency comes
-        # from validate_cost_report; collectionStartedAt is fixed at month
-        # start). Do NOT assert events == [] / costs == 0 here - that was
-        # only true before the month's first real report ran, and hard-coding
-        # it made this test fail permanently as soon as real usage landed,
-        # blocking every later CI run (and therefore report generation) for
-        # the rest of the month.
+        # from validate_cost_report). Do NOT assert events == [] / costs == 0
+        # here - that was only true before the month's first real report ran,
+        # and hard-coding it made this test fail permanently as soon as real
+        # usage landed, blocking every later CI run (and therefore report
+        # generation) for the rest of the month.
         #
         # The current month itself is ALSO not hard-coded here anymore - an
         # earlier version of this test hard-coded "2026-08" the same way the
@@ -85,7 +84,21 @@ class WorkflowContractTests(unittest.TestCase):
         cost_report = json.loads(path.read_text(encoding="utf-8"))
 
         self.assertTrue(validate_cost_report(cost_report, expected_month=expected_month))
-        self.assertTrue(cost_report["collectionStartedAt"].startswith(expected_month))
+        # collectionStartedAt is NOT the start of the current report month -
+        # it is a pass-through of config/api-pricing.json's collectionStartedAt,
+        # a single fixed timestamp for when cost tracking itself began (shown
+        # to users in the frontend as "Erfassung seit ..."). A prior version
+        # of this test asserted it startswith(expected_month), which happened
+        # to hold in August only because tracking itself began in August -
+        # that assumption broke the instant a real report landed in
+        # September, again blocking every CI run. Compare against the
+        # pricing config, the actual source of this value, instead.
+        pricing = json.loads(
+            (ROOT / "config" / "api-pricing.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(
+            cost_report["collectionStartedAt"], pricing["collectionStartedAt"]
+        )
         for key in public_keys(cost_report):
             lowered = key.lower()
             self.assertFalse(any(forbidden in lowered for forbidden in (
