@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-03",
+  "generatedAt": "2026-09-03T10:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Gerichtsurteil stoppt Trumps zweiten Anlauf gegen Geburtsrecht-Staatsbürgerschaft",
+          "summaryDe": [
+            "Ein Bundesrichter hat Trumps erneuten Versuch blockiert, das im 14. Verfassungszusatz verankerte Geburtsrecht auf US-Staatsbürgerschaft einzuschränken – obwohl der Supreme Court das Prinzip zuvor ausdrücklich bestätigt hatte.",
+            "Parallel dazu bringen Abgeordnete im Kongress Gesetzentwürfe ein, die gezielt auf sogenannten Geburtstourismus aus China abzielen und damit innenpolitischen Druck auf das Thema aufrechterhalten.",
+            "Exekutive, Legislative und Judikative senden dabei widersprüchliche Signale: Die Gerichte bremsen, die Regierung kündigt weitere Rechtsmittel an, der Kongress sucht legislative Umwege.",
+            "Das Muster zeigt, wie die Trump-Administration trotz juristischer Niederlagen an verfassungsrechtlich aufgeladenen Symbolthemen festhält – erkennbar auch als Mobilisierungsstrategie vor den Midterms."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Birthright citizenship is a purely American constitutional question without direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The ongoing conflict between government, Congress, and judiciary over a foundational constitutional principle is a relevant democratic system question."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US lawmakers target China, birth tourism as citizenship fight intensifies",
+              "url": "https://www.scmp.com/news/us/politics/article/3366161/us-lawmakers-target-china-birth-tourism-citizenship-fight-intensifies",
+              "publishedAt": "2026-09-02T22:18:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump-Regierung verhängt Drohnenzölle bis zu 100 Prozent",
+          "summaryDe": [
+            "Die USA belegen ausländische Drohnen mit Zöllen von bis zu 100 Prozent; gleichzeitig prüft die FCC weitreichende Beschränkungen für Standardfunktionen wie Wärmebildkameras und Aerosolvernebler.",
+            "Hinter den Maßnahmen steht das Ziel, die chinesische Drohnenindustrie – allen voran DJI – vom US-Markt zu verdrängen und heimische Hersteller zu schützen.",
+            "Kritiker wenden ein, dass ein Verbot gängiger Technologien wie Wärmebildgebung die Landwirtschaft, Feuerwehr und Katastrophenschutzbehörden empfindlich treffen würde.",
+            "Für europäische und deutsche Drohnenanwender sowie Importeure könnten sich mittelfristig neue Handelshürden ergeben, falls ähnliche Regelungen auf verbündete Märkte ausstrahlen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirect relevance, as European drone manufacturers and importers could be indirectly affected by US trade policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The combination of high tariffs and technology restrictions cuts deep into a rapidly growing global market."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Russia's rapid shift to jet-powered drones shows its war factories pose wider threat to Europe (Ukraine Battlefield update, Day 1,651)",
+              "url": "https://euobserver.com/234899/russias-rapid-shift-to-jet-powered-drones-shows-its-war-factories-pose-wider-threat-to-europe-ukraine-battlefield-update-day-1651",
+              "publishedAt": "2026-09-02T13:06:44Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump nennt bevorstehenden Xi-Besuch in Washington „aufregend",
+          "summaryDe": [
+            "Vor dem geplanten Gipfeltreffen mit Xi Jinping im Weißen Haus bezeichnete Trump den Besuch öffentlich als „aufregend",
+            ",",
+            "bekräftigte aber zugleich, die USA lägen im KI-Rennen klar vorn.",
+            "Im Hintergrund steht eine innenpolitisch belastete Lage: anhaltende Inflation, ein laufender Krieg gegen den Iran und sinkende Umfragewerte wenige Monate vor den Midterms.",
+            "Wie viel Bewegungsspielraum Trump in einem etwaigen Gipfelgespräch tatsächlich hat, ist offen – zumal Demokraten seinen Umgang mit China in Handels- und Rohstofffragen als korruptionsanfällig kritisieren.",
+            "Der Besuch wäre das erste Xi-Trump-Treffen auf US-Boden seit Jahren und hätte entsprechend hohes symbolisches Gewicht für die globalen Machtverhältnisse."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A US-China summit indirectly touches European trade and security interests without directly affecting Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A summit between the two largest economies amid ongoing conflicts and trade tensions is geopolitically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Trump calls Xi's Washington visit 'exciting', but claims US leads China in AI race",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366162/trump-calls-xis-washington-visit-exciting-claims-us-leads-china-ai-race",
+              "publishedAt": "2026-09-02T23:13:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas größte Kampagne gegen akademischen Betrug läuft an",
+          "summaryDe": [
+            "Die Nationale Naturwissenschaftliche Stiftung Chinas untersucht mehr als 40 Forschende an Universitäten und Krankenhäusern – es ist die umfangreichste Aktion dieser Art in der Geschichte der Behörde.",
+            "Ausgelöst wurde die Kampagne durch einen Blogger mit dem Pseudonym Student Geng, der Fälle von Datenfälschung und Plagiaten öffentlich dokumentierte und damit enormen gesellschaftlichen Druck erzeugte.",
+            "Der Vorgang zeigt, wie Online-Öffentlichkeit in China trotz struktureller Zensur institutionelle Reaktionen erzwingen kann, wenn das Thema politisch ins Bild passt.",
+            "Für Chinas Ambitionen als globale Wissenschaftsnation ist das Ausmaß der Affäre ein Imageproblem, das den staatlichen Anspruch auf Forschungsintegrität unter Druck setzt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "China's domestic research misconduct affair touches Germany only abstractly through international research collaborations."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant domestically as a sign of systemic integrity problems; internationally of limited immediate significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China launches largest-ever academic misconduct crackdown after 'Student Geng' scrutiny",
+              "url": "https://www.scmp.com/news/china/science/article/3366106/china-launches-largest-ever-academic-misconduct-crackdown-after-student-geng-scandal",
+              "publishedAt": "2026-09-03T01:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tibets Gletscher verlieren massiv Fläche – Katastrophenrisiken steigen",
+          "summaryDe": [
+            "Auf dem Tibetischen Plateau sind in 60 Jahren 24 Prozent der Gletscherfläche verschwunden; rund 7.000 kleine Gletscher existieren nicht mehr.",
+            "Ein aktueller Erdrutsch und eine Überflutung an der chinesisch-nepalesischen Grenze haben mehrere Todesopfer gefordert und machen die Fragilität der Region konkret sichtbar.",
+            "Wissenschaftler warnen vor sogenannten Kaskadenkatastrophen: Wenn Gletscherseen brechen, können Schlammlawinen ganze Täler überfluten und Infrastruktur über hunderte Kilometer hinweg zerstören.",
+            "Die Entwicklung betrifft nicht nur China, sondern auch die Wasserversorgung weiter Teile Süd- und Südostasiens, die von Zuflüssen des Plateaus abhängen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Glacier melt on the Tibetan plateau has no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ongoing mass loss with concrete fatalities and regional water risks is a major, cross-border development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Unstable Tibetan Plateau risks cascading disasters as glacier losses mount in Nepal, China",
+              "url": "https://www.scmp.com/news/china/article/3366180/unstable-tibetan-plateau-risks-cascading-disasters-glacier-losses-mount-nepal-china",
+              "publishedAt": "2026-09-03T03:56:19Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "SCO-Gipfel in Bischkek: Rückendeckung für Iran, US-Diplomaten im Schatten",
+          "summaryDe": [
+            "Zum 25. Jahrestag der Shanghai Cooperation Organisation verabschiedeten die Mitgliedstaaten in Bischkek Erklärungen zur Nuklearsicherheit und stützten ausdrücklich den Iran angesichts anhaltender US-Militärschläge.",
+            "Parallel versuchten amerikanische Sondergesandte, am Rande des Gipfels bilaterale Gespräche mit zentralasiatischen Führern zu führen – ein ungewöhnlicher diplomatischer Schachzug auf dem Terrain Pekings und Moskaus.",
+            "Dass der Iran SCO-Rückendeckung erhält, ist politisch bedeutsam, wenngleich Beobachter bezweifeln, ob die Organisation im Ernstfall militärisch oder wirtschaftlich effektiv intervenieren könnte.",
+            "Xi Jinpings gleichzeitige Ägypten-Reise, bei der er einen eigenständigen Nahost-Sicherheitsrahmen propagierte, ergänzt das Bild einer koordinierten chinesischen Gegenpositionierung zu US-Einfluss."
+          ],
+          "additionalImportant": "Chinese J-16 fighter jets participated in joint exercises in Egypt—reportedly the first deployment of Chinese military aircraft on African soil.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A more multipolar order in the Middle East and Central Asia indirectly touches European and thus German energy and security interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The combination of SCO declarations, Iranian backing, and Chinese military presence in Africa is geopolitically striking and systemically relevant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "SCO takes landmark stand on nuclear security as Iran comes under renewed attack",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366108/sco-takes-landmark-stand-nuclear-security-iran-comes-under-renewed-attack",
+              "publishedAt": "2026-09-02T15:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "In Bishkek, US envoys shadow the SCO summit in challenge on Beijing and Moscow's turf",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366139/bishkek-us-envoys-shadow-sco-summit-challenge-beijing-and-moscows-turf",
+              "publishedAt": "2026-09-02T13:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Iran wins SCO backing against US strikes. Will it be enough?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366129/iran-wins-sco-backing-against-us-strikes-will-it-be-enough",
+              "publishedAt": "2026-09-02T11:22:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegro untersucht mutmaßliche Verbindungen eines Mannes zu russischen Kämpfern in der Ukraine",
+          "summaryDe": [
+            "Die montenegrinischen Behörden ermitteln gegen Mihail Nikolajevič Šabunjin wegen mutmaßlicher Kontakte zu russischen Kombattanten im Ukraine-Krieg.",
+            "Im Mittelpunkt stehen sein militärischer Ausbildungshintergrund und Verbindungen, deren genaue Natur noch nicht abschließend geklärt ist.",
+            "Für ein NATO-Mitglied wie Montenegro ist jeder Verdacht der Unterstützung russischer Kriegsparteien politisch heikel und kann außenpolitische Konsequenzen haben.",
+            "Der Fall reiht sich in eine wachsende Zahl europäischer Ermittlungen ein, die russische Netzwerke in Balkanstaaten unter die Lupe nehmen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The case has no apparent direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant in the context of Russian networks on the Balkans, but so far a single case without confirmed larger structure."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Istražuju veze Šabunjina sa ruskim borcima na ukrajinskom ratištu",
+              "url": "https://www.pobjeda.me/clanak/istrazuju-veze-sabunjina-sa-ruskim-borcima-na-ukrajinskom-ratistu",
+              "publishedAt": "2026-09-03T06:35:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD kurz vor erstem Landesregierungseinzug in Sachsen-Anhalt",
+          "summaryDe": [
+            "Am 6. September wählt Sachsen-Anhalt einen neuen Landtag; Umfragen sehen die AfD erstmals in der Position, eine Landesregierung anführen zu können.",
+            "Führende Parteifunktionäre wie Hans-Thomas Tillschneider propagieren eine Neuinterpretation der deutschen Erinnerungskultur und stellen das Gedenken an NS-Verbrechen offen in Frage.",
+            "Politico Europe berichtet über wachsenden Druck auf Pressefreiheit in Regionen mit starker AfD-Präsenz, was internationale Beobachter alarmiert.",
+            "Ein AfD-geführtes Bundesland wäre verfassungsrechtlich und europapolitisch ein Novum, das Debatten über Koalitionsarithmetik im Bundesrat und Deutschlands Bild in der EU neu entfachen würde."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "An AfD-led state government would have immediate effects on federal politics, the Bundesrat, and Germany's European positioning."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The potential first government entry of a far-right party at state level in Germany is observed throughout Europe."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "supra-regional",
+              "titleOriginal": "The far-right leader pushing Germans to forget the Nazi past",
+              "url": "https://www.politico.eu/article/hans-thomas-tillschneider-saxony-anhalt-election-erinnerungskultur-alternative-for-germany",
+              "publishedAt": "2026-09-03T02:01:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Handelsdelegation in Peking fordert Abbau des Handelsdefizits",
+          "summaryDe": [
+            "Eine Abordnung der Europäischen Kommission unter Chefhandelsaufseher Denis Redonnet ist in Peking eingetroffen und drängt China auf konkrete Schritte gegen ein tägliches Handelsbilanzdefizit von über einer Milliarde Euro.",
+            "Bis Oktober läuft eine selbstgesetzte Frist der EU für erste Ergebnisse; danach drohen Gegenmaßnahmen, die einen ausgewachsenen Handelsstreit auslösen könnten.",
+            "Beide Seiten haben ein Interesse an einem diplomatischen Ausweg, doch Peking lehnt einseitigen Druck traditionell öffentlich ab, was die Verhandlungsatmosphäre kompliziert.",
+            "Für Deutschland als exportstarke Volkswirtschaft mit engen China-Verflechtungen wäre ein EU-China-Handelskonflikt besonders folgenreich."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German companies are more dependent on China trade than most other EU partners; an escalation scenario would have concrete economic consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Negotiations over the world's largest bilateral trade imbalance with time pressure are a significant economic policy development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "EU trade enforcers descend on Beijing demanding China fix 'untenable' imbalances",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366067/eu-trade-enforcers-descend-beijing-demanding-china-fix-untenable-imbalances",
+              "publishedAt": "2026-09-02T10:12:52Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "EU, China talk trade as Europe's deadline for action looms",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3366242/eu-china-talk-trade-europes-deadline-action-looms",
+              "publishedAt": "2026-09-03T09:28:29Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russische Diplomaten verlassen Brüssel still; Deutschland schließt weiteres Konsulat wegen Leipzig-Anschlagsplot",
+          "summaryDe": [
+            "Rund 20 russische Diplomaten haben Brüssel verlassen, nachdem die EU ihre Ausweisung gefordert hatte – ein Schritt, der bislang kaum öffentlich kommuniziert wurde.",
+            "Deutschland schließt indes ein weiteres russisches Konsulat, nachdem Ermittler festgestellt hatten, dass der geplante Anschlag auf den Flughafen Leipzig maßgeblich von russischen Agenten gesteuert worden sein soll.",
+            "Polen nutzt den Vorfall, um EU-weit für weitere Ausweisungen russischer Diplomaten zu werben – ein Signal, dass die östlichen Mitgliedstaaten den Druck auf Moskau erhöhen wollen.",
+            "Die Kombination aus stiller Ausweisung und konkretem Sabotagefall auf deutschem Boden macht deutlich, wie real der hybride Konflikt mit Russland in Europa bereits ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The Leipzig bombing plot directly affects Germany; the consulate closure is a direct state response by Berlin."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Diplomatic expulsions in connection with a concrete sabotage case on EU soil is a serious security policy escalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Exclusive: Russian diplomats quietly leave Brussels, as Germany shuts another consulate over Leipzig plot",
+              "url": "https://euobserver.com/234820/exclusive-russian-diplomats-quietly-leave-brussels-as-germany-shuts-another-consulate-over-leipzig-plot",
+              "publishedAt": "2026-09-02T08:42:36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
