@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-04",
+  "generatedAt": "2026-09-04T10:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump administration seeks Supreme Court reversal of mail-in voting ban",
+          "summaryDe": [
+            "The Trump administration has requested the Supreme Court to lift a judicial block on mail-in voting restrictions, shortly before the midterm elections.",
+            "Simultaneously, the government is attempting to create citizen lists for eligible voters but has missed its own 60-day deadline.",
+            "This action is part of a series of controversial measures: plans for permanent fences around Lafayette Square were also advanced despite significant criticism.",
+            "For the US democratic system, these steps are significant as they affect voting rights and public spaces surrounding the White House."
+          ],
+          "additionalImportant": "Billionaire Leon Black refused a House subpoena for the Epstein investigation and sued the oversight committee, claiming lack of authority.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Restrictions on voting rights in the USA indirectly touch on transatlantic discourse about democratic standards."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Multiple simultaneous interventions in voting rights and public order by the executive branch represent a significant domestic political development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Požari „progutali",
+              "url": "https://www.pobjeda.me/clanak/pozari-progutali-milione-isplaceno-svega-68000-eura",
+              "publishedAt": "2026-09-04T07:22:52Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Tiha revolucija u sektoru usluga",
+              "url": "https://www.vijesti.me/kolumne/825023/tiha-revolucija-u-sektoru-usluga",
+              "publishedAt": "2026-09-04T08:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Nvidia acquires Hugging Face for $12.9 billion – AI infrastructure consolidates",
+          "summaryDe": [
+            "Nvidia has announced an agreement to acquire the AI platform Hugging Face for approximately $12.9 billion USD.",
+            "CEO Jensen Huang confirmed to CNBC that Hugging Face had initiated the negotiations itself, weeks before the deal closed.",
+            "With the acquisition, Nvidia secures not only one of the central developer platforms for AI models but also access to a broad user and research community.",
+            "The deal comes at a time when venture capital investors are becoming significantly more cautious about AI valuations and a culling process among early-stage AI startups is expected."
+          ],
+          "additionalImportant": "Parallel to this, OpenAI reportedly hacked Hugging Face infrastructure; its own nonprofit investigation was reportedly limited in scope by OpenAI.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German companies and research institutions use Hugging Face intensively; a change in ownership to Nvidia can alter conditions and access."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An acquisition of this magnitude noticeably shifts the balance of power in global AI infrastructure."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "Hugging Face approached Nvidia's Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
+              "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+              "publishedAt": "2026-09-03T16:43:22Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Venezuela grants USA control over roughly one-fifth of world's largest oil reserves",
+          "summaryDe": [
+            "Venezuela's acting president has agreed to an accord that transfers control of a substantial portion of Venezuelan oil reserves to the United States – estimated at approximately one-fifth of the world's largest reserves.",
+            "The move comes after prolonged negotiations under US pressure and marks a dramatic foreign policy reversal for a country that for decades positioned itself as a counterweight to US hegemony in Latin America.",
+            "For global energy markets and geopolitical balance in the Western Hemisphere, the accord has immediate relevance.",
+            "Critics within Venezuela and the region are likely to view the accord as a surrender of sovereignty, while Washington counts it as a security success."
+          ],
+          "additionalImportant": "A former government official who publicly called for military attacks against China to prevent AGI development underscores how thoroughly AI superiority is treated as an existential issue in US security debates.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Changes in global oil reserves and energy routes indirectly affect European energy supply security."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The transfer of control over such a large share of global oil reserves to a foreign power is extraordinary and carries systemic geopolitical consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Kordić - Sidikov: Turizam važan prostor saradnje Crne Gore i Kirgistana",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/825129/kordic-sidikov-turizam-vazan-prostor-saradnje-crne-gore-i-kirgistana",
+              "publishedAt": "2026-09-04T08:11:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ecuador's ex-president and Chinese ambassador seek to avoid jail for belt-and-road dam bribery",
+          "summaryDe": [
+            "A former Ecuadorian president and a former Chinese ambassador are attempting to avoid prison sentences in a corruption trial linked to a dam project under China's Belt and Road Initiative.",
+            "The case sheds light on the darker side of major BRI infrastructure projects, where bribes appear to have flowed systematically.",
+            "For Beijing, the proceedings are delicate as they directly involve a sitting ambassador and raise questions about oversight of diplomatic representatives.",
+            "That both defendants are actively seeking sentence reduction suggests damaging evidence that weakens the defense position."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The proceedings involve bilateral Ecuador-China relations; no direct reference to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The case is symptomatic of BRI corruption risks but remains confined to a single incident."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Ecuador's ex-president and Chinese ambassador seek to avoid jail over belt and road dam",
+              "url": "https://www.scmp.com/news/china/article/3366283/ecuadors-ex-president-and-chinese-ambassador-seek-avoid-jail-over-belt-and-road-dam",
+              "publishedAt": "2026-09-03T21:36:52Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China-Singapore team reports breakthrough in hacking Starlink terminals",
+          "summaryDe": [
+            "A joint research team from China and Singapore claims to have compromised Starlink satellite terminals through sophisticated hardware attacks.",
+            "Starlink is deployed globally for military communications, humanitarian operations, and commercial broadband provision in sparsely populated areas – attack potential against this infrastructure would have far-reaching consequences.",
+            "The publication of such research findings is politically sensitive as it can be read both as a security warning and as a demonstration of state-aligned capabilities.",
+            "SpaceX and the US government are likely to scrutinize the findings closely, particularly as Starlink plays a central infrastructure role in active conflicts such as Ukraine."
+          ],
+          "additionalImportant": "China is expanding solar and wind power faster than the rest of the world combined and is setting new technology standards, underscoring China's leadership claim in green energy transformation.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German companies and authorities use Starlink services; vulnerabilities in this infrastructure are indirectly relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Demonstrated attack capabilities against global satellite infrastructure represent a significant security-technical development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China-Singapore security team claims breakthrough in hacking Starlink terminals",
+              "url": "https://www.scmp.com/news/china/science/article/3366192/china-singapore-security-team-claims-breakthrough-hacking-starlink-terminals",
+              "publishedAt": "2026-09-03T15:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan exceeds one trillion NT-dollar defense spending milestone for first time",
+          "summaryDe": [
+            "Taiwan's parliament approved a supplementary defense budget of 147.5 billion NT-dollar, pushing total spending above the symbolic one-trillion NT-dollar threshold for the first time.",
+            "This step reflects growing pressure on Taipei to credibly strengthen its own deterrence capability against China.",
+            "Mexico's foreign minister met simultaneously with Chinese Foreign Minister Wang Yi in Beijing – a visit showing how US allies attempt to navigate between Washington and Beijing while the US demands Taiwan loyalty and China distance.",
+            "The combination of growing Taiwanese defense spending and Chinese diplomacy with third parties paints a picture of increasingly intense tensions in the Indo-Pacific."
+          ],
+          "additionalImportant": "A new study concludes that Chinese AI military models still lag behind foreign equivalents in combat applications and focus more on support functions.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Taiwan stability has indirect significance for German supply chains and global semiconductor supply."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Exceeding the one-trillion NT-dollar mark is a political signal with concrete military consequences for regional deterrence."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Extra funds push Taiwan's defence spending past NT$1 trillion for the first time",
+              "url": "https://www.scmp.com/news/china/military/article/3366266/extra-funds-push-taiwans-defence-spending-past-nt1-trillion-first-time",
+              "publishedAt": "2026-09-03T14:00:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegro's parliament passes anti-mafia law on asset confiscation",
+          "summaryDe": [
+            "The Montenegrin National Assembly has passed legislation enabling the confiscation of assets derived from criminal activities, considered a central anti-corruption instrument.",
+            "The law was framed by the government as a clear commitment to rule of law and the EU accession process.",
+            "In the background, investigations are ongoing into suspected money laundering from drug trafficking, in which real estate and a sugar company allegedly served as vehicles.",
+            "For Montenegro's EU approximation, the step is relevant as the Commission demands functioning asset confiscation mechanisms as benchmarks in the Justice and Fundamental Rights chapter."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The law primarily affects Montenegro's internal legal order without direct consequences for Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "For an EU candidate country, the law represents a relevant reform step but remains of limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "cross-regional",
+              "titleOriginal": "Top Farage aides quit after undercover donations sting",
+              "url": "https://www.politico.eu/article/nigel-farage-aides-dan-jukes-james-orr-quit-undercover-donations-sting",
+              "publishedAt": "2026-09-04T07:07:43Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russia responsible for bombing cargo aircraft at Leipzig/Halle airport",
+          "summaryDe": [
+            "Germany has formally attributed responsibility to Russia for an attack on cargo aircraft at Leipzig/Halle airport, in which military-grade materiel was used and operators were active on EU soil.",
+            "Two suspects were arrested by German authorities; the case confirms a pattern of Russian sabotage operations that intelligence agencies in several EU countries have been documenting for some time.",
+            "Poland has demanded the expulsion of additional Russian diplomats from the EU in response, aimed at reducing Russian intelligence service capacity on European soil.",
+            "The attack on civilian air cargo infrastructure demonstrates that Russia's shadow war extends beyond Ukrainian territory, penetrating deep into core EU states."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The attack occurred on German soil against a German infrastructure object; state attribution to Russia has direct consequences for German security policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A state-attributed bombing of EU infrastructure is an extraordinary event with systemic significance for European security."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 02 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1789",
+              "publishedAt": "2026-09-02T07:22:18Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+              "publishedAt": "2026-09-02T10:28:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU and China negotiate over trade deficit ahead of October deadline",
+          "summaryDe": [
+            "Talks are underway in Beijing between the EU and China over the massive trade imbalance, which now exceeds one billion euros daily.",
+            "The EU has set its own deadline of October by which tangible results must be achieved – otherwise stricter measures threaten.",
+            "In parallel, the EU is planning new diversification rules to structurally reduce dependence on Chinese supply chains, suggesting a dual-track strategy of dialogue and risk mitigation.",
+            "For Germany as an export-intensive economy that is simultaneously heavily dependent on Chinese intermediate products, both the outcome of the talks and the diversification requirements are directly relevant."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as the EU's largest economy and important trading partner of China, is directly affected by the outcome of the talks and possible EU measures."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The trade imbalance of over one billion euros daily and the impending political deadline make this a significant economic policy development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "EU, China talk trade as Europe's deadline for action looms",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3366242/eu-china-talk-trade-europes-deadline-action-looms",
+              "publishedAt": "2026-09-03T09:28:29Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU plans new 'diversification' rules to cut dependence on China",
+              "url": "https://euobserver.com/234989/eu-plans-new-diversification-rules-to-cut-dependence-on-china",
+              "publishedAt": "2026-09-02T15:48:44Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US visa restrictions for Africa could provide China geopolitical room to maneuver",
+          "summaryDe": [
+            "Washington has introduced visa restrictions for travelers from 25 African cities as well as sponsorship requirements for 30 countries, provoking substantial discontent in affected states.",
+            "Observers see this as an opportunity for China to expand its engagement in Africa and position itself as a more reliable partner – precisely at a moment when the EU itself is attempting to reduce dependence on Beijing.",
+            "For the EU, a complex triangular relationship is emerging: African partners could turn more toward China, while European Africa policy simultaneously stands in the shadow of transatlantic tensions.",
+            "In the long term, such a development would worsen the West's geostrategic position on a continent increasingly significant for raw materials, migration, and security."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Stronger Chinese anchorage in Africa indirectly affects European interests in raw material access and migration management."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A geopolitical reorientation of African states toward China would represent a significant shift in global influence structures."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China stands to gain from US visa restrictions targeting African countries",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366306/china-stands-gain-us-visa-restrictions-targeting-african-countries",
+              "publishedAt": "2026-09-04T03:59:52Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
