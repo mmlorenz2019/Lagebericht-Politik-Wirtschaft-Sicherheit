@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-05",
+  "generatedAt": "2026-09-05T08:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump Threatens Trade Halt and Plans to Spend 500 Million Dollars for Midterms",
+          "summaryDe": [
+            "President Trump has renewed his threat to freeze trade with major partners should the Federal Reserve refuse to cut interest rates—a linkage of monetary policy and foreign trade that economists sharply criticize.",
+            "At the same time, he announced his willingness to provide up to 500 million dollars from his own pocket for Republican candidates in the midterm elections, further blurring the line between party financing and personal political capital.",
+            "A federal judge further extended indefinitely a temporary restraining order blocking Trump's restrictions on mail-in voting—including provisions on scannable envelopes and voter registration lists.",
+            "The Supreme Court, meanwhile, sided with Republicans in a dispute over TV advertising costs: political parties may henceforth claim the same low rates as candidates, which could weaken Democratic campaign strategy."
+          ],
+          "additionalImportant": "The White House also plans to begin construction of a 75-meter-high triumphal arch near Arlington National Cemetery within two weeks—without final federal approval, which is driving veterans' organizations to court.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Trump's trade threats can directly impact German export interests, as Germany ranks among the largest U.S. trading partners."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Multiple parallel domestic political escalations—trade policy, campaign finance, voting rights—together create a significant political situation report."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Haotično na terenu – posebne učionice za nevakcinisane, koriguju se potvrde, fali termina...",
+              "url": "https://www.pobjeda.me/clanak/haoticno-na-terenu-posebne-ucionice-za-nevakcinisane-koriguju-se-potvrde-fali-termina",
+              "publishedAt": "2026-09-05T06:35:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Elegancija, stil i zajedništvo nikada ne stare",
+              "url": "https://www.vijesti.me/zabava/825267/elegancija-stil-i-zajednistvo-nikada-ne-stare",
+              "publishedAt": "2026-09-05T06:42:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Puca politička brana u Njemačkoj",
+              "url": "https://www.vijesti.me/kolumne/825190/puca-politicka-brana-u-njemackoj",
+              "publishedAt": "2026-09-05T07:10:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Norway's Sovereign Wealth Fund Withdraws from U.S. Treasury Bonds",
+          "summaryDe": [
+            "Norway's sovereign wealth fund, with assets of 2.3 trillion dollars, announces it will reduce its holdings of U.S. Treasury bonds and shift more heavily into high-yield, risk-prone investments.",
+            "A fund of this magnitude, regarded as a global pillar of stability, thereby sends a clear signal about changing confidence in U.S. debt securities—particularly against the backdrop of Trump's sustained attacks on the Federal Reserve.",
+            "The decision comes at a time when other institutional investors are also reviewing their dollar dependency, which could increase pressure on the U.S. bond market over the medium term.",
+            "For Germany and Europe, this is relevant because a sustained reallocation of large sovereign funds could influence global capital flows and thus also the refinancing conditions of European states."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Changed global capital flows could indirectly touch European bond markets and refinancing costs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A withdrawal by the world's largest sovereign wealth fund from U.S. Treasuries is a striking signal for global confidence in American debt securities."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "(GALERIJA )Remi u meču gdje je pobjeda za sve bila imperativ",
+              "url": "https://www.pobjeda.me/clanak/bruka-u-petrovcu-prekinut-derbi-trener-sutjeske-pogoden-u-glavu",
+              "publishedAt": "2026-09-04T21:29:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Pentagon Launches Mass Interrogation Following Iran War Leaks – Witkoff and Kushner Travel to Moscow and Kyiv",
+          "summaryDe": [
+            "The Pentagon is subjecting approximately 50 members of the Joint Staff to polygraph tests after classified reports on the Iran war and ammunition shortages reached the press—an unusually broad circle of suspects, indicating significant internal loss of trust.",
+            "In parallel, Trump confirmed that his special envoys Steve Witkoff and Jared Kushner will visit Moscow first and then Kyiv on Sunday to present a peace plan for Ukraine.",
+            "The dual movement—information control on one hand, active diplomacy on the other—shows how closely security policy and foreign policy questions are now intertwined.",
+            "Whether the Moscow visit will move Russia to make concrete concessions or merely signal negotiating readiness remains to be seen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A U.S.-mediated ceasefire or peace settlement in Ukraine would have immediate implications for German security and energy policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "High-level U.S. diplomacy in Moscow and Kyiv as well as a Pentagon leak scandal over an ongoing war are extraordinary events."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Tramp potvrdio da njegovi izaslanici idu u Moskvu i Kijev sa...",
+              "url": "https://www.vijesti.me/svijet/globus/825273/tramp-potvrdio-da-njegovi-izaslanici-idu-u-moskvu-i-kijev-sa-planom-okoncanja-rata",
+              "publishedAt": "2026-09-05T07:24:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Ekološki incidenti na rijeci Lim: Ponovo se pojavile sumnjiva...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825268/ekoloski-incidenti-na-rijeci-lim-ponovo-se-pojavile-sumnjiva-bijela-tecnost-i-pjena",
+              "publishedAt": "2026-09-05T06:55:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "52 Singaporeans Arrested in Guangxi Pyramid Scheme Crackdown",
+          "summaryDe": [
+            "During a law enforcement operation in the southern Chinese province of Guangxi, authorities have arrested 52 Singaporean citizens on suspicion of involvement in pyramid schemes.",
+            "Such operations regularly target international fraud networks operating in border regions of Southeast Asia and deliberately recruiting foreigners.",
+            "Singapore and China maintain close economic ties, so the arrests could strain diplomatic channels—especially since Singapore as a financial hub is particularly sensitive to corruption allegations.",
+            "The number of those affected and the cross-border dimension underscore that organized economic crime continues to be a serious problem in the region."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The incident primarily affects bilateral relations between China and Singapore with no discernible direct reference to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant as an indicator of cross-border economic crime in Southeast Asia, but regionally limited in scope."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China arrests 52 Singaporeans in Guangxi pyramid scheme crackdown",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366351/china-arrests-52-singaporeans-guangxi-pyramid-scheme-crackdown",
+              "publishedAt": "2026-09-04T07:18:28Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinese Researchers Extract Uranium from Seawater at Eight Times U.S. Target Rate",
+          "summaryDe": [
+            "Scientists in China have developed a novel material called PhosCage with which uranium can be extracted from seawater at a rate eight times higher than the target set by the U.S. Department of Energy.",
+            "Seawater is estimated to contain 4.5 billion tons of dissolved uranium—a potentially vast raw material reservoir, whose economic viability has so far failed due to insufficient extraction efficiency.",
+            "Should the process prove scalable at industrial level, China could make its nuclear fuel requirements less dependent on imports in the long term—a strategic dimension far beyond the scientific breakthrough itself.",
+            "For global nuclear policy and uranium markets, such a development would be significant over the medium term, even though considerable hurdles remain before commercial application."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Advances in China's nuclear fuel supply could affect global uranium markets, which is indirectly relevant for European nuclear energy countries."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An eightfold breakthrough in seawater uranium extraction is scientifically and strategically significant, even if scalability remains open."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese team extracts uranium from seawater at 8 times the US target rate",
+              "url": "https://www.scmp.com/news/china/science/article/3366307/chinese-team-extracts-uranium-seawater-8-times-us-target-rate",
+              "publishedAt": "2026-09-04T14:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China and USA Resume Military Contact After Two Years – Armed Training Aircraft Drive Away Philippine Plane Over Scarborough Reef",
+          "summaryDe": [
+            "General Yang Zhibin and U.S. Admiral Samuel Paparo have met in Canada, ending a two-year pause in direct command contact between the armed forces of both countries—an unusually long break in communication that is now being overcome in a phase of relative diplomatic rapprochement.",
+            "Almost simultaneously, Chinese armed training aircraft of the JL-10 type, equipped with PL-5 air-to-air missiles, attacked a light Philippine aircraft over the disputed Scarborough Reef and forced it to turn away.",
+            "The contrast between both messages illustrates China's two-track strategy: opening communication channels to Washington while simultaneously creating facts in the South China Sea.",
+            "For Europe and Germany, this is relevant because an escalation in the South China Sea affects international supply chains and the maritime security architecture in which EU member states also have an interest."
+          ],
+          "additionalImportant": "A Russian government representative also floated the possibility of a three-way meeting between Xi, Trump and Putin at the APEC forum—a format that would so far lack any precedent.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "More stable or less stable U.S.-China military relations have an impact on the global security architecture in which Germany is indirectly involved."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The resumption of direct military talks after two years and simultaneous armed provocations in the South China Sea are systemically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China, US military commanders snap 2-year break with talks in Canada",
+              "url": "https://www.scmp.com/news/china/military/article/3366413/china-us-military-commanders-snap-2-year-break-talks-canada",
+              "publishedAt": "2026-09-04T11:30:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese armed trainer jets drive away Philippine aircraft over Scarborough Shoal",
+              "url": "https://www.scmp.com/news/china/military/article/3366364/chinese-armed-trainer-jets-drive-away-philippine-aircraft-over-scarborough-shoal",
+              "publishedAt": "2026-09-04T10:00:13Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Mandić's Condolence Telegram for Convicted War Criminal Mladić Sparks Outrage",
+          "summaryDe": [
+            "Montenegrin politician Andrija Mandić has publicly expressed condolences on the death of war criminal Ratko Mladić, convicted of genocide—a move that has sparked sharp criticism from human rights organizations and pro-European forces.",
+            "Mandić defended the telegram by saying it contained nothing excessive and accused the opposition DPS of instrumentalizing the debate politically.",
+            "In a country that is an EU accession candidate, the public tribute to a convicted perpetrator of the Srebrenica massacre raises questions about the actual political consensus on dealing with the war past.",
+            "The extent to which the judiciary pursues the incident and whether European partners respond formally will help determine the political significance."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany monitors the accession process of Western Balkan states and is indirectly affected through EU enlargement debates."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant domestically in Montenegro and symbolically significant for regional processing of war crimes, but internationally limited in immediate impact."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Kankaraš: Rad ODT-a Berane može se nazvati ohrabrujućim za...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/825266/gdfggfdgfd",
+              "publishedAt": "2026-09-05T07:03:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Acquittal in Caruana Galizia Murder Case – and AfD on Record Course in Saxony-Anhalt",
+          "summaryDe": [
+            "A Maltese court has acquitted millionaire Yorgen Fenech of charges of commissioning the murder of investigative journalist Daphne Caruana Galizia in 2017—a verdict European Parliament President Roberta Metsola commented on with harsh words and demanded further clarification.",
+            "The case is exemplary of questions about the rule of law in EU member states and has been closely monitored in the European Parliament for years.",
+            "Shortly before the state election in Saxony-Anhalt on Sunday, the AfD is polling for a historic result; EUobserver documents a campaign platform featuring separate school classes for refugees and the end of public broadcasting funding.",
+            "Both events stand for different facets of a broader debate about the quality of democracy within the EU."
+          ],
+          "additionalImportant": "In Sweden, the right-wing government is focusing on economic growth as a campaign argument—despite pessimistic public mood regarding the budget.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The AfD election in Saxony-Anhalt directly affects Germany; the Malta verdict touches on EU rule-of-law debates in which Germany is actively involved."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Acquittal in a sensational journalist murder case and possibly a historic far-right result in a German state election are significant developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "European Parliament's Metsola on Daphne Caruana Galizia verdict: 'We will not give up, we will not give in'",
+              "url": "https://euobserver.com/235239/european-parliaments-metsola-on-daphne-caruana-galizia-verdict-we-will-not-give-up-we-will-not-give-in",
+              "publishedAt": "2026-09-03T15:30:41Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "On the campaign trail in Saxony-Anhalt with Alternative for Germany: nationalism, 'remigration' and a radical agenda",
+              "url": "https://euobserver.com/234988/on-the-campaign-trail-in-saxony-anhalt-with-alternative-for-germany-nationalism-remigration-and-a-radical-agenda",
+              "publishedAt": "2026-09-03T12:34:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Romania Loses 770 Million Euros in EU Funds Due to Failed Wage Reform",
+          "summaryDe": [
+            "Romania's political parties have failed to agree on a wage reform that was a prerequisite for the disbursement of 770 million euros from EU funds—funds that were intended for hospitals, schools, transportation and green energy.",
+            "The failure of negotiations is not a technical mishap but the result of serious political conflicts of interest between coalition partners who subordinate the national interest to party calculations.",
+            "For the EU, it is yet another example of how reform conditions in member states can fail due to domestic political gridlock—a weakness in the cohesion mechanism that repeatedly creates credibility problems for Brussels.",
+            "In parallel, EUobserver criticizes that Europe generally wants to spend more but its own regulatory frameworks simultaneously drive up investment costs."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As a major EU net contributor, Germany has an interest in EU funds being efficiently claimed and tied to reforms."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant as a symptom of structural reform weakness in EU member states, but regionally limited in immediate impact."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Romanian parties fail to agree on wage reform, costing country €770m in EU funds",
+              "url": "https://euobserver.com/234925/romanian-parties-fail-to-agree-on-wage-reform-costing-country-e770m-in-eu-funds",
+              "publishedAt": "2026-09-04T07:32:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Europe wants to spend more but its own policies are making it harder",
+              "url": "https://euobserver.com/235227/europe-wants-to-spend-more-but-its-own-policies-are-making-it-harder",
+              "publishedAt": "2026-09-03T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russian Drone Strikes SBU Headquarters in Kyiv – Trump Downplays Sabotage Accusations Against NATO",
+          "summaryDe": [
+            "A Russian drone strike has hit the main building of the Ukrainian domestic intelligence service SBU in Kyiv; President Zelensky responded by calling for preparation of a mirror strike.",
+            "At the same time, Trump stated he considers Russian sabotage allegations against NATO allies—including the explosives-laden drone found at Leipzig airport—to be exaggerated or false, a view that was received with bewilderment in European capitals.",
+            "A German military expert stressed in an interview that NATO Article 4 should long ago have been invoked given simultaneous Russian hybrid attacks on multiple alliance members—and criticized Berlin's continued restraint.",
+            "Witkoff and Kushner plan to travel to Moscow and Kyiv on Sunday, but given ongoing attacks and Trump's skepticism toward allies, it remains unclear on what basis serious negotiations could take place."
+          ],
+          "additionalImportant": "The EU plans to massively expand its Russia sanctions list—but anticipates a wave of lawsuits, as sanctioned Russians have already filed 84 of 125 new cases at the EU Court in 2025.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The explosives-laden drone find at Leipzig airport and the debate over German restraint in NATO consultations directly affect Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Drone strike on Ukrainian intelligence headquarters, Trump's downplaying of Russian sabotage, and an imminent peace mission are extraordinarily significant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "multiregional",
+              "titleOriginal": "Russian drone strike hits security service headquarters in Kyiv",
+              "url": "https://www.politico.eu/article/russian-drone-strike-hits-security-service-headquarters-kyiv-ukraine",
+              "publishedAt": "2026-09-04T15:58:23Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "multiregional",
+              "titleOriginal": "Trump brushes off accusations of Russian sabotage against NATO allies",
+              "url": "https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120",
+              "publishedAt": "2026-09-05T07:36:26Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "[Interview] 'In Germany, everyone is constantly afraid Putin will get angry'. German military expert on Berlin's response to Leipzig drone plot and Moscow's hybrid attacks",
+              "url": "https://euobserver.com/235514/interview-in-germany-everyone-is-constantly-afraid-putin-will-get-angry-german-military-expert-on-berlins-response-to-leipzig-drone-plot-and-moscows-hybrid-attacks",
+              "publishedAt": "2026-09-04T15:23:43Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU plan to blacklist hundreds more Russians risks new boom in litigation",
+              "url": "https://euobserver.com/235281/eu-plan-to-blacklist-hundreds-more-russians-risks-new-boom-in-litigation",
+              "publishedAt": "2026-09-04T09:39:09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

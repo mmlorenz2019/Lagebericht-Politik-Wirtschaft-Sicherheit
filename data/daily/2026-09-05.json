@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-05",
+  "generatedAt": "2026-09-05T08:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump droht mit Handelsstopp und will 500 Millionen Dollar für Midterms ausgeben",
+          "summaryDe": [
+            "Präsident Trump hat seine Drohung erneuert, den Handel mit wichtigen Partnern einzufrieren, sollte die Federal Reserve die Zinsen nicht senken – eine Verknüpfung von Geldpolitik und Außenhandel, die von Ökonomen scharf kritisiert wird.",
+            "Gleichzeitig kündigte er an, bis zu 500 Millionen Dollar aus eigener Tasche für republikanische Kandidaten bei den Midterm-Wahlen bereitzustellen, was die Grenze zwischen Parteifinanzierung und persönlichem politischem Kapital weiter verwischt.",
+            "Ein Bundesrichter verlängerte zudem unbefristet eine einstweilige Verfügung, die Trumps Einschränkungen bei der Briefwahl blockiert – darunter Vorschriften zu scanbaren Umschlägen und Wählerregistrierungslisten.",
+            "Der Supreme Court stellte sich derweil auf die Seite der Republikaner in einem Streit um TV-Werbekosten: Politische Parteien dürfen künftig dieselben günstigen Tarife wie Kandidaten beanspruchen, was die Wahlkampfstrategie der Demokraten schwächen könnte."
+          ],
+          "additionalImportant": "Das Weiße Haus plant außerdem den Baubeginn eines 75 Meter hohen Triumphbogens nahe dem Arlington National Cemetery binnen zwei Wochen – ohne abschließende Bundesgenehmigung, was Veteranenverbände vor Gericht treibt.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Trumps Handelsdrohungen können direkt deutsche Exportinteressen treffen, da Deutschland zu den größten US-Handelspartnern zählt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Mehrere parallele innenpolitische Eskalationen – Handelspolitik, Wahlkampffinanzierung, Wahlrecht – ergeben zusammen ein bedeutendes politisches Lagebild."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Haotično na terenu – posebne učionice za nevakcinisane, koriguju se potvrde, fali termina...",
+              "url": "https://www.pobjeda.me/clanak/haoticno-na-terenu-posebne-ucionice-za-nevakcinisane-koriguju-se-potvrde-fali-termina",
+              "publishedAt": "2026-09-05T06:35:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Elegancija, stil i zajedništvo nikada ne stare",
+              "url": "https://www.vijesti.me/zabava/825267/elegancija-stil-i-zajednistvo-nikada-ne-stare",
+              "publishedAt": "2026-09-05T06:42:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Puca politička brana u Njemačkoj",
+              "url": "https://www.vijesti.me/kolumne/825190/puca-politicka-brana-u-njemackoj",
+              "publishedAt": "2026-09-05T07:10:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Norwegens Staatsfonds zieht sich aus US-Staatsanleihen zurück",
+          "summaryDe": [
+            "Der norwegische Staatsfonds mit einem Volumen von 2,3 Billionen Dollar kündigt an, seine Bestände an US-Staatsanleihen zu reduzieren und stärker in renditestarke, risikobehaftete Anlagen umzuschichten.",
+            "Ein Fonds dieser Größe, der als globaler Stabilitätsanker gilt, sendet damit ein deutliches Signal über das veränderte Vertrauen in US-Schuldpapiere – besonders vor dem Hintergrund von Trumps anhaltenden Angriffen auf die Federal Reserve.",
+            "Die Entscheidung fällt in eine Phase, in der auch andere institutionelle Anleger ihre Dollar-Abhängigkeit überprüfen, was den Druck auf den US-Anleihemarkt mittelfristig erhöhen könnte.",
+            "Für Deutschland und Europa ist das relevant, weil eine nachhaltige Umschichtung großer Staatsfonds die globalen Kapitalflüsse und damit auch die Refinanzierungsbedingungen europäischer Staaten beeinflusst."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Veränderte globale Kapitalflüsse können indirekt europäische Anleihemärkte und Refinanzierungskosten berühren."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Rückzug des weltgrößten Staatsfonds aus US-Treasuries ist ein markantes Signal für das globale Vertrauen in amerikanische Schuldpapiere."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "(GALERIJA )Remi u meču gdje je pobjeda za sve bila imperativ",
+              "url": "https://www.pobjeda.me/clanak/bruka-u-petrovcu-prekinut-derbi-trener-sutjeske-pogoden-u-glavu",
+              "publishedAt": "2026-09-04T21:29:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Pentagon leitet Massenbefragung nach Leaks über Iran-Krieg ein – Witkoff und Kushner reisen nach Moskau und Kiew",
+          "summaryDe": [
+            "Das Pentagon unterzieht rund 50 Mitglieder des Joint Staff Lügendetektortests, nachdem vertrauliche Berichte über den Iran-Krieg und Munitionsengpässe in die Presse gelangt sind – ein ungewöhnlich breiter Verdächtigenkreis, der auf erheblichen internen Vertrauensverlust hindeutet.",
+            "Parallel bestätigte Trump, dass seine Sondergesandten Steve Witkoff und Jared Kushner am Sonntag zunächst Moskau und dann Kiew besuchen werden, um einen Friedensplan für die Ukraine vorzulegen.",
+            "Die Doppelbewegung – interne Informationskontrolle einerseits, aktive Diplomatie andererseits – zeigt, wie stark sicherheitspolitische und außenpolitische Fragen derzeit ineinandergreifen.",
+            "Ob die Reise nach Moskau Russland zu konkreten Zugeständnissen bewegt oder lediglich Verhandlungsbereitschaft signalisiert, bleibt abzuwarten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine US-vermittelte Waffenruhe oder Friedenslösung in der Ukraine hätte unmittelbare Auswirkungen auf die deutsche Sicherheits- und Energiepolitik."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Hochrangige US-Diplomatie in Moskau und Kiew sowie ein Pentagon-Leak-Skandal über einen laufenden Krieg sind außergewöhnliche Ereignisse."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Tramp potvrdio da njegovi izaslanici idu u Moskvu i Kijev sa...",
+              "url": "https://www.vijesti.me/svijet/globus/825273/tramp-potvrdio-da-njegovi-izaslanici-idu-u-moskvu-i-kijev-sa-planom-okoncanja-rata",
+              "publishedAt": "2026-09-05T07:24:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ekološki incidenti na rijeci Lim: Ponovo se pojavile sumnjiva...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825268/ekoloski-incidenti-na-rijeci-lim-ponovo-se-pojavile-sumnjiva-bijela-tecnost-i-pjena",
+              "publishedAt": "2026-09-05T06:55:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "52 Singapurer in chinesischer Provinz Guangxi bei Pyramidensystem-Razzia festgenommen",
+          "summaryDe": [
+            "Bei einer Strafverfolgungsoperation in der südchinesischen Provinz Guangxi haben Behörden 52 Staatsbürger Singapurs festgenommen, denen die Beteiligung an Pyramidenschemata vorgeworfen wird.",
+            "Solche Operationen richten sich regelmäßig gegen internationale Betrugsnetzwerke, die in Grenzregionen Südostasiens operieren und gezielt Ausländer rekrutieren.",
+            "Singapur und China unterhalten enge wirtschaftliche Beziehungen, weshalb die Festnahmen die diplomatischen Kanäle belasten könnten – zumal Singapur als Finanzplatz besonders empfindlich auf Korruptionsvorwürfe reagiert.",
+            "Die Zahl der Betroffenen und die grenzüberschreitende Dimension unterstreichen, dass organisierte Wirtschaftskriminalität in der Region weiterhin ein ernstes Problem darstellt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Vorfall betrifft primär bilaterale Beziehungen zwischen China und Singapur ohne erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant als Hinweis auf grenzüberschreitende Wirtschaftskriminalität in Südostasien, jedoch regional begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China arrests 52 Singaporeans in Guangxi pyramid scheme crackdown",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366351/china-arrests-52-singaporeans-guangxi-pyramid-scheme-crackdown",
+              "publishedAt": "2026-09-04T07:18:28Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesische Forscher gewinnen Uran aus Meerwasser mit achtfacher US-Zielrate",
+          "summaryDe": [
+            "Wissenschaftler in China haben ein neuartiges Material namens PhosCage entwickelt, mit dem sich Uran aus Meerwasser in einer Rate extrahieren lässt, die das vom US-Energieministerium gesetzte Ziel um das Achtfache übertrifft.",
+            "Meerwasser enthält schätzungsweise 4,5 Milliarden Tonnen gelöstes Uran – ein potenziell riesiger Rohstoffvorrat, dessen wirtschaftliche Nutzbarkeit bislang an zu geringer Extraktionseffizienz scheiterte.",
+            "Sollte sich das Verfahren industriell skalieren lassen, könnte China seinen Nuklearbrennstoffbedarf langfristig unabhängiger von Importen decken – eine strategische Dimension, die weit über den wissenschaftlichen Durchbruch hinausreicht.",
+            "Für die globale Nuklearpolitik und Uranmärkte wäre eine solche Entwicklung mittelfristig bedeutsam, auch wenn bis zur kommerziellen Anwendung noch erhebliche Hürden bestehen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Fortschritte bei der Kernbrennstoffversorgung Chinas könnten globale Uranmärkte berühren, was indirekt für europäische Atomenergieländer relevant ist."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Achtfacher Durchbruch bei der Meerwasser-Urangewinnung ist wissenschaftlich und strategisch bedeutsam, auch wenn die Skalierbarkeit noch offen ist."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese team extracts uranium from seawater at 8 times the US target rate",
+              "url": "https://www.scmp.com/news/china/science/article/3366307/chinese-team-extracts-uranium-seawater-8-times-us-target-rate",
+              "publishedAt": "2026-09-04T14:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China und USA nehmen Militärkontakt nach zwei Jahren wieder auf – bewaffnete Trainingsflugzeuge vertreiben philippinische Maschine über Scarborough-Riff",
+          "summaryDe": [
+            "General Yang Zhibin und US-Admiral Samuel Paparo sind in Kanada zusammengekommen und haben damit eine zweijährige Pause im direkten Kommandokontakt zwischen den Streitkräften beider Länder beendet – ein ungewöhnlich langer Gesprächsabbruch, der nun in einer Phase relativer diplomatischer Annäherung überwunden wird.",
+            "Fast zeitgleich griffen chinesische bewaffnete Trainingsflugzeuge vom Typ JL-10, die mit PL-5-Luft-Luft-Raketen bestückt waren, ein leichtes philippinisches Flugzeug über dem umstrittenen Scarborough-Riff auf und zwangen es zum Abdrehen.",
+            "Der Kontrast beider Meldungen illustriert Chinas zweigleisige Strategie: Gesprächskanäle zu Washington öffnen, gleichzeitig im Südchinesischen Meer Fakten schaffen.",
+            "Für Europa und Deutschland ist das relevant, weil eine Eskalation im Südchinesischen Meer internationale Lieferketten und die maritime Sicherheitsarchitektur betrifft, an der auch EU-Mitgliedstaaten ein Interesse haben."
+          ],
+          "additionalImportant": "Ein russischer Regierungsvertreter brachte zudem ein mögliches Dreiertreffen zwischen Xi, Trump und Putin beim APEC-Forum ins Gespräch – ein Format, das bislang ohne Präzedenzfall wäre.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Stabilere oder instabilere US-China-Militärbeziehungen wirken sich auf die globale Sicherheitsarchitektur aus, an der Deutschland indirekt beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Wiederaufnahme direkter Militärgespräche nach zwei Jahren und gleichzeitige bewaffnete Provokationen im Südchinesischen Meer sind systemisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China, US military commanders snap 2-year break with talks in Canada",
+              "url": "https://www.scmp.com/news/china/military/article/3366413/china-us-military-commanders-snap-2-year-break-talks-canada",
+              "publishedAt": "2026-09-04T11:30:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese armed trainer jets drive away Philippine aircraft over Scarborough Shoal",
+              "url": "https://www.scmp.com/news/china/military/article/3366364/chinese-armed-trainer-jets-drive-away-philippine-aircraft-over-scarborough-shoal",
+              "publishedAt": "2026-09-04T10:00:13Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Mandićs Beileidstelegramm für verurteilten Kriegsverbrecher Mladić sorgt für Empörung",
+          "summaryDe": [
+            "Der montenegrinische Politiker Andrija Mandić hat öffentlich Beileid zum Tod des wegen Völkermords verurteilten Kriegsverbrechens Ratko Mladić bekundet – ein Schritt, der scharfe Kritik von Menschenrechtsorganisationen und proeuropäischen Kräften ausgelöst hat.",
+            "Mandić verteidigte das Telegramm mit den Worten, es enthalte nichts Überflüssiges, und warf der oppositionellen DPS vor, die Debatte politisch zu instrumentalisieren.",
+            "In einem Land, das EU-Beitrittskandidat ist, wirft die öffentliche Ehrung eines verurteilten Täters des Srebrenica-Massakers Fragen über den tatsächlichen politischen Konsens beim Umgang mit der Kriegsvergangenheit auf.",
+            "Wie weit die Justiz den Vorfall verfolgt und ob europäische Partner formell reagieren, wird die politische Tragweite mitbestimmen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland verfolgt den Beitrittsprozess der Westbalkanstaaten und ist durch EU-Erweiterungsdebatten indirekt betroffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Innenpolitisch in Montenegro relevant und symbolisch bedeutsam für die regionale Aufarbeitung von Kriegsverbrechen, international jedoch begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kankaraš: Rad ODT-a Berane može se nazvati ohrabrujućim za...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/825266/gdfggfdgfd",
+              "publishedAt": "2026-09-05T07:03:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Freispruch im Mordfall Caruana Galizia – und AfD auf Rekordkurs in Sachsen-Anhalt",
+          "summaryDe": [
+            "Ein maltesisches Gericht hat den Millionär Yorgen Fenech vom Vorwurf freigesprochen, die Ermordung der Investigativjournalistin Daphne Caruana Galizia im Jahr 2017 in Auftrag gegeben zu haben – ein Urteil, das EU-Parlamentspräsidentin Roberta Metsola mit scharfen Worten kommentierte und weitere Aufklärung verlangte.",
+            "Der Fall steht exemplarisch für Fragen der Rechtsstaatlichkeit in EU-Mitgliedstaaten und wird im Europaparlament seit Jahren aufmerksam verfolgt.",
+            "Kurz vor der Landtagswahl in Sachsen-Anhalt am Sonntag steuert die AfD laut Umfragen auf ein historisches Ergebnis zu; EUobserver dokumentiert ein Wahlprogramm mit getrennten Schulklassen für Geflüchtete und dem Ende öffentlich-rechtlicher Rundfunkfinanzierung.",
+            "Beide Ereignisse stehen für unterschiedliche Facetten einer breiteren Debatte über Demokratiequalität innerhalb der EU."
+          ],
+          "additionalImportant": "In Schweden setzt dieItte-rechts-Regierung auf Wirtschaftswachstum als Wahlkampfargument – trotz pessimistischer Haushaltsstimmung in der Bevölkerung.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die AfD-Wahl in Sachsen-Anhalt betrifft Deutschland unmittelbar; das Maltaurteil berührt EU-Rechtsstaatsdebatten, an denen Deutschland aktiv beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Freispruch in einem aufsehenerregenden Journalistenmord und ein möglicherweise historisches Rechtsaußen-Ergebnis in einem deutschen Bundesland sind bedeutende Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "European Parliament's Metsola on Daphne Caruana Galizia verdict: 'We will not give up, we will not give in'",
+              "url": "https://euobserver.com/235239/european-parliaments-metsola-on-daphne-caruana-galizia-verdict-we-will-not-give-up-we-will-not-give-in",
+              "publishedAt": "2026-09-03T15:30:41Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "On the campaign trail in Saxony-Anhalt with Alternative for Germany: nationalism, 'remigration' and a radical agenda",
+              "url": "https://euobserver.com/234988/on-the-campaign-trail-in-saxony-anhalt-with-alternative-for-germany-nationalism-remigration-and-a-radical-agenda",
+              "publishedAt": "2026-09-03T12:34:54Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Rumänien verliert 770 Millionen Euro EU-Gelder wegen gescheiterter Lohnreform",
+          "summaryDe": [
+            "Rumäniens Parteien haben sich nicht auf eine Lohnreform einigen können, die als Voraussetzung für die Auszahlung von 770 Millionen Euro aus EU-Fonds galt – Gelder, die für Krankenhäuser, Schulen, Verkehr und grüne Energie vorgesehen waren.",
+            "Das Scheitern der Verhandlungen ist kein technisches Versagen, sondern Resultat handfester politischer Interessenkonflikte zwischen den Koalitionspartnern, die den nationalen Nutzen dem Parteienkalkül unterordnen.",
+            "Für die EU ist es ein weiteres Beispiel dafür, wie Reformauflagen in Mitgliedstaaten an innenpolitischen Blockaden scheitern können – eine Schwachstelle im Kohäsionsmechanismus, die Brüssel immer wieder vor Glaubwürdigkeitsprobleme stellt.",
+            "Parallel kritisiert EUobserver, dass Europa generell mehr ausgeben will, eigene Regelwerke aber die Investitionskosten gleichzeitig in die Höhe treiben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als großer EU-Nettozahler hat Deutschland ein Interesse daran, dass EU-Gelder effizient abgerufen und an Reformen geknüpft werden."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant als Symptom struktureller Reformschwäche in EU-Mitgliedstaaten, aber regional begrenzte unmittelbare Auswirkung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Romanian parties fail to agree on wage reform, costing country €770m in EU funds",
+              "url": "https://euobserver.com/234925/romanian-parties-fail-to-agree-on-wage-reform-costing-country-e770m-in-eu-funds",
+              "publishedAt": "2026-09-04T07:32:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Europe wants to spend more but its own policies are making it harder",
+              "url": "https://euobserver.com/235227/europe-wants-to-spend-more-but-its-own-policies-are-making-it-harder",
+              "publishedAt": "2026-09-03T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russische Drohne trifft SBU-Hauptquartier in Kiew – Trump spielt Sabotage-Vorwürfe gegen NATO herunter",
+          "summaryDe": [
+            "Ein russischer Drohnenangriff hat das Hauptgebäude des ukrainischen Inlandsgeheimdienstes SBU in Kiew getroffen; Präsident Selenskyj forderte als Reaktion die Vorbereitung eines Spiegelangriffs.",
+            "Zur selben Zeit erklärte Trump, er halte die Vorwürfe russischer Sabotageoperationen gegen NATO-Verbündete – darunter der Sprengstoff-Drohnenfund am Flughafen Leipzig – für übertrieben oder falsch, was in europäischen Hauptstädten mit Befremden aufgenommen wurde.",
+            "Ein deutscher Militärexperte unterstrich in einem Interview, NATO-Artikel 4 hätte angesichts der gleichzeitigen russischen Hybridangriffe auf mehrere Bündnisstaaten längst aktiviert werden müssen – und kritisierte die anhaltende Zurückhaltung Berlins.",
+            "Witkoff und Kushner wollen am Sonntag nach Moskau und Kiew reisen, doch angesichts fortlaufender Angriffe und Trumps Skepsis gegenüber Verbündeten bleibt unklar, auf welcher Grundlage ernsthafte Verhandlungen stattfinden sollen."
+          ],
+          "additionalImportant": "Die EU plant, ihre Russland-Sanktionsliste massiv auszuweiten – rechnet aber mit einer Prozesswelle, da russische Sanktionierte bereits 84 von 125 neuen Klagen am EuG in 2025 eingereicht haben.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der Sprengstoff-Drohnenfund am Leipziger Flughafen und die Debatte um deutsche Zurückhaltung bei NATO-Konsultationen betreffen Deutschland unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Drohnenangriff auf den ukrainischen Geheimdienst, Trumps Relativierung russischer Sabotage und bevorstehende Friedensmission sind außergewöhnlich bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Russian drone strike hits security service headquarters in Kyiv",
+              "url": "https://www.politico.eu/article/russian-drone-strike-hits-security-service-headquarters-kyiv-ukraine",
+              "publishedAt": "2026-09-04T15:58:23Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Trump brushes off accusations of Russian sabotage against NATO allies",
+              "url": "https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120",
+              "publishedAt": "2026-09-05T07:36:26Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] 'In Germany, everyone is constantly afraid Putin will get angry'. German military expert on Berlin's response to Leipzig drone plot and Moscow's hybrid attacks",
+              "url": "https://euobserver.com/235514/interview-in-germany-everyone-is-constantly-afraid-putin-will-get-angry-german-military-expert-on-berlins-response-to-leipzig-drone-plot-and-moscows-hybrid-attacks",
+              "publishedAt": "2026-09-04T15:23:43Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU plan to blacklist hundreds more Russians risks new boom in litigation",
+              "url": "https://euobserver.com/235281/eu-plan-to-blacklist-hundreds-more-russians-risks-new-boom-in-litigation",
+              "publishedAt": "2026-09-04T09:39:09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
