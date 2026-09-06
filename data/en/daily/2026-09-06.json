@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-06",
+  "generatedAt": "2026-09-06T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "US Envoys in Moscow – Witkoff and Kushner Negotiate Ukraine Peace",
+          "summaryDe": [
+            "US special envoys Steve Witkoff and Jared Kushner traveled to Moscow for talks with Russian representatives before planning to visit Kyiv subsequently.",
+            "The Kremlin described the three-hour talks as 'useful' but reported no breakthrough. Putin reportedly ordered a temporary halt to attacks on Kyiv beforehand.",
+            "Whether this diplomatic initiative leads to a durable ceasefire remains unclear; previous rounds of negotiations have produced little concrete progress.",
+            "Simultaneously, US military operations against Iran are significantly consuming Washington's foreign policy capacity."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A ceasefire or peace process in Ukraine would have direct consequences for German foreign policy, arms deliveries, and sanctions strategy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "US-led direct negotiations with Russia over the Ukraine war constitute an extraordinarily significant diplomatic event with global reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "U.S. envoys in Moscow in new push for peace between Russia and Ukraine",
+              "url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+              "publishedAt": "2026-09-05T11:08:57Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "regional",
+              "titleOriginal": "Witkoff and Kushner set to visit Moscow then Kyiv on Sunday",
+              "url": "https://www.politico.eu/article/steve-witkoff-jared-kushner-donald-trump-visit-moscow-and-kyiv",
+              "publishedAt": "2026-09-04T17:58:30Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump Administration Plans Tax-Exempt Status Removal for Private Schools – Billions at Stake",
+          "summaryDe": [
+            "The Treasury Department and IRS have proposed regulations that could strip thousands of private schools of their tax-exempt status.",
+            "Donors would also be affected: tax deductions for donations to these institutions could be eliminated, fundamentally disrupting the fundraising models of many institutions.",
+            "The initiative fits a pattern in the Trump administration of using tax law to apply pressure on politically disfavored institutions.",
+            "Critics see this as an encroachment on educational autonomy; supporters describe it as a correction of unjustified state subsidization."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The measure affects exclusively the US tax and education system with no apparent direct impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A government intervention of this magnitude in the financing foundations of private educational institutions is domestically significant and socially far-reaching."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business news outlet",
+              "titleOriginal": "Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations",
+              "url": "https://www.cnbc.com/2026/09/03/treasury-irs-proposal-tax-exempt-schools-charitable-donations.html",
+              "publishedAt": "2026-09-04T12:15:44Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US Strikes Iranian Oil Tankers – Severe Escalation Following Missile Attacks on Navy",
+          "summaryDe": [
+            "US forces attacked three Iranian oil tankers near Kharg Island after Iran allegedly fired ballistic missiles at US warships – the most severe direct exchange between the two countries since the start of the conflict.",
+            "Eighteen American soldiers have been killed as of September 2026; one soldier from Texas was named.",
+            "The action increases the risk of further escalation in the Persian Gulf, as Iranian counterattacks are likely.",
+            "Markets and allies worldwide reacted with concern, as a conflict in the Strait of Hormuz threatens global energy supply routes."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An escalation in the Persian Gulf endangers energy supply routes and could directly affect German energy prices and foreign trade positions."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Direct US military strikes against Iran and Iranian attacks on the US Navy represent an extraordinary and potentially systemic escalation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "U.S. strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
+              "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted",
+              "publishedAt": "2026-09-05T15:05:08Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "U.S. strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
+              "url": "https://www.pbs.org/newshour/world/u-s-military-hits-3-iranian-oil-tankers-after-saying-navy-ships-were-targeted-with-missiles",
+              "publishedAt": "2026-09-05T16:02:10Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news outlet",
+              "titleOriginal": "U.S. attacks 3 Iranian oil tankers after missiles target Navy warships",
+              "url": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html",
+              "publishedAt": "2026-09-05T15:43:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "China and South Korea Exchange Protest Notes – Dispute Over Taiwan and Korean Unification",
+          "summaryDe": [
+            "Beijing and Seoul have exchanged formal protest notes: China accused South Korea of undermining the principle of Taiwan's unification, while Seoul criticized Beijing's stance on Korean reunification.",
+            "Rarely are these bilateral sensitivities aired so openly; the dispute shows how strongly both governments face domestic pressure to show no weakness on core issues.",
+            "For regional diplomacy, the incident sends an unfavorable signal, as China and South Korea are actually seeking closer economic relations.",
+            "The escalation in tone could further strain trilateral formats with Japan."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A deterioration in Chinese-South Korean relations indirectly touches German trade interests, as both countries are important economic partners of Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Public diplomatic protest notes between China and South Korea over such central sovereignty issues are unusual and diplomatically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China and South Korea accuse each other of undermining key national principles",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366418/china-and-south-korea-accuse-each-other-undermining-key-principles",
+              "publishedAt": "2026-09-04T11:12:53Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinese Researchers Extract Uranium from Seawater at Eight Times US Target Rate",
+          "summaryDe": [
+            "A Chinese research team has extracted uranium from seawater using the material PhosCage at a yield reported to exceed the US Department of Energy's target by a factor of eight.",
+            "The oceans contain an estimated four times more uranium than all known land deposits; if scaled, the technology would have strategic significance for nuclear energy supply security.",
+            "If successful, China would be significantly less dependent on uranium imports, which would have geopolitical consequences for current supplier countries.",
+            "The results have not yet been independently replicated, so caution in assessment is warranted."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Technological breakthroughs in uranium extraction could potentially shift global nuclear energy strategies over time, which indirectly affects Germany as an importer."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "If confirmed, the technology would be a significant advance in resource technology with geopolitical consequences for energy supply chains."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese team extracts uranium from seawater at 8 times the US target rate",
+              "url": "https://www.scmp.com/news/china/science/article/3366307/chinese-team-extracts-uranium-seawater-8-times-us-target-rate",
+              "publishedAt": "2026-09-04T14:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "First US-China Command-Level Talks in Two Years – Meeting in Canada",
+          "summaryDe": [
+            "General Yang Zhibin and US Admiral Samuel Paparo met in Canada for the first command-level talks in two years; the focus was on open communication channels and the Taiwan Strait.",
+            "Simultaneously, Beijing reported its first military talks with Canada in eight years – a pattern suggesting a cautious easing of China's communication refusal toward Western partners.",
+            "That this opening coincides with the Scarborough Reef incident – where Chinese fighter trainers drove away Philippine light aircraft – shows that China's strategy simultaneously combines willingness to talk with military pressure.",
+            "Against the backdrop of the US-Iran escalation, this crisis prevention channel comes at a crucial time."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Stable US-Chinese military communication reduces escalation risk in the Indo-Pacific and thus indirectly affects European security and trade interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The first high-level US-Chinese military talks in two years is a relevant signal for global security dynamics."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China, US military commanders snap 2-year break with talks in Canada",
+              "url": "https://www.scmp.com/news/china/military/article/3366413/china-us-military-commanders-snap-2-year-break-talks-canada",
+              "publishedAt": "2026-09-04T11:30:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Canada and China thaw continues as militaries hold first talks in 8 years amid US pressure",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366477/canada-and-china-thaw-continues-militaries-hold-first-talks-8-years-amid-us-pressure",
+              "publishedAt": "2026-09-05T11:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Picula Warns: War Criminal Funeral in Belgrade Damages Western Balkans-EU Process",
+          "summaryDe": [
+            "Former EU Member of Parliament Tonino Picula warned in an interview with newspaper Pobjeda that a state funeral ceremony for a convicted war criminal in Belgrade would strain relations in the Western Balkans and damage the EU accession process.",
+            "The symbolism of such an act sends the wrong signal to Brussels and those member states that insist on reconciliation and rule of law, especially during ongoing chapter negotiations.",
+            "For Montenegro as a frontrunner among candidate countries, the regional atmosphere is directly relevant: what Serbia politically tolerates radiates across the entire accession dynamic.",
+            "Picula called for a clear response from European institutions."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany is a central actor in EU enlargement policy; symbolic setbacks in coming to terms with the past in the Western Balkans can influence German positions in accession negotiations."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The incident is regionally relevant and significant for the EU enlargement process, but has limited international scope."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Picula za Pobjedu: Sahrana ratnog zločinca u Beogradu odraziće se na odnose na Zapadnom Balkanu",
+              "url": "https://www.pobjeda.me/clanak/picula-za-pobjedu-sahrana-ratnog-zlocinca-u-beogradu-odrazice-se-na-odnose-na-zapadnom-balkanu",
+              "publishedAt": "2026-09-06T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Economist Mugoša: Montenegro Needs Long-Term Strategy, Not Just Formal EU Market Access",
+          "summaryDe": [
+            "Economist Boris Mugoša argues that mere accession to the European single market without an independent development strategy offers little for Montenegro.",
+            "Investors do not come simply because of EU membership, but because of concrete offerings – without these, Montenegro becomes part of the market but without competitive substance.",
+            "Mugoša advocates for a 10- to 20-year plan identifying sectors where Montenegro can actually be competitive.",
+            "The warning comes at a time when accession negotiations are entering a decisive phase."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The economic policy debate primarily concerns Montenegrin domestic politics without immediate impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The question of an independent economic development strategy is relevant to Montenegro's EU accession prospects, but remains nationally limited."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Mugoša za Pobjedu: Suština nije da formalno uđemo na evropsko tržište, nego da imamo što i da ponudimo",
+              "url": "https://www.pobjeda.me/clanak/mugosa-za-pobjedu-sustina-nije-da-formalno-udemo-na-evropsko-trziste-nego-da-imamo-sto-i-da-ponudimo",
+              "publishedAt": "2026-09-06T08:14:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Large-Scale Operation in Grahovo – Police Search for Fugitive Suspect and Secret Tunnel",
+          "summaryDe": [
+            "In the municipality of Grahovo, Montenegrin police conducted a large-scale search operation for a man named Milović, to whom authorities also attributed a secret tunnel in a restaurant.",
+            "Such operations indicate organized crime structures that remain active in rural areas of the country.",
+            "Montenegro is struggling – in the context of its EU accession negotiations, particularly in the justice and interior chapters – with ongoing challenges in combating organized crime.",
+            "Whether the operation led to an arrest was not yet known at the time of reporting."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The incident is a local law enforcement case with no apparent connection to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The operation is relevant in the context of Montenegro's efforts to combat organized crime but has no inter-regional significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Grahovo pod opsadom: Policija tražila Milovića i tajni tunel u restoranu",
+              "url": "https://www.pobjeda.me/clanak/grahovo-pod-opsadom-policija-trazila-milovica-i-tajni-tunel-u-restoranu",
+              "publishedAt": "2026-09-06T09:44:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russian Sabotage Act at Leipzig/Halle Airport – von der Leyen and Rutte Condemn Attack",
+          "summaryDe": [
+            "EU Commission President von der Leyen and NATO Secretary-General Rutte jointly condemned a Russian attack attempt on Leipzig/Halle Airport in which military materials and alleged Russian operatives were reportedly involved.",
+            "The incident fits into a broad wave of hybrid Russian sabotage operations across Europe, which according to security experts reveal intelligence gaps on the NATO eastern flank.",
+            "A German military expert argued that the severity of the attack would have justified activating NATO Article 4 – however, Berlin initially responded cautiously.",
+            "Trump dismissed accusations against Russia, further straining transatlantic unity in assessing hybrid threats."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A sabotage attack on German soil with alleged Russian authorship directly affects Germany in its security and political response capacity."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "State-directed sabotage against critical infrastructure of a NATO member has systemic significance for European security architecture."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+              "publishedAt": "2026-09-02T10:28:49Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "[Interview] 'In Germany, everyone is constantly afraid Putin will get angry'. German military expert on Berlin's response to Leipzig drone plot and Moscow's hybrid attacks",
+              "url": "https://euobserver.com/235514/interview-in-germany-everyone-is-constantly-afraid-putin-will-get-angry-german-military-expert-on-berlins-response-to-leipzig-drone-plot-and-moscows-hybrid-attacks",
+              "publishedAt": "2026-09-04T15:23:43Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "regional",
+              "titleOriginal": "Trump brushes off accusations of Russian sabotage against NATO allies",
+              "url": "https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120",
+              "publishedAt": "2026-09-05T07:36:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Approves German Capacity Mechanism – Up to 35 Billion Euros for Electricity Supply Security",
+          "summaryDe": [
+            "The European Commission has approved the German capacity mechanism, which covers between 15.6 and 35.2 billion euros and is intended to ensure electricity supply security in the German power market from 2031 onwards.",
+            "With this instrument, power plant operators can be compensated for maintaining reserve capacity – a model increasingly used in the EU to close gaps in renewable generation.",
+            "From a state aid perspective, the approval required review, since such mechanisms can distort competition in the single market; Brussels' green light now creates planning certainty.",
+            "The decision is also precedent-setting for other member states considering similar capacity mechanisms."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The approved mechanism directly affects German energy policy and investment planning in the electricity sector with a volume of up to 35 billion euros."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The approval of a capacity mechanism of this magnitude is energy and state aid law significant and precedent-setting for other EU member states."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply*",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+              "publishedAt": "2026-09-01T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Putin Orders 72-Hour Ceasefire – US Envoys Visit Moscow and Kyiv",
+          "summaryDe": [
+            "Russian President Putin has agreed to a 72-hour ceasefire with Ukraine, coinciding with the visit of US envoys Witkoff and Kushner to Moscow and Kyiv.",
+            "After the meeting, the Kremlin spoke of 'useful' talks but reported no breakthrough – Ukrainian skepticism regarding Russian commitments remains pronounced.",
+            "The initiative is under considerable pressure, as parallel US engagement against Iran ties up Washington's diplomatic capacity.",
+            "Whether the ceasefire holds and leads to substantive negotiations remains open; moreover, contradictory reports exist on this event."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Any step toward a Ukraine ceasefire directly affects German foreign policy, military aid, and sanctions strategy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A ceasefire ordered by Putin in the Ukraine war, accompanied by US diplomacy at the highest level, is an extraordinary and internationally system-relevant event."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source",
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "regional",
+              "titleOriginal": "Putin signs off on 72-hour ceasefire with Kyiv as US envoys visit",
+              "url": "https://www.politico.eu/article/vladimir-putin-signs-off-72-hour-ceasefire-with-kyiv-us-envoys-visit",
+              "publishedAt": "2026-09-05T14:16:36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
