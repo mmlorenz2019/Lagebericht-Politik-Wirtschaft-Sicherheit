@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-07",
+  "generatedAt": "2026-09-07T10:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump Administration Seeks Supreme Court Approval for Mail-In Voting Restrictions",
+          "summaryDe": [
+            "The Trump Administration has filed another request with the Supreme Court to implement restrictions on mail-in voting at a time when several states are already distributing ballots.",
+            "This action continues a series of legal disputes over voting procedures that have occupied the American legal system for years.",
+            "Whether the Supreme Court will rule differently this time than in previous petitions remains unclear; however, the political symbolic impact of this renewed attempt is considerable.",
+            "For the Democratic opposition, the move is another signal that the administration is systematically attempting to narrow voting rights."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "A domestic US voting rights issue with no direct impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Restrictions on mail-in voting rules shortly before ongoing elections represent a significant constitutional and democratic development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "California made Gavin Newsom famous. Will it drag down his 2028 presidential ambitions?",
+              "url": "https://www.pbs.org/newshour/politics/california-made-gavin-newsom-famous-will-it-drag-down-his-2028-presidential-ambitions",
+              "publishedAt": "2026-09-06T16:52:25Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "AI Data Centers Drive Up Land Prices in Rural US Regions",
+          "summaryDe": [
+            "Developers are increasingly purchasing farmland and rural properties to build AI data centers, causing land prices in affected regions to rise significantly.",
+            "Some farmers and property owners are resisting the sales—partly for economic reasons, partly due to concerns about structural changes to rural communities.",
+            "The boom demonstrates how the energy demands of AI infrastructure now extend far beyond city limits.",
+            "For the USA as the world's largest AI market, this raises questions about land use, energy supply, and the distributive effects on society."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Similar debates about data center locations are emerging in Europe and Germany as well."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "A relevant structural phenomenon, but one that remains regionally limited and lacks acute crisis characteristics."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
+              "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+              "publishedAt": "2026-09-06T09:51:04Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Cargo Plane Overruns Runway in Miami – Five Dead",
+          "summaryDe": [
+            "An Amazon cargo plane overran the runway at Miami airport and crashed; at least five people were killed and several others injured.",
+            "The exact cause of the accident has not yet been determined; US authorities have launched investigations.",
+            "For Amazon, the incident represents a serious setback for the company's own logistics air transport operations, which the company has massively expanded in recent years.",
+            "Reports from multiple media outlets confirm the death toll and details of the accident consistently."
+          ],
+          "additionalImportant": "Separate reports of escalating US-Iran confrontations in the Persian Gulf as well as fighting between Israel and Hezbollah with at least eleven dead suggest a further tense security situation in the Middle East.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirect relevance through global air freight safety and impacts on international logistics chains."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A fatal accident involving a cargo plane at a major airport has considerable significance for aviation safety and public attention."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "At least 5 dead after Amazon cargo plane barreled off runway at Miami airport",
+              "url": "https://www.pbs.org/newshour/nation/at-least-5-dead-after-amazon-cargo-plane-barreled-off-runway-at-miami-airport",
+              "publishedAt": "2026-09-06T21:56:35Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "What to Know About Cargo Plane That Overran Its Runway, Killing 5 in Miami",
+              "url": "https://www.nytimes.com/2026/09/06/us/miami-plane-crash-what-we-know.html",
+              "publishedAt": "2026-09-07T03:40:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "China's Military University to Align AI Curriculum with War Preparation",
+          "summaryDe": [
+            "A Chinese military university is to fundamentally overhaul its AI course for doctoral students with the guiding principle of preparing officers specifically for intelligent warfare.",
+            "Specifically, the plan is to embed combat scenarios into daily studies rather than teach AI in abstract, theoretical terms.",
+            "The move fits a broader pattern: the People's Liberation Army has invested for years in linking military and cutting-edge technology.",
+            "For external observers, the news underscores how explicitly China is aligning its academic training toward military application."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Long-term relevant for Western assessment of Chinese military technology; direct consequences for Germany are not evident at present."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The systematic war orientation of military AI training represents a significant strategic shift."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese military university urged to revise AI course to 'educate for war'",
+              "url": "https://www.scmp.com/news/china/military/article/3366490/chinese-military-university-urged-revise-ai-course-educate-war",
+              "publishedAt": "2026-09-06T06:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China Launches World's Largest Facility for Iron Extraction from Mine Tailings",
+          "summaryDe": [
+            "China has brought into operation an industrial facility that extracts iron from mining waste and low-grade ore on an unprecedented scale: 5.56 million tonnes are processed annually.",
+            "The project is a direct response to China's structural dependence on iron ore imports, primarily from Australia and Brazil.",
+            "If economic scaling succeeds, the technology could noticeably influence global iron ore prices and thus raw material markets.",
+            "At the same time, the facility generates less mining waste, positioning it as a model project from an environmental perspective as well."
+          ],
+          "additionalImportant": "A Chinese-German research team has also developed a highly sensitive magnetic sensor that operates at room temperature and could open new possibilities for dark matter research.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Changes in global iron ore markets directly impact the German steel industry; additionally, Germany is directly involved in the magnetic sensor project."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An industrial world premiere with potentially far-reaching consequences for global raw material supply and environmental technology."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China begins mining iron from tailings, low-grade ore that can meet its demand for decades",
+              "url": "https://www.scmp.com/news/china/science/article/3366315/china-begins-mining-iron-tailings-low-grade-ore-can-meet-its-demand-decades",
+              "publishedAt": "2026-09-06T03:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China-Kyrgyzstan-Uzbekistan Railway Corridor: First Tunnel Breakthrough Completed",
+          "summaryDe": [
+            "The first tunnel on the railway line connecting China, Kyrgyzstan, and Uzbekistan has been completely bored through—a milestone of both symbolic and logistical significance for the major project.",
+            "The route is designed to create a direct trade path from China to Central Asia that completely bypasses Russia, and gains strategic importance against the backdrop of the Ukraine war and Western sanctions.",
+            "At the same time, Canada and China have held official military talks for the first time in eight years, with both sides expressing willingness for greater practical cooperation—an unusual signal given US pressure on Ottawa.",
+            "Beijing is demonstrating geopolitical determination on two fronts simultaneously: in the post-Soviet space as much as in its rapprochement with Western allies of the United States."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "New trade routes in Central Asia and China's rapprochement with NATO states are indirectly relevant to Germany without direct short-term consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Both the railway tunnel milestone and Canadian-Chinese military diplomacy are signs of a shifting geopolitical architecture."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China marks major tunnel milestone for Central Asia railway bypassing Russia",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366555/china-marks-major-tunnel-milestone-central-asia-railway-bypassing-russia",
+              "publishedAt": "2026-09-07T00:00:21Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Triple Homicide in Danilovgrad Raises Questions about Firearm Access and Security Protocols",
+          "summaryDe": [
+            "A shooting incident in Danilovgrad left three people dead; Montenegrin media report that the perpetrator had access to a shooting range without adequate background checks.",
+            "Authorities now face pressure to review safety standards at shooting ranges and general firearm access controls.",
+            "Montenegro's security forces are confronted with the question of whether existing risk assessment procedures are adequate to identify dangerous individuals in time.",
+            "The incident has sparked a public debate about state protective duties and the effectiveness of security protocols."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "An internal Montenegrin security issue with no bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "A tragic isolated incident with local social relevance, but limited broader regional significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Crnogorski PEN centar traži uklanjanje grafita kojim se veliča Mladic - to nije sloboda izrazavanja",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825552/crnogorski-pen-centar-trazi-uklanjanje-grafita-kojim-se-velica-mladic-to-nije-sloboda-izrazavanja",
+              "publishedAt": "2026-09-07T07:52:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Postaviti ležeće policajce prije nego što bude kasno",
+              "url": "https://www.pobjeda.me/clanak/postaviti-lezece-policajce-prije-nego-sto-bude-kasno",
+              "publishedAt": "2026-09-07T07:58:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD Achieves Landslide Victory in Saxony-Anhalt – Far-Right Party Threatens Government Participation for First Time",
+          "summaryDe": [
+            "The AfD has won the state election in Saxony-Anhalt with a clear landslide and may now face its first government participation as a far-right party in a German state since 1945.",
+            "The result has sent shockwaves through the German political establishment; internationally, the election is perceived as a watershed moment and interpreted as a signal for the continued rise of right-wing populism.",
+            "For the EU, possible government participation by the AfD in a state does not necessarily mean an immediate policy shift in Berlin, but significantly increases domestic political pressure on the federal government.",
+            "Multiple international media outlets report consistently on the scale and significance of the election result."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The result directly affects Germany and has far-reaching consequences for political stability and government formation at the state level."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A historically unprecedented result with potentially systemic consequences for German and European democracy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national newspaper",
+              "titleOriginal": "'Turning point for our country': German mainstream reels after huge far-right win",
+              "url": "https://www.politico.eu/article/turning-point-for-country-german-mainstream-reels-after-huge-far-right-afd-win",
+              "publishedAt": "2026-09-07T07:59:05Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "German far-right party set for regional election triumph but uncertain of governing",
+              "url": "https://www.pbs.org/newshour/world/german-far-right-party-set-for-strong-win-in-regional-election-but-uncertain-of-governing",
+              "publishedAt": "2026-09-06T17:34:11Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "AfD Victory in Saxony-Anhalt Sends a Signal to Europe",
+              "url": "https://www.nytimes.com/2026/09/06/world/europe/afd-germany-europe-far-right-saxony-anhalt.html",
+              "publishedAt": "2026-09-07T05:14:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Commission Approves German Capacity Mechanism Program Worth Up to 35 Billion Euros",
+          "summaryDe": [
+            "The European Commission has approved a German capacity mechanism covering up to 35 billion euros that will ensure adequate electricity generation capacity and flexible consumption from 2031 onward.",
+            "The program is a response to the challenges of the energy transition: with the phase-out of coal and nuclear power, Germany needs instruments to guarantee supply security even with fluctuating input from renewables.",
+            "The approval by Brussels is significant for state aid law—it demonstrates that such mechanisms can be compatible with the EU internal market under certain conditions.",
+            "For German industry, this is an important signal: investments in guaranteed capacity will be backed by the state."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The program directly affects Germany's electricity supply security and has immediate economic and regulatory consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An approval of this magnitude sets a precedent for EU state aid law in the energy sector."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply*",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+              "publishedAt": "2026-09-01T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russian Sabotage Attempt at Leipzig/Halle Airport Confirmed – Brussels and NATO Respond",
+          "summaryDe": [
+            "The German federal government has held Russian operatives responsible for a sabotage attempt at Leipzig/Halle airport in which military material designed to damage cargo aircraft was to be used.",
+            "EU Commission President von der Leyen and NATO Secretary General Rutte issued a joint statement in response to the incident—a clear signal that the attempted attack on EU soil is being treated as a serious escalation.",
+            "Leipzig/Halle is a strategically logical target for Russian hybrid operations as a hub for military supply flights to Ukraine.",
+            "The case is exemplary of a broader wave of hybrid Russian attacks in Europe that intelligence services and security authorities on NATO's eastern flank face with considerable challenges."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The sabotage attempt took place on German soil and directly affects national security and critical infrastructure."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A state-backed sabotage act targeting critical air transport infrastructure in a NATO country is an extraordinary and systemically significant event."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+              "publishedAt": "2026-09-02T10:28:49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-07",
+  "generatedAt": "2026-09-07T10:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump-Regierung beantragt erneut beim Supreme Court Einschränkungen der Briefwahl",
+          "summaryDe": [
+            "Die Trump-Administration hat beim Obersten Gerichtshof erneut einen Antrag eingereicht, um Beschränkungen der Briefwahl durchzusetzen – zu einem Zeitpunkt, an dem einige Bundesstaaten bereits Wahlunterlagen versenden.",
+            "Das Vorgehen reiht sich in eine Serie juristischer Auseinandersetzungen um Wahlmodalitäten ein, die seit Jahren das amerikanische Rechtssystem beschäftigen.",
+            "Ob der Supreme Court diesmal anders entscheiden wird als bei früheren Anträgen, bleibt offen; die politische Symbolwirkung des erneuten Vorstoßes ist jedoch erheblich.",
+            "Für die demokratische Opposition ist der Schritt ein weiteres Signal, dass die Regierung das Wahlrecht systematisch einzuengen versucht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Innenpolitische US-Wahlrechtsfrage ohne direkte Auswirkung auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eingriffe in Briefwahlregeln kurz vor laufenden Wahlen sind eine bedeutende verfassungsrechtliche und demokratiepolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "California made Gavin Newsom famous. Will it drag down his 2028 presidential ambitions?",
+              "url": "https://www.pbs.org/newshour/politics/california-made-gavin-newsom-famous-will-it-drag-down-his-2028-presidential-ambitions",
+              "publishedAt": "2026-09-06T16:52:25Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "KI-Rechenzentren treiben Landpreise in ländlichen US-Regionen in die Höhe",
+          "summaryDe": [
+            "Entwickler kaufen zunehmend Farmland und ländliche Grundstücke für den Bau von KI-Rechenzentren auf, was die Bodenpreise in betroffenen Regionen deutlich steigen lässt.",
+            "Einige Landwirte und Grundeigentümer wehren sich gegen den Ausverkauf – teils aus wirtschaftlichen, teils aus strukturellen Bedenken über die Veränderung ländlicher Gemeinden.",
+            "Der Boom verdeutlicht, wie der Energiehunger der KI-Infrastruktur mittlerweile weit über Stadtgrenzen hinausgreift.",
+            "Für die USA als weltgrößter KI-Markt wirft das Fragen über Flächennutzung, Energieversorgung und gesellschaftliche Verteilungswirkungen auf."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ähnliche Debatten über Standorte von Rechenzentren zeichnen sich auch in Europa und Deutschland ab."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevantes Strukturphänomen, das jedoch regional begrenzt bleibt und keinen akuten Krisencharakter hat."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Witkoff and Kushner call Kyiv talks 'substantive' after Moscow Putin meeting",
+              "url": "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow",
+              "publishedAt": "2026-09-06T09:51:04Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Frachtflugzeug überläuft Startbahn in Miami – fünf Tote",
+          "summaryDe": [
+            "Ein Frachtflugzeug von Amazon ist am Flughafen Miami über das Ende der Landebahn hinausgeschossen und verunglückt; dabei kamen mindestens fünf Menschen ums Leben, mehrere weitere wurden verletzt.",
+            "Die genaue Unfallursache ist noch nicht geklärt; US-Behörden haben Ermittlungen eingeleitet.",
+            "Für Amazon stellt der Vorfall einen schweren Schlag für den eigenen Logistikluftverkehr dar, den das Unternehmen in den vergangenen Jahren massiv ausgebaut hat.",
+            "Berichte mehrerer Medien bestätigen Opferzahl und Unfallhergang übereinstimmend."
+          ],
+          "additionalImportant": "Separate Berichte zu eskalierenden US-Iran-Konfrontationen im Persischen Golf sowie zu Kämpfen zwischen Israel und Hisbollah mit mindestens elf Toten deuten auf eine weiter angespannte Sicherheitslage im Nahen Osten hin.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekte Relevanz über globale Luftfrachtsicherheit und Auswirkungen auf internationale Logistikketten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein tödliches Unglück mit einem Frachtflugzeug an einem Großflughafen hat erhebliche Bedeutung für Luftverkehrssicherheit und öffentliche Aufmerksamkeit."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "At least 5 dead after Amazon cargo plane barreled off runway at Miami airport",
+              "url": "https://www.pbs.org/newshour/nation/at-least-5-dead-after-amazon-cargo-plane-barreled-off-runway-at-miami-airport",
+              "publishedAt": "2026-09-06T21:56:35Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "What to Know About Cargo Plane That Overran Its Runway, Killing 5 in Miami",
+              "url": "https://www.nytimes.com/2026/09/06/us/miami-plane-crash-what-we-know.html",
+              "publishedAt": "2026-09-07T03:40:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas Militäruniversität soll KI-Lehrplan auf Kriegsvorbereitung ausrichten",
+          "summaryDe": [
+            "Eine chinesische Militäruniversität soll ihren KI-Kurs für Doktoranden grundlegend überarbeiten – mit dem Leitprinzip, Offiziere konkret auf den intelligenten Krieg vorzubereiten.",
+            "Konkret geht es darum, Kampfszenarien in den Studienalltag einzubetten, statt KI abstrakt-theoretisch zu unterrichten.",
+            "Der Vorstoß passt in ein breiteres Muster: Die Volksbefreiungsarmee investiert seit Jahren in die Verzahnung von Militär und Spitzentechnologie.",
+            "Für externe Beobachter unterstreicht die Nachricht, wie explizit China seine akademische Ausbildung auf militärische Anwendung hin ausrichtet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Langfristig relevant für die westliche Bewertung chinesischer Militärtechnologie, direkte Folgen für Deutschland derzeit nicht erkennbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die systematische Kriegsorientierung militärischer KI-Ausbildung ist eine bedeutsame strategische Weichenstellung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese military university urged to revise AI course to 'educate for war'",
+              "url": "https://www.scmp.com/news/china/military/article/3366490/chinese-military-university-urged-revise-ai-course-educate-war",
+              "publishedAt": "2026-09-06T06:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China startet weltgrößte Anlage zur Eisengewinnung aus Abraumhalden",
+          "summaryDe": [
+            "In China ist eine industrielle Anlage in Betrieb gegangen, die in bisher unerreichtem Maßstab Eisen aus Bergbauabfällen und minderwertigen Erzen gewinnt: 5,56 Millionen Tonnen werden jährlich verarbeitet.",
+            "Das Projekt ist eine direkte Antwort auf Chinas strukturelle Abhängigkeit von Eisenerzimporten, vor allem aus Australien und Brasilien.",
+            "Gelingt die wirtschaftliche Skalierung, könnte die Technologie die globalen Eisenerzpreise und damit die Rohstoffmärkte spürbar beeinflussen.",
+            "Gleichzeitig entsteht dadurch weniger Bergbauabfall, was die Anlage auch unter Umweltgesichtspunkten als Modellprojekt positioniert."
+          ],
+          "additionalImportant": "Ein chinesisch-deutsches Forscherteam hat zudem einen hochempfindlichen Magnetsensor entwickelt, der bei Raumtemperatur arbeitet und neue Möglichkeiten für die Dunkle-Materie-Forschung eröffnen könnte.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Veränderungen auf globalen Eisenerzmearkten berühren die deutsche Stahlindustrie unmittelbar; zudem ist Deutschland beim Magnetsensor-Projekt direkt beteiligt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine industrielle Weltpremiere mit potenziell weitreichenden Folgen für globale Rohstoffversorgung und Umwelttechnik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China begins mining iron from tailings, low-grade ore that can meet its demand for decades",
+              "url": "https://www.scmp.com/news/china/science/article/3366315/china-begins-mining-iron-tailings-low-grade-ore-can-meet-its-demand-decades",
+              "publishedAt": "2026-09-06T03:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Eisenbahnkorridor China–Kirgisistan–Usbekistan: Erster Tunnel durchgebohrt",
+          "summaryDe": [
+            "Beim Bau der Bahnstrecke zwischen China, Kirgisistan und Usbekistan ist ein erster Tunnel vollständig durchgebohrt worden – ein symbolisch wie logistisch bedeutsamer Meilenstein für das Großprojekt.",
+            "Die Trasse soll einen direkten Handelsweg von China nach Zentralasien schaffen, der Russland vollständig umgeht, und gewinnt vor dem Hintergrund des Ukraine-Krieges und westlicher Sanktionen strategische Sprengkraft.",
+            "Gleichzeitig haben Kanada und China erstmals seit acht Jahren offizielle Militärgespräche geführt, in denen beide Seiten Bereitschaft zu mehr praktischer Kooperation bekundeten – ein ungewöhnliches Signal angesichts des US-Drucks auf Ottawa.",
+            "Peking demonstriert damit auf zwei Schauplätzen gleichzeitig geopolitischen Gestaltungswillen: im postsowjetischen Raum ebenso wie in der Annäherung an westliche Verbündete der USA."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Neue Handelsrouten in Zentralasien und Chinas Annäherung an NATO-Staaten sind für Deutschland mittelbar relevant, ohne direkte kurzfristige Konsequenzen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Bahntunnel-Meilenstein und die kanadisch-chinesische Militärdiplomatie sind beides Zeichen einer sich verschiebenden geopolitischen Architektur."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China marks major tunnel milestone for Central Asia railway bypassing Russia",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366555/china-marks-major-tunnel-milestone-central-asia-railway-bypassing-russia",
+              "publishedAt": "2026-09-07T00:00:21Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Dreifachmord in Danilovgrad wirft Fragen zu Waffenzugang und Sicherheitsprotokollen auf",
+          "summaryDe": [
+            "Bei einem Schusswaffen-Vorfall in Danilovgrad wurden drei Menschen getötet; montenegrinische Medien berichten, dass der Täter Zugang zu einer Schießanlage hatte, ohne ausreichend überprüft worden zu sein.",
+            "Die Behörden stehen nun unter Druck, Sicherheitsstandards an Schießplätzen und die allgemeine Waffenzugangskontrolle zu überprüfen.",
+            "Montenegros Sicherheitskräfte sehen sich mit der Frage konfrontiert, ob bestehende Risikobewertungsverfahren ausreichen, um gefährliche Personen rechtzeitig zu identifizieren.",
+            "Das Ereignis hat eine öffentliche Debatte über staatliche Schutzpflichten und die Effektivität von Sicherheitsprotokollen ausgelöst."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Innermontenegrinsische Sicherheitsfrage ohne Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Tragischer Einzelfall mit lokaler gesellschaftlicher Relevanz, aber begrenzter überregionaler Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Crnogorski PEN centar traži uklanjanje grafita kojim se veliča Mladic - to nije sloboda izrazavanja",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825552/crnogorski-pen-centar-trazi-uklanjanje-grafita-kojim-se-velica-mladic-to-nije-sloboda-izrazavanja",
+              "publishedAt": "2026-09-07T07:52:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Postaviti ležeće policajce prije nego što bude kasno",
+              "url": "https://www.pobjeda.me/clanak/postaviti-lezece-policajce-prije-nego-sto-bude-kasno",
+              "publishedAt": "2026-09-07T07:58:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD erzielt Erdrutschsieg in Sachsen-Anhalt – erstmals droht rechtsextremer Regierungsanteil",
+          "summaryDe": [
+            "Die AfD hat die Landtagswahl in Sachsen-Anhalt mit einem klaren Erdrutschsieg gewonnen und steht damit möglicherweise vor der ersten Regierungsbeteiligung einer rechtsextremen Partei in einem deutschen Bundesland seit 1945.",
+            "Das Ergebnis hat im deutschen politischen Establishment Schockwellen ausgelöst; europaweit wird die Wahl als Zäsur wahrgenommen und als Signal für den anhaltenden Aufstieg des Rechtspopulismus gedeutet.",
+            "Für die EU bedeutet eine mögliche Regierungsbeteiligung der AfD in einem Bundesland nicht zwingend eine sofortige Kurswende in Berlin, erhöht aber den innenpolitischen Druck auf die Bundesregierung erheblich.",
+            "Mehrere internationale Medien berichten übereinstimmend über Ausmaß und Bedeutung des Wahlergebnisses."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Das Ergebnis betrifft Deutschland unmittelbar und hat weitreichende Folgen für die politische Stabilität und die Regierungsbildung auf Landesebene."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein historisch einmaliges Ergebnis mit potenziell systemischen Auswirkungen auf die deutsche und europäische Demokratie."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "'Turning point for our country': German mainstream reels after huge far-right win",
+              "url": "https://www.politico.eu/article/turning-point-for-country-german-mainstream-reels-after-huge-far-right-afd-win",
+              "publishedAt": "2026-09-07T07:59:05Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "German far-right party set for regional election triumph but uncertain of governing",
+              "url": "https://www.pbs.org/newshour/world/german-far-right-party-set-for-strong-win-in-regional-election-but-uncertain-of-governing",
+              "publishedAt": "2026-09-06T17:34:11Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "AfD Victory in Saxony-Anhalt Sends a Signal to Europe",
+              "url": "https://www.nytimes.com/2026/09/06/world/europe/afd-germany-europe-far-right-saxony-anhalt.html",
+              "publishedAt": "2026-09-07T05:14:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Kommission genehmigt deutsches Kapazitätsmechanismus-Programm über bis zu 35 Milliarden Euro",
+          "summaryDe": [
+            "Die Europäische Kommission hat einen deutschen Kapazitätsmechanismus gebilligt, der bis zu 35 Milliarden Euro umfassen und ab 2031 ausreichende Stromerzeugungskapazitäten sowie flexiblen Verbrauch sicherstellen soll.",
+            "Das Programm ist eine Reaktion auf die Herausforderungen der Energiewende: Mit dem Ausstieg aus Kohle und Kernkraft braucht Deutschland Instrumente, um Versorgungssicherheit auch bei schwankender Einspeisung aus Erneuerbaren zu garantieren.",
+            "Die Genehmigung durch Brüssel ist beihilferechtlich bedeutsam – sie zeigt, dass solche Mechanismen unter bestimmten Bedingungen mit dem EU-Binnenmarkt vereinbar sind.",
+            "Für die deutsche Industrie ist das ein wichtiges Signal: Investitionen in gesicherte Leistung werden staatlich abgesichert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Das Programm betrifft direkt die Energieversorgungssicherheit Deutschlands und hat unmittelbare wirtschaftliche und regulatorische Konsequenzen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Genehmigung in dieser Größenordnung setzt einen Präzedenzfall für EU-Beihilferecht im Energiebereich."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply*",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+              "publishedAt": "2026-09-01T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russischer Sabotageversuch am Flughafen Leipzig/Halle bestätigt – Brüssel und NATO reagieren",
+          "summaryDe": [
+            "Die deutsche Bundesregierung hat russische Operativen für einen Sabotageversuch am Flughafen Leipzig/Halle verantwortlich gemacht, bei dem militärisches Material zur Beschädigung von Frachtflugzeugen eingesetzt werden sollte.",
+            "EU-Kommissionspräsidentin von der Leyen und NATO-Generalsekretär Rutte haben in einer gemeinsamen Erklärung auf den Vorfall reagiert – ein klares Zeichen, dass der Anschlagsversuch auf EU-Boden als ernstzunehmende Eskalation gewertet wird.",
+            "Leipzig/Halle ist als Drehscheibe für militärische Versorgungsflüge in die Ukraine ein strategisch naheliegendes Ziel für russische Hybridoperationen.",
+            "Der Fall steht exemplarisch für eine breitere Welle hybrider russischer Angriffe in Europa, die Nachrichtendienste und Sicherheitsbehörden auf dem NATO-Ostflügel vor erhebliche Herausforderungen stellen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der Anschlagsversuch fand auf deutschem Boden statt und betrifft unmittelbar die nationale Sicherheit und kritische Infrastruktur."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein staatlich gestützter Sabotageakt auf kritische Luftverkehrsinfrastruktur in einem NATO-Land ist ein außergewöhnliches und systemisch bedeutsames Ereignis."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+              "publishedAt": "2026-09-02T10:28:49Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
