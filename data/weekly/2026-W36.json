@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 3,
+  "periodType": "week",
+  "periodStart": "2026-08-31",
+  "periodEnd": "2026-09-06",
+  "generatedAt": "2026-09-07T10:31:31.756791Z",
+  "status": "complete",
+  "overallSummary": [
+    "Die Woche vom 31. August bis 6. September 2026 stand im Zeichen dreier übergreifender Eskalationsstränge: dem anhaltenden US-Iran-Krieg, Russlands hybrider Kriegführung auf europäischem Boden und einer sich verdichtenden multipolaren Gegenordnung unter Führung Chinas.",
+    "Der US-Iran-Konflikt trat in seine schwerste Phase seit Kriegsbeginn: Nach einer einmonatigen Feuerpause griffen US-Streitkräfte erneut iranische Ziele an, Iran beschoss amerikanische Kriegsschiffe mit ballistischen Raketen, woraufhin Washington drei iranische Öltanker angriff. Die Straße von Hormus blieb operationell, doch die Ölpreise kletterten auf 90 Dollar je Barrel.",
+    "Parallel leitete die Trump-Administration US-Sondergesandte nach Moskau und anschließend nach Kiew, um einen Friedensplan für die Ukraine vorzulegen. Putin ordnete einen 72-stündigen Waffenstillstand an, der Kreml meldete 'nützliche' Gespräche, ohne einen Durchbruch zu vermelden – die ukrainische Skepsis blieb groß.",
+    "Auf europäischem Boden wurden russische Sabotageoperationen gegen kritische Infrastruktur bestätigt: Deutschland wies Russland die Urheberschaft am Sprengstoffanschlag auf den Flughafen Leipzig/Halle zu, schloss weitere russische Konsulate, und russische Diplomaten verließen still Brüssel. Gleichzeitig brannte eine polnische Drohnenfabrik nieder.",
+    "China positionierte sich auf dem SCO-Jubiläumsgipfel in Bischkek als antiwestliches Koordinationszentrum: Die Organisation stellte sich hinter den Iran, verabschiedete eine eigenständige Nuklearsicherheitserklärung, und der Kreml brachte ein trilaterales Xi-Trump-Putin-Treffen beim APEC-Forum im November ins Gespräch.",
+    "Im Inneren der USA häuften sich Eingriffe in Wahlrecht und Einwanderungspolitik vor den Midterms: Trumps Briefwahlbeschränkungen wurden gerichtlich blockiert, ICE stand wegen Todesfällen in Haft unter Druck, und die Kampagne gegen vermeintliche Nichtwähler-Staatsbürger wurde von Experten als politisch motiviert eingestuft.",
+    "In der EU steuerte die AfD in Sachsen-Anhalt auf ein historisches Wahlergebnis zu, das einen ersten Einzug in eine Landesregierung bedeuten könnte. Gleichzeitig genehmigten EU-Institutionen den deutschen Kapazitätsmechanismus für Stromversorgungssicherheit und bezeichneten ChatGPT erstmals als sehr große Online-Plattform unter dem Digital Services Act.",
+    "Montenegro erlebte innenpolitische Turbulenzen rund um die Frage einer Amtsenthebung von Präsident Mandić sowie Empörung über ein Beileidstelegramm für den verurteilten Kriegsverbrecher Ratko Mladić – Ereignisse, die den labilen politischen Konsens im Land und offene Wunden der Vergangenheit sichtbar machten.",
+    "Wirtschaftlich zeichnete sich eine Woche struktureller Verschiebungen ab: Der weltgrößte Staatsfonds Norwegens zog sich aus US-Treasuries zurück, Nvidia übernahm Hugging Face für 13 Milliarden Dollar, und EU-Handelsdelegierte drängten Peking unter Oktober-Frist zur Korrektur eines täglichen Handelsdefizits von über einer Milliarde Euro.",
+    "Die Woche endete mit offenem Ausgang in allen drei Hauptkonflikten – US-Iran-Krieg, Ukraine-Waffenstillstand und EU-Russland-Hybridkonflikt –, während sich die Koordinaten der internationalen Ordnung in Richtung Multipolarität verschoben und transatlantische Kohäsion unter Druck blieb."
+  ],
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Innenpolitische Eskalation vor den Midterms: Wahlrecht, Einwanderung und Trumps Mobilisierungsstrategie",
+          "summaryDe": [
+            "Über die gesamte Woche zog die Trump-Administration an mehreren innenpolitischen Fronten gleichzeitig: Sie startete eine groß angelegte Suche nach angeblichen Nicht-Bürgern auf Wählerlisten, beantragte beim Supreme Court die Aufhebung gerichtlicher Beschränkungen bei der Briefwahl und kündigte an, bis zu 500 Millionen Dollar aus eigener Tasche in den Midterm-Wahlkampf zu investieren.",
+            "Gerichte blockierten mehrere Maßnahmen: Ein Bundesrichter verlängerte unbefristet eine einstweilige Verfügung gegen Trumps Briefwahlbeschränkungen, und ein weiterer Richter stoppte den erneuten Anlauf gegen das im 14. Verfassungszusatz verankerte Geburtsrecht auf Staatsbürgerschaft – trotz anhaltenden legislativen Drucks aus dem Kongress.",
+            "Gleichzeitig eskalierte die Einwanderungspolitik: ICE beschaffte Elektroschockhandschuhe für 17 Millionen Dollar, stand nach Todesfällen in Haft unter internationalem Druck, und ein neues DOJ-Gutachten verpflichtete Bundesstaaten zur Datenweitergabe an Einwanderungsbehörden unter Androhung von Leistungskürzungen.",
+            "Senator Markey gewann die demokratische Vorwahl in Massachusetts gegen einen jüngeren Herausforderer, der auf Generationswechsel pochte – ein Signal, dass Netzwerk und Amtsbonus Erneuerungsrhetorik vorerst übertrumpfen. Am Periodenende zeichnet sich ein innenpolitisches Klima ab, in dem Exekutive, Legislative und Judikative in zentralen Verfassungsfragen gegeneinander arbeiten."
+          ],
+          "contextDe": [
+            "Die Trump-Administration nutzt Wahlrechts- und Einwanderungsthemen systematisch als Mobilisierungsinstrument vor den Midterms – ein Muster, das sich seit 2025 kontinuierlich verstärkt hat.",
+            "Das Zusammenspiel aus gerichtlichen Niederlagen und legislativen Umwegen zeigt, wie die Administration trotz institutioneller Bremsen an symbolisch aufgeladenen Themen festhält.",
+            "Langfristig stellen die parallelen Eingriffe in Wahlrecht, Einwanderungsjustiz und Bundesstaatenautonomie eine Belastungsprobe für die demokratischen Institutionen der USA dar."
+          ],
+          "additionalImportant": "Medizinische Fachverbände übernahmen Impfempfehlungen für COVID-19, Grippe und RSV, nachdem die Bundesbehörde ihre eigene Empfehlungsfunktion eingestellt hatte – ein ungewöhnlicher Vorgang in der US-Gesundheitspolitik.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die Entwicklungen betreffen primär die US-Innenpolitik, wirken aber auf das transatlantische Bild der amerikanischen Demokratie und indirekt auf europäische Sicherheitsdebatten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Mehrere gleichzeitige Eingriffe in Wahlrecht, Einwanderung und Verfassungsfragen ergeben ein bedeutendes Bild systematischer politischer Neuausrichtung vor den Midterms."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Iran fires on its Gulf neighbors, retaliating for U.S. strikes after a monthlong lull",
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates",
+              "publishedAt": "2026-09-02T15:18:09Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Massachusetts Sen. Markey wins primary over opponent who called for generational change",
+              "url": "https://www.pbs.org/newshour/politics/massachusetts-sen-markey-wins-primary-over-opponent-who-called-for-generational change",
+              "publishedAt": "2026-09-02T16:18:42Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US lawmakers target China, birth tourism as citizenship fight intensifies",
+              "url": "https://www.scmp.com/news/us/politics/article/3366161/us-lawmakers-target-china-birth-tourism-citizenship-fight-intensifies",
+              "publishedAt": "2026-09-02T22:18:42Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "The far-right leader pushing Germans to forget the Nazi past",
+              "url": "https://www.politico.eu/article/hans-thomas-tillschneider-saxony-anhalt-election-erinnerungskultur-alternative-for-germany",
+              "publishedAt": "2026-09-03T02:01:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Anleiherenditen auf Dreijahreshoch, Nvidia übernimmt Hugging Face, Google entgeht Zerschlagung",
+          "summaryDe": [
+            "Die Rendite zehnjähriger US-Staatsanleihen erreichte den höchsten Stand seit November 2023; während der New Yorker Fed-Präsident Williams den Anstieg mit robusten Konjunkturerwartungen erklärte, verwiesen Analysten auf wachsende Sorgen über Staatsverschuldung und anhaltende Angriffe der Trump-Administration auf die Unabhängigkeit der Federal Reserve.",
+            "Nvidia gab die Übernahme der KI-Entwicklerplattform Hugging Face für rund 12,9 Milliarden Dollar bekannt – CEO Jensen Huang bestätigte, dass Hugging Face die Verhandlungen selbst initiiert hatte. Der Deal verschiebt die Kräfteverhältnisse in der globalen KI-Infrastruktur erheblich, in einer Phase, in der Risikokapitalgeber bei KI-Bewertungen vorsichtiger werden.",
+            "Ein US-Gericht verhängte zwar Auflagen für Googles Anzeigengeschäft, lehnte eine Zerschlagung des Konzerns aber ab – ein Signal über die Reichweite des US-Kartellrechts, das für laufende europäische Verfahren relevant werden könnte. Zeitgleich kündigte Uber den Abbau von rund zehn Prozent der Belegschaft an.",
+            "Der weltgrößte Staatsfonds Norwegens mit 2,3 Billionen Dollar Volumen kündigte an, seine Bestände an US-Staatsanleihen zu reduzieren – ein markantes Vertrauenssignal institutioneller Anleger mit potenziellen Rückwirkungen auf globale Kapitalflüsse. Drohnenzölle bis zu 100 Prozent gegen hauptsächlich chinesische Hersteller ergänzten das wirtschaftspolitische Bild."
+          ],
+          "contextDe": [
+            "Steigende Anleiherenditen, ein Tech-Megadeal und kartellrechtliche Teilurteile innerhalb einer Woche spiegeln strukturelle Spannungen in der US-Wirtschaft wider, die von Verschuldung, Technologiekonzentration und handelspolitischem Protektionismus geprägt sind.",
+            "Der Rückzug des norwegischen Staatsfonds aus US-Treasuries ist symptomatisch für ein sinkendes globales Vertrauen in amerikanische Haushaltsdisziplin unter den gegenwärtigen politischen Rahmenbedingungen.",
+            "Für europäische Unternehmen und Forschungseinrichtungen, die Hugging Face intensiv nutzen, könnte der Eigentümerwechsel zu Nvidia Zugang und Nutzungsbedingungen langfristig verändern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Anleiherenditen beeinflussen europäische Finanzmärkte; das Google-Urteil ist Präzedenz für EU-Verfahren; der Nvidia-Hugging-Face-Deal betrifft deutsche KI-Forschung und Unternehmen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Renditeanstieg, Mega-Akquisition und kartellrechtliche Weichenstellung ergeben zusammen ein Bild bedeutender struktureller Verschiebungen in der US-Wirtschaft mit globaler Ausstrahlungswirkung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "New York Fed's Williams says yield surge due to strong economic prospects",
+              "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
+              "publishedAt": "2026-09-02T17:21:59Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Why bond yields are rising and why everyone should care",
+              "url": "https://www.pbs.org/newshour/economy/why-bond-yields-are-rising-and-why-everyone-should-care",
+              "publishedAt": "2026-09-02T17:27:16Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Hugging Face approached Nvidia's Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
+              "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+              "publishedAt": "2026-09-03T16:43:22Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US-Iran-Krieg eskaliert auf schwerste Stufe – diplomatische Doppelbewegung in Moskau und Kiew",
+          "summaryDe": [
+            "Der US-Iran-Krieg, der in der Berichtswoche sein sechsmonatiges Bestehen markierte, trat nach einer einmonatigen Feuerpause in seine bisher intensivste Phase: Iran beschoss US-Kriegsschiffe mit ballistischen Raketen, woraufhin Washington drei iranische Öltanker nahe Kharg Island angriff. Energieminister Wright meldete gleichzeitig einen Rekordtransit von 17 Millionen Barrel Öl durch die Hormusstraße an einem einzigen Tag.",
+            "Während am Golf militärisch eskaliert wurde, flogen US-Sondergesandte Witkoff und Kushner nach Moskau, um einen Friedensplan für die Ukraine vorzulegen. Putin ordnete einen 72-stündigen Waffenstillstand an, der Kreml bezeichnete die Gespräche als 'nützlich', ohne einen Durchbruch zu verkünden. Die anschließende Kiew-Visite fand vor dem Hintergrund anhaltenden ukrainischen Misstrauens statt.",
+            "Das Venezu ela-Abkommen, das den USA Kontrolle über einen erheblichen Teil der weltgrößten Ölreserven überträgt, sowie Trumps Vorschlag, die Straße von Hormus in 'Trump Strait' umzubenennen, verdeutlichen die Verknüpfung von Energiepolitik und Symbolpolitik in Washingtons Außenstrategie.",
+            "Am Periodenende lagen beide Konflikte – Iran und Ukraine – in einem Schwebezustand: militärische Eskalation ohne politische Lösung hier, diplomatischer Anlauf ohne belastbaren Durchbruch dort. Das Pentagon leitete unterdessen Massentests unter 50 Stabsmitgliedern ein, nachdem vertrauliche Kriegsberichte geleakt worden waren."
+          ],
+          "contextDe": [
+            "Der US-Iran-Krieg begann vor sechs Monaten und hat inzwischen 18 amerikanische Soldaten das Leben gekostet; die Kombination aus Golfeskalation und simultaner Ukraine-Diplomatie belastet Washingtons außenpolitische Kapazitäten erheblich.",
+            "Die Hormusstraße, durch die rund ein Fünftel des globalen Ölhandels fließt, ist zum zentralen Risikofaktor für die Weltwirtschaft geworden – jede weitere Eskalation kann Energiemärkte weltweit erschüttern.",
+            "Ein etwaiger Waffenstillstand in der Ukraine unter US-Regie hätte direkte Konsequenzen für die europäische Sicherheitsarchitektur und Deutschlands Rolle darin, da Berlin bei Militärhilfe und Sanktionsstrategie eng eingebunden ist."
+          ],
+          "additionalImportant": "Trump bezeichnete den bevorstehenden Xi-Besuch im Weißen Haus öffentlich als 'aufregend' – das erste US-chinesische Gipfeltreffen auf amerikanischem Boden seit Jahren, das vor dem Hintergrund laufender Konflikte und Midterm-Druck erhebliches symbolisches Gewicht trägt.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Der Golfkonflikt trifft Deutschland über Energiepreise und Exportwege; ein Ukraine-Waffenstillstand hätte unmittelbare Folgen für deutsche Außen- und Sicherheitspolitik."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein aktiver Kriegszustand zwischen den USA und Iran mit simultaner Höchsteskalation und erster Ukraine-Friedensdiplomatie auf Gesandtenebene ist von außerordentlicher systemischer Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "U.S. strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
+              "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted",
+              "publishedAt": "2026-09-05T15:05:08Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "U.S. strikes 3 Iranian oil tankers after saying warships were targeted with ballistic missiles",
+              "url": "https://www.pbs.org/newshour/world/u-s-military-hits-3-iranian-oil-tankers-after-saying-navy-ships-were-targeted-with-missiles",
+              "publishedAt": "2026-09-05T16:02:10Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+              "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html",
+              "publishedAt": "2026-09-02T15:57:08Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "U.S. envoys in Moscow in new push for peace between Russia and Ukraine",
+              "url": "https://www.npr.org/2026/09/05/nx-s1-5959114/us-envoys-in-moscow-in-new-push-for-peace",
+              "publishedAt": "2026-09-05T11:08:57Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Putin signs off on 72-hour ceasefire with Kyiv as US envoys visit",
+              "url": "https://www.politico.eu/article/vladimir-putin-signs-off-72-hour-ceasefire-with-kyiv-us-envoys-visit",
+              "publishedAt": "2026-09-05T14:16:36Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Flutkatastrophe an der China-Nepal-Grenze, Spionageverurteilung und größte Antibetrugskampagne in der Wissenschaft",
+          "summaryDe": [
+            "Die Woche begann mit einer humanitären Katastrophe: Überschwemmungen und Erdrutsche an der chinesisch-nepalesischen Grenze forderten nahezu 1.000 Todesopfer; unter mehr als 1.000 Vermissten befanden sich 261 ausländische Staatsbürger, die zuletzt in Tibet registriert waren. Chinesische Cyberpolizei unterdrückte parallel Gerüchte in sozialen Medien, was die Informationslage für Angehörige im Ausland erschwerte.",
+            "In den USA wurde Thomas Weir Pauken II, ein US-Journalist der für chinesische Staatsmedien tätig war, zu zwei Jahren Haft verurteilt, nachdem er sich schuldig bekannt hatte, als nicht deklarierter Agent Pekings gehandelt zu haben. Der Fall trifft in eine Phase, in der beide Länder auf ein bilaterales Gipfeltreffen hinarbeiten.",
+            "Die Nationale Naturwissenschaftliche Stiftung Chinas leitete ihre bislang umfangreichste Kampagne gegen akademischen Betrug ein und untersuchte mehr als 40 Forschende – ausgelöst durch einen Blogger, der Datenfälschung und Plagiate dokumentiert hatte. Der Fall illustriert, wie Online-Öffentlichkeit trotz struktureller Zensur institutionelle Reaktionen erzwingen kann.",
+            "Zum Periodenende verdichtete sich ein Bild: Naturkatastrophen, nachrichtendienstliche Spannungen mit Washington und systemische Integritätsfragen im Wissenschaftsbetrieb prägten Chinas Innenleben in einer außenpolitisch hoch aktiven Woche."
+          ],
+          "contextDe": [
+            "Die Flutkatastrophe an der Tibet-Nepal-Grenze offenbart das Katastrophenrisiko einer Region, in der Gletscherverlust und instabile Geologie kaskadierende Naturereignisse wahrscheinlicher machen.",
+            "Der Spionagefall Pauken verdeutlicht eine verschärfte US-Haltung gegenüber verdeckten Einflussoperationen über Medienkanäle – ein Muster, das auch europäische Medienlandschaften indirekt berührt.",
+            "Die Wissenschaftsaffäre setzt Chinas Anspruch auf Forschungsintegrität unter Druck und könnte internationale Kooperationspartner zu größerer Sorgfalt veranlassen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Mögliche deutsche Staatsbürger unter den Vermissten könnten konsularisches Handeln erfordern; der Spionagefall berührt Debatten über ausländische Medieneinflussnahme."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Fast 1.000 Tote bei einer Grenzkatastrophe, ein hochkarätiger Spionagefall im bilateralen Gipfelkontext und die größte Wissenschaftsintegritätskampagne Chinas sind zusammen bedeutend."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Nepal floods: 261 foreigners listed missing in Tibet, cyber police target rumours",
+              "url": "https://www.scmp.com/news/china/politics/article/3365730/china-nepal-floods-hundreds-foreigners-missing-tibet-after-disaster",
+              "publishedAt": "2026-08-30T04:31:37Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US journalist jailed for 2 years for working as a Chinese agent",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366062/us-journalist-jailed-2-years-working-chinese-agent",
+              "publishedAt": "2026-09-02T05:07:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China launches largest-ever academic misconduct crackdown after 'Student Geng' scrutiny",
+              "url": "https://www.scmp.com/news/china/science/article/3366106/china-launches-largest-ever-academic-misconduct-crackdown-after-student-geng-scandal",
+              "publishedAt": "2026-09-03T01:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Strategische Technologieoffensive: Halbleitertalente, Meerwasser-Uran und Starlink-Sicherheitslücken",
+          "summaryDe": [
+            "China setzte seine strategische Talentakquise im Chipsektor fort: Halbleiterexperte Chen Ye nahm eine Professur an der Zhejiang-Universität an, die in Forschungsrankings erstmals Harvard überholt hat. Der Wechsel steht für ein systematisches Programm zur Rückholung von Schlüsselforschern aus dem Ausland, das technologische Engpässe schließen soll.",
+            "Ein Forschungsteam aus China und Singapur behauptete, Starlink-Satellitenterminals durch Hardware-Angriffe kompromittieren zu können – ein Befund mit erheblicher Sicherheitsrelevanz, da Starlink in aktiven Konflikten wie der Ukraine eine zentrale Infrastrukturrolle spielt.",
+            "Chinesische Wissenschaftler meldeten zudem einen Durchbruch bei der Meerwasser-Urangewinnung: Das Material PhosCage soll Uran in einer Rate extrahieren, die den US-Zielwert um das Achtfache übertrifft. Sollte sich das Verfahren skalieren lassen, könnte China seinen Kernbrennstoffbedarf langfristig unabhängiger von Importen decken.",
+            "Parallel baute China Solar- und Windkraft schneller aus als der Rest der Welt zusammen; die Mondlaser-Kommunikation gelang bidirektional, blieb aber in der Übertragungsrate hinter der NASA-Leistung von 2013 zurück – ein Befund, der Chinas Eigendarstellung als Raumfahrtnation relativiert."
+          ],
+          "contextDe": [
+            "Chinas Technologiestrategie zielt auf mehrere Felder gleichzeitig: Halbleiter, Energie, Raumfahrt und Cyberfähigkeiten – eine Breite, die westliche Exportkontrollen mittelfristig herausfordert.",
+            "Die Starlink-Forschung ist politisch ambivalent: Sie kann als Sicherheitswarnung oder als Demonstration staatlich naher Angriffsfähigkeiten gelesen werden, je nach geopolitischem Kontext.",
+            "Ein industriell skalierbares Verfahren zur Meerwasser-Urangewinnung würde globale Nuklearenergiestrategien und Uranmärkte strukturell verändern – die Skalierbarkeit bleibt jedoch noch unbestätigt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas wachsende Halbleiterkompetenz, potenzielle Starlink-Schwachstellen und Urangewinnung berühren mittelfristig deutsche Technologie-, Sicherheits- und Energieinteressen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination aus gezielter Talentakquise, Satelliteninfrastruktur-Hacking und Ressourcentechnologie-Durchbruch zeigt ein strategisch koordiniertes Technologiemuster mit systemischer Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chip expert Chen Ye joins China's Zhejiang University – as it overtakes Harvard",
+              "url": "https://www.scmp.com/news/china/science/article/3365788/chip-expert-chen-ye-joins-chinas-zhejiang-university-just-overtook-harvard",
+              "publishedAt": "2026-08-31T06:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-Singapore security team claims breakthrough in hacking Starlink terminals",
+              "url": "https://www.scmp.com/news/china/science/article/3366192/china-singapore-security-team-claims-breakthrough-hacking-starlink-terminals",
+              "publishedAt": "2026-09-03T15:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese team extracts uranium from seawater at 8 times the US target rate",
+              "url": "https://www.scmp.com/news/china/science/article/3366307/chinese-team-extracts-uranium-seawater-8-times-us-target-rate",
+              "publishedAt": "2026-09-04T14:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "SCO-Gipfel, Xi-Trump-Putin-Dreiertreffen in Planung und Militärpräsenz in Afrika und im Südchinesischen Meer",
+          "summaryDe": [
+            "Der SCO-Jubiläumsgipfel in Bischkek war das außenpolitische Zentrum der Woche: Die Organisation verabschiedete erstmals eine eigenständige Nuklearsicherheitserklärung und stellte sich ausdrücklich hinter den Iran gegenüber US-Militärschlägen. Xi Jinping traf Putin am Rande des Gipfels; die Power-of-Siberia-2-Pipeline stand als langfristiges Instrument zur Umleitung russischer Gasexporte von Europa nach China im Mittelpunkt.",
+            "Der Kreml brachte ein mögliches Xi-Trump-Putin-Dreiertreffen beim APEC-Forum in Shenzhen im November ins Gespräch – ein diplomatisches Format ohne jüngeres Vorbild, das die Neugestaltung globaler Machtstrukturen symbolisieren würde.",
+            "Gleichzeitig demonstrierte China militärische Reichweite: J-16-Kampfjets nahmen an gemeinsamen Übungen mit Ägypten teil – nach Berichten der erste Einsatz chinesischer Militärflugzeuge auf afrikanischem Boden. Im Südchinesischen Meer vertrieben bewaffnete chinesische Trainingsflugzeuge ein philippinisches Leichtflugzeug über dem Scarborough-Riff.",
+            "Erstmals seit zwei Jahren kamen US- und chinesische Militärkommandeure in Kanada zusammen; Peking nahm zeitgleich erste Militärkontakte mit Kanada seit acht Jahren auf – ein Muster vorsichtiger Gesprächsbereitschaft, das mit militärischem Druck in anderen Regionen kombiniert wird."
+          ],
+          "contextDe": [
+            "Die SCO hat sich in 25 Jahren von einer Regionalorganisation zu einem informellen Gegengewicht westlich geführter Institutionen entwickelt – die Iran-Rückendeckung ist ein Beleg für diese Richtung.",
+            "Chinas zweigleisige Strategie – Militärgespräche mit Washington öffnen, gleichzeitig im Südchinesischen Meer und in Afrika Fakten schaffen – illustriert ein Muster, das Europa als Sicherheitspartner der USA indirekt betrifft.",
+            "Ein mögliches Dreiertreffen Xi-Trump-Putin beim APEC wäre das erste seiner Art und könnte die globale Machtkonstellation symbolisch neu vermessen – für Europa eine strategische Herausforderung."
+          ],
+          "additionalImportant": "Taiwan überschritt erstmals die Marke von einer Billion NT-Dollar Verteidigungsausgaben als Reaktion auf wachsenden chinesischen Druck – ein politisches Signal mit konkreten militärischen Folgen für die regionale Abschreckung.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "SCO-Rückendeckung für Iran, mögliches Dreiertreffen und chinesische Militärpräsenz in Afrika berühren europäische Sicherheitsinteressen und die NATO-Kohäsion, an der Deutschland maßgeblich beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Kombination aus antiwestlicher SCO-Koordination, möglichem trilateralen Gipfel und chinesischer Militärpräsenz auf neuem Terrain ist geopolitisch außergewöhnlich bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi, Putin to meet in Bishkek for Power of Siberia 2 pipeline talks: Kremlin",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365710/xi-putin-meet-bishkek-power-siberia-2-pipeline-talks-kremlin",
+              "publishedAt": "2026-08-29T13:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "SCO takes landmark stand on nuclear security as Iran comes under renewed attack",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366108/sco-takes-landmark-stand-nuclear-security-iran-comes-under-renewed-attack",
+              "publishedAt": "2026-09-02T15:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi, Trump and Putin may hold trilateral meeting at next Apec forum, Kremlin says",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366039/xi-trump-and-putin-may-hold-trilateral-meeting-next-apec-forum-kremlin-says",
+              "publishedAt": "2026-09-01T23:53:01Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China, US military commanders snap 2-year break with talks in Canada",
+              "url": "https://www.scmp.com/news/china/military/article/3366413/china-us-military-commanders-snap-2-year-break-talks-canada",
+              "publishedAt": "2026-09-04T11:30:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Politische Krise um Mandić, Kriegsverbrecherhommage und Antimafia-Gesetz im Zeichen des EU-Kurses",
+          "summaryDe": [
+            "Montenegro erlebte eine innenpolitisch turbulente Woche: Die Bošnjakische Partei kündigte an, für eine Amtsenthebung von Mandić zu stimmen, der Albanische Forum wollte am 7. September entscheiden. Die Regierungspartei PES von Premierminister Spajić positionierte sich dagegen, was die Initiative zum Periodenende fraglich erscheinen ließ.",
+            "Scharf in die Debatte eingeschnitten: Mandić bekannte sich öffentlich zu einem Beileidstelegramm für den verurteilten Kriegsverbrecher Ratko Mladić und verteidigte es als unbedenklich. Wenige Tage zuvor war am Zaun der bosnjakischen Abgeordneten Kenana Strujić Harbić ein Mladić-verherrlichendes Graffiti gefunden worden – Polizei und Staatsanwaltschaft wurden zu Ermittlungen aufgefordert.",
+            "Das Parlament verabschiedete parallel ein Antimafia-Gesetz zur Vermögensabschöpfung aus kriminellen Aktivitäten – von der Regierung als Bekenntnis zur Rechtsstaatlichkeit und EU-Beitrittsstrategie gerahmt, faktisch aber auch Reaktion auf laufende Geldwäsche-Ermittlungen.",
+            "Am Ende der Woche warnte der frühere EU-Abgeordnete Picula, dass Kriegsverbrecherhommagen in der Region den Beitrittsprozess beschädigen – ein Signal, dass externe Beobachter die innenpolitischen Vorgänge in Montenegros Europäisierungskontext einbetten."
+          ],
+          "contextDe": [
+            "Die Mandić-Krise spiegelt anhaltende ethnische und historische Konfliktlinien wider, die das montenegrinische Innenleben besonders in Phasen politischer Lagerbildung prägen.",
+            "Das Antimafia-Gesetz ist für Montenegros EU-Beitrittsprozess relevant, da die Kommission funktionierende Vermögensabschöpfungsmechanismen als Benchmarks im Kapitel Justiz und Grundrechte verlangt.",
+            "Öffentliche Ehrungen verurteilter Kriegsverbrecher durch aktive Politiker in einem EU-Beitrittskandidaten werfen Fragen über den tatsächlichen politischen Konsens in zentralen Wertefragen auf."
+          ],
+          "additionalImportant": "Über 60 Prozent der Kinder wurden zu Beginn des Kindergartenjahres abgewiesen, weil Eltern keine Impfdokumente vorlegen konnten – das Bildungsministerium stand unter erheblichem Druck.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland unterstützt die EU-Erweiterung auf dem Westbalkan aktiv; Rückschritte bei Rechtsstaatlichkeit und Vergangenheitsbewältigung in Montenegro beeinflussen diese Politik."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Ereignisse sind innenpolitisch in Montenegro und im westlichen Balkan relevant; internationale Tragweite ist begrenzt, aber für den EU-Erweiterungsprozess symbolisch bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Albanski forum: 7. septembra će biti razmatrana inicijativa za razrjesenje Mandica",
+              "url": "https://www.vijesti.me/vijesti/politika/824900/albanski-forum-7-septembra-ce-biti-razmatrana-inicijativa-za-razrjesenje-mandica-odluke-se-ne-mogu-prejudicirati",
+              "publishedAt": "2026-09-02T18:24:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kankaraš: Rad ODT-a Berane može se nazvati ohrabrujućim",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/825266/gdfggfdgfd",
+              "publishedAt": "2026-09-05T07:03:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Picula za Pobjedu: Sahrana ratnog zločinca u Beogradu odraziće se na odnose na Zapadnom Balkanu",
+              "url": "https://www.pobjeda.me/clanak/picula-za-pobjedu-sahrana-ratnog-zlocinca-u-beogradu-odrazice-se-na-odnose-na-zapadnom-balkanu",
+              "publishedAt": "2026-09-06T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Wirtschaftsstratege Mugoša mahnt: EU-Marktzugang allein reicht Montenegro nicht",
+          "summaryDe": [
+            "Ökonom Boris Mugoša argumentierte, dass der formale Beitritt zum europäischen Binnenmarkt ohne eigenständige Entwicklungsstrategie für Montenegro wenig bringe: Investoren kämen wegen konkreter Angebote, nicht wegen der Mitgliedschaft an sich.",
+            "Mugoša plädierte für einen 10- bis 20-Jahres-Plan, der Sektoren identifiziert, in denen Montenegro tatsächlich wettbewerbsfähig sein kann – eine Mahnung, die zu einem Zeitpunkt kommt, da die Beitrittsverhandlungen in eine entscheidende Phase eintreten.",
+            "Der Einwand ist strukturell berechtigt: Kleine Volkswirtschaften, die ohne ausreichende Produktivitätsbasis in große Märkte integriert werden, riskieren Abhängigkeit statt Entwicklung.",
+            "Die wirtschaftspolitische Debatte bleibt national begrenzt, ist aber symptomatisch für ein Defizit, das auch in anderen Beitrittskandidaten beobachtet wird."
+          ],
+          "contextDe": [
+            "Montenegro verhandelt seit 2012 über den EU-Beitritt; wirtschaftliche Reformen und Diversifizierung sind dabei ebenso wichtig wie Rechtsstaatlichkeitskapitel.",
+            "Die Mahnung eines heimischen Ökonomen, nicht allein auf den EU-Marktzugang zu setzen, spiegelt eine breitere Debatte über die Qualität von Beitrittsprozessen wider.",
+            "Ohne eigene Wettbewerbssubstanz droht Montenegro, im Binnenmarkt als Peripherie zu verharren – ein Risiko, das EU-Erweiterungsexperten schon bei anderen kleinen Balkanstaaten beobachtet haben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die wirtschaftspolitische Debatte betrifft primär die montenegrinische Innenpolitik ohne unmittelbare Auswirkung auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Für ein EU-Beitrittsland ist die Debatte relevant, bleibt aber national begrenzt und ohne unmittelbare internationale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Mugoša za Pobjedu: Suština nije da formalno uđemo na evropsko tržište, nego da imamo što i da ponudimo",
+              "url": "https://www.pobjeda.me/clanak/mugosa-za-pobjedu-sustina-nije-da-formalno-udemo-na-evropsko-trziste-nego-da-imamo-sto-i-da-ponudimo",
+              "publishedAt": "2026-09-06T08:14:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ermittlungen gegen mutmaßliche Russland-Verbindungen und EU-Beitrittskurs als strategische Priorität",
+          "summaryDe": [
+            "Montenegro ermittelte gegen Mihail Nikolajevič Šabunjin wegen mutmaßlicher Verbindungen zu russischen Kombattanten in der Ukraine – für ein NATO-Mitglied politisch heikel und symptomatisch für eine wachsende Zahl europäischer Ermittlungen gegen russische Netzwerke auf dem Balkan.",
+            "Staatspräsident Milatović bekräftigte den EU-Beitrittskurs als wichtigstes außenpolitisches Ziel und positionierte Montenegro bewusst als proeuropäisches Gegenbeispiel zum isländischen Referendum gegen EU-Beitrittsverhandlungen.",
+            "Die Polizei führte in Grahovo eine großangelegte Suchaktion nach einem mutmaßlichen Kriminellen durch, dem auch ein geheimer Tunnel zugerechnet wird – ein Hinweis auf weiterhin aktive organisierte Kriminalitätsstrukturen, die in EU-Beitrittskapiteln als Benchmark behandelt werden.",
+            "Am Periodenende stand Montenegro zwischen zwei Dynamiken: dem proeuropäischen Bekenntnis der politischen Führung und innenpolitischen Rückschlägen, die Beitrittsfortschritte verlangsamen können."
+          ],
+          "contextDe": [
+            "Russische Netzwerke auf dem Westbalkan sind ein zunehmend untersuchtes Phänomen; für Montenegro als NATO-Mitglied haben solche Verdachtsfälle unmittelbare außenpolitische Konsequenzen.",
+            "Der EU-Beitrittsprozess Montenegros dauert seit 2012 an; jeder Fortschritt bei Rechtsstaatlichkeit und organisierter Kriminalität stärkt die Verhandlungsposition gegenüber Brüssel.",
+            "Islands Nein zur EU-Mitgliedschaft bot Montenegros Führung die Gelegenheit, die eigene Europaorientierung zu betonen – eine Positionierung mit symbolischem, aber begrenztem praktischem Gewicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland verfolgt die EU-Erweiterung auf dem Westbalkan und ist von montenegrinischen Fortschritten oder Rückschlägen in Rechtsstaatlichkeitsfragen betroffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Vorgänge sind im Kontext russischer Netzwerke und des EU-Beitrittsprozesses auf dem Balkan relevant, haben aber begrenzte überregionale Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Istražuju veze Šabunjina sa ruskim borcima na ukrajinskom ratištu",
+              "url": "https://www.pobjeda.me/clanak/istrazuju-veze-sabunjina-sa-ruskim-borcima-na-ukrajinskom-ratistu",
+              "publishedAt": "2026-09-03T06:35:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Grahovo pod opsadom: Policija tražila Milovića i tajni tunel u restoranu",
+              "url": "https://www.pobjeda.me/clanak/grahovo-pod-opsadom-policija-trazila-milovica-i-tajni-tunel-u-restoranu",
+              "publishedAt": "2026-09-06T09:44:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD steuert auf historischen Einzug in Sachsen-Anhalts Regierung – EU-Institutionen unter Druck in Rechtsstaatsfragen",
+          "summaryDe": [
+            "Am 6. September wählte Sachsen-Anhalt einen neuen Landtag; Umfragen sahen die AfD erstmals in der Position, eine Landesregierung anführen zu können. Führende Parteifunktionäre wie Hans-Thomas Tillschneider propagierten eine Neuinterpretation der deutschen Erinnerungskultur und stellten das Gedenken an NS-Verbrechen offen in Frage – ein Programm, das international beachtet und von Politico Europe ausführlich dokumentiert wurde.",
+            "Parallel trieb die Europäische Kommission ihr Verfahren gegen Meta unter dem Digital Services Act wegen Jugendschutzfragen voran – ungeachtet eines US-Vergleichs – und signalisierte damit, dass amerikanische Regulierungskompromisse keine Bindungswirkung für den europäischen Rechtsraum entfalten.",
+            "Ein maltesisches Gericht sprach Millionär Yorgen Fenech vom Vorwurf frei, die Ermordung der Investigativjournalistin Daphne Caruana Galizia 2017 in Auftrag gegeben zu haben. EU-Parlamentspräsidentin Metsola verlangte weitere Aufklärung – der Fall steht exemplarisch für Rechtsstaatlichkeitsfragen innerhalb der EU.",
+            "Island votierte in einem Referendum gegen die Wiederaufnahme von EU-Beitrittsverhandlungen; der mächtige Fischereisektor war ausschlaggebend. Für die EU ist das Nein ein Dämpfer, gab Montenegro jedoch die Gelegenheit, sich als proeuropäischen Kontrast zu positionieren."
+          ],
+          "contextDe": [
+            "Ein erster AfD-Einzug in eine Landesregierung wäre verfassungsrechtlich und europapolitisch ein Novum, das Debatten über Bundesrat-Arithmetik und Deutschlands Bild in der EU neu entfachen würde.",
+            "Die Kombination aus DSA-Verfahren gegen Meta und DSA-Designierung von ChatGPT zeigt, dass die EU ihre digitale Regulierungsagenda konsequent vorantreibt – unabhängig von US-Verhandlungsstand.",
+            "Rechtsstaatlichkeitsfragen – vom Malta-Urteil bis zu AfD-Medienpolitik – bilden einen gemeinsamen Strang, der die demokratische Qualität innerhalb des EU-Raums unter Druck zeigt."
+          ],
+          "additionalImportant": "Die EU-Kommission designierte ChatGPT, Reddit und Roblox als sehr große Online-Plattformen unter dem Digital Services Act – erstmals fällt damit ein generativer KI-Chatbot in den DSA-Hochrisikorahmen, was Präzedenzcharakter für die Regulierung generativer KI hat.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Eine AfD-geführte Landesregierung in Sachsen-Anhalt hätte unmittelbare Auswirkungen auf Bundesrat, Bundespolitik und Deutschlands europäische Positionierung."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der potenzielle erste Regierungseintritt einer rechtsextremen Partei auf Länderebene in Deutschland, kombiniert mit EU-Rechtsstaatsdebatten und digitaler Regulierungspolitik, sind europaweit bedeutsame Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "The far-right leader pushing Germans to forget the Nazi past",
+              "url": "https://www.politico.eu/article/hans-thomas-tillschneider-saxony-anhalt-election-erinnerungskultur-alternative-for-germany",
+              "publishedAt": "2026-09-03T02:01:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "On the campaign trail in Saxony-Anhalt with Alternative for Germany: nationalism, 'remigration' and a radical agenda",
+              "url": "https://euobserver.com/234988/on-the-campaign-trail-in-saxony-anhalt-with-alternative-for-germany-nationalism-remigration-and-a-radical-agenda",
+              "publishedAt": "2026-09-03T12:34:54Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1772",
+              "publishedAt": "2026-08-31T07:28:03Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "European Parliament's Metsola on Daphne Caruana Galizia verdict: 'We will not give up, we will not give in'",
+              "url": "https://euobserver.com/235239/european-parliaments-metsola-on-daphne-caruana-galizia-verdict-we-will-not-give-up-we-will-not-give-in",
+              "publishedAt": "2026-09-03T15:30:41Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kapazitätsmechanismus für Deutschland genehmigt, EU-China-Handelsstreit vor Oktober-Frist und Diversifizierungsregeln in Planung",
+          "summaryDe": [
+            "Die Europäische Kommission genehmigte den deutschen Kapazitätsmechanismus im Umfang von bis zu 35 Milliarden Euro, der ab 2031 Versorgungssicherheit im deutschen Strommarkt schaffen soll. Der Beschluss schafft Planungssicherheit für Investoren in regelbare Kapazitäten und ist wegweisend für andere EU-Mitgliedstaaten mit ähnlichen Ambitionen.",
+            "Eine EU-Handelsdelegation unter Denis Redonnet drängte Peking zur Korrektur eines täglichen Handelsdefizits von über einer Milliarde Euro und setzte eine Frist bis Oktober; bei Ausbleiben greifbarer Ergebnisse drohen verschärfte Maßnahmen. Seit der letzten Verhandlungsrunde im Juni zeigen die Gespräche kaum Fortschritte.",
+            "Parallel arbeitete die Kommission an neuen Diversifizierungsregeln, die europäische Unternehmen zur strukturellen Reduzierung ihrer China-Abhängigkeit verpflichten sollen – ein Eingriff in Unternehmensstrategien, der über bisherige freiwillige Maßnahmen weit hinausgeht.",
+            "Rumäniens Parteien scheiterten an einer Lohnreform, die Voraussetzung für 770 Millionen Euro aus EU-Fonds war – ein Symptom struktureller Reformschwäche, das den Kohäsionsmechanismus der EU unter Glaubwürdigkeitsdruck setzt."
+          ],
+          "contextDe": [
+            "Der Kapazitätsmechanismus ist Deutschlands Antwort auf die strukturelle Spannung zwischen Erneuerbare-Erzeugung und Versorgungssicherheit – ein Problem, das alle Mitgliedstaaten in der Energiewende trifft.",
+            "Die doppelspurige EU-Strategie gegenüber China – Dialog mit Fristdruck und gleichzeitige Diversifizierungspflichten – signalisiert eine Abkehr von reiner Kooperationspolitik hin zu systematischem wirtschaftlichem Risikomanagement.",
+            "Für Deutschland als exportintensive Volkswirtschaft mit enger China-Verflechtung sind sowohl die Handelsverhandlungen als auch geplante Diversifizierungspflichten von unmittelbarer praktischer Bedeutung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der genehmigte Kapazitätsmechanismus betrifft direkt die deutsche Energiepolitik; EU-China-Handelsmaßnahmen treffen die exportorientierte deutsche Wirtschaft unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Kapazitätsmechanismus, Oktober-Deadline im EU-China-Handelsstreit und geplante Diversifizierungspflichten ergeben zusammen eine bedeutende wirtschaftspolitische Weichenstellung für die EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+              "publishedAt": "2026-09-01T22:00:00Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "EU, China talk trade as Europe's deadline for action looms",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3366242/eu-china-talk-trade-europes-deadline-action-looms",
+              "publishedAt": "2026-09-03T09:28:29Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU plans new 'diversification' rules to cut dependence on China",
+              "url": "https://euobserver.com/234989/eu-plans-new-diversification-rules-to-cut-dependence-on-china",
+              "publishedAt": "2026-09-02T15:48:44Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Romanian parties fail to agree on wage reform, costing country €770m in EU funds",
+              "url": "https://euobserver.com/234925/romanian-parties-fail-to-agree-on-wage-reform-costing-country-e770m-in-eu-funds",
+              "publishedAt": "2026-09-04T07:32:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russischer Sabotageakt auf Flughafen Leipzig, Diplomatenwelle und hybride Kriegseskalation in Europa",
+          "summaryDe": [
+            "Deutschland schrieb Russland offiziell die Urheberschaft am Sprengstoffanschlag auf den Flughafen Leipzig/Halle zu, der als Drehscheibe für Ukraine-Militärhilfe dient. Zwei Verdächtige wurden festgenommen; Deutschland schloss weitere russische Konsulate, und rund 20 russische Diplomaten verließen still Brüssel auf EU-Forderung hin.",
+            "Von der Leyen und NATO-Generalsekretär Rutte verurteilten den Angriff gemeinsam und bekräftigten, dass russische Einschüchterungsversuche die Ukraine-Unterstützung nicht stoppen würden. Polen forderte EU-weite weitere Ausweisungen; Trump wies die Anschuldigungen gegen Russland hingegen als übertrieben zurück – eine Haltung, die in europäischen Hauptstädten mit Befremden aufgenommen wurde.",
+            "In Polen brannte zeitgleich eine Drohnenfabrik, die für ukrainische Militärproduktion arbeitet; Premier Tusk machte Moskau verantwortlich. Russland hatte parallel seine Geran-Drohnen auf Strahltriebwerke umgerüstet, was ihre Abfangbarkeit erheblich erschwert. Eine russische Drohne traf das SBU-Hauptquartier in Kiew.",
+            "Ein deutscher Militärexperte argumentierte, die Schwere der Sabotageakte hätte eine NATO-Artikel-4-Konsultation gerechtfertigt – und kritisierte Berlins Zurückhaltung. Die EU plant eine massive Ausweitung ihrer Russland-Sanktionsliste, rechnet aber mit einer Prozesswelle, da russische Sanktionierte bereits intensiv klagen."
+          ],
+          "contextDe": [
+            "Der Anschlag auf den Flughafen Leipzig markiert eine qualitative Eskalation russischer Hybridkriegführung: nicht mehr nur Cyber oder Desinformation, sondern physische Sabotage industrieller Infrastruktur auf NATO-Boden.",
+            "Trumps Weigerung, russische Sabotageakte anzuerkennen, belastet die transatlantische Geschlossenheit in einer Phase, in der EU und NATO koordinierte Reaktionen brauchen.",
+            "Deutschlands Zögern beim Einfordern von NATO-Artikel-4-Konsultationen setzt es innenpolitisch und europäisch unter Druck und reflektiert eine anhaltende strategische Ambivalenz gegenüber Moskau."
+          ],
+          "additionalImportant": "Europa baut gezielt eigene militärische Satellitenkapazitäten auf – sichere Kommunikation, Aufklärung und Navigationsunabhängigkeit –, nachdem der Ukraine-Krieg die Abhängigkeit von US-amerikanischen und kommerziellen Systemen schonungslos offengelegt hat.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Ein staatlich zugeschriebener Bombenanschlag auf deutschen Boden, Konsulatsschließungen und die Debatte über Berlins strategische Zurückhaltung betreffen Deutschland unmittelbar und weitreichend."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Staatlich gesteuerter Sabotage auf kritische Infrastruktur eines NATO-Mitglieds, koordinierte diplomatische Ausweisungen und simultane Hybridangriffe auf mehrere EU-Staaten sind von außerordentlicher systemischer Bedeutung für die europäische Sicherheitsarchitektur."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Exclusive: Russian diplomats quietly leave Brussels, as Germany shuts another consulate over Leipzig plot",
+              "url": "https://euobserver.com/234820/exclusive-russian-diplomats-quietly-leave-brussels-as-germany-shuts-another-consulate-over-leipzig-plot",
+              "publishedAt": "2026-09-02T08:42:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Von der Leyen, Rutte say Russian 'intimidation will not work' to stop Ukraine aid",
+              "url": "https://www.politico.eu/article/eu-ursula-von-der-leyen-nato-mark-rutte-say-russian-intimidation-will-not-work-to-stop-ukraine-aid",
+              "publishedAt": "2026-09-02T13:44:58Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Trump brushes off accusations of Russian sabotage against NATO allies",
+              "url": "https://www.politico.com/news/2026/09/04/trump-russia-nato-espionage-allegations-01066120",
+              "publishedAt": "2026-09-05T07:36:26Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] 'In Germany, everyone is constantly afraid Putin will get angry'. German military expert on Berlin's response to Leipzig drone plot and Moscow's hybrid attacks",
+              "url": "https://euobserver.com/235514/interview-in-germany-everyone-is-constantly-afraid-putin-will-get-angry-german-military-expert-on-berlins-response-to-leipzig-drone-plot-and-moscows-hybrid-attacks",
+              "publishedAt": "2026-09-04T15:23:43Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Russian drone strike hits security service headquarters in Kyiv",
+              "url": "https://www.politico.eu/article/russian-drone-strike-hits-security-service-headquarters-kyiv-ukraine",
+              "publishedAt": "2026-09-04T15:58:23Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceReportDates": [
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06"
+  ],
+  "missingReportDates": []
+}
