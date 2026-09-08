@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-08",
+  "generatedAt": "2026-09-08T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Absturz einer Amazon-Frachtmaschine am Flughafen Miami fordert fünf Todesopfer",
+          "summaryDe": [
+            "Eine Frachtmaschine von Amazon ist beim Landen am Miami International Airport über die Startbahn hinausgeschossen und hat dabei zwei Fahrzeuge gerammt – fünf Menschen kamen ums Leben, wie die US-Behörde NTSB mitteilte.",
+            "Das Wrack kam laut NTSB rund 400 Meter hinter dem Pisterende zum Stillstand, was auf erhebliche Geschwindigkeit beim Aufprall schließen lässt.",
+            "Für Amazon, das seinen Frachtluftbetrieb in den vergangenen Jahren massiv ausgebaut hat, wirft der Unfall grundlegende Fragen zur Betriebssicherheit auf.",
+            "Die Ermittlungen der Bundesbehörden stehen noch am Anfang; Ursache und genaue Umstände sind bislang nicht öffentlich bekannt."
+          ],
+          "additionalImportant": "Die US-Midterms befinden sich in der Schlussphase: Rennen in Iowa, Michigan und Texas gelten als Gradmesser für Trumps Rückhalt und den Kurs progressiver Kandidaten.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein Unfall dieses Ausmaßes bei einem globalen Logistikkonzern kann indirekt den Luftfrachtbetrieb und Versicherungsmärkte berühren, hat aber keine unmittelbaren Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Fünf Todesopfer bei einem Absturz am zweitgrößten Frachtflughafen der USA sowie laufende Bundesermittlungen machen dies zu einem bedeutenden Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "5 dead after crash at Miami Airport. And, Germany's far-right wins state election",
+              "url": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
+              "publishedAt": "2026-09-07T11:11:51Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Crashed Amazon cargo jet struck two vehicles, ended up 1,300 feet past runway, NTSB says",
+              "url": "https://www.cnbc.com/2026/09/07/crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-feet-past-runway-ntsb-says.html",
+              "publishedAt": "2026-09-07T21:36:12Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kanada verhängt 20 Milliarden Dollar Gegenzölle auf US-Waren",
+          "summaryDe": [
+            "Ottawa hat angekündigt, amerikanische Waren im Umfang von 20 Milliarden Dollar mit Strafzöllen zu belegen – eine direkte Antwort auf die Handelspolitik der Trump-Administration.",
+            "Besonders betroffen sind Stahl und Aluminium, zwei Branchen, die bereits durch frühere US-Zölle unter Druck stehen.",
+            "Der Schritt eskaliert den bilateralen Handelsstreit zwischen den engsten Nachbarn der Welt und setzt beide Volkswirtschaften wachsenden Verwerfungen aus.",
+            "Für Deutschland und die EU schafft die zunehmende Fragmentierung der nordamerikanischen Handelszonen neue Unsicherheiten im transatlantischen Wirtschaftsraum."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eskalierender Handelsstreit zwischen USA und Kanada beeinflusst globale Lieferketten und kann deutsche Exporte in beide Märkte belasten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Gegenzölle in dieser Größenordnung zwischen zwei der weltweit engst verflochtenen Volkswirtschaften sind eine erhebliche Eskalation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "A whiplash election year enters its final stretch as Trump holds wild cards",
+              "url": "https://www.pbs.org/newshour/politics/a-whiplash-election-year-enters-its-final-stretch-as-trump-holds-wild-cards",
+              "publishedAt": "2026-09-07T19:30:39Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "King Charles III clarifies status of Prince Harry and his wife, Meghan",
+              "url": "https://www.npr.org/2026/09/08/g-s1-142289/king-charles-prince-harry",
+              "publishedAt": "2026-09-08T06:00:57Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russland und Nordkorea eröffnen erste gemeinsame Straßenverbindung – Kooperation vertieft sich",
+          "summaryDe": [
+            "Russland und Nordkorea haben die erste Straßenquerung über ihre gemeinsame Grenze offiziell eröffnet, was die militärische und wirtschaftliche Partnerschaft beider Länder auf eine neue Stufe hebt.",
+            "Hintergrund ist die enge militärische Zusammenarbeit: Nordkorea soll nach westlichen Geheimdienstangaben Truppen in den Ukraine-Krieg entsandt haben.",
+            "Eine physische Landverbindung erleichtert künftig den Transport von Material, Personal und Ressourcen erheblich – mit direkten Folgen für den Kriegsverlauf in der Ukraine.",
+            "Für die NATO-Staaten und die EU ist diese Achse ein Signal, dass die Unterstützung Russlands durch Drittstaaten strukturell gefestigt wird."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine vertiefte russisch-nordkoreanische Militärkooperation beeinflusst den Ukraine-Krieg direkt und hat Folgen für Deutschlands Sicherheits- und Rüstungspolitik."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die erste physische Grenzverbindung zwischen Russland und Nordkorea ist ein systemischer Schritt, der die internationale Sicherheitsarchitektur verändert."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "5 Races to Watch This Fall for Answers to the Biggest Midterm Questions",
+              "url": "https://www.nytimes.com/2026/09/07/us/politics/midterms-key-races-to-watch.html",
+              "publishedAt": "2026-09-07T16:44:31Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinesische Behörden ermitteln nach Drohnenfilm über illegale Industrieverklappung im Yangtze",
+          "summaryDe": [
+            "Seltenes Drohnenvideomaterial hat mutmaßliche Industrieabfallentsorgung im Yangtze dokumentiert und damit zentrale Aufsichtsbehörden zu Ermittlungen bewogen.",
+            "Der Fall zeigt, wie Bürgeraufnahmen trotz strikter Medienkontrolle staatliches Handeln erzwingen können – ein in China nach wie vor seltenes Phänomen.",
+            "Umweltverstöße an großen Wasserstraßen haben in der Vergangenheit regelmäßig zu symbolischen Strafen geführt, ohne strukturelle Ursachen zu beheben.",
+            "Ob die Ermittlungen diesmal über Alibeistandsverfahren hinausgehen, bleibt abzuwarten – der öffentliche Druck durch virale Verbreitung des Videos ist ungewöhnlich hoch."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Fall betrifft innenpolitische Umweltaufsicht in China ohne erkennbare direkte Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevantes Beispiel für zivilgesellschaftliche Kontrolle in einem autoritären System, aber von begrenzter internationaler Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Rare drone film of suspected dumping spurs Chinese agencies into investigation",
+              "url": "https://www.scmp.com/news/china/article/3366675/rare-drone-film-suspected-dumping-spurs-chinese-agencies-investigation",
+              "publishedAt": "2026-09-07T13:58:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas Solar- und Batterietechnik verdrängt US-Ölstrategie auf dem afrikanischen Kontinent",
+          "summaryDe": [
+            "Billiger als fossile Brennstoffe und schneller verfügbar: Chinesische Solar- und Speichertechnologien gewinnen in Afrika rapide Marktanteile und stellen Trumps 'Drill, baby, drill'-Strategie direkt infrage.",
+            "Für zahlreiche afrikanische Staaten ist die chinesische Technologie schlicht attraktiver, weil sie kürzere Amortisationszeiten und geringere Abhängigkeit von globalen Ölpreisen verspricht.",
+            "Das verschiebt geopolitische Einflusssphären: Wo Washington auf Energieexporte setzt, bietet Peking Infrastrukturpartnerschaften auf Basis erneuerbarer Energien an.",
+            "Deutsche und europäische Unternehmen konkurrieren in diesem Markt, verlieren aber nach Einschätzung von Beobachtern zunehmend an Boden gegenüber subventionierten chinesischen Anbietern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Der Verdrängungs­wettbewerb chinesischer Grüntechnologie in Afrika trifft auch deutsche Exporteure von Solar- und Speichertechnik direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die systematische Marktdurchdringung Afrikas durch chinesische Erneuerbare-Energien-Technologie ist eine größere geopolitisch-wirtschaftliche Verschiebung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "How China's green tech is undercutting Trump's 'drill, baby, drill' oil strategy in Africa",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366527/how-chinas-green-tech-undercutting-trumps-drill-baby-drill-oil-strategy-africa",
+              "publishedAt": "2026-09-07T04:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi Jinping absolviert diplomatischen Intensivmarathon vor geplantem Trump-Gipfel",
+          "summaryDe": [
+            "In den zwei Wochen vor einem geplanten Treffen mit US-Präsident Trump hat Xi Jinping Zentralasien und den Nahen Osten bereist und weitere Besuche in Indien und den USA vorbereitet – ein ungewöhnlich dichtes diplomatisches Programm.",
+            "Begleitet wurde die Tour von konkreten Projektergebnissen: Nach Xis Kyrgysstan-Besuch wurde ein 210-Meter-Tunnel im Rahmen der Zentralasien-Eisenbahn fertiggestellt, die Russland umgeht.",
+            "Gleichzeitig verständigte sich Chinas Premier mit Katar auf vertiefte Kooperation in Energie, KI und Nahost-Deeskalation – Peking positioniert sich als globaler Vermittler.",
+            "Das Muster ist erkennbar: China nutzt die Zeit vor dem Trump-Gipfel, um seinen diplomatischen Fußabdruck zu verbreitern und gegenüber Washington mit globalem Einfluss zu verhandeln."
+          ],
+          "additionalImportant": "Die PLA-Raketentruppe hat in einer Studie Japan als 'großes Gefahrensignal' für nuklearen Terrorismus bezeichnet und fordert Vorbereitung chinesischer Städte auf einen möglichen Nuklearangriff – ein ungewöhnlich explizites Dokument.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Xis diplomatische Offensive vor dem Trump-Gipfel beeinflusst das geopolitische Kräfteverhältnis, das indirekt auch die EU und Deutschland betrifft."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein koordinierter diplomatischer Vorstoß Chinas auf mehreren Kontinenten kurz vor einem Supermächte-Gipfel ist von außerordentlicher internationaler Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "As clock counts down to Trump summit, Xi boosts global clout with diplomatic blitz",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366643/clock-counts-down-trump-summit-xi-boosts-global-clout-diplomatic-blitz",
+              "publishedAt": "2026-09-07T15:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegrinischer Präsident in Ulaanbaatar mit höchsten Staatsehren empfangen",
+          "summaryDe": [
+            "Der montenegrinische Staatspräsident ist in der mongolischen Hauptstadt Ulaanbaatar mit militärischen Ehren empfangen worden; bilaterale Abkommen zu Wirtschaft, Wissenschaft, Bildung und Diplomatie stehen zur Unterzeichnung an.",
+            "Montenegro ist ein kleines Land mit begrenztem außenpolitischem Gewicht, sucht aber systematisch neue Partnerschaften jenseits des unmittelbaren EU- und NATO-Umfelds.",
+            "Solche Besuche dienen oft weniger konkreten Vertragsschlüssen als der symbolischen Positionierung: Diversifizierung der Außenbeziehungen ist für Beitrittskandidaten ein politisch nützliches Signal.",
+            "Für den EU-Beitrittsprozess Montenegros haben derartige bilaterale Kontakte allenfalls marginale Bedeutung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Staatsbesuch in der Mongolei berührt keine deutschen Interessen unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Routinediploamtie eines kleinen Landes mit begrenzter internationaler Reichweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Gugiju pečat na ponton, slijedi i krivična prijava?",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825672/gugiju-pecat-na-ponton-slijedi-i-krivicna-prijava",
+              "publishedAt": "2026-09-08T06:26:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD triumphiert bei Sachsen-Anhalt-Wahl – politische Zäsur in Deutschland",
+          "summaryDe": [
+            "Die AfD hat die Landtagswahl in Sachsen-Anhalt mit einem klaren Sieg abgeschlossen, was Beobachter als politischen Wendepunkt bewerten – unabhängig davon, ob die Partei eine Regierung bilden kann.",
+            "Es ist das erste Mal, dass eine Partei, die vom Verfassungsschutz als gesichert rechtsextremistisch eingestuft ist, in einem deutschen Bundesland stärkste Kraft wird.",
+            "Das Ergebnis sendet Signale weit über die Landesgrenzen hinaus: EU-Partner, die die deutsche politische Stabilität als gegeben betrachten, müssen ihre Einschätzung überdenken.",
+            "Für die Bundesregierung und die Union erhöht der Ausgang den Druck, migrationspolitische und wirtschaftliche Unzufriedenheit in Ostdeutschland konkreter zu adressieren."
+          ],
+          "additionalImportant": "EU-Ratspräsident Costa bereist Berlin, Warschau und Madrid, um Lösungen für die Finanzierung des nächsten EU-Mehrjährigen Finanzrahmens zu sondieren – Deutschland ist dabei ein Schlüsselgesprächspartner.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Ein AfD-Wahlsieg in Sachsen-Anhalt ist ein unmittelbares innenpolitisches Ereignis mit weitreichenden Folgen für die deutsche Demokratie und Regierungsbildung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das Erstarken einer als gesichert rechtsextrem eingestuften Partei zur stärksten Kraft in einem deutschen Bundesland ist ein systemisch bedeutsames Ereignis für die EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "AfD's electoral triumph is a watershed, regardless of whether it gets to form the Saxony-Anhalt government",
+              "url": "https://euobserver.com/235643/afds-electoral-triumph-is-a-watershed-regardless-of-whether-it-gets-to-form-the-saxony-anhalt-government",
+              "publishedAt": "2026-09-07T08:49:56Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Brüssel umwirbt Grönland mit 200-Millionen-Investitionspaket gegen Trumps Annexionspläne",
+          "summaryDe": [
+            "Die Europäische Kommission hat gemeinsam mit Dänemark und Grönland eine Gemeinsame Erklärung unterzeichnet und ein 200-Millionen-Euro-Investitionspaket angekündigt, um Nuuk enger an die EU zu binden.",
+            "Hintergrund sind Trumps wiederholte Andeutungen, die Insel unter US-Kontrolle bringen zu wollen – die EU reagiert nun mit einer konkreten wirtschaftlichen Gegenangebot.",
+            "Für Grönland, das wirtschaftlich stark von Dänemark abhängt, bedeutet das Paket neue Optionen, birgt aber auch die Frage nach Bedingungen und tatsächlicher Umsetzung.",
+            "Europäische Ratspräsident Costa hält parallel Haushaltsgespräche in mehreren Hauptstädten – das Grönland-Paket zeigt, dass die EU geopolitische Investitionen als Teil ihrer Außenpolitik begreift."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Als größter Nettozahler der EU trägt Deutschland wesentlich zu solchen geopolitischen Investitionspaketen bei und ist von deren Precedenzwirkung direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine koordinierte EU-Reaktion auf territoriale Ambitionen des US-Präsidenten ist eine ungewöhnliche und bedeutende geopolitische Geste."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "THIS WEEK: Von der Leyen woos Greenland with fresh EU funds, as Ceuta crisis comes to Brussels",
+              "url": "https://euobserver.com/235490/this-week-von-der-leyen-woos-greenland-with-fresh-eu-funds-as-ceuta-crisis-comes-to-brussels",
+              "publishedAt": "2026-09-07T04:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Joint Declaration by the European Union, on the one hand, and the Government of Greenland and the Government of Denmark, on the other, on relations between the European Union and Greenland",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1804",
+              "publishedAt": "2026-09-07T09:56:51Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russland verbreitet KI-generierte Falschmeldung über Sieg in ukrainischer Schlacht",
+          "summaryDe": [
+            "Putin hat über offizielle Kanäle eine KI-generierte Siegesmeldung über eine ukrainische Gefechtsoperation veröffentlicht, die selbst kremltreue Telegram-Kanäle verwirrte und Widerspruch auslöste.",
+            "Der Vorfall ist bemerkenswert, weil Desinformation bislang meist subtiler eingesetzt wurde – eine derart plumpe KI-Fälschung, die sofort auffliegt, deutet auf Kommunikationsprobleme im Apparat hin.",
+            "Für westliche Medien und Geheimdienste ist es ein Hinweis, dass russische Informationsoperationen zunehmend auf automatisierte Inhalte setzen, auch wenn deren Qualität schwankend ist.",
+            "Die Episode zeigt exemplarisch, wie KI die Kriegskommunikation verändert – mit Risiken nicht nur für die Gegenseite, sondern auch für die Glaubwürdigkeit des Absenders."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russische KI-gestützte Desinformationskampagnen zielen auch auf deutsche Öffentlichkeit und Verbündete ab und sind sicherheitspolitisch relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Einsatz von KI für staatliche Kriegspropaganda auf höchster Ebene ist eine qualitativ neue Entwicklung mit internationaler Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Russians feel puzzled after Putin issues fake, AI-fuelled claim of victory in a Ukrainian battle (Ukraine Battlefield update, Day 1,656)",
+              "url": "https://euobserver.com/235786/russians-feel-puzzled-after-putin-issues-fake-ai-fuelled-claim-of-victory-in-a-ukrainian-battle-ukraine-battlefield-update-day-1656",
+              "publishedAt": "2026-09-07T13:56:29Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

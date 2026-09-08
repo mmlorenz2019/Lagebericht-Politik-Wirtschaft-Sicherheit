@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-08",
+  "generatedAt": "2026-09-08T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Amazon Cargo Plane Crash at Miami Airport Claims Five Lives",
+          "summaryDe": [
+            "A cargo aircraft operated by Amazon overran the runway while landing at Miami International Airport and collided with two vehicles – five people were killed, according to the U.S. National Transportation Safety Board (NTSB).",
+            "According to the NTSB, the wreckage came to rest approximately 400 meters beyond the runway end, indicating significant speed at impact.",
+            "For Amazon, which has massively expanded its freight air operations in recent years, the accident raises fundamental questions about operational safety.",
+            "Federal investigations are still in their early stages; the cause and exact circumstances remain undisclosed to the public."
+          ],
+          "additionalImportant": "The U.S. midterms are in their final phase: races in Iowa, Michigan, and Texas are seen as barometers for Trump's support and the trajectory of progressive candidates.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "An accident of this magnitude involving a global logistics conglomerate can indirectly affect air freight operations and insurance markets, but has no direct implications for Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Five fatalities in a crash at the second-largest cargo airport in the U.S. combined with ongoing federal investigations make this a significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "5 dead after crash at Miami Airport. And, Germany's far-right wins state election",
+              "url": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
+              "publishedAt": "2026-09-07T11:11:51Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news outlet",
+              "titleOriginal": "Crashed Amazon cargo jet struck two vehicles, ended up 1,300 feet past runway, NTSB says",
+              "url": "https://www.cnbc.com/2026/09/07/crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-feet-past-runway-ntsb-says.html",
+              "publishedAt": "2026-09-07T21:36:12Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Canada Imposes $20 Billion in Retaliatory Tariffs on U.S. Goods",
+          "summaryDe": [
+            "Ottawa has announced retaliatory tariffs on American goods worth $20 billion – a direct response to the Trump administration's trade policies.",
+            "Steel and aluminum are particularly affected, two sectors already under pressure from earlier U.S. tariffs.",
+            "The move escalates the bilateral trade dispute between the world's closest neighbors and exposes both economies to mounting economic disruptions.",
+            "For Germany and the EU, the increasing fragmentation of North American trade zones creates new uncertainties in the transatlantic economic space."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Escalating trade tensions between the USA and Canada affect global supply chains and can strain German exports to both markets."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Retaliatory tariffs of this scale between two of the world's most tightly integrated economies represent a significant escalation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "A whiplash election year enters its final stretch as Trump holds wild cards",
+              "url": "https://www.pbs.org/newshour/politics/a-whiplash-election-year-enters-its-final-stretch-as-trump-holds-wild-cards",
+              "publishedAt": "2026-09-07T19:30:39Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "King Charles III clarifies status of Prince Harry and his wife, Meghan",
+              "url": "https://www.npr.org/2026/09/08/g-s1-142289/king-charles-prince-harry",
+              "publishedAt": "2026-09-08T06:00:57Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russia and North Korea Open First Joint Road Connection – Deepening Cooperation",
+          "summaryDe": [
+            "Russia and North Korea have officially opened the first road crossing at their shared border, elevating the military and economic partnership between the two countries to a new level.",
+            "The backdrop is close military cooperation: North Korea is reported by Western intelligence agencies to have deployed troops to the war in Ukraine.",
+            "A physical land connection will significantly facilitate the future transport of materials, personnel, and resources – with direct implications for the course of the war in Ukraine.",
+            "For NATO states and the EU, this axis signals that third-country support for Russia is becoming structurally entrenched."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deepened Russian-North Korean military cooperation directly affects the war in Ukraine and has consequences for Germany's security and defense policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The first physical border connection between Russia and North Korea is a systemic step that reshapes the international security architecture."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "5 Races to Watch This Fall for Answers to the Biggest Midterm Questions",
+              "url": "https://www.nytimes.com/2026/09/07/us/politics/midterms-key-races-to-watch.html",
+              "publishedAt": "2026-09-07T16:44:31Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinese Authorities Investigate After Drone Film Documents Illegal Industrial Dumping in Yangtze",
+          "summaryDe": [
+            "Rare drone footage has documented alleged industrial waste disposal in the Yangtze River, prompting central oversight authorities to launch investigations.",
+            "The case demonstrates how citizen-generated footage, despite strict media controls, can compel state action – a phenomenon that remains rare in China.",
+            "Environmental violations at major waterways have historically led to symbolic sanctions without addressing structural causes.",
+            "Whether investigations this time go beyond procedural compliance remains to be seen – public pressure from viral video circulation is unusually high."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The case concerns China's domestic environmental oversight without apparent direct consequences for Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "A relevant example of civil society oversight in an authoritarian system, but of limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Rare drone film of suspected dumping spurs Chinese agencies into investigation",
+              "url": "https://www.scmp.com/news/china/article/3366675/rare-drone-film-suspected-dumping-spurs-chinese-agencies-investigation",
+              "publishedAt": "2026-09-07T13:58:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinese Solar and Battery Technology Displacing U.S. Oil Strategy Across Africa",
+          "summaryDe": [
+            "Cheaper than fossil fuels and faster to deploy: Chinese solar and storage technologies are rapidly gaining market share in Africa, directly challenging the Trump administration's 'drill, baby, drill' strategy.",
+            "For numerous African states, Chinese technology is simply more attractive because it promises shorter payback periods and reduced dependence on global oil price fluctuations.",
+            "This shifts geopolitical spheres of influence: where Washington bets on energy exports, Beijing offers infrastructure partnerships based on renewable energy.",
+            "German and European companies are competing in this market but, according to observers, are increasingly losing ground against subsidized Chinese providers."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The competitive displacement of Chinese green technology in Africa directly impacts German exporters of solar and storage technology."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "China's systematic market penetration of Africa through renewable energy technology represents a significant geopolitical-economic shift."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "How China's green tech is undercutting Trump's 'drill, baby, drill' oil strategy in Africa",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366527/how-chinas-green-tech-undercutting-trumps-drill-baby-drill-oil-strategy-africa",
+              "publishedAt": "2026-09-07T04:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi Jinping Conducts Intensive Diplomatic Marathon Before Planned Trump Summit",
+          "summaryDe": [
+            "In the two weeks preceding a planned meeting with U.S. President Trump, Xi Jinping has traveled through Central Asia and the Middle East and is preparing further visits to India and the United States – an unusually packed diplomatic schedule.",
+            "The tour was accompanied by concrete project results: following Xi's visit to Kyrgyzstan, a 210-meter tunnel was completed as part of a Central Asian railway project that bypasses Russia.",
+            "Simultaneously, China's Premier reached agreement with Qatar on deepened cooperation in energy, artificial intelligence, and Middle East deescalation – Beijing is positioning itself as a global mediator.",
+            "The pattern is evident: China is using the time before the Trump summit to broaden its diplomatic footprint and negotiate with Washington from a position of expanded global influence."
+          ],
+          "additionalImportant": "In a study, the PLA Rocket Force designated Japan as a 'major danger signal' for nuclear terrorism and called for preparation of Chinese cities for a possible nuclear attack – an unusually explicit document.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Xi's diplomatic offensive before the Trump summit affects the geopolitical balance of power, which indirectly impacts the EU and Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A coordinated diplomatic push by China across multiple continents shortly before a superpower summit is of extraordinary international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "As clock counts down to Trump summit, Xi boosts global clout with diplomatic blitz",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366643/clock-counts-down-trump-summit-xi-boosts-global-clout-diplomatic-blitz",
+              "publishedAt": "2026-09-07T15:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegrin President Received with Highest State Honors in Ulaanbaatar",
+          "summaryDe": [
+            "Montenegro's president has been received with military honors in the Mongolian capital Ulaanbaatar; bilateral agreements on economics, science, education, and diplomacy are scheduled for signing.",
+            "Montenegro is a small country with limited foreign policy leverage but is systematically seeking new partnerships beyond its immediate EU and NATO environment.",
+            "Such visits often serve symbolic positioning more than concrete treaty outcomes: diversification of foreign relations sends a politically useful signal for accession candidates.",
+            "For Montenegro's EU accession process, such bilateral contacts have at most marginal significance."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The state visit to Mongolia has no direct bearing on German interests."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Routine diplomacy of a small country with limited international reach."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Gugiju pečat na ponton, slijedi i krivična prijava?",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825672/gugiju-pecat-na-ponton-slijedi-i-krivicna-prijava",
+              "publishedAt": "2026-09-08T06:26:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD Triumphs in Saxony-Anhalt Election – Political Watershed for Germany",
+          "summaryDe": [
+            "The AfD has won the state election in Saxony-Anhalt decisively, which observers assess as a political turning point – regardless of whether the party can form a government.",
+            "For the first time, a party classified by the Federal Office for the Protection of the Constitution as definitively right-wing extremist has become the strongest force in a German state.",
+            "The result sends signals far beyond state boundaries: EU partners who view German political stability as a given must reconsider their assessment.",
+            "For the federal government and the Union, the outcome increases pressure to more concretely address migration policy and economic discontent in eastern Germany."
+          ],
+          "additionalImportant": "EU Council President Costa is visiting Berlin, Warsaw, and Madrid to explore solutions for financing the next EU multiannual financial framework – Germany is a key dialogue partner.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "An AfD election victory in Saxony-Anhalt is an immediate domestic political event with far-reaching consequences for German democracy and government formation."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The rise of a party classified as definitively right-wing extremist to the strongest force in a German state is a systemically significant event for the EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "AfD's electoral triumph is a watershed, regardless of whether it gets to form the Saxony-Anhalt government",
+              "url": "https://euobserver.com/235643/afds-electoral-triumph-is-a-watershed-regardless-of-whether-it-gets-to-form-the-saxony-anhalt-government",
+              "publishedAt": "2026-09-07T08:49:56Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Brussels Woos Greenland with €200 Million Investment Package Against Trump's Annexation Plans",
+          "summaryDe": [
+            "The European Commission, together with Denmark and Greenland, has signed a Joint Declaration and announced a €200 million investment package to bind Nuuk more closely to the EU.",
+            "The backdrop is Trump's repeated hints that he wants to bring the island under U.S. control – the EU is now responding with a concrete economic counteroffer.",
+            "For Greenland, which is economically heavily dependent on Denmark, the package offers new options but raises questions about conditions and actual implementation.",
+            "European Council President Costa is simultaneously conducting budget talks in several capitals – the Greenland package demonstrates that the EU views geopolitical investments as part of its foreign policy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the EU's largest net contributor, Germany substantially finances such geopolitical investment packages and is directly affected by their precedential impact."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A coordinated EU response to territorial ambitions by the U.S. president is an unusual and significant geopolitical gesture."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "THIS WEEK: Von der Leyen woos Greenland with fresh EU funds, as Ceuta crisis comes to Brussels",
+              "url": "https://euobserver.com/235490/this-week-von-der-leyen-woos-greenland-with-fresh-eu-funds-as-ceuta-crisis-comes-to-brussels",
+              "publishedAt": "2026-09-07T04:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Joint Declaration by the European Union, on the one hand, and the Government of Greenland and the Government of Denmark, on the other, on relations between the European Union and Greenland",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1804",
+              "publishedAt": "2026-09-07T09:56:51Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russia Spreads AI-Generated Misinformation About Victory in Ukrainian Battle",
+          "summaryDe": [
+            "Putin has released an AI-generated victory claim about a Ukrainian military operation through official channels, confusing even pro-Kremlin Telegram channels and provoking contradictions.",
+            "The incident is noteworthy because disinformation has historically been employed more subtly – such a crude AI-fabricated claim that immediately attracts scrutiny suggests communication problems within the apparatus.",
+            "For Western media and intelligence services, it signals that Russian information operations are increasingly relying on automated content, even when quality is variable.",
+            "The episode exemplifies how artificial intelligence is reshaping war communications – with risks not only for the opposing side but also for the credibility of the sender."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Russian AI-driven disinformation campaigns also target German public and allies and are security-policy relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The deployment of artificial intelligence for state war propaganda at the highest level represents a qualitatively new development of international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Russians feel puzzled after Putin issues fake, AI-fuelled claim of victory in a Ukrainian battle (Ukraine Battlefield update, Day 1,656)",
+              "url": "https://euobserver.com/235786/russians-feel-puzzled-after-putin-issues-fake-ai-fuelled-claim-of-victory-in-a-ukrainian-battle-ukraine-battlefield-update-day-1656",
+              "publishedAt": "2026-09-07T13:56:29Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
