@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-09",
+  "generatedAt": "2026-09-09T09:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump veröffentlicht Bilder mit US-Flagge über Kanada, Island und Grönland",
+          "summaryDe": [
+            "US President Trump has posted images showing Iceland, Greenland, and Canada under the American flag – a move that promptly triggered diplomatic outrage.",
+            "Iceland explicitly described the situation as 'no joke'; Denmark and Mexico joined in the condemnations.",
+            "The action fits into a series of statements in which Trump hinted at claims on neighboring countries and Arctic territories without following through with concrete steps.",
+            "Whether a deliberate message to allied governments lies behind the posts or whether it is political theater remains unclear for now."
+          ],
+          "additionalImportant": "In parallel, the trade dispute with Canada is escalating: Ottawa has imposed retaliatory tariffs worth 27.6 billion Canadian dollars, with Washington responding with import bans on Canadian dairy products and alcohol.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Trump's territorial rhetoric affects allied NATO states and thus indirectly touches the European security architecture to which Germany belongs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Public annexation hints against sovereign allies represent a diplomatically unusual escalation that makes waves internationally."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Tijafo nakon pet setova eliminisao Mikelsena za plasman u...",
+              "url": "https://www.vijesti.me/sport/tenis/825843/tijafo-nakon-pet-setova-eliminisao-mikelsena-za-plasman-u-polufinale-us-opena",
+              "publishedAt": "2026-09-09T06:57:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Iran-Eskalation treibt Ölpreis gegen 100 Dollar – USA versenken fünf iranische Tanker",
+          "summaryDe": [
+            "In the Strait of Hormuz corridor, US military forces have destroyed five Iranian oil tankers after these previously attacked an American warship.",
+            "Tehran responded with missile strikes on targets in Jordan; the spiral of mutual military blows continues to intensify.",
+            "Energy markets saw crude oil prices shoot towards 100 dollars per barrel as traders priced in sustained disruption of Hormuz shipping.",
+            "Simultaneously, US Secretary of State Rubio concluded an agreement on critical minerals with Colombia in Bogotá, underscoring Washington's strategy for raw material security also in Latin America."
+          ],
+          "additionalImportant": "Anthropic researcher Jacob Coxon has left the company and publicly warned that AI has more than a ten percent chance of 'killing all humans'; another safety researcher confirmed this assessment.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising oil prices resulting from a potential Hormuz blockade directly hit Germany's highly energy-import-dependent industry and consumers."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Military direct confrontation between the USA and Iran with impacts on global energy supply is a systemically significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Green groups file complaint over EU water protection review, citing mining lobbying",
+              "url": "https://euobserver.com/236116/green-groups-file-complaint-over-eu-water-protection-review-citing-mining-lobbying",
+              "publishedAt": "2026-09-08T15:31:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "multi-regional",
+              "titleOriginal": "'Gambling with our lives': AI researcher quits Anthropic with dire warning about safety",
+              "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans",
+              "publishedAt": "2026-09-09T07:44:32Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA und Iran im Hormuz-Konflikt: Militärische Eskalation mit globaler Sprengkraft",
+          "summaryDe": [
+            "What began as an attack on a US warship has quickly escalated into direct military combat between Washington and Tehran.",
+            "Five Iranian oil tankers were destroyed by US forces; Iran responded with missile strikes on Jordanian territory.",
+            "Shipping through the Strait of Hormuz – one of the world's most critical chokepoints for global energy transport – is immediately at risk.",
+            "Qatar had previously assured China of priority in energy deliveries and emphasized keeping Hormuz open; whether this commitment can be maintained under current conditions is questionable."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Sustained disruption of the Hormuz corridor would have major consequences for Germany's energy supply and trade flows of European companies."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Direct military confrontation between the USA and Iran in one of the world's strategically most important straits is an event of extraordinary international significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Green groups file complaint over EU water protection review, citing mining lobbying",
+              "url": "https://euobserver.com/236116/green-groups-file-complaint-over-eu-water-protection-review-citing-mining-lobbying",
+              "publishedAt": "2026-09-08T15:31:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "multi-regional",
+              "titleOriginal": "'Gambling with our lives': AI researcher quits Anthropic with dire warning about safety",
+              "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans",
+              "publishedAt": "2026-09-09T07:44:32Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping wirbt bei neuem britischem Premier Burnham für engere Zusammenarbeit",
+          "summaryDe": [
+            "In a first phone call with new British Prime Minister Andy Burnham, Xi Jinping has advocated for deepening relations, describing both countries as 'major technology powers.'",
+            "Xi emphasized that shared interests outweigh differences in political systems – a formulation that Beijing routinely uses to downplay Western criticism of China's domestic policies.",
+            "Burnham's taking office offers Beijing an opportunity to open new channels of dialogue after a period of British-Chinese tensions.",
+            "How far actual rapprochement proceeds will largely depend on how Britain handles Chinese pressure on Hong Kong and the Taiwan conflict."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Closer British-Chinese economic cooperation could indirectly influence EU regulatory discussions about Chinese investments."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "First contact between two government leaders with diplomatic signaling value, but without concrete agreements yet."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's Xi Jinping urges deeper UK ties in first call with PM Andy Burnham",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366819/chinas-xi-jinping-urges-deeper-uk-ties-first-call-andy-burnham",
+              "publishedAt": "2026-09-08T14:12:21Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Huawei vor Gericht in Brooklyn – Prozess nach fast einem Jahrzehnt juristischer Auseinandersetzung eröffnet",
+          "summaryDe": [
+            "After nearly eight years of investigation and preliminary proceedings, the criminal trial against Chinese technology giant Huawei has begun in Brooklyn.",
+            "Fourteen counts are filed, including bank fraud, wire fraud, theft of trade secrets, and racketeering – alleged offenses dating back to 1999.",
+            "The trial coincides temporally with preparations for a formal AI dialogue between Washington and Beijing, exposing the contradictory US strategy of cooperation and confrontation toward China.",
+            "US Treasury Secretary Bessent had shortly before stated that China could never get ahead in AI because of its 'centrally planned economy' – an assessment that Chinese technology companies are likely to dispute."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Huawei is present in Germany as a supplier for telecommunications infrastructure; the trial outcome could influence regulatory and investment decisions in Europe."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The trial against one of the world's largest technology corporations for racketeering is a legal proceeding of considerable geopolitical signal value."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Huawei goes on trial in US for racketeering after nearly decade of litigation",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366831/huawei-goes-trial-us-racketeering-after-nearly-decade-litigation",
+              "publishedAt": "2026-09-08T18:57:10Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China 'can never get ahead' of US in AI, Bessent says in advance of Xi's visit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366835/us-accuses-chinese-ai-firms-malicious-copying-ai-technology",
+              "publishedAt": "2026-09-08T20:50:57Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan wartet auf neue F-16 – Maschinen seit zwei Wochen ohne Erklärung in Hawaii festgehalten",
+          "summaryDe": [
+            "Taiwan's first two F-16 Block 70 fighter jets were supposed to land at Chihhang Air Base in late August – instead, they have been sitting unexplained in Hawaii for over two weeks.",
+            "Both Washington and Taipei are silent on the reasons for the delay; speculation ranges from technical problems to diplomatic considerations ahead of Xi's planned Washington visit.",
+            "In parallel, Japan is systematically building up its defense infrastructure according to a report, including purchasing the former Nippon Steel site for a new defense center.",
+            "The combination of delayed military deliveries to Taiwan and Japanese rearmament measures reflects growing nervousness in the region."
+          ],
+          "additionalImportant": "Qatar has assured China that it will prioritize its energy supply and keep the Strait of Hormuz open – a promise that could come under pressure given the US-Iran escalation.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A destabilization of the Taiwan Strait would have consequences for global supply chains on which German industry depends."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Unexplained delays in military deliveries to Taiwan in a tense geopolitical situation are a security-policy relevant signal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan waits for its new F-16s, still stuck in Hawaii after a fortnight's delay",
+              "url": "https://www.scmp.com/news/china/politics/article/3366858/taiwan-waits-its-new-f-16s-still-stuck-hawaii-after-fortnights-delay",
+              "publishedAt": "2026-09-09T03:58:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "35 Abgeordnete für Abberufung Mandićs – Parlamentarische Mehrheit nimmt Form an",
+          "summaryDe": [
+            "In the Montenegrin parliament, 35 deputies have united behind a motion to recall Parliamentary President Andrija Mandić.",
+            "The broad support coalition includes the Democratic Party of Socialists (DPS), the Bosniak Party, the civic movement URA, the European Alliance, as well as Albanian parties.",
+            "Whether the required majority ultimately materializes depends on whether additional deputies can be convinced or whether the coalition falls apart under pressure.",
+            "Simultaneously, Metropolitan Methodije faces the prosecutor again – this time over a speech from August in Gornje Zaostro, after a similar proceeding from the previous year was dropped."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Domestic political developments in Montenegro have no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The parliamentary initiative against Mandić is domestically significant for Montenegro's institutional stability and EU approximation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Aktivna žarišta od Podgorice do Pljevalja",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825849/aktivna-zarista-od-podgorice-do-pljevalja",
+              "publishedAt": "2026-09-09T07:46:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Zagovornici smijene Andrije Mandića dogurali do broja 35",
+              "url": "https://www.pobjeda.me/clanak/zagovornici-smijene-andrija-mandica-dogurali-do-broja-35",
+              "publishedAt": "2026-09-09T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD-Stärke nach Sachsen-Anhalt-Wahl sorgt für Koalitionsstreit und Verbotsdebatte in Deutschland",
+          "summaryDe": [
+            "Following the AfD's strong showing in Saxony-Anhalt, the Berlin coalition is under pressure: SPD deputies are rebelling against Chancellor Merz, while Interior Minister Wüst demands a serious examination of a party ban.",
+            "The fact that a party classified by the domestic intelligence service as a secured extremist threat could potentially gain access to classified information is openly concerning security authorities.",
+            "Poland's government observes these developments with unease – a Germany shifting further to the right while simultaneously massively rearming is not a reassuring picture for its eastern neighbor.",
+            "The Trump administration, meanwhile, praised the AfD's election success, underscoring the transatlantic dimension of this domestic German debate."
+          ],
+          "additionalImportant": "In parallel, new polling shows that while a majority of Europeans fear the EU's decline, they simultaneously remain dependent on its protective function – a contradiction that also explains the strength of populist parties.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The AfD's rise directly affects Germany: coalition stability, constitutional security issues, and future government formation are all at stake."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The rightward shift in the EU's largest economy has consequences for the entire European political dynamic and alliance questions."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "After Saxony-Anhalt, will Germany now consider banning the AfD?",
+              "url": "https://euobserver.com/236197/will-germany-consider-banning-the-afd",
+              "publishedAt": "2026-09-08T18:00:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "multi-regional",
+              "titleOriginal": "Far right's rise in rapidly re-arming Germany gives Poland cause for concern",
+              "url": "https://www.politico.eu/article/alternative-for-germany-afd-poland-military",
+              "publishedAt": "2026-09-08T17:32:42Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Disillusioned but dependent: new poll shows Europeans doubt EU's future yet still seek its protection",
+              "url": "https://euobserver.com/236006/most-europeans-fear-eu-is-in-decline-but-still-rely-on-it-for-protection-new-study-finds",
+              "publishedAt": "2026-09-09T04:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europäische Hochschulen in Horizon-Projekten mit israelischen Rüstungspartnern – 15 Millionen Euro EU-Gelder betroffen",
+          "summaryDe": [
+            "Despite public statements of intent, 34 European universities have continued research cooperations with Israeli institutions that have connections to defense or dual-use technology.",
+            "In total, around 15 million euros from the Horizon Europe program flow into such projects – money from the EU budget, which Germany as the largest net contributor helps finance.",
+            "The research also shows that Israeli actors have deliberately worked to undermine university boycotts.",
+            "For the EU Commission, this creates a need to explain how research funding can be reconciled with foreign policy positions on Gaza policy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is the largest contributor to the Horizon program and hosts several of the affected universities; moreover, German foreign policy debates on Israel are directly affected."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The discrepancy between proclaimed EU foreign policy positions and actual funding flows is an institutionally significant credibility question."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Revealed: Inside the Israeli campaign to derail European university boycotts",
+              "url": "https://euobserver.com/235837/revealed-inside-the-israeli-campaign-to-derail-european-university-boycotts",
+              "publishedAt": "2026-09-09T05:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US-Iran-Eskalation zwingt EU zu Positionierung – Hormuz-Krise und Ukraine-Rüstungsbeschluss prägen den Tag",
+          "summaryDe": [
+            "The EU Commission has adopted a special regulation enabling Ukraine to procure components needed for Patriot air defense systems – a step that Commission President von der Leyen and NATO Secretary General Rutte explicitly welcomed.",
+            "At the same time, Europe faces the question of how to respond to US-Iran military escalation in the Persian Gulf, which is driving up energy prices and threatening maritime security.",
+            "Von der Leyen reinforced Europe's strategic engagement in the Arctic during a visit to Nuuk – a signal also directed at Washington, which is claiming Greenland.",
+            "France and Britain, meanwhile, are leading a coalition of nine EU states that want to introduce trade sanctions on goods from illegal Israeli settlements in the West Bank; in response, Israel has closed the British consulate in Jerusalem."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The Patriot decision and the Hormuz crisis directly affect Germany as a major Ukraine supporter and energy-import-dependent economy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The convergence of the Ukraine weapons decision, US-Iran military escalation, and the EU-Israel sanctions initiative on a single day is extraordinarily concentrated."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 08 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1813",
+              "publishedAt": "2026-09-08T09:36:54Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Ceuta's leader calls on Brussels to increase funding for the EU's only border with Africa",
+              "url": "https://euobserver.com/236118/ceutas-leader-calls-on-brussels-to-increase-funding-for-the-eus-only-border-with-africa",
+              "publishedAt": "2026-09-08T15:22:45Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "President von der Leyen reaffirms Europe's choice to be present and engaged in the Arctic and in Greenland during visit to Nuuk",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1824",
+              "publishedAt": "2026-09-09T07:51:57Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

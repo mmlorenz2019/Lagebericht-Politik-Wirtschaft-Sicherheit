@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-09",
+  "generatedAt": "2026-09-09T09:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump veröffentlicht Bilder mit US-Flagge über Kanada, Island und Grönland",
+          "summaryDe": [
+            "US-Präsident Trump hat Bilder gepostet, die Island, Grönland und Kanada unter amerikanischer Flagge zeigen – ein Schritt, der umgehend diplomatische Empörung auslöste.",
+            "Island bezeichnete die Situation ausdrücklich als 'keinen Scherz'; Dänemark und Mexiko schlossen sich den Verurteilungen an.",
+            "Die Aktion reiht sich in eine Serie von Äußerungen ein, mit denen Trump Ansprüche auf Nachbarländer und arktische Gebiete andeutete, ohne konkrete Schritte zu folgen.",
+            "Ob hinter den Posts eine gezielte Botschaft an verbündete Regierungen steckt oder es sich um politisches Spektakel handelt, bleibt vorerst unklar."
+          ],
+          "additionalImportant": "Parallel eskaliert der Handelsstreit mit Kanada: Ottawa hat Gegenzölle im Wert von 27,6 Milliarden CA$ verhängt, Washington reagierte mit Einfuhrverboten für kanadische Milchprodukte und Alkohol.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Trumps territoriale Rhetorik betrifft verbündete NATO-Staaten und berührt damit indirekt die europäische Sicherheitsarchitektur, der Deutschland angehört."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Öffentliche Annexionsandeutungen gegen souveräne Verbündete stellen eine diplomatisch ungewöhnliche Eskalation dar, die international Wellen schlägt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Tijafo nakon pet setova eliminisao Mikelsena za plasman u...",
+              "url": "https://www.vijesti.me/sport/tenis/825843/tijafo-nakon-pet-setova-eliminisao-mikelsena-za-plasman-u-polufinale-us-opena",
+              "publishedAt": "2026-09-09T06:57:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Iran-Eskalation treibt Ölpreis gegen 100 Dollar – USA versenken fünf iranische Tanker",
+          "summaryDe": [
+            "Im Strait-of-Hormuz-Korridor haben US-Streitkräfte fünf iranische Öltanker zerstört, nachdem diese zuvor einen amerikanischen Kriegsschiff angegriffen hatten.",
+            "Teheran antwortete mit Raketenangriffen auf Ziele in Jordanien; die Spirale der gegenseitigen Militärschläge dreht sich damit weiter.",
+            "An den Energiemärkten schossen die Rohölpreise in Richtung 100 Dollar je Barrel, da Händler eine anhaltende Unterbrechung der Hormuz-Schifffahrt einpreisten.",
+            "Gleichzeitig schloss US-Außenminister Rubio in Bogotá ein Abkommen über kritische Mineralien mit Kolumbien, das Washingtons Strategie zur Rohstoffsicherung auch in Lateinamerika unterstreicht."
+          ],
+          "additionalImportant": "Anthropic-Forscher Jacob Coxon ist aus dem Unternehmen ausgeschieden und warnte öffentlich, KI habe eine mehr als zehnprozentige Chance, 'alle Menschen zu töten'; ein weiterer Sicherheitsforscher bestätigte die Einschätzung.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende Ölpreise infolge einer Hormuz-Blockade treffen die stark energieimportabhängige deutsche Industrie und Verbraucher direkt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Militärische Direktkonfrontation zwischen USA und Iran mit Auswirkungen auf globale Energieversorgung ist ein systemisch bedeutsames Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Green groups file complaint over EU water protection review, citing mining lobbying",
+              "url": "https://euobserver.com/236116/green-groups-file-complaint-over-eu-water-protection-review-citing-mining-lobbying",
+              "publishedAt": "2026-09-08T15:31:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "'Gambling with our lives': AI researcher quits Anthropic with dire warning about safety",
+              "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans",
+              "publishedAt": "2026-09-09T07:44:32Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA und Iran im Hormuz-Konflikt: Militärische Eskalation mit globaler Sprengkraft",
+          "summaryDe": [
+            "Was als Angriff auf einen US-Kriegsschiff begann, hat sich binnen kurzer Zeit zu einem direkten militärischen Schlagabtausch zwischen Washington und Teheran ausgeweitet.",
+            "Fünf iranische Öltanker wurden von US-Streitkräften versenkt; Iran reagierte mit Raketenangriffen auf jordanisches Territorium.",
+            "Die Schifffahrt durch die Straße von Hormuz – eine der wichtigsten Engstellen für den weltweiten Energietransport – ist unmittelbar gefährdet.",
+            "Katar hatte zwar kurz zuvor China Priorität bei seiner Energielieferung zugesichert und Freihaltung des Hormuz betont; ob diese Zusage unter den aktuellen Bedingungen haltbar ist, steht in Frage."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine nachhaltige Störung des Hormuz-Korridors hätte erhebliche Folgen für Deutschlands Energieversorgung und die Handelsströme europäischer Unternehmen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Direkte militärische Konfrontation zwischen den USA und Iran in einer der strategisch bedeutsamsten Meerengen der Welt ist ein Ereignis von außergewöhnlicher internationaler Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Green groups file complaint over EU water protection review, citing mining lobbying",
+              "url": "https://euobserver.com/236116/green-groups-file-complaint-over-eu-water-protection-review-citing-mining-lobbying",
+              "publishedAt": "2026-09-08T15:31:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "'Gambling with our lives': AI researcher quits Anthropic with dire warning about safety",
+              "url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans",
+              "publishedAt": "2026-09-09T07:44:32Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping wirbt bei neuem britischem Premier Burnham für engere Zusammenarbeit",
+          "summaryDe": [
+            "In einem ersten Telefonat mit dem neuen britischen Premier Andy Burnham hat Xi Jinping für eine Vertiefung der Beziehungen geworben und beide Länder als 'große Technologiemächte' bezeichnet.",
+            "Xi betonte, gemeinsame Interessen seien gewichtiger als die Unterschiede in den Gesellschaftssystemen – eine Formulierung, die Peking standardmäßig einsetzt, um westliche Kritik an Chinas innenpolitischem Kurs zu relativieren.",
+            "Burnhams Amtsantritt bietet Peking die Gelegenheit, nach einer Phase britisch-chinesischer Spannungen neue Gesprächskanäle zu öffnen.",
+            "Wie weit eine tatsächliche Annäherung geht, wird stark davon abhängen, wie Großbritannien mit dem chinesischen Druck auf Hongkong und den Taiwan-Konflikt umgeht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine engere britisch-chinesische Wirtschaftskooperation könnte EU-Regulierungsdiskussionen zu China-Investitionen indirekt beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Erstkontakt zwischen zwei Regierungschefs mit diplomatischer Signalwirkung, aber noch ohne konkrete Vereinbarungen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's Xi Jinping urges deeper UK ties in first call with PM Andy Burnham",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366819/chinas-xi-jinping-urges-deeper-uk-ties-first-call-andy-burnham",
+              "publishedAt": "2026-09-08T14:12:21Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Huawei vor Gericht in Brooklyn – Prozess nach fast einem Jahrzehnt juristischer Auseinandersetzung eröffnet",
+          "summaryDe": [
+            "Nach knapp acht Jahren Ermittlungen und Vorverfahren hat in Brooklyn der Strafprozess gegen den chinesischen Technologieriesen Huawei begonnen.",
+            "14 Anklagepunkte stehen im Raum, darunter Bankbetrug, Überweisungsbetrug, Diebstahl von Geschäftsgeheimnissen und Erpressung – Vergehen, die bis ins Jahr 1999 zurückreichen sollen.",
+            "Der Prozess fällt zeitlich mit den Vorbereitungen eines formellen KI-Dialogs zwischen Washington und Peking zusammen, was die widersprüchliche US-Strategie aus Kooperation und Konfrontation gegenüber China sichtbar macht.",
+            "US-Finanzminister Bessent hatte kurz zuvor erklärt, China könne beim Thema KI aufgrund seiner 'zentralen Planwirtschaft' nie die Nase vorn haben – eine Einschätzung, die chinesische Technologieunternehmen bestreiten dürften."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Huawei ist in Deutschland als Zulieferer für Telekommunikationsinfrastruktur präsent; der Prozessausgang kann Regulierungs- und Investitionsentscheidungen in Europa beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Prozess gegen einen der weltgrößten Technologiekonzerne wegen Racketeering ist ein juristischer Vorgang von erheblicher geopolitischer Signalwirkung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Huawei goes on trial in US for racketeering after nearly decade of litigation",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366831/huawei-goes-trial-us-racketeering-after-nearly-decade-litigation",
+              "publishedAt": "2026-09-08T18:57:10Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China 'can never get ahead' of US in AI, Bessent says in advance of Xi's visit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366835/us-accuses-chinese-ai-firms-malicious-copying-ai-technology",
+              "publishedAt": "2026-09-08T20:50:57Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Taiwan wartet auf neue F-16 – Maschinen seit zwei Wochen ohne Erklärung in Hawaii festgehalten",
+          "summaryDe": [
+            "Taiwans erste beiden F-16-Block-70-Kampfflugzeuge hätten Ende August auf der Chihhang Air Base landen sollen – stattdessen stehen sie seit über zwei Wochen ungeklärt in Hawaii.",
+            "Über die Gründe der Verzögerung schweigen sowohl Washington als auch Taipeh; Spekulationen reichen von technischen Problemen bis zu diplomatischen Erwägungen im Vorfeld von Xis geplantem Washington-Besuch.",
+            "Parallel dazu baut Japan nach einem Bericht seine Verteidigungsinfrastruktur systematisch aus und kauft etwa das frühere Nippon-Steel-Gelände für ein neues Verteidigungszentrum.",
+            "Die Kombination aus verzögerten Rüstungslieferungen an Taiwan und japanischen Aufrüstungsmaßnahmen spiegelt die wachsende Nervosität in der Region wider."
+          ],
+          "additionalImportant": "Katar hat gegenüber China zugesagt, dessen Energieversorgung zu priorisieren und die Straße von Hormuz freizuhalten – ein Versprechen, das angesichts der US-Iran-Eskalation unter Druck geraten könnte.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Destabilisierung der Taiwan-Straße hätte Folgen für globale Lieferketten, von denen auch die deutsche Industrie abhängt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ungeklärte Verzögerungen bei Rüstungslieferungen an Taiwan in angespannter geopolitischer Lage sind ein sicherheitspolitisch relevantes Signal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan waits for its new F-16s, still stuck in Hawaii after a fortnight's delay",
+              "url": "https://www.scmp.com/news/china/politics/article/3366858/taiwan-waits-its-new-f-16s-still-stuck-hawaii-after-fortnights-delay",
+              "publishedAt": "2026-09-09T03:58:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "35 Abgeordnete für Abberufung Mandićs – Parlamentarische Mehrheit nimmt Form an",
+          "summaryDe": [
+            "Im montenegrinischen Parlament haben sich 35 Abgeordnete hinter dem Antrag versammelt, Parlamentspräsident Andrija Mandić abzuberufen.",
+            "Das breite Unterstützungsbündnis umfasst die Demokratische Partei der Sozialisten (DPS), die Bosnjakische Partei, die Bürgerbewegung URA, die Europäische Allianz sowie albanische Parteien.",
+            "Ob die erforderliche Mehrheit letztlich zustande kommt, hängt davon ab, ob weitere Abgeordnete überzeugt werden können oder ob die Koalition unter Druck auseinanderbricht.",
+            "Gleichzeitig steht Metropolit Methodije erneut vor der Staatsanwaltschaft – diesmal wegen einer Rede vom August in Gornje Zaostro, nachdem ein ähnliches Verfahren aus dem Vorjahr eingestellt worden war."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Innenpolitische Vorgänge in Montenegro haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die parlamentarische Initiative gegen Mandić ist innenpolitisch bedeutsam für Montenegros institutionelle Stabilität und EU-Annäherung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Aktivna žarišta od Podgorice do Pljevalja",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825849/aktivna-zarista-od-podgorice-do-pljevalja",
+              "publishedAt": "2026-09-09T07:46:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Zagovornici smijene Andrije Mandića dogurali do broja 35",
+              "url": "https://www.pobjeda.me/clanak/zagovornici-smijene-andrija-mandica-dogurali-do-broja-35",
+              "publishedAt": "2026-09-09T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD-Stärke nach Sachsen-Anhalt-Wahl sorgt für Koalitionsstreit und Verbotsdebatte in Deutschland",
+          "summaryDe": [
+            "Nach dem starken Abschneiden der AfD in Sachsen-Anhalt gerät die Berliner Koalition unter Druck: SPD-Abgeordnete rebellieren gegen Kanzler Merz, während Innenminister Wüst eine ernsthafte Prüfung eines Parteiverbots fordert.",
+            "Dass eine Partei, die vom Verfassungsschutz als gesichert rechtsextrem eingestuft wird, potenziell Zugang zu Geheimdienstinformationen bekäme, bereitet Sicherheitsbehörden offen Sorgen.",
+            "Polens Regierung beobachtet die Entwicklungen mit Unbehagen – ein sich weiter nach rechts verschiebendes, gleichzeitig massiv aufrüstendes Deutschland ist für den östlichen Nachbarn kein beruhigendes Bild.",
+            "Die Trump-Administration lobte unterdessen den AfD-Wahlerfolg, was die transatlantische Dimension dieser innerdeutschen Debatte unterstreicht."
+          ],
+          "additionalImportant": "Parallel dazu zeigt eine neue Erhebung, dass die Mehrheit der Europäer zwar den Niedergang der EU befürchtet, aber gleichzeitig auf deren Schutzfunktion angewiesen bleibt – ein Widerspruch, der auch die Stärke populistischer Parteien erklärt.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Der Aufstieg der AfD betrifft Deutschland unmittelbar: Koalitionsstabilität, Verfassungsschutzfragen und die künftige Regierungsbildung sind direkt berührt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Rechtsruck in der größten EU-Volkswirtschaft hat Folgen für die gesamte europäische politische Dynamik und Bündnisfragen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "After Saxony-Anhalt, will Germany now consider banning the AfD?",
+              "url": "https://euobserver.com/236197/will-germany-consider-banning-the-afd",
+              "publishedAt": "2026-09-08T18:00:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Far right's rise in rapidly re-arming Germany gives Poland cause for concern",
+              "url": "https://www.politico.eu/article/alternative-for-germany-afd-poland-military",
+              "publishedAt": "2026-09-08T17:32:42Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Disillusioned but dependent: new poll shows Europeans doubt EU's future yet still seek its protection",
+              "url": "https://euobserver.com/236006/most-europeans-fear-eu-is-in-decline-but-still-rely-on-it-for-protection-new-study-finds",
+              "publishedAt": "2026-09-09T04:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Europäische Hochschulen in Horizon-Projekten mit israelischen Rüstungspartnern – 15 Millionen Euro EU-Gelder betroffen",
+          "summaryDe": [
+            "Trotz öffentlicher Absichtserklärungen haben 34 europäische Universitäten Forschungskooperationen mit israelischen Einrichtungen fortgeführt, die Verbindungen zur Rüstungs- oder Dual-Use-Technologie aufweisen.",
+            "Insgesamt fließen dabei rund 15 Millionen Euro aus dem Horizon-Europe-Programm in entsprechende Projekte – Geld aus dem EU-Haushalt, über den auch Deutschland als größter Nettozahler mitfinanziert.",
+            "Die Recherche zeigt zudem, dass israelische Stellen gezielt Einfluss genommen haben, um Hochschul-Boykotte zu unterlaufen.",
+            "Für die EU-Kommission entsteht damit Erklärungsbedarf, wie Fördermittel mit außenpolitischen Positionen zur Gaza-Politik in Einklang gebracht werden sollen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist größter Beitragszahler zum Horizon-Programm und beherbergt mehrere der betroffenen Hochschulen; zudem sind deutsche Außenpolitikdiskussionen zu Israel direkt berührt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Diskrepanz zwischen proklamierten EU-Außenpolitikpositionen und tatsächlichen Förderströmen ist eine institutionell bedeutsame Glaubwürdigkeitsfrage."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Revealed: Inside the Israeli campaign to derail European university boycotts",
+              "url": "https://euobserver.com/235837/revealed-inside-the-israeli-campaign-to-derail-european-university-boycotts",
+              "publishedAt": "2026-09-09T05:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US-Iran-Eskalation zwingt EU zu Positionierung – Hormuz-Krise und Ukraine-Rüstungsbeschluss prägen den Tag",
+          "summaryDe": [
+            "Die EU-Kommission hat eine Sonderregelung verabschiedet, die es der Ukraine ermöglicht, für Patriot-Luftabwehrsysteme benötigte Komponenten zu beschaffen – ein Schritt, den Kommissionspräsidentin von der Leyen und NATO-Generalsekretär Rutte ausdrücklich begrüßten.",
+            "Gleichzeitig steht Europa vor der Frage, wie es auf die US-Iran-Militäreskalation im Persischen Golf reagiert, die Energiepreise treibt und die maritime Sicherheit bedroht.",
+            "Von der Leyen bekräftigte zudem beim Besuch in Nuuk Europas strategisches Engagement in der Arktis – ein Signal, das auch an Washington gerichtet ist, das Grönland beansprucht.",
+            "Frankreich und Großbritannien führen indes eine Koalition von neun EU-Staaten an, die Handelssanktionen gegen Waren aus illegalen israelischen Siedlungen im Westjordanland einführen wollen; Israel hat als Reaktion das britische Konsulat in Jerusalem geschlossen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Patriot-Entscheidung und die Hormuz-Krise berühren Deutschland als wichtigen Ukraine-Unterstützer und energieimportabhängige Volkswirtschaft unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das Zusammentreffen von Ukraine-Rüstungsbeschluss, US-Iran-Militäreskalation und EU-Israel-Sanktionsinitiative an einem Tag ist außergewöhnlich verdichtet."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 08 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1813",
+              "publishedAt": "2026-09-08T09:36:54Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Ceuta's leader calls on Brussels to increase funding for the EU's only border with Africa",
+              "url": "https://euobserver.com/236118/ceutas-leader-calls-on-brussels-to-increase-funding-for-the-eus-only-border-with-africa",
+              "publishedAt": "2026-09-08T15:22:45Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "President von der Leyen reaffirms Europe's choice to be present and engaged in the Arctic and in Greenland during visit to Nuuk",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1824",
+              "publishedAt": "2026-09-09T07:51:57Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
