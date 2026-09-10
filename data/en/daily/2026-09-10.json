@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-10",
+  "generatedAt": "2026-09-10T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump verspricht 5.000-Dollar-Dividende und inszeniert republikanische Halbzeitkonferenz als Wahlkampfschau",
+          "summaryDe": [
+            "At a two-day Republican midterm conference in Dallas – a format without historical precedent – Trump promised every adult U.S. citizen a one-time payment of $5,000 if Republicans hold Congress in the midterms.",
+            "The promise, which he himself termed the 'Trump dividend,' encountered skepticism even in conservative circles because no counter-financing mechanism was specified.",
+            "At the same time, he declared his presidency as the 'most successful in history' and labeled Democrats the 'communist caucus' – terminology that sets the tone for the campaign.",
+            "Notably, Democratic Senator John Fetterman appeared via video, emphasizing his willingness to collaborate with Trump on the steel industry and deliberately crossing party lines."
+          ],
+          "additionalImportant": "In parallel, four Republican Senate candidates from contested states are downplaying tariffs and the Iran war, speaking instead exclusively about tax policy – a sign of internal tensions within the party.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Trump's domestic campaign strategy indirectly influences transatlantic cooperation and trade policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A presidential promise of this magnitude shortly before midterms carries substantial weight for U.S. domestic politics and budget debate."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "regional perspective",
+              "titleOriginal": "Trump touts 'most successful' presidency, promises US$5,000 to citizens in speech",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366988/trump-touts-most-successful-presidency-promises-us5000-citizens-speech",
+              "publishedAt": "2026-09-10T03:10:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "supra-regional",
+              "titleOriginal": "'A communist caucus': Trump gives Republicans their midterms enemy",
+              "url": "https://www.politico.com/news/2026/09/09/a-communist-caucus-trump-gives-republicans-their-midterms-enemy-01070254",
+              "publishedAt": "2026-09-10T03:46:27Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "supra-regional",
+              "titleOriginal": "Trump pledges a $5,000 'dividend' to all US adults if the GOP wins the midterms",
+              "url": "https://www.politico.com/news/2026/09/09/trump-pledges-a-5-000-dividend-to-all-us-adults-if-the-gop-wins-the-midterms-01070322",
+              "publishedAt": "2026-09-10T03:48:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Apple stellt faltbares iPhone Duo vor – Angriff auf Samsungs Kernmarkt",
+          "summaryDe": [
+            "Apple CEO John Ternus presented the iPhone Duo at a price of $1,999 – the most radical design update in nearly two decades.",
+            "The device directly competes against Samsung's established foldable lineup; the South Korean manufacturer has already announced plans to poach iPhone users, while Apple now enters their segment.",
+            "Meanwhile, TSMC, the world's largest semiconductor contract manufacturer, reported an August revenue increase of over 53 percent to an all-time high – indicating that demand for advanced chip manufacturing continues to grow unabated.",
+            "Together, both developments show how tightly hardware innovation and chip production are now intertwined."
+          ],
+          "additionalImportant": "An Anthropic researcher resigned and publicly warned that AI companies are gambling with human existence by ignoring known catastrophic risks – a statement that has generated significant industry-wide attention.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German suppliers and technology companies are indirectly affected by shifts in the global smartphone and chip market."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A foldable iPhone marks a genuine product category expansion for the world's largest smartphone maker and is likely to reorder the market."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Tramp kritikovao Dončićev odlazak iz Dalasa: To je jedan od...",
+              "url": "https://www.vijesti.me/sport/kosarka/826014/tramp-kritikovao-doncicev-odlazak-iz-dalasa-to-je-jedan-od-najgorih-trejdova-u-istoriji-sporta",
+              "publishedAt": "2026-09-10T07:25:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Susret na vrhu",
+              "url": "https://www.vijesti.me/kolumne/825916/susret-na-vrhu",
+              "publishedAt": "2026-09-10T08:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA und Iran im militärischen Schlagabtausch um die Straße von Hormus",
+          "summaryDe": [
+            "In the escalating conflict over the Strait of Hormuz, the U.S. and Iran are trading military strikes; Trump additionally warned Tehran against being 'clever' at the suspicious nuclear site 'Pickaxe Mountain'.",
+            "The strategic importance of the waterway – through which a significant portion of global oil is transported – makes any further escalation a potential shock to the global economy.",
+            "Trump publicly stated that oil and gas prices would only fall 'shortly after' the midterms, linking this to Iran war consequences – an unusually explicit connection of geopolitics and campaign calculations.",
+            "China, meanwhile, has reduced its crude oil purchases since the war began, which analysts believe has so far prevented an even deeper energy crisis."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A prolonged conflict over the Strait of Hormuz directly impacts Germany's energy-intensive economy through oil and gas prices."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Active military conflict between the U.S. and Iran over one of the world's most critical sea lanes is of systemic global significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "'Deset odsto šansi da vještačka inteligencija u narednih deset...",
+              "url": "https://www.vijesti.me/bbc/826022/deset-odsto-sansi-da-vjestacka-inteligencija-u-narednih-deset-godina-pobije-sve-ljude-istrazivac",
+              "publishedAt": "2026-09-10T08:14:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "KPCh gründet hochrangige Lenkungsgruppe für soziale Stabilität – ein Jahr vor dem Parteitag",
+          "summaryDe": [
+            "Quietly, without public fanfare, China's Communist Party has appointed a new high-level leadership group for social governance – exactly one year before the 21st National Congress.",
+            "The timing is no coincidence: Beijing routinely intensifies control mechanisms in the lead-up to party congresses to dampen internal tensions.",
+            "The fact that this step was taken without announcement suggests that the leadership prefers to manage internal pressure rather than publicly acknowledge it.",
+            "The very existence of the group itself signals an important message: the Party apparently sees concrete need for action in social control."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "China's internal power organization has no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Institutional signals before a CCP party congress are relevant indicators of power consolidation and future priority-setting."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "regional perspective",
+              "titleOriginal": "China's Communist Party quietly signals social stability push with new high-level body",
+              "url": "https://www.scmp.com/news/china/politics/article/3366894/chinas-communist-party-quietly-signals-social-stability-push-new-high-level-body",
+              "publishedAt": "2026-09-10T02:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China entdeckt Quarzlagerstätte in Halbleiterqualität – potenzielle Konkurrenz für US-Monopol in Spruce Pine",
+          "summaryDe": [
+            "Chinese scientists have identified a high-purity quartz deposit in central China whose purity, according to a new study, is very similar to the American Spruce Pine deposit in North Carolina.",
+            "Spruce Pine has hitherto been regarded as the world's most important source of high-purity quartz, which is indispensable for the manufacture of solar panels and semiconductors.",
+            "If China industrially develops the new deposit, it would open a significant gap in Western supply chain strategy – especially since quartz has scarcely been perceived as a strategic raw material to date.",
+            "For Europe and Germany, both dependent on stable supply chains for semiconductors and solar modules, a Chinese quartz supply would have both price-reducing and geopolitically competitive effects."
+          ],
+          "additionalImportant": "Brazil has meanwhile abolished the import tariff on small foreign packages and is moving counter to the U.S. and European course, which seeks to more tightly restrict Chinese platforms like Shein and Temu.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German semiconductor and solar industries are directly dependent on high-purity quartz; a new Chinese source alters dependency relationships."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A new high-purity quartz deposit in China could fundamentally shift global supply chains for chips and renewable energy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "regional perspective",
+              "titleOriginal": "Purity of China quartz deposit 'highly similar' to US Spruce Pine standard: study",
+              "url": "https://www.scmp.com/news/china/science/article/3366916/quartz-deposit-purity-central-china-highly-similar-us-spruce-pine-standard-study",
+              "publishedAt": "2026-09-09T09:12:19Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China rüstet Taiwan-Straße auf und treibt Drohnenschwarm-Technologie voran",
+          "summaryDe": [
+            "The People's Liberation Army has stationed PLZ-05 155mm self-propelled howitzers at brigade level facing the Taiwan Strait – a transition from older 122mm systems that significantly increases range and firepower.",
+            "At the same time, Chinese researchers published details on autonomous capabilities of the next-generation J-50 stealth fighter, which can operate without satellite signals and lead self-organizing drone formations.",
+            "Additionally, integrated drone swarms are being developed that combine unmanned land, sea, and air platforms for distributed combat operations.",
+            "The convergence of these three developments paints a picture of coordinated modernization aimed not only at Taiwan, but at the entire Western Pacific force balance."
+          ],
+          "additionalImportant": "The U.S. is responding with a DARPA program to develop air-breathing hypersonic cruise missiles after China has already fielded operational versions.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Destabilization in the Western Pacific would have indirect consequences for German foreign trade and NATO commitments."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Simultaneous military modernization across multiple high-tech sectors signals accelerated technological advancement with regional and global reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "regional perspective",
+              "titleOriginal": "Beijing boosts Taiwan-facing firepower with brigade-level 155mm howitzer deployment",
+              "url": "https://www.scmp.com/news/china/military/article/3366928/beijing-boosts-taiwan-facing-firepower-brigade-level-155mm-howitzer-deployment",
+              "publishedAt": "2026-09-09T13:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "regional perspective",
+              "titleOriginal": "J-50 designers reveal leapfrog tech for China's next-gen stealth fighters",
+              "url": "https://www.scmp.com/news/china/science/article/3367010/j-50-designers-reveal-leapfrog-tech-chinas-next-gen-stealth-fighters",
+              "publishedAt": "2026-09-10T06:58:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "regional perspective",
+              "titleOriginal": "Merging air, land and sea swarms – the next frontier in China's drone technology",
+              "url": "https://www.scmp.com/news/china/military/article/3366915/merging-air-land-and-sea-swarms-next-frontier-chinas-drone-technology",
+              "publishedAt": "2026-09-09T10:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Hungerstreik im Gefängnis und parlamentarische Unsicherheit prägen den politischen Alltag",
+          "summaryDe": [
+            "Detainees in Montenegrin prisons continue their hunger strike, claiming they were sentenced on the day of their arrest – a serious allegation against the judiciary that they refuse to end unless their demands are met.",
+            "Independently, political observers are questioning how many parliamentarians will actually show up for the parliamentary session on September 24; analyst Vukadinović publicly doubts whether a functional majority will assemble.",
+            "There is also the arrest of Džekulić, who is held for 72 hours on suspicion of attempted murder of Kažanegra.",
+            "All three developments together – prison protests, parliamentary instability, and serious violent crime – demonstrate the pressure Montenegro's institutions currently face."
+          ],
+          "additionalImportant": "Railway workers are demanding a €200 wage increase and threatening further action if the Transport Ministry does not yield.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegrin domestic politics has no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Domestic fragmentation and justice problems in an EU accession candidate are relevant to the enlargement process but limited in scope."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "\"Osuđeni smo onog dana kada smo uhapšeni\": Pritvorenici tvrde da neće prekidati štrajk glađu do ispunjenja zahtjeva",
+              "url": "https://www.pobjeda.me/clanak/osudeni-smo-onog-dana-kada-smo-uhapseni-pritvorenici-tvrde-da-nece-prekidati-strajk-gladu-do-ispunjenja-zahtjeva",
+              "publishedAt": "2026-09-09T17:49:53Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Džekuliću određeno zadržavanje od 72 sata, sumnjiči se za pokušaj ubistva Kažanegre",
+              "url": "https://www.pobjeda.me/clanak/dzekulicu-odredeno-zadrzavanje-od-72-sata-sumnjici-se-za-pokusaj-ubistva-kazanegre",
+              "publishedAt": "2026-09-09T16:52:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Vukadinović za Pobjedu: Pitanje je koliko će poslanika uopšte doći na sjednicu 24. septembra",
+              "url": "https://www.pobjeda.me/clanak/vukadinovic-pitanje-je-koliko-ce-poslanika-uopste-doci-na-sjednicu-24-septembra",
+              "publishedAt": "2026-09-10T07:20:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Deutschland debattiert AfD-Verbot, Serbien zeigt Grenzen der EU-Erweiterung",
+          "summaryDe": [
+            "In Germany, leading politicians, including the North Rhine-Westphalian Minister President, have publicly raised the question of whether to initiate ban proceedings against the AfD – triggered by recent developments in Saxony-Anhalt.",
+            "At the same time, Serbia makes clear how far removed a country can be from EU membership even if it is formally on the accession track: public mourning for convicted war criminal Ratko Mladić and backing from President Vučić have raised serious questions in Brussels.",
+            "Both developments – the debate over handling right-wing extremism in a core member state and the failure of European values in an accession candidate – touch on the same fundamental question: How robust are the democratic foundations of the European community of values?",
+            "The EU Commission has meanwhile granted Spain €114.7 million in emergency aid following massive irregular border crossings in Ceuta in late July, which remains politically useful for Vox."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The AfD ban debate directly affects Germany as the affected member state."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Party ban debates in one of the EU's largest democracies and the Mladić effect in enlargement policy are both significant European political developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "After Saxony-Anhalt, will Germany now consider banning the AfD?",
+              "url": "https://euobserver.com/236197/will-germany-consider-banning-the-afd",
+              "publishedAt": "2026-09-08T18:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "A Serbia that mourns Mladić and rallies behind Vučić cannot join the European Union",
+              "url": "https://euobserver.com/236158/a-serbia-that-mourns-mladic-and-rallies-behind-vucic-cannot-join-the-european-union",
+              "publishedAt": "2026-09-08T16:34:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission grants Spain €114.7 million and provides enhanced operational assistance to manage the situation in Ceuta",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1799",
+              "publishedAt": "2026-09-08T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Kommission präsentiert Innovationsgesetz und reformiert öffentliches Beschaffungswesen",
+          "summaryDe": [
+            "The European Commission has presented the European Innovation Act, designed to help European companies not only develop ideas but also scale and finance them globally – a direct response to the persistent innovation gap versus the U.S. and China.",
+            "Simultaneously, the Commission proposed a reform of public procurement law that aims to shift away from pure price comparison toward strategic criteria such as security, sustainability, and supply resilience.",
+            "For Germany as an export-oriented economy with substantial public procurement activity, both measures are relevant: the procurement law directly affects federal agencies and municipalities, while the Innovation Act aims to improve access to European growth capital markets.",
+            "Six European airlines meanwhile received €10.9 billion in free CO₂ allowances under the EU Emissions Trading System, triggering a new debate over ETS climate policy reform."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Innovation Act and procurement law reform directly affect German companies and public contracting entities."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Both legislative initiatives target the EU's structural competitiveness and carry substantial mid-term economic impact."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Factsheet on the European Innovation Act",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1815",
+              "publishedAt": "2026-09-08T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission proposes new European Innovation Act to help innovative European ideas grow and compete globally",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1810",
+              "publishedAt": "2026-09-08T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "€10.9bn in free EU carbon permits for airlines fuels row over emissions trading reform",
+              "url": "https://euobserver.com/236405/e10-9bn-in-free-eu-carbon-permits-for-airlines-fuels-row-over-emissions-trading-reform",
+              "publishedAt": "2026-09-09T14:51:37Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Großbritannien und Frankreich führen Handelssanktionen gegen illegale israelische Siedlungen ein – Druck auf EU wächst",
+          "summaryDe": [
+            "Seven EU states coordinated with Britain and France to impose trade sanctions on goods from illegal Israeli settlements for the first time – an escalation beyond previous symbolic measures, which Tel Aviv and Washington angrily rejected.",
+            "The U.S. reacted with outward restraint, with Ambassador Huckabee apparently not in full alignment with overarching Washington Middle East policy – a hint of internal tensions in American Middle East strategy.",
+            "Meanwhile, Roman Abramovich lost his third lawsuit against EU sanctions, as Brussels plans stricter criteria for its sanctions list.",
+            "On the Ukraine war, Russia claims to have encircled Ukrainian troops near Kharkiv – independent sources dispute this claim, and the bloodshed continues."
+          ],
+          "additionalImportant": "Zelenskyy is betting on deep strikes into Russian rear areas to pressure Putin, while Ukraine prepares for another war winter.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As an EU member and NATO partner, Germany is directly affected by sanctions coordination, Ukraine war dynamics, and transatlantic tensions."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Coordinated Western sanctions on Israeli settlements and the ongoing Ukraine conflict are both extraordinary geopolitical developments with broad international impact."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "UK and French trade bans on illegal Israeli settlements up pressure on EU",
+              "url": "https://euobserver.com/236132/uk-and-french-trade-bans-on-illegal-israeli-settlements-up-pressure-on-eu",
+              "publishedAt": "2026-09-08T16:01:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "supra-regional",
+              "titleOriginal": "Why the US is staying so measured about allies' sanctions on Israeli settlements",
+              "url": "https://www.politico.com/news/2026/09/10/why-the-us-is-staying-so-measured-about-allies-sanction-on-israeli-settlements-01070067",
+              "publishedAt": "2026-09-10T05:35:07Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "supra-regional",
+              "titleOriginal": "Zelenskyy's big bet: Ukraine can outlast Russia",
+              "url": "https://www.politico.eu/article/volodymyr-zelenskyy-gamble-ukraine-russia-vladimir-putin-peace-talks-pressure",
+              "publishedAt": "2026-09-10T02:59:16Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
