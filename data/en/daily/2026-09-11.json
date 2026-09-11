@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-11",
+  "generatedAt": "2026-09-11T10:30:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump promises $5,000 payment – Republican Party convention sets election campaign course",
+          "summaryDe": [
+            "At the Republican midterm party convention, President Trump promised every American a direct payment of $5,000 if Republicans maintain control of Congress – a promise criticized by both Democrats and moderate Republicans as unrealistic.",
+            "Vice President Vance used the party convention to present himself as a people-oriented family man and to solidify his position as the favorite for the 2028 presidential election.",
+            "In the shadow of the convention, the Supreme Court decided against the Republican attempt to redraw district lines in Missouri – a setback for the party shortly before the midterm elections.",
+            "A separate report revealed that Vance had internally received significantly more sober situation reports on the Iran war than he communicated publicly."
+          ],
+          "additionalImportant": "The Huawei racketeering trial in Brooklyn enters its second day of testimony; Anthropic reports blocked attempts to develop biological weapons using AI.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The domestic political developments in the USA affect Germany indirectly through transatlantic economic and security policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The party convention sets the course for Republicans in the midterms and has considerable significance for US domestic politics."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Da li je Trampovo predizborno obećanje o isplati 5.000 dolara...",
+              "url": "https://www.vijesti.me/svijet/globus/826175/da-li-je-trampovo-obecanje-o-isplati-5000-dolara-amerikancima-znak-panike",
+              "publishedAt": "2026-09-11T08:09:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Koval: Dodatno ubrzati proces proširenja EU, pružiti evropsku...",
+              "url": "https://www.vijesti.me/vijesti/politika/826167/koval-dodatno-ubrzati-proces-prosirenja-eu-pruziti-evropsku-perspektivu-drzavama-koje-ostvaruju-konkretne-rezultate",
+              "publishedAt": "2026-09-11T07:22:00Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Vance takes centre stage as Trump wraps up GOP midterm convention with voter warnings",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367145/vance-takes-centre-stage-trump-wraps-gop-midterm-convention-voter-warnings",
+              "publishedAt": "2026-09-11T05:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Oil price above $100: Diesel hits record high, Iran war drives US energy prices",
+          "summaryDe": [
+            "Crude oil WTI has exceeded the $100 per barrel mark for the first time since May – driven by concerns about the situation in Iran and disruptions to shipping in the Persian Gulf.",
+            "US diesel prices climbed to a record high of six dollars per gallon; analysts see this as a direct consequence of simultaneous disruptions from the Ukraine war and the Iran crisis.",
+            "In parallel, Chinese AI chip maker Enflame is in focus following its stock market debut in Shanghai with a price increase of 206 percent – an indication of growing investor demand for Nvidia alternatives from China.",
+            "Anthropic accused Chinese AI companies DeepSeek and Moonshot of secretly routing user queries through Claude models – an accusation that further intensifies already tense debates about AI security and data sovereignty."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising energy prices and AI competition questions have concrete effects on German industry and digital policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Exceeding the $100 threshold for crude oil is a striking signal with economy-wide significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Moonshot, DeepSeek secretly routed user requests to Claude, Anthropic claims",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3367112/moonshot-deepseek-secretly-routed-user-requests-claude-anthropic-claims",
+              "publishedAt": "2026-09-10T23:23:18Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Huawei racketeering trial in US enters second day of testimony",
+              "url": "https://www.scmp.com/news/us/article/3367100/huawei-racketeering-trial-turns-alleged-trade-secret-theft",
+              "publishedAt": "2026-09-10T14:32:24Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump threatens Taiwan's representative office and wants Iran bank sanctions starting Monday",
+          "summaryDe": [
+            "US President Trump threatened Taiwan's representative office in Washington with a lawsuit – allegedly as part of a campaign against the Center for American Progress, which has triggered considerable concern in Taipei about future US-Taiwan policy.",
+            "Finance Secretary Bessent announced in parallel that a major foreign bank will be sanctioned as early as Monday – part of the pressure strategy against Iran.",
+            "Foreign Secretary Rubio met with Peruvian State President Boluarte in Peru to counter Chinese influence around the Chancay megaport; Beijing rejected Rubio's criticism of \"Communist Party-backed projects."
+          ],
+          "additionalImportant": "sharply.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Sanctions against banks and Iran strategy also directly affect European financial institutions and energy markets."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The threat to Taiwan's office and the Iran sanctions announcement are concrete foreign policy escalation steps."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Trump threatens Taiwan's representative office, sparking debate over island's US policy",
+              "url": "https://www.scmp.com/news/china/politics/article/3367073/trump-threatens-taiwans-representative-office-sparking-debate-over-islands-us-policy",
+              "publishedAt": "2026-09-10T13:00:08Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Satler: Funkcioneri da poštuju činjenice o ratnim zločinima, reforme moraju zaživjeti u praksi",
+              "url": "https://www.pobjeda.me/clanak/satler-funkcioneri-da-postuju-cinjenice-o-ratnim-zlocinima-reforme-moraju-zazivjeti-u-praksi",
+              "publishedAt": "2026-09-11T09:42:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ship fire in Qingdao: 25 dead after fire on foreign cargo vessel",
+          "summaryDe": [
+            "In the Chinese port of Qingdao, a devastating fire broke out on a foreign-flagged cargo ship, killing 25 people; twelve more were rescued.",
+            "Chinese authorities have launched investigations, with details about the cause and nationality of the ship initially not disclosed.",
+            "The incident raises questions about safety supervision in one of East Asia's busiest ports, through which millions of standard containers are processed annually.",
+            "Whether international maritime shipping organizations would be involved remained unclear initially."
+          ],
+          "additionalImportant": "Beijing is expanding the tax obligations of wealthy citizens and will now also capture offshore assets and foreign real estate – a step that significantly expands the state's financial control.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A major fire in Qingdao could temporarily affect supply chains for companies based in Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Serious shipping accidents in strategic ports are serious but remain initially locally limited."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "25 dead after fire on board foreign-flagged cargo ship in China's Qingdao",
+              "url": "https://www.scmp.com/news/china/politics/article/3367049/heavy-casualties-after-foreign-cargo-ship-catches-fire-chinas-qingdao",
+              "publishedAt": "2026-09-10T09:14:37Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinese scientists quadruple hydrogen fuel cell power output",
+          "summaryDe": [
+            "A Chinese research team has developed a new fuel cell architecture that increases electrical output power by four times compared to previous designs – a breakthrough that could substantially strengthen the competitive position of Chinese players in the global hydrogen market.",
+            "Details about concrete applications in vehicles or industry have not yet been disclosed, but the fundamental research is considered close to application.",
+            "For Germany, which is investing heavily in hydrogen technology, this creates a potential innovation lead for a central competitor.",
+            "In parallel, Enflame, a Chinese AI chip manufacturer, launched with a stock price increase of 206 percent on the Shanghai Stock Exchange – which, together with the fuel cell result, underscores China's technological ambitions."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Hydrogen technology is a strategic investment field for Germany; a Chinese technological lead would have direct industrial policy consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A quadrupling of fuel cell output would, if confirmed, be a significant scientific advance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese scientists boost hydrogen fuel cell power fourfold with new design",
+              "url": "https://www.scmp.com/news/china/science/article/3367077/chinese-scientists-boost-hydrogen-fuel-cell-power-fourfold-new-design",
+              "publishedAt": "2026-09-10T18:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi travels to India for first time in seven years – and wants to broker Trump-Kim meeting",
+          "summaryDe": [
+            "China's State President Xi Jinping will travel to India for the BRICS summit – his first visit since the 2020 border conflict that strained relations between the two countries for years. A bilateral meeting with Prime Minister Modi is considered likely.",
+            "At the same time, Beijing signaled willingness to facilitate a meeting between US President Trump and North Korean leader Kim Jong-un – possibly at the margins of the APEC summit in November in Shenzhen.",
+            "The Philippines reported that Chinese military fired flares at Philippine aircraft over the disputed Subi and Mischief reefs – an escalation in the South China Sea that Beijing has not confirmed so far.",
+            "For Xi's visit to Washington at the end of September, high-ranking managers from tech, electric vehicle, and aerospace companies are to travel along, according to reports, to underline the economic nature of the diplomacy."
+          ],
+          "additionalImportant": "A Hong Kong court sentenced three organizers of the Tiananmen memorial event to prison sentences between five and seven years – a move that is internationally viewed as another signal of democratic backsliding.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Xi's India trip, a possible Trump-Kim meeting, and tensions in the South China Sea affect the global security order on which Germany directly depends."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Xi's first visit to India in seven years and the possible mediation of a Trump-Kim conversation are extraordinary diplomatic developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's Xi Jinping to make first trip to India in 7 years for Brics summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367062/chinas-xi-jinping-make-first-trip-india-7-years-brics-summit",
+              "publishedAt": "2026-09-10T10:03:01Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China ready to help Trump meet North Korea's Kim",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367047/china-ready-help-trump-meet-north-koreas-kim",
+              "publishedAt": "2026-09-10T09:10:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "South China Sea: Manila says flares fired at aircraft near Subi, Mischief reefs",
+              "url": "https://www.scmp.com/news/china/military/article/3367146/south-china-sea-manila-says-flares-fired-aircraft-near-subi-mischief-reefs",
+              "publishedAt": "2026-09-11T04:21:33Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Tech, EV and aerospace executives likely to join Xi's US trip to mirror Trump team",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367094/tech-ev-and-aerospace-executives-likely-join-xis-us-trip-mirror-trump-team",
+              "publishedAt": "2026-09-10T22:00:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD wins 43.8 percent in Saxony-Anhalt – strongest result of a far-right party in Germany",
+          "summaryDe": [
+            "The AfD won 43.8 percent of votes in the Saxony-Anhalt state election and more than doubled its result from 2021 – a historically unprecedented value for a far-right party in Germany since 1945.",
+            "The result triggers debates domestically and internationally about possible consequences for Germany's previous China policy, which has been characterized by distance and multilateralism.",
+            "In other EU countries, populist parties are watching Germany's rightward shift closely: In Britain, Nigel Farage is working intensively with his Reform UK to field enough candidates before the next House of Commons election.",
+            "The results illustrate an ongoing pan-European trend that will influence the shaping of EU migration policy, fiscal discipline, and foreign policy."
+          ],
+          "additionalImportant": "EU asylum figures have fallen to their lowest level in five years – a fact that receives little attention in political debate.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Such an election result in a German state has immediate effects on federal politics and coalition options."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The result is an extraordinary signal for the state of European democracies and the rightward shift across the continent."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Far-right AfD party won big in Saxony-Anhalt. Will it affect Germany's approach to China?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367059/far-right-afd-party-won-big-saxony-anhalt-will-it-change-germanys-approach-china",
+              "publishedAt": "2026-09-10T09:58:07Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "ECB raises rates again – energy price shock from Hormuz crisis",
+          "summaryDe": [
+            "The European Central Bank raised key interest rates again after disruptions in the Strait of Hormuz drove up gas prices and energy-related inflation rose to 14.3 percent.",
+            "For export-oriented German industry, this represents a double blow: more expensive energy and higher financing costs at the same time.",
+            "In parallel, the EU Commission has presented a reform of public procurement rules aimed at moving away from selecting solely the cheapest option – a step that could give companies with sustainability and security standards better chances.",
+            "Critics see in the procurement reform a means to systematically disadvantage Chinese suppliers with low prices without violating WTO rules."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Rising ECB interest rates and energy price inflation hit Germany as the largest economy in the eurozone directly."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A rate increase resulting from geopolitically driven energy price shock is a major economic policy development for the entire eurozone."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "ECB raises rates again as Strait of Hormuz disruption drives up gas prices",
+              "url": "https://euobserver.com/236650/ecb-raises-rates-again-as-hormuz-disruption-drives-up-gas-prices",
+              "publishedAt": "2026-09-10T14:42:40Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU promises to look beyond 'price alone' in reform of public procurement rules",
+              "url": "https://euobserver.com/236470/eupromises-to-look-beyond-price-alone-in-reform-of-public-procurement-rules",
+              "publishedAt": "2026-09-09T15:55:28Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Abramovich loses third EU lawsuit – Brussels plans tougher sanctions regime",
+          "summaryDe": [
+            "Russian oligarch Roman Abramovich has lost his lawsuit against EU sanctions for the third time before the EU court; in response, the EU Commission is planning a significantly tightened listing mechanism that will make legal remedies more difficult.",
+            "At the same time, Kyiv is back in the financial spotlight: Ukraine's ongoing financial crisis is reviving discussions about greater use of frozen Russian assets.",
+            "Poland's Prime Minister Tusk reported a concrete threat at the Polish-Ukrainian border backed by US intelligence data that was averted, and warned of further attack attempts.",
+            "Putin's war expenditures for Ukraine are reported to exceed 110 billion euros in 2026 so far – roughly one third more than in the same period last year."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Tighter EU sanctions and new debates about Russian assets have direct effects on joint foreign policy, in which Germany plays a key role."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The legal and political developments around sanctions and Ukraine financing are major course-setting decisions affecting the war."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Top Russian oligarch Abramovich loses third EU lawsuit, as Brussels plans tougher blacklist",
+              "url": "https://euobserver.com/236403/top-russian-oligarch-abramovich-loses-third-eu-lawsuit-as-brussels-plans-tougher-blacklist",
+              "publishedAt": "2026-09-09T16:31:21Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "supra-regional",
+              "titleOriginal": "Tusk warns of future attacks after 'direct threat' averted at Poland-Ukraine border",
+              "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
+              "publishedAt": "2026-09-10T20:49:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

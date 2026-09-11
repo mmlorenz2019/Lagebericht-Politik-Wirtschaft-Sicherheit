@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-11",
+  "generatedAt": "2026-09-11T10:30:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump verspricht 5.000-Dollar-Zahlung – Republikanischer Parteitag beschließt Wahlkampfkurs",
+          "summaryDe": [
+            "Auf dem republikanischen Midterm-Parteitag versprach Präsident Trump jedem Amerikaner eine Direktzahlung von 5.000 Dollar, falls die Republikaner die Kongresskontrolle behalten – ein Versprechen, das sowohl Demokraten als auch moderate Republikaner als unrealistisch kritisierten.",
+            "Vize-Präsident Vance nutzte den Parteitag, um sich als volksnahen Familienmenschen zu inszenieren und seine Position als Favorit für die Präsidentschaftswahl 2028 zu festigen.",
+            "Im Schatten des Parteitags entschied der Supreme Court gegen den republikanischen Versuch, die Wahlkreiseinteilung in Missouri neu zu ziehen – eine Niederlage für die Partei kurz vor den Zwischenwahlen.",
+            "Ein separater Bericht enthüllte, dass Vance intern deutlich nüchternere Lageberichte zum Iran-Krieg erhalten hatte, als er öffentlich kommuniziert."
+          ],
+          "additionalImportant": "Der Huawei-Racketeering-Prozess in Brooklyn tritt in seinen zweiten Verhandlungstag ein; Anthropic berichtet über blockierte Versuche, mithilfe von KI biologische Waffen zu entwickeln.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die innenpolitischen Entwicklungen in den USA berühren Deutschland indirekt über die transatlantische Wirtschafts- und Sicherheitspolitik."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Parteitag legt den Kurs der Republikaner für die Midterms fest und hat erhebliche Bedeutung für die US-Innenpolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Da li je Trampovo predizborno obećanje o isplati 5.000 dolara...",
+              "url": "https://www.vijesti.me/svijet/globus/826175/da-li-je-trampovo-obecanje-o-isplati-5000-dolara-amerikancima-znak-panike",
+              "publishedAt": "2026-09-11T08:09:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Koval: Dodatno ubrzati proces proširenja EU, pružiti evropsku...",
+              "url": "https://www.vijesti.me/vijesti/politika/826167/koval-dodatno-ubrzati-proces-prosirenja-eu-pruziti-evropsku-perspektivu-drzavama-koje-ostvaruju-konkretne-rezultate",
+              "publishedAt": "2026-09-11T07:22:00Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Vance takes centre stage as Trump wraps up GOP midterm convention with voter warnings",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367145/vance-takes-centre-stage-trump-wraps-gop-midterm-convention-voter-warnings",
+              "publishedAt": "2026-09-11T05:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Ölpreis über 100 Dollar: Diesel auf Rekordhoch, Iran-Krieg treibt US-Energiepreise",
+          "summaryDe": [
+            "Rohöl der Sorte WTI hat erstmals seit Mai wieder die Marke von 100 Dollar pro Barrel überschritten – getrieben von Sorgen um die Lage im Iran und Unterbrechungen der Schifffahrt im Persischen Golf.",
+            "Der US-Dieselpreis kletterte auf ein Rekordhoch von sechs Dollar pro Gallone; Analysten sehen darin eine direkte Folge der gleichzeitigen Störungen durch den Ukraine-Krieg und die Iran-Krise.",
+            "Parallel dazu steht der chinesische KI-Chiphersteller Enflame nach einem Börsendebüt in Shanghai mit einem Kursanstieg von 206 Prozent im Fokus – ein Indiz für die wachsende Investorennachfrage nach Nvidia-Alternativen aus China.",
+            "Anthropic warf den chinesischen KI-Unternehmen DeepSeek und Moonshot vor, Nutzeranfragen heimlich über Claude-Modelle geleitet zu haben – ein Vorwurf, der die ohnehin angespannten Debatten über KI-Sicherheit und Datenhoheit weiter anheizt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende Energiepreise und KI-Wettbewerbsfragen wirken sich konkret auf die deutsche Industrie und Digitalpolitik aus."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Überschreiten der 100-Dollar-Schwelle beim Rohöl ist ein markantes Signal mit gesamtwirtschaftlicher Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Moonshot, DeepSeek secretly routed user requests to Claude, Anthropic claims",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3367112/moonshot-deepseek-secretly-routed-user-requests-claude-anthropic-claims",
+              "publishedAt": "2026-09-10T23:23:18Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Huawei racketeering trial in US enters second day of testimony",
+              "url": "https://www.scmp.com/news/us/article/3367100/huawei-racketeering-trial-turns-alleged-trade-secret-theft",
+              "publishedAt": "2026-09-10T14:32:24Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump droht Taiwans Vertretungsbüro und will Iran-Bankensanktionen ab Montag",
+          "summaryDe": [
+            "US-Präsident Trump drohte dem Vertretungsbüro Taiwans in Washington mit einer Klage – angeblich als Teil einer Kampagne gegen das Center for American Progress, was in Taipeh erhebliche Verunsicherung über die künftige US-Taiwan-Politik ausgelöst hat.",
+            "Finanzminister Bessent kündigte parallel an, bereits am Montag eine große ausländische Bank mit Sanktionen zu belegen – Teil der Druckstrategie gegenüber dem Iran.",
+            "Außenminister Rubio traf sich unterdessen in Peru mit Staatspräsident Boluarte, um chinesischem Einfluss rund um den Megahafen Chancay entgegenzuwirken; Peking wies Rubios Kritik an „KP-gestützten Projekten"
+          ],
+          "additionalImportant": "scharf zurück.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Sanktionen gegen Banken und Iran-Strategie betreffen auch europäische Finanzinstitute und Energiemärkte direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Drohung gegen Taiwans Büro und die Iran-Sanktionsankündigung sind konkrete außenpolitische Eskalationsschritte."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump threatens Taiwan's representative office, sparking debate over island's US policy",
+              "url": "https://www.scmp.com/news/china/politics/article/3367073/trump-threatens-taiwans-representative-office-sparking-debate-over-islands-us-policy",
+              "publishedAt": "2026-09-10T13:00:08Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Satler: Funkcioneri da poštuju činjenice o ratnim zločinima, reforme moraju zaživjeti u praksi",
+              "url": "https://www.pobjeda.me/clanak/satler-funkcioneri-da-postuju-cinjenice-o-ratnim-zlocinima-reforme-moraju-zazivjeti-u-praksi",
+              "publishedAt": "2026-09-11T09:42:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Schiffsbrand in Qingdao: 25 Tote nach Feuer auf ausländischem Frachter",
+          "summaryDe": [
+            "Im chinesischen Hafen Qingdao brach auf einem unter ausländischer Flagge fahrenden Frachtschiff ein verheerendes Feuer aus, das 25 Menschen das Leben kostete; zwölf weitere konnten gerettet werden.",
+            "Chinesische Behörden haben Ermittlungen eingeleitet, Einzelheiten zur Ursache und zur Nationalität des Schiffes waren zunächst nicht öffentlich.",
+            "Der Vorfall wirft Fragen zur Sicherheitsaufsicht in einem der meistfrequentierten Häfen Ostasiens auf, durch den jährlich Millionen Standardcontainer abgefertigt werden.",
+            "Ob internationale Seeschifffahrtsorganisationen einbezogen werden, blieb zunächst unklar."
+          ],
+          "additionalImportant": "Peking weitet die Steuerpflicht wohlhabender Bürger aus und erfasst künftig auch Offshore-Vermögen und Auslandsimmobilien – ein Schritt, der die finanzielle Kontrolle des Staates spürbar ausweitet.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein Großbrand in Qingdao könnte Lieferketten für in Deutschland ansässige Unternehmen vorübergehend beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Schwere Schiffsunfälle in strategischen Häfen sind ernst, bleiben aber zunächst lokal begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "25 dead after fire on board foreign-flagged cargo ship in China's Qingdao",
+              "url": "https://www.scmp.com/news/china/politics/article/3367049/heavy-casualties-after-foreign-cargo-ship-catches-fire-chinas-qingdao",
+              "publishedAt": "2026-09-10T09:14:37Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesische Wissenschaftler vervierfachen Leistung von Wasserstoffbrennstoffzellen",
+          "summaryDe": [
+            "Ein Forschungsteam aus China hat eine neue Brennstoffzellenarchitektur entwickelt, die die elektrische Ausgangsleistung gegenüber bisherigen Designs um das Vierfache steigert – ein Durchbruch, der die Wettbewerbsposition chinesischer Akteure im globalen Wasserstoffmarkt erheblich stärken könnte.",
+            "Details zum konkreten Einsatz in Fahrzeugen oder der Industrie wurden noch nicht bekannt gegeben, doch die Grundlagenforschung gilt als anwendungsnah.",
+            "Für Deutschland, das massiv in Wasserstofftechnologie investiert, entsteht damit ein potenzieller Innovationsvorsprung eines zentralen Konkurrenten.",
+            "Parallel startete Enflame, ein chinesischer KI-Chip-Hersteller, mit einem Kursanstieg von 206 Prozent an der Shanghaiurer Börse – was zusammen mit dem Brennstoffzellen-Ergebnis den technologischen Ehrgeiz Chinas unterstreicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Wasserstofftechnologie ist ein strategisches Investitionsfeld Deutschlands; ein chinesischer Technologievorsprung hätte direkte industriepolitische Folgen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Vervierfachung der Brennstoffzellenleistung wäre, wenn bestätigt, ein bedeutsamer wissenschaftlicher Fortschritt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese scientists boost hydrogen fuel cell power fourfold with new design",
+              "url": "https://www.scmp.com/news/china/science/article/3367077/chinese-scientists-boost-hydrogen-fuel-cell-power-fourfold-new-design",
+              "publishedAt": "2026-09-10T18:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi reist erstmals seit sieben Jahren nach Indien – und will Trump-Kim-Treffen vermitteln",
+          "summaryDe": [
+            "Chinas Staatspräsident Xi Jinping wird zum BRICS-Gipfel nach Indien reisen – sein erster Besuch seit dem Grenzkonflikt 2020, der die Beziehungen beider Länder jahrelang belastete. Ein bilaterales Treffen mit Premierminister Modi gilt als wahrscheinlich.",
+            "Gleichzeitig signalisierte Peking Bereitschaft, ein Treffen zwischen US-Präsident Trump und Nordkoreas Machthaber Kim Jong-un zu erleichtern – möglicherweise am Rande des APEC-Gipfels im November in Shenzhen.",
+            "Die Philippinen meldeten unterdessen, dass chinesisches Militär Leuchtraketen auf philippinische Flugzeuge über den umstrittenen Riffen Subi und Mischief abgefeuert habe – eine Eskalation im Südchinesischen Meer, die Peking bislang nicht bestätigt.",
+            "Zum Besuch Xis in Washington Ende September sollen laut Berichten ranghohe Manager aus Tech-, Elektroauto- und Luft- und Raumfahrtkonzernen mitreisen, um den wirtschaftlichen Charakter der Diplomatie zu unterstreichen."
+          ],
+          "additionalImportant": "Ein Hongkonger Gericht verurteilte drei Organisatoren der Tiananmen-Gedenkveranstaltung zu Haftstrafen zwischen fünf und sieben Jahren – ein Schritt, der international als weiteres Signal des Demokratieabbaus gewertet wird.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Xis Indien-Reise, ein mögliches Trump-Kim-Treffen und die Spannungen im Südchinesischen Meer berühren die globale Sicherheitsordnung, von der Deutschland direkt abhängt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Der erste Xi-Besuch in Indien seit sieben Jahren und die mögliche Vermittlung eines Trump-Kim-Gesprächs sind außergewöhnliche diplomatische Entwicklungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's Xi Jinping to make first trip to India in 7 years for Brics summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367062/chinas-xi-jinping-make-first-trip-india-7-years-brics-summit",
+              "publishedAt": "2026-09-10T10:03:01Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China ready to help Trump meet North Korea's Kim",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367047/china-ready-help-trump-meet-north-koreas-kim",
+              "publishedAt": "2026-09-10T09:10:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "South China Sea: Manila says flares fired at aircraft near Subi, Mischief reefs",
+              "url": "https://www.scmp.com/news/china/military/article/3367146/south-china-sea-manila-says-flares-fired-aircraft-near-subi-mischief-reefs",
+              "publishedAt": "2026-09-11T04:21:33Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Tech, EV and aerospace executives likely to join Xi's US trip to mirror Trump team",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367094/tech-ev-and-aerospace-executives-likely-join-xis-us-trip-mirror-trump-team",
+              "publishedAt": "2026-09-10T22:00:09Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD holt 43,8 Prozent in Sachsen-Anhalt – stärkstes Ergebnis einer Rechtsaußenpartei in Deutschland",
+          "summaryDe": [
+            "Die AfD hat bei der Landtagswahl in Sachsen-Anhalt 43,8 Prozent der Stimmen gewonnen und ihr Ergebnis von 2021 mehr als verdoppelt – ein historisch einmaliger Wert für eine rechtsextreme Partei in Deutschland seit 1945.",
+            "Das Ergebnis löst im In- und Ausland Debatten aus, etwa über mögliche Konsequenzen für Deutschlands bisherige China-Politik, die von Distanz und Multilateralismus geprägt war.",
+            "In anderen EU-Ländern beobachten populistische Parteien den deutschen Rechtsruck aufmerksam: In Großbritannien arbeitet Nigel Farage mit seiner Reform UK intensiv daran, vor der nächsten Unterhauswahl ausreichend Kandidaten aufzustellen.",
+            "Die Resultate verdeutlichen einen anhaltenden gesamteuropäischen Trend, der die Gestaltung von EU-Migrationspolitik, Haushaltsdisziplin und Außenpolitik beeinflussen wird."
+          ],
+          "additionalImportant": "Die EU-Asylzahlen sind auf den niedrigsten Stand seit fünf Jahren gesunken – ein Fakt, der in der politischen Debatte kaum Gehör findet.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Ein solches Wahlergebnis in einem deutschen Bundesland hat unmittelbare Auswirkungen auf die Bundespolitik und Koalitionsoptionen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das Ergebnis ist ein außergewöhnliches Signal für den Zustand der europäischen Demokratien und des Rechtsrucks auf dem Kontinent."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Far-right AfD party won big in Saxony-Anhalt. Will it affect Germany's approach to China?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367059/far-right-afd-party-won-big-saxony-anhalt-will-it-change-germanys-approach-china",
+              "publishedAt": "2026-09-10T09:58:07Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EZB hebt Zinsen erneut an – Energiepreisschock durch Hormuz-Krise",
+          "summaryDe": [
+            "Die Europäische Zentralbank hat die Leitzinsen abermals angehoben, nachdem Störungen in der Straße von Hormuz die Gaspreise in die Höhe getrieben haben und die energiebedingte Inflation auf 14,3 Prozent gestiegen ist.",
+            "Für die exportorientierte deutsche Wirtschaft kommt damit ein Doppelschlag: teurere Energie und höhere Finanzierungskosten gleichzeitig.",
+            "Parallel hat die EU-Kommission eine Reform der öffentlichen Auftragsvergabe vorgestellt, die das alleinige Abstellen auf den günstigsten Preis aufgeben soll – ein Schritt, der Unternehmen mit Nachhaltigkeits- und Sicherheitsstandards bessere Chancen einräumen könnte.",
+            "Kritiker sehen in der Beschaffungsreform einen Hebel, um chinesische Anbieter mit niedrigen Preisen systematisch zu benachteiligen, ohne gegen WTO-Regeln zu verstoßen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Steigende EZB-Zinsen und Energiepreisinflation treffen Deutschland als größte Volkswirtschaft der Eurozone unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Zinserhöhung infolge eines geopolitisch bedingten Energiepreisschocks ist eine größere wirtschaftspolitische Entwicklung für die gesamte Eurozone."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "ECB raises rates again as Strait of Hormuz disruption drives up gas prices",
+              "url": "https://euobserver.com/236650/ecb-raises-rates-again-as-hormuz-disruption-drives-up-gas-prices",
+              "publishedAt": "2026-09-10T14:42:40Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU promises to look beyond 'price alone' in reform of public procurement rules",
+              "url": "https://euobserver.com/236470/eupromises-to-look-beyond-price-alone-in-reform-of-public-procurement-rules",
+              "publishedAt": "2026-09-09T15:55:28Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Abramovich verliert dritten EU-Prozess – Brüssel plant schärferes Sanktionsregime",
+          "summaryDe": [
+            "Der russische Oligarch Roman Abramovich ist vor dem EU-Gericht zum dritten Mal mit seiner Klage gegen EU-Sanktionen gescheitert; die EU-Kommission plant als Reaktion einen deutlich verschärften Listungsmechanismus, der Rechtsmittel erschweren soll.",
+            "Gleichzeitig rückt Kiew finanziell wieder in den Fokus: Die anhaltende Finanzkrise der Ukraine belebt Diskussionen über eine weitergehende Nutzung eingefrorener russischer Vermögenswerte.",
+            "Polens Premierminister Tusk berichtete von einer konkreten, mit US-Geheimdienstangaben belegten Bedrohung an der polnisch-ukrainischen Grenze, die abgewehrt werden konnte, und warnte vor weiteren Anschlagsversuchen.",
+            "Putins Kriegsausgaben für die Ukraine sollen 2026 bisher über 110 Milliarden Euro betragen – rund ein Drittel mehr als im Vorjahreszeitraum."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Verschärfte EU-Sanktionen und neue Debatten über russische Vermögenswerte haben direkte Auswirkungen auf die gemeinsame Außenpolitik, an der Deutschland maßgeblich beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die juristischen und politischen Entwicklungen rund um Sanktionen und Ukraine-Finanzierung sind größere, den Krieg beeinflussende Weichenstellungen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Top Russian oligarch Abramovich loses third EU lawsuit, as Brussels plans tougher blacklist",
+              "url": "https://euobserver.com/236403/top-russian-oligarch-abramovich-loses-third-eu-lawsuit-as-brussels-plans-tougher-blacklist",
+              "publishedAt": "2026-09-09T16:31:21Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Tusk warns of future attacks after 'direct threat' averted at Poland-Ukraine border",
+              "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
+              "publishedAt": "2026-09-10T20:49:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
