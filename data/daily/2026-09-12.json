@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-12",
+  "generatedAt": "2026-09-12T14:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Inflation und Energiepreise belasten Trumps Kurs vor den Midterms",
+          "summaryDe": [
+            "Die US-Inflationsrate lag im August 2026 bei 3,4 Prozent – getrieben vor allem durch gestiegene Energiepreise infolge des Irankrieges und seiner Folgen am Persischen Golf und Roten Meer.",
+            "Hohe Benzinpreise und steigende Hypothekenzinsen treffen Haushalte direkt und dürften Trumps innenpolitische Botschaft vor den Zwischenwahlen im November erheblich erschweren.",
+            "Auf dem GOP-Konvent in Dallas versuchten Republikaner dennoch, die Basis zu mobilisieren – unter anderem mit der Strategie, Demokraten pauschal als Kommunisten zu brandmarken.",
+            "Parallel dazu trat ein Sonderstaatsanwalt zurück, der eigens zur Untersuchung politischer Gegner Trumps eingesetzt worden war – ein weiterer Riss im innenpolitischen Gefüge."
+          ],
+          "additionalImportant": "Ein Bundesgericht kippte die Trump-Anordnung, ein Kohlekraftwerk in Michigan über sein geplantes Abschaltdatum hinaus offenzuhalten – damit erlitt die Regierung eine weitere juristische Niederlage in Energiefragen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Hohe US-Inflation und politische Instabilität können indirekt auf Kapital- und Währungsmärkte ausstrahlen, die auch Deutschland betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Anhaltende Inflation über Zielwert kombiniert mit innenpolitischer Fragmentierung vor Kongresswahlen ist eine größere innenpolitische Entwicklung in der weltgrößten Volkswirtschaft."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "News Wrap: August inflation report shows consumer prices up 3.4%",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-august-inflation-report-shows-consumer-prices-up-3-4",
+              "publishedAt": "2026-09-11T22:45:43Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Trump remains focus of GOP's midterm campaign as convention wraps",
+              "url": "https://www.pbs.org/newshour/show/trump-remains-focus-of-gops-midterm-campaign-as-convention-wraps",
+              "publishedAt": "2026-09-11T22:40:47Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Republicans, Facing Midterm Peril, Try to Brand Democrats as Communists",
+              "url": "https://www.nytimes.com/2026/09/12/us/politics/trump-democrats-communism-midterms.html",
+              "publishedAt": "2026-09-12T09:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Ölpreis über 102 Dollar – Nahost-Krise trifft US-Märkte",
+          "summaryDe": [
+            "US-Rohöl erreichte den höchsten Schlusskurs seit Mai 2026 und überstieg die Marke von 102 Dollar pro Barrel, während die Spannungen am Roten Meer und im Persischen Golf andauern.",
+            "Houthi-Angriffe auf saudi-arabische Pipelines und die Einnahme einer strategischen Insel im Bab-el-Mandeb-Seeweg verschärfen die Versorgungsunsicherheit für globale Energiemärkte.",
+            "Steigende Anleiherenditen und Marktvolatilität überlagern gleichzeitig die Börsenerholung, die durch die jüngste Ölpreisbewegung unterstützt worden war.",
+            "Für die USA bedeutet das: Trotz eigener Ölförderstärke wirkt der externe Preisdruck direkt auf Inflation und Verbraucherkosten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende Rohölpreise und Marktunsicherheiten treffen die exportabhängige deutsche Wirtschaft und die Energieversorgung konkret."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Ölpreis über 100 Dollar infolge militärischer Eskalation im Roten Meer ist eine signifikante wirtschaftliche Entwicklung mit globaler Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "BRICS leaders meet in India as wars and US tensions test the bloc",
+              "url": "https://www.npr.org/2026/09/12/g-s1-143054/brics-leaders-meet-in-india",
+              "publishedAt": "2026-09-12T07:18:55Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline",
+              "url": "https://www.nytimes.com/2026/09/11/business/iran-war-hormuz-red-sea.html",
+              "publishedAt": "2026-09-12T00:50:20Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Houthis nehmen strategische Insel im Roten Meer ein – Saudi-Öl-Pipeline angegriffen",
+          "summaryDe": [
+            "Jemenitische Houthi-Milizen haben eine Insel an der Einfahrt zum Bab-el-Mandeb-Seeweg besetzt und damit eine Schlüsselposition im globalen Schiffsverkehr unter ihre Kontrolle gebracht.",
+            "Gleichzeitig wurde die saudi-arabische Ost-West-Rohölpipeline nach mehreren Drohnenangriffen abgeschaltet – ein weiterer Schlag gegen die saudische Exportinfrastruktur.",
+            "Beide Aktionen stehen im Kontext des laufenden Konflikts mit Iran-Bezug und erhöhen den Druck auf Ölversorgungsrouten, die täglich Millionen Barrel transportieren.",
+            "Für Washington, das den Irankrieg weiter eskaliert, verschärft sich damit auch die strategische Lage: Trump und Verteidigungsminister Hegseth sprachen beim Gedenken an den 11. September offen über einen möglichen Militärschlag gegen Irans Atomanlagen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Blockade oder Einschränkung der Handelsrouten im Roten Meer trifft auch deutsche Exporteure und Energieimporteure direkt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Kombination aus Seeweg-Einnahme und Pipeline-Angriff stellt eine außergewöhnliche Eskalation mit potenziell systemischen Auswirkungen auf globale Energieversorgung dar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Yemen's Houthis capture a Red Sea island in threat to shipping",
+              "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
+              "publishedAt": "2026-09-12T05:57:08Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
+              "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports",
+              "publishedAt": "2026-09-11T22:50:58Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline",
+              "url": "https://www.nytimes.com/2026/09/11/business/iran-war-hormuz-red-sea.html",
+              "publishedAt": "2026-09-12T00:50:20Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinesischer Mathematiker gewinnt Fields-Medaille – KI-Vergleich inklusive",
+          "summaryDe": [
+            "Deng Yu wurde 2026 mit der Fields-Medaille ausgezeichnet, der bedeutendsten Auszeichnung in der Mathematik – ein Erfolg, der in China als nationales Prestige-Signal gewertet wird.",
+            "Bemerkenswert war sein humorvoller Umgang mit der Frage, ob Künstliche Intelligenz Mathematiker eines Tages überflüssig machen könnte: Falls KI alle Probleme löse, werde er eben Liebesromane schreiben, scherzte Deng.",
+            "Hinter dem Witz steckt eine ernsthafte Debatte, die auch unter chinesischen Forschern geführt wird – wie verändert KI wissenschaftliche Disziplinen, in denen kreatives Denken bislang als unersetzlich galt?",
+            "Chinas Erfolg in der Grundlagenforschung, symbolisiert durch den Fields-Preis, steht im Kontrast zur Sorge um KI-Abhängigkeit, die das Land gleichzeitig auf der Weltbühne vorantreibt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas wachsende Stärke in Grundlagenforschung und KI-Entwicklung ist für die deutsche Wissenschafts- und Technologiepolitik indirekt relevant."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Wissenschaftlich bedeutsam, aber ohne unmittelbare politische oder wirtschaftliche Konsequenzen; relevant als Symbol chinesischer Forschungskapazität."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "I'll write romance novels if AI solves all maths problems, Chinese Fields winner jokes",
+              "url": "https://www.scmp.com/news/china/science/article/3367197/ill-write-romance-novels-if-ai-solves-all-maths-chinese-fields-winner-jokes",
+              "publishedAt": "2026-09-11T10:00:15Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Xi schlägt bei BRICS KI-gestützte Industrialisierung vor – China und Singapur führen PISA-Ergebnisse an",
+          "summaryDe": [
+            "Beim BRICS-Gipfel in Neu-Delhi warb Xi Jinping für eine gemeinsame KI-basierte Industrialisierungsinitiative, die Liefer- und Wertschöpfungsketten unter den Mitgliedstaaten enger verknüpfen soll.",
+            "Der Vorschlag passt in Chinas Strategie, sich als Technologieführer des Globalen Südens zu positionieren – gerade in einem Moment, in dem der Wettbewerb mit den USA um KI-Dominanz eskaliert.",
+            "Ebenfalls am selben Tag veröffentlichte Ergebnisse der OECD-Bildungsstudie PISA 2025 zeigten: Chinas Festland und Singapur belegen die Spitzenplätze, während der OECD-Durchschnitt auf ein Rekordtief sank.",
+            "Beides zusammen – technologischer Ehrgeiz auf Gipfelebene und strukturelle Bildungsvorteile – zeichnet das Bild eines Landes, das seinen Führungsanspruch in der globalen Wissensökonomie systematisch untermauert."
+          ],
+          "additionalImportant": "Chinesische KI-Unternehmen verweigerten zuletzt einem US-Kongressgremium Treffen aus Sanktionsfurcht – ein Zeichen für die tiefe Misstrauensspirale zwischen beiden Technologiemächten.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas Vorstoß bei KI-Industrialisierung und Bildungsleistungen berühren die internationale Wettbewerbsposition Deutschlands indirekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Chinas gleichzeitige Führungsrolle bei PISA und bei KI-Industrialisierungsplänen ist eine größere strategische Entwicklung mit globaler Relevanz."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Brics summit: Chinese leader Xi calls for cooperation on AI-powered industrial plan",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east",
+              "publishedAt": "2026-09-12T10:21:03Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Singapore and mainland China top global student assessment as OECD scores hit record low",
+              "url": "https://www.scmp.com/news/china/science/article/3367174/singapore-and-mainland-china-top-global-student-assessment-oecd-scores-hit-record-low",
+              "publishedAt": "2026-09-11T11:00:07Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi trifft Modi – Annäherung zwischen China und Indien beim BRICS-Gipfel",
+          "summaryDe": [
+            "Xi Jinping reiste zum BRICS-Gipfel nach Neu-Delhi und nutzte die Gelegenheit für ein bilaterales Gespräch mit Premierminister Narendra Modi, das erste dieser Art seit Jahren.",
+            "Xi signalisierte, es gebe 'reichlich Spielraum', voneinander zu lernen – eine diplomatische Öffnungsgeste, die nach Jahren von Grenzkonflikten und gegenseitigem Misstrauen auffällt.",
+            "Im Fokus standen Handel, Investitionen und die Normalisierung der Beziehungen – beides Länder, die wirtschaftlich massiv voneinander abhängen, politisch aber immer wieder aneinandergeraten.",
+            "Der Gipfel selbst steht zudem unter dem Zeichen interner BRICS-Spannungen: 20 Jahre nach Gründung des Blocks bremsen Rivalitäten zwischen Mitgliedern wie China und Indien die gemeinsame Handlungsfähigkeit."
+          ],
+          "additionalImportant": "Peking protestierte gleichzeitig scharf gegen den Besuch der taiwanesischen Spitzenpolitikerin Hsiao Bi-khim in Rom und richtete entsprechende Vorwürfe an Italien und die EU.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Annäherung zwischen China und Indien hätte indirekte Folgen für globale Handelsmuster und die geopolitische Ausrichtung des BRICS-Blocks, die Deutschland als Exportnation betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Xi-Modi-Gipfeltreffen nach langer Eiszeit ist eine bedeutende diplomatische Entwicklung mit Implikationen für das gesamte indo-pazifische Kräftegleichgewicht."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi in India, bank capital injections, EU-China trade",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367198/xi-india-bank-capital-injections-eu-china-trade",
+              "publishedAt": "2026-09-11T09:00:28Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi tells Modi there is 'ample scope' to learn from each other's strengths",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367314/xi-tells-modi-there-ample-scope-learn-each-others-strengths",
+              "publishedAt": "2026-09-12T13:02:31Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Schweden-Wahl und Rechtsruck: Europäisches Modell der Koalition mit Rechtsaußen auf dem Prüfstand",
+          "summaryDe": [
+            "Die schwedische Parlamentswahl verspricht knapp zu werden – und könnte, je nach Ausgang, als europäisches Vorbild dafür dienen, dass Mitte-rechts-Parteien offen mit rechtsextremen Kräften regieren.",
+            "Was in Schweden bereits praktiziert wird, könnte die Debatte in anderen EU-Ländern normalisieren: formelle Machtteilung statt bloßer Tolerierung, mit direkten Auswirkungen auf Migrations- und Sicherheitspolitik.",
+            "Premierminister Kristersson warnte zugleich, NATO-Einsätze Schwedens stünden auf dem Spiel, falls die Linke die Wahl gewänne – eine seltene außenpolitische Eskalation im Wahlkampf.",
+            "Die EU hat unterdessen einen wichtigen Tabaksteuer-Abstimmungstermin auf nach der Wahl verschoben, um Schwedens Einwände gegen die Besteuerung von Nikotinbeuteln nicht zum Wahlkampfthema werden zu lassen."
+          ],
+          "additionalImportant": "Reform UK in Großbritannien erhielt zwei Spenden von je 36 Millionen Pfund von Krypto-Milliardären – ein Zeichen für wachsende transnationale Finanzierung rechtspopulistischer Bewegungen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine Normalisierung von Rechtsaußen-Koalitionen in Schweden verstärkt den politischen Druck auf Mitte-rechts-Parteien in Deutschland indirekt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die schwedische Wahl könnte eine Blaupause für eine neue politische Normalität in Europa liefern, die weit über Schweden hinauswirkt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Listen: How Sweden's tight election could normalise far-right power-sharing across Europe",
+              "url": "https://euobserver.com/236897/listen-how-swedens-tight-election-could-normalise-far-right-power-sharing-across-europe",
+              "publishedAt": "2026-09-11T09:07:01Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Sweden's NATO missions are at risk if the left wins election, warns PM Kristersson",
+              "url": "https://www.politico.eu/article/sweden-election-nato-missions-risk-ulf-kristersson",
+              "publishedAt": "2026-09-11T14:35:29Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "EU delays key tobacco tax vote until after Swedish election",
+              "url": "https://www.politico.eu/article/eu-delays-key-tobacco-tax-vote-until-after-swedish-election",
+              "publishedAt": "2026-09-11T17:12:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "KI im Ukraine-Krieg und Emissionshandel-Reform: Europas Technologiepolitik unter Druck",
+          "summaryDe": [
+            "Das US-KI-Unternehmen Anthropic hat laut einem Bericht Technologie für den Ukraine-Krieg bereitgestellt, nachdem Russland westliche KI-Modelle zur Drohnensteuerung und Abwehr-Analyse genutzt hatte – ein Zeichen dafür, dass KI-Systeme längst militärisch eingesetzt werden, bevor Regelwerke existieren.",
+            "Gleichzeitig schlug ein führender EVP-Abgeordneter vor, die Reform des EU-Emissionshandelssystems abzumildern, um der Industrie mehr Zeit zur Anpassung zu geben – was Klimaschützer als Rückschritt werten.",
+            "Europas Künstler melden sich ebenfalls zu Wort: Vertreter der Darstellenden Künste diskutieren, ob ein kollektiver Widerstand gegen die unentgeltliche Nutzung von Kunstwerken durch KI-Systeme rechtlich möglich wäre.",
+            "Drei scheinbar verschiedene Debatten – Militär-KI, Klimapolitik, Urheberrecht – zeigen dasselbe Grundproblem: Europa ringt darum, regulatorisch Schritt zu halten mit Technologien, die rascher transformieren als Gesetzgebungsprozesse."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Emissionshandel-Änderungen und KI-Regulierung betreffen die deutsche Industrie und den Technologiestandort Deutschland direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Einsatz von KI in militärischen Konflikten kombiniert mit stockender europäischer Regulierung ist eine größere politische Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Anthropic AI has joined the Ukraine war, after Russia took advantage (Ukraine Battlefield update, Day 1,660)",
+              "url": "https://euobserver.com/237001/anthropic-ai-has-joined-the-ukraine-war-after-russia-took-advantage-ukraine-battlefield-update-day-1660",
+              "publishedAt": "2026-09-11T14:22:54Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Lead centre-right MEP suggests softening emissions-trading to help 'suffering' industries",
+              "url": "https://euobserver.com/236956/lead-centre-right-mep-suggests-softening-emissions-trading-to-help-suffering-industries",
+              "publishedAt": "2026-09-11T13:55:16Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] Could musicians and dancers in Europe revolt against AI using their work? 'It should be possible', says performing arts boss",
+              "url": "https://euobserver.com/236584/interview-could-musicians-and-dancers-in-europe-revolt-against-ai-using-their-work-it-should-be-possible-says-performing-arts-boss",
+              "publishedAt": "2026-09-12T09:58:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ungarn unter Magyar weist russische Diplomaten aus – Kurswechsel in Budapest",
+          "summaryDe": [
+            "Die neue ungarische Regierung unter Péter Magyar hat zehn russische Diplomaten des Landes verwiesen – ein symbolisch gewichtiger Schritt, der den außenpolitischen Bruch mit Orbáns prorussischem Kurs besiegelt.",
+            "Budapest positioniert sich damit erstmals seit Jahren wieder klar im westlichen Sicherheitsgefüge, was innerhalb der NATO und der EU große Erleichterung auslöst.",
+            "Gleichzeitig begann die Regierung, Fidesz' lokale Machtstrukturen in den Landkreisen aufzulösen – eine innenpolitische Flankierung, die zeigt, wie tief der Umbau der ungarischen Politik greift.",
+            "Für die EU eröffnet das neue Spielräume: Budapest war jahrelang Vetospieler bei Russland-Sanktionen; ein loyal-westliches Ungarn könnte künftige Beschlüsse deutlich erleichtern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein pro-westliches Ungarn stärkt die EU-Geschlossenheit bei Russland-Sanktionen und Ukraine-Hilfe, wovon Deutschland als größter Netto-Beitragszahler und Sicherheitspartner direkt profitiert."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der außenpolitische Kurswechsel Ungarns ist eine größere Entwicklung im europäischen Sicherheitsgefüge nach Jahren des Blockierens."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Magyar's Hungary expels 10 Russian diplomats and dismantles Fidesz's county fiefdoms (Day 122 of the Tisza government)",
+              "url": "https://euobserver.com/236800/magyars-hungary-expels-10-russian-diplomats-and-dismantles-fideszs-county-fiefdoms-day-122-of-the-tisza-government",
+              "publishedAt": "2026-09-11T09:15:05Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Über 14.000 Kinder in Montenegro nicht geimpft – MMR-Vakzine werden geliefert",
+          "summaryDe": [
+            "Montenegrinische Behörden haben bekanntgegeben, dass derzeit 14.218 Kinder nicht gegen Masern, Mumps und Röteln geimpft sind – eine Zahl, die auf erhebliche Lücken im nationalen Immunisierungsprogramm hindeutet.",
+            "Neue MMR-Impfstofflieferungen sind auf dem Weg, um die Deckung zu verbessern; offen bleibt, warum die Bestände so lange nicht aufgefüllt wurden.",
+            "Für ein Land, das EU-Mitglied werden will und dabei auch Gesundheitsstandards zu erfüllen hat, ist ein solcher Befund politisch heikel.",
+            "Die Debatte in Montenegro ist ohnehin vielschichtig: Impfskepsis, logistische Probleme und mangelnde staatliche Kapazitäten spielen je nach Region unterschiedlich starke Rollen."
+          ],
+          "additionalImportant": "Ein Analyst argumentierte zudem, Montenegros EU-Weg setze voraus, die Ideologie der 'Serbischen Welt' zu überwinden – ein Hinweis darauf, dass identitätspolitische Fragen den Beitrittsprozess weiterhin belasten.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Thema betrifft Montenegro intern und hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevante Gesundheitspolitikfrage für Montenegro, jedoch ohne regionale oder internationale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Nije vakcinisano 14.218 djece, pristižu MMR vakcine",
+              "url": "https://www.pobjeda.me/clanak/nije-vakcinisano-14218-djece-pristizu-mmr-vakcine",
+              "publishedAt": "2026-09-12T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
