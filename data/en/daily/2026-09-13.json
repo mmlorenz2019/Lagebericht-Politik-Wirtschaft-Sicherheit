@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-13",
+  "generatedAt": "2026-09-13T09:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Court halts FEMA workforce reduction – Judge rules half-staffing plan illegal",
+          "summaryDe": [
+            "A federal judge has ruled the Department of Homeland Security's plan to reduce FEMA staff by half to be unlawful.",
+            "The court found that such a drastic personnel reduction would seriously impair the disaster response agency's ability to respond to natural disasters.",
+            "The decision comes amid hurricane season and public debate over the thinning of federal agencies under the Trump administration.",
+            "For critics, the ruling confirms that some of the planned cuts to government structures encounter legal limits."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The ruling affects exclusively US government structures with no discernible relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A judicial decision against a central policy measure of the Trump administration is domestically significant and raises fundamental questions about executive power."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Zlatnog lava u Veneciji osvojila „Nepoznata žena",
+              "url": "https://www.vijesti.me/vijesti/kultura/826453/zlatnog-lava-u-veneciji-osvojila-nepoznata-zena-filmu-o-ratu-u-gazi-specijalna-nagrada",
+              "publishedAt": "2026-09-13T08:11:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US crude oil price exceeds $102 per barrel – highest level since May",
+          "summaryDe": [
+            "For the first time since May, US crude oil prices have surpassed the $102 per barrel mark, driven by disruptions to global supply resulting from Middle Eastern conflict.",
+            "Particularly the situation around the Persian Gulf – with attacks on tankers and blockade of Saudi Arabia's east-west pipelines – fuels scarcity expectations in the markets.",
+            "Analysts emphasize that China's demand decisions are likely to be decisive: if Beijing slows imports, it could dampen the price increase – if it buys aggressively, further upward pressure threatens.",
+            "For the US economy, triple-digit oil prices create pressure on transport costs, heating oil, and already-strained household purchasing power."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising crude oil prices directly increase energy and production costs in Germany and amplify inflationary pressure."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Oil prices above $100 are a global economic factor with impacts on inflation, monetary policy, and growth worldwide."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Knjige poslije kojih literatura nije bila ista",
+              "url": "https://www.pobjeda.me/clanak/knjige-poslije-kojih-literatura-nije-bila-ista",
+              "publishedAt": "2026-09-13T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran and allies dominate two key oil transport routes",
+          "summaryDe": [
+            "Iran and its allies now effectively control two of the world's most important maritime oil transit corridors – the Persian Gulf and the Red Sea.",
+            "Iran's President Pezeshkian reaffirmed this week that his country will not yield to the US and Israel; simultaneously, Iran-linked militias attacked Saudi Arabian pipeline infrastructure.",
+            "The simultaneous deployment of diplomatic and military pressure gives Tehran a negotiating position that puts both Riyadh and Washington under pressure.",
+            "India's Prime Minister Modi appealed at the edge of the BRICS summit for dialogue and restraint, without apparent effect on the escalation dynamic."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Threatened oil transport routes increase energy prices and supply risks for Germany as an import-dependent economy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Control of global oil corridors by Iran-close actors is a systemic risk for international energy supply and the security situation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "AMSCG: Saobraćaj umjerenog intenziteta",
+              "url": "https://www.vijesti.me/vijesti/drustvo/826445/amscg-saobracaj-umjerenog-intenziteta",
+              "publishedAt": "2026-09-13T06:22:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "China plans global anti-corruption law – shielding against foreign investigations",
+          "summaryDe": [
+            "Beijing has submitted a draft law that would block extraterritorial anti-corruption investigations against China and enable countermeasures against foreign prosecution.",
+            "Analysts see a double-edged construction in this: the law protects Chinese companies and officials from Western authorities, but can also serve to contain its own illegal capital flight.",
+            "For internationally active firms with China business, new legal uncertainties emerge as the scope of Chinese jurisdiction effectively expands.",
+            "The draft follows a pattern in which China develops legal instruments that expand its own room for maneuver while constraining that of foreign actors."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German companies with a China presence could be directly affected by expanded Chinese legal norms."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An extraterritorially effective Chinese anti-corruption law would have far-reaching consequences for international business relations and legal certainty."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's anti-corruption law is going global. What does it mean for overseas firms?",
+              "url": "https://www.scmp.com/news/china/politics/article/3367286/chinas-anti-corruption-law-going-global-what-does-it-mean-overseas-firms",
+              "publishedAt": "2026-09-13T00:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China secures early port and energy contracts in war-torn Sudan",
+          "summaryDe": [
+            "Even as civil war continues in Sudan, China has already concluded initial agreements with the military-backed government on port and power infrastructure.",
+            "The approach follows a familiar strategy: early economic ties during fragile phases secure Beijing's position in later reconstruction and exclude competitors.",
+            "For Sudan itself, access to Chinese investment commitments is leverage in ongoing power struggles, but carries the risk of economic dependence.",
+            "The example illustrates how China's foreign economic policy increasingly treats conflict zones as strategic windows of opportunity."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's growing influence in Africa indirectly touches German interests in stability and fair competitive conditions on the continent."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "China's strategy of early contract agreements in conflict zones is a growing geopolitical pattern with global relevance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China bets on early port and power deals in Sudan to secure post-war economic edge",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3365972/china-bets-early-port-and-power-deals-sudan-secure-post-war-economic-edge",
+              "publishedAt": "2026-09-13T04:00:07Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "18th BRICS summit in New Delhi: de-dollarization and Xi's AI pledge in focus",
+          "summaryDe": [
+            "On the 20th anniversary of the BRICS bloc, heads of state and government met in New Delhi and agreed to expand trade in local currencies – a concrete step away from the dollar system, cast under the long shadow of US trade policy.",
+            "Xi Jinping used the occasion to announce AI and smart manufacturing initiatives for BRICS members and solidify China's role as technological anchor for the Global South.",
+            "Internally, however, cracks are showing: differing interests between old and new members hamper consensus-building, particularly on questions of common financial instruments.",
+            "At the edge of the summit, Iran's president Pezeshkian met the Crown Prince of the UAE – a meeting that carries diplomatic weight given escalation in the Persian Gulf."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Accelerated de-dollarization and a strengthened BRICS bloc could shift global trade and financial structures affecting Germany as well."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The BRICS summit with decisions on currency alternatives and AI cooperation is a significant geopolitical turning point for the Global South."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Internal splits threaten to slow Brics' progress as bloc looks back on 20 years of growth",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367252/internal-splits-threaten-slow-brics-progress-bloc-looks-back-20-years-growth",
+              "publishedAt": "2026-09-12T02:00:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Brics members find common ground on AI, trade and alternative payment expansion",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east",
+              "publishedAt": "2026-09-12T10:21:03Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Under Trump's shadow, Brics takes step towards de-dollarisation",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367315/under-trumps-shadow-brics-takes-step-towards-de-dollarisation",
+              "publishedAt": "2026-09-12T13:13:46Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese leader pledges to help Brics nations with AI and smart manufacturing",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367341/chinese-leader-pledges-help-brics-nations-ai-and-smart-manufacturing",
+              "publishedAt": "2026-09-13T06:45:56Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "New radar surveillance system in Montenegro records violations nationwide",
+          "summaryDe": [
+            "Montenegro has activated comprehensive radar systems for speed enforcement nationwide, which automatically capture violations and send fine notices directly to the home addresses of vehicle owners.",
+            "The system covers routes across the entire country and aims to sustainably improve traffic safety – in a nation with relatively high accident rates.",
+            "Whether implementation proceeds smoothly or political and bureaucratic hurdles emerge will become clear in the coming weeks.",
+            "The background also includes Montenegro's alignment with EU standards, of which modern traffic monitoring is part."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "A national Montenegrin traffic measure has no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The introduction of nationwide radar monitoring is domestically relevant but limited in its broader significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Novi radari već bilježe prekršaje širom Crne Gore: Kazne vozačima stižu na kućnu adresu",
+              "url": "https://www.pobjeda.me/clanak/novi-radari-vec-biljeze-prekrsaje-sirom-crne-gore-kazne-vozacima-stizu-na-kucnu-adresu",
+              "publishedAt": "2026-09-12T14:52:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Sweden's election approaches: conservatives and far-right neck and neck",
+          "summaryDe": [
+            "Sweden faces an extremely tight election outcome, with the center-right bloc and left opposition polling nearly tied.",
+            "Observers see in the election a stress test for the new European model in which moderate conservatives openly govern with right-nationalist parties – an arrangement already established practice in Sweden under Kristersson.",
+            "Depending on the outcome, the result could further shift EU debates over migration, climate policy, and defense spending, as Sweden's weight as a mid-sized member state with a stable economy should not be underestimated.",
+            "For European domestic politics, a renewed mandate for the conservative-right-populist coalition would signal that this governing model is normalizing beyond individual cases."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A renewed right-conservative mandate in Sweden could influence EU-wide debates but affects Germany only indirectly."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Sweden's election has signal value for the normalization of conservative-right-populist governments in the EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "supraregional",
+              "titleOriginal": "How to watch Sweden's election like a pro",
+              "url": "https://www.politico.eu/article/how-to-watch-sweden-election-like-pro",
+              "publishedAt": "2026-09-13T02:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "ECB raises rates again – Hormuz crisis drives energy inflation to 14.3 percent",
+          "summaryDe": [
+            "The European Central Bank has raised its benchmark rates once more after disruptions in the Strait of Hormuz led to energy inflation rising 14.3 percent year-on-year.",
+            "Thus the ECB continues its restrictive course despite the external nature of price pressure – triggered by geopolitical events, not domestic demand – limiting the utility of rate increases.",
+            "For households and businesses, the combination of higher energy costs and rising borrowing rates creates dual strain that dampens investment and consumption.",
+            "The decision reflects the central bank's dilemma: fighting inflation at the expense of growth as long as geopolitical uncertainty persists."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "ECB rate decisions and rising energy prices directly impact Germany as the largest economy in the eurozone."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Another ECB rate hike due to geopolitically driven energy price increases is an extraordinary, systemically relevant event for the entire eurozone."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "ECB raises rates again as Strait of Hormuz disruption drives up gas prices",
+              "url": "https://euobserver.com/236650/ecb-raises-rates-again-as-hormuz-disruption-drives-up-gas-prices",
+              "publishedAt": "2026-09-10T14:42:40Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU approves €6.1 billion for Ukraine's air defense and drone alliance",
+          "summaryDe": [
+            "The European Commission has released an additional €6.1 billion to strengthen Ukraine's air and missile defense, ammunition supply, drone capabilities, and electronic warfare.",
+            "Simultaneously, the first board meeting of the newly established EU-Ukraine Drone Alliance took place – an institutional step that formalizes long-term European defense cooperation with Kyiv.",
+            "The package shows that the EU is not reducing support despite ongoing budget debates, but is instead strategically expanding toward more technologically demanding capabilities.",
+            "Russia's continued use of drones and cruise missiles against Ukrainian cities had recently underscored the urgent need for strengthened air defense."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany as a major EU contributor funds the package and is integrated into the drone alliance."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A €6.1 billion package with an institutional drone alliance is an extraordinary, long-term escalation of EU support for Ukraine."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion to support Ukraine's air and missile defence and other defence needs",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829",
+              "publishedAt": "2026-09-10T22:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
