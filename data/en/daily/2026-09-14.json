@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-14",
+  "generatedAt": "2026-09-14T11:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Pennsylvania meldet dritten Masern-Todesfall in weniger als drei Wochen",
+          "summaryDe": [
+            "Pennsylvania has confirmed a third measles death within less than three weeks – all deceased were unvaccinated.",
+            "The outbreak highlights the persistent decline in vaccination rates in parts of the USA, a trend authorities have been monitoring for years.",
+            "Public health experts had considered such clustering of severe cases possible after measles vaccinations became politically controversial in some communities.",
+            "The cases are likely to increase pressure on federal and state authorities to reassess vaccination requirements for schools and community facilities."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A similar decline in measles vaccination rates is also observable in Germany; the US case can serve as a warning signal for German health authorities."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Three deaths within weeks from a vaccine-preventable disease represent a clear public health signal with political impact."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Why Reform's donation will change British politics",
+              "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/why-reforms-donation-will-change-british-politics",
+              "publishedAt": "2026-09-14T07:36:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EPA streicht Klimaauflagen für Kraftwerke – zweitgrößte CO₂-Quelle der USA entreguliert",
+          "summaryDe": [
+            "The US Environmental Protection Agency is lifting emissions limits for power plants, which rank as the second-largest source of greenhouse gases in the country.",
+            "This reverses climate protection regulations introduced under the Biden administration, substantially undermining long-term US climate goals.",
+            "Energy companies have welcomed the move as economic relief, while environmental organizations have announced legal action.",
+            "Internationally, the decision sends a signal likely to complicate negotiations over global climate frameworks with US participation."
+          ],
+          "additionalImportant": "In parallel, President Trump rejected stronger regulation of AI development, citing competition with China – a pattern visible across multiple policy areas simultaneously.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The rollback of US climate regulations affects international climate negotiations and competitive pressure on European industrial companies."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Deregulation affecting the second-largest national CO₂ sector has systemic implications for global climate policy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "EU fails to agree Russia sanctions rollover with one day to spare",
+              "url": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare",
+              "publishedAt": "2026-09-14T08:27:14Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russische Drohne trifft Zug nahe ukrainisch-polnischer Grenze kurz nach Durchfahrt hochrangiger Gäste",
+          "summaryDe": [
+            "A Russian drone struck a train near the Ukrainian-Polish border shortly after high-ranking foreign dignitaries had passed through the same corridor.",
+            "The timing of the attack suggests either deliberate intimidation or points to Russian reconnaissance capabilities along this supply axis.",
+            "The route serves as a critical supply corridor for Western military aid to Ukraine and thus holds strategic interest for Russia.",
+            "Such an incident so near the NATO outer border is likely to reignite debate over protective measures for civilian and military transport routes in the region."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is a central transit country for military aid to Ukraine; attacks on transport routes thus affect German logistics planning as well."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A drone attack near the NATO border with possible strategic calculation represents an exceptionally escalation-relevant incident."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Sudbina MCP i Joanikija zavisiće od ishoda izbora u Srbiji",
+              "url": "https://www.pobjeda.me/clanak/sudbina-mcp-i-joanikija-zavisice-od-ishoda-izbora-u-srbiji",
+              "publishedAt": "2026-09-14T07:02:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas Staatsicherheitsminister warnt vor KI als neuem Feld strategischer Rivalität",
+          "summaryDe": [
+            "China's state security minister has publicly warned of the risks posed by artificial intelligence, explicitly referring to it as a new arena for strategic competition.",
+            "The unusually open appearance by the otherwise rarely visible intelligence chief underscores how seriously Beijing takes the AI security question at the highest government level.",
+            "Robust prevention frameworks were called for – a signal that China internally recognizes both opportunities and vulnerabilities in AI development.",
+            "Notable is the timing: the statement falls during a period when Western states and China are alike discussing AI regulation, but setting different priorities."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "AI regulation debates in China indirectly influence international norm-setting in which Germany is also actively engaged."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A public warning by the intelligence chief on AI is a rare and politically weighty signal from Chinese leadership."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's intelligence chief warns of risks from AI as 'new arena for strategic rivalry'",
+              "url": "https://www.scmp.com/news/china/politics/article/3367349/chinas-intelligence-chief-warns-risks-ai-new-arena-strategic-rivalry",
+              "publishedAt": "2026-09-14T00:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas FAST-Teleskop übernimmt globale Führung bei neutralem Wasserstoff-Katalog",
+          "summaryDe": [
+            "China's FAST telescope has compiled the world's largest catalog of neutral hydrogen, displacing the previous US reference survey.",
+            "Neutral hydrogen is regarded as the cosmic raw material of star formation; its precise mapping enables fundamental new insights into galaxy structure and evolution.",
+            "For China, the success is part of a targeted strategy to occupy leading international positions in basic research – with long-term implications for global science diplomacy.",
+            "The result demonstrates that state-funded astronomical megainfrastructure can increasingly emerge outside Western institutions."
+          ],
+          "additionalImportant": "Also reported: Chinese scientists have developed a new oil refining method that could cut energy consumption by up to 90 percent – if confirmed, this would be highly industrially relevant.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's growing role in basic research indirectly influences international cooperation structures in which German research institutions are also involved."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The displacement of a US reference work by Chinese research infrastructure represents both a symbolic and scientifically significant shift."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's FAST telescope maps neutral hydrogen, the cosmic gas for making stars",
+              "url": "https://www.scmp.com/news/china/science/article/3367154/chinas-fast-telescope-maps-neutral-hydrogen-cosmic-gas-making-stars",
+              "publishedAt": "2026-09-13T12:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "H-6N-Bomber demonstriert nuklearfähige Luft-Boden-Rakete – Chinas Zweitschlagfähigkeit wächst",
+          "summaryDe": [
+            "China has publicly unveiled the nuclear-capable air-to-ground ballistic missile Jing Lei-1, fired from the H-6N bomber, thereby communicating a qualitatively new component of its nuclear deterrence strategy.",
+            "The capability for second-strike from the air is regarded as strategically particularly valuable, as bombers – unlike ground-based systems – remain deployable even after an initial attack.",
+            "The demonstration follows a period in which Beijing has expanded its nuclear forces overall – a trend that increasingly concerns Western arms controllers.",
+            "For the USA and its Pacific allies, as well as for European NATO states, this perceptibly shifts the picture of Chinese strategic capabilities."
+          ],
+          "additionalImportant": "At the same time, China has offered at the BRICS summit to support member states in AI and intelligent manufacturing – a move designed to entrench economic and geopolitical ties to China.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's growing nuclear capabilities primarily affect the Pacific but indirectly touch European security architecture and NATO planning."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The public presentation of a nuclear-capable air-to-ground missile represents an exceptional security policy development with global weight."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "For China, H-6N bomber enhances nuclear deterrence and second-strike capability",
+              "url": "https://www.scmp.com/news/china/military/article/3367350/china-h-6n-bomber-enhances-nuclear-deterrence-and-second-strike-capability",
+              "publishedAt": "2026-09-13T14:00:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Orthodoxe Kirche Serbiens unter Beschuss: Ermittlungsportal veröffentlicht Fotos und angebliche Sky-Chats",
+          "summaryDe": [
+            "A Bosnian-Herzegovinian investigative portal has published photographs and alleged encrypted communications purporting to link leaders of the Serbian Orthodox Church with individuals from criminal circles.",
+            "Patriarch Porfirije is reportedly among those affected, a development that has triggered significant political and religious reactions in the region.",
+            "Sky-ECC chats have been used as evidence in criminal proceedings in several Balkan countries in recent years; their authenticity must in each case be verified judicially.",
+            "In Montenegro, where the role of the Serbian Orthodox Church has been politically contested for years, the allegations are likely to further intensify the already tense debate over church property and state sovereignty."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The incident concerns internal church-political and criminological circumstances in the Western Balkans without apparent direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Allegations against the leadership of a regionally influential church and criminal networks constitute a significant sociopolitical development in the Western Balkans."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Bosanskohercegovački portal istraga.ba objavio fotografije i navodne Sky prepiske: Vrh SPC i Porfirije povezani sa osobama bliskim kriminalnim klanovima?",
+              "url": "https://www.pobjeda.me/clanak/bosanskohercegovacki-portal-istragaba-objavio-fotografije-i-navodne-sky-prepiske-vrh-spc-i-porfirije-povezani-sa-osobama-bliskim-kriminalnim-klanovima",
+              "publishedAt": "2026-09-14T06:43:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Kroatischer HDZ-Parlamentarier: EU nimmt Montenegros offene Beitrittsfragen ernst",
+          "summaryDe": [
+            "A Croatian ruling-party HDZ parliamentarian has stated that the EU listens to concrete concerns regarding unresolved questions in Montenegro's accession negotiations.",
+            "The statement is noteworthy in that Croatia, as the newest EU member from the Western Balkans, traditionally assumes a bridging role in such debates.",
+            "Montenegro is regarded as the formally most advanced accession candidate in the region, but struggles with rule-of-law deficits that block the conclusion of individual negotiation chapters.",
+            "Constructive accompaniment by neighboring states such as Croatia can increase political pressure on Podgorica to advance outstanding reforms."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany actively supports EU enlargement in the Western Balkans; progress or blockages in Montenegro's accession process indirectly affect this policy."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The statement is a diplomatic signal without immediate decision-making relevance, but with significance for the accession process."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Tukao bivšu partnerku, pa joj prijetio da će baciti bombu i ubiti njenu porodicu",
+              "url": "https://www.pobjeda.me/clanak/tukao-bivsu-partnerku-pa-joj-prijetio-da-ce-baciti-bombu-i-ubiti-njenu-porodicu",
+              "publishedAt": "2026-09-14T09:22:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Schwedische Wahl: Linkes Oppositionsbündnis liegt knapp vor konservativem Regierungsblock",
+          "summaryDe": [
+            "Sweden's parliamentary election has produced an extremely close result: the left-oriented opposition alliance leads the incumbent center-right government bloc by a razor-thin margin, according to initial counts.",
+            "Particularly notable is the decline of the far-right Sweden Democrats, who had been touted in advance as potential kingmakers.",
+            "Should the result hold, Sweden would shift after years of conservative government involving right-populist participation to a left-liberal bloc.",
+            "The outcome is being watched closely across Europe, as Sweden, with its experience as EU Council president and as a new NATO member, plays a relevant role in security and climate policy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A government change in Sweden indirectly influences internal EU voting patterns on issues such as climate and security policy that also affect Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A power shift in a Scandinavian NATO and EU member state is a politically significant development with European resonance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "THIS WEEK: Canada's Carney attends von der Leyen's State of the Union, as new talks on Russian frozen assets for Ukraine return to EU agenda",
+              "url": "https://euobserver.com/236942/this-week-canadas-carney-attends-von-der-leyens-state-of-the-union-as-new-talks-on-russian-frozen-assets-for-ukraine-return-to-eu-agenda",
+              "publishedAt": "2026-09-14T04:00:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Švedska: Opozicija lijevog centra na putu da formira novu vladu,...",
+              "url": "https://www.vijesti.me/svijet/evropa/826579/svedska-opozicija-lijevog-centra-na-putu-da-formira-novu-vladu-ima-tijesnu-prednost-nad-desnicarskim-strankama",
+              "publishedAt": "2026-09-14T08:21:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU legt Freihandelsabkommen mit Indien dem Rat vor – historisches Projekt nach jahrelangen Verhandlungen",
+          "summaryDe": [
+            "The European Commission has submitted the finalized free trade agreement with India to the Council for signature and conclusion.",
+            "After more than a decade of stalled negotiations, such an agreement would be the largest bilateral trade agreement in EU history when measured by the partner country's population.",
+            "For Germany as an export-oriented economy with strong interests in India – from the automotive industry to chemicals – the agreement would have direct economic consequences.",
+            "The Council and European Parliament must still approve; political resistance to individual chapters, such as those on agriculture and services, cannot be ruled out."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany directly benefits as one of the largest EU exporters from improved market access to India in key sectors such as automotive and machinery."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "An EU-India free trade agreement would represent a historic shift with global trade policy weight."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion to support Ukraine's air and missile defence and other defence needs",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829",
+              "publishedAt": "2026-09-10T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU scheitert einen Tag vor Ablauf an Einigung zur Verlängerung der Russland-Sanktionen",
+          "summaryDe": [
+            "EU member states failed to agree on extending Russia sanctions with only one day remaining before the deadline – a rare and politically explosive development.",
+            "It remains unclear which member state or group of states is blocking the extension; such blockades typically occur through a veto in the Council.",
+            "Should the sanctions even briefly lapse, frozen Russian assets worth billions would be unfrozen, significantly amplifying the political damage.",
+            "The development sends a difficult signal to Kyiv and Western partners at a moment when maintaining pressure on Russia is crucial."
+          ],
+          "additionalImportant": "In parallel, Canadian Prime Minister Carney is exploring a closer alliance with the EU as a response to Trump's trade policies – another sign of the ongoing reordering of Western economic relations.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany holds substantial shares of frozen Russian assets and would be directly affected legally and politically in the event of sanctions lapse."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A failure to extend sanctions would be a systemic setback for Western Russia policy with immediate financial and diplomatic consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "EU fails to agree Russia sanctions rollover with one day to spare",
+              "url": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare",
+              "publishedAt": "2026-09-14T08:27:14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

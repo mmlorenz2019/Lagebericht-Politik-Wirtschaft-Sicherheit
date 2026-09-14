@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 3,
+  "periodType": "week",
+  "periodStart": "2026-09-07",
+  "periodEnd": "2026-09-13",
+  "generatedAt": "2026-09-14T09:25:33.488501Z",
+  "status": "complete",
+  "overallSummary": [
+    "The week of September 7-13, 2026 was characterized by a dangerous concentration of geopolitical risks that mutually reinforce each other and can hardly be viewed in isolation.",
+    "The most severe single shock was triggered by direct military confrontation between the USA and Iran: After US forces sank five Iranian tankers and Iran responded with rocket attacks on Jordan, crude oil prices rose above $102 per barrel, and the ECB reacted with another interest rate hike in response to energy inflation of 14.3 percent.",
+    "In parallel, the situation in the Red Sea escalated further: Houthi militias captured a strategic island at the Bab-el-Mandeb Strait, attacked Saudi Arabian pipeline infrastructure, and together with Iran effectively controlled two of the world's most important maritime oil corridors.",
+    "In Germany and Europe, the historic AfD landslide victory in Saxony-Anhalt with 43.8 percent dominated the political agenda: For the first time since 1945, a party classified as secured far-right extremist became the strongest force in a German federal state, triggering bans discussions, coalition stress, and concern across Europe.",
+    "China used the week for a concerted diplomatic offensive: Xi Jinping traveled to India for the first time in seven years, prepared his Washington visit, campaigned at the BRICS summit for AI industrialization and a move away from the dollar system, and demonstrated militarily through increased armament toward Taiwan.",
+    "In Brussels, the EU responded on multiple fronts simultaneously: It approved €6.1 billion for Ukraine's air defense, condemned the Russian sabotage attack on Leipzig/Halle airport, courted Greenland with a €200 million investment package against US annexation plans, and passed the European Innovation Act.",
+    "Montenegro remained on the radar due to domestic instability: an attempt to recall parliamentary speaker Mandić, prison protests, violent crimes, and a vaccination deficit affecting over 14,000 children burdened the institutional credibility of the EU accession candidate.",
+    "Hungary under new Premier Magyar sent a positive signal to Brussels by expelling ten Russian diplomats and ending Orbán's pro-Russian course – a shift that is likely to ease future EU sanctions decisions.",
+    "Overall, the week demonstrates: energy supply, inflation, and security risks are now closely interlinked, and the international order is under pressure due to simultaneous escalation in multiple conflict zones."
+  ],
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Zwischen Midterm-Mobilisierung und innenpolitischer Erosion: USA im Wahljahr-Stress",
+          "summaryDe": [
+            "The Republican midterm conference in Dallas – a format without historical precedent – set the tone for the final stretch: President Trump promised every adult US citizen a 'Trump dividend' of $5,000 in the event that Republicans hold Congress, without naming the counter-financing.",
+            "The inflation rate stood at 3.4 percent in August; rising diesel and mortgage costs due to the Iran war significantly complicated Trump's domestic political message and caused resentment even in conservative circles.",
+            "Simultaneously, the government suffered legal defeats: A federal judge struck down the planned halving of FEMA staffing as unlawful, and another court halted the forced continued operation of a coal power plant in Michigan.",
+            "A special counsel appointed to investigate political opponents resigned – another fissure in the domestic political fabric.",
+            "Vice President Vance used the party convention to raise his own profile for 2028, while reports became public that he had internally received much more sober situation assessments regarding the Iran war than he communicated publicly."
+          ],
+          "contextDe": [
+            "The USA is in a phase where geopolitical conflicts directly impact domestic politics: The Iran war drives up energy prices, inflation remains above target, and the government simultaneously fights against legal constraints on multiple fronts.",
+            "Trump's strategy of branding Democrats as a 'communist caucus' and mobilizing his base with direct payment promises carries the risk of alienating moderate voters who prioritize economy and stability.",
+            "The outcome of the midterms will largely depend on whether voters attribute persistent inflation and the costs of the Iran war to the administration or external circumstances."
+          ],
+          "additionalImportant": "An Amazon cargo plane crash at Miami Airport with five fatalities was investigated by the NTSB; the wreckage came to rest approximately 400 meters past the runway end. The Supreme Court also rejected another Trump administration request to restrict mail-in voting.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Trump's domestic course and campaign strategy influence the reliability of transatlantic cooperation and thus indirectly affect Germany's security and trade policy planning."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A government under growing legal, economic, and domestic political pressure ahead of decisive midterm elections is an important stability signal for the world's largest democracy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcasting",
+              "titleOriginal": "Trump remains focus of GOP's midterm campaign as convention wraps",
+              "url": "https://www.pbs.org/newshour/show/trump-remains-focus-of-gops-midterm-campaign-as-convention-wraps",
+              "publishedAt": "2026-09-11T22:40:47Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "Republicans, Facing Midterm Peril, Try to Brand Democrats as Communists",
+              "url": "https://www.nytimes.com/2026/09/12/us/politics/trump-democrats-communism-midterms.html",
+              "publishedAt": "2026-09-12T09:00:09Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Trump pledges a $5,000 'dividend' to all US adults if the GOP wins the midterms",
+              "url": "https://www.politico.com/news/2026/09/09/trump-pledges-a-5-000-dividend-to-all-us-adults-if-the-gop-wins-the-midterms-01070322",
+              "publishedAt": "2026-09-10T03:48:16Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcasting",
+              "titleOriginal": "News Wrap: August inflation report shows consumer prices up 3.4%",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-august-inflation-report-shows-consumer-prices-up-3-4",
+              "publishedAt": "2026-09-11T22:45:43Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Iran-Krieg und Rotes Meer treiben Ölpreis auf über 102 Dollar – US-Wirtschaft unter Energieschock",
+          "summaryDe": [
+            "Crude oil exceeded the $102 per barrel mark for the first time since May 2026 in the reporting week, driven by military escalation in the Persian Gulf, attacks on Saudi pipelines, and Houthi occupation of a key island at the Bab-el-Mandeb Strait.",
+            "US diesel reached a record high of six dollars per gallon; the combination of energy costs and rising mortgage rates directly hit households and worsened the economic climate ahead of the midterms.",
+            "Canada responded to Trump's trade policy with retaliatory tariffs worth $20 billion on US goods, particularly on steel and aluminum, further escalating the bilateral trade dispute.",
+            "Apple presented the foldable iPhone Duo for $1,999, the most radical design update in two decades, directly attacking Samsung's core business; TSMC simultaneously reported a 53 percent revenue increase.",
+            "AI security concerns became high-profile: An Anthropic researcher quit and warned that AI has more than a ten percent chance of killing all humans; Anthropic accused Chinese companies of secretly routing user queries through their own models."
+          ],
+          "contextDe": [
+            "Three-digit oil prices are historically always associated with recession risks; this time the energy shock hits a US economy already struggling with inflation above target and political polarization.",
+            "The escalating trade war with Canada – the US's closest trade partner – creates additional supply chain disruptions in steel and aluminum, precisely in sectors the administration declared strategically important to protect.",
+            "The overlap of AI competition and geopolitical tensions is also evident in the technology sector: regulatory uncertainty, security debates, and US-China confrontation compound each other."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising oil prices directly increase energy and production costs in Germany; the US-Canada trade war and Apple chip demand influence global supply chains in which German suppliers are embedded."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Oil prices above $100 due to military escalation, record-high diesel prices, and an escalating trade dispute between two of the world's most closely integrated economies are systemically significant economic developments."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline",
+              "url": "https://www.nytimes.com/2026/09/11/business/iran-war-hormuz-red-sea.html",
+              "publishedAt": "2026-09-12T00:50:20Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Yemen's Houthis capture a Red Sea island in threat to shipping",
+              "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
+              "publishedAt": "2026-09-12T05:57:08Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcasting",
+              "titleOriginal": "A whiplash election year enters its final stretch as Trump holds wild cards",
+              "url": "https://www.pbs.org/newshour/politics/a-whiplash-election-year-enters-its-final-stretch-as-trump-holds-wild-cards",
+              "publishedAt": "2026-09-07T19:30:39Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA im direkten Militärkonflikt mit Iran – Hormuz und Rotes Meer als globale Sprengpunkte",
+          "summaryDe": [
+            "What began as a tanker attack developed into direct military confrontation: US forces sank five Iranian oil tankers, Iran responded with rocket attacks on Jordanian territory, and Trump publicly threatened strikes on Iran's nuclear facilities.",
+            "In parallel, Houthi militias captured a strategic island at the entrance to the Bab-el-Mandeb and shut down the Saudi east-west pipeline after drone attacks – thereby positioning Iran-aligned actors to control two of the world's most important global oil corridors.",
+            "Trump announced comprehensive banking sanctions against Iran starting Monday; Foreign Secretary Rubio traveled to Latin America to counter Chinese influence, and Trump's territorial rhetoric toward Canada, Iceland, and Greenland provoked diplomatic outrage from several allies.",
+            "The USA simultaneously opened the long-awaited racketeering trial against Huawei in Brooklyn, with the first hearing days coinciding with diplomatic preparations for an Xi-Washington summit.",
+            "Russia and North Korea opened their first joint road connection – a structural step that facilitates material transport for the Ukraine war and undermines Western sanctions strategy."
+          ],
+          "contextDe": [
+            "The Strait of Hormuz is the bottleneck for approximately 20 percent of globally traded oil; any sustained disruption would have immediate consequences for energy prices, inflation, and economic growth worldwide.",
+            "The connection between US-Iran war, Houthi activities, and Russia-North Korea cooperation shows how various geopolitical conflict zones increasingly support and reinforce each other.",
+            "For NATO and the EU, simultaneous escalation at multiple fronts represents a dramatic expansion of the security agenda for which institutional responses still need to be developed."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A sustained disruption of the Hormuz route directly impacts Germany as an energy-import-dependent export nation; the Russian-North Korean land connection influences the Ukraine war and thus Germany's security and defense planning directly."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "An active military conflict between the USA and Iran over the world's most important sea lane combined with a new Russia-North Korea land connection is a systemically extraordinary security event with global reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Yemen's Houthis capture a Red Sea island in threat to shipping",
+              "url": "https://www.npr.org/2026/09/12/g-s1-143044/yemens-houthis-capture-red-sea-island",
+              "publishedAt": "2026-09-12T05:57:08Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcasting",
+              "titleOriginal": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
+              "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports",
+              "publishedAt": "2026-09-11T22:50:58Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline",
+              "url": "https://www.nytimes.com/2026/09/11/business/iran-war-hormuz-red-sea.html",
+              "publishedAt": "2026-09-12T00:50:20Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "What to Know About Cargo Plane That Overran Its Runway, Killing 5 in Miami",
+              "url": "https://www.nytimes.com/2026/09/06/us/miami-plane-crash-what-we-know.html",
+              "publishedAt": "2026-09-07T03:40:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "KPCh sichert innere Stabilität vor Parteitag – KI wird zur Doktrin des intelligenten Kriegs",
+          "summaryDe": [
+            "The CCP has quietly and without public announcement established a new high-level task force for social governance – exactly one year before the 21st National Congress, a timing when Beijing routinely tightens control mechanisms.",
+            "In parallel, it became known that a Chinese military university is to fundamentally reorient its AI curriculum for doctoral candidates toward war preparation: combat scenarios are to shape daily study rather than abstract theory.",
+            "At Qingdao port, a devastating fire broke out on a foreign freighter, killing 25 people – a disaster that raises questions about safety oversight at one of East Asia's busiest ports.",
+            "China's first Fields Medal winner of the year generated positive headlines and became a national symbol of China's growing fundamental research capacity."
+          ],
+          "contextDe": [
+            "The quiet establishment of a stability task force shortly before a party congress is a reliable pattern of the CCP and indicates perceived internal need for action.",
+            "The linking of academic AI education and military doctrine shows how explicitly China aligns its research institutions with strategic objectives – a development Western military analysts have observed for years.",
+            "Together – civil stability control and military AI doctrine – frame China's preparation for a phase of heightened external and internal tensions."
+          ],
+          "additionalImportant": "Beijing expanded tax obligations for wealthy citizens to include offshore assets and foreign real estate – a step to strengthen state financial control likely to influence the behavior of wealthy Chinese abroad.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's military AI doctrine is relevant to Western security assessment long-term; immediate consequences for Germany are not evident currently."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The explicit war orientation of military AI education and the institutionalization of stability control before a party congress are significant indicators of China's strategic alignment."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's Communist Party quietly signals social stability push with new high-level body",
+              "url": "https://www.scmp.com/news/china/politics/article/3366894/chinas-communist-party-quietly-signals-social-stability-push-new-high-level-body",
+              "publishedAt": "2026-09-10T02:00:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese military university urged to revise AI course to 'educate for war'",
+              "url": "https://www.scmp.com/news/china/military/article/3366490/chinese-military-university-urged-revise-ai-course-educate-war",
+              "publishedAt": "2026-09-06T06:00:16Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas Technologiestrategie: Hochreinheitsquarz, Wasserstoffzellen, KI-Industrialisierung und Afrika-Offensive",
+          "summaryDe": [
+            "Chinese scientists identified a quartz deposit in central China whose purity, according to the study, is comparable to the strategically significant US deposit in Spruce Pine – a potential breakthrough in Western supply chain strategy for chips and solar panels.",
+            "Another research team reported a quadrupling of electrical output power from hydrogen fuel cells through a new architecture, which could significantly strengthen China's position in the global hydrogen market.",
+            "At the BRICS summit in New Delhi, Xi Jinping campaigned for an AI-enabled industrialization initiative and positioned China as a technological anchor for the Global South – supported by China's and Singapore's PISA top rankings.",
+            "In Africa, Chinese solar and storage technologies are displacing US oil offerings; in Sudan, Beijing already secured port and power infrastructure contracts during the ongoing civil war.",
+            "China launched the world's largest facility for iron extraction from mining waste with annual capacity of 5.56 million tons – a direct response to structural import dependence on iron ore."
+          ],
+          "contextDe": [
+            "The simultaneous progress in quartz, hydrogen, and iron extraction demonstrates a coherent pattern: China is systematically working to reduce dependencies on Western-controlled raw material and technology sources.",
+            "The BRICS AI initiative and Africa strategy complement each other: While Washington relies on energy exports, Beijing offers infrastructure partnerships based on renewable energy – with lasting binding effects for developing countries.",
+            "For Germany as a leading industrial nation, Chinese competition in key markets creates both risks and opportunities through possible market developments, such as in hydrogen technology."
+          ],
+          "additionalImportant": "A Chinese-German research team has developed a highly sensitive magnetic sensor for dark matter research – a rare example of productive scientific cooperation despite political tensions.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "China's advances in high-purity quartz, hydrogen technology, and iron extraction directly affect German semiconductor, energy, and steel industries; displacement competition in Africa also impacts German exporters."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Multiple technological breakthroughs combined with strategic raw material security and BRICS AI diplomacy demonstrate China's broad industrial policy offensive with global reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Purity of China quartz deposit 'highly similar' to US Spruce Pine standard: study",
+              "url": "https://www.scmp.com/news/china/science/article/3366916/quartz-deposit-purity-central-china-highly-similar-us-spruce-pine-standard-study",
+              "publishedAt": "2026-09-09T09:12:19Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese scientists boost hydrogen fuel cell power fourfold with new design",
+              "url": "https://www.scmp.com/news/china/science/article/3367077/chinese-scientists-boost-hydrogen-fuel-cell-power-fourfold-new-design",
+              "publishedAt": "2026-09-10T18:00:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Brics members find common ground on AI, trade and alternative payment expansion",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east",
+              "publishedAt": "2026-09-12T10:21:03Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "How China's green tech is undercutting Trump's 'drill, baby, drill' oil strategy in Africa",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366527/how-chinas-green-tech-undercutting-trumps-drill-baby-drill-oil-strategy-africa",
+              "publishedAt": "2026-09-07T04:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi's diplomatische Großoffensive: Indien, BRICS, Washington-Gipfel und Taiwan-Straße als Bühnen",
+          "summaryDe": [
+            "Xi Jinping traveled to India for the first time since the 2020 border conflict and met Modi at the BRICS summit in New Delhi for bilateral talks, where he signaled 'ample room' for mutual learning – a diplomatic thaw after years of freezing.",
+            "At the summit itself, BRICS states decided to expand trade in local currencies, and Xi assured technological support for AI and smart manufacturing; however, internal rivalries between members hinder collective action capacity.",
+            "Ahead of his Washington visit, Xi traveled extensively through Central Asia and the Middle East, concluded cooperation agreements with Qatar in energy and AI, and signaled willingness to mediate a Trump-Kim meeting.",
+            "Militarily, China armed itself across the Taiwan Strait – deployment of 155mm self-propelled howitzers, development of autonomous drone swarms, and disclosure of stealth aircraft J-50 capabilities – while F-16 delivery to Taiwan remained stuck in Hawaii.",
+            "Canada and China held official military talks for the first time in eight years, and the Central Asian railway achieved a symbolically important milestone with the breakthrough of its first tunnel."
+          ],
+          "contextDe": [
+            "The combination of diplomatic rapprochement with India and military buildup across Taiwan demonstrates China's tactic: build broad international legitimacy while simultaneously consolidating regional power positions.",
+            "The BRICS de-dollarization step is symbolically laden, but the gradual expansion of local currency trade creates real alternatives to dollar-based systems that can shift global trading structures long-term.",
+            "For the EU and Germany, Xi's diplomatic offensive means China is actively strengthening its negotiating position for the Washington summit – with implications for technology policy, trade issues, and geopolitical alliances."
+          ],
+          "additionalImportant": "Hong Kong court sentenced three Tiananmen memorial organizers to five to seven years in prison – internationally viewed as another signal of democratic backsliding. Philippine armed forces also reported Chinese military firing flares at Philippine aircraft over disputed reefs.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Xi's diplomacy ahead of the Washington summit, BRICS de-dollarization, and military buildup across Taiwan affect global trade and security structures on which Germany as an export-oriented economy and NATO member depends."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A coordinated diplomatic push on multiple continents, combined with coordinated military modernization and a historically rare Xi-Modi summit, is of extraordinary international significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's Xi Jinping to make first trip to India in 7 years for Brics summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367062/chinas-xi-jinping-make-first-trip-india-7-years-brics-summit",
+              "publishedAt": "2026-09-10T10:03:01Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Beijing boosts Taiwan-facing firepower with brigade-level 155mm howitzer deployment",
+              "url": "https://www.scmp.com/news/china/military/article/3366928/beijing-boosts-taiwan-facing-firepower-brigade-level-155mm-howitzer-deployment",
+              "publishedAt": "2026-09-09T13:00:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Under Trump's shadow, Brics takes step towards de-dollarisation",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367315/under-trumps-shadow-brics-takes-step-towards-de-dollarisation",
+              "publishedAt": "2026-09-12T13:13:46Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "As clock counts down to Trump summit, Xi boosts global clout with diplomatic blitz",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3366643/clock-counts-down-trump-summit-xi-boosts-global-clout-diplomatic-blitz",
+              "publishedAt": "2026-09-07T15:00:11Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Institutionelle Instabilität, Justizprobleme und Gesundheitsdefizite prägen Montenegros Innenpolitik",
+          "summaryDe": [
+            "In Montenegro's parliament, a broad opposition coalition of DPS, URA, Bosniak Party, European Alliance, and Albanian parties collected 35 signatures for the removal of parliamentary speaker Andrija Mandić – whether a sufficient majority appears at the September 24 session remains uncertain according to analysts.",
+            "Prison inmates continued their hunger strike, claiming they were convicted on the day of their arrest; serious crime cases such as the arrest of a murder suspect and a triple homicide in Danilovgrad burdened public safety perception.",
+            "Health-wise, authorities reported that 14,218 children lack vaccination against measles, mumps, and rubella; deliveries of new vaccines were announced without the causes of the supply gap being publicly clarified.",
+            "Meanwhile, Montenegro's president traveled with military honors to Ulaanbaatar and signed bilateral agreements with Mongolia – diplomacy with symbolic weight but limited practical reach."
+          ],
+          "contextDe": [
+            "The simultaneous weakening of parliamentary legitimacy, judicial confidence, and health provision characterizes a country that must manage structural reform deficits before its EU accession bid.",
+            "For the EU accession process, such weaknesses in rule of law and administrative capacity are explicitly relevant criteria; persistent instability lengthens the accession timeline.",
+            "Identity political tensions – illustrated by demands to remove Mladić graffiti and legal proceedings against a church dignitary – overlay institutional debates and complicate national consensus-building."
+          ],
+          "additionalImportant": "Railroad union workers demanded €200 more pay and threatened labor action; a new nationwide radar speed enforcement system was put into operation.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's domestic political developments have no direct bearing on Germany; indirectly, Germany as an EU member participates in assessing the accession process."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The accumulation of domestic pressures in an EU accession candidate is relevant to the enlargement process and regional stability assessment, but remains limited in international scope."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Zagovornici smijene Andrije Mandića dogurali do broja 35",
+              "url": "https://www.pobjeda.me/clanak/zagovornici-smijene-andrija-mandica-dogurali-do-broja-35",
+              "publishedAt": "2026-09-09T06:50:01Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Aktivna žarišta od Podgorice do Pljevalja",
+              "url": "https://www.vijesti.me/vijesti/drustvo/825849/aktivna-zarista-od-podgorice-do-pljevalja",
+              "publishedAt": "2026-09-09T07:46:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Nije vakcinisano 14.218 djece, pristižu MMR vakcine",
+              "url": "https://www.pobjeda.me/clanak/nije-vakcinisano-14218-djece-pristizu-mmr-vakcine",
+              "publishedAt": "2026-09-12T06:35:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "contextDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "contextDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "AfD-Erdrutschsieg in Sachsen-Anhalt erschüttert Deutschland und sendet Signal nach ganz Europa",
+          "summaryDe": [
+            "The AfD won the Saxony-Anhalt state election with 43.8 percent of the vote – more than double the 2021 result and the strongest result of a far-right party in Germany since 1945, triggering shockwaves domestically and internationally.",
+            "In political debate, the following immediately followed: calls by leading politicians to examine a party ban, rebellions within the Berlin coalition, security service concerns about possible intelligence access for AfD politicians, and explicit warnings from Poland that a heavily rearming Germany with growing far-right influence is being watched with concern.",
+            "Internationally, the Trump administration praised the AfD victory, while EU partners began reassessing the stability of German politics; discussions about possible impacts on Germany's China policy, multilateralism, and EU budget discipline began immediately.",
+            "In parallel, a parliamentary election was held in Sweden that posed the same normalization question: whether the conservative-right-populist governing coalition becomes a pan-European model.",
+            "A new Eurobarometer survey showed that while the majority of Europeans fear the EU's decline, they simultaneously depend on its protective function – a contradiction that explains the structural drivers of populism."
+          ],
+          "contextDe": [
+            "A result of this scale in Germany's largest economy is not a regional curiosity, but a systemic signal: the firewall policy in which all other parties reject cooperation with the AfD is increasingly under pressure from rising election results.",
+            "The AfD victory coincides with a phase in which Germany is simultaneously massively rearming, suffering economically from energy price shocks, and recalibrating its foreign policy – a combination that concerns neighboring states with historical memory.",
+            "Whether a party ban procedure is initiated depends on complex legal and political trade-offs; the public debate itself does not necessarily weaken the AfD but can strengthen its victim narrative."
+          ],
+          "additionalImportant": "EU Council President Costa visited Berlin, Warsaw, and Madrid to sound out the next multiannual financial framework; EU asylum numbers fell to the lowest level in five years without this noticeably dampening political debate.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The result directly affects Germany as the affected member state: coalition stability, intelligence service issues, government formation options, and international reputation of German democracy are directly touched."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The strongest result of a far-right party in Germany since 1945 is a historically unique, systemically significant event for all European democracy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "'Turning point for our country': German mainstream reels after huge far-right win",
+              "url": "https://www.politico.eu/article/turning-point-for-country-german-mainstream-reels-after-huge-far-right-afd-win",
+              "publishedAt": "2026-09-07T07:59:05Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "AfD's electoral triumph is a watershed, regardless of whether it gets to form the Saxony-Anhalt government",
+              "url": "https://euobserver.com/235643/afds-electoral-triumph-is-a-watershed-regardless-of-whether-it-gets-to-form-the-saxony-anhalt-government",
+              "publishedAt": "2026-09-07T08:49:56Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "After Saxony-Anhalt, will Germany now consider banning the AfD?",
+              "url": "https://euobserver.com/236197/will-germany-consider-banning-the-afd",
+              "publishedAt": "2026-09-08T18:00:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Far right's rise in rapidly re-arming Germany gives Poland cause for concern",
+              "url": "https://www.politico.eu/article/alternative-for-germany-afd-poland-military",
+              "publishedAt": "2026-09-08T17:32:42Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EZB-Zinserhöhung, Grönland-Paket, Innovation Act und Energieschock: EU im Wirtschaftsstress",
+          "summaryDe": [
+            "The ECB raised interest rates again after disruptions in the Strait of Hormuz drove energy-related inflation to 14.3 percent – a response that means a double shock of more expensive energy and higher financing costs for the export-oriented, energy-intensive German economy.",
+            "The EU Commission approved a German capacity mechanism of up to €35 billion that, from 2031 onwards, will guarantee supply security despite coal and nuclear phase-outs – a state aid decision that is precedent-setting in terms of antitrust law.",
+            "With the European Innovation Act and a reform of public procurement law – away from pure price comparison toward security and sustainability criteria – the Commission tabled two structurally significant legislative initiatives.",
+            "The EU signed a joint declaration with Denmark and Greenland with a €200 million investment package that will tie Nuuk more closely to Europe and geopolitically counter US annexation rhetoric.",
+            "34 European universities were included in Horizon projects with Israeli defense institutes despite public declarations to the contrary – in total €15 million in EU funds flow into such cooperation, creating explanation obligations for the Commission."
+          ],
+          "contextDe": [
+            "An ECB interest rate step due to external geopolitical price pressure – not domestic economic overheating – is particularly delicate because higher rates do not eliminate inflation but brake growth and investment.",
+            "The capacity mechanism and Greenland package demonstrate that the EU views geopolitical investments as legitimate foreign policy instruments – a conceptual shift from earlier restraint on state intervention.",
+            "The Horizon-Israel finding illustrates a structural EU credibility gap: external policy positions and actual funding flows are incoherent, which strains confidence in the Commission's implementation capacity."
+          ],
+          "additionalImportant": "Six European airlines received €10.9 billion in free CO₂ allowances in the EU Emissions Trading System, triggering a new reform debate about ETS climate policy; a leading EPP MEP meanwhile proposed easing the ETS for industry.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "ECB rate decisions, energy supply security through the capacity mechanism, public procurement law reform, and the Innovation Act directly affect Germany as the Eurozone's largest economy and most important EU net contributor."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneity of ECB rate hike, geopolitical investment package, two structural legislations, and a credibility problem with subsidy funds makes this an economically significant week for the EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "ECB raises rates again as Strait of Hormuz disruption drives up gas prices",
+              "url": "https://euobserver.com/236650/ecb-raises-rates-again-as-hormuz-disruption-drives-up-gas-prices",
+              "publishedAt": "2026-09-10T14:42:40Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves German capacity mechanism of up to €35 billion to secure electricity supply*",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1778",
+              "publishedAt": "2026-09-01T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission proposes new European Innovation Act to help innovative European ideas grow and compete globally",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1810",
+              "publishedAt": "2026-09-08T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Joint Declaration by the European Union, on the one hand, and the Government of Greenland and the Government of Denmark, on the other, on relations between the European Union and Greenland",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1804",
+              "publishedAt": "2026-09-07T09:56:51Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russland-Sabotage in Leipzig, Ukraine-Rüstungspaket, Israelembargo und Ungarns Kurswechsel: EU in geopolitischer Vielkrise",
+          "summaryDe": [
+            "The German government confirmed Russian operatives as responsible for a sabotage attempt at Leipzig/Halle airport, in which military equipment was to be used to damage cargo planes; EU Commission President von der Leyen and NATO Secretary-General Rutte responded jointly – a clear signal that the attack on critical infrastructure on EU soil is viewed as escalation.",
+            "The EU approved €6.1 billion for Ukraine's air and missile defense, ammunition, drones, and electronic warfare, and held the first board meeting of the newly founded EU-Ukraine drone alliance – an institutional formalization of long-term European defense cooperation.",
+            "Seven EU states coordinated with France and Great Britain for the first time with trade sanctions against goods from illegal Israeli settlements in the West Bank; Israel closed the British consulate in Jerusalem in response, and the USA responded with notable restraint.",
+            "Hungary's new government under Péter Magyar sent a positive signal to Brussels by expelling ten Russian diplomats and beginning to dismantle Orbán's local power structures – a foreign policy shift that caused considerable relief within the EU and NATO, since Budapest had long been a veto player on Russia sanctions.",
+            "Putin's deployment of AI-generated victory claims, which confused even Kremlin-friendly Telegram channels, illustrated a qualitatively new form of state war propaganda; Poland's Prime Minister Tusk warned after repelling a concrete threat backed by US intelligence data at the Polish-Ukrainian border of further attacks."
+          ],
+          "contextDe": [
+            "The sabotage attempt in Leipzig/Halle fits into a broader wave of Russian hybrid operations in Europe; the combination of physical sabotage and AI-enabled disinformation shows that Russia's hybrid war is evolving technologically.",
+            "The €6.1 billion package and the drone alliance signal that the EU is not scaling back its support despite budget debates, but rather expanding it toward more technologically sophisticated capabilities – a strategically important message for both Kyiv and Moscow.",
+            "Hungary's shift could substantially improve the EU's capacity for action on Russia sanctions long-term; whether new Budapest will consistently cooperate in all relevant votes will only become clear in practice."
+          ],
+          "additionalImportant": "Roman Abramovich failed for the third time with a lawsuit against EU sanctions; the Commission is planning a tightened listing mechanism. Zelenskyy is betting on deep strikes into Russian hinterland; Russia's war spending on Ukraine totaled over €110 billion through 2026.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The sabotage attack took place on German soil and directly affects national security and critical infrastructure; the Ukraine defense package and Israeli settlement embargoes affect Germany as an important EU partner and contributor."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The combination of state-confirmed sabotage on NATO territory, a €6.1 billion defense package, coordinated settlement sanctions, and Hungary's geopolitical shift makes this an extraordinarily concentrated security policy week for the EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790",
+              "publishedAt": "2026-09-02T10:28:49Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion to support Ukraine's air and missile defence and other defence needs",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829",
+              "publishedAt": "2026-09-10T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "UK and French trade bans on illegal Israeli settlements up pressure on EU",
+              "url": "https://euobserver.com/236132/uk-and-french-trade-bans-on-illegal-israeli-settlements-up-pressure-on-eu",
+              "publishedAt": "2026-09-08T16:01:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Magyar's Hungary expels 10 Russian diplomats and dismantles Fidesz's county fiefdoms (Day 122 of the Tisza government)",
+              "url": "https://euobserver.com/236800/magyars-hungary-expels-10-russian-diplomats-and-dismantles-fideszs-county-fiefdoms-day-122-of-the-tisza-government",
+              "publishedAt": "2026-09-11T09:15:05Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "Tusk warns of future attacks after 'direct threat' averted at Poland-Ukraine border",
+              "url": "https://www.politico.eu/article/poland-prime-minister-donald-tusk-warns-of-further-attacks-after-direct-threat-averted-polish-ukrainian-border",
+              "publishedAt": "2026-09-10T20:49:11Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceReportDates": [
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13"
+  ],
+  "missingReportDates": []
+}

@@ -1,7 +1,11 @@
 {
   "schemaVersion": 2,
-  "latestDaily": "2026-09-13",
+  "latestDaily": "2026-09-14",
   "daily": [
+    {
+      "date": "2026-09-14",
+      "path": "data/daily/2026-09-14.json"
+    },
     {
       "date": "2026-09-13",
       "path": "data/daily/2026-09-13.json"
@@ -176,6 +180,10 @@
     }
   ],
   "weekly": [
+    {
+      "period": "2026-W37",
+      "path": "data/weekly/2026-W37.json"
+    },
     {
       "period": "2026-W36",
       "path": "data/weekly/2026-W36.json"

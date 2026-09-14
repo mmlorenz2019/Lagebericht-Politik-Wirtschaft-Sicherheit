@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-14",
+  "generatedAt": "2026-09-14T11:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Pennsylvania meldet dritten Masern-Todesfall in weniger als drei Wochen",
+          "summaryDe": [
+            "In Pennsylvania ist innerhalb von weniger als drei Wochen der dritte Todesfall durch Masern bestätigt worden – alle Verstorbenen waren ungeimpft.",
+            "Der Ausbruch wirft ein Schlaglicht auf den anhaltenden Rückgang der Impfquoten in Teilen der USA, der seit Jahren von Behörden beobachtet wird.",
+            "Gesundheitsexperten hatten eine solche Häufung schwerer Verläufe für möglich gehalten, nachdem Masernschutzimpfungen in einigen Gemeinden politisch umstritten geworden sind.",
+            "Die Fälle dürften den Druck auf Bundes- und Landesbehörden erhöhen, Impfpflichten für Schulen und Gemeinschaftseinrichtungen neu zu bewerten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein ähnlicher Rückgang der Masernimpfquoten ist auch in Deutschland beobachtbar; der US-Fall kann als Warnsignal für hiesige Gesundheitsbehörden dienen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Drei Todesfälle innerhalb weniger Wochen durch eine impfpräventable Krankheit sind ein klares öffentliches Gesundheitssignal mit politischer Wirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Why Reform's donation will change British politics",
+              "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/why-reforms-donation-will-change-british-politics",
+              "publishedAt": "2026-09-14T07:36:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EPA streicht Klimaauflagen für Kraftwerke – zweitgrößte CO₂-Quelle der USA entreguliert",
+          "summaryDe": [
+            "Die US-Umweltbehörde EPA hebt die Emissionsgrenzwerte für Kraftwerke auf, die als zweitgrößte Quelle von Treibhausgasen im Land gelten.",
+            "Damit werden unter der Biden-Regierung eingeführte Klimaschutzregeln rückgängig gemacht, was die langfristigen US-Klimaziele erheblich untergräbt.",
+            "Energiekonzerne begrüßen den Schritt als wirtschaftliche Entlastung, während Umweltorganisationen rechtliche Schritte angekündigt haben.",
+            "International sendet die Entscheidung ein Signal, das Verhandlungen über globale Klimarahmen unter US-Beteiligung komplizieren dürfte."
+          ],
+          "additionalImportant": "Parallel dazu lehnte Präsident Trump eine stärkere Regulierung von KI-Entwicklung ab und begründete dies mit dem Wettbewerb gegenüber China – ein Muster, das in mehreren Politikfeldern gleichzeitig sichtbar wird.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Rücknahme von US-Klimaauflagen beeinflusst internationale Klimaverhandlungen und den Wettbewerbsdruck auf europäische Industrieunternehmen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Deregulierung betrifft den zweitgrößten nationalen CO₂-Sektor und hat systemische Auswirkungen auf globale Klimapolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "EU fails to agree Russia sanctions rollover with one day to spare",
+              "url": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare",
+              "publishedAt": "2026-09-14T08:27:14Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russische Drohne trifft Zug nahe ukrainisch-polnischer Grenze kurz nach Durchfahrt hochrangiger Gäste",
+          "summaryDe": [
+            "Eine russische Drohne hat einen Zug in der Nähe der ukrainisch-polnischen Grenze getroffen, kurz nachdem hochrangige ausländische Würdenträger denselben Korridor passiert hatten.",
+            "Der Zeitpunkt des Angriffs legt entweder eine gezielte Einschüchterungsabsicht nahe oder verweist auf russische Aufklärungskapazitäten entlang dieser Versorgungsachse.",
+            "Die Route gilt als wichtiger Nachschubkorridor für westliche Militärhilfe an die Ukraine und steht damit strategisch im russischen Interesse.",
+            "Ein solcher Vorfall so nahe an der NATO-Außengrenze dürfte die Debatte über Schutzmaßnahmen für zivile und militärische Transportwege in der Region neu befeuern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist ein zentrales Transitland für Militärhilfe an die Ukraine; Angriffe auf Transportrouten betreffen damit auch deutsche Logistikplanung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Drohnenangriff nahe der NATO-Grenze mit möglichem strategischen Kalkül ist ein außergewöhnlich eskalationsrelevanter Vorfall."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Sudbina MCP i Joanikija zavisiće od ishoda izbora u Srbiji",
+              "url": "https://www.pobjeda.me/clanak/sudbina-mcp-i-joanikija-zavisice-od-ishoda-izbora-u-srbiji",
+              "publishedAt": "2026-09-14T07:02:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas Staatsicherheitsminister warnt vor KI als neuem Feld strategischer Rivalität",
+          "summaryDe": [
+            "Chinas Minister für Staatssicherheit hat öffentlich vor den Risiken künstlicher Intelligenz gewarnt und dabei explizit von einem neuen Schauplatz strategischer Konkurrenz gesprochen.",
+            "Der ungewöhnlich offene Auftritt des sonst kaum sichtbaren Geheimdienstchefs unterstreicht, wie ernst Peking die KI-Sicherheitsfrage auf höchster Regierungsebene nimmt.",
+            "Gefordert wurden robuste Präventionsrahmen – ein Signal, dass China intern sowohl Chancen als auch Verwundbarkeiten durch KI-Entwicklung anerkennt.",
+            "Bemerkenswert ist der Zeitpunkt: Die Erklärung fällt in eine Phase, in der westliche Staaten und China gleichermaßen über KI-Regulierung diskutieren, aber unterschiedliche Prioritäten setzen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "KI-Regulierungsdebatten in China beeinflussen indirekt die internationale Normgebung, an der auch Deutschland aktiv beteiligt ist."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine öffentliche Warnung des Geheimdienstchefs zu KI ist ein seltenes und politisch gewichtiges Signal aus der chinesischen Führung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's intelligence chief warns of risks from AI as 'new arena for strategic rivalry'",
+              "url": "https://www.scmp.com/news/china/politics/article/3367349/chinas-intelligence-chief-warns-risks-ai-new-arena-strategic-rivalry",
+              "publishedAt": "2026-09-14T00:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinas FAST-Teleskop übernimmt globale Führung bei neutralem Wasserstoff-Katalog",
+          "summaryDe": [
+            "Das chinesische FAST-Teleskop hat den weltgrößten Katalog neutralen Wasserstoffs erstellt und damit den bisherigen US-amerikanischen Referenzsurvey abgelöst.",
+            "Neutraler Wasserstoff gilt als kosmischer Rohstoff der Sternenentstehung; seine präzise Kartierung ermöglicht grundlegende neue Erkenntnisse über Galaxienstruktur und -entwicklung.",
+            "Für China ist der Erfolg Teil einer gezielten Strategie, in der Grundlagenforschung internationale Führungspositionen zu besetzen – mit langfristigen Folgen für die globale Wissenschaftsdiplomatie.",
+            "Das Ergebnis zeigt, dass staatlich geförderte Großinfrastruktur in der Astronomie zunehmend außerhalb westlicher Institutionen entstehen kann."
+          ],
+          "additionalImportant": "Ebenfalls berichtet: Chinesische Wissenschaftler haben eine neue Ölraffiniermethode entwickelt, die den Energieverbrauch um bis zu 90 Prozent senken soll – falls bestätigt, wäre dies industriell hoch relevant.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas wachsende Rolle in der Grundlagenforschung beeinflusst indirekt internationale Kooperationsstrukturen, an denen auch deutsche Forschungseinrichtungen beteiligt sind."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Ablösung eines US-Referenzwerks durch chinesische Forschungsinfrastruktur ist eine symbolisch wie wissenschaftlich bedeutende Verschiebung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's FAST telescope maps neutral hydrogen, the cosmic gas for making stars",
+              "url": "https://www.scmp.com/news/china/science/article/3367154/chinas-fast-telescope-maps-neutral-hydrogen-cosmic-gas-making-stars",
+              "publishedAt": "2026-09-13T12:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "H-6N-Bomber demonstriert nuklearfähige Luft-Boden-Rakete – Chinas Zweitschlagfähigkeit wächst",
+          "summaryDe": [
+            "China hat die nuklearfähige Luft-Boden-Ballistikrakete Jing Lei-1, abgefeuert vom H-6N-Bomber, öffentlich vorgestellt und damit eine qualitativ neue Komponente seiner nuklearen Abschreckungsstrategie kommuniziert.",
+            "Die Fähigkeit zum Zweitschlag aus der Luft gilt als strategisch besonders wertvoll, da Bomber im Gegensatz zu bodengestützten Systemen auch nach einem ersten Angriff noch einsetzbar sind.",
+            "Die Demonstration folgt einer Periode, in der Peking seine Nuklearstreitkräfte insgesamt ausgebaut hat – ein Trend, der westliche Rüstungscontroller zunehmend besorgt.",
+            "Für die USA und ihre Verbündeten im Pazifik, aber auch für europäische Nato-Staaten, verschiebt sich damit das Bild der chinesischen strategischen Kapazitäten spürbar."
+          ],
+          "additionalImportant": "Zugleich hat China beim BRICS-Gipfel angeboten, Mitgliedsstaaten bei KI und intelligenter Fertigung zu unterstützen – ein Zug, der wirtschaftliche und geopolitische Bindungen an China festigen soll.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas wachsende nukleare Kapazitäten betreffen primär den Pazifik, berühren aber indirekt europäische Sicherheitsarchitektur und NATO-Planungen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die öffentliche Präsentation einer nuklearfähigen Luft-Boden-Rakete ist eine außergewöhnliche sicherheitspolitische Entwicklung mit globalem Gewicht."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "For China, H-6N bomber enhances nuclear deterrence and second-strike capability",
+              "url": "https://www.scmp.com/news/china/military/article/3367350/china-h-6n-bomber-enhances-nuclear-deterrence-and-second-strike-capability",
+              "publishedAt": "2026-09-13T14:00:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Orthodoxe Kirche Serbiens unter Beschuss: Ermittlungsportal veröffentlicht Fotos und angebliche Sky-Chats",
+          "summaryDe": [
+            "Ein bosnisch-herzegowinisches Investigativportal hat Fotos und angebliche verschlüsselte Kommunikation veröffentlicht, die Führungspersonen der Serbisch-Orthodoxen Kirche mit Personen aus dem kriminellen Milieu in Verbindung bringen sollen.",
+            "Betroffen ist demnach auch Patriarch Porfirije, was in der Region erhebliche politische und religiöse Reaktionen ausgelöst hat.",
+            "Sky-ECC-Chats wurden in den vergangenen Jahren bereits in mehreren Balkan-Ländern als Beweismittel in Strafverfahren eingesetzt; ihre Authentizität ist im Einzelfall stets gerichtlich zu prüfen.",
+            "In Montenegro, wo die Rolle der Serbisch-Orthodoxen Kirche seit Jahren politisch umstritten ist, dürften die Vorwürfe die ohnehin angespannte Debatte über Kirchenvermögen und staatliche Souveränität weiter verschärfen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Der Vorfall betrifft innere kirchenpolitische und kriminologische Verhältnisse auf dem westlichen Balkan ohne erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Vorwürfe gegen die Führung einer regional einflussreichen Kirche und kriminelle Netzwerke sind eine größere gesellschaftspolitische Entwicklung im Westbalkan."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Bosanskohercegovački portal istraga.ba objavio fotografije i navodne Sky prepiske: Vrh SPC i Porfirije povezani sa osobama bliskim kriminalnim klanovima?",
+              "url": "https://www.pobjeda.me/clanak/bosanskohercegovacki-portal-istragaba-objavio-fotografije-i-navodne-sky-prepiske-vrh-spc-i-porfirije-povezani-sa-osobama-bliskim-kriminalnim-klanovima",
+              "publishedAt": "2026-09-14T06:43:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Kroatischer HDZ-Parlamentarier: EU nimmt Montenegros offene Beitrittsfragen ernst",
+          "summaryDe": [
+            "Ein Abgeordneter der kroatischen Regierungspartei HDZ hat erklärt, die EU höre bei Montenegros Beitrittsverhandlungen auf konkrete Bedenken zu ungelösten Fragen.",
+            "Die Aussage ist insofern bemerkenswert, als Kroatien als jüngstes EU-Mitglied aus dem westlichen Balkan traditionell eine Brückenfunktion in diesen Debatten einnimmt.",
+            "Montenegro gilt als formal am weitesten fortgeschrittener Beitrittskandidat der Region, kämpft aber mit rechtsstaatlichen Defiziten, die den Abschluss einzelner Verhandlungskapitel blockieren.",
+            "Eine konstruktive Begleitung durch Nachbarstaaten wie Kroatien kann den politischen Druck auf Podgorica erhöhen, ausstehende Reformen voranzutreiben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland unterstützt die EU-Erweiterung auf dem Westbalkan aktiv; Fortschritte oder Blockaden in Montenegros Beitrittsprozess berühren diese Politik indirekt."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Aussage ist ein diplomatisches Signal ohne unmittelbare Entscheidungsrelevanz, aber mit Bedeutung für den Beitrittsprozess."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Tukao bivšu partnerku, pa joj prijetio da će baciti bombu i ubiti njenu porodicu",
+              "url": "https://www.pobjeda.me/clanak/tukao-bivsu-partnerku-pa-joj-prijetio-da-ce-baciti-bombu-i-ubiti-njenu-porodicu",
+              "publishedAt": "2026-09-14T09:22:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Schwedische Wahl: Linkes Oppositionsbündnis liegt knapp vor konservativem Regierungsblock",
+          "summaryDe": [
+            "Die schwedische Parlamentswahl hat ein äußerst knappes Ergebnis gebracht: Das linksorientierte Oppositionsbündnis liegt laut ersten Auszählungen hauchdünn vor dem bisherigen Mitte-rechts-Regierungsblock.",
+            "Besonders auffällig ist dabei der Rückgang der rechtsextremen Schwedendemokraten, die im Vorfeld als mögliche Mehrheitsmacher gehandelt worden waren.",
+            "Sollte das Ergebnis Bestand haben, würde Schweden nach Jahren konservativer Regierung unter Einbindung der Rechtspopulisten in ein links-liberales Lager wechseln.",
+            "Das Ergebnis wird in Europa aufmerksam verfolgt, da Schweden als EU-Ratspräsident-Erfahrungsland und NATO-Neumitglied sicherheits- wie klimapolitisch eine relevante Rolle spielt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein Regierungswechsel in Schweden beeinflusst indirekt EU-interne Mehrheitsverhältnisse bei Themen wie Klimapolitik und Sicherheit, die auch Deutschland betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Machtwechsel in einem skandinavischen NATO- und EU-Mitgliedsland ist eine politisch bedeutsame Entwicklung mit europäischer Strahlkraft."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "THIS WEEK: Canada's Carney attends von der Leyen's State of the Union, as new talks on Russian frozen assets for Ukraine return to EU agenda",
+              "url": "https://euobserver.com/236942/this-week-canadas-carney-attends-von-der-leyens-state-of-the-union-as-new-talks-on-russian-frozen-assets-for-ukraine-return-to-eu-agenda",
+              "publishedAt": "2026-09-14T04:00:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Švedska: Opozicija lijevog centra na putu da formira novu vladu,...",
+              "url": "https://www.vijesti.me/svijet/evropa/826579/svedska-opozicija-lijevog-centra-na-putu-da-formira-novu-vladu-ima-tijesnu-prednost-nad-desnicarskim-strankama",
+              "publishedAt": "2026-09-14T08:21:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU legt Freihandelsabkommen mit Indien dem Rat vor – historisches Projekt nach jahrelangen Verhandlungen",
+          "summaryDe": [
+            "Die Europäische Kommission hat das fertig ausgehandelte Freihandelsabkommen mit Indien dem Rat zur Unterzeichnung und zum Abschluss vorgelegt.",
+            "Nach mehr als einem Jahrzehnt stockender Verhandlungen wäre ein solches Abkommen das größte bilaterale Handelsabkommen in der Geschichte der EU, gemessen an der Bevölkerungszahl des Partnerlands.",
+            "Für Deutschland als exportorientierte Volkswirtschaft mit starken Interessen in Indien – von der Automobilindustrie bis zur Chemie – hätte das Abkommen direkte wirtschaftliche Folgen.",
+            "Noch müssen Rat und Europäisches Parlament zustimmen; politische Widerstände gegen einzelne Kapitel, etwa zu Landwirtschaft und Dienstleistungen, sind nicht auszuschließen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland profitiert als einer der größten EU-Exporteure direkt von verbessertem Marktzugang nach Indien in Schlüsselsektoren wie Automobil und Maschinenbau."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein EU-Indien-Freihandelsabkommen wäre eine historische Weichenstellung mit globalem handelspolitischem Gewicht."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission approves €6.1 billion to support Ukraine's air and missile defence and other defence needs",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829",
+              "publishedAt": "2026-09-10T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU scheitert einen Tag vor Ablauf an Einigung zur Verlängerung der Russland-Sanktionen",
+          "summaryDe": [
+            "Die EU-Mitgliedstaaten konnten sich mit nur einem Tag Puffer vor dem Ablaufdatum nicht auf eine Verlängerung der Russland-Sanktionen einigen – ein seltener und politisch brisanter Vorgang.",
+            "Unklar ist, welcher Mitgliedstaat oder welche Staatengruppe die Verlängerung blockiert; solche Blockaden erfolgen in der Regel durch ein Veto im Rat.",
+            "Sollten die Sanktionen auch nur kurzzeitig auslaufen, würden eingefrorene russische Vermögenswerte in Milliardenhöhe wieder freigegeben, was den politischen Schaden erheblich verstärken würde.",
+            "Die Entwicklung sendet ein schwieriges Signal an Kyjiw und westliche Partner in einem Moment, in dem der Druck auf Russland aufrechterhalten werden soll."
+          ],
+          "additionalImportant": "Parallel sondiert Kanadas Premierminister Carney eine engere Allianz mit der EU als Reaktion auf die US-Handelspolitik Trumps – ein weiteres Zeichen für die laufende Neuordnung westlicher Wirtschaftsbeziehungen.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland hält erhebliche Anteile eingefrorener russischer Vermögenswerte und wäre bei einem Sanktionsausfall direkt rechtlich und politisch betroffen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Scheitern der Sanktionsverlängerung wäre ein systemischer Rückschlag für die westliche Russlandpolitik mit unmittelbaren finanziellen und diplomatischen Folgen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "EU fails to agree Russia sanctions rollover with one day to spare",
+              "url": "https://www.politico.eu/article/eu-fails-to-agree-russia-sanctions-rollover-with-one-day-to-spare",
+              "publishedAt": "2026-09-14T08:27:14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
