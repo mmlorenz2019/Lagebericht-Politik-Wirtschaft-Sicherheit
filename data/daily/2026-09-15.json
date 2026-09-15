@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-15",
+  "generatedAt": "2026-09-15T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ein Putin-naher russischer Geschäftsmann zahlte für Donald Trump Jr.s Hochzeitsfeier",
+          "summaryDe": [
+            "Der russische Unternehmer Umar Kremlev, dem enge Verbindungen zu Wladimir Putin nachgesagt werden, finanzierte die Hochzeitsfeierlichkeiten von Donald Trump Jr. auf den Bahamas – ein brisanter Fund, den die New York Times veröffentlichte.",
+            "Kremlev ist kein unbekannter Name: Als Präsident des Internationalen Boxverbandes IBA war er zuletzt wiederholt wegen Korruptionsvorwürfen in der Kritik.",
+            "Die Zahlung wirft Fragen zu möglichen Interessenkonflikten auf, zumal Trump Sr. in außenpolitische Entscheidungen gegenüber Russland eingebunden bleibt.",
+            "Bislang hat das Weiße Haus keine Stellungnahme abgegeben; demokratische Abgeordnete fordern eine Untersuchung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant, da US-russische Verflechtungen das transatlantische Vertrauensverhältnis und NATO-Entscheidungen beeinflussen können."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Finanzielle Verbindungen zwischen Kreml-nahen Akteuren und der Trump-Familie sind politisch und medial bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Kaluđerović: Cijena parkinga u centru Podgorice smiješna, mislim...",
+              "url": "https://www.vijesti.me/vijesti/politika/826736/kaludjerovic-cijena-parkinga-u-centru-podgorice-smijesna-mislim-da-je-stvarno-jeftino",
+              "publishedAt": "2026-09-15T08:50:00Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Russian Businessman With Putin Ties Paid for Donald Trump Jr.'s Wedding Party",
+              "url": "https://www.nytimes.com/2026/09/14/us/politics/donald-trump-jr-wedding-russian-businessman.html",
+              "publishedAt": "2026-09-14T20:31:38Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EPA hebt Emissionsgrenzwerte für Kraftwerke auf – Trump lehnt KI-Regulierung kategorisch ab",
+          "summaryDe": [
+            "Die US-Umweltschutzbehörde EPA hat unter der Trump-Administration die Treibhausgasgrenzwerte für Kohlekraftwerke gestrichen, die noch aus der Biden-Ära stammen.",
+            "Damit entfällt die Pflicht, Abscheidungstechnologien einzusetzen – ein Schritt, den Klimaschützer als schweren Rückschlag werten, während die Energiebranche die Entscheidung begrüßt.",
+            "Nahezu zeitgleich telefonierte Trump auf dem All-In-Summit live mit Nvidia-Chef Jensen Huang und bezeichnete Widerstände gegen neue Rechenzentren als „Hoax",
+            "Anthropic-CEO Dario Amodei hatte kurz zuvor in einem vielbeachteten Essay für eine Verlangsamung der KI-Entwicklung plädiert und vor existenziellen Risiken gewarnt – Trump wies das scharf zurück."
+          ],
+          "additionalImportant": "Die EPA-Entscheidung könnte internationale Klimaverhandlungen belasten und europäische CO₂-Grenzausgleichsmechanismen (CBAM) unter Druck setzen.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Aufhebung von Emissionsstandards beeinflusst globale Klimaverhandlungen und den Wettbewerbsdruck auf europäische Industrien."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine regulatorische Kehrtwende bei Klimastandards und eine demonstrative Absage an KI-Sicherheitsdebatten sind politisch bedeutende Signale."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump administration repeals Biden era greenhouse gas requirements for power plants",
+              "url": "https://www.cnbc.com/2026/09/14/trump-epa-carbon-dioxide-power-plant-climate-change.html",
+              "publishedAt": "2026-09-14T20:45:52Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump phones Nvidia's Huang at All-In Summit, calls data center opposition a 'hoax'",
+              "url": "https://www.cnbc.com/2026/09/14/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax.html",
+              "publishedAt": "2026-09-14T21:32:03Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Trump's EPA repeals pollution limits on fossil fuel power plants",
+              "url": "https://www.npr.org/2026/09/14/nx-s1-5968785/epa-repeals-pollution-limits-on-power-plants",
+              "publishedAt": "2026-09-14T20:34:28Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Trump Rejects Talk of A.I. Regulation and Calls Out Anthropic's CEO",
+              "url": "https://www.nytimes.com/2026/09/14/us/politics/trump-ai-regulation-anthropic-dario-amodei.html",
+              "publishedAt": "2026-09-14T20:53:24Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Huawei vor US-Gericht: Geschworenenwahl beginnt inmitten geopolitischer Spannungen",
+          "summaryDe": [
+            "In einem US-Bundesgericht hat die Auswahl der Geschworenen für den Huawei-Prozess begonnen – ein Verfahren, das die technologischen und geopolitischen Verwerfungen zwischen Washington und Peking exemplarisch bündelt.",
+            "Die Verteidigung wie die Anklage stehen vor der schwierigen Aufgabe, Geschworene zu finden, die weder durch Vorurteile gegenüber China noch durch Sympathien mit dem Iran befangen sind.",
+            "Huawei wird vorgeworfen, US-Sanktionen durch Geschäfte mit iranischen Partnern umgangen zu haben; das Unternehmen bestreitet die Vorwürfe.",
+            "Der Ausgang des Verfahrens könnte Präzedenzwirkung für künftige US-Maßnahmen gegen chinesische Technologiekonzerne haben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Unternehmen mit Huawei-Lieferketten könnten je nach Urteil zusätzlichem Compliance-Druck ausgesetzt sein."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Strafprozess gegen einen der weltgrößten Technologiekonzerne mit geopolitischer Dimension hat erhebliche internationale Strahlkraft."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Huawei's US trial puts jury to the test amid China, Iran links",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367516/huaweis-us-trial-puts-jury-test-amid-china-iran-links",
+              "publishedAt": "2026-09-14T23:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Peking verhängt totales Drohnenverbot nach tödlichem Turm-Crash",
+          "summaryDe": [
+            "Nach einem Drohnenabsturz in den Citic Tower in Peking im Juni, bei dem der Pilot ums Leben kam, hat die Stadtregierung nun eines der schärfsten Drohnenverbote weltweit angekündigt.",
+            "Ab dem 15. November 2026 sind sämtliche unbemannten Flüge über Peking untersagt – inklusive Besitz entsprechender Geräte ohne ausdrückliche Genehmigung.",
+            "Die Regelung ist ungewöhnlich weitreichend: Nicht nur der Betrieb, sondern bereits der bloße Besitz einer Drohne kann strafbar sein.",
+            "Beobachter werten die Maßnahme als symptomatisch für Chinas Tendenz, auf Einzelvorfälle mit flächendeckenden Verboten zu reagieren, anstatt differenzierte Sicherheitsregeln zu entwickeln."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Eine städtische Drohnenverordnung in Peking hat keinen erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Das Verbot ist innenpolitisch interessant, bleibt aber auf eine Einzelstadt und einen spezifischen Anlassfall beschränkt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing puts a total ban on drones in update to regulations after deadly tower crash",
+              "url": "https://www.scmp.com/news/china/politics/article/3367401/beijing-puts-total-ban-drones-update-regulations-after-deadly-crash",
+              "publishedAt": "2026-09-14T06:00:09Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Xi bewirbt beim BRICS-Gipfel eine KI-Kooperationsgemeinschaft – und China baut seinen Vorsprung bei seltenen Metallen aus",
+          "summaryDe": [
+            "Auf dem BRICS-Gipfel in Neu-Delhi hat Xi Jinping eine neue Weltorganisation für KI-Kooperation vorgeschlagen und die Mitgliedstaaten eingeladen, sich einer KI-Gemeinschaft anzuschließen – ein deutliches Signal, dass Peking die globale KI-Governance aktiv mitgestalten will.",
+            "Zeitgleich meldeten chinesische Forscher in der Provinz Jiangxi einen Technologiedurchbruch: Eine Anlage extrahiert erstmals in industriellem Maßstab die Seltenen Metalle Rubidium und Cäsium aus Lithium-Abfällen – 500 Tonnen Kapazität, weltweit ohne Vorbild.",
+            "Cäsium und Rubidium sind für Atomuhren, Quantencomputer und Raketentreibstoffe unverzichtbar; China festigt damit seinen ohnehin dominanten Griff über kritische Rohstoffketten.",
+            "Die Kombination aus diplomatischer KI-Initiative und ressourcentechnischem Vorsprung zeigt, wie koordiniert Peking Technologiepolitik auf mehreren Ebenen betreibt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Hightech-Industrie und Halbleiterfertigung sind auf seltene Metalle angewiesen; Chinas neue Extraktionstechnologie verstärkt die Abhängigkeit."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein industrieller Weltrekord bei kritischen Rohstoffen und eine multilaterale KI-Governance-Initiative sind strategisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi touts Brics cooperation on AI as US titans flag tech risks",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3367456/xi-touts-brics-cooperation-ai-us-titans-flag-tech-risks",
+              "publishedAt": "2026-09-14T09:24:23Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese plant extracts critical rare metals from lithium waste in world first",
+              "url": "https://www.scmp.com/news/china/science/article/3367490/chinese-plant-extracts-critical-rare-metals-lithium-waste-world-first",
+              "publishedAt": "2026-09-15T04:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Peking droht Panama, begrüßt Taiwan-Vorschlag – und Japan rüstet U-Boot-Abwehr auf",
+          "summaryDe": [
+            "Drei Meldungen zeichnen heute ein vielschichtiges Bild chinesischer Außenpolitik: Peking warnte Panama mit „schwerwiegenden Konsequenzen",
+            "},{",
+            "nachdem panamaische Parlamentarier eine Austauschgruppe mit Taiwan gegründet hatten – ein für Peking inakzeptabler Schritt, der das Ein-China-Prinzip verletze.",
+            "Fast gleichzeitig lobte die Volksrepublik den seltenen Vorstoß eines taiwanesischen Wissenschaftlers, der öffentlich für eine Wiedervereinigung nach dem Prinzip „ein Land, zwei Systeme",
+            "eintrat – ein Signal, dass Peking Dialogbereitschaft demonstrieren will, solange die eigenen Bedingungen die Grundlage bilden.",
+            "Japan reagiert auf Chinas wachsende U-Boot-Aktivitäten mit der Entwicklung quantengestützter Sensoren für Drohnen zur U-Boot-Erkennung – ein Rüstungsprogramm, das den Unterwasserwettbewerb im Indo-Pazifik weiter anheizt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Spannungen im Indo-Pazifik betreffen deutsche Handelsrouten und Deutschlands Engagement in der regionalen Sicherheitspolitik mittelbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination aus Drohung, Charmeoffensive und militärischer Aufrüstung zeigt die Bandbreite chinesischer Außenpolitikinstrumente."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing threatens 'serious consequences' after Panama lawmakers support Taiwan",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367514/beijing-threatens-serious-consequences-after-panama-lawmakers-support-taiwan",
+              "publishedAt": "2026-09-14T21:36:24Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing hails Taiwanese scholar's rare proposal on reunification",
+              "url": "https://www.scmp.com/news/china/politics/article/3367428/beijing-hails-taiwanese-scholars-rare-proposal-reunification",
+              "publishedAt": "2026-09-14T09:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Japan eyes quantum sub-hunting drone sensors as China extends undersea reach",
+              "url": "https://www.scmp.com/news/china/military/article/3367476/japan-eyes-quantum-sub-hunting-drone-sensors-china-extends-undersea-reach",
+              "publishedAt": "2026-09-14T10:48:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "NATO-Kampfjet schießt Drohne über Litauen ab",
+          "summaryDe": [
+            "Im Rahmen der NATO-Luftraumüberwachung im Baltikum hat ein italienisches Kampfflugzeug eine unidentifizierte Drohne über litauischem Gebiet abgeschossen.",
+            "Der Vorfall reiht sich in eine wachsende Serie von Vorfällen mit unbekannten Flugobjekten im NATO-Luftraum ein, die Bündnispartner zunehmend alarmiert.",
+            "Über die Herkunft der Drohne wurde zunächst nichts bekannt; litauische Behörden leiteten eine Untersuchung ein.",
+            "Montenegro ist als NATO-Mitglied in die kollektiven Luftraumschutzstrukturen eingebunden, auch wenn der Vorfall selbst im Baltikum stattfand."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland beteiligt sich an der NATO-Luftraumüberwachung im Baltikum; Drohnenvorfälle dort sind für die Bundeswehr operativ relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Abschuss einer Drohne im NATO-Luftraum ist ein sicherheitspolitisch bedeutsames Ereignis, das Eskalationsrisiken verdeutlicht."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Italijanski borbeni avion NATO-a oborio dron u Litvaniji",
+              "url": "https://www.vijesti.me/svijet/evropa/826702/borbeni-avion-nato-a-oborio-dron-u-litvaniji",
+              "publishedAt": "2026-09-15T05:39:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU verlängert Russland-Sanktionen nur um eine Woche – Frankreich blockiert wegen Oligarch Usmanov",
+          "summaryDe": [
+            "Die Europäische Union hat ihre Sanktionen gegen Russland nur um eine einzige Woche verlängert, weil Frankreich auf der Streichung des russischen Oligarchen Alischer Usmanov aus der Sanktionsliste bestand.",
+            "Das ist ein außergewöhnlich kurzer Verlängerungszeitraum; üblicherweise werden die Maßnahmen um sechs Monate erneuert, was die Tiefe des internen Konflikts unterstreicht.",
+            "Spekulationen über mögliche Hintergrundabsprachen zwischen Paris und Moskau haben umgehend eingesetzt; die EU-Kommission hält sich mit öffentlichen Kommentaren zurück.",
+            "Für Deutschland und andere Mitgliedstaaten ist das Veto Frankreichs ein beunruhigendes Signal über die Geschlossenheit der Union gegenüber Russland."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Sanktionseinheit der EU gegenüber Russland ist ein Kernpfeiler der deutschen Außenpolitik seit 2022; ein Bruch hätte unmittelbare politische Folgen."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine blockierte Sanktionsverlängerung in der EU ist ein außergewöhnlicher Vorgang mit potenziell systemischer Wirkung auf die europäische Russland-Politik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Von der Leyen's State of the Union speech risks making border pushbacks 'normal' EU migration policy",
+              "url": "https://euobserver.com/237402/von-der-leyens-state-of-the-union-speech-risks-making-border-pushbacks-normal-eu-migration-policy",
+              "publishedAt": "2026-09-14T16:32:23Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Wang Yi drängt EU zu Handelsdialog – Brüssel verschärft Investitionsscreening",
+          "summaryDe": [
+            "Der chinesische Außenminister Wang Yi hat seinen französischen Amtskollegen angerufen und die EU zu konstruktivem Dialog aufgefordert, um eine weitere Eskalation im Handelsstreit zu vermeiden.",
+            "Brüssel hat zuletzt sowohl das Investitionsscreening als auch Anti-Subventionsmaßnahmen gegen chinesische Güter verschärft – ein Kurs, den Peking als protektionistisch kritisiert.",
+            "Die Wahl Frankreichs als Gesprächspartner ist kein Zufall: Paris gilt innerhalb der EU als jene Hauptstadt, die am ehesten für eine eigenständigere Linie gegenüber China offen ist.",
+            "Für Deutschland, dessen Industrie stark von China-Geschäften abhängt, ist das Tauziehen zwischen Brüssel und Peking ein heikles Gleichgewicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Exporteure und Automobilhersteller sind unmittelbar von EU-China-Handelsspannungen betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der diplomatische Druck Pekings auf die EU im Handelsstreit ist ein wiederkehrendes, aber weiterhin bedeutsames Muster."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Speaking notes by Commissioner Kubilius at the first Board meeting of the EU-Ukraine Drone Alliance",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1849",
+              "publishedAt": "2026-09-11T07:30:48Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russischer Angriff sechs Kilometer von polnisch-ukrainischer Grenze – und Schuss auf dänischen Helikopter",
+          "summaryDe": [
+            "Russische Streitkräfte haben eine Eisenbahnstrecke in der Westukraine angegriffen, die nur sechs Kilometer von der polnischen Grenze entfernt liegt – und auf der kurz zuvor Spitzenvertreter aus dem Westen gereist waren.",
+            "Ob die Nähe zur NATO-Grenze Kalkül oder Zufall war, ist Gegenstand intensiver Analyse; der Angriff löste in Warschau und Kiew eine Debatte über das NATO-Artikel-5-Szenario aus.",
+            "Separat hat ein russisches Schiff auf einen dänischen Militärhubschrauber geschossen – ein Vorfall, der die Muster hybrider russischer Angriffe gegen EU- und NATO-Mitglieder weiter verdichtet.",
+            "Deutschland ist als NATO-Mitglied und als Land mit erheblichem Ukraine-Engagement von beiden Vorfällen direkt sicherheitspolitisch betroffen."
+          ],
+          "additionalImportant": "Der deutsche Militärische Abschirmdienst warnte laut separaten Berichten vor wachsenden chinesischen und russischen Spionage- und Hybridaktivitäten gegen Deutschland.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Angriffe nahe der NATO-Grenze und auf NATO-Mitglieder betreffen Deutschland als Bündnispartner und größten europäischen Ukraine-Unterstützer unmittelbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Russische Angriffe auf NATO-nahe Infrastruktur und Militärfahrzeuge sind Eskalationssignale mit potenziell systemischer sicherheitspolitischer Bedeutung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Was it coincidence Russia attacked the railway used by Johnson and the former CIA chief? Three takeaways from the strike near Nato's border",
+              "url": "https://euobserver.com/237347/was-it-coincidence-russia-attacked-the-railway-used-by-johnson-and-the-former-cia-chief-three-takeaways-from-the-strike-near-natos-border",
+              "publishedAt": "2026-09-14T16:00:09Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "What competitiveness experts expect from von der Leyen's State of the Union",
+              "url": "https://euobserver.com/237265/what-competitiveness-experts-expect-from-von-der-leyens-state-of-the-union",
+              "publishedAt": "2026-09-15T05:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
