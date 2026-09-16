@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-16",
+  "generatedAt": "2026-09-16T10:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Measles wave reaches worst level since 1991",
+          "summaryDe": [
+            "The USA is recording more measles cases this year than since 1991, with now seven deaths within two years – including, according to PBS, an 18-year-old in Pennsylvania as the fourth death in that state alone.",
+            "The background is a declining willingness to vaccinate in parts of the population over recent years, which is further fueled by politically charged debates around the healthcare system.",
+            "Measles is considered one of the most contagious diseases; an outbreak of this scale in a high-income country is a serious warning signal from a public health perspective.",
+            "Whether state vaccination programs remain adequately funded in the face of current spending cuts is an open question with direct relevance for the further course of the outbreak."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Measles outbreaks in the USA can indirectly affect Europe and Germany through international travel, but direct impacts are limited."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A measles outbreak of this scale in one of the world's richest countries is a major development with signaling effects for vaccination policy worldwide."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "18-year-old dies in Pennsylvania's 4th measles-associated death",
+              "url": "https://www.pbs.org/newshour/health/18-year-old-dies-in-pennsylvanias-4th-measles-associated-death",
+              "publishedAt": "2026-09-15T22:11:14Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US space weapons publicly confirmed for first time",
+          "summaryDe": [
+            "The US Air Force has officially acknowledged for the first time that it has weapons stationed in space – a statement that had previously always been avoided.",
+            "Strategically, this represents a new dimension in the arms race: whoever controls space capabilities increasingly controls terrestrial communications, navigation, and intelligence as well.",
+            "For other spacefaring nations, including China and Russia, this is likely to be interpreted as a signal that Washington no longer treats space as a weapons-free zone.",
+            "Specific technical details on the deployed systems were not disclosed, which complicates assessment of actual capabilities."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany is indirectly affected through NATO structures, as US space capabilities are also used for European defense and intelligence."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The first public confirmation of space weapons is an extraordinary security policy development with systemic implications."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "U.S. confirms for first time it has weapons deployed in space",
+              "url": "https://www.cnbc.com/2026/09/15/weapons-in-space-us-air-force-meink.html",
+              "publishedAt": "2026-09-15T13:13:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "House of Representatives calls for end to Iran war without congressional approval",
+          "summaryDe": [
+            "The US House of Representatives has called on Trump to either end the war against Iran or seek formal authorization from Congress – an unusual step reflecting growing bipartisan dissatisfaction with the conflict.",
+            "In parallel, the Pentagon Inspector General has documented the significant losses and challenges facing US armed forces in this war.",
+            "The constitutional question of who decides on military operations has simmered in Washington for decades; this move is one of the most direct congressional attacks on presidential war-making authority in a long time.",
+            "How the administration responds will show whether Trump is willing to share control of the conflict with the legislative branch or continue it on his own authority."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An ongoing US war against Iran has direct consequences for European energy prices, security architecture, and diplomatic latitude, including for Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A formal congressional move against an ongoing presidential war is an extraordinary domestic political escalation with international reach."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "DPS tražio podatke iz ugovora fudbalera Budućnosti, iz PES-a porucuju da UEFA i FIFA ne dozvoljavaju njihovo iznosenje",
+              "url": "https://www.vijesti.me/sport/fudbal/826887/dps-trazio-podatke-iz-ugovora-fudbalera-buducnosti-iz-pes-a-porucuju-da-uefa-i-fifa-ne-dozvoljavaju-njihovo-iznosenje",
+              "publishedAt": "2026-09-16T08:40:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "China's global reputation rises – but not from its own strength",
+          "summaryDe": [
+            "Global surveys show that China currently ranks better than the USA in international perception – a finding that analysts attribute less to growing sympathy for Beijing than to Washington's rapid image loss under Trump.",
+            "China's own attractiveness as a model has barely changed; what has shifted is the point of reference.",
+            "For Beijing's foreign policy, this is a double-edged message: the improved standing stems from an opportunity, not from active persuasion, and could quickly reverse.",
+            "In the long term, what will matter is whether China uses this constellation to build substantive partnerships or whether the advantage remains purely passive."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Shifts in global perception between the USA and China indirectly touch on German foreign and trade policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A measurable shift in global sympathy values between the two largest powers is a relevant strategic development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "The world is not so much embracing China as recoiling from Trump's US",
+              "url": "https://www.scmp.com/opinion/world-opinion/article/3367044/world-not-so-much-embracing-china-recoiling-trumps-us",
+              "publishedAt": "2026-09-15T12:30:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China's industrial engine runs despite sanctions – an assessment",
+          "summaryDe": [
+            "An opinion piece in the South China Morning Post argues that neither tariffs nor export controls will halt China's industrial advance in key sectors like electric vehicles, batteries, and solar modules.",
+            "The thesis rests on China's deep value chains, state subsidization, and by now genuine innovation capacity in these sectors – factors that external trade barriers can make more expensive but cannot eliminate.",
+            "For Western industrialized countries, including Germany, this poses a strategic question: how long can one rely on isolation before losing competitiveness permanently?",
+            "This is an opinion analysis, not an empirical study – the conclusions are contested, but reflect an assessment widely held in expert circles."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "China's industrial lead in key technologies directly and concretely affects Germany's automotive and energy sector."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The question of whether Western trade policy toward China is effective has far-reaching economic policy implications."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Neither tariffs nor export controls will stop China's industrial engine",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3367200/neither-tariffs-nor-export-controls-will-stop-chinas-industrial-engine",
+              "publishedAt": "2026-09-16T01:30:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China's defense minister takes softer line toward USA ahead of Xi-Trump summit",
+          "summaryDe": [
+            "At Beijing's Xiangshan Forum, China's premier international security dialogue, Defense Minister Dong Jun adopted a notably more conciliatory tone toward Washington – shortly before Xi Jinping travels to a meeting with Donald Trump.",
+            "Several participants reported that structural mistrust between both powers characterized the forum, while Dong Jun's speech emphasized cooperation over confrontation.",
+            "The substantive gap between publicly emphasized willingness to cooperate and ongoing points of contention – from Taiwan to trade conflicts to AI regulation – was palpable to observers.",
+            "US Treasury Secretary Bessent has also confirmed a preparatory conversation with Chinese Vice Premier He Lifeng, indicating intensive negotiation activity ahead of the summit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Results from an Xi-Trump summit – such as on trade, technology transfer, or Taiwan – would have direct implications for Germany as an export-dependent economy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "An upcoming Xi-Trump summit with diplomatic preparation underway is an extraordinarily significant event with global scope."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US-China ties haunted by lack of mutual trust, Beijing Xiangshan Forum told",
+              "url": "https://www.scmp.com/news/china/military/article/3367630/us-china-ties-haunted-lack-mutual-trust-beijing-security-forum-hears",
+              "publishedAt": "2026-09-15T13:21:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Fragility and cooperation: takeaways from Dong Jun's Xiangshan Forum speech",
+              "url": "https://www.scmp.com/news/china/military/article/3367654/fragility-and-cooperation-takeaways-dong-juns-xiangshan-forum-speech",
+              "publishedAt": "2026-09-16T02:12:11Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Dong Jun takes softer line on US at Xiangshan Forum as Xi prepares for Trump summit",
+              "url": "https://www.scmp.com/news/china/military/article/3367657/dong-jun-adopts-softer-stance-us-xiangshan-forum-xi-prepares-trump-summit",
+              "publishedAt": "2026-09-16T02:45:50Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Albanian Forum secures participation in vote on Mandić removal",
+          "summaryDe": [
+            "The head of the Albanian Forum in the Montenegrin parliament, Ðeljošaj, has announced that his deputies will be present at the session scheduled for September 24 to vote on the removal of Minister Mandić.",
+            "According to the ruling coalition, the opposition DPS party is behind the move, accused of actually seeking to destabilize the entire government rather than clarify a single personnel matter.",
+            "The PES party has announced cohesion, showing that the coalition views the vote as a test of its internal solidarity.",
+            "Whether Premier Spajić's government survives the vote depends significantly on how the smaller coalition partners, including the Albanian Forum, actually vote."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Internal coalition questions in Montenegro do not directly affect Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The vote is relevant for Montenegro's internal political stability as an EU accession candidate, but remains of limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Ðeljošaj: Poslanici Albanskog foruma će biti u Skupštini kada se bude glasalo o smjeni Mandića",
+              "url": "https://www.pobjeda.me/clanak/deljosaj-poslanici-albanskog-foruma-ce-biti-u-skupstini-kada-se-bude-glasalo-o-smjeni-mandica",
+              "publishedAt": "2026-09-15T21:12:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegro's public debt remains below Maastricht threshold",
+          "summaryDe": [
+            "At end of June 2026, Montenegro's public debt stood at 58.5 percent of GDP – and thus within the Maastricht criteria, which set an upper limit of 60 percent.",
+            "For a country in the EU accession process that must demonstrate fiscal convergence, this figure is an important signal to Brussels.",
+            "At the same time, the margin is tight, and given ongoing political instability and possible investment plans, the debt ratio could quickly move into a more problematic zone.",
+            "Whether this level can be sustained will also depend on how the current government crisis unfolds."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's public finances have no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Compliance with fiscal criteria is relevant in the EU accession context but remains a routine report of limited significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Javni dug na kraju juna 58,5 odsto BDP-a i u okviru je mastrihtskih kriterijuma",
+              "url": "https://www.pobjeda.me/clanak/javni-dug-na-kraju-juna-585-odsto-bdp-a-i-u-okviru-je-mastrihtskih-kriterijuma",
+              "publishedAt": "2026-09-16T07:09:02Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Von der Leyen proposes Canada as first EU associate member – union status without legal basis",
+          "summaryDe": [
+            "In her 2026 State of the Union address, Commission President von der Leyen proposed inviting Canada as the first associated member of the EU – a status not provided for in EU treaties as currently written.",
+            "The move is interpreted by observers as a political signal under pressure from transatlantic turmoil: Europe is seeking new alliance partners as relations with Washington have become more complicated.",
+            "At the same time, the proposal immediately raises legal and institutional questions – what rights and obligations such an associate member would have remains entirely unclear.",
+            "On the same platform, an 'Alliance for the Future' and a European Security Council were proposed, indicating a broad momentum of ambitions from the Commission that must now withstand negotiations with member states and parliament."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the EU's largest member state, Germany would be directly affected by new institutional formats such as a European Security Council or associate status for third countries."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Proposals to expand EU partnership institutionally beyond existing treaty frameworks represent a major policy development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "State of the Union 2026: Quotes and initiatives",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1885",
+              "publishedAt": "2026-09-16T06:47:45Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "ECB interest rate policy disadvantages renewable energy in fighting inflation",
+          "summaryDe": [
+            "A study presented at EUobserver concludes that the ECB's rate increases primarily respond to fossil fuel energy prices – an inflation driver that cannot be dampened much by higher rates.",
+            "The flip side: expensive credit simultaneously raises the cost of renewable energy investments and thus slows the transition that should reduce energy price dependence in the long term.",
+            "This is a structural dilemma: the standard monetary policy tool fails when inflation is supply-driven and creates collateral damage in the transformation sector.",
+            "Whether and how the ECB responds to such findings remains unclear – the central bank pursues its price stability mandate, not energy policy goals."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany as the eurozone's largest economy and an important investment location for renewable energy is directly affected by ECB rate decisions and their consequences for the energy transition."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The tension between monetary policy and the need for climate investment is a structurally relevant and widely discussed issue for the entire EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Fighting fossil-fuel inflation with ECB rate hikes punishes renewables, research finds",
+              "url": "https://euobserver.com/237215/fossil-fuels-drive-eu-inflation-and-the-ecb-is-fighting-it-with-the-wrong-tool-research-finds",
+              "publishedAt": "2026-09-14T22:01:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Ukraine strikes record number of Russian refineries – Trump calls for energy weapons pause",
+          "summaryDe": [
+            "Ukraine has attacked a record number of Russian oil refineries with drones and missiles, according to EUobserver – a targeted effort to strike Moscow's energy sector revenues.",
+            "At the same time, US President Trump publicly called for a ceasefire specifically on energy infrastructure, interpreted by observers as an attempt to protect Russian interests at least partially.",
+            "The simultaneity of both events reveals the tension: Kyiv is intensifying economic warfare against Russia while Washington is pressing for de-escalation regarding energy facilities.",
+            "For Europe, the development is particularly relevant because attacks on Russian energy infrastructure can influence already volatile global energy markets."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Attacks on Russian energy infrastructure and associated movements in energy markets directly affect Germany as an import-dependent economy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Escalating Ukrainian attacks on Russian energy supply and simultaneous US pressure for de-escalation represent a major development in the course of the war."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Ukraine hit record number of Putin's refineries, as Trump pleads for energy ceasefire (Ukraine Battlefield update, Day 1,664)",
+              "url": "https://euobserver.com/237608/ukraine-hit-record-number-of-putins-refineries-as-trump-pleads-for-energy-ceasefire-ukraine-battlefield-update-day-1664",
+              "publishedAt": "2026-09-15T15:41:48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
