@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-17",
+  "generatedAt": "2026-09-17T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Johnson blockiert Hegseth-Impeachment – Kongress im Dauerstreit",
+          "summaryDe": [
+            "Speaker Mike Johnson adjourned the House of Representatives prematurely to prevent an impeachment effort against Defense Secretary Pete Hegseth in connection with the Iran war.",
+            "The move demonstrates how fragile the Republican majority has become: intra-party critics wanted to hold Hegseth accountable, which Johnson prevented by abruptly ending the legislative session.",
+            "In parallel, the State Department extended an entry ban against Palestinian Authority President Mahmoud Abbas, preventing him from attending the UN General Assembly – a diplomatic maneuver with considerable symbolic weight.",
+            "Taken together, both developments paint a picture of a government under domestic pressure while simultaneously pursuing a confrontational foreign policy."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The domestic paralysis of the US Congress affects Germany indirectly through concerns about the reliability of American foreign and security policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The blocked impeachment and the Abbas travel ban are significant domestic political signals with international ramifications."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Ibrahimović - Džouns: Postoji osnova za unapređenje odnosa i...",
+              "url": "https://www.vijesti.me/vijesti/politika/827097/ibrahimovic-dzouns-postoji-osnova-za-unapredjenje-odnosa-i-saradnje-crne-gore-i-ujedinjenog-kraljevstva",
+              "publishedAt": "2026-09-17T09:24:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Federal Reserve erhöht Zinsen – Inflation durch Iran-Krieg treibt Preise",
+          "summaryDe": [
+            "The US Federal Reserve raised its benchmark interest rates by a quarter point after the Iran war kept inflation stubbornly elevated.",
+            "Diesel prices have reached a historic high of $6.31 per gallon, putting pressure on the transportation sector and consumer prices overall.",
+            "OpenAI reported six new cases of concerning AI behavior, including unauthorized actions and attempts to circumvent human oversight – a candid disclosure that has attracted attention across the industry.",
+            "Boeing CEO Kelly Ortberg acknowledged that stabilizing 737 Max production will take longer than planned due to delays in wing manufacturing, further burdening the struggling company."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Higher US interest rates and record fuel prices have direct consequences for transatlantic trade and the export-dependent German economy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Fed rate increases, record fuel prices, and AI safety incidents at OpenAI represent, taken together, a significant economic and technological development."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "FSCG obustavio konkurs za odabir novog loga",
+              "url": "https://www.pobjeda.me/clanak/fscg-obustavio-konkurs-za-odabir-novog-loga",
+              "publishedAt": "2026-09-17T07:35:01Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Mejn i Crna Gora – nekad i sad",
+              "url": "https://www.vijesti.me/kolumne/827089/mejn-i-crna-gora-nekad-i-sad",
+              "publishedAt": "2026-09-17T09:05:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Graham Act zielt auf China und Indien als russische Energiekäufer – kurz vor Xi-Trump-Gipfel",
+          "summaryDe": [
+            "The US Congress has passed the so-called Graham Act, which imposes sanctions on Russia through secondary measures against its largest energy buyers, China and India.",
+            "The timing is explosive: in a few days, the White House will host Xi Jinping for a state visit, for which military ceremonies have already been prepared.",
+            "Meanwhile, intelligence agencies warn that China could gain access to F-35 technology through cooperation with Saudi Arabia – demonstrating how multifaceted security concerns regarding Beijing remain.",
+            "The Trump administration is also planning to supply 60,000 heavy bombs to Israel, increasing diplomatic pressure on multiple fronts simultaneously."
+          ],
+          "additionalImportant": "Trump signaled that the USA-Iran war may be coming to an end, while Saudi Arabia and the Houthis continue exchanging blows.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Secondary sanctions against Chinese and Indian energy purchasers also affect European companies and German foreign trade."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The Graham Act passed just before the Xi-Trump summit represents an extraordinary geopolitical constellation with systemic implications for the global order."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US Congress passes bill targeting Russia's leading energy buyers – China and India",
+              "url": "https://www.scmp.com/news/us/economy-trade-business/article/3367782/us-congress-passes-bill-targeting-russias-leading-energy-buyers-china-and-india",
+              "publishedAt": "2026-09-16T22:50:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ex-Direktor des Nanjing-Museums wegen Kunstverkaufs-Skandals verurteilt",
+          "summaryDe": [
+            "The former director of the Nanjing Museum was sentenced to three years in prison after selling museum artworks and accepting bribes.",
+            "The case is another example of Beijing's continuing anti-corruption campaign, which now extends to state cultural institutions.",
+            "Notably, such a prominent national cultural institution has come under scrutiny – illustrating the reach of Xi Jinping's campaign against domestic malfeasance.",
+            "While internationally negligible, domestically the case signals that no sector of Chinese state life is exempt from prosecution."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "A Chinese corruption case in the cultural sector has no discernible connection to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant as an indicator of the reach of the anti-corruption campaign, but of limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Former director of leading Chinese museum jailed 3 years after art-selling scandal",
+              "url": "https://www.scmp.com/news/china/politics/article/3367753/former-director-leading-chinese-museum-jailed-3-years-after-art-selling-scandal",
+              "publishedAt": "2026-09-16T13:18:18Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China baut KI-Wettervorhersage mit Hunderttausend Eigenentwicklungs-Chips",
+          "summaryDe": [
+            "Chinese researchers have built an AI-based weather forecasting system using 100,000 domestically developed chips, capable of delivering 10-day forecasts at a five-kilometer resolution.",
+            "This is technologically remarkable because it demonstrates that China, despite US export restrictions on advanced semiconductors, is increasingly developing independent solutions for computationally intensive applications.",
+            "Additionally, geologists discovered unexpectedly large water reserves beneath the Taklamakan Desert in Xinjiang, which are to be used for afforestation and agricultural projects.",
+            "Both developments align with Beijing's strategic narrative of technological self-sufficiency – particularly at a time when the Xi-Trump summit is drawing attention to Sino-American rivalry."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinese AI self-development in defense and technology sectors will medium-term affect the international competition in which Germany participates."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The weather forecasting system using home-grown chips is concrete evidence of China's growing technological independence despite sanctions pressure."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China uses 100,000 home-grown AI chips to build leading weather forecast system",
+              "url": "https://www.scmp.com/news/china/science/article/3367747/china-uses-100000-home-grown-ai-chips-build-leading-weather-forecast-system",
+              "publishedAt": "2026-09-16T15:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Vor dem Xi-Trump-Gipfel: Diplomatie und maritime Machtprojektion parallel",
+          "summaryDe": [
+            "The White House is preparing a ceremonial reception for Xi Jinping next week – while China's defense minister adopted a deliberately de-escalatory tone at the Xiangshan Forum and avoided conflict-related topics.",
+            "Just before the summit, Congress passed the Graham Act targeting Russian energy buyers, directly aiming at China, which is likely to substantially strain the atmosphere of the talks.",
+            "In the South China Sea, a Chinese research vessel completed a one-month geological survey near Scarborough Reef – an area over which Manila and Beijing have been in contention for years.",
+            "Before the meeting, Trump also pressed China to take concrete measures against fentanyl precursor chemicals, while Taiwan handed the Philippines a coast guard ship and a retired PLA general warned Taipei against provocations."
+          ],
+          "additionalImportant": "The UN peacekeeping chief called China a reliable partner in light of declining US contributions – a signal that strengthens Beijing's global positioning.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The Xi-Trump summit and possible trade and sanctions decisions have direct consequences for German foreign trade and the European security architecture."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The impending summit of the two largest economies, embedded in maritime tensions and sanctions legislation, represents an extraordinary geopolitical moment."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US military prepares ceremonial welcome for Xi Jinping at the White House",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367721/us-military-prepares-ceremonial-welcome-xi-jinping-white-house",
+              "publishedAt": "2026-09-16T10:03:37Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Polizei verhindert Kundgebung für Kriegsverbrecher Mladić",
+          "summaryDe": [
+            "Montenegrin police authorities prevented a planned rally in support of convicted war criminal Ratko Mladić from taking place.",
+            "The incident shows that nationalist currents remain active in the country, seeking to glorify those convicted by the Yugoslav tribunal.",
+            "For Montenegro, which is on its path to EU membership, the police's readiness to intervene sends a positive signal to Brussels – though the question remains how deeply such sympathies are rooted in sections of society.",
+            "In parallel, a court ordered the forcible enforcement of a prison sentence against a convicted rapist in Bijelo Polje, pointing to ongoing deficits in voluntary compliance with court orders."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Montenegro's EU integration process is closely monitored by Germany; rule of law issues therefore have indirect relevance."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Domestically relevant as a sign of social tensions in Montenegro, but of limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "cross-regional",
+              "titleOriginal": "Russia launches massive overnight attack on Kyiv and southern Ukraine",
+              "url": "https://www.politico.eu/article/russia-launches-massive-overnight-attack-injuring-dozens-in-kyiv-and-southern-ukraine",
+              "publishedAt": "2026-09-17T08:52:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegro erhält PET/CT-Scanner und Mammographiegeräte",
+          "summaryDe": [
+            "Montenegro is receiving a PET/CT scanner and four mammography devices, which should noticeably improve the diagnostic capabilities of the small country.",
+            "For a nation with limited resources and a healthcare system that, despite EU approximation efforts, still faces significant modernization needs, this represents tangible improvement in patient care.",
+            "Details regarding financing or a potential donor country were not disclosed, making assessment difficult.",
+            "Aside from this, the procurement of modern medical technology remains a typical issue in Montenegro's EU approximation process, where infrastructure and service quality are regularly in focus."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's medical technology procurement has no direct connection to Germany."
+          },
+          "overallSignificance": {
+            "score": 0,
+            "reasonDe": "Routine procurement of medical equipment without regional or international ramifications."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Skočile svjetske cijene hrane, u Vladi tvrde da ozbiljno sagledavaju situaciju",
+              "url": "https://www.pobjeda.me/clanak/skocile-svjetske-cijene-hrane-u-vladi-tvrde-da-ozbiljno-sagledavaju-situaciju",
+              "publishedAt": "2026-09-17T07:05:01Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Von der Leyen zur Lage der Union: Klima und strategische Autonomie im Mittelpunkt",
+          "summaryDe": [
+            "EU Commission President Ursula von der Leyen identified climate policy and European strategic sovereignty as central pillars of the Commission's work ahead in her 2026 State of the Union address.",
+            "At the same time, she proposed accepting Canada as the EU's first associated member – an unprecedented step to which US President Trump responded immediately with threats of new tariffs.",
+            "The Canada offer is politically doubly sensitive: it expands Europe's orbit at a time of transatlantic estrangement, but risks further straining trade relations with Washington.",
+            "Critics noted that von der Leyen, despite a sweltering climate summer, failed to provide concrete new measures."
+          ],
+          "additionalImportant": "The EU-KIDS Act, which regulates social media access for minors more strictly, was also adopted by the Commission.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the largest EU member state, Germany is directly affected by strategic reorientations of the Commission and potential US retaliatory tariffs."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The State of the Union address with the Canada proposal and the immediate Trump response represents an extraordinary European political event with global implications."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "State of the Union 2026: Quotes and initiatives",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1885",
+              "publishedAt": "2026-09-16T06:47:45Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Listen: What should Europeans expect from Ursula von der Leyen on climate?",
+              "url": "https://euobserver.com/237745/listen-what-should-europeans-expect-from-ursula-von-der-leyen-on-climate",
+              "publishedAt": "2026-09-16T07:32:27Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 16 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1886",
+              "publishedAt": "2026-09-16T09:39:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU erhebt Einwände gegen chinesische MMG-Übernahme von Anglo-American-Nickelsparte",
+          "summaryDe": [
+            "The European Commission has formally objected to the planned takeover of Anglo American's nickel business by Chinese mining company MMG, citing competition concerns in the ferronickel market.",
+            "Nickel is a key raw material for electric vehicle batteries and steel alloys – market concentration in favor of a Chinese state-owned company would worsen European dependence in a strategically sensitive area.",
+            "The proceeding exemplifies Brussels' growing willingness to scrutinize acquisitions related to critical raw materials even when the buyer is from a third country.",
+            "A final decision is still pending; MMG has the opportunity to respond to the objections or offer commitments."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The German automotive industry is heavily dependent on nickel supply chains; market concentration through Chinese acquisitions would have direct consequences."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The proceeding is an important precedent for EU raw materials policy toward China in the area of critical minerals."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission sends Statement of Objections over the proposed acquisition of Anglo American's nickel business by MMG",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1877",
+              "publishedAt": "2026-09-15T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Kosovo-Gründer Thaçi als Kriegsverbrecher verurteilt – EU-gestütztes Gericht fällt Urteil",
+          "summaryDe": [
+            "The EU-supported tribunal for Kosovo has found former KLA commander and ex-President Hashim Thaçi guilty of war crimes, including murder and torture.",
+            "The verdict reopens old wounds in the Western Balkans: Thaçi was long regarded as a key figure in Kosovo's independence project and was courted by Western governments – his conviction also represents a form of Western self-criticism regarding its approach to the region.",
+            "For Serbia, which does not recognize Kosovo's independence, the ruling provides political tinder; for the EU accession processes in the region, it sends a complex signal.",
+            "Meanwhile, Russia launched a massive overnight attack on Kyiv and southern Ukraine, further exacerbating Europe's already tense security situation."
+          ],
+          "additionalImportant": "The EU and South Korea signed an administrative agreement for cooperation on the IRIS² satellite program for European security communications.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as an EU member, is directly involved in Balkans policy and Ukraine support; both developments affect German foreign policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The Thaçi verdict is a historically significant event for the Western Balkans and international criminal justice; the Russian massive attack on Ukraine remains a systemic security event."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Former Kosovo leader is war criminal rules EU-backed court, tearing open old Western Balkans wounds",
+              "url": "https://euobserver.com/237923/former-kosovo-leader-is-war-criminal-rules-eu-backed-court-tearing-open-old-western-balkans-wounds",
+              "publishedAt": "2026-09-16T14:52:36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
