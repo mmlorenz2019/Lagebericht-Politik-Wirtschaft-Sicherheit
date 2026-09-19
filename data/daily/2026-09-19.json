@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-19",
+  "generatedAt": "2026-09-19T10:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump verbannt CNN, Politico und MSNOW aus dem Weißen Haus",
+          "summaryDe": [
+            "Präsident Trump hat CNN, MSNOW und Politico den Zugang zum Weißen Haus entzogen und dies mit ihrer aus seiner Sicht ungerechten Berichterstattung begründet.",
+            "Gleichzeitig drohte er, weitere Medienhäuser von der Presseakkreditierung auszuschließen, sollten sie seine Linie nicht ändern.",
+            "Kommentatoren sehen darin einen der schwersten Angriffe auf die Pressefreiheit in der jüngeren amerikanischen Geschichte, mit möglicher Wirkung weit über die betroffenen Redaktionen hinaus.",
+            "Rechtlich ist die Frage offen, ob Trumps Vorgehen verfassungskonform ist, da der Erste Zusatzartikel keinen automatischen Zugangsanspruch auf Regierungsgebäude garantiert."
+          ],
+          "additionalImportant": "Die Trump-Regierung verschiebt bei der Einwanderungsdurchsetzung die Strategie von öffentlichkeitswirksamen Razzien zu einer engmaschigen Zusammenarbeit mit Bundes-, Staats- und Lokalbehörden, was zu Rekordzahlen bei den Verhaftungen führt.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein dauerhafter Rückbau der US-Pressefreiheit hätte indirekt Auswirkungen auf westliche Demokratienormen, direkte Folgen für Deutschland sind derzeit nicht erkennbar."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Schritt ist ein präzedenzloser Eingriff in die Presseakkreditierung und löst eine breit geführte Verfassungsdebatte in den USA aus."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Trump says he is banning CNN, MS NOW and Politico from the White House",
+              "url": "https://www.npr.org/2026/09/18/g-s1-144112/trump-ban-cnn-msnow-politico-white-house-media",
+              "publishedAt": "2026-09-18T20:15:53Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "KI-Sicherheitsdebatte verschärft sich: Experten fordern Unabhängigkeit der Evaluatoren",
+          "summaryDe": [
+            "Mehr als hundert KI-Forscher haben in einem offenen Appell gefordert, dass Sicherheitsbewertungen von Modellentwicklern wie Anthropic und OpenAI künftig von unabhängigen Stellen durchgeführt werden müssen.",
+            "Parallel dazu bezeichnete Microsoft-KI-Chef Mustafa Suleyman den jüngsten OpenAI-Vorfall in einem CNBC-Interview als 'ernste Situation', ohne Details zu nennen.",
+            "Anthropic reagierte bereits konkret und wählte den Beratungskonzern Accenture als ersten extern eingebetteten Evaluator, der das von CEO Amodei propagierte Verlangsamungskonzept für Hochleistungsmodelle umsetzen soll.",
+            "Dass Anthropic gleichzeitig einen Börsengang mit einem angestrebten Jahresumsatz von 100 Milliarden Dollar anstrebt, zeigt die Spannung zwischen öffentlich proklamierter Vorsicht und kommerziellem Expansionsdruck."
+          ],
+          "additionalImportant": "Die US-Luftfahrtbehörde FAA führt ein neues KI-System namens SMART an Flughäfen der Hauptstadtregion ein, das Wetter- und Planungsdaten verknüpft, um Verspätungen vorherzusagen und zu vermeiden.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Unternehmen und Regulierungsbehörden, die den EU AI Act umsetzen, sind direkt davon betroffen, wie die großen US-Modellanbieter Sicherheitsstandards definieren und durchsetzen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Debatte über externe KI-Evaluierung betrifft die Governance der mächtigsten kommerziellen KI-Systeme weltweit und hat Signalwirkung für internationale Regulierung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ima prostora za dodatno unapređenje saradnje Crne Gore i Mejna...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/827411/ima-prostora-za-dodatno-unapredjenje-saradnje-crne-gore-i-mejna-kroz-konkretne-projekte",
+              "publishedAt": "2026-09-19T07:39:00Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "JPMorgan, Citigroup CEOs attending Trump's state dinner for China's Xi: Sources",
+              "url": "https://www.cnbc.com/2026/09/18/trump-xi-state-dinner-jpmorgan-jamie-dimon.html",
+              "publishedAt": "2026-09-18T17:34:49Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+              "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+              "publishedAt": "2026-09-18T21:37:38Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump unterzeichnet Russland-Sanktionsgesetz kurz vor Xi-Gipfel",
+          "summaryDe": [
+            "Wenige Tage vor dem geplanten Staatsbesuch von Chinas Präsident Xi Jinping unterzeichnete Trump den Graham Sanctioning Russia and Iran Act, der auch China und Indien als Hauptabnehmer russischer Energielieferungen ins Visier nimmt.",
+            "Das Gesetz setzt Peking unter erheblichen wirtschaftlichen Druck, gerade weil es zeitgleich mit den Vorbereitungen für ein Treffen kommt, bei dem Zölle und strategische Stabilität besprochen werden sollen.",
+            "Informelle Track-Two-Gespräche zwischen US- und chinesischen Experten laufen parallel, mit einem Fokus auf geteilten KI-Risiken, die auf der offiziellen Agenda stehen sollen.",
+            "Ob Washington die Taiwan-Rüstungsexporte bis nach dem APEC-Gipfel im November zurückstellt, gilt als ein weiterer sensibler Verhandlungspunkt, dessen Ausgang den Ton des Treffens mitprägen wird."
+          ],
+          "additionalImportant": "Demokratische Abgeordnete haben eine Resolution eingebracht, um Trumps Zivilnuklearabkommen mit Saudi-Arabien zu blockieren, und verweisen auf Proliferationsrisiken.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Sanktionen gegen chinesische Russland-Energieimporte treffen europäische Partnerunternehmen und beeinflussen die EU-Russland-Sanktionspolitik direkt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das Zusammenspiel von Sanktionsgesetz und Gipfelvorbereitung gestaltet die strategische US-China-Beziehung für absehbare Zeit neu und hat globale Auswirkungen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Tramp potpisao zakon o sankcijama Rusiji",
+              "url": "https://www.vijesti.me/svijet/globus/827412/tramp-potpisao-zakon-o-sankcijama-rusiji",
+              "publishedAt": "2026-09-19T07:44:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taiwanischer Arbeitsminister reist erstmals unter Lai-Regierung zu APEC-Treffen auf dem Festland",
+          "summaryDe": [
+            "Arbeitsminister Hung Sun-han soll als erstes Kabinettsmitglied der Lai-Regierung zum APEC-Ministertreffen nach Festlandchina reisen – ein symbolisch hochaufgeladener Schritt.",
+            "Wie Peking einen so ranghohen taiwanischen Beamten empfangen und protokollarisch behandeln wird, ist politisch heikel und wird aufmerksam beobachtet.",
+            "Für die Lai-Regierung, die von Peking scharf abgelehnt wird, sendet die Teilnahme ein Signal, dass pragmatische Kontakte auf multilateraler Ebene möglich bleiben sollen.",
+            "Gleichzeitig diskutiert Washington, ob eine Ankündigung zu Taiwan-Rüstungslieferungen bis nach dem APEC-Gipfel verschoben werden soll, was zeigt, wie sehr das Taiwan-Thema derzeit diplomatisch austariert wird."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant, da Veränderungen im Taiwan-Status europäische Lieferketten und Halbleiterversorgung gefährden könnten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Kabinettsbesuch unter der Lai-Regierung ist ein bedeutsamer Präzedenzfall für den schwierigen cross-strait-Dialog."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Speech by Commissioner Albuquerque at Eurofi's Financial Forum 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1897",
+              "publishedAt": "2026-09-17T10:41:37Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Deutsche Universitäten versagen chinesischen MINT-Forschern zunehmend Visa",
+          "summaryDe": [
+            "Chinesische Wissenschaftlerinnen und Wissenschaftler in MINT-Fächern berichten von gehäuften Visaablehnungen deutscher Hochschulen, die mit öffentlichem Interesse begründet werden.",
+            "Hinter der Praxis stehen verschärfte Sicherheitsbedenken bezüglich Technologietransfers, die in der deutschen Hochschulpolitik seit einigen Jahren an Bedeutung gewinnen.",
+            "Für betroffene Forschende bedeutet das oft das Ende jahrelang geplanter Kooperationsprojekte; für deutsche Institute entstehen Lücken in internationalen Fachgruppen.",
+            "Kritiker warnen, dass eine zu pauschale Anwendung solcher Einschränkungen die Wettbewerbsfähigkeit der deutschen Wissenschaft gefährdet, ohne den tatsächlichen Technologieabfluss wirksam zu kontrollieren."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Maßnahme betrifft unmittelbar deutsche Hochschulen, Forschungsstandorte und die Frage, wie Deutschland Offenheit und Sicherheit in der Wissenschaftspolitik austariert."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Fall steht exemplarisch für den globalen Trend, akademische Mobilität aus Sicherheitsgründen einzuschränken, und hat Signalwirkung über Deutschland hinaus."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Are the doors to German universities closing for China's STEM researchers?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368056/are-doors-german-universities-closing-chinas-stem-researchers",
+              "publishedAt": "2026-09-18T14:00:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi reist zu Staatsbesuch nach Washington: Agenda zwischen Kooperation und Konfrontation",
+          "summaryDe": [
+            "Chinas Präsident Xi Jinping wird zu einem Staatsbesuch in Washington erwartet, bei dem KI-Regulierung, Zölle und strategische Stabilität im Mittelpunkt stehen sollen.",
+            "Trump beschrieb das Abendessen zu Ehren Xis als 'begehrtes Ticket' mit rund 125 Gästen, darunter Finanzgrößen wie Jamie Dimon und Jensen Huang von Nvidia.",
+            "Kurz vor dem Treffen unterzeichnete Trump ein Sanktionsgesetz gegen russische Energieimporte, das auch China direkt trifft – ein Signal, dass Washington trotz Gipfelstimmung Druck aufrechterhält.",
+            "Gleichzeitig versucht eine Gruppe China-kritischer Kongress-Abgeordneter mit Anhörungen zu Menschenrechten und Lieferketten, Trumps Verhandlungsagenda zu beeinflussen."
+          ],
+          "additionalImportant": "Die USA erwägen, eine Ankündigung zu Taiwan-Rüstungsexporten bis nach dem APEC-Gipfel im November zu verschieben, um das Gipfelklima nicht zu belasten.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ergebnisse zum Thema Zölle und KI-Governance zwischen den USA und China wirken sich unmittelbar auf die Wettbewerbsbedingungen deutscher Unternehmen aus."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Xi-Trump-Gipfel mit Agenda zu KI, Handel und strategischer Stabilität ist eines der folgenreichsten diplomatischen Ereignisse des Jahres."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi-Trump summit, China AI at Brics, Asian Games",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368001/xi-trump-summit-china-ai-brics-asian-games",
+              "publishedAt": "2026-09-18T09:00:10Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump says Xi state dinner is 'a very tough ticket' as business guest list takes shape",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3368077/trump-says-xi-state-dinner-very-tough-ticket-business-guest-list-takes-shape",
+              "publishedAt": "2026-09-18T22:05:57Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump, Melania to host China's Xi and Peng for White House 'double date': full schedule",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368082/trump-melania-host-xi-and-peng-white-house-double-date-full-schedule",
+              "publishedAt": "2026-09-19T01:01:10Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump signs bill targeting China's Russia energy imports days before Xi's US visit",
+              "url": "https://www.scmp.com/news/us/economy-trade-business/article/3368079/trump-signs-bill-targeting-chinas-russia-energy-imports-days-xis-us-visit",
+              "publishedAt": "2026-09-18T22:50:05Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Ungarn streicht homophobe Sprache aus Kinderschutzgesetzen – Magyar setzt Orbán-Erbe zurück",
+          "summaryDe": [
+            "Der ungarische Ministerpräsident Péter Magyar hat angekündigt, jene Gesetzespassagen zu streichen, die unter Orbán Homosexualität mit Pädophilie gleichsetzten.",
+            "Das ist die bislang deutlichste rechtspolitische Kurskorrektur der Tisza-Regierung, die sich damit klar von ihrem Vorgänger abgrenzt.",
+            "In Brüssel dürfte der Schritt die seit Jahren schwelenden Rechtsstaatsstreitigkeiten mit Budapest zumindest in diesem Punkt entspannen.",
+            "Orbán selbst meldete sich nach einer langen Sommerpause wieder öffentlich zu Wort, ohne jedoch eine direkte Antwort auf die Reformpläne Magyars zu geben."
+          ],
+          "additionalImportant": "Die EU plant europaweit einheitliche Altersbeschränkungen für soziale Medien für Unter-15-Jährige; Datenschützer warnen, das geplante Altersverifikationssystem könnte neue Risiken für die Privatsphäre schaffen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Indirekt relevant, da eine Normalisierung des ungarischen Rechtsrahmens die EU-Verhandlungen über Rechtsstaatlichkeit und Fondszugänge beeinflusst."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Umkehrung einer zentralen Orbán-Richtlinie durch seinen Nachfolger ist ein bedeutsames Signal für die politische Entwicklung in Ungarn und innerhalb der EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Orbán re-emerges after long summer holiday, as Magyar strips homophobia from child protection laws (Day 128 of the Tisza government)",
+              "url": "https://euobserver.com/238104/orban-re-emerges-after-long-summer-holiday-as-magyar-strips-homophobia-from-child-protection-laws-day-128-of-the-tisza-government",
+              "publishedAt": "2026-09-17T11:23:44Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Peking fordert Abschwächung des 'Made in Europe'-Industriegesetzes vor Oktober-Showdown",
+          "summaryDe": [
+            "China hat die EU aufgefordert, zentrale Schutzbestimmungen im geplanten europäischen Industriegesetz zu lockern, bevor es im Oktober zur Abstimmung kommt.",
+            "Peking befürchtet, durch das Gesetz bei europäischen Aufträgen und Förderprogrammen systematisch benachteiligt zu werden.",
+            "Ausgerechnet jetzt, wo der Xi-Trump-Gipfel die Aufmerksamkeit auf sich zieht, geraten die EU-China-Handelsgespräche in die Gefahr, von der Washington-Dynamik überlagert zu werden.",
+            "Für Deutschland als exportorientierte Volkswirtschaft ist der Ausgang besonders bedeutsam: Ein starkes Industriegesetz schützt heimische Hersteller, riskiert aber Gegenmaßnahmen Pekings."
+          ],
+          "additionalImportant": "Die Europäische Kommission schlägt 489 Millionen Euro aus dem EU-Solidaritätsfonds vor, um Portugal, Spanien, Italien und Malta nach schweren Sturm- und Flutschäden im Frühjahr 2026 zu unterstützen.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Das 'Made in Europe'-Gesetz hat unmittelbare Auswirkungen auf die Wettbewerbsfähigkeit der deutschen Industrie gegenüber chinesischen Konkurrenten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Konflikt berührt die industriepolitische Souveränität der EU und könnte einen neuen Handelsstreit mit China auslösen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Beijing tells EU to weaken 'Made in Europe' industrial bill ahead of October showdown",
+              "url": "https://euobserver.com/238422/beijing-tells-eu-to-weaken-made-in-europe-industrial-bill-ahead-of-october-showdown",
+              "publishedAt": "2026-09-18T14:21:27Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Tusk enthüllt geheime Ukraine-Verlustzahlen – EU überweist 3,3 Milliarden Euro für Drohnen",
+          "summaryDe": [
+            "Der polnische Ministerpräsident Donald Tusk hat als erster westlicher Regierungschef öffentlich auf klassifizierte Verlustzahlen der Ukraine verwiesen und von zehntausenden Toten und Verwundeten pro Monat gesprochen.",
+            "Die Offenlegung geschah offenbar mit dem Ziel, westliche Partner auf die dramatische Lage im Herbst und Winter aufmerksam zu machen und mehr Unterstützung zu mobilisieren.",
+            "Parallel dazu überweist die EU 3,3 Milliarden Euro aus dem Ukraine-Unterstützungskredit für den Kauf von Drohnen und anderem Rüstungsmaterial.",
+            "Wie groß die verbleibende Finanzierungslücke ist, bleibt strittig; Belgien blockiert derzeit die Nutzung eingefrore­ner russischer Vermögenswerte für weitere Hilfsleistungen."
+          ],
+          "additionalImportant": "Mehrere europäische Regierungschefs aus Polen, Litauen, Frankreich und den Niederlanden bereiten ihre Bevölkerungen öffentlich auf eine 'intensivierte Bedrohung' durch Russland vor, obwohl die NATO keinen unmittelbar bevorstehenden Angriff erwartet.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland trägt als größter EU-Beitragszahler und NATO-Partner erheblich zur Ukraine-Finanzierung bei, und russische Drohungen betreffen die Sicherheit des gesamten Bündnisses einschließlich Deutschlands."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Die Enthüllung des Ausmaßes der ukrainischen Verluste und die gleichzeitige EU-Finanzierungsentscheidung sind außergewöhnlich bedeutsam für den weiteren Verlauf des Krieges."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Polish leader Tusk exposes classified figures on sky-high Ukrainian casualties (Ukraine Battlefield update, Day 1,667)",
+              "url": "https://euobserver.com/238438/polish-leader-tusk-exposes-classified-figures-on-sky-high-ukrainian-casualties-ukraine-battlefield-update-day-1667",
+              "publishedAt": "2026-09-18T14:05:41Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 18 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1902",
+              "publishedAt": "2026-09-18T09:20:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Spičanović freigelassen, Haftkonflikt unter Kavcaner-Verdächtigen in Untersuchungshaft",
+          "summaryDe": [
+            "Ein montenegrinisches Gericht hat die Untersuchungshaft gegen Drago Spičanović aufgehoben und ihn freigelassen.",
+            "Im selben Zeitraum wurde bekannt, dass es unter den bereits inhaftierten Verdächtigen – Milošević, Stanišić und Kažić – zu einem handgreiflichen Vorfall in der Untersuchungshaft gekommen ist.",
+            "Der Fall zeigt, wie angespannt das Verhältnis unter den Beschuldigten im Kontext der Ermittlungen gegen kriminelle Netzwerke ist.",
+            "Auf politischer Ebene gerät Premierminister Spajić unterdessen unter Druck: Analysten sehen seine Ankündigung höherer Löhne und Renten als Flucht nach vorne vor anstehenden Wahlen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die innenpolitischen Entwicklungen in Montenegro haben keinen erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Vorgänge sind für die innenpolitische Stabilität und die Rechtsstaatlichkeit Montenegros relevant, bleiben aber auf den nationalen Rahmen beschränkt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Bježi od nevolja, trči ka izborima: Šta je pozadina Spajićeve...",
+              "url": "https://www.vijesti.me/vijesti/politika/827406/bjezi-od-nevolja-trci-ka-izborima-sta-je-pozadina-spajiceve-najave-o-novom-povecanju-plata-i-penzija",
+              "publishedAt": "2026-09-19T06:45:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Spičanović na slobodi, Mijajlović vraćen u Istražni zatvor zbog drugog predmeta",
+              "url": "https://www.pobjeda.me/clanak/spicanovic-na-slobodi-mijajlovic-vracen-u-istrazni-zatvor-zbog-drugog-predmeta",
+              "publishedAt": "2026-09-19T07:45:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Vraćanje povjerenja je važnije od rezultata",
+              "url": "https://www.pobjeda.me/clanak/vracanje-povjerenja-je-vaznije-od-rezultata",
+              "publishedAt": "2026-09-19T07:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Arbeitgeber alarmiert über geplante Lohnerhöhungen – Primorka-Kollaps wird Vorgängerregierung angelastet",
+          "summaryDe": [
+            "Montenegrinische Arbeitgeberverbände haben die Regierung zu einem Dringlichkeitsgespräch über die für Januar angekündigten Lohnerhöhungen aufgefordert, die über eine Steuerumstrukturierung finanziert werden sollen.",
+            "Während Gewerkschaften die Pläne begrüßen, sehen Unternehmer in dem Vorhaben eine unkalkulierbare Belastung, die ohne ausreichende Konsultation vorangetrieben werde.",
+            "Zu einem weiteren wirtschaftlichen Streitpunkt äußerte sich Regierungsvertreter Marković: Der Zusammenbruch des Unternehmens Primorka sei lange vor dem Amtsantritt der aktuellen Regierung eingeleitet worden.",
+            "Die Debatte spiegelt die grundsätzliche Spannung zwischen politisch motivierten Sozialversprechen und den Tragfähigkeitsfragen der montenegrinischen Wirtschaft wider."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegros Lohnpolitik berührt Deutschland allenfalls im Kontext von EU-Beitrittsverhandlungen, hat aber keine unmittelbaren Auswirkungen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Auseinandersetzung ist für den sozialen Dialog und die Wirtschaftsstabilität Montenegros relevant, bleibt aber lokal begrenzt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Mala jeste divna, a da li je i ekoloska?",
+              "url": "https://www.vijesti.me/kolumne/827334/mala-jeste-divna-a-da-li-je-i-ekoloska",
+              "publishedAt": "2026-09-19T07:10:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Šta nijesmo spremni da izgubimo",
+              "url": "https://www.pobjeda.me/clanak/sta-nijesmo-spremni-da-izgubimo",
+              "publishedAt": "2026-09-19T06:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
