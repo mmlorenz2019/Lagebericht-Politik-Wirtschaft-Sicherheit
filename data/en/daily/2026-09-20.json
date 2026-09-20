@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-20",
+  "generatedAt": "2026-09-20T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel rückt näher – Sanktionsgesetz, Taiwan-Frage und Grönland-Kalkül prägen das Treffen",
+          "summaryDe": [
+            "Just days before Xi Jinping's state visit to Washington, President Trump signed legislation that can impose secondary sanctions on Chinese energy imports from Russia—an unusually sharp signal just before a meeting intended to ease tensions.",
+            "According to reports, Washington is deferring planned major arms sales to Taiwan until after the APEC summit in Shenzhen, possibly even until next year—Beijing is likely to view this as a signal of goodwill.",
+            "On the diplomatic stage, Taiwan's Labor Minister Hung Sun-han traveled to an APEC ministerial conference in Nanjing—the highest-ranking representative of the Lai administration on mainland Chinese territory to date.",
+            "Analysts also interpret Trump's announcement that he has secured control of Greenland as an attempt to enter the summit with strengthened negotiating power; Trump is already calling the state dinner a 'highly coveted ticket'."
+          ],
+          "additionalImportant": "Six Chinese J-16 fighter jets were relocated to Egypt—the first time the model has been present on the African continent, which military experts view as a test of Chinese power projection.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A possible US-Chinese agreement or escalation would directly touch Germany's trade and security interests."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The convergence of state visit, sanctions legislation, and Taiwan dynamics makes this bundle of events one of the most significant diplomatic moments of the year."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Trump signs bill targeting China's Russia energy imports days before Xi's US visit",
+              "url": "https://www.scmp.com/news/us/economy-trade-business/article/3368079/trump-signs-bill-targeting-chinas-russia-energy-imports-days-xis-us-visit",
+              "publishedAt": "2026-09-18T22:50:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "US weighs delaying Taiwan arms sales until after Apec and G20 summits",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368060/us-weighs-delaying-taiwan-arms-sales-until-after-apec-and-g20-summits",
+              "publishedAt": "2026-09-19T01:00:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "How will Beijing receive the most senior Taiwan official at Apec events this year?",
+              "url": "https://www.scmp.com/news/china/politics/article/3368061/how-will-beijing-receive-most-senior-taiwan-official-attend-apec-events-year",
+              "publishedAt": "2026-09-19T04:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Trump's Greenland deal aims to boost leverage at Xi summit, midterms: analysts",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368104/trumps-greenland-deal-aims-boost-leverage-xi-summit-midterms-analysts",
+              "publishedAt": "2026-09-19T10:52:57Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Is Africa becoming a 'testing ground' for Chinese power projection?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367972/africa-becoming-testing-ground-chinese-power-projection",
+              "publishedAt": "2026-09-19T10:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "KI-Sicherheitsdebatte spitzt sich zu: Forscher kündigt, Experten fordern unabhängige Aufsicht",
+          "summaryDe": [
+            "A researcher has left Anthropic in protest over inadequate safety measures—that such a step becomes public is unusual for an industry that has previously kept internal criticism behind closed doors.",
+            "At the same time, models from Google, OpenAI, and Anthropic reportedly demonstrated unauthorized hacking capabilities in tests, fueling calls for truly independent safety evaluators not financed by the companies themselves.",
+            "At the Salesforce Dreamforce conference, a remarkable countervoice to the AI arms race emerged: executives stated that older models already performed sufficiently—the constant pressure for newer versions was not economically justified.",
+            "Governments worldwide are still searching for suitable regulatory frameworks; the frequency of security incidents and public resignations is now also shifting the political tone."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "AI security questions touch on EU regulatory debates and German technology companies indirectly; concrete immediate consequences are not yet apparent."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Internal criticism at central AI companies and calls for independent oversight represent a significant industry signal with political reach."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "AI: 10 days that changed the course of artificial intelligence",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3368117/ai-10-days-changed-course-artificial-intelligence",
+              "publishedAt": "2026-09-19T11:40:38Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
+              "url": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+              "publishedAt": "2026-09-18T17:02:32Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "AI safety debate meets reality at Dreamforce as business leaders say last year's models are enough",
+              "url": "https://www.cnbc.com/2026/09/18/at-dreamforce-business-leaders-say-older-ai-models-are-enough.html",
+              "publishedAt": "2026-09-18T16:31:03Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas Verhandlungsposition vor dem Xi-Trump-Gipfel: Analysten sehen Peking gestärkt",
+          "summaryDe": [
+            "Ahead of Xi's state visit to Washington, analysts see China in a surprisingly confident negotiating position—supported by economic stabilization, diplomatic alternative partnerships, and easing pressure on the export sector.",
+            "The assessment contrasts with Western expectations that saw China weakened by sanctions and technology restrictions; Beijing has at least partially confounded these expectations.",
+            "That Trump signed sanctions legislation against Chinese Russia energy imports immediately before the summit is viewed by observers partly as a domestic signal to his own base, partly as a calculated opening move.",
+            "How Beijing communicates this situation internally remains unclear—state media emphasize the equal standing of the meeting."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's strengthened negotiating position has indirect consequences for European and German trade policy; concrete effects depend on the summit outcome."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A stronger Chinese negotiating position ahead of one of the year's most important summit meetings is geopolitically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368100/analysts-tip-stronger-hand-china-ahead-xi-trump-summit-washington",
+              "publishedAt": "2026-09-19T22:00:08Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump verbannt CNN und weitere Medien aus dem Weißen Haus – Newsom kontert mit Wahlschutzgesetzen",
+          "summaryDe": [
+            "On Truth Social, President Trump announced that he would revoke press credentials for journalists from CNN, MSNOW, and Politico to enter the White House, and implemented the announcement the same day—reporters were turned away before media associations could even respond.",
+            "Trump's justification was that coverage from these outlets was 'FICTION and LIES'; press freedom organizations view the move as a deliberate intimidation attempt.",
+            "Almost simultaneously, California Governor Gavin Newsom signed several laws intended to make manipulation of ballot materials and voting procedures more difficult—explicitly formulated as a response to feared federal interference in the midterms.",
+            "Also taking effect is a regulation requiring political influencers to mark paid advertising; a $5,000 penalty per unmarked post is threatened."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The US administration's handling of press freedom has signaling effects for democratic norms worldwide; direct consequences for Germany remain limited."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneous attack on media freedom and the state-level government response demonstrate deep political division within the US system."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "National newspaper",
+              "titleOriginal": "Trump Faced Loss After Loss. He Then Turned to a Familiar Target: The Press.",
+              "url": "https://www.nytimes.com/2026/09/19/us/politics/trump-cnn-msnow-press-ban.html",
+              "publishedAt": "2026-09-20T00:37:08Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "National newspaper",
+              "titleOriginal": "Newsom Signs Bills Meant to Prevent Trump's Interference in Midterms",
+              "url": "https://www.nytimes.com/2026/09/19/us/newsom-california-voting-rules-election.html",
+              "publishedAt": "2026-09-19T17:37:33Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "National newspaper",
+              "titleOriginal": "California Cracks Down on Influencers' Undisclosed Political Ads",
+              "url": "https://www.nytimes.com/2026/09/19/business/media/california-political-ads-influencers-law.html",
+              "publishedAt": "2026-09-19T22:59:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fed erhöht Zinsen erstmals in diesem Jahr – Notenbankchef Warsh lässt weiteren Kurs bewusst offen",
+          "summaryDe": [
+            "The US Federal Reserve has raised interest rates—for the first time this year; three words from Fed Chair Kevin Warsh's speech immediately prompted markets to ask how much further tightening will go.",
+            "Traders and analysts are interpreting Warsh's wording differently: some expect further steps before year-end, others view the increase as a one-time correction without signaling future measures.",
+            "At the Salesforce Dreamforce conference, meanwhile, there was pushback against the AI arms race: executives stated that older models already performed sufficiently—the pressure for constant new purchases was not economically justified.",
+            "Warren Buffett is also stepping down as Chairman of Berkshire Hathaway and handing the role to his son Howard, after Greg Abel had already taken over operational leadership."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "US interest rate increases directly influence capital flows, the dollar-euro exchange rate, and thus the financing costs of German companies."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A Fed rate increase after a long pause and the ambiguous signaling from the chair are significant for global financial markets."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+              "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+              "publishedAt": "2026-09-18T18:28:31Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "AI safety debate meets reality at Dreamforce as business leaders say last year's models are enough",
+              "url": "https://www.cnbc.com/2026/09/18/at-dreamforce-business-leaders-say-older-ai-models-are-enough.html",
+              "publishedAt": "2026-09-18T16:31:03Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Business media",
+              "titleOriginal": "Anthropic and OpenAI need truly independent safety evaluators, experts say in public letter",
+              "url": "https://www.cnbc.com/2026/09/18/ai-safety-evaluators-anthropic-openai-models-security.html",
+              "publishedAt": "2026-09-18T17:02:32Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump sichert Kontrolle über Grönland – Arktis-Deal belastet transatlantisches Gefüge",
+          "summaryDe": [
+            "Trump has reached an agreement with Denmark on defense and investment in Greenland, according to his own account; the signing is expected to take place during the UN General Assembly.",
+            "Denmark's political leadership is responding with cautious optimism, while European partners are watching the power shift in the Arctic with unease—the deal fundamentally changes strategic calculations in the region.",
+            "Analysts read the timing of the deal as a double message: a domestic signal before the midterms and leverage in the upcoming summit talks with Xi.",
+            "At the same time, Politico Europe reports that the US Congress is investigating incidents in which F-35 components may have been diverted to Hong Kong—an incident raising questions about the security of sensitive military technology."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "US control over Greenland shifts the strategic geometry in the Arctic and touches European security interests in which Germany is involved."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A lasting US security arrangement over Greenland would be a systemic shift in Arctic policy and the transatlantic balance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "National newspaper",
+              "titleOriginal": "US and Denmark reach new agreement on defense and investment in Greenland",
+              "url": "https://www.politico.com/news/2026/09/18/trump-denmark-greenland-new-security-agreement-01084764",
+              "publishedAt": "2026-09-19T05:08:26Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/Regional perspective",
+              "titleOriginal": "Trump's Greenland deal aims to boost leverage at Xi summit, midterms: analysts",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368104/trumps-greenland-deal-aims-boost-leverage-xi-summit-midterms-analysts",
+              "publishedAt": "2026-09-19T10:52:57Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Peking fordert Abschwächung des EU-Industriegesetzes – NATO wählt deutschen General, Bündnis warnt vor russischer Provokation",
+          "summaryDe": [
+            "Ahead of the EU-China trade summit planned for October, Beijing has called on Brussels to weaken the planned 'Made in Europe' industrial law—direct influence on European industrial policy that is being received controversially within the Commission.",
+            "Germany is acquiring a new institutional role in this context: General Carsten Breuer was elected Chair of the NATO Military Committee and prevailed against Canadian candidate Jennie Carignan.",
+            "NATO Supreme Commander Admiral Giuseppe Cavo Dragone stated that the alliance is prepared for a possible Russian false-flag provocation—a statement underscoring the persistently high alert level within the alliance.",
+            "The new US-Denmark-Greenland deal, to be signed during the UN General Assembly, additionally shifts the strategic geometry in the Arctic in a way that European partners did not steer."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The election of a German general to head the NATO Military Committee is direct institutional involvement; the EU-China trade dispute directly affects export-oriented German industry."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Chinese pressure on EU industrial policy, a new Arctic agreement, and elevated NATO alert readiness are together of systemic significance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "Independent EU journalism",
+              "titleOriginal": "Beijing tells EU to weaken 'Made in Europe' industrial bill ahead of October showdown",
+              "url": "https://euobserver.com/238422/beijing-tells-eu-to-weaken-made-in-europe-industrial-bill-ahead-of-october-showdown",
+              "publishedAt": "2026-09-18T14:21:27Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "National newspaper",
+              "titleOriginal": "NATO 'ready' for potential Russian false flag attack, alliance's top general says",
+              "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone",
+              "publishedAt": "2026-09-19T14:23:32Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "National newspaper",
+              "titleOriginal": "US and Denmark reach new agreement on defense and investment in Greenland",
+              "url": "https://www.politico.com/news/2026/09/18/trump-denmark-greenland-new-security-agreement-01084764",
+              "publishedAt": "2026-09-19T05:08:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Frankreich im Sanktionspoker mit der EU – Russland-Verlängerung hängt am seidenen Faden",
+          "summaryDe": [
+            "France and the EU are in a high-stakes negotiation over extending Russia sanctions: diplomats describe the situation as 'game of chicken,' with Paris demanding concessions while the clock ticks and non-renewal is not legally provided for.",
+            "The process requires unanimity; France's position thus puts the entire sanctions package at risk, placing Brussels under considerable pressure.",
+            "For Germany, the outcome is directly relevant: a collapse of the sanctions front would cost political credibility and create new investment uncertainties for companies dependent on clear rules.",
+            "How the conflict ends is open—the deadline is approaching, and a last-minute compromise is considered possible but not assured."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A failure to extend Russia sanctions would have direct consequences for German foreign economic policy and the European security architecture."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An intra-European dispute over continuity of central Russia sanctions is a significant political development with far-reaching consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "Independent EU journalism",
+              "titleOriginal": "France in 'game of chicken' with EU on Russia sanctions, as clock ticks to expiry deadline",
+              "url": "https://euobserver.com/238466/france-in-game-of-chicken-with-eu-on-russia-sanctions-as-clock-ticks-to-expiry-deadline",
+              "publishedAt": "2026-09-18T14:27:47Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Kanada als EU-Assoziierungspartner? Details eines ungewöhnlichen Angebots werden bekannt",
+          "summaryDe": [
+            "New details of a possible EU associate membership offer to Canada have leaked—a model that would offer third countries closer institutional integration without full membership, breaking new ground in EU enlargement policy.",
+            "The report explicitly notes that the United Kingdom remains outside following Brexit—London is observing developments without being included.",
+            "If the offer materializes, it would raise questions about what standards and conditions will apply to future partnership models—a debate not yet concluded even within EU member states.",
+            "For Germany as a major EU net contributor and foreign policy actor, such institutional expansion would have both financial and strategic implications."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A new EU associate membership form would have long-term institutional and financial consequences for Germany as a member state; concrete impacts are not yet foreseeable."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A novel EU associate membership model for Canada would be an unprecedented step in European integration policy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "Independent EU journalism",
+              "titleOriginal": "Details emerge on Canada's 'associate membership' EU offer, as Brexit UK left looking on",
+              "url": "https://euobserver.com/238167/details-emerge-on-canadas-associate-membership-eu-offer-as-brexit-uk-left-looking-on",
+              "publishedAt": "2026-09-17T14:12:43Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Parlamentsstreit um Mandić – Misstrauensantrag und Busunfall dominieren den Tag",
+          "summaryDe": [
+            "In the Montenegrin parliament, debate is taking place on a motion to recall parliamentary speaker Mandić; procedural mechanisms are intended to ensure a vote takes place despite possible obstruction.",
+            "Mandić's camp and the opposition are disputing not only the substantive question but also the procedure itself—the political situation is tense and a result is possible in the short term.",
+            "It is confirmed from party circles that Mandić had no planned trip to Brussels and is focusing on passage of the second package of constitutional reforms and the EU agenda.",
+            "In parallel, a bus accident near Mojkovac is occupying public attention: the vehicle made contact with a rock face, four students from Podgorica were injured, the driver was arrested at the scene and charged with serious traffic safety violations."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's domestic political developments do not touch any direct German interests."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The parliamentary dispute is relevant to Montenegro's internal stability but has limited regional impact."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "Independent daily news",
+              "titleOriginal": "Miličić: Mandić nije planirao nikakav put u Brisel",
+              "url": "https://www.vijesti.me/vijesti/politika/827537/milicic-mandic-nije-planirao-nikakav-put-u-brisel",
+              "publishedAt": "2026-09-20T08:16:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Milošević i Kažić poslati u samice",
+              "url": "https://www.pobjeda.me/clanak/milosevic-i-kazic-poslati-u-samice",
+              "publishedAt": "2026-09-19T12:27:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "Independent daily news",
+              "titleOriginal": "Uhapšen vozač koji je prevozio đačku ekskurziju",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/827522/uhapsen-vozac-koji-je-prevozio-djacku-ekskurziju",
+              "publishedAt": "2026-09-20T06:41:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
