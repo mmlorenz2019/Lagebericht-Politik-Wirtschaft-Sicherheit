@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-21",
+  "generatedAt": "2026-09-21T10:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA and China Agree on AI Dialogue and New Trade Board ahead of Xi Visit",
+          "summaryDe": [
+            "US Treasury Secretary Scott Bessent met with China's Vice Premier He Lifeng for eight hours of negotiations at JPMorgan's office in New York – result: both sides agree on a structured AI dialogue and a bilateral trade body, the so-called Board of Trade.",
+            "The breakthrough comes just days before the planned state visit of Xi Jinping to Washington, which is scheduled for September 23-25 – and is seen as an attempt to underpin the meeting with concrete results.",
+            "It remains unclear for now how concrete the agreements will be: observers view them as a signal of de-escalation, not as a solution to structural rivalries.",
+            "The new trade body apparently aims to address export control and tariff issues, although details on mandate and timeline are still pending."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Results of the US-China summit shape the global trade and technology framework, which directly affects Germany as an export nation."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "An institutionalized communication structure between the two largest economies in AI and trade is a systemically significant event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US announces AI dialogue with China, launches Board of Trade",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368171/us-china-seek-xi-trump-summit-deliverables-new-york-talks",
+              "publishedAt": "2026-09-20T14:34:25Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US, China agree AI dialogue ahead of Trump-Xi summit",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit",
+              "publishedAt": "2026-09-21T09:01:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Tariffs, Energy Costs, and Interest Rates Burden American Companies",
+          "summaryDe": [
+            "Tariffs, rising fuel prices, and higher interest rates are straining US companies – manufacturers, automotive suppliers, retailers, and transport companies are hit particularly hard.",
+            "The simultaneous effect of these three cost drivers is unusual: while interest rate increases in the past often went hand in hand with economic slowdown, this time they are running parallel to trade policy-induced price increases.",
+            "For the affected industries, this means structural margin compression that cannot be offset in the short term by productivity gains.",
+            "In the long term, the pressure could reduce investment in the US and accelerate supply chain relocations, which would in turn be felt by global trading partners."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German exporters and suppliers in the US market are directly affected by demand weakness and tariff-related costs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The combination of multiple structural stress factors in the world's largest economy has broader macroeconomic relevance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Scene set for verbal punch-up at UN in New York, as Trump and Netanyahu face critics from EU and further afield",
+              "url": "https://euobserver.com/238403/scene-set-for-verbal-punch-up-at-un-in-new-york-as-trump-and-netanyahu-face-critics-from-eu-and-further-afield",
+              "publishedAt": "2026-09-18T13:34:47Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Data Centers Become a Local Dispute Across All Political Camps",
+          "summaryDe": [
+            "Resistance to new data centers in American communities is growing – and it does not follow classical left-right logic: conservative landowners, environmentalists, and suburban Democrats suddenly find themselves on the same side.",
+            "Specific points of contention are water consumption, strain on local power grids, noise from cooling systems, and citizens' perception that their participation in approval procedures is insufficient.",
+            "The disputes show how the infrastructure of the AI economy is reaching the grassroots – and how the abstract promise of technological leadership collides with concrete resistance from everyday life.",
+            "For providers like Microsoft, Google, or Amazon, the backlash means longer planning horizons and political headwinds in regions that were previously seen as unproblematic."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The phenomenon is primarily American, but could serve as a blueprint for similar conflicts in Europe in the expansion of digital infrastructure."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Socially relevant topic with growing political volatility, but so far regionally limited."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Nedozvoljene stvari upućene u Forenzički centar na vještačenje",
+              "url": "https://www.pobjeda.me/clanak/nedozvoljene-stvari-upucene-u-forenzicki-centar-na-vjestacenje",
+              "publishedAt": "2026-09-21T06:50:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi Jinping's State Visit to Washington: Agreement on AI Dialogue and Trade Body",
+          "summaryDe": [
+            "China's President Xi Jinping visits the US from September 23-25, 2026 – the visit was flanked by preparatory talks in New York in which both sides agreed on an AI dialogue and a bilateral trade body.",
+            "Analysts credit China with a stronger negotiating position than in previous meetings, also because Beijing has regained foreign policy room for maneuver in recent months.",
+            "Whether and to what extent the issue of military communication channels will be addressed remains open – corresponding expectations were formulated beforehand, without any known commitments.",
+            "The visit takes place in a technologically charged environment: Trump's announcement of an 'AI Force' shortly before raises questions about whether Washington is pursuing both dialogue and containment simultaneously."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The shaping of the US-China relationship – particularly on technology and trade – determines the global framework in which Germany acts as an export nation."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A summit meeting of the two largest economies with concrete institutional results is extraordinarily significant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368100/analysts-tip-stronger-hand-china-ahead-xi-trump-summit-washington",
+              "publishedAt": "2026-09-19T22:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US announces AI dialogue with China, launches Board of Trade",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368171/us-china-seek-xi-trump-summit-deliverables-new-york-talks",
+              "publishedAt": "2026-09-20T14:34:25Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US, China agree AI dialogue ahead of Trump-Xi summit",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit",
+              "publishedAt": "2026-09-21T09:01:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump's New 'AI Force' Raises Questions about Technology Escalation",
+          "summaryDe": [
+            "Days before the Xi-Trump summit, US President Trump announced the establishment of an 'AI Force' – what experts regard as a potential signal of intensified technology competition with China.",
+            "It is unclear whether the initiative is intended to serve as a dialogue partner for AI security negotiations or rather as an instrument of technological containment of China – both interpretations circulate in expert circles.",
+            "From China's perspective, the timing relative to the summit is striking: Beijing is watching to see whether Washington pursues both dialogue and rearmament logic simultaneously.",
+            "The announcement exemplifies how AI rivalry between the two powers now takes on military-institutional dimensions."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "An escalated technological rivalry between the US and China indirectly affects the regulatory environment and investment conditions for European companies."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The institutional militarization of AI policy by one of the two superpowers is a significant escalation step."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Does Trump's new AI Force signal tech race escalation ahead of Xi Jinping summit?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368158/does-trumps-new-ai-force-signal-tech-race-escalation-ahead-xi-jinping-summit",
+              "publishedAt": "2026-09-20T12:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "CCP Sets Date for October Plenum – One Week Earlier than Usual",
+          "summaryDe": [
+            "The Central Committee of the Communist Party of China has scheduled the Fifth Plenum of the 20th Central Committee for October 26-29 – moving the gathering one week earlier than customary.",
+            "The decision is linked in time with Xi Jinping's state visit to the US at the end of September: the plenum takes place as soon as he returns and could serve to internally secure or flank summit results.",
+            "Plenums of the Central Committee are formal instruments of power – they can pass fundamental resolutions, legitimize personnel decisions, or signal policy course corrections externally.",
+            "The early scheduling is a small but noteworthy signal: it suggests that Beijing treats the follow-up to the summit as politically prioritized."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's intra-party decisions have indirect influence on foreign policy and economic positions that affect Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The scheduling is domestically a noteworthy signal, but not an extraordinary event."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Communist Party sets key October plenum date early, days before Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/politics/article/3368215/communist-party-sets-date-key-political-gathering-october",
+              "publishedAt": "2026-09-21T06:16:45Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU Distributes €3.3 Billion in Defense Aid for Ukrainian Drones",
+          "summaryDe": [
+            "The European Commission has released €3.3 billion in defense funds for Ukraine – the amount is to be used primarily for the purchase of drones.",
+            "EU Commission President von der Leyen spoke by phone with President Zelenskyy and reaffirmed EU solidarity, particularly in view of an expected difficult autumn and winter campaign.",
+            "Observers point out, however, that the funding gap between Ukraine's actual needs and pledged resources remains substantial.",
+            "The disbursement comes at a time when Kyiv is reportedly conducting massive drone attacks on Russian territory – the symbolism of the disbursement and military dynamics overlap."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as the largest EU member state and major financial contributor, is directly involved in financing and bears a proportional share of the tranche."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A concrete billion-euro disbursement for Ukrainian defense goods is a significant escalation step in EU-Ukraine policy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Read-out by President von der Leyen following her call with President Zelenskyy",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/read_26_1899",
+              "publishedAt": "2026-09-17T17:55:33Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission disburses €3.3 billion in defence funding to Ukraine",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1900",
+              "publishedAt": "2026-09-18T07:30:35Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU commits €3.3bn to Ukrainian drones as funding gap remains unresolved ahead of 'tough winter'",
+              "url": "https://euobserver.com/238101/eu-commits-e3-3bn-to-ukrainian-drones-as-funding-gap-remains-unresolved-ahead-of-tough-winter",
+              "publishedAt": "2026-09-18T10:59:58Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Fuel Price Spike Revives Debate on EU Windfall Tax on Oil and Gas",
+          "summaryDe": [
+            "The recent surge in fuel prices is breathing new life into a familiar idea: Spain, Germany, and Portugal are pushing for a joint EU tax on crisis profits from the oil and gas industry.",
+            "The proceeds are intended to benefit consumers and simultaneously finance green investments – an approach that Brussels had attempted in modified form in 2022 without making it permanent.",
+            "Pushback comes from member states with strong domestic extraction industries as well as those fundamentally opposed to new EU-wide tax instruments.",
+            "The initiative comes during a budget debate in which EU Council President Costa has already pointed out that the EU must develop new revenue sources that member states are not already tapping elsewhere."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany is one of the driving forces behind the initiative and would be directly affected by such a tax as an industrial and consumer nation."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A new EU-wide tax instrument would have structural effects on energy markets and budget architecture."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Ćavi ne može da računa na Klajverta",
+              "url": "https://www.vijesti.me/sport/fudbal/827670/cavi-ne-moze-da-racuna-na-klajverta",
+              "publishedAt": "2026-09-21T07:38:00Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "CDU Below Five Percent: Merz's Party Fails for First Time to Clear Berlin's Threshold",
+          "summaryDe": [
+            "In the Berlin House of Representatives election, the CDU fell below the five percent threshold – a historically unprecedented collapse for a party that holds government office at the federal level.",
+            "For Chancellor Friedrich Merz, the result means a severe loss of authority, even though state elections have no direct bearing on federal trends.",
+            "What stands out is the timing: Merz is under domestic pressure while simultaneously trying to solidify Germany's role in the Ukraine question and vis-à-vis Washington.",
+            "The CDU's failure in Berlin fits into a broader European debate about why established center-right parties lose support despite or because of their government responsibility."
+          ],
+          "additionalImportant": "In parallel, elections in Sweden show that far-right parties such as the Sweden Democrats have also lost support – a hint that Europe's political picture is more nuanced than simple polarization narratives.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "The result directly affects the chancellor's governing party and has signaling effects for federal political stability."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The CDU's failure in Berlin is historically and party-politically significant, but initially has limited systemic effect at the federal level."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "multiregional",
+              "titleOriginal": "Why the far right failed: 11 lessons for Europe from Sweden's election",
+              "url": "https://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election",
+              "publishedAt": "2026-09-21T02:00:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "multiregional",
+              "titleOriginal": "Merz's election nightmare continues",
+              "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/merzs-election-nightmare-continues",
+              "publishedAt": "2026-09-21T04:05:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegro's EU Accession: Experts Warn of Structural Brake Forces",
+          "summaryDe": [
+            "Despite ongoing accession negotiations, experts identify in Montenegro's case profound domestic political interest constellations that stand in the way of genuine Europeanization.",
+            "There are also external reservations: the Netherlands signals hesitation regarding rule of law in Montenegro – a classic objection that can substantially slow accession processes.",
+            "At the same time, DPS Secretary General Milović appeals to parliamentarians to vote according to conscience and not according to party interests – an indication that European policy decisions do not have secured majorities in parliament.",
+            "The internal division between pro-European forces and those clinging to existing power structures remains the central obstacle on Montenegro's path to the EU."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany is involved in the enlargement process as an important EU partner, but without direct national repercussions."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant for the Western Balkans and EU enlargement policy, but not an extraordinary event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Milović: Pozivamo poslanike da glasaju po savjesti, za evropski...",
+              "url": "https://www.vijesti.me/vijesti/politika/827671/milovic-pozivamo-poslanike-da-glasaju-po-savjesti-za-evropski-put-iznad-partijskih-kalkulacija",
+              "publishedAt": "2026-09-21T07:44:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Šta kada Crna Gora uđe u EU; Pavlović: Pravo veta jedini...",
+              "url": "https://www.vijesti.me/tv/emisije/827680/sta-kada-crna-gora-udje-u-eu-pavlovic-pravo-veta-jedini-instrument-kojim-se-moze-odgovoriti-na-eventualne-pritiske",
+              "publishedAt": "2026-09-21T08:46:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

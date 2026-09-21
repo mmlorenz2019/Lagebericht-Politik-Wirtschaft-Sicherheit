@@ -1,0 +1,425 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-21",
+  "generatedAt": "2026-09-21T10:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA und China einigen sich auf KI-Dialog und neues Handelsgremium vor Xi-Besuch",
+          "summaryDe": [
+            "US-Finanzminister Scott Bessent traf Chinas Vizepremier He Lifeng zu achtstündigen Verhandlungen im JPMorgan-Büro in New York – Ergebnis: beide Seiten vereinbaren einen strukturierten KI-Dialog sowie ein bilaterales Handelsgremium, das sogenannte Board of Trade.",
+            "Der Durchbruch kommt wenige Tage vor dem geplanten Staatsbesuch Xi Jinpings in Washington, der vom 23. bis 25. September stattfinden soll – und gilt als Versuch, das Treffen mit handfesten Ergebnissen zu unterfüttern.",
+            "Unklar bleibt vorerst, wie konkret die Vereinbarungen ausgestaltet werden: Beobachter werten sie als Signal der Deeskalation, nicht als Lösung struktureller Rivalitäten.",
+            "Das neue Handelsgremium soll offenbar Exportkontroll- und Tarifffragen adressieren, wenngleich Details zu Mandat und Zeitplan noch ausstehen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ergebnisse des US-China-Gipfels prägen den globalen Handels- und Technologierahmen, von dem Deutschland als Exportnation direkt betroffen ist."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Eine institutionalisierte Kommunikationsstruktur zwischen den beiden größten Volkswirtschaften in KI und Handel ist ein systemisch bedeutsames Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US announces AI dialogue with China, launches Board of Trade",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368171/us-china-seek-xi-trump-summit-deliverables-new-york-talks",
+              "publishedAt": "2026-09-20T14:34:25Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US, China agree AI dialogue ahead of Trump-Xi summit",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit",
+              "publishedAt": "2026-09-21T09:01:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Zölle, Energiekosten und Zinsen belasten amerikanische Unternehmen",
+          "summaryDe": [
+            "Tarife, steigende Kraftstoffpreise und höhere Zinssätze setzen US-amerikanischen Unternehmen zu – besonders hart trifft es Hersteller, Automobilzulieferer, Einzelhändler und Transportunternehmen.",
+            "Die gleichzeitige Wirkung dieser drei Kostentreiber ist ungewöhnlich: Während Zinserhöhungen in der Vergangenheit oft mit konjunktureller Abkühlung einhergingen, laufen sie diesmal parallel zu handelspolitisch bedingten Preissteigerungen.",
+            "Für die betroffenen Branchen bedeutet das eine strukturelle Margenkompression, die kurzfristig kaum durch Produktivitätsgewinne aufgefangen werden kann.",
+            "Langfristig könnte der Druck Investitionen in die USA verringern und Lieferkettenverlagerungen beschleunigen, was wiederum globale Handelspartner spüren würden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Exporteure und Zulieferer im US-Markt sind von der Nachfrageschwäche und den Zollfolgekosten direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination mehrerer struktureller Belastungsfaktoren in der größten Volkswirtschaft der Welt hat breitere makroökonomische Relevanz."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Scene set for verbal punch-up at UN in New York, as Trump and Netanyahu face critics from EU and further afield",
+              "url": "https://euobserver.com/238403/scene-set-for-verbal-punch-up-at-un-in-new-york-as-trump-and-netanyahu-face-critics-from-eu-and-further-afield",
+              "publishedAt": "2026-09-18T13:34:47Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Datenzentren werden zum lokalen Streitthema quer durch alle politischen Lager",
+          "summaryDe": [
+            "Der Widerstand gegen neue Rechenzentren in amerikanischen Gemeinden wächst – und er folgt keiner klassischen Links-rechts-Logik: Konservative Landbesitzer, Umweltschützer und Demokraten aus Vororten finden sich plötzlich auf derselben Seite.",
+            "Konkrete Streitpunkte sind Wasserverbrauch, Strombelastung lokaler Netze, Lärm durch Kühlanlagen und die als unzureichend empfundene Beteiligung der Bürger bei Genehmigungsverfahren.",
+            "Die Auseinandersetzungen zeigen, wie die Infrastruktur der KI-Wirtschaft in der Fläche ankommt – und wie das abstrakte Versprechen technologischer Führerschaft auf den konkreten Widerstand des Alltags trifft.",
+            "Für Anbieter wie Microsoft, Google oder Amazon bedeutet der Backlash längere Planungshorizonte und politischen Gegenwind in Regionen, die bislang als unproblematisch galten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Phänomen ist primär US-amerikanisch, könnte aber als Blaupause für ähnliche Konflikte in Europa beim Ausbau digitaler Infrastruktur wirken."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Gesellschaftlich relevantes Thema mit wachsender politischer Sprengkraft, bislang aber regional begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Nedozvoljene stvari upućene u Forenzički centar na vještačenje",
+              "url": "https://www.pobjeda.me/clanak/nedozvoljene-stvari-upucene-u-forenzicki-centar-na-vjestacenje",
+              "publishedAt": "2026-09-21T06:50:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi Jinpings Staatsbesuch in Washington: Einigung auf KI-Dialog und Handelsgremium",
+          "summaryDe": [
+            "Chinas Präsident Xi Jinping besucht die USA vom 23. bis 25. September 2026 – der Besuch wurde durch vorbereitende Gespräche in New York flankiert, bei denen sich beide Seiten auf einen KI-Dialog und ein bilaterales Handelsgremium verständigten.",
+            "Analysten attestieren China eine stärkere Verhandlungsposition als bei früheren Treffen, auch weil Peking in den vergangenen Monaten außenpolitische Spielräume zurückgewonnen hat.",
+            "Ob und in welchem Umfang auch das Thema militärische Kommunikationskanäle adressiert wird, ist bislang offen – entsprechende Erwartungen wurden im Vorfeld formuliert, ohne dass Zusagen bekannt wurden.",
+            "Der Besuch findet in einem technologiepolitisch aufgeladenen Umfeld statt: Trumps kurz zuvor angekündigte 'AI Force' wirft Fragen auf, ob Washington gleichzeitig Dialog und Eindämmung betreibt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Gestaltung des US-China-Verhältnisses – insbesondere zu Technologie und Handel – bestimmt den globalen Rahmen, in dem Deutschland als Exportnation agiert."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Gipfeltreffen der beiden größten Volkswirtschaften mit konkreten institutionellen Ergebnissen ist außergewöhnlich bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Analysts tip a stronger hand for China ahead of Xi-Trump summit in Washington",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368100/analysts-tip-stronger-hand-china-ahead-xi-trump-summit-washington",
+              "publishedAt": "2026-09-19T22:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US announces AI dialogue with China, launches Board of Trade",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368171/us-china-seek-xi-trump-summit-deliverables-new-york-talks",
+              "publishedAt": "2026-09-20T14:34:25Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US, China agree AI dialogue ahead of Trump-Xi summit",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368245/us-china-agree-ai-dialogue-ahead-trump-xi-summit",
+              "publishedAt": "2026-09-21T09:01:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trumps neue 'AI Force' wirft Fragen nach Technologieeskalation auf",
+          "summaryDe": [
+            "Wenige Tage vor dem Xi-Trump-Gipfel verkündete US-Präsident Trump die Gründung einer 'AI Force' – was Experten als potenzielles Signal einer verschärften Technologiekonkurrenz werten.",
+            "Offen ist, ob die Initiative als Gesprächspartner für KI-Sicherheitsverhandlungen dienen oder eher als Instrument technologischer Eindämmung Chinas fungieren soll – beide Lesarten kursieren in Fachkreisen.",
+            "Aus chinesischer Sicht ist die zeitliche Nähe zum Gipfel auffällig: Peking beobachtet, ob Washington Gesprächsbereitschaft und Rüstungslogik gleichzeitig verfolgt.",
+            "Die Ankündigung zeigt exemplarisch, wie die KI-Rivalität zwischen beiden Mächten inzwischen auch militärisch-institutionelle Dimensionen annimmt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Eine eskalierte technologische Rivalität zwischen USA und China beeinflusst indirekt die Regulierungsumgebung und Investitionsbedingungen für europäische Unternehmen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die institutionelle Militarisierung von KI-Politik durch eine der beiden Supermächte ist eine bedeutsame Eskalationsstufe."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Does Trump's new AI Force signal tech race escalation ahead of Xi Jinping summit?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368158/does-trumps-new-ai-force-signal-tech-race-escalation-ahead-xi-jinping-summit",
+              "publishedAt": "2026-09-20T12:00:11Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "KPCh setzt Datum für Oktober-Plenum fest – eine Woche früher als üblich",
+          "summaryDe": [
+            "Das Zentralkomitee der Kommunistischen Partei Chinas hat das fünfte Plenum des 20. Zentralkomitees auf den 26. bis 29. Oktober angesetzt – und damit die Zusammenkunft eine Woche früher als sonst üblich terminiert.",
+            "Die Entscheidung steht im zeitlichen Zusammenhang mit Xi Jinpings Staatsbesuch in den USA Ende September: Das Plenum findet statt, sobald er zurückgekehrt ist, und könnte dazu dienen, Gipfelergebnisse parteiintern abzusichern oder zu flankieren.",
+            "Plenen des Zentralkomitees sind formale Machtinstrumente – sie können Grundsatzbeschlüsse fassen, Personalentscheidungen legitimieren oder politische Kurskorrekturen nach außen signalisieren.",
+            "Die frühe Terminierung ist ein kleines, aber beachtenswertes Signal: Sie lässt vermuten, dass Peking die Nachbereitung des Gipfels als politisch prioritär behandelt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Parteiinterne Beschlüsse Chinas haben mittelbaren Einfluss auf außen- und wirtschaftspolitische Positionen, die Deutschland betreffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Terminierung ist innenpolitisch ein beachtenswertes Zeichen, aber kein außergewöhnliches Ereignis."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Communist Party sets key October plenum date early, days before Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/politics/article/3368215/communist-party-sets-date-key-political-gathering-october",
+              "publishedAt": "2026-09-21T06:16:45Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU schüttet 3,3 Milliarden Euro Verteidigungshilfe für ukrainische Drohnen aus",
+          "summaryDe": [
+            "Die Europäische Kommission hat 3,3 Milliarden Euro an Verteidigungsgeldern für die Ukraine freigegeben – der Betrag soll überwiegend für den Kauf von Drohnen verwendet werden.",
+            "EU-Kommissionspräsidentin von der Leyen telefonierte mit Präsident Selenskyj und bekräftigte die Solidarität der EU, auch angesichts eines als schwierig erwarteten Herbst- und Winterfeldzugs.",
+            "Beobachter weisen allerdings darauf hin, dass das Finanzierungsgefälle zwischen dem tatsächlichen Bedarf der Ukraine und den zugesagten Mitteln weiterhin erheblich ist.",
+            "Die Auszahlung kommt zu einem Zeitpunkt, da Kiew nach Berichten massive Drohnenangriffe auf russisches Territorium fliegt – die Symbolpolitik der Auszahlung und die militärische Dynamik überlagern sich."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als größter EU-Mitgliedstaat und bedeutender Beitragszahler direkt an der Finanzierung beteiligt und trägt anteilig zur Tranche bei."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine konkrete Milliardenauszahlung für ukrainische Verteidigungsgüter ist eine bedeutsame Eskalationsstufe der EU-Ukrainepolitik."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Read-out by President von der Leyen following her call with President Zelenskyy",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/read_26_1899",
+              "publishedAt": "2026-09-17T17:55:33Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission disburses €3.3 billion in defence funding to Ukraine",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1900",
+              "publishedAt": "2026-09-18T07:30:35Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU commits €3.3bn to Ukrainian drones as funding gap remains unresolved ahead of 'tough winter'",
+              "url": "https://euobserver.com/238101/eu-commits-e3-3bn-to-ukrainian-drones-as-funding-gap-remains-unresolved-ahead-of-tough-winter",
+              "publishedAt": "2026-09-18T10:59:58Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kraftstoffpreisschub belebt Debatte über EU-Übergewinnsteuer auf Öl und Gas",
+          "summaryDe": [
+            "Der jüngste Anstieg der Kraftstoffpreise gibt einer bereits bekannten Idee neuen Auftrieb: Spanien, Deutschland und Portugal drängen auf eine gemeinsame EU-Steuer auf Krisengewinne der Öl- und Gasbranche.",
+            "Die Erlöse sollen Verbrauchern zugutekommen und gleichzeitig grüne Investitionen finanzieren – ein Ansatz, den Brüssel in modifizierter Form bereits 2022 versucht hatte, ohne ihn dauerhaft zu verankern.",
+            "Gegenwind kommt von Mitgliedstaaten mit starker heimischer Förderindustrie sowie von jenen, die grundsätzlich keine neuen EU-weiten Steuerinstrumente wollen.",
+            "Der Vorstoß fällt in eine Haushaltsdebatte, in der EU-Ratspräsident Costa bereits darauf hingewiesen hat, dass die EU neue Einnahmequellen erschließen muss, die Mitgliedstaaten nicht schon anderweitig abschöpfen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist einer der treibenden Kräfte hinter dem Vorstoß und wäre als Industrie- und Verbrauchernation von einer solchen Steuer direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein neues EU-weites Steuerinstrument hätte strukturelle Auswirkungen auf Energiemärkte und Haushaltsarchitektur."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ćavi ne može da računa na Klajverta",
+              "url": "https://www.vijesti.me/sport/fudbal/827670/cavi-ne-moze-da-racuna-na-klajverta",
+              "publishedAt": "2026-09-21T07:38:00Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "CDU unter fünf Prozent: Merz' Partei scheitert erstmals an Berliner Fünfprozenthürde",
+          "summaryDe": [
+            "Bei der Berliner Abgeordnetenhauswahl ist die CDU unter die Fünfprozenthürde gefallen – ein historisch beispielloser Einbruch für eine Partei, die auf Bundesebene die Regierung stellt.",
+            "Für Bundeskanzler Friedrich Merz bedeutet das Ergebnis einen schweren Autoritätsverlust, auch wenn Landeswahlen keine direkte Aussagekraft über Bundestrends haben.",
+            "Auffällig ist der Zeitpunkt: Merz steht innenpolitisch unter Druck, während er außenpolitisch gerade versucht, Deutschlands Rolle in der Ukraine-Frage und gegenüber Washington zu festigen.",
+            "Das Scheitern der CDU in Berlin reiht sich in eine breitere europäische Debatte ein, warum etablierte Mitte-Rechts-Parteien trotz oder wegen ihrer Regierungsverantwortung an Rückhalt verlieren."
+          ],
+          "additionalImportant": "Parallel zeigen Wahlen in Schweden, dass rechtsextreme Parteien wie die Schwedendemokraten ebenfalls an Zustimmung verloren haben – ein Hinweis darauf, dass das politische Bild in Europa vielschichtiger ist als simple Polarisierungsnarrative.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Das Ergebnis betrifft unmittelbar die Regierungspartei des Bundeskanzlers und hat Signalwirkung für die bundespolitische Stabilität."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Scheitern der CDU in Berlin ist historisch und parteipolitisch bedeutsam, hat aber zunächst begrenzten systemischen Effekt auf Bundesebene."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Why the far right failed: 11 lessons for Europe from Sweden's election",
+              "url": "https://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election",
+              "publishedAt": "2026-09-21T02:00:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Merz's election nightmare continues",
+              "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/merzs-election-nightmare-continues",
+              "publishedAt": "2026-09-21T04:05:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Beitritt Montenegros: Experten warnen vor strukturellen Bremskräften",
+          "summaryDe": [
+            "Trotz laufender Beitrittsverhandlungen identifizieren Experten im Fall Montenegro tiefgreifende innenpolitische Interessenkonstellationen, die einer echten Europäisierung entgegenstehen.",
+            "Hinzu kommen externe Vorbehalte: Die Niederlande signalisieren Zurückhaltung mit Blick auf den Rechtsstaat in Montenegro – ein klassischer Einwand, der Beitrittsprozesse erheblich verlangsamen kann.",
+            "Gleichzeitig appelliert DPS-Generalsekretär Milović an Parlamentsmitglieder, nach Gewissen und nicht nach Parteiinteresse zu stimmen – ein Hinweis darauf, dass europapolitische Beschlüsse im Parlament keine gesicherten Mehrheiten haben.",
+            "Die innere Zerrissenheit zwischen proeuropäischen Kräften und jenen, die an bestehenden Machtstrukturen festhalten, bleibt das zentrale Hindernis auf Montenegros Weg in die EU."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als wichtiger EU-Partner am Erweiterungsprozess beteiligt, aber ohne unmittelbare nationale Auswirkungen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Relevant für den westlichen Balkan und die EU-Erweiterungspolitik, aber kein außergewöhnliches Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Milović: Pozivamo poslanike da glasaju po savjesti, za evropski...",
+              "url": "https://www.vijesti.me/vijesti/politika/827671/milovic-pozivamo-poslanike-da-glasaju-po-savjesti-za-evropski-put-iznad-partijskih-kalkulacija",
+              "publishedAt": "2026-09-21T07:44:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Šta kada Crna Gora uđe u EU; Pavlović: Pravo veta jedini...",
+              "url": "https://www.vijesti.me/tv/emisije/827680/sta-kada-crna-gora-udje-u-eu-pavlovic-pravo-veta-jedini-instrument-kojim-se-moze-odgovoriti-na-eventualne-pritiske",
+              "publishedAt": "2026-09-21T08:46:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
