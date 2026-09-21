@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 3,
+  "periodType": "week",
+  "periodStart": "2026-09-14",
+  "periodEnd": "2026-09-20",
+  "generatedAt": "2026-09-21T16:06:44.946658Z",
+  "status": "complete",
+  "overallSummary": [
+    "The week of September 14-20, 2026 was marked by two major diplomatic focal points: the Xi-Trump summit, which concluded over the weekend, and the intra-European sanctions crisis over Russia, where France's veto jeopardized EU unity.",
+    "The US simultaneously demonstrated a clearly deregulatory and confrontational direction across multiple policy fields: the EPA lifted climate requirements for power plants, Trump banned critical media from the White House, Congress blocked a Hegseth impeachment, and the Federal Reserve raised rates for the first time this year.",
+    "China prepared for the summit with noticeably de-escalatory rhetoric from its defense minister, while simultaneously expanding its nuclear capacity, promoting an AI cooperation community at the BRICS summit, and demonstrating world-leading research infrastructure with the FAST telescope.",
+    "The EU sanctions drama escalated shortly before the deadline: France blocked the regular six-month renewal and forced only a one-week extension due to disputes over oligarch Usmanov – a development that damaged Western unity against Moscow.",
+    "In parallel, Commission President von der Leyen announced in her State of the Union address a new EU-Canada association status that was legally unprepared and created unease both internally and in Washington.",
+    "In the Ukraine war, the picture intensified: Russia attacked rail infrastructure six kilometers from the Polish border, a Russian ship fired on a Danish military helicopter, Ukraine responded with record numbers of drone attacks on Russian refineries – and Poland's Premier Tusk revealed for the first time classified casualty figures on the scale of tens of thousands per month.",
+    "For Germany, the week's highlights were particularly dense: the election of General Carsten Breuer as chairman of the NATO Military Committee, the EU-India free trade agreement, the EU-Russia sanctions poker, and Chinese pressure on the 'Made in Europe' legislation directly affected German interests.",
+    "In Montenegro, domestic coalition questions dominated the news landscape around the planned removal of parliamentary speaker Mandić and reports of church-related corruption scandals; as a NATO member, the country was also affected by the drone incident over Lithuania.",
+    "Technologically, the week was characterized by an intensifying AI security debate: researchers left Anthropic in protest, models demonstrated unauthorized hacking capabilities in tests, and over 100 experts called for independent evaluators – while Trump publicly rejected AI regulation as a competitive disadvantage against China.",
+    "The week ended with a systemically altered picture: the impending summit, Trump's Greenland deal with Denmark, the US Air Force's confirmation of space-based weapons, and the Graham Act against Chinese Russian energy purchases mark a phase of accelerated geopolitical realignment."
+  ],
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Masernwelle, Medienzensur und demokratische Erosion – Woche der innenpolitischen Eskalation",
+          "summaryDe": [
+            "Pennsylvania reported four measles deaths in less than three weeks; overall, seven Americans died from a vaccine-preventable disease in two years – casualty figures at their worst level since 1991.",
+            "In parallel, Trump revoked CNN, MSNOW and Politico's access to the White House, citing allegedly false reporting; press freedom organizations called the step an unprecedented intimidation attempt.",
+            "Speaker Johnson prevented a Hegseth impeachment in the House of Representatives by sending the chamber into recess early – a sign of the fragility of the Republican majority and the leadership's willingness to weaponize procedural rules.",
+            "The Supreme Court rejected Trump's attempts to restrict mail-in voting; California Governor Newsom issued counter-legislation to protect voting procedures from federal intervention.",
+            "The combination of rolled-back vaccination programs, media exclusions, and blocked parliamentary oversight paints the picture of a government systematically hollowing out institutional checks and balances."
+          ],
+          "contextDe": [
+            "The US had eliminated measles as an endemic disease through nationwide vaccination since 2000; the current outbreak is a direct consequence of politically inflamed vaccine skepticism, promoted in part by actors in the current administration's orbit.",
+            "The media exclusions and parliamentary maneuvers fit into a pattern that has escalated since Trump took office and strains transatlantic confidence in the stability of American democracy.",
+            "For Germany and Europe, the domestic US situation signals that American institutional reliability cannot be taken for granted – with implications for NATO commitments and diplomatic agreements."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Direct impacts on Germany are limited, but the erosion of democratic norms in a key ally has long-term consequences for transatlantic trust and Western values-based policy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The accumulation of press freedom attacks, vaccine catastrophe, and parliamentary blockades in a single week is an extraordinary warning signal for the state of US democracy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "18-year-old dies in Pennsylvania's 4th measles-associated death",
+              "url": "https://www.pbs.org/newshour/health/18-year-old-dies-in-pennsylvanias-4th-measles-associated-death",
+              "publishedAt": "2026-09-15T22:11:14Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public-service",
+              "titleOriginal": "Trump says he is banning CNN, MS NOW and Politico from the White House",
+              "url": "https://www.npr.org/2026/09/18/g-s1-144112/trump-ban-cnn-msnow-politico-white-house-media",
+              "publishedAt": "2026-09-18T20:15:53Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Trump Faced Loss After Loss. He Then Turned to a Familiar Target: The Press.",
+              "url": "https://www.nytimes.com/2026/09/19/us/politics/trump-cnn-msnow-press-ban.html",
+              "publishedAt": "2026-09-20T00:37:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EPA streicht Klimaauflagen, Fed erhöht Zinsen, KI-Debatte eskaliert – Woche der regulatorischen Weichenstellungen",
+          "summaryDe": [
+            "The EPA lifted emissions limits for power plants and thus reversed core Biden-era climate rules; the energy industry welcomed the move, while environmental organizations announced lawsuits and international climate partners noted alarming signals.",
+            "The Federal Reserve raised its benchmark interest rate for the first time this year; Fed Chair Warsh deliberately left future direction open, which immediately created uncertainty in markets.",
+            "Nvidia CEO Jensen Huang announced plans to double chip sales in the coming year; a Rhodium Group study simultaneously demonstrated that US AI companies generate ten times more revenue than all Chinese AI models combined.",
+            "The AI security debate intensified: more than 100 researchers called for independent evaluators; Anthropic chose Accenture as its first external auditor – simultaneously the company is pursuing an IPO with targets of $100 billion in annual revenue.",
+            "Trump publicly rejected AI regulation as a competitive disadvantage against China and live-called Nvidia CEO Huang at an investor summit – a signal that growth takes priority over caution."
+          ],
+          "contextDe": [
+            "The EPA decision is part of a broader pattern of regulatory rollback that relieves fossil-dependent sectors and de facto undermines internationally agreed climate goals.",
+            "The rate increase comes at a time when Iran-war-related energy and transport prices stubbornly keep inflation elevated – a structural dilemma for monetary policy.",
+            "The AI debate in the US and Europe is diverging: Washington bets on growth, Brussels on regulation – this divergence will shape future technology agreements and competition rules."
+          ],
+          "additionalImportant": "The EPA decision increases pressure on Europe's carbon border adjustment mechanism (CBAM) and makes transatlantic climate coordination more difficult.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Climate deregulation, US rate hikes, and the dominant US AI market position directly affect German industry, energy policy, and technology strategy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The simultaneous reversal of climate standards, monetary policy shift, and escalating AI security controversy make this week an extraordinarily consequential period for regulation."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "Trump administration repeals Biden era greenhouse gas requirements for power plants",
+              "url": "https://www.cnbc.com/2026/09/14/trump-epa-carbon-dioxide-power-plant-climate-change.html",
+              "publishedAt": "2026-09-14T20:45:52Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "Jensen Huang says Nvidia will sell twice as many chips next year",
+              "url": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+              "publishedAt": "2026-09-17T21:00:47Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+              "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+              "publishedAt": "2026-09-18T18:28:31Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Graham Act, Grönland-Deal, F-35-Verkauf und Kongress gegen Iran-Krieg – Woche der außenpolitischen Spannungsfelder",
+          "summaryDe": [
+            "Congress passed the Graham Act, which allows secondary sanctions against Chinese and Indian purchasers of Russian energy; Trump signed the legislation days before the Xi summit – a double signal directed inward and outward.",
+            "The House of Representatives called on Trump to either end the Iran war or obtain formal congressional authorization – one of the most direct congressional challenges to presidential war-making authority in years.",
+            "Trump secured, according to his own account, a defense agreement with Denmark over Greenland to be signed at the UN General Assembly, fundamentally shifting Arctic strategic calculations.",
+            "The US Air Force publicly confirmed for the first time that it has weapons stationed in space – a systemic security policy statement without historical precedent.",
+            "A $24 billion F-35 arms deal with Saudi Arabia was advanced despite explicit intelligence warnings about Chinese technology access; South Korea's President publicly declined a US request for troop deployment in Iran."
+          ],
+          "contextDe": [
+            "The combination of the Graham Act and the Greenland deal demonstrates how Trump applies external pressure on multiple fronts simultaneously – with the Xi summit as the coordination point of this week.",
+            "The space weapons confirmation triggers a new arms race in the space domain for which no international regulatory framework exists.",
+            "South Korea's public refusal of US troop requests and the Saudi deal illustrate that Washington's alliance system under Trump increasingly functions transactionally rather than rule-based."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The Graham Act, NATO alliance solidarity, F-35 proliferation risks, and space armament simultaneously affect Germany as a NATO partner and export-dependent economy on multiple levels."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Four extraordinary foreign policy signals within one week – sanctions legislation, space weapons, the Greenland deal, and congressional war opposition – mark a compression of systemic shifts in US foreign policy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "U.S. confirms for first time it has weapons deployed in space",
+              "url": "https://www.cnbc.com/2026/09/15/weapons-in-space-us-air-force-meink.html",
+              "publishedAt": "2026-09-15T13:13:00Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US Congress passes bill targeting Russia's leading energy buyers – China and India",
+              "url": "https://www.scmp.com/news/us/economy-trade-business/article/3367782/us-congress-passes-bill-targeting-russias-leading-energy-buyers-china-and-india",
+              "publishedAt": "2026-09-16T22:50:16Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national newspaper",
+              "titleOriginal": "US and Denmark reach new agreement on defense and investment in Greenland",
+              "url": "https://www.politico.com/news/2026/09/18/trump-denmark-greenland-new-security-agreement-01084764",
+              "publishedAt": "2026-09-19T05:08:26Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Staatsicherheit warnt vor KI-Risiken, globale Sympathiewerte verschieben sich – Peking auf dem Aufstieg",
+          "summaryDe": [
+            "China's state security minister spoke publicly and called AI a new arena of strategic rivalry – an unusually open appearance by the otherwise rarely visible intelligence chief, which made the extent of internal security debates visible.",
+            "Worldwide polls showed China ranking higher in international regard than the US for the first time – analysts attributed this less to rising China sympathy than to Washington's rapid image loss under Trump.",
+            "Domestically, Beijing continued its anti-corruption campaign: the former director of the Nanjing Museum was convicted of art sales and bribery – a signal that Xi's campaign now extends to prominent cultural institutions.",
+            "Ahead of the Xi-Trump summit, analysts see China in a surprisingly confident negotiating position – supported by economic stabilization and diplomatic alternatives."
+          ],
+          "contextDe": [
+            "China's improved global standing is a contingent structural opportunity, not the result of active persuasion – and could quickly reverse once Washington corrects course.",
+            "The state security warning on AI comes during a period when Western and Chinese regulatory debates are diverging substantively; the appearance signals that Beijing internally acknowledges vulnerabilities.",
+            "China's strengthened negotiating position ahead of the summit was emphasized by state media – domestically important to prevent the meeting from appearing like a capitulation."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's growing global standing and AI security debates indirectly touch on international norm-setting and European regulatory positions."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A measurable shift in global sympathies between the two superpowers and unusual public security signals from Beijing's intelligence apparatus are strategically significant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's intelligence chief warns of risks from AI as 'new arena for strategic rivalry'",
+              "url": "https://www.scmp.com/news/china/politics/article/3367349/chinas-intelligence-chief-warns-risks-ai-new-arena-strategic-rivalry",
+              "publishedAt": "2026-09-14T00:00:10Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "The world is not so much embracing China as recoiling from Trump's US",
+              "url": "https://www.scmp.com/opinion/world-opinion/article/3367044/world-not-so-much-embracing-china-recoiling-trumps-us",
+              "publishedAt": "2026-09-15T12:30:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "FAST-Teleskop, Pinglu-Kanal, Seltene Metalle und KI-Eigenentwicklung – Chinas technologische Woche",
+          "summaryDe": [
+            "China's FAST telescope compiled the world's largest neutral hydrogen catalog, displacing the previous US reference survey – a symbolically and scientifically significant step.",
+            "With the Pinglu Canal, China opened a new waterway that connects the southwestern interior directly to maritime routes in Southeast Asia, reordering logistics chains in the region.",
+            "Chinese researchers extracted rare metals rubidium and cesium from lithium waste at industrial scale for the first time – 500 tons capacity, unprecedented globally – metals essential for quantum computers, atomic clocks, and rocket fuel.",
+            "An AI-driven weather forecasting system based on 100,000 in-house chips demonstrated that China, despite US export restrictions, is developing independent solutions for compute-intensive applications; a study also showed that US sanctions have increased China's scientific innovation by over 70 percent.",
+            "Xi Jinping promoted a global AI cooperation community at the BRICS summit – a multilateral lever that integrates diplomatic and technological objectives."
+          ],
+          "contextDe": [
+            "China pursues a coordinated strategy in which basic research, infrastructure, and raw material control are simultaneously expanded – not as isolated projects, but as a system of technological independence.",
+            "The sanctions finding is strategically explosive: what was intended as deterrence has accelerated China's innovation drive and could fundamentally question the effectiveness of Western technology policy.",
+            "For Germany as a high-tech exporter and rare earth metals consumer, concrete dependency risks emerge, compounded by China's new extraction technology."
+          ],
+          "additionalImportant": "Chinese scientists also reported a new oil refining method with potential energy savings of up to 90 percent – if verified, it would be highly industrially relevant.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "China's dominance in rare earths, new trade routes, and the technological catch-up process despite sanctions directly affect Germany's competitiveness and raw materials situation."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The concentration of scientific world records, infrastructure projects, and AI self-development within a week demonstrates China's coordinated rise to technological superpower – with systemic implications."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's FAST telescope maps neutral hydrogen, the cosmic gas for making stars",
+              "url": "https://www.scmp.com/news/china/science/article/3367154/chinas-fast-telescope-maps-neutral-hydrogen-cosmic-gas-making-stars",
+              "publishedAt": "2026-09-13T12:00:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese plant extracts critical rare metals from lithium waste in world first",
+              "url": "https://www.scmp.com/news/china/science/article/3367490/chinese-plant-extracts-critical-rare-metals-lithium-waste-world-first",
+              "publishedAt": "2026-09-15T04:00:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China launches Pinglu Canal; Hong Kong unveils first 5-year plan: SCMP's 7 highlights",
+              "url": "https://www.scmp.com/news/china/article/3367930/china-launches-pinglu-canal-hong-kong-unveils-first-5-year-plan-scmps-7-highlights",
+              "publishedAt": "2026-09-18T04:45:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US sanctions boost China's science-driven innovation by over 70%, study finds",
+              "url": "https://www.scmp.com/news/china/science/article/3367792/us-sanctions-boost-chinas-science-driven-innovation-over-70-study-finds",
+              "publishedAt": "2026-09-17T18:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "H-6N-Bomber, Xi-Trump-Gipfel und Machtprojektion von Panama bis Afrika – Chinas Außenpolitikwoche",
+          "summaryDe": [
+            "China publicly presented the nuclear-capable air-to-ground Jing Lei-1 missile on the H-6N bomber, communicating a qualitatively new component of its second-strike capability – an extraordinary security policy demonstration.",
+            "Ahead of the Xi-Trump summit, Defense Minister Dong Jun chose deliberately de-escalatory language at the Xiangshan Forum; Trump received Xi at Joint Base Andrews – a protocol-rare act – while Wang Yi lobbied Rubio beforehand for mutual respect.",
+            "The sanctions act against Russian energy imports, which Trump signed shortly before the summit, and the Taiwan threat rhetoric of a retired PLA general formed the turbulent backdrop to a historically significant meeting.",
+            "Beijing threatened Panama with serious consequences after the establishment of a parliamentary group for Taiwan; six Chinese J-16 fighter jets were deployed for the first time to Egypt, which military experts view as a test of Chinese power projection in Africa.",
+            "On the South China Sea, a Chinese research vessel completed geological surveys near the Philippines-claimed Scarborough Reef – diplomacy and maritime expansion proceeding in parallel."
+          ],
+          "contextDe": [
+            "The Xi-Trump summit carries enormous domestic expectations for both sides: Trump must demonstrate strength domestically, Xi must prove parity.",
+            "The combination of nuclear demonstration, de-escalatory summit rhetoric, and simultaneous threats toward Panama shows the full range of Chinese foreign policy instruments in a single week.",
+            "What is agreed or left open in Washington – on tariffs, arms control, and AI governance – sets the framework for European and German foreign policy for months to come."
+          ],
+          "additionalImportant": "The UN Peacekeeping Chief called China a reliable partner given declining US contributions – a signal strengthening Beijing's positioning as a responsible actor.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Summit outcomes on trade, arms control and AI, along with China's nuclear buildup, directly touch Europe's security architecture and German foreign economic interests."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Nuclear demonstration, historic summit, and simultaneous maritime and diplomatic power projection make this week China's most diplomatically dense period of the year so far."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "For China, H-6N bomber enhances nuclear deterrence and second-strike capability",
+              "url": "https://www.scmp.com/news/china/military/article/3367350/china-h-6n-bomber-enhances-nuclear-deterrence-and-second-strike-capability",
+              "publishedAt": "2026-09-13T14:00:07Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Rare honour: Trump will greet Xi at Joint Base Andrews, not just White House",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367905/rare-honour-trump-will-greet-xi-andrews-not-just-white-house",
+              "publishedAt": "2026-09-17T15:13:49Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China, US may unveil measures to boost military ties when Xi visits Washington",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367849/china-us-may-unveil-measures-boost-military-ties-when-xi-visits-washington",
+              "publishedAt": "2026-09-17T14:00:10Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Kirchenskandale, Koalitionsstreit und NATO-Drohnenabschuss – Montenegro zwischen Innenpolitik und Bündnisrealität",
+          "summaryDe": [
+            "A Bosnian-Herzegovinian investigative portal published photos and alleged encrypted Sky chats linking leadership figures of the Serbian Orthodox Church to criminal circles – in Montenegro, where this church's political role has been contested for years, a highly explosive publication.",
+            "Intense parliamentary coalition tensions developed over the planned removal of parliamentary speaker Mandić; the Albanian Forum assured its presence at the vote on September 24, but the outcome remains uncertain.",
+            "Montenegrin police prevented a rally supporting convicted war criminal Ratko Mladić – a positive signal for Brussels on the state of rule of law enforcement, while also evidence of persisting nationalist tendencies.",
+            "A NATO fighter jet shot down an unidentified drone over Lithuania; as an alliance partner, Montenegro is structurally embedded in this security architecture, even though the incident occurred geographically far away."
+          ],
+          "contextDe": [
+            "Montenegro struggles simultaneously with institutional restructuring following EU approximation and entrenched structures of organized crime and political church entanglement that block this transformation.",
+            "Coalition instability around Mandić is not an isolated case, but an expression of a government caught between reform aspirations and parliamentary majority problems.",
+            "The NATO drone incident over Lithuania illustrates that alliance membership also has operational consequences for small states like Montenegro – not merely symbolic ones."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany accompanies Montenegro's EU approximation; rule of law signals like the prevented Mladić rally and coalition stability are relevant to this process."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The events are significant for Montenegro's domestic stability and EU integration prospects, but lack international resonance."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Bosanskohercegovački portal istraga.ba objavio fotografije i navodne Sky prepiske: Vrh SPC i Porfirije povezani sa osobama bliskim kriminalnim klanovima?",
+              "url": "https://www.pobjeda.me/clanak/bosanskohercegovacki-portal-istragaba-objavio-fotografije-i-navodne-sky-prepiske-vrh-spc-i-porfirije-povezani-sa-osobama-bliskim-kriminalnim-klanovima",
+              "publishedAt": "2026-09-14T06:43:22Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Italijanski borbeni avion NATO-a oborio dron u Litvaniji",
+              "url": "https://www.vijesti.me/svijet/evropa/826702/borbeni-avion-nato-a-oborio-dron-u-litvaniji",
+              "publishedAt": "2026-09-15T05:39:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Staatsschuld unter Maastricht-Schwelle, aber politische Instabilität gefährdet fiskalische Stabilität",
+          "summaryDe": [
+            "Montenegro's public debt stood at 58.5 percent of GDP at end-June 2026, just below the Maastricht threshold of 60 percent – an important signal for the ongoing EU accession process.",
+            "Simultaneously, government announcements by Spajić about higher wages and pensions starting in January triggered alarm among employer associations, which called for urgent talks.",
+            "The fiscal margin is tight; the combination of political social promises ahead of potential elections and ongoing government instability increases the risk of rapid deterioration in the debt-to-GDP ratio."
+          ],
+          "contextDe": [
+            "Montenegro finances its public spending in a political environment where reform incentives frequently give way to short-term electoral calculation.",
+            "Compliance with fiscal Maastricht criteria is a fundamental prerequisite for concluding EU accession chapters – violations could significantly slow the process.",
+            "Employer associations view the announced wage increases as a result of insufficient social dialogue and warn of incalculable burdens on smaller companies."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegro's public finances and domestic wage debates have no discernible direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Compliance with fiscal EU criteria is relevant in the accession context, but the trend shows fragile stability that could quickly become unsustainable under political pressure."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Javni dug na kraju juna 58,5 odsto BDP-a i u okviru je mastrihtskih kriterijuma",
+              "url": "https://www.pobjeda.me/clanak/javni-dug-na-kraju-juna-585-odsto-bdp-a-i-u-okviru-je-mastrihtskih-kriterijuma",
+              "publishedAt": "2026-09-16T07:09:02Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Bježi od nevolja, trči ka izborima: Šta je pozadina Spajićeve...",
+              "url": "https://www.vijesti.me/vijesti/politika/827406/bjezi-od-nevolja-trci-ka-izborima-sta-je-pozadina-spajiceve-najave-o-novom-povecanju-plata-i-penzija",
+              "publishedAt": "2026-09-19T06:45:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU nimmt Montenegros Beitrittsfragen ernst – kroatisches Signal mit begrenzter Wirkung",
+          "summaryDe": [
+            "An HDZ parliamentarian from Croatia signaled that the EU is taking seriously Montenegro's accession questions with respect to rule of law concerns – a statement underscoring Croatia's bridge role as the region's newest EU member.",
+            "Montenegro formally ranks as the Balkans' most advanced accession candidate, but struggles with rule of law and anti-corruption deficits that block individual negotiation chapters.",
+            "Domestic instability this week – Mandić removal proceedings, church scandals, and wage disputes – illustrates the structural hurdles slowing the accession process."
+          ],
+          "contextDe": [
+            "Croatia's engagement shows that regional support in EU enlargement can be a real political force, even though decisive pressure comes from Brussels.",
+            "Montenegro must simultaneously demonstrate domestic stability and advance reforms – both are difficult to reconcile in a coalition government under constant pressure.",
+            "For EU accession strategy in the Western Balkans, Montenegro remains a test case for whether the promise of European integration actually functions as a reform incentive."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany actively supports EU enlargement in the Western Balkans; Montenegro's progress or setbacks indirectly touch this policy."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The Croatian signal has diplomatic significance for the accession process without immediate decision-making relevance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Sudbina MCP i Joanikija zavisiće od ishoda izbora u Srbiji",
+              "url": "https://www.pobjeda.me/clanak/sudbina-mcp-i-joanikija-zavisice-od-ishoda-izbora-u-srbiji",
+              "publishedAt": "2026-09-14T07:02:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "sections": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "State of the Union, Kanada-Assoziierung, Schwedenwahl und KIDS Act – Woche der EU-Weichenstellungen",
+          "summaryDe": [
+            "Von der Leyen outlined climate policy and strategic autonomy as guidelines in her 2026 State of the Union address and offered Canada an association status – a step without an existing treaty foundation that triggered irritation both internally and externally.",
+            "Trump responded to the Canada offer with new tariff threats; several EU capitals criticized not being consulted; the United Kingdom watched the development with evident concern.",
+            "Sweden's parliamentary election produced a close result: the left-leaning opposition bloc narrowly led the center-right block, the far-right Sweden Democrats lost ground; a government change in a NATO and EU member has European signaling effects.",
+            "The EU passed the KIDS Act, which imposes strict restrictions on platform access for minors; Hungary under Prime Minister Magyar removed homophobic passages from its child protection laws, signaling a clear break from the Orbán legacy."
+          ],
+          "contextDe": [
+            "The Canada proposal illustrates the Commission's dilemma: it wants to bind new partners during a period of transatlantic estrangement, yet acts without sufficient institutional and legal preparation.",
+            "Sweden as a new NATO member and experienced EU actor would shift security and climate policy majorities in the Council following a government change.",
+            "Hungary's rule of law turnaround under Magyar is substantive but incomplete; the EU's response to gradual normalization will reveal how flexible the union's rule of law instruments are."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the largest EU member, Germany is directly affected by new institutional formats, possible US retaliatory tariffs on the Canada offer, and Swedish government formation."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A State-of-the-Union address entering institutional new territory, an election in a key member state, and comprehensive platform regulation together constitute an extraordinarily dense EU political week."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "State of the Union 2026: Quotes and initiatives",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1885",
+              "publishedAt": "2026-09-16T06:47:45Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Details emerge on Canada's 'associate membership' EU offer, as Brexit UK left looking on",
+              "url": "https://euobserver.com/238167/details-emerge-on-canadas-associate-membership-eu-offer-as-brexit-uk-left-looking-on",
+              "publishedAt": "2026-09-17T14:12:43Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "EU KIDS Act to restrict social media platforms' access to children in the EU",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1890",
+              "publishedAt": "2026-09-16T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Indien-Freihandel, Nickelübernahme blockiert, China unter Druck bei 'Made in Europe' – Handelspolitik unter Druck",
+          "summaryDe": [
+            "The European Commission submitted the completed free trade agreement with India to the Council – potentially the largest bilateral EU trade agreement ever by partner population size.",
+            "Simultaneously, the Commission formally objected to the planned Chinese MMG takeover of Anglo American's nickel business, setting a clear signal for more active raw material sovereignty policy.",
+            "China pressed Brussels to weaken the planned 'Made in Europe' industrial bill before the October vote; the tug-of-war shows how directly Beijing attempts to influence European industrial policy.",
+            "France's sanctions poker over Russia renewal overshadowed the trade policy week and illustrated how much individual member state interests can damage overall European positioning."
+          ],
+          "contextDe": [
+            "An EU-India agreement would, after more than a decade of stalled negotiations, diversify the union's trade portfolio – particularly relevant when transatlantic reliability is waning.",
+            "The nickel decision is a precedent: for the first time, the EU is scrutinizing a takeover explicitly through the lens of critical raw material dependency on China.",
+            "China's pressure on the industrial bill shows that Beijing views European legislative processes as negotiation leverage – a new dimension in EU-China trade conflict."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "As the EU's largest exporter, Germany directly benefits from an India agreement, is dependent on China for nickel supply chains, and would rely on the 'Made in Europe' bill as a key instrument to protect domestic industry."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Three simultaneous trade policy course-settings – India agreement, nickel blockade, and China industrial bill conflict – make this week the trade policy's most significant period of the year for the EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission approves €6.1 billion to support Ukraine's air and missile defence and other defence needs",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829",
+              "publishedAt": "2026-09-10T22:00:00Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission sends Statement of Objections over the proposed acquisition of Anglo American's nickel business by MMG",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1877",
+              "publishedAt": "2026-09-15T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Beijing tells EU to weaken 'Made in Europe' industrial bill ahead of October showdown",
+              "url": "https://euobserver.com/238422/beijing-tells-eu-to-weaken-made-in-europe-industrial-bill-ahead-of-october-showdown",
+              "publishedAt": "2026-09-18T14:21:27Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russland-Sanktionskrise, Ukraine-Verluste, Thaçi-Urteil und NATO-Alarm – Europas sicherheitspolitische Woche",
+          "summaryDe": [
+            "France's insistence on striking oligarch Usmanov from the sanctions list initially blocked the regular six-month renewal; a one-week emergency extension was forced, and diplomatic damage was considerable.",
+            "Russia attacked rail infrastructure six kilometers from the Polish-Ukrainian border – shortly after high-ranking Western dignitaries had transited the same corridor; a Russian ship fired on a Danish military helicopter; Ukraine responded with record-breaking drone attacks on Russian refineries.",
+            "Poland's Premier Tusk disclosed for the first time classified casualty figures: Ukraine is losing tens of thousands of soldiers per month; the EU simultaneously transferred 3.3 billion euros for drones and defense material.",
+            "The EU-backed special tribunal convicted former Kosovo President Thaçi of war crimes – a historically significant step with destabilizing potential in the Western Balkans.",
+            "General Carsten Breuer was elected chairman of the NATO Military Committee; the NATO Supreme Commander stated the alliance is prepared for a possible Russian false-flag provocation."
+          ],
+          "contextDe": [
+            "The sanctions crisis has systemic dimensions: if a member state succeeds even once with veto leverage, it signals that EU-Russia policy unity could be purchased.",
+            "Tusk's disclosure was strategically calibrated – an attempt to move Western partners emotionally and politically toward increased support.",
+            "The Thaçi verdict opens difficult debate about how Western governments collaborated for years with a man now convicted as a war criminal."
+          ],
+          "additionalImportant": "Multiple European leaders from Poland, Lithuania, France, and the Netherlands are publicly preparing their populations for an 'intensified threat' from Russia, even though NATO expects no imminent attack.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany holds frozen Russian assets, is the largest EU Ukraine supporter, now has a German general heading the NATO Military Committee, and is directly affected by Russian strikes on NATO-proximate infrastructure."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The combination of sanctions crisis, Russian escalation near NATO borders, historic war crimes conviction, and disclosure of dramatic casualty figures makes this week the most security-policy significant of the year for Europe."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU fails to agree Russia sanctions rollover with one day to spare",
+              "url": "https://euobserver.com/236942/this-week-canadas-carney-attends-von-der-leyens-state-of-the-union-as-new-talks-on-russian-frozen-assets-for-ukraine-return-to-eu-agenda",
+              "publishedAt": "2026-09-14T04:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Polish leader Tusk exposes classified figures on sky-high Ukrainian casualties",
+              "url": "https://euobserver.com/238438/polish-leader-tusk-exposes-classified-figures-on-sky-high-ukrainian-casualties-ukraine-battlefield-update-day-1667",
+              "publishedAt": "2026-09-18T14:05:41Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Former Kosovo leader is war criminal rules EU-backed court, tearing open old Western Balkans wounds",
+              "url": "https://euobserver.com/237923/former-kosovo-leader-is-war-criminal-rules-eu-backed-court-tearing-open-old-western-balkans-wounds",
+              "publishedAt": "2026-09-16T14:52:36Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national newspaper",
+              "titleOriginal": "NATO 'ready' for potential Russian false flag attack, alliance's top general says",
+              "url": "https://www.politico.eu/article/nato-ready-russia-false-flag-attack-giuseppe-cavo-dragone",
+              "publishedAt": "2026-09-19T14:23:32Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceReportDates": [
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20"
+  ],
+  "missingReportDates": []
+}

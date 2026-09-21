@@ -173,6 +173,10 @@
   ],
   "weekly": [
     {
+      "period": "2026-W38",
+      "path": "data/en/weekly/2026-W38.json"
+    },
+    {
       "period": "2026-W37",
       "path": "data/en/weekly/2026-W37.json"
     },
