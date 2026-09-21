@@ -3,9 +3,9 @@
   "month": "2026-09",
   "timezone": "Europe/Berlin",
   "budgetEur": 5.0,
-  "estimatedCostUsd": 8.152246,
-  "estimatedCostEur": 7.157669,
-  "budgetPercent": 143.2,
+  "estimatedCostUsd": 8.557084,
+  "estimatedCostEur": 7.513117,
+  "budgetPercent": 150.3,
   "unmeasuredCalls": 3,
   "collectionStartedAt": "2026-08-03T00:00:00+02:00",
   "priceVersion": "anthropic-2026-08-03",
@@ -1447,6 +1447,23 @@
     {
       "eventId": "5979b3957d9395b42b21cfe3db9f99166ce8870a2cf3f0ee6dbb33deccfc1d33",
       "occurredAt": "2026-09-21T09:28:27.739055+00:00",
+      "reportType": "week",
+      "reportId": "2026-W38",
+      "model": "claude-sonnet-4-6",
+      "outcome": "max_tokens",
+      "measured": true,
+      "usage": {
+        "input_tokens": 53026,
+        "output_tokens": 16384,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.404838,
+      "estimatedCostEur": 0.355448
+    },
+    {
+      "eventId": "4b773693af2f955f2b17ee202e20c1bdf35cbbf8b32be1b5a3c46d8a5c5b41df",
+      "occurredAt": "2026-09-21T10:53:48.600362+00:00",
       "reportType": "week",
       "reportId": "2026-W38",
       "model": "claude-sonnet-4-6",
