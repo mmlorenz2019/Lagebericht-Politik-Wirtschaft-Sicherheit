@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-22",
+  "generatedAt": "2026-09-22T10:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Demokratin warnt Trump vor Taiwan-Kurs beim Xi-Gipfel",
+          "summaryDe": [
+            "Kurz vor dem Washingtoner Gipfeltreffen zwischen Trump und Xi hat Senatorin Jeanne Shaheen ihren Präsidenten öffentlich gemahnt, keinen Rückzug von der US-Unterstützung für Taiwan zu signalisieren.",
+            "Die Demokratin gehört dem Auswärtigen Ausschuss des Senats an und spricht damit eine Sorge aus, die parteiübergreifend geteilt wird – befeuert auch durch eine Umfrage, wonach knapp die Hälfte der Taiwanese das amerikanische Sicherheitsversprechen für wenig verlässlich hält.",
+            "Shaheens öffentlicher Druck zeigt, wie eng Trump beim Gipfel taktisch geführt wird: Jedes Signal von Nachgiebigkeit gegenüber Peking wird innenpolitisch sofort aufgegriffen.",
+            "Ob das Weiße Haus solchen Warnungen Gewicht beimisst, bleibt offen – Trumps Umgang mit parteiinternen wie parteiübergreifenden Ratschlägen ist erfahrungsgemäß unberechenbar."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein möglicher Kurswechsel der USA gegenüber Taiwan hätte indirekte Rückwirkungen auf europäische Sicherheitsarchitektur und Handelsrouten."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die öffentliche Mahnung einer führenden Senatorin unmittelbar vor einem historisch bedeutsamen Gipfeltreffen ist politisch gewichtig."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Top US Senate Democrat Jeanne Shaheen warns Trump not to waver on Taiwan ahead of Xi meet",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3368309/top-us-senate-democrat-warns-trump-not-waver-taiwan-xi-heads-washington",
+              "publishedAt": "2026-09-21T21:42:53Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Kongress fordert KI-Sicherheitsabkommen nach Atomwaffenmuster zwischen USA und China",
+          "summaryDe": [
+            "Ein US-Abgeordneter hat unmittelbar vor dem Xi-Trump-Gipfel gefordert, verbindliche KI-Sicherheitsmechanismen zu schaffen, die sich an den nuklearen Rüstungskontrollverträgen des Kalten Krieges orientieren.",
+            "Die Sorge dahinter: Ein unkontrolliertes KI-Wettrüsten könnte ähnlich destabilisierende Wirkung entfalten wie ein Nuklearwettlauf – mit dem Unterschied, dass die Eskalationsschwellen weit schwerer erkennbar sind.",
+            "Belastbare bilaterale Strukturen im KI-Bereich fehlen bislang vollständig; der Vorstoß ist damit weniger konkreter Gesetzgebungsplan als politisches Signal an die Gipfelverhandler.",
+            "Ob das Thema tatsächlich auf die Tagesordnung des Treffens gelangt, ist ungewiss – der Gipfel wird ohnehin von zahlreichen konkurrierenden Prioritäten dominiert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein US-chinesisches KI-Abkommen würde globale Technologie- und Sicherheitsstandards mitprägen, an denen auch Deutschland sich orientieren müsste."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Vorstoß eines einzelnen Kongressmitglieds hat begrenzte unmittelbare Wirkung, benennt aber ein strukturell relevantes Problem."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US, China need nuclear-style AI safeguards, congressman says before Xi-Trump summit",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3368311/us-china-need-nuclear-style-ai-safeguards-congressman-says-xi-trump-summit",
+              "publishedAt": "2026-09-21T22:48:38Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA drohen Iran mit Abschaltung aller Fluggesellschaften – Ölpreise steigen",
+          "summaryDe": [
+            "Das US-Finanzministerium hat angekündigt, mit Wirkung ab Mittwoch alle iranischen Fluggesellschaften vom internationalen Zahlungsverkehr abzuschneiden und deren Betrieb faktisch lahmzulegen.",
+            "Die Drohung fällt zeitlich mit dem Auftritt des iranischen Präsidenten Pezeshkian vor der UN-Generalversammlung zusammen, wo Trump öffentlich wirtschaftliche Zerstörung oder den Sturz der Führung in Aussicht gestellt hatte.",
+            "An den Rohstoffmärkten reagierten die Ölpreise mit Aufschlägen – ein Zeichen dafür, dass Marktteilnehmer eine weitere Eskalation für möglich halten.",
+            "Die doppelte Druckkulisse aus UN-Bühne und Finanzsanktionen zeigt, wie stark die USA den Verhandlungsdruck auf Teheran erhöhen wollen – mit offenem Ausgang."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende Ölpreise und Spannungen im Nahen Osten treffen Deutschland als energieabhängige Exportwirtschaft direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Androhung einer vollständigen Abschaltung iranischer Fluglinien ist eine neue Eskalationsstufe im US-Iran-Konflikt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Many GOP candidates still echo Trump's 2020 claims. Lots of voters want to move on",
+              "url": "https://www.npr.org/2026/09/21/nx-s1-5974313/election-denial-trump-2026",
+              "publishedAt": "2026-09-21T09:00:00Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Paramount makes concessions to salvage $111 billion Warner Bros. Discovery deal",
+              "url": "https://www.npr.org/2026/09/21/nx-s1-5974909/paramount-warner-bros-lawsuit",
+              "publishedAt": "2026-09-21T16:40:28Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Zwei Ex-Generäle der PLA wegen Fraktionismus aus der KP ausgeschlossen",
+          "summaryDe": [
+            "Die Kommunistische Partei Chinas hat die ehemaligen hochrangigen Generale Zhang Youxia und Liu Zhenli wegen Fraktionismus und Illoyalität aus ihren Reihen ausgestoßen.",
+            "Zhang Youxia galt lange als einer der engsten Vertrauten Xi Jinpings im Militär und war Vizevorsitzender der Zentralen Militärkommission – sein Ausschluss ist damit kein Routinefall, sondern ein Signal, dass Xis Säuberungswelle inzwischen bis in den innersten Führungskreis reicht.",
+            "Begleitet wird dieser Fall von einem laufenden Korruptionsverfahren gegen den früheren Shenzhen-Bürgermeister Qin Weizhong, was das Bild einer Partei zeichnet, die ihre Kontrollinstrumente demonstrativ einsetzt.",
+            "Insgesamt zeigt die Häufung solcher Fälle, dass Xi die institutionelle Loyalität im Militär nicht als selbstverständlich betrachtet – und bereit ist, auch enge Weggefährten fallen zu lassen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Interne Personalentscheidungen der KPCh haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Parteiausschluss eines früheren Spitzengenerals zeigt das Ausmaß von Xis Kontrollambitionen über das Militär."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Former top PLA generals expelled from Communist Party for factionalism and disloyalty",
+              "url": "https://www.scmp.com/news/china/politics/article/3368287/former-top-pla-generals-expelled-communist-party-factionalism-and-disloyalty",
+              "publishedAt": "2026-09-21T13:10:07Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China baut weltweit erste Kombination aus CO₂- und Salzschmelze-Energiespeicher",
+          "summaryDe": [
+            "Mit dem Spatenstich für eine neuartige Kraftwerksanlage, die superkritisches CO₂ und Salzschmelze-Wärmespeicher kombiniert, setzt China einen technologischen Präzedenzfall – ein solches Hybridsystem existiert weltweit bislang nicht.",
+            "Die Technologiekombination gilt als vielversprechend für die Langzeitspeicherung erneuerbarer Energien, einem Bereich, in dem China systematisch Erstpositionen anstrebt.",
+            "Parallel treibt Peking die autonome Navigation für Tiefraum-Raumfahrzeuge voran und testet sternbasierte Navigationsmethoden für eine geplante Jupitermission – beides steht für Chinas Strategie, in Schlüsseltechnologien unabhängig von westlicher Infrastruktur zu werden.",
+            "Kurzfristige wirtschaftliche Renditen spielen bei solchen Projekten erkennbar eine nachgeordnete Rolle; der Signalcharakter gegenüber globalen Technologierivalen ist der eigentliche Zweck."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas Energiespeichertechnologien könnten künftig europäische Märkte und die deutsche Energiewende beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein weltweit erstes Kraftwerksprojekt dieser Art ist ein technologischer Meilenstein mit internationalem Signalcharakter."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China breaks ground on the world's first supercritical CO2 and molten salt energy plant",
+              "url": "https://www.scmp.com/news/china/science/article/3368337/china-breaks-ground-worlds-first-supercritical-co2-and-molten-salt-energy-plant",
+              "publishedAt": "2026-09-22T05:41:58Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel in Washington: Seltene Erden, Taiwan und strategische Stabilität auf dem Tisch",
+          "summaryDe": [
+            "Xi Jinping und Donald Trump treffen sich in Washington zu einem Gipfel, der von mehreren akuten Spannungsfeldern überlagert wird: Streit über die Verlängerung des Busan-Handelsabkommens, Reibungen bei seltenen Erden sowie ungeklärte Fragen rund um Taiwan.",
+            "Unmittelbar vor dem Treffen bat Chinas Außenministerium Berlin um Unterstützung, um EU-Handelssanktionen gegen Peking abzuwenden – ein diplomatischer Schachzug, der Europas Rolle als möglichen Vermittler in den Vordergrund rückt.",
+            "Zusätzliche Komplexität entsteht durch eine trilaterale Wirtschafts- und Sicherheitskonsultation der USA, Japans und Südkoreas, die direkt vor dem Gipfel lanciert wurde und Peking diplomatisch einzukreisen versucht.",
+            "Kommentatoren auf beiden Seiten des Pazifiks sind sich einig: Der eigentliche Gradmesser des Treffens liegt weniger in gemeinsamen Erklärungen als in dem, was konkret danach folgt."
+          ],
+          "additionalImportant": "Chinas Typ-052D-Zerstörer werden laut SCMP mit Hyperschallraketen aufgerüstet, was Chinas maritime Schlagkraft im westlichen Pazifik verändert – eine Entwicklung, die im Gipfelkontext als geopolitische Hintergrundkulisse wirkt.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Der Ausgang des Gipfels beeinflusst unmittelbar Handelsbedingungen und Seltene-Erden-Versorgung, von denen auch die deutsche Industrie abhängt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein US-chinesisches Gipfeltreffen mit dieser Themendichte ist ein außergewöhnliches geopolitisches Ereignis mit globaler Reichweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Success of Xi-Trump summit lies in what happens afterwards",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3368013/success-trump-xi-summit-lies-what-happens-afterwards",
+              "publishedAt": "2026-09-21T12:30:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Rare earths friction threatens to stall trade truce extension ahead of Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368318/rare-earths-friction-threatens-stall-trade-truce-extension-ahead-xi-trump-summit",
+              "publishedAt": "2026-09-22T02:59:29Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China seeks German help to stave off EU trade sanctions days before Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368365/china-seeks-german-help-stave-eu-trade-sanctions-days-xi-trump-summit",
+              "publishedAt": "2026-09-22T08:02:30Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegrinische Staatsanwaltschaft ermittelt wegen mutmaßlich manipuliertem Beamtenauswahlverfahren",
+          "summaryDe": [
+            "Die montenegrinischen Behörden haben Ermittlungen wegen eines mutmaßlich manipulierten Auswahlverfahrens für den stellvertretenden Sekretär im Ministerium für Europäische Angelegenheiten aufgenommen.",
+            "Solche Verfahren stehen im Zentrum von Brüssels Rechtsstaatlichkeitsbewertungen für Beitrittsländer – Vetternwirtschaft im öffentlichen Dienst gilt als eines der strukturellen Hindernisse auf Montenegros EU-Weg.",
+            "Dass die Staatsanwaltschaft tätig wird, kann als Zeichen gewertet werden, dass institutioneller Druck Wirkung zeigt; ob es zu Anklagen kommt, bleibt abzuwarten.",
+            "Bemerkenswert ist der Ressortbezug: Ausgerechnet das Ministerium, das Montenegros EU-Integration koordinieren soll, steht im Verdacht interner Missstände."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Montenegros EU-Beitrittsprozess ist Teil der deutschen Westbalkan-Politik; Rechtsstaatsprobleme können diesen Prozess verzögern."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Fall ist lokal begrenzt, beleuchtet aber strukturelle Schwächen in Montenegros EU-Integrationsprozess."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "ABA liga: Prijavilo se preko 50 sudija, takmičenje će se odvijati prema planiranom rasporedu",
+              "url": "https://www.pobjeda.me/clanak/aba-liga-prijavilo-se-preko-50-sudija-takmicenje-ce-odvijati-prema-planiranom-rasporedu",
+              "publishedAt": "2026-09-21T18:31:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegro reduziert Schattenwirtschaft deutlich auf 12,4 Prozent des BIP",
+          "summaryDe": [
+            "Das montenegrinische Finanzministerium meldet einen erheblichen Rückgang der informellen Wirtschaft: Der Anteil am BIP sank von 20,6 auf 12,4 Prozent – ein Rückgang von rund acht Prozentpunkten.",
+            "Erreicht wurde dies laut Behörden durch verschärfte Anti-Korruptionsmaßnahmen, stärkere Steuerdurchsetzung und gezielte Formalisierungsanreize für Unternehmen.",
+            "Für ein kleines Land auf EU-Beitrittskurs ist das ein politisch relevantes Signal: Die Reduktion der Schattenwirtschaft zählt zu den Kernbedingungen, die Brüssel im Westbalkan-Rahmenwerk einfordert.",
+            "Ob die Zahlen nachhaltig sind oder durch Basiseffekte oder veränderte Erhebungsmethoden beeinflusst werden, lässt sich auf Basis der vorliegenden Quelle nicht abschließend beurteilen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Montenegros EU-Beitrittsprozess hat indirekte Bedeutung für die deutsche Westbalkan-Politik und Erweiterungsagenda."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Rückgang der Schattenwirtschaft ist ein bemerkenswerter Reformerfolg für ein kleines Beitrittsland, bleibt aber regional begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "MF: Crna Gora napravila iskorak u borbi protiv sive ekonomije,...",
+              "url": "https://www.vijesti.me/vijesti/ekonomija/827822/mf-crna-gora-napravila-iskorak-u-borbi-protiv-sive-ekonomije-neformalna-ekonomija-pala-sa-206-na-124-odsto",
+              "publishedAt": "2026-09-22T07:15:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Merz nach Wahlniederlagen unter massivem Druck – AfD und Linke gewinnen Bundesländer",
+          "summaryDe": [
+            "Bei jüngsten deutschen Landtagswahlen hat die CDU empfindliche Verluste erlitten: Die AfD konnte ein weiteres Bundesland gewinnen, während Die Linke in Berlin triumphierte.",
+            "Merz steht laut übereinstimmenden Berichten vor einem strategischen Dilemma: Entweder er reformiert seine Wirtschaftsagenda grundlegend oder er riskiert, sie verteidigend politisch zu scheitern.",
+            "Das Ergebnis sendet Signale weit über Deutschland hinaus – in Brüssel wird diskutiert, ob die politische Mitte in großen EU-Mitgliedstaaten dauerhaft unter Erosionsdruck gerät.",
+            "Gleichzeitig meldet sich Melonis EU-Vertreter zu Wort und fordert Brüssel auf, mit Marine Le Pen zusammenzuarbeiten – ein Fingerzeig, wohin sich der rechte Flügel europäischer Politik zu verschieben versucht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Die Wahlergebnisse betreffen Deutschland unmittelbar und könnten die Regierungsstabilität sowie Berlins EU-Politik grundlegend verändern."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Anhaltende Verluste der politischen Mitte in der größten EU-Volkswirtschaft sind eine größere europäische Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Merz 'fighting for political survival' as AfD takes another state and The Left wins Berlin",
+              "url": "https://euobserver.com/238608/merz-fighting-for-political-survival-as-afd-takes-another-state-and-the-left-wins-berlin",
+              "publishedAt": "2026-09-21T10:15:17Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Merz's dilemma: Redraft German economic reforms, or go down defending them",
+              "url": "https://www.politico.eu/article/friedrich-merz-dilemma-redraft-germany-economic-reform-go-down-defending-them",
+              "publishedAt": "2026-09-22T02:00:00Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Meloni's EU lieutenant urges Brussels to work with Le Pen",
+              "url": "https://www.politico.eu/article/giorgia-meloni-eu-lieutenant-urges-brussels-to-work-marine-le-pen",
+              "publishedAt": "2026-09-22T02:02:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Steigende Kraftstoffpreise befeuern EU-Debatte über Übergewinnsteuer auf Öl und Gas",
+          "summaryDe": [
+            "Ein neuerlicher Anstieg der Kraftstoffpreise hat in der EU die politische Diskussion über eine Übergewinnsteuer auf Öl- und Gaskonzerne neu entfacht.",
+            "Befürworter sehen in den Einnahmen eine Möglichkeit, Verbraucher zu entlasten und Investitionen in die Energiewende zu finanzieren; Kritiker warnen vor Investitionshemmnissen in einem ohnehin angespannten Energiemarkt.",
+            "Zusätzlichen Auftrieb erhält der Vorstoß durch die US-Iran-Spannungen, die die Rohstoffpreise gerade zusätzlich nach oben treiben.",
+            "Ähnliche Vorstöße scheiterten in der Vergangenheit an fehlendem Konsens unter den Mitgliedstaaten – ob es diesmal zu einem konkreten Gesetzgebungsverfahren kommt, ist offen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine EU-Übergewinnsteuer würde direkt Energieunternehmen in Deutschland betreffen und die Verbraucherpreispolitik beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Debatte ist politisch relevant, bleibt aber ohne konkrete Gesetzgebungsinitiative vorerst begrenzt in ihrer Wirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Listen: Fuel price spike reignites push for EU windfall tax on oil and gas profits",
+              "url": "https://euobserver.com/238591/listen-fuel-price-spike-reignites-push-for-eu-windfall-tax-on-oil-and-gas-profits",
+              "publishedAt": "2026-09-21T07:25:08Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russlands Hybridkrieg treibt Europa in Richtung echter strategischer Autonomie",
+          "summaryDe": [
+            "Russische Provokationen und hybride Kriegsführung quer durch Europa – von Desinformationskampagnen bis zu Sabotageakten – stärken den europäischen Willen zur eigenständigen Verteidigungsfähigkeit, wie ein Analysebeitrag des EUobserver ausführt.",
+            "Parallel zeigt die ukrainische Drohnenoffensive gegen Moskau – der bislang größte Luftangriff seit Kriegsbeginn – dass Kiew weiterhin in der Lage ist, tief ins russische Hinterland zu treffen.",
+            "Trumps unberechenbare Haltung gegenüber der NATO wirkt dabei als zusätzlicher Katalysator: Europa kann sich nicht länger auf den amerikanischen Schutzschirm als selbstverständlich verlassen.",
+            "Deutschland als größter EU-Mitgliedstaat steht im Zentrum der Frage, wer diese strategische Autonomie finanziert und politisch trägt – gerade angesichts der innenpolitischen Turbulenzen in Berlin."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Als größte EU-Volkswirtschaft trägt Deutschland zentrale Verantwortung für Finanzierung und Ausgestaltung europäischer strategischer Autonomie."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination aus russischem Hybridkrieg und US-Unberechenbarkeit verschiebt die europäische Sicherheitspolitik strukturell."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Russia's hybrid war and Trump's tantrums are pushing Europe towards real strategic autonomy",
+              "url": "https://euobserver.com/238597/russias-hybrid-war-and-trumps-tantrums-are-pushing-europe-towards-real-strategic-autonomy",
+              "publishedAt": "2026-09-21T08:36:21Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "What Ukraine fired at Moscow on Sunday, in its largest air-raid since the war began (Ukraine Battlefield update, Day 1,670)",
+              "url": "https://euobserver.com/238701/what-ukraine-fired-at-moscow-on-sunday-in-its-largest-air-raid-since-the-war-began-ukraine-battlefield-update-day-1670",
+              "publishedAt": "2026-09-21T13:54:04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
