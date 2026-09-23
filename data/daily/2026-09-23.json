@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-23",
+  "generatedAt": "2026-09-23T12:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "CNN, MSNBC und Politico klagen gegen Hausverbot im Weißen Haus",
+          "summaryDe": [
+            "Die Trump-Administration hat CNN, MSNBC und Politico den Zutritt zum Weißen Haus entzogen und begründet dies mit angeblichen Professionalitätsverstößen.",
+            "Die betroffenen Medien haben Klage eingereicht; parallel startete die Regierung einen eigenen Sender namens 'Trump TV'.",
+            "Das Justizministerium verteidigt das Verbot mit Sicherheitsargumenten – ein Vorgehen ohne direktes historisches Vorbild in den USA.",
+            "Der Rechtsstreit dürfte klären, wie weit Exekutivrechte beim Medienzugang zum Regierungssitz reichen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Pressefreiheitsfragen in den USA werden in Deutschland aufmerksam beobachtet, direkte institutionelle Folgen für deutsche Medien sind jedoch nicht absehbar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein staatlich verhängtes Hausverbot gegen mehrere Leitmedien mit nachfolgender Klage stellt einen außergewöhnlichen Eingriff in die Pressefreiheit einer führenden Demokratie dar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "CNN, MS NOW and Politico sue Trump. And, Paramount settles in massive merger lawsuit",
+              "url": "https://www.npr.org/2026/09/22/g-s1-144512/up-first-newsletter-press-lawsuit-cnn-msnow-politico-unga-trump-speech-paramount-deal",
+              "publishedAt": "2026-09-22T11:01:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump-Regierung streicht 760.000 ACA-Versicherte wegen Betrugsvorwürfen",
+          "summaryDe": [
+            "Rund 760.000 Personen wurden aus dem Affordable-Care-Act-Programm gestrichen; Vizepräsident Vance beziffert die eingesparten Subventionen auf 2,2 Milliarden Dollar.",
+            "Belastbare Einzelnachweise für die behaupteten Betrugsfälle wurden bislang nicht öffentlich gemacht, was unabhängige Beobachter skeptisch stimmt.",
+            "Kritiker warnen, dass legal versicherte Personen betroffen sein könnten – mit unmittelbaren gesundheitlichen Konsequenzen.",
+            "Der Schritt verschärft den politischen Streit um das Gesundheitssystem unmittelbar vor den Novemberwahlen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die innenpolitische Debatte über das US-Gesundheitssystem hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Eingriff betrifft hunderttausende Menschen und wirft grundsätzliche Fragen über staatliche Datenverlässlichkeit bei Sozialleistungen auf."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Trump administration removes around 760,000 Obamacare enrollments, alleging fraud",
+              "url": "https://www.cnbc.com/2026/09/22/trump-administration-removes-around-760000-obamacare-enrollments.html",
+              "publishedAt": "2026-09-22T21:07:21Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump verteidigt Iran-Militärschläge vor der UN und droht mit 'Vernichtung'",
+          "summaryDe": [
+            "Vor der UN-Generalversammlung rechtfertigte Trump die amerikanischen Militäroperationen gegen Iran und deutete an, ein Abkommen sei nach den Midterms denkbar.",
+            "PBS NewsHour identifizierte in der Rede mehrere sachlich falsche Behauptungen zu Ölreserven und Drogenhandel.",
+            "Iran reagierte mit dem Angebot, Bedingungen für eine Wiedereröffnung der Straße von Hormus zu verhandeln – ein Signal, das Beobachter als taktisch werten.",
+            "Die Gleichzeitigkeit von Vernichtungsrhetorik und Verhandlungsofferten hält die Unsicherheit an den globalen Energiemärkten aufrecht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Eskalation im Persischen Golf hätte unmittelbare Auswirkungen auf Energiepreise und Schifffahrtswege, von denen Deutschland stark abhängt."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Kriegsdrohungen gegen einen regionalen Staat kombiniert mit Verhandlungssignalen auf UN-Ebene sind von außergewöhnlicher geopolitischer Tragweite."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump defends Iran war, touts 'America is back' agenda in UN speech",
+              "url": "https://www.scmp.com/news/us/article/3368434/trump-defends-iran-war-touts-america-back-agenda-un-speech",
+              "publishedAt": "2026-09-22T15:06:37Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "Fact-checking Trump's speech to the 2026 United Nations General Assembly",
+              "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-speech-to-the-2026-united-nations-general-assembly",
+              "publishedAt": "2026-09-22T21:37:21Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "KP China schließt zwei frühere Spitzengeneräle wegen Fraktionismus aus",
+          "summaryDe": [
+            "Die Kommunistische Partei hat die früheren ZMK-Mitglieder Zhang Youxia und Liu Zhenli ausgeschlossen und ihnen Fraktionismus sowie Illoyalität vorgeworfen.",
+            "Staatsmedien nannten die Maßnahme die Beseitigung einer 'schwerwiegenden versteckten politischen Gefahr' – eine Formulierung, die auf tiefer liegende Spannungen in der Volksbefreiungsarmee hindeutet.",
+            "Dass der Schritt unmittelbar vor Xis Staatsbesuch in Washington erfolgt, legt nahe, dass die Führung innenpolitische Kontrolle und außenpolitisches Auftreten eng verzahnt.",
+            "Säuberungen auf dieser Ebene der Militärhierarchie sind selten und gelten als Indikator für ernsthafte Loyalitätskonflikte an der Spitze."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Verschiebungen in der chinesischen Militärführung können mittelfristig außenpolitische Kurswechsel begünstigen, die Deutschland indirekt betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Ausschluss hochrangiger Generäle kurz vor einem internationalen Gipfel ist ein ungewöhnliches Signal zur Konsolidierung von Xis Macht."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Who from China's side will be in the room at this week's Xi-Trump summit?",
+              "url": "https://www.scmp.com/news/china/politics/article/3368363/who-chinas-side-will-be-room-weeks-xi-trump-summit",
+              "publishedAt": "2026-09-22T11:00:12Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China startet erste kommerzielle Radar-Satelliten mit Fähigkeiten zur elektronischen Kriegsführung",
+          "summaryDe": [
+            "Mit dem Start erster kommerzieller Funkverfolgungssatelliten hat China einen weiteren Schritt in der zivil-militärischen Nutzung von Raumfahrtinfrastruktur vollzogen.",
+            "Nahezu zeitgleich berichtete der South China Morning Post über Fortschritte bei Tarnkappenkämpfern der nächsten Generation mit erweiterten autonomen Fähigkeiten.",
+            "Beide Entwicklungen stehen im Kontext von Beijings systematischem Bestreben, technologische Unabhängigkeit von westlichen Lieferketten zu erreichen.",
+            "Für westliche Nachrichtendienste und NATO-Planer dürfte die Kombination aus Weltraum- und Luftrüstung erhöhte Aufmerksamkeit erfordern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinesische Fortschritte in dualer Raumfahrt- und Rüstungstechnologie tangieren die Sicherheitsplanung von NATO-Partnern wie Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Kommerzielle Satelliten mit militärischer Nutzbarkeit und neue Tarnkappentechnologie stellen eine bedeutende Verschiebung im globalen Kräfteverhältnis dar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China launches its first commercial radio-tracking satellites in electronic warfare leap",
+              "url": "https://www.scmp.com/news/china/science/article/3368432/china-launches-its-first-commercial-radio-tracking-satellites-electronic-warfare-leap",
+              "publishedAt": "2026-09-23T01:30:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's stealth fighters, critical minerals from lithium waste: 7 science highlights",
+              "url": "https://www.scmp.com/news/china/science/article/3368449/chinas-stealth-fighters-critical-minerals-lithium-waste-7-science-highlights",
+              "publishedAt": "2026-09-23T06:30:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel in Washington: Taiwan-Bedenken und Nordkoreas Raketentests belasten Agenda",
+          "summaryDe": [
+            "Xi Jinping ist zu einem dreitägigen Staatsbesuch in Washington eingetroffen; KI-Sicherheit, Handel und strategische Stabilität stehen auf der Tagesordnung.",
+            "Berichte, wonach taiwanesische Beamte gebeten wurden, ihre Washington-Besuche vorab zu reduzieren, schüren in Taipei Zweifel an der Verlässlichkeit amerikanischer Sicherheitszusagen.",
+            "Nordkoreas Raketentests unmittelbar vor dem Gipfel deuten Analysten als bewussten Versuch Pjöngjangs, Denuklearisierung von der Tagesordnung zu drängen.",
+            "Wie viel substanzieller Fortschritt bei derart vielschichtigen Konfliktfeldern möglich ist, gilt unter Beobachtern als offen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ergebnisse des Xi-Trump-Gipfels zu Handel und KI-Regulierung werden europäische und deutsche Wirtschafts- sowie Sicherheitsinteressen direkt tangieren."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein bilateraler Gipfel der beiden Großmächte mit Tagesordnungspunkten zu KI, Handel und nuklearer Stabilität ist von systemischer internationaler Bedeutung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi and Trump face their greatest challenge yet: building US-China trust",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368065/xi-and-trump-face-their-greatest-challenge-yet-building-us-china-trust",
+              "publishedAt": "2026-09-22T12:30:06Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan's opposition casts doubt on 'rock solid' US ties ahead of Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/politics/article/3368407/taiwans-opposition-casts-doubt-rock-solid-us-ties-ahead-xi-trump-summit",
+              "publishedAt": "2026-09-22T11:30:05Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Did North Korea's missile launches target the Xi-Trump summit agenda?",
+              "url": "https://www.scmp.com/news/china/military/article/3368428/did-north-koreas-missile-launches-target-xi-trump-summit-agenda",
+              "publishedAt": "2026-09-23T05:00:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Parlamentsmehrheit soll Abstimmung über Mandić-Abberufung gezielt blockieren",
+          "summaryDe": [
+            "In Montenegro mehren sich Berichte, wonach die Regierungsmehrheit bewusst keinen Quorum für die Abstimmung über die Abberufung von Parlamentspräsident Mandić zulassen will.",
+            "Oppositionspolitiker warnen, eine solche Verweigerung hätte ernsthafte politische Konsequenzen und untergrabe das Vertrauen in demokratische Institutionen.",
+            "Der Konflikt um Mandić ist eingebettet in eine breitere Auseinandersetzung über die Besetzung staatlicher Leitungsorgane, die seit Wochen anhält.",
+            "Für den EU-Beitrittsprozess, in dem Rechtsstaatlichkeit als Kernkriterium gilt, ist die Entwicklung ein ungünstiges Signal."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland ist als einflussreicher EU-Mitgliedstaat an der Stabilität des westlichen Balkans und Montenegros EU-Integration interessiert."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Eine parlamentarische Quorumblockade ist ein internes politisches Manöver mit begrenzter, aber realer institutioneller Signalwirkung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Većina sklona tome da ne bude kvoruma za glasanje o smjeni Mandića",
+              "url": "https://www.pobjeda.me/clanak/vecina-sklona-tome-da-ne-bude-kvoruma-za-glasanje-o-smjeni-mandica",
+              "publishedAt": "2026-09-23T06:50:01Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Polens Asyl-Pushback-Pläne alarmieren Europas oberste Menschenrechtsbeauftragte",
+          "summaryDe": [
+            "Polen drängt im Rahmen eines neuen EU-Notfallmechanismus auf eine Aufweichung der UN-Regeln zu Asyl-Pushbacks.",
+            "Europas führende Menschenrechtsbeauftragte reagierte mit einer scharfen Warnung und sprach davon, dass Grundrechte 'am Rande des Abgrunds' stünden.",
+            "Der Notfallrahmen ist als Krisenreaktion gedacht, droht aber nach Einschätzung von Kritikern zum Instrument dauerhafter Schutzstandard-Aushöhlung zu werden.",
+            "Für Deutschland, das selbst hohe Migrationszahlen verzeichnet, ist die Debatte über EU-weite Mindeststandards von unmittelbarer innenpolitischer Relevanz."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "EU-weite Asylrechtsstandards berühren die deutsche Migrationspolitik direkt, da Schutzabsenkungen in einem Mitgliedstaat Weiterwanderung begünstigen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein koordinierter Angriff auf bestehende Flüchtlingsschutzstandards innerhalb der EU ist eine größere rechtspolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Poland's pushback drive and EU asylum 'emergency' plan put rights 'on a cliff edge', warns Europe's top rights chief",
+              "url": "https://euobserver.com/238785/polands-pushback-drive-and-eu-asylum-emergency-plan-put-rights-on-a-cliff-edge-warns-europes-top-rights-chief",
+              "publishedAt": "2026-09-21T15:21:10Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Rechnungsprüfer: Koordinierungsmängel schwächen europäische Cyberabwehr erheblich",
+          "summaryDe": [
+            "Ein EU-Audit hat ergeben, dass Europas Reaktionsfähigkeit bei schwerwiegenden Cyberangriffen durch überlappende Systeme und mangelnde Kooperationsbereitschaft der Mitgliedstaaten geschwächt wird.",
+            "Besonders kritisiert wird die Zurückhaltung nationaler Behörden bei der Weitergabe von Vorfallsdaten, die eine koordinierte Gegenreaktion systematisch erschwert.",
+            "Der Befund trifft die EU zu einem Zeitpunkt erhöhter hybrider Bedrohungen durch staatliche und nicht-staatliche Akteure.",
+            "Deutschland als eine der am stärksten vernetzten Volkswirtschaften der EU wäre von unzureichender kollektiver Cyberabwehr besonders betroffen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Als hoch digitalisierter Wirtschaftsstandort ist Deutschland bei Schwächen in der kollektiven EU-Cyberabwehr unmittelbar exponiert."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Systematische Koordinierungsmängel in der EU-Cyberabwehr sind angesichts wachsender hybrider Bedrohungen eine größere strukturelle Schwachstelle."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Auditors find EU cyber‑attack response is weakened by overlapping systems and secretive member states",
+              "url": "https://euobserver.com/238732/auditors-find-eu-cyberattack-response-is-weakened-by-overlapping-systems-and-secretive-member-states",
+              "publishedAt": "2026-09-21T15:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Huthi-Kontrolle über Jemens Rotmeerküste bedroht EU-Handelsrouten und Marineeinsätze",
+          "summaryDe": [
+            "Die Huthis kontrollieren weite Teile der jemenitischen Rotmeerküste und stellen damit laut einer Analyse eine ernste Bedrohung für EU-Handelsrouten und Sicherheitsmissionen am Horn von Afrika dar.",
+            "Ein erheblicher Teil des europäischen Außenhandels wird über diese Route abgewickelt, was die wirtschaftliche Verwundbarkeit konkret macht.",
+            "Parallel verhandelt die EU mit Bahrain, obwohl dokumentierte Folter an europäischen politischen Gefangenen die Menschenrechtsbilanz des Gesprächspartners schwer belastet.",
+            "Insgesamt steht die EU im südlichen Rotmeerraum unter wachsendem strategischem Druck, ohne eine klare operative Antwort vorweisen zu können."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Störungen der Rotmeerschifffahrt treffen die stark exportabhängige deutsche Wirtschaft über höhere Frachtraten und Lieferverzögerungen direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination aus Schifffahrtsbedrohung und geschwächten EU-Sicherheitsmissionen in einer strategisch wichtigen Region ist eine größere geopolitische Entwicklung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "The Houthis Red Sea capture hands the EU a major trade and security headache",
+              "url": "https://euobserver.com/238797/the-houthis-red-sea-capture-hands-the-eu-a-major-trade-and-security-headache",
+              "publishedAt": "2026-09-21T18:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU-Bahrain talks move ahead, even as European political prisoners recount years of torture",
+              "url": "https://euobserver.com/238799/eu-bahrain-talks-move-ahead-even-as-european-political-prisoners-recount-years-of-torture",
+              "publishedAt": "2026-09-21T16:19:08Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
