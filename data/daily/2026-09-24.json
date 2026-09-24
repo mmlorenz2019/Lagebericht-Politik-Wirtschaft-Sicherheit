@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-24",
+  "generatedAt": "2026-09-24T10:30:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi Jinpings Staatsbesuch in Washington: Handelswaffenstillstand verlängert",
+          "summaryDe": [
+            "Zum ersten Mal seit über einem Jahrzehnt hat Chinas Präsident Xi Jinping Washington zu einem Staatsbesuch betreten – empfangen von Trump persönlich auf der Joint Base Andrews, was für westliche Staatsgäste schon selten ist.",
+            "Im Vorfeld des Gipfels einigten sich beide Seiten auf eine zweimonatige Verlängerung des bestehenden Handelswaffenstillstands bis zum 10. Januar 2027; Peking hatte ursprünglich eine Verlängerung bis 2029 angestrebt.",
+            "Auf der Agenda stehen neben Handelsfragen auch künstliche Intelligenz und die Stabilisierung der bilateralen Beziehungen – bei nach wie vor tiefen Spannungen etwa in Technologie- und Sicherheitsfragen.",
+            "Dass beide Seiten überhaupt so weit gekommen sind, ist das eigentliche Signal: Der Besuch schafft einen diplomatischen Rahmen, in dem Folgeabkommen möglich werden – ohne dass bisher konkrete Durchbrüche gemeldet wurden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein stabiles US-chinesisches Verhältnis und ein verlängerter Handelswaffenstillstand wirken sich direkt auf deutsche Exportwirtschaft und globale Lieferketten aus."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das erste US-chinesische Gipfeltreffen dieser Art seit Jahren mit unmittelbaren handelspolitischen Ergebnissen ist ein außergewöhnliches, systemisch relevantes Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi calls for cooperation with US after Trump's airport welcome – as it happened",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368567/xi-begin-3-day-us-visit-rare-airport-welcome-trump",
+              "publishedAt": "2026-09-23T21:18:58Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US, China agree two-month trade truce extension ahead of summit",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368652/us-china-agree-two-month-trade-truce-extension-ahead-summit",
+              "publishedAt": "2026-09-24T09:17:46Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Verifikation von KI-Abkommen: Start-ups entwickeln Werkzeuge für US-chinesische Vereinbarungen",
+          "summaryDe": [
+            "Parallel zum Gipfel in Washington rückt eine technisch heikle Frage in den Vordergrund: Wie lässt sich überhaupt überprüfen, ob sich USA und China an einen möglichen KI-Regulierungsvertrag halten würden?",
+            "Mehrere Start-ups arbeiten an Werkzeugen, die KI-Entwicklungsbehauptungen verifizierbar machen sollen – von Chip-Tracking bis hin zu Algorithmen-Audits.",
+            "Der renommierte Politikwissenschaftler Zheng Yongnian argumentiert unterdessen, die amerikanische KI-Entwicklung sei faktisch nicht von chinesischen Beiträgen zu trennen, was den Druck für eine Kooperationsvereinbarung erhöht.",
+            "Ob beim Gipfel tatsächlich ein KI-Rahmenabkommen vereinbart wird, ist offen; die Verifikationsfrage gilt unter Experten aber als die härteste technische Nuss."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "KI-Regulierungsrahmen zwischen den USA und China setzen globale Standards, an denen sich auch europäische und deutsche Tech-Politik messen lassen muss."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Frage technischer Verifikation bei KI-Abkommen ist eine neuartige und politisch weitreichende Herausforderung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Can the US and China verify an AI deal? Start-ups are starting to build the tools",
+              "url": "https://www.scmp.com/news/us/article/3368570/can-us-and-china-verify-ai-deal-start-ups-are-starting-build-tools",
+              "publishedAt": "2026-09-23T22:34:38Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "American AI development 'cannot separate itself from China': Zheng Yongnian",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368543/american-ai-development-cannot-separate-itself-china-zheng-yongnian",
+              "publishedAt": "2026-09-24T08:57:33Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinesisches Medikament verlängert Schlaganfall-Behandlungsfenster drastisch",
+          "summaryDe": [
+            "Chinesische Medizinforscher haben das Medikament Loberamisal entwickelt, das das Zeitfenster für die Schlaganfallbehandlung von bislang sechs Stunden auf bis zu zwei Tage ausweitet.",
+            "Das ist klinisch bedeutsam: Bisher konnten Patienten, die zu spät ins Krankenhaus kamen, oft nicht mehr wirksam behandelt werden – diese Einschränkung würde mit Loberamisal weitgehend entfallen.",
+            "Die Entwicklung kommt aus China und könnte die globale Schlaganfallmedizin grundlegend verändern, sofern internationale Zulassungsverfahren erfolgreich durchlaufen werden.",
+            "Für die Forschungsgemeinschaft ist es zugleich ein Signal, dass China in der medizinischen Innovation zunehmend eigenständige Beiträge von globalem Rang leistet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Bei erfolgreicher Zulassung könnten deutsche Kliniken und Patienten von dem Medikament profitieren, direkter Bezug ist aber noch nicht gegeben."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Verdreifachung des therapeutischen Zeitfensters bei Schlaganfall ist eine medizinisch bedeutende Entwicklung mit internationalem Potenzial."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese drug loberamisal extends stroke treatment window from 6 hours to 2 days",
+              "url": "https://www.scmp.com/news/china/science/article/3368614/chinese-drug-loberamisal-extends-stroke-treatment-window-6-hours-2-days",
+              "publishedAt": "2026-09-24T06:29:27Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "USA nehmen Atomgespräche mit Iran wieder auf – ohne Durchbruch",
+          "summaryDe": [
+            "Außenminister Marco Rubio hat bestätigt, dass US-Unterhändler die Gespräche über das iranische Atomprogramm wieder aufgenommen haben – ein bemerkenswerter Schritt angesichts der konfrontativen Rhetorik der Trump-Regierung gegenüber Teheran in früheren Phasen.",
+            "Konkrete Ergebnisse gibt es bislang nicht; Rubio sprach lediglich von wiedergestarteten Kontakten, nicht von laufenden Verhandlungen im eigentlichen Sinne.",
+            "Der Zeitpunkt – parallel zum Xi-Besuch – könnte kein Zufall sein: Washington scheint mehrere außenpolitische Baustellen gleichzeitig zu bearbeiten.",
+            "Ob diese Gespräche zu einem neuen Abkommen führen, bleibt völlig offen; die Wiederaufnahme selbst ist aber ein Signal, dass ein vollständiger Abbruch nicht gewollt ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein mögliches neues Atomabkommen mit Iran berührt direkt europäische Sicherheitsinteressen und frühere EU-Verhandlungsergebnisse."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Wiederaufnahme von Kontakten in einem der zentralen Nichtverbreitungskonflikte ist diplomatisch bedeutsam, auch ohne unmittelbaren Durchbruch."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU 40% development aid cut would be 'drastic betrayal' of values, says top MEP",
+              "url": "https://euobserver.com/239304/eu-40-development-aid-cut-would-be-drastic-betrayal-of-values-says-top-mep",
+              "publishedAt": "2026-09-23T16:03:49Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Bundesrichter ordnet Wiederherstellung von Presseakkreditierungen für CNN, MSNBC und Politico an",
+          "summaryDe": [
+            "Bundesrichter Timothy Kelly hat per einstweiliger Verfügung angeordnet, dass die Trump-Regierung die Presseakkreditierungen für CNN, MSNBC und Politico sofort wiederherstellen muss – Sender und Blätter, denen das Weiße Haus zuvor den Zugang entzogen hatte.",
+            "Der Entzug von Presseausweisen für kritische Medien war einer der schärfsten Eingriffe der aktuellen Regierung in die Pressefreiheit; die gerichtliche Korrektur kam zügig.",
+            "Dass ein Richter so direkt in die Medienpolitik des Weißen Hauses eingreift, zeigt die Funktionsfähigkeit der amerikanischen Gewaltenteilung – gleichzeitig illustriert der Fall, wie sehr diese Sicherungen derzeit belastet werden.",
+            "Die betroffenen Redaktionen haben die Entscheidung als Sieg für die Pressefreiheit bezeichnet; die Regierung hat noch nicht angekündigt, ob sie Berufung einlegt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der Fall hat Signalwirkung für die Bewertung des Zustands der US-Demokratie, berührt Deutschland aber nicht direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein gerichtlicher Eingriff zum Schutz der Pressefreiheit gegenüber der Exekutive ist eine größere rechtsstaatliche Entwicklung in den USA."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Mélenchon's allies try to temper his debt write-off rhetoric",
+              "url": "https://www.politico.eu/article/france-jean-luc-melenchon-allies-try-to-temper-his-debt-write-off-rhetoric",
+              "publishedAt": "2026-09-24T02:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Staatsanleihenrenditen auf höchstem Stand seit 2004",
+          "summaryDe": [
+            "Die Rendite 30-jähriger US-Staatsanleihen hat ein 19-Jahres-Hoch erreicht – ein Niveau, das zuletzt 2004 gesehen wurde und das die globalen Anleihemärkte unter Druck setzt.",
+            "Im Hintergrund steht eine Kombination aus anhaltenden Inflationssorgen und Diskussionen innerhalb der Federal Reserve, ob bis Jahresende weitere Zinserhöhungen nötig sein könnten.",
+            "Für Regierungen, Unternehmen und Haushalte weltweit bedeuten höhere US-Renditen teurere Kredite – der Effekt pflanzt sich über Währungsparitäten und Kapitalströme rasch auf andere Märkte fort.",
+            "Analysten warnen bereits, dass steigende Schuldendienstkosten fiskalischen Spielraum einengen, just in einer Phase, in der viele Regierungen ohnehin mit Haushaltsengpässen kämpfen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Renditen erhöhen den Refinanzierungsdruck auch für deutsche Bundesanleihen und belasten investitionsabhängige Branchen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Renditen auf Mehrjahreshochs bei US-Staatsanleihen sind ein systemrelevantes Signal mit globalen Folgewirkungen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Der Rivale im Weißen Haus: Gipfel zwischen Trump und Xi",
+              "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/der-rivale-im-weisen-haus-gipfel-zwischen-trump-und-xi",
+              "publishedAt": "2026-09-24T03:52:58Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Frankreich setzt Streichung eines russischen Oligarchen von EU-Sanktionsliste durch",
+          "summaryDe": [
+            "In einem ungewöhnlich harten internen Streit hat Frankreich nach fünf Verhandlungsrunden innerhalb von zwei Tagen die Mehrheit der EU-Partner dazu gebracht, einen prominenten russischen Oligarchen von der Sanktionsliste zu nehmen – gegen den erklärten Widerstand mehrerer Mitgliedstaaten.",
+            "Das Vorgehen Pariser Diplomaten wird von Verbündeten als Einschüchterung beschrieben; wer genau delisted wurde, ist in den vorliegenden Berichten nicht namentlich genannt.",
+            "Der Vorfall offenbart eine strukturelle Schwäche: Einstimmigkeitserfordernisse im EU-Sanktionsregime machen es einzelnen Mitgliedstaaten möglich, Beschlüsse zugunsten Dritter zu blockieren oder zu revidieren.",
+            "Für die Glaubwürdigkeit der EU-Russlandpolitik ist das ein messbarer Rückschlag, zumal der Vorgang mitten in laufenden Debatten über eine weitere Verschärfung von Sanktionen fällt."
+          ],
+          "additionalImportant": "Parallel berichtet EUobserver, dass ein dänisches Schiffsreparaturunternehmen gleichzeitig mit Russland verbundene LNG-Tanker und NATO-Kriegsschiffe wartet – ein weiteres Indiz für Lücken in der Sanktionsdurchsetzung.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als bedeutender EU-Mitgliedstaat direkt von der Glaubwürdigkeit und Einheitlichkeit des EU-Sanktionsregimes gegenüber Russland betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Innereuropäischer Zwang zur Delistung eines Oligarchen untergräbt die Geschlossenheit der EU-Russlandpolitik in einem kritischen Moment."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "France bullies EU into delisting top Russian oligarch, angering allies in last-minute showdown",
+              "url": "https://euobserver.com/238845/france-bullies-eu-into-delisting-top-russian-oligarch-angering-allies-in-last-minute-showdown",
+              "publishedAt": "2026-09-22T15:50:42Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Kommission will 4,2 Milliarden Euro für Ungarn freigeben",
+          "summaryDe": [
+            "Die EU-Kommission hat vorgeschlagen, eingefrorene Mittel in Höhe von 4,2 Milliarden Euro für Ungarn freizugeben, nachdem die Regierung von Ministerpräsident Péter Magyar seit der Parlamentswahl im April 2026 Reformen bei Rechtsstaatlichkeit und Korruptionsbekämpfung umgesetzt hat.",
+            "Der Schritt ist eine direkte Folge des Machtwechsels in Budapest: Magyar hatte Orbáns Partei nach Jahren der EU-Blockade abgelöst und signalisiert, dass Ungarn den europäischen Mainstream wieder anstrebt.",
+            "Die Freigabe muss noch von den Mitgliedstaaten gebilligt werden; politisch gilt sie aber als weitgehend gesichert.",
+            "Für die EU ist es ein seltener Fall, in dem das Konditionalitätsinstrument nachweislich gewirkt hat – wenn auch unter dem Vorbehalt, dass die politischen Reformen in Ungarn Bestand haben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als größter Nettozahler des EU-Haushalts unmittelbar an der Mittelvergabe und am Funktionieren des Rechtsstaatsmechanismus interessiert."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Freigabe von Milliardenmitteln nach politischem Wandel in einem Mitgliedstaat ist eine bedeutende Entwicklung für EU-Haushalt und Rechtsstaatlichkeit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU moves to unlock €4.2bn for Hungary as Magyar strengthens rule-of-law and corruption rules",
+              "url": "https://euobserver.com/239148/eu-moves-to-unlock-e4-2bn-for-hungary-as-magyar-strengthens-rule-of-law-and-corruption-rules",
+              "publishedAt": "2026-09-23T10:33:53Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Niederlande ohne verbindliche Fristen: EU-Klimapolitik vor strukturellem Problem",
+          "summaryDe": [
+            "Der niederländische Plan zum Ausstieg aus fossilen Brennstoffen enthält keine klar bindenden Deadlines – und steht damit exemplarisch für eine Schwäche, die Klimaexperten EU-weit beobachten: das Auseinanderklaffen von Bekenntnissen und konkreten Verpflichtungen.",
+            "Die EU hat sich auf Klimaneutralität bis 2050 festgelegt, doch auf nationaler Ebene fehlen vielfach die gesetzlichen Mechanismen, die dieses Ziel tatsächlich durchsetzen würden.",
+            "Für die Niederlande, eines der wohlhabenderen Mitgliedsländer mit vergleichsweise gutem institutionellen Rahmen, ist das ein besonders auffälliges Signal.",
+            "Kritiker sehen darin ein Muster: Ambitionierte EU-Rahmen laufen ins Leere, solange nationale Umsetzungspläne unverbindlich bleiben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland steht vor ähnlichen strukturellen Problemen beim Kohle- und Gasausstieg; das niederländische Beispiel hat direkten Vergleichswert für die deutsche Klimapolitik."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Das Thema ist politisch relevant, bleibt aber vorerst auf ein nationales Umsetzungsproblem begrenzt ohne unmittelbaren systemischen Durchbruch."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Dutch fossil-fuel exit plan shows EU struggle to set binding deadlines",
+              "url": "https://euobserver.com/239030/dutch-fossil-fuel-exit-plan-shows-eu-struggle-to-set-binding-deadlines",
+              "publishedAt": "2026-09-22T15:37:22Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Parlamentarische Notstandssitzung zum Abberufungsantrag gegen Parlamentspräsident Mandić",
+          "summaryDe": [
+            "Das montenegrinische Parlament kam zu einer Sondersitzung zusammen, um über einen Antrag zur Abberufung von Parlamentspräsident Andrija Mandić zu beraten – ein Schritt, der die politische Spannung in Podgorica deutlich erhöht.",
+            "Die oppositionelle Demokratische Partei der Sozialisten (DPS) kündigte einen Boykott der Sitzung an, was den Antrag rechnerisch voraussichtlich scheitern lässt.",
+            "Dass es überhaupt zu einer solchen Notsitzung kommt, spiegelt die anhaltende Instabilität in einem Parlament wider, das seit Jahren von wechselnden Mehrheiten und internen Krisen geprägt ist.",
+            "Für den EU-Beitrittsprozess Montenegros sind institutionelle Stabilität und parlamentarische Funktionsfähigkeit zentrale Bewertungskriterien – Vorgänge wie dieser senden kein gutes Signal nach Brüssel."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das innenpolitische Geschehen in Montenegro hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Sondersitzung ist innenpolitisch bedeutsam für Montenegro, bleibt aber in ihrer Wirkung regional begrenzt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 24 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1966",
+              "publishedAt": "2026-09-24T08:51:29Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "How (not) to make the best use of European money",
+              "url": "https://euobserver.com/239376/how-not-to-make-the-best-use-of-european-money",
+              "publishedAt": "2026-09-24T09:50:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Kroatien blockiert weiterhin Montenegros EU-Beitrittspfad",
+          "summaryDe": [
+            "Kroatien hält trotz anhaltenden Drucks an seiner Blockade von Montenegros EU-Integrationsfortschritten fest, wobei ungelöste bilaterale Streitpunkte als Haupthindernis benannt werden.",
+            "Für Montenegro, das seit Jahren als Musterkandidat im Westbalkan-Erweiterungsprozess gilt, ist die kroatische Blockade ein zentrales außenpolitisches Hindernis, das Brüssel kaum direkt auflösen kann.",
+            "Das Muster – ein EU-Mitglied blockiert den Beitritt eines Kandidaten aus bilateralen Gründen – ist kein Einzelfall, zeigt aber die strukturellen Grenzen des Erweiterungsprozesses.",
+            "Eine Lösung ist derzeit nicht in Sicht; die EU-Kommission kann moderieren, aber nicht erzwingen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland unterstützt die Westbalkan-Erweiterung politisch; eine Blockade durch ein Mitgliedsland berührt diese Strategie indirekt."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Blockade ist ein bekanntes strukturelles Problem im EU-Erweiterungsprozess, ohne akute neue Eskalation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Opening remarks by Commissioner Hansen at the \"EU AgRI 2040\" Agricultural Research and Innovation Conference",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1968",
+              "publishedAt": "2026-09-24T09:05:21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
