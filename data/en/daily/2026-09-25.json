@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-25",
+  "generatedAt": "2026-09-25T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Justice Department Halts Dozens of School Desegregation Cases",
+          "summaryDe": [
+            "The U.S. Justice Department has terminated dozens of ongoing desegregation proceedings against school districts, most of them in the South.",
+            "Civil rights advocates have sharply criticized the move, calling it a regression to conditions of the Jim Crow era – a period of legally mandated racial segregation that extended into the 1960s.",
+            "Many of the dismissed cases had been running for decades and were intended to ensure that school districts comply with court-ordered integration requirements.",
+            "The move is part of a series of policy reversals by the Trump administration on civil rights issues and is likely to remain politically and legally highly controversial."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The termination of internal U.S. school cases has no discernible direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The step affects structural civil rights in the U.S. and sends a far-reaching domestic political signal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Justice Department Scraps Dozens of School Desegregation Cases",
+              "url": "https://www.nytimes.com/2026/09/24/us/politics/justice-department-desegregation-cases.html",
+              "publishedAt": "2026-09-25T03:04:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Mortgage Rates Rise to Highest Level Since April 2024",
+          "summaryDe": [
+            "The 30-year fixed mortgage rate in the U.S. has climbed to 7.45 percent – the highest level in over a year.",
+            "The jump was triggered by an ongoing global bond sell-off, which has pushed yields on U.S. Treasury securities further upward.",
+            "For many potential homebuyers, this represents another deterioration in already-strained affordability in the real estate market.",
+            "Combined with rising Treasury yields resulting from robust economic data, a interest rate environment is emerging that could weigh on the U.S. housing market in the months ahead."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Rising U.S. capital market interest rates can indirectly spread to European bond markets and financing costs."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The interest rate development measurably affects millions of households and the entire U.S. real estate market."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "business media",
+              "titleOriginal": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
+              "url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html",
+              "publishedAt": "2026-09-24T23:08:16Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "Long agenda, short meeting: Trump and Xi meet",
+              "url": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
+              "publishedAt": "2026-09-24T22:10:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran Proposes 7-Day Plan to End War and Offers to Reopen the Strait of Hormuz",
+          "summaryDe": [
+            "Tehran has presented the U.S. with a concrete seven-point plan that includes a ceasefire, opening of the Strait of Hormuz, and resumption of nuclear talks.",
+            "The proposal comes at a time when Congress is facing increasing pressure: while Republican senators blocked a Democratic resolution to end the Iran war, skepticism toward Trump's military course is growing within the party.",
+            "A closure of the Strait of Hormuz would affect roughly one-fifth of global oil trade – the economic consequences would be felt worldwide.",
+            "Whether Washington is seriously considering the plan remains unclear; the administration has not yet publicly responded to the Iranian initiative."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An escalation or de-escalation in the Persian Gulf would have immediate consequences for energy prices and supply security in Germany."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A war-ending proposal with nuclear dimensions and global energy implications is geopolitically extraordinarily significant."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Iran Proposes 7-Day Plan to End War",
+              "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
+              "publishedAt": "2026-09-25T05:27:17Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "national newspaper",
+              "titleOriginal": "Netanyahu, Addressing U.N., Denounces Israel's Critics as 'Moral Cowards'",
+              "url": "https://www.nytimes.com/2026/09/24/world/middleeast/netanyahu-israel-un.html",
+              "publishedAt": "2026-09-25T00:40:57Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Commission Increases Pressure on China Over Trade Imbalance and Overcapacity",
+          "summaryDe": [
+            "The EU Commission has given China until next month to present concrete measures to address the growing trade deficit and Chinese overcapacity in key industries.",
+            "At the core of the dispute is the question of whether China's state-subsidized industrial strength allows fair competitive conditions for European producers – or whether it systematically undermines their market position.",
+            "In parallel, Trump and Xi addressed Beijing's dominance in critical raw materials during their summit meeting, increasing pressure on China from both sides simultaneously.",
+            "For Germany as an export-dependent economy with deep China ties, the outcome and tone of these trade negotiations are of particular interest."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as the EU's largest exporting nation and important China trade partner, is directly affected by EU-China trade conflicts."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The trade imbalance between the EU and China is a structural problem with significant economic policy consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China's industrial strengths must also benefit its trading partners",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3368293/chinas-industrial-strengths-must-also-benefit-its-trading-partners",
+              "publishedAt": "2026-09-24T21:30:12Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi Visits Washington: Summit with Trump on AI, Taiwan, Trade, and Middle East",
+          "summaryDe": [
+            "Chinese President Xi Jinping met with President Trump at the White House for multi-hour talks and a state banquet – the highest-level bilateral meeting in years.",
+            "The agenda included cooperation on Artificial Intelligence, tensions over Taiwan, the war in the Middle East, and outstanding trade issues; Xi specifically called for AI collaboration.",
+            "Despite the festive setting, substantive differences remained: reports suggest that while the meeting was atmospherically warm, it was substantively limited.",
+            "As a symbolic gift, Xi announced two giant pandas for Zoo Atlanta – a proven instrument of Chinese diplomacy that accompanies public perception of the summit.",
+            "For Germany and Europe, the outcome is relevant because agreements on trade, technology, or critical raw materials could constrain their own strategic room for maneuver."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Agreements between the U.S. and China on trade, AI, and raw materials have direct impacts on Europe's economic and technological positioning."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A U.S.-Chinese summit at the highest level with an agenda of global reach is an extraordinary diplomatic event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China-US 'new joint arrangement', CEO arrivals: what you missed overnight from Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368723/china-us-new-joint-arrangement-ceo-arrivals-what-you-missed-overnight-xi-trump-summit",
+              "publishedAt": "2026-09-24T22:49:18Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "How was dinner? Takeaways from Xi and Trump's evening at the White House",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368731/how-was-dinner-takeaways-xi-and-trumps-evening-white-house",
+              "publishedAt": "2026-09-25T01:13:56Z"
+            },
+            {
+              "name": "NPR",
+              "type": "public broadcaster",
+              "titleOriginal": "Long agenda, short meeting: Trump and Xi meet",
+              "url": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
+              "publishedAt": "2026-09-24T22:10:00Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "public broadcaster",
+              "titleOriginal": "AI, trade, Iran and Taiwan top agenda at Trump-Xi summit",
+              "url": "https://www.pbs.org/newshour/show/ai-trade-iran-and-taiwan-top-agenda-at-trump-xi-summit",
+              "publishedAt": "2026-09-24T22:55:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Court Convicts Defendants of Money Laundering with Multi-Year Prison Sentences",
+          "summaryDe": [
+            "A Montenegrin court has sentenced members of the Koprivičani group to a combined seven years in prison; Duško Rogjanović received four years.",
+            "The convictions for money laundering are viewed as another sign that Montenegrin courts are cracking down harder on organized financial crime than in previous years.",
+            "This development also benefits the country in its EU accession process, where rule of law and anti-corruption efforts are among the central evaluation criteria."
+          ],
+          "additionalImportant": "In parallel, proceedings are underway against Aco Đukanović for inherited firearms – a case that is politically charged and is scheduled to resume on October 12.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Internal Montenegrin criminal proceedings have no direct relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The verdicts are domestically relevant and send a signal in the context of the EU accession process."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily newspaper",
+              "titleOriginal": "Produžen pritvor Rusu kojeg terete za pomaganje osumnjičenima za...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/828337/produzen-pritvor-rusu-kojeg-terete-za-pomaganje-osumnjicenima-za-ubistvo-veskovica",
+              "publishedAt": "2026-09-25T08:36:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU Data Protection Officer and Unions Warn Against Uncontrolled AI Use of Employee Data",
+          "summaryDe": [
+            "The European Data Protection Supervisor has joined with unions in opposing proposed changes to the so-called digital omnibus package that would allow employers to use employee data for AI systems without explicit consent.",
+            "Critics call it a 'free pass' for companies that would hollow out hard-won data protection rights – particularly at a time when AI is increasingly penetrating work processes.",
+            "The fact that the EU's top data protection authority is now publicly sounding the alarm heightens political pressure on the Commission ahead of the upcoming parliamentary debate.",
+            "Germany, with its traditionally strong employee data protection standards, would face significant adjustment debates were such regulations to be implemented."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German workplace governance structures and data protection standards would be directly affected by a loosening of EU employee data protection."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The debate touches on fundamental employee rights and the future of AI governance across the entire EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU data chief adds voice to unions' fears of 'carte blanche' use of workers' data for AI",
+              "url": "https://euobserver.com/239590/eu-data-chief-joins-unions-to-oppose-carte-blanche-use-of-workers-data-for-ai",
+              "publishedAt": "2026-09-24T16:35:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Unlocks €4.2 Billion for Hungary After Rule-of-Law Reforms Under Magyar",
+          "summaryDe": [
+            "The European Commission intends to release frozen EU funds totaling €4.2 billion to Hungary after the new government under Péter Magyar has demonstrated measurable progress on rule of law and anti-corruption.",
+            "The political shift in Budapest is remarkable: Magyar displaced Orbán in parliamentary elections, and the new authorities are now initiating criminal proceedings against former ministers from the previous administration.",
+            "For the EU, the release is an important signal that the conditionality instrument actually works – and is not a toothless mechanism.",
+            "Germany, as the largest net contributor, has always had an interest in ensuring that Hungary's fund access remains tied to genuine reform progress."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As the EU's largest net contributor, Germany has an indirect interest in the proper use of joint funds in Hungary."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The release demonstrates the effectiveness of the EU rule-of-law mechanism and sets an important precedent."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU moves to unlock €4.2bn for Hungary as Magyar strengthens rule-of-law and corruption rules",
+              "url": "https://euobserver.com/239148/eu-moves-to-unlock-e4-2bn-for-hungary-as-magyar-strengthens-rule-of-law-and-corruption-rules",
+              "publishedAt": "2026-09-23T10:33:53Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russia's Upgraded Tanks Survive Drone Strikes – Mechanized Warfare Could Return",
+          "summaryDe": [
+            "Russian tanks, equipped with the Arena-M active protection system, have reportedly survived up to 40 drone strikes without suffering decisive damage.",
+            "This raises fundamental questions about the future of drone warfare: if armor was previously considered vulnerable to unmanned systems, more robust defense technology could shift the balance back in favor of mechanized forces.",
+            "For Europe's Ukraine supporters, including Germany, this means that previous assumptions about weapons supply priorities must be reassessed.",
+            "At the same time, Ukrainian forces near Dobropillia are fighting against Russian encirclement attempts amid the highest attack density since the war began in March 2022."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Changing battlefield conditions and new technologies in the Ukraine war directly influence German decisions on weapons supplies and defense planning."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A potential reversal in the drone-tank balance would have strategic implications for the entire war in Ukraine."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "A Russian tank survived 40 drone strikes, suggesting mechanised warfare could make a comeback (Ukraine Battlefield update, Day 1,672)",
+              "url": "https://euobserver.com/239242/a-russian-tank-survived-40-drone-strikes-suggesting-mechanised-warfare-could-make-a-comeback-ukraine-battlefield-update-day-1672",
+              "publishedAt": "2026-09-23T13:04:17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

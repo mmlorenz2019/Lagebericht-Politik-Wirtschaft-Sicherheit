@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-25",
+  "generatedAt": "2026-09-25T12:00:00Z",
+  "status": "partial",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Justizministerium stellt Dutzende Schuldesegregierungsklagen ein",
+          "summaryDe": [
+            "Das US-Justizministerium hat Dutzende laufende Desegregierungsverfahren gegen Schulbezirke eingestellt, die meisten davon im Süden des Landes.",
+            "Bürgerrechtler kritisieren den Schritt scharf und sprechen von einem Rückfall in Zustände der Jim-Crow-Ära – eine Epoche gesetzlich verankerter Rassentrennung, die bis in die 1960er-Jahre reichte.",
+            "Viele der eingestellten Fälle liefen seit Jahrzehnten und sollten sicherstellen, dass Schulbezirke gerichtlich angeordnete Integrationsauflagen einhalten.",
+            "Der Vorgang reiht sich in eine Reihe von Kurswechseln der Trump-Administration in Bürgerrechtsfragen ein und dürfte politisch wie juristisch heftig umstritten bleiben."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Einstellung innenpolitischer US-Schulklagen hat keinen erkennbaren direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Schritt betrifft strukturelle Bürgerrechte in den USA und setzt ein weitreichendes innenpolitisches Signal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Justice Department Scraps Dozens of School Desegregation Cases",
+              "url": "https://www.nytimes.com/2026/09/24/us/politics/justice-department-desegregation-cases.html",
+              "publishedAt": "2026-09-25T03:04:49Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Hypothekenzinsen steigen auf höchsten Stand seit April 2024",
+          "summaryDe": [
+            "Der 30-jährige Festzins für US-Immobilienkredite ist auf 7,45 Prozent geklettert – der höchste Wert seit über einem Jahr.",
+            "Ausgelöst wurde der Sprung durch einen anhaltenden globalen Anleihenausverkauf, der die Renditen von US-Staatsanleihen weiter in die Höhe trieb.",
+            "Für viele potenzielle Käufer bedeutet das eine weitere Verschlechterung der ohnehin angespannten Erschwinglichkeit auf dem Immobilienmarkt.",
+            "Zusammen mit steigenden Treasury-Renditen infolge robuster Konjunkturdaten zeichnet sich ein Zinsumfeld ab, das den US-Wohnungsmarkt auch in den kommenden Monaten belasten könnte."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Steigende US-Kapitalmarktzinsen können indirekt auf europäische Anleihemärkte und Finanzierungskosten ausstrahlen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Zinsentwicklung beeinflusst Millionen Haushalte und den gesamten US-Immobilienmarkt spürbar."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
+              "url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html",
+              "publishedAt": "2026-09-24T23:08:16Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Long agenda, short meeting: Trump and Xi meet",
+              "url": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
+              "publishedAt": "2026-09-24T22:10:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Iran schlägt 7-Tage-Plan zur Kriegsbeendigung vor und bietet Wiedereröffnung der Straße von Hormus an",
+          "summaryDe": [
+            "Teheran hat den USA einen konkreten Sieben-Punkte-Plan vorgelegt, der einen Waffenstillstand, die Öffnung der Straße von Hormus und die Wiederaufnahme von Atomgesprächen vorsieht.",
+            "Der Vorschlag kommt zu einem Zeitpunkt, an dem der Kongress zunehmend unter Druck steht: Republikanische Senatoren blockierten zwar eine demokratische Resolution zur Beendigung des Iran-Kriegs, doch wächst parteiintern die Skepsis gegenüber Trumps Kriegskurs.",
+            "Eine Schließung der Straße von Hormus würde rund ein Fünftel des globalen Ölhandels betreffen – die wirtschaftlichen Folgen wären weltweit zu spüren.",
+            "Ob Washington den Plan ernsthaft in Betracht zieht, ist unklar; bislang reagierte die Administration öffentlich nicht auf den iranischen Vorstoß."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Eskalation oder Deeskalation im Persischen Golf hätte unmittelbare Folgen für Energiepreise und Versorgungssicherheit in Deutschland."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Kriegsende-Vorschlag mit Atomdimension und globalem Energiebezug ist geopolitisch außergewöhnlich bedeutsam."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Iran Proposes 7-Day Plan to End War",
+              "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
+              "publishedAt": "2026-09-25T05:27:17Z"
+            },
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Netanyahu, Addressing U.N., Denounces Israel's Critics as 'Moral Cowards'",
+              "url": "https://www.nytimes.com/2026/09/24/world/middleeast/netanyahu-israel-un.html",
+              "publishedAt": "2026-09-25T00:40:57Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Kommission erhöht Druck auf China wegen Handelsungleichgewicht und Überkapazitäten",
+          "summaryDe": [
+            "Die EU-Kommission hat China eine Frist bis nächsten Monat gesetzt, um konkrete Schritte gegen das wachsende Handelsdefizit und die chinesischen Überkapazitäten in Schlüsselindustrien vorzulegen.",
+            "Kern des Streits ist die Frage, ob Chinas staatlich subventionierte Industriestärke faire Wettbewerbsbedingungen für europäische Produzenten erlaubt – oder ob sie deren Marktposition systematisch untergräbt.",
+            "Parallel dazu thematisierten Trump und Xi bei ihrem Gipfeltreffen die Dominanz Beijings bei kritischen Rohstoffen, was den Druck auf China von zwei Seiten gleichzeitig erhöht.",
+            "Für Deutschland als exportabhängige Volkswirtschaft mit engen China-Verflechtungen sind Ergebnis und Ton dieser Handelsverhandlungen von besonderem Interesse."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als größte EU-Exportnation und wichtiger China-Handelspartner von EU-China-Handelskonflikten konkret betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Handelsungleichgewicht zwischen EU und China ist ein strukturelles Problem mit erheblichen wirtschaftspolitischen Folgen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China's industrial strengths must also benefit its trading partners",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3368293/chinas-industrial-strengths-must-also-benefit-its-trading-partners",
+              "publishedAt": "2026-09-24T21:30:12Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi besucht Washington: Gipfeltreffen mit Trump zu KI, Taiwan, Handel und Nahost",
+          "summaryDe": [
+            "Chinas Präsident Xi Jinping traf sich im Weißen Haus mit Präsident Trump zu mehrstündigen Gesprächen und einem Staatsbankett – das hochrangigste bilaterale Treffen seit Jahren.",
+            "Auf der Agenda standen Kooperation im Bereich Künstliche Intelligenz, Spannungen um Taiwan, der Krieg in Nahost sowie ausstehende Handelsfragen; Xi mahnte ausdrücklich zur KI-Zusammenarbeit.",
+            "Trotz des festlichen Rahmens blieben substanzielle Differenzen bestehen: Berichte deuten darauf hin, dass das Treffen zwar atmosphärisch warm, inhaltlich aber begrenzt war.",
+            "Als symbolisches Geschenk kündigte Xi zwei Riesenpandas für den Zoo Atlanta an – ein bewährtes Instrument chinesischer Diplomatie, das die öffentliche Wahrnehmung des Gipfels begleitet.",
+            "Für Deutschland und Europa ist das Ergebnis relevant, weil Abmachungen über Handel, Technologie oder kritische Rohstoffe die eigene strategische Handlungsfreiheit einschränken könnten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Vereinbarungen zwischen den USA und China zu Handel, KI und Rohstoffen haben direkte Auswirkungen auf Europas wirtschaftliche und technologische Positionierung."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein US-chinesischer Gipfel auf höchster Ebene mit Agenda von globaler Reichweite ist ein außergewöhnliches diplomatisches Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China-US 'new joint arrangement', CEO arrivals: what you missed overnight from Xi-Trump summit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368723/china-us-new-joint-arrangement-ceo-arrivals-what-you-missed-overnight-xi-trump-summit",
+              "publishedAt": "2026-09-24T22:49:18Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "How was dinner? Takeaways from Xi and Trump's evening at the White House",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368731/how-was-dinner-takeaways-xi-and-trumps-evening-white-house",
+              "publishedAt": "2026-09-25T01:13:56Z"
+            },
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Long agenda, short meeting: Trump and Xi meet",
+              "url": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
+              "publishedAt": "2026-09-24T22:10:00Z"
+            },
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "AI, trade, Iran and Taiwan top agenda at Trump-Xi summit",
+              "url": "https://www.pbs.org/newshour/show/ai-trade-iran-and-taiwan-top-agenda-at-trump-xi-summit",
+              "publishedAt": "2026-09-24T22:55:06Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Gericht verurteilt Angeklagte wegen Geldwäsche zu mehrjährigen Haftstrafen",
+          "summaryDe": [
+            "Ein montenegrinisches Gericht hat Mitglieder der Koprivičani-Gruppe zu insgesamt sieben Jahren Haft verurteilt; Duško Rogjanović erhielt vier Jahre.",
+            "Die Verurteilungen wegen Geldwäsche gelten als weiteres Zeichen dafür, dass montenegrinische Gerichte organisierte Finanzkriminalität stärker verfolgen als in früheren Jahren.",
+            "Dem Land kommt dies auch im EU-Beitrittsprozess zugute, bei dem Rechtsstaatlichkeit und Korruptionsbekämpfung zu den zentralen Bewertungskriterien zählen."
+          ],
+          "additionalImportant": "Parallel läuft ein Verfahren gegen Aco Đukanović wegen geerbter Schusswaffen – ein Fall, der politisch aufgeladen ist und am 12. Oktober fortgesetzt wird.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Innermontenegrische Strafverfahren haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Urteile sind innenpolitisch relevant und senden ein Signal im Kontext des EU-Beitrittsprozesses."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Produžen pritvor Rusu kojeg terete za pomaganje osumnjičenima za...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/828337/produzen-pritvor-rusu-kojeg-terete-za-pomaganje-osumnjicenima-za-ubistvo-veskovica",
+              "publishedAt": "2026-09-25T08:36:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Datenschutzbeauftragter und Gewerkschaften warnen vor unkontrollierter KI-Nutzung von Arbeitnehmerdaten",
+          "summaryDe": [
+            "Der Europäische Datenschutzbeauftragte hat sich gemeinsam mit Gewerkschaften gegen geplante Änderungen im sogenannten digitalen Omnibus-Paket ausgesprochen, die es Arbeitgebern erlauben würden, Beschäftigtendaten ohne ausdrückliche Zustimmung für KI-Systeme zu verwenden.",
+            "Kritiker sprechen von einem 'Freifahrtschein' für Unternehmen, der hart erkämpfte Datenschutzrechte aushöhlen würde – ausgerechnet in einer Phase, in der KI immer tiefer in Arbeitsabläufe eindringt.",
+            "Dass nun auch die oberste EU-Datenschutzbehörde öffentlich Alarm schlägt, verschärft den politischen Druck auf die Kommission vor der anstehenden parlamentarischen Debatte.",
+            "Deutschland, mit seinem traditionell starken Arbeitnehmerdatenschutz, hätte bei einer Umsetzung solcher Regelungen erhebliche Anpassungsdebatten zu erwarten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Betriebsverfassungsstrukturen und Datenschutzstandards wären von einer Lockerung des EU-Arbeitnehmerdatenschutzes direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Debatte berührt grundlegende Arbeitnehmerrechte und die künftige KI-Governance in der gesamten EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU data chief adds voice to unions' fears of 'carte blanche' use of workers' data for AI",
+              "url": "https://euobserver.com/239590/eu-data-chief-joins-unions-to-oppose-carte-blanche-use-of-workers-data-for-ai",
+              "publishedAt": "2026-09-24T16:35:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU entsperrt 4,2 Milliarden Euro für Ungarn nach Rechtsstaatsreformen unter Magyar",
+          "summaryDe": [
+            "Die Europäische Kommission will eingefrorene EU-Mittel in Höhe von 4,2 Milliarden Euro an Ungarn freigeben, nachdem die neue Regierung unter Péter Magyar nachweisbare Fortschritte bei Rechtsstaatlichkeit und Korruptionsbekämpfung erzielt hat.",
+            "Der politische Wandel in Budapest ist bemerkenswert: Magyar hatte Orbán bei den Parlamentswahlen verdrängt, und die neuen Behörden leiten nun Strafverfahren gegen Ex-Minister aus der Ära des Vorgängers ein.",
+            "Für die EU ist die Freigabe ein wichtiges Signal, dass das Konditionalitätsinstrument tatsächlich wirkt – und kein zahnloser Mechanismus ist.",
+            "Deutschland hatte als größter Nettozahler stets ein Interesse daran, dass Ungarns Fondszugang an echte Reformfortschritte geknüpft bleibt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als größter EU-Nettozahler hat Deutschland ein mittelbares Interesse an der regelkonformen Verwendung von Gemeinschaftsmitteln in Ungarn."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Freigabe demonstriert die Wirksamkeit des EU-Rechtsstaatsmechanismus und setzt einen wichtigen Präzedenzfall."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU moves to unlock €4.2bn for Hungary as Magyar strengthens rule-of-law and corruption rules",
+              "url": "https://euobserver.com/239148/eu-moves-to-unlock-e4-2bn-for-hungary-as-magyar-strengthens-rule-of-law-and-corruption-rules",
+              "publishedAt": "2026-09-23T10:33:53Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Russlands aufgerüstete Panzer überstehen Drohnenangriffe – Panzerkampf könnte zurückkehren",
+          "summaryDe": [
+            "Russische Panzer, ausgestattet mit dem aktiven Schutzsystem Arena-M, haben Berichten zufolge bis zu 40 Drohnenangriffe überlebt, ohne entscheidend beschädigt zu werden.",
+            "Das wirft grundlegende Fragen über die Zukunft des Drohnenkriegs auf: Galt die Panzerung bislang als verwundbar gegenüber unbemannten Systemen, könnte robustere Abwehrtechnik das Gleichgewicht wieder zugunsten gepanzerter Verbände verschieben.",
+            "Für die Ukraine-Unterstützer in Europa, darunter Deutschland, bedeutet das, dass bisherige Annahmen über Waffenlieferungsprioritäten neu bewertet werden müssen.",
+            "Gleichzeitig kämpfen ukrainische Kräfte nahe Dobropillia gegen russische Einkreisungsversuche bei der höchsten Angriffsdichte seit Kriegsbeginn im März 2022."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Veränderte Gefechtslagen und neue Technologien im Ukraine-Krieg beeinflussen direkt die deutschen Entscheidungen über Waffenlieferungen und Verteidigungsplanung."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine potenzielle Trendwende im Drohnen-Panzer-Gleichgewicht hätte strategische Auswirkungen auf den gesamten Krieg in der Ukraine."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "A Russian tank survived 40 drone strikes, suggesting mechanised warfare could make a comeback (Ukraine Battlefield update, Day 1,672)",
+              "url": "https://euobserver.com/239242/a-russian-tank-survived-40-drone-strikes-suggesting-mechanised-warfare-could-make-a-comeback-ukraine-battlefield-update-day-1672",
+              "publishedAt": "2026-09-23T13:04:17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
