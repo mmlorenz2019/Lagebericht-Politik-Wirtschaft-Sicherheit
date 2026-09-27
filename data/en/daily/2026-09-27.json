@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-27",
+  "generatedAt": "2026-09-27T10:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump overturns Biden-era emissions standards – budget cuts to refugee program funding",
+          "summaryDe": [
+            "The Trump administration has adopted new fuel consumption standards that reverse the regulations introduced under Biden to promote electric mobility, giving manufacturers more flexibility with combustion engines.",
+            "At the same time, the government blocked approximately 810 million to one billion dollars in already-approved spending through a budget hold – the majority of which went to health ministry programs for refugees and unaccompanied minors.",
+            "Both measures demonstrate the same pattern: the administration is using administrative tools to systematically reverse Biden's legacy without involving Congress.",
+            "For European and German automakers, the loosening of fleet standards shifts transatlantic competition, as US rivals can now produce under less stringent emission requirements."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German automakers compete directly with US manufacturers, who now must meet lower emissions requirements."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The simultaneous reversal of climate regulations and social spending represents a major domestic policy shift with international implications."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily newspaper",
+              "titleOriginal": "Zeta prijavljuje, država ćuti: Bez odgovora nadležnih na ophođenje...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/828641/zeta-prijavljuje-drzava-cuti-bez-odgovora-nadleznih-na-ophodjenje-stocara-prema-zivotinjama-ali-i-komsijama",
+              "publishedAt": "2026-09-27T08:15:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily newspaper",
+              "titleOriginal": "Od šuma Durmitora do uvačkih kraljeva neba",
+              "url": "https://www.vijesti.me/blogovi/828642/od-suma-durmitora-do-uvackih-kraljeva-neba",
+              "publishedAt": "2026-09-27T08:22:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump rejects Iran's Strait of Hormuz offer – US Treasury bonds hit 19-year high",
+          "summaryDe": [
+            "US President Trump has rejected Iran's latest offer to reopen the Strait of Hormuz, which was conditional on sanctions relief and an end to the naval blockade.",
+            "According to reports, Trump did not rule out possible renewed military strikes after the midterm elections – further raising geopolitical risk premiums in energy markets.",
+            "In parallel, yields on ten-year US Treasury bonds reached a 19-year high, driven by persistent inflation, high new borrowing, and the investment boom around artificial intelligence.",
+            "Rising US interest rates increase the cost of refinancing debt worldwide and raise pressure on European capital markets – for Germany as an export nation and industrial hub, a double burden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Rising US yields increase refinancing pressure on European states and companies, including German ones."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The combination of escalating Hormuz conflict and historically high US bond yields poses systemic risks to global financial markets."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "multi-regional",
+              "titleOriginal": "Trump rejects Iran's latest Strait of Hormuz deal offer",
+              "url": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal",
+              "publishedAt": "2026-09-26T09:31:17Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump-Xi summit: US and China agree on military communications pact and AI security channel",
+          "summaryDe": [
+            "Following Xi Jinping's three-day state visit to Washington, Washington and Beijing have announced plans to establish an agreement on military crisis communication and a dedicated AI security channel.",
+            "The goal is to better manage dangerous incidents in the Indo-Pacific – a region where the number of risky encounters between US and Chinese military forces has recently increased significantly.",
+            "Foreign Minister Wang Yi described the summit as a step toward equal relations; US restrictions on chip exports to China were reportedly deliberately excluded from the main agenda.",
+            "Southeast Asian observers reacted with cautious relief, while analysts emphasize that structural tensions between the two powers persist.",
+            "For Europe and Germany, any stabilization or escalation of this relationship has immediate consequences for trade relations and supply chain security."
+          ],
+          "additionalImportant": "Following the summit, Beijing sent two giant pandas to the United States – a classic diplomatic gesture; Xi refrained from attending the UN General Assembly.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "US-China relations directly impact German foreign trade and the stability of global supply chains."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Concrete agreements on military communication and AI security at the first comprehensive Xi-Trump summit are systemically significant for the international order."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Beijing says US, China to pursue military crisis-communication pact",
+              "url": "https://www.scmp.com/news/china/article/3368919/beijing-says-us-china-pursue-military-crisis-communication-pact",
+              "publishedAt": "2026-09-26T19:07:53Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi-Trump Washington summit aimed at putting US-China ties on equal footing: Wang Yi",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel",
+              "publishedAt": "2026-09-26T04:49:50Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump summit: Military communications pact and AI security channel agreed",
+          "summaryDe": [
+            "Xi Jinping's three-day state visit to Washington concluded with two concrete agreements: a planned military crisis communications pact and a dedicated AI security channel between the two major powers.",
+            "Wang Yi described the meeting as an attempt to put bilateral relations on an equal footing – a signal that Beijing will use in its domestic communication.",
+            "China's chip restrictions by the US were deliberately excluded, showing that while both sides send stabilization signals, the hardest conflicts remain unresolved.",
+            "Regional observers in Southeast Asia cautiously welcomed the summit but remain skeptical of lasting détente given persisting tensions in the South China Sea."
+          ],
+          "additionalImportant": "After the summit, Beijing sent two giant pandas to the United States; Xi refrained from attending the UN General Assembly, which is interpreted as deliberate distance from multilateral forums.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Stability or escalation in US-China relations directly influences export opportunities and supply chain security for the German economy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Agreements on military communication and AI security at the first comprehensive Xi-Trump summit are an extraordinary signal for the global order."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Beijing says US, China to pursue military crisis-communication pact",
+              "url": "https://www.scmp.com/news/china/article/3368919/beijing-says-us-china-pursue-military-crisis-communication-pact",
+              "publishedAt": "2026-09-26T19:07:53Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi-Trump Washington summit aimed at putting US-China ties on equal footing: Wang Yi",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel",
+              "publishedAt": "2026-09-26T04:49:50Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China claims satellite in-orbit refueling – potential turning point in space competition",
+          "summaryDe": [
+            "Chinese authorities claim to have successfully conducted the first satellite-to-satellite in-orbit refueling operation for BeiDou navigation satellites in high Earth orbit.",
+            "If confirmed, this would be a major technological breakthrough: operational lifespans could be significantly extended, costs reduced, and strategic advantages in space expanded.",
+            "The military relevance is substantial, as permanently operational reconnaissance and communications satellites could fundamentally redistribute superiority in space.",
+            "The claim comes during a phase of intensified competition between the United States, China, and other spacefaring nations for dominance in low and high Earth orbits."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's advances in space technology indirectly touch on European programs and security policy discussions in Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Orbital refueling would be a milestone with far-reaching military and commercial implications for space competition."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Why claims that China's BeiDou satellite was refuelled in orbit could change space race",
+              "url": "https://www.scmp.com/news/china/science/article/3368579/claims-chinas-beidou-satellite-was-refuelled-orbit-could-change-space-race",
+              "publishedAt": "2026-09-26T22:00:13Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russian citizens arrested in Tivat – million-euro sum and espionage equipment seized",
+          "summaryDe": [
+            "Montenegrin authorities arrested Russian citizens at Tivat Airport and found approximately one million euros in eight different currencies in their previously used apartment in Budva.",
+            "Additionally, a polygraph device and extensive IT equipment were confiscated – items indicative of intelligence activities.",
+            "As a NATO member, Montenegro has long been a focus of Russian influence operations; such arrests demonstrate that this confrontation is also being waged in the physical realm.",
+            "Western partners of the country are likely watching the incident closely, as it shows patterns known from other NATO flank states."
+          ],
+          "additionalImportant": "Also in Montenegro: A Ukrainian woman and a Montenegrin man were arrested for unlicensed botulinum toxin treatments and illegal trafficking. In Bar, a Molotov cocktail was thrown into the yard of the Ivanović brothers, who are in pretrial detention on murder suspicion.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Alleged Russian intelligence activities in a NATO member state are relevant to the alliance and thus indirectly to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The discovery of millions of euros and intelligence equipment in Russian nationals in a NATO country is a significant security policy incident."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily newspaper",
+              "titleOriginal": "Budva: Pretresom stana uhapšenih Rusa pronađen novac u vrijednosti...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/828645/budva-pretresom-stana-uhapsenih-rusa-pronadjen-novac-u-vrijednosti-oko-milion-eura-poligraf-it-oprema",
+              "publishedAt": "2026-09-27T09:01:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Uhapšeni Ukrajinka i Crnogorac, osumnjičeni za neovlašćene tretmane botulinskim toksinom i nedozvoljenu trgovinu",
+              "url": "https://www.pobjeda.me/clanak/uhapseni-ukrajinka-i-crnogorac-osumnjiceni-za-neovlascene-tretmane-botulinskim-toksinom-i-nedozvoljenu-trgovinu",
+              "publishedAt": "2026-09-26T09:39:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Wadephul meets Lavrov – first German foreign minister meeting with Russia since 2022 war began",
+          "summaryDe": [
+            "On the sidelines of the UN General Assembly, German Foreign Minister Johann Wadephul met with his Russian counterpart Sergei Lavrov – the first official bilateral meeting at this level since the start of Russia's war of aggression against Ukraine.",
+            "The meeting is diplomatically sensitive: Berlin sends a signal of willingness to talk, but must simultaneously maintain European solidarity toward Moscow.",
+            "Wadephul had previously described Trump's G20 invitation to Putin as a 'chance,' underscoring Germany's foreign policy repositioning.",
+            "In parallel, Lithuania's parliament voted for the repeal of the constitutional prohibition on stationing nuclear weapons and foreign military bases – a sign of how profoundly NATO's eastern flank is rethinking its security architecture."
+          ],
+          "additionalImportant": "In the United Kingdom, men were arrested on explosives charges at RAF Fairford, a base previously used for US strikes on Iran.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "A German foreign minister meeting with Russia has immediate foreign policy significance for Germany's role in the EU and NATO."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The first bilateral meeting at this level since the start of the war is an extraordinary diplomatic event with signal effects for European Ukraine policy."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "multi-regional",
+              "titleOriginal": "Germany's Wadephul meets Russia's Lavrov amid tensions over 'escalation'",
+              "url": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un",
+              "publishedAt": "2026-09-26T16:50:27Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 25 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1982",
+              "publishedAt": "2026-09-25T09:48:32Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU data protection commissioner opposes employee data harvesting for AI training",
+          "summaryDe": [
+            "The EU's top data protection officer, Wojciech Wiewiórowski, has joined with unions in opposing plans under the so-called 'Digital Omnibus' that would allow companies to use employee data without consent for AI model training.",
+            "Behind the dispute lies a fundamental conflict of objectives: the EU wants to catch up in the global AI race, but is running into conflict with its own data protection standards, which have set benchmarks worldwide since GDPR.",
+            "For millions of workers in Europe – including in Germany – such a regulation would represent a significant intrusion on personal rights in the workplace.",
+            "The institutional resistance of the data protection commissioner lends particular weight to the criticism and is likely to delay or alter the legislative process."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "German employees would be directly affected by a loosening of data protection for AI training; strong union structures could generate political pressure."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The dispute over employee data for AI training touches the core of European data protection identity and could fundamentally influence the EU's AI regulation strategy."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission takes action to ensure complete and timely transposition of EU directives",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1834",
+              "publishedAt": "2026-09-24T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "France: Eleven defendants on trial for murder with racially aggravating factor",
+          "summaryDe": [
+            "In the case of Thomas Perotto, killed in 2023, eleven people have been charged with murder; the prosecution is invoking an aggravating circumstance related to attacks against the 'white race.'",
+            "From a legal standpoint, this is unprecedented: it is among the first trials in France in which such an aggravating factor is applied in a murder case.",
+            "The case had strongly mobilized far-right circles in 2023 and has since become a fixture in debates about racism, counter-racism, and criminal justice in France.",
+            "How the court handles the aggravating circumstance is being watched as a potential precedent for future cases of this type across Europe."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The trial could influence intra-European discussion about racism definitions and sentence enhancements, which also touches German legal debates."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The trial sets a potential precedent in French jurisprudence on racially motivated aggravating factors."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "multi-regional",
+              "titleOriginal": "Eleven charged with murder aggravated by speech against 'white race' in France",
+              "url": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor",
+              "publishedAt": "2026-09-26T12:16:48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

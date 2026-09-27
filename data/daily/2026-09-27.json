@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-27",
+  "generatedAt": "2026-09-27T10:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Trump kippt Biden-Ära Abgasnormen – Haushaltsmittel für Flüchtlingsprogramme gestrichen",
+          "summaryDe": [
+            "Die Trump-Administration hat neue Kraftstoffverbrauchsstandards verabschiedet, die die unter Biden eingeführten Vorschriften zur Förderung der Elektromobilität zurücknehmen und Herstellern mehr Spielraum bei Verbrennungsmotoren lassen.",
+            "Zeitgleich blockierte die Regierung per Haushaltsvorbehalt rund 810 Millionen bis eine Milliarde Dollar bereits bewilligter Ausgaben – der Großteil davon entfiel auf Programme des Gesundheitsministeriums für Flüchtlinge und unbegleitete Minderjährige.",
+            "Beide Maßnahmen zeigen dasselbe Muster: Die Administration nutzt Verwaltungsinstrumente, um Biden-Erbe systematisch rückabzuwickeln, ohne den Kongress einschalten zu müssen.",
+            "Für europäische und deutsche Automobilhersteller verschiebt die Lockerung der Flottenvorschriften den transatlantischen Wettbewerb, da US-Rivalen nun unter weniger strikten Emissionsauflagen produzieren können."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Automobilhersteller konkurrieren direkt mit US-Herstellern, die nun geringere Emissionsauflagen erfüllen müssen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die gleichzeitige Rücknahme von Klimavorschriften und Sozialausgaben ist eine größere innenpolitische Kurskorrektur mit internationalen Implikationen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Zeta prijavljuje, država ćuti: Bez odgovora nadležnih na ophođenje...",
+              "url": "https://www.vijesti.me/vijesti/drustvo/828641/zeta-prijavljuje-drzava-cuti-bez-odgovora-nadleznih-na-ophodjenje-stocara-prema-zivotinjama-ali-i-komsijama",
+              "publishedAt": "2026-09-27T08:15:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Od šuma Durmitora do uvačkih kraljeva neba",
+              "url": "https://www.vijesti.me/blogovi/828642/od-suma-durmitora-do-uvackih-kraljeva-neba",
+              "publishedAt": "2026-09-27T08:22:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump lehnt Irans Hormuz-Angebot ab – US-Staatsanleihen auf 19-Jahres-Hoch",
+          "summaryDe": [
+            "US-Präsident Trump hat das jüngste iranische Angebot zur Wiedereröffnung der Straße von Hormuz abgelehnt, das Sanktionserleichterungen und ein Ende der Seeblockade zur Bedingung machte.",
+            "Berichten zufolge schloss Trump mögliche erneute Militärschläge nach den Midterm-Wahlen nicht aus – was die geopolitische Risikoprämie auf den Energiemärkten weiter erhöht.",
+            "Parallel dazu erreichte die Rendite zehnjähriger US-Staatsanleihen ein 19-Jahres-Hoch, angetrieben von anhaltender Inflation, hoher Neuverschuldung und dem Investitionsboom rund um künstliche Intelligenz.",
+            "Steigende US-Zinsen verteuern die Refinanzierung von Schulden weltweit und erhöhen den Druck auf europäische Kapitalmärkte – für Deutschland als Exportnation und Industriestandort eine doppelte Belastung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Renditen erhöhen den Refinanzierungsdruck auf europäische Staaten und Unternehmen, darunter auch deutsche."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination aus eskalierendem Hormuz-Konflikt und historisch hohen US-Anleiherenditen birgt systemische Risiken für globale Finanzmärkte."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Trump rejects Iran's latest Strait of Hormuz deal offer",
+              "url": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal",
+              "publishedAt": "2026-09-26T09:31:17Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Trump-Xi-Gipfel: USA und China vereinbaren Militärkommunikationspakt und KI-Sicherheitskanal",
+          "summaryDe": [
+            "Nach dem dreitägigen Staatsbesuch Xi Jinpings in Washington haben Washington und Peking angekündigt, ein Abkommen zur militärischen Krisenkommunikation sowie einen dedizierten KI-Sicherheitskanal zu etablieren.",
+            "Ziel ist es, gefährliche Zwischenfälle im Indo-Pazifik besser zu managen – einem Raum, in dem die Zahl riskanter Begegnungen zwischen US- und chinesischen Streitkräften zuletzt deutlich gestiegen war.",
+            "Außenminister Wang Yi bezeichnete den Gipfel als Schritt zu gleichberechtigten Beziehungen; US-Beschränkungen beim Chipexport nach China wurden dem Vernehmen nach bewusst aus dem Hauptprogramm herausgehalten.",
+            "Südostasiatische Beobachter reagierten mit vorsichtiger Erleichterung, während Analysten betonen, dass strukturelle Spannungen zwischen beiden Mächten fortbestehen.",
+            "Für Europa und Deutschland bedeutet jede Stabilisierung oder Eskalation dieses Verhältnisses unmittelbare Konsequenzen für Handelsbeziehungen und Lieferkettensicherheit."
+          ],
+          "additionalImportant": "Peking sandte im Anschluss an den Gipfel zwei Riesenpandas in die USA – ein klassisches diplomatisches Zeichen; Xi verzichtete auf einen Besuch bei der UN-Generalversammlung.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die US-China-Beziehungen haben direkte Auswirkungen auf den deutschen Außenhandel und die Stabilität globaler Lieferketten."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Konkrete Vereinbarungen zu Militärkommunikation und KI-Sicherheit beim ersten umfassenden Xi-Trump-Gipfel sind systemisch bedeutsam für die internationale Ordnung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing says US, China to pursue military crisis-communication pact",
+              "url": "https://www.scmp.com/news/china/article/3368919/beijing-says-us-china-pursue-military-crisis-communication-pact",
+              "publishedAt": "2026-09-26T19:07:53Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi-Trump Washington summit aimed at putting US-China ties on equal footing: Wang Yi",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel",
+              "publishedAt": "2026-09-26T04:49:50Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel: Militär-Kommunikationspakt und KI-Sicherheitskanal vereinbart",
+          "summaryDe": [
+            "Der dreitägige Staatsbesuch Xi Jinpings in Washington endete mit zwei konkreten Vereinbarungen: einem geplanten Militärkrisenkommunikationspakt und einem eigenen KI-Sicherheitskanal zwischen beiden Großmächten.",
+            "Wang Yi beschrieb das Treffen als Versuch, die bilateralen Beziehungen auf gleiche Augenhöhe zu stellen – ein Signal, das Peking in der innenpolitischen Kommunikation nutzen wird.",
+            "Chinas Chipbeschränkungen durch die USA blieben bewusst außen vor, was zeigt, dass beide Seiten zwar Stabilisierungssignale senden, aber die härtesten Konflikte noch ungelöst sind.",
+            "Regionale Beobachter in Südostasien begrüßten den Gipfel vorsichtig, bleiben aber skeptisch gegenüber nachhaltiger Entspannung angesichts fortbestehender Spannungen im Südchinesischen Meer."
+          ],
+          "additionalImportant": "Peking sandte nach dem Gipfel zwei Riesenpandas in die USA; Xi verzichtete auf einen Auftritt bei der UN-Generalversammlung, was als bewusste Distanzierung von multilateralen Foren interpretiert wird.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Stabilität oder Eskalation im US-China-Verhältnis beeinflusst direkt die Exportchancen und Lieferkettensicherheit der deutschen Wirtschaft."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Vereinbarungen zu Militärkommunikation und KI-Sicherheit beim ersten umfassenden Xi-Trump-Gipfel sind ein außergewöhnliches Signal für die globale Ordnung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing says US, China to pursue military crisis-communication pact",
+              "url": "https://www.scmp.com/news/china/article/3368919/beijing-says-us-china-pursue-military-crisis-communication-pact",
+              "publishedAt": "2026-09-26T19:07:53Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi-Trump Washington summit aimed at putting US-China ties on equal footing: Wang Yi",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel",
+              "publishedAt": "2026-09-26T04:49:50Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China beansprucht Satelliten-Betankung im Orbit – mögliche Zeitenwende im Weltraumwettbewerb",
+          "summaryDe": [
+            "Chinesische Stellen behaupten, erstmals eine Satelliten-zu-Satelliten-Betankung im hohen Erdorbit für BeiDou-Navigationssatelliten durchgeführt zu haben.",
+            "Sollte sich dies bestätigen, wäre es ein technologischer Durchbruch: Betriebsdauern könnten erheblich verlängert, Kosten gesenkt und strategische Vorteile im All ausgebaut werden.",
+            "Die militärische Relevanz ist erheblich, da dauerhaft einsetzbare Aufklärungs- und Kommunikationssatelliten die Überlegenheit im All grundlegend neu verteilen könnten.",
+            "Der Anspruch fällt in eine Phase intensivierten Wettbewerbs zwischen den USA, China und anderen Raumfahrtnationen um Dominanz in niedrigen und hohen Erdumlaufbahnen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Chinas Fortschritte in der Raumfahrttechnologie berühren indirekt europäische Programme und die sicherheitspolitische Diskussion in Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Orbitale Wiederbetankung wäre ein Meilenstein mit weitreichenden militärischen und kommerziellen Implikationen für den Weltraumwettbewerb."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why claims that China's BeiDou satellite was refuelled in orbit could change space race",
+              "url": "https://www.scmp.com/news/china/science/article/3368579/claims-chinas-beidou-satellite-was-refuelled-orbit-could-change-space-race",
+              "publishedAt": "2026-09-26T22:00:13Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russische Staatsbürger in Tivat festgenommen – Millionenbetrag und Spionageausrüstung sichergestellt",
+          "summaryDe": [
+            "Montenegrinische Behörden haben russische Staatsbürger am Flughafen Tivat festgenommen und in ihrer zuvor genutzten Wohnung in Budva rund eine Million Euro in acht verschiedenen Währungen gefunden.",
+            "Zusätzlich wurden ein Polygrafgerät sowie umfangreiche IT-Ausrüstung beschlagnahmt – Gegenstände, die auf nachrichtendienstliche Aktivitäten hinweisen.",
+            "Als NATO-Mitglied steht Montenegro seit Jahren im Fokus russischer Einflussoperationen; solche Festnahmen verdeutlichen, dass diese Auseinandersetzung auch im physischen Raum ausgetragen wird.",
+            "Westliche Partner des Landes dürften den Vorfall aufmerksam verfolgen, da er Muster zeigt, die aus anderen NATO-Flankenstaaten bekannt sind."
+          ],
+          "additionalImportant": "Ebenfalls in Montenegro: Eine Ukrainerin und ein Montenegriner wurden wegen unerlaubter Botulinumtoxin-Behandlungen und illegalen Handels festgenommen. In Bar wurde ein Molotow-Cocktail in den Hof der Gebrüder Ivanović geworfen, die sich wegen Mordverdachts in Untersuchungshaft befinden.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Mutmaßliche russische Geheimdienstaktivitäten in einem NATO-Mitgliedstaat sind für die Allianz und damit indirekt für Deutschland relevant."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Fund von Millionenbeträgen und nachrichtendienstlicher Ausrüstung bei russischen Staatsbürgern in einem NATO-Land ist ein sicherheitspolitisch bedeutsamer Vorfall."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Budva: Pretresom stana uhapšenih Rusa pronađen novac u vrijednosti...",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/828645/budva-pretresom-stana-uhapsenih-rusa-pronadjen-novac-u-vrijednosti-oko-milion-eura-poligraf-it-oprema",
+              "publishedAt": "2026-09-27T09:01:00Z"
+            },
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Uhapšeni Ukrajinka i Crnogorac, osumnjičeni za neovlašćene tretmane botulinskim toksinom i nedozvoljenu trgovinu",
+              "url": "https://www.pobjeda.me/clanak/uhapseni-ukrajinka-i-crnogorac-osumnjiceni-za-neovlascene-tretmane-botulinskim-toksinom-i-nedozvoljenu-trgovinu",
+              "publishedAt": "2026-09-26T09:39:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Wadephul trifft Lawrow – erstes deutsches Außenministergespräch mit Russland seit Kriegsbeginn 2022",
+          "summaryDe": [
+            "Am Rande der UN-Generalversammlung hat Bundesaußenminister Johann Wadephul seinen russischen Kollegen Sergei Lawrow getroffen – das erste offizielle bilaterale Gespräch auf dieser Ebene seit Beginn des russischen Angriffskriegs gegen die Ukraine.",
+            "Das Treffen ist diplomatisch heikel: Berlin sendet damit ein Signal der Gesprächsbereitschaft, muss aber zugleich die europäische Geschlossenheit gegenüber Moskau wahren.",
+            "Wadephul hatte Trumps G20-Einladung an Putin zuvor als 'Chance' bezeichnet, was die außenpolitische Neupositionierung Deutschlands unterstreicht.",
+            "Litauens Parlament stimmte parallel für die Aufhebung des Verfassungsverbots zur Stationierung von Atomwaffen und ausländischen Militärbasen – ein Zeichen, wie tief die NATO-Ostflanke ihre Sicherheitsarchitektur überdenkt."
+          ],
+          "additionalImportant": "In Großbritannien wurden Männer wegen Sprengstoffdelikten auf dem RAF-Stützpunkt Fairford festgenommen, der zuvor für US-Angriffe auf Iran genutzt worden war.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Ein deutsches Außenministertreffen mit Russland hat unmittelbare außenpolitische Bedeutung für Deutschlands Rolle in der EU und NATO."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das erste bilaterale Gespräch auf dieser Ebene seit Kriegsbeginn ist ein außergewöhnliches diplomatisches Ereignis mit Signalwirkung für die europäische Ukraine-Politik."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Germany's Wadephul meets Russia's Lavrov amid tensions over 'escalation'",
+              "url": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un",
+              "publishedAt": "2026-09-26T16:50:27Z"
+            },
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 25 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1982",
+              "publishedAt": "2026-09-25T09:48:32Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Datenschutzbeauftragter stellt sich gegen Arbeitnehmerdaten-Ernte für KI-Training",
+          "summaryDe": [
+            "Der oberste EU-Datenschützer Wojciech Wiewiórowski hat sich gemeinsam mit Gewerkschaften gegen Pläne im Rahmen des sogenannten 'Digital Omnibus' gestellt, die Unternehmen erlauben würden, Arbeitnehmerdaten ohne deren Zustimmung für KI-Modelltraining zu nutzen.",
+            "Hinter dem Streit steckt ein grundlegender Zielkonflikt: Die EU will im globalen KI-Wettbewerb aufholen, gerät dabei aber in Konflikt mit den eigenen Datenschutzstandards, die seit der DSGVO weltweit Maßstäbe setzen.",
+            "Für Millionen Beschäftigte in Europa – darunter in Deutschland – wäre eine solche Regelung ein erheblicher Eingriff in Persönlichkeitsrechte am Arbeitsplatz.",
+            "Der institutionelle Widerstand des Datenschutzbeauftragten verleiht der Kritik besonderes Gewicht und dürfte den Gesetzgebungsprozess verzögern oder verändern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Arbeitnehmer wären von einer Lockerung des Datenschutzes für KI-Training direkt betroffen; starke Gewerkschaftsstrukturen könnten politischen Druck erzeugen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Streit um Arbeitnehmerdaten für KI-Training berührt den Kern der europäischen Datenschutzidentität und könnte die KI-Regulierungsstrategie der EU grundlegend beeinflussen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission takes action to ensure complete and timely transposition of EU directives",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1834",
+              "publishedAt": "2026-09-24T22:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Frankreich: Elf Angeklagte wegen Mordes mit rassistisch erschwerendem Tatbestand vor Gericht",
+          "summaryDe": [
+            "Im Fall des 2023 getöteten Thomas Perotto wurden elf Personen wegen Mordes angeklagt; die Staatsanwaltschaft macht dabei einen Erschwerungsgrund geltend, der sich auf Angriffe gegen die 'weiße Rasse' bezieht.",
+            "Juristisch ist das ein Novum: Es gehört zu den ersten Verfahren in Frankreich, in denen ein solcher Erschwerungsgrund in einem Mordprozess angewandt wird.",
+            "Der Fall hatte 2023 rechtsextreme Kreise stark mobilisiert und ist seitdem ein Fixpunkt in Debatten über Rassismus, Gegenrassismus und Strafjustiz in Frankreich.",
+            "Wie das Gericht mit dem Erschwerungsgrund umgeht, wird als möglicher Präzedenzfall für künftige Verfahren dieser Art in ganz Europa beobachtet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Verfahren könnte die innereuropäische Diskussion über Rassismusdefinitionen und Strafverschärfungen beeinflussen, was auch deutsche Rechtsdiskussionen berührt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Das Verfahren setzt einen möglichen Präzedenzfall in der französischen Rechtsprechung zu rassistisch motivierten Erschwerungsgründen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Eleven charged with murder aggravated by speech against 'white race' in France",
+              "url": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor",
+              "publishedAt": "2026-09-26T12:16:48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
