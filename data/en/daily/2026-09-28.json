@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-28",
+  "generatedAt": "2026-09-28T10:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Taxpayers finance Trump campaign-style television ads on national television",
+          "summaryDe": [
+            "Television spots are being broadcast nationwide in which President Trump promises to remove 'warmongers' and combat the 'deep state' – paid for with public funds.",
+            "Ethics experts believe the spots may be illegal because federal law severely restricts government-funded public relations campaigns in favor of individual office holders.",
+            "Unusual is the cross-party criticism: even members of Trump's own party raised concerns, indicating broader constitutional sensitivity.",
+            "The context sharpens the debate further: the spots are running as the US wages war against Iran in its eighth month, raising questions about the boundary between government communication and propaganda."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The controversy concerns exclusively US domestic law without direct reference to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Government-funded campaign advertising by a sitting president during wartime is a development of significance for democratic politics."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Ukrajinske vlasti: Ruski napadi na više oblasti, ima poginulih",
+              "url": "https://www.vijesti.me/svijet/evropa/828761/ukrajinske-vlasti-ruski-napadi-na-vise-oblasti-ima-poginulih",
+              "publishedAt": "2026-09-28T08:20:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Federal jury awards Taction Technology $5.7 billion against Apple",
+          "summaryDe": [
+            "A federal court ordered Apple to pay $5.7 billion in damages to Taction Technology for patent infringement related to haptic technology in iPhones and Apple Watches.",
+            "The verdict ranks among the highest patent awards in recent US history and is likely to exert significant pressure on Apple's patent licensing strategy regardless of the outcome of an announced appeal.",
+            "Apple has announced an appeal; the proceedings could thus take years before final payment would be due.",
+            "For the technology industry as a whole, the verdict signals that US courts are prepared to impose drastic damage awards even against large corporations."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Such a ruling can have precedential effects on international patent disputes affecting German technology manufacturers as well."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A billion-dollar patent ruling against one of the world's most valuable corporations is an economically significant decision."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Daily News 28 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1993",
+              "publishedAt": "2026-09-28T09:49:42Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Terror suspicion at RAF Fairford: five arrests near US base in England",
+          "summaryDe": [
+            "British counter-terrorism police arrested five men near RAF Fairford air base after three suspicious vehicles drove toward the facility – the base houses US forces and strategic bombers.",
+            "Investigators are examining what reports describe as a possible connection to Iran, placing the incident in the context of the ongoing US war against Iran.",
+            "Fairford is considered one of Europe's most security-sensitive sites; a successful attack would have had considerable military and symbolic impact.",
+            "At the time of reporting, investigations were ongoing and it remained unclear whether concrete attack plans existed or whether it was a precautionary measure."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "A suspected Iranian-directed attack on a US military facility in Europe would have indirect security relevance for Germany as a NATO partner."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "An alleged terrorist attack on a US military base in Europe with possible state-level involvement is a matter of security significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "EU provides €61 million in humanitarian aid amidst rapidly deteriorating situation in Ethiopia",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1991",
+              "publishedAt": "2026-09-28T09:26:41Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Beijing fundamentally reforms higher education system",
+          "summaryDe": [
+            "Joint guidelines from the Central Committee of the Communist Party and the State Council stipulate that every citizen shall have access to higher education in the future.",
+            "The reforms respond to three simultaneous challenges: declining birth rates, an overheated job market for academics, and industry's need for more practice-oriented training.",
+            "Universities are to develop more clearly differentiated profiles rather than competing in a uniform prestige competition.",
+            "How far the aspiration of universal higher education access will truly reach in practice – and whether it will include socially disadvantaged groups in rural areas – remains unclear for now."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The reform affects exclusively the Chinese education system without direct reference to Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A state-mandated reorientation of the entire higher education system in the world's most populous economy is structurally significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "'Everyone can attend university': China unveils sweeping higher education reform",
+              "url": "https://www.scmp.com/news/china/science/article/3368952/everyone-can-attend-university-china-unveils-sweeping-higher-education-reform",
+              "publishedAt": "2026-09-28T02:00:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China launches globally advanced particle accelerator",
+          "summaryDe": [
+            "On September 20, the Hefei Advanced Light Facility fired its first electron beam – a milestone toward what is called a 'super-microscope' for cutting-edge research.",
+            "The linear accelerator is 192 meters long and reaches 2.2 billion electron volts; according to operators, it should rank among the world's leading facilities.",
+            "Practical applications range from Alzheimer's research to the development of high-resolution microchips, making the facility relevant both medically and in industrial policy.",
+            "For China, the project is another symbol of state-sponsored basic research amid technological competition with the US."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Advances in Chinese research infrastructure can affect the international competitive position of German science and technology hubs in the medium term."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The commissioning of a large-scale research facility in this category is scientifically and technologically significant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "China lights up 'super microscope' hopes with world-leading electron gun beam",
+              "url": "https://www.scmp.com/news/china/science/article/3368953/china-lights-super-microscope-hopes-world-leading-electron-gun-beam",
+              "publishedAt": "2026-09-28T04:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump summit: tariff relief agreed, Taiwan question left open",
+          "summaryDe": [
+            "Following a three-day state visit by Xi Jinping to the US, both sides agreed to tariff reductions on goods worth $60 billion and Chinese coal imports from the US of at least ten million tons annually for two years.",
+            "The meeting was accompanied symbolically by a state banquet and references to ping-pong diplomacy of the 1970s – two giant pandas traveled to the US shortly after the summit.",
+            "On the Taiwan question there were no tangible results: Xi pressed Trump for an explicit renunciation of Taiwanese independence aspirations, but Trump downplayed the significance of these discussions publicly.",
+            "Observers assess the stabilization of the relationship as real but fragile – and achieved in essential respects on Beijing's terms.",
+            "A further curiosity: Trump reportedly asked Xi during the summit whether China would purchase American weapons; the State Department subsequently distanced itself from any such offer."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Changes in US-Chinese tariffs and the stability of this relationship have direct effects on Germany's export-dependent economy."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A summit meeting between the two largest economies with trade policy agreements and discussions about Taiwan is an extraordinary geopolitical event."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "'Right now, it's fine': Trump brushes off questions about summit talk on Taiwan",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368946/right-now-its-fine-trump-brushes-questions-about-summit-talk-taiwan",
+              "publishedAt": "2026-09-27T09:43:40Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "The US-China relationship has stabilised but on Beijing's terms",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3368840/us-china-relationship-has-stabilised-beijings-terms",
+              "publishedAt": "2026-09-27T21:30:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "China resuming US coal imports among thin list of summit outcomes",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3369060/china-resuming-us-coal-imports-among-thin-list-summit-outcomes",
+              "publishedAt": "2026-09-28T09:16:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong / regional perspective",
+              "titleOriginal": "Trump asked Xi if Beijing wanted US weapons: a joke, a gambit or something more?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368996/trump-asked-xi-if-beijing-wanted-us-weapons-joke-gambit-or-something-more",
+              "publishedAt": "2026-09-28T04:06:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU plans concrete accession target dates for Montenegro and other candidates for the first time",
+          "summaryDe": [
+            "Brussels is considering setting binding target dates for Montenegro, Ukraine, Moldova, and Albania for the first time to complete key accession chapters.",
+            "This step would represent a significant departure from previous practice, in which concrete timeframes have been deliberately avoided in the enlargement process.",
+            "For Montenegro, considered the most advanced candidate, such an action plan would amount to a public stocktaking – both of progress achieved and remaining reform gaps.",
+            "Whether member states will agree to such an approach and how binding the dates should actually be remains unclear."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "EU enlargement policy touches on German interests in stability in the Western Balkans but has no immediate consequences for Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A paradigm shift in EU enlargement strategy with concrete target dates would be a substantial institutional innovation."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "cross-border",
+              "titleOriginal": "EU is drawing up membership action plans for most promising candidates",
+              "url": "https://www.politico.eu/article/eu-membership-action-plans-montenegro-ukraine-moldova-albania",
+              "publishedAt": "2026-09-27T20:33:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU and US compete for deportation agreements with African states",
+          "summaryDe": [
+            "Washington has already concluded around 35 agreements with African countries willing to accept deportees – often in exchange for payments and without strict conditions.",
+            "The EU, meanwhile, is struggling to conclude its first such deal, with Rwanda appearing as the most promising partner; Brussels faces pressure not to fall behind.",
+            "Aid organizations and human rights advocates criticize that a financially driven competition over deportation sites systematically undermines protection standards.",
+            "The race raises fundamental questions about the rule of law in European migration policy, increasingly debated controversially in the European Parliament."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany as the largest EU member state with high deportation numbers is directly affected by a common European return policy."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The structural competition between Western powers for deportation agreements at the expense of African rule of law is a larger migration policy development."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Deporting humans becomes big business, as Brussels and Washington race to pay African countries to take them",
+              "url": "https://euobserver.com/239412/a-global-race-between-europe-and-the-us-to-pay-african-countries-to-host-deportees-is-underway-as-human-commerce-becomes-a-lucrative-business",
+              "publishedAt": "2026-09-24T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Russia's shadow fleet switches back to Russian flag en masse",
+          "summaryDe": [
+            "Tankers from Russia's circumvention fleet increasingly re-register officially under Russian flag after European sanctions enforcement made sailing under third-country flags riskier.",
+            "The strategy shift presents the EU with a dilemma: if a Russian-flagged tanker is intercepted, Moscow could interpret this as direct state conflict and respond with sharper countermeasures.",
+            "Previously, sanctions functioned partly because accountability was obscured through layered flag and ownership structures – this buffer is increasingly disappearing.",
+            "For member states with major ports and coast guards, this means significantly increased operational and diplomatic burden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "The effectiveness of Russia sanctions, in whose enforcement Germany is politically involved, is directly undermined by this development."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The systematic adaptation of Russia's sanctions evasion strategy is a significant escalation in the sanctions regime conflict."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Shadow fleet tankers flock back to being flagged as Russian, creating more headaches for EU states",
+              "url": "https://euobserver.com/239736/shadow-fleet-tankers-flock-back-to-being-flagged-as-russian-creating-more-headaches-for-eu-states",
+              "publishedAt": "2026-09-25T11:49:28Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU member states approve first joint defense projects",
+          "summaryDe": [
+            "EU member states have formally approved five so-called European Defence Projects of Common Interest, taking a first concrete step toward joint European defense cooperation.",
+            "Behind the bureaucratically sounding step lies a structural innovation: for the first time, jointly defined defense priorities are being linked with a coordinated industrial policy framework.",
+            "Which specific capabilities the five projects cover and which member states are participating to what extent was not yet fully public at the time of reporting.",
+            "The step comes at a time when the EU is fundamentally reassessing its defense spending and structures in light of Russia's war of aggression against Ukraine."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany as Europe's largest arms producer and EU member is directly affected by joint procurement structures and their financing models."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The first approval of joint European defense projects is an institutionally significant step in EU defense integration."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "THIS WEEK: Interior ministers discuss Fortress Europe, as Kallas goes to Syria",
+              "url": "https://euobserver.com/239836/this-week-interior-ministers-discuss-fortress-europe-as-kallas-goes-to-syria",
+              "publishedAt": "2026-09-28T04:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

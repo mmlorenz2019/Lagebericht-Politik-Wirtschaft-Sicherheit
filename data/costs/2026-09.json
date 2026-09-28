@@ -3,9 +3,9 @@
   "month": "2026-09",
   "timezone": "Europe/Berlin",
   "budgetEur": 5.0,
-  "estimatedCostUsd": 11.400839,
-  "estimatedCostEur": 10.009934,
-  "budgetPercent": 200.2,
+  "estimatedCostUsd": 12.190486,
+  "estimatedCostEur": 10.703244,
+  "budgetPercent": 214.1,
   "unmeasuredCalls": 3,
   "collectionStartedAt": "2026-08-03T00:00:00+02:00",
   "priceVersion": "anthropic-2026-08-03",
@@ -1936,6 +1936,108 @@
       },
       "estimatedCostUsd": 0.030327,
       "estimatedCostEur": 0.026627
+    },
+    {
+      "eventId": "6592db40a9f5a092b026f497e22d3c1d119abdc79383328978ed7cb94eacf92e",
+      "occurredAt": "2026-09-28T10:12:10.260143+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-28",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 24735,
+        "output_tokens": 3261,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.04104,
+      "estimatedCostEur": 0.036033
+    },
+    {
+      "eventId": "d02afb0f5d9561c7c79a49eb117326a0ed456353edb2cb49d1c78f6a2c7f296d",
+      "occurredAt": "2026-09-28T10:13:42.221504+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-28",
+      "model": "claude-sonnet-4-6",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 11422,
+        "output_tokens": 4602,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.103296,
+      "estimatedCostEur": 0.090694
+    },
+    {
+      "eventId": "9af1e60d26913561266eb9e5e01e3e31914da47c1f9073b6d944a0693f30ed1f",
+      "occurredAt": "2026-09-28T10:15:30.402187+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-28",
+      "model": "claude-sonnet-4-6",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 16415,
+        "output_tokens": 5991,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.13911,
+      "estimatedCostEur": 0.122139
+    },
+    {
+      "eventId": "d6ad3d4af13a467044b9d7586f8c037adc91898cf60f19e03c6d2dd79b07779d",
+      "occurredAt": "2026-09-28T10:16:20.719927+00:00",
+      "reportType": "daily",
+      "reportId": "2026-09-28",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 7754,
+        "output_tokens": 4180,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.028654,
+      "estimatedCostEur": 0.025158
+    },
+    {
+      "eventId": "9189c34f2b1fb9dc3f634a15a5365a3a0235cfede6e99e912534732ae332d689",
+      "occurredAt": "2026-09-28T10:21:41.252441+00:00",
+      "reportType": "week",
+      "reportId": "2026-W39",
+      "model": "claude-sonnet-4-6",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 48637,
+        "output_tokens": 15823,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.383256,
+      "estimatedCostEur": 0.336499
+    },
+    {
+      "eventId": "cf16b658daea57f2c30748a4652a12b53d51921f66ac0dc23c87f20aad59b349",
+      "occurredAt": "2026-09-28T10:24:36.844369+00:00",
+      "reportType": "week",
+      "reportId": "2026-W39",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "end_turn",
+      "measured": true,
+      "usage": {
+        "input_tokens": 18266,
+        "output_tokens": 15205,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0
+      },
+      "estimatedCostUsd": 0.094291,
+      "estimatedCostEur": 0.082787
     }
   ]
 }

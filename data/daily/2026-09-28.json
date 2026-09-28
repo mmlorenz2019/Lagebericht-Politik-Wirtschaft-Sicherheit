@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-28",
+  "generatedAt": "2026-09-28T10:30:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Steuerzahler finanzieren Wahlkampf-anmutende Trump-Werbespots im nationalen Fernsehen",
+          "summaryDe": [
+            "Landesweit werden Fernsehspots ausgestrahlt, in denen Präsident Trump verspricht, 'Kriegstreiber' zu vertreiben und den 'tiefen Staat' zu bekämpfen – bezahlt aus öffentlichen Mitteln.",
+            "Ethikexperten halten die Spots für potenziell rechtswidrig, weil bundesrechtliche Vorschriften staatlich finanzierte Öffentlichkeitsarbeit zugunsten einzelner Amtsträger stark einschränken.",
+            "Ungewöhnlich ist dabei die parteiübergreifende Kritik: Auch Mitglieder aus Trumps eigener Partei meldeten Bedenken an, was auf eine breitere verfassungsrechtliche Sensibilität hinweist.",
+            "Der Kontext verschärft die Debatte zusätzlich: Die Spots laufen, während die USA ihren Krieg gegen den Iran im achten Monat führen, was Fragen über die Grenze zwischen Regierungskommunikation und Propaganda aufwirft."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Kontroverse betrifft ausschließlich die innenpolitische Rechtslage in den USA ohne direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Staatlich finanzierte Wahlkampfwerbung eines amtierenden Präsidenten in Kriegszeiten ist eine demokratiepolitisch bedeutsame Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ukrajinske vlasti: Ruski napadi na više oblasti, ima poginulih",
+              "url": "https://www.vijesti.me/svijet/evropa/828761/ukrajinske-vlasti-ruski-napadi-na-vise-oblasti-ima-poginulih",
+              "publishedAt": "2026-09-28T08:20:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Bundesjury spricht Taction Technology 5,7 Milliarden Dollar gegen Apple zu",
+          "summaryDe": [
+            "Ein Bundesgericht verurteilte Apple zur Zahlung von 5,7 Milliarden Dollar Schadensersatz an das Unternehmen Taction Technology wegen Patentverletzung bei Haptiktechnologie in iPhones und Apple Watches.",
+            "Das Urteil gehört zu den höchsten Patentzusprüchen der jüngeren US-Geschichte und dürfte unabhängig vom Ausgang eines angekündigten Berufungsverfahrens erheblichen Druck auf Apples Patentlizenzstrategie ausüben.",
+            "Apple hat Berufung angekündigt; das Verfahren könnte sich damit noch Jahre hinziehen, bevor eine endgültige Zahlung fällig würde.",
+            "Für die Technologiebranche insgesamt ist das Urteil ein Signal, dass US-Gerichte auch bei großen Konzernen zu drastischen Schadensersatzsummen bereit sind."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein solches Urteil kann Präzedenzwirkung für internationale Patentstreitigkeiten haben, die auch deutsche Technologiehersteller betreffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Milliarden-Patenturteil gegen einen der wertvollsten Konzerne der Welt ist eine wirtschaftlich bedeutsame Entscheidung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Daily News 28 / 09 / 2026",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1993",
+              "publishedAt": "2026-09-28T09:49:42Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Terrorverdacht bei RAF Fairford: Fünf Festnahmen nahe US-Stützpunkt in England",
+          "summaryDe": [
+            "Britische Antiterrorpolizei nahm fünf Männer in der Nähe des Luftwaffenstützpunkts RAF Fairford fest, nachdem drei verdächtige Fahrzeuge auf die Anlage zufuhren – der Stützpunkt beherbergt US-Streitkräfte und strategische Bomber.",
+            "Ermittler prüfen einem Bericht zufolge eine mögliche Verbindung zum Iran, was den Vorfall in den Kontext des laufenden US-Kriegs gegen den Iran stellt.",
+            "Fairford gilt als einer der sicherheitspolitisch sensibelsten Standorte in Europa; ein erfolgreicher Angriff hätte sowohl militärisch als auch symbolisch erhebliche Wirkung gehabt.",
+            "Zum Zeitpunkt der Berichterstattung liefen die Ermittlungen noch, und es war unklar, ob konkrete Anschlagspläne vorlagen oder es sich um eine Vorsichtsmaßnahme handelte."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Ein möglicher iranisch gelenkter Anschlag auf einen US-Stützpunkt in Europa hätte indirekte Sicherheitsrelevanz auch für Deutschland als NATO-Partner."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein mutmaßlicher Terroranschlag auf einen US-Militärstützpunkt in Europa mit möglichem staatlichen Hintergrund ist sicherheitspolitisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "EU provides €61 million in humanitarian aid amidst rapidly deteriorating situation in Ethiopia",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1991",
+              "publishedAt": "2026-09-28T09:26:41Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Peking reformiert das Hochschulsystem grundlegend",
+          "summaryDe": [
+            "Gemeinsame Leitlinien des Zentralkomitees der Kommunistischen Partei und des Staatsrats legen fest, dass künftig jeder Bürger Zugang zu einem Hochschulstudium erhalten soll.",
+            "Die Reformen reagieren auf drei gleichzeitige Herausforderungen: sinkende Geburtenzahlen, einen überhitzten Arbeitsmarkt für Akademiker und den Bedarf der Industrie nach stärker praxisorientierter Ausbildung.",
+            "Universitäten sollen dabei klarer voneinander abgegrenzte Profile entwickeln, statt in einem einheitlichen Prestige-Wettbewerb zu konkurrieren.",
+            "Wie weit der Anspruch universellen Hochschulzugangs in der Praxis tatsächlich reicht – und ob er auch sozial benachteiligte Gruppen auf dem Land einschließt –, bleibt vorerst offen."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Reform betrifft ausschließlich das chinesische Bildungssystem ohne direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine staatlich verordnete Neuausrichtung des gesamten Hochschulsystems in der bevölkerungsreichsten Volkswirtschaft der Welt ist strukturell bedeutend."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "'Everyone can attend university': China unveils sweeping higher education reform",
+              "url": "https://www.scmp.com/news/china/science/article/3368952/everyone-can-attend-university-china-unveils-sweeping-higher-education-reform",
+              "publishedAt": "2026-09-28T02:00:22Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "China nimmt weltweit leistungsfähigen Elektronenbeschleuniger in Betrieb",
+          "summaryDe": [
+            "Am 20. September feuerte die Hefei Advanced Light Facility ihren ersten Elektronenstrahl ab – ein Meilenstein auf dem Weg zu einem sogenannten 'Super-Mikroskop' für Spitzenforschung.",
+            "Der Linearbeschleuniger ist 192 Meter lang und erreicht 2,2 Milliarden Elektronenvolt; nach Angaben der Betreiber soll er damit zur weltweiten Spitzenklasse gehören.",
+            "Praktische Anwendungsfelder reichen von der Alzheimer-Forschung bis hin zur Entwicklung hochauflösender Mikrochips, was die Anlage sowohl medizinisch als auch industriepolitisch relevant macht.",
+            "Für China ist das Projekt ein weiteres Symbol staatlich geförderter Grundlagenforschung inmitten des technologischen Wettbewerbs mit den USA."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Fortschritte chinesischer Forschungsinfrastruktur können mittelfristig die internationale Wettbewerbsposition deutscher Wissenschafts- und Technologiestandorte beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Inbetriebnahme einer Großforschungsanlage dieser Kategorie ist wissenschaftlich und technologiepolitisch bedeutend."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China lights up 'super microscope' hopes with world-leading electron gun beam",
+              "url": "https://www.scmp.com/news/china/science/article/3368953/china-lights-super-microscope-hopes-world-leading-electron-gun-beam",
+              "publishedAt": "2026-09-28T04:00:10Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel: Zollentlastungen vereinbart, Taiwan-Frage offengelassen",
+          "summaryDe": [
+            "Nach einem dreitägigen Staatsbesuch Xi Jinpings in den USA einigten sich beide Seiten auf Zollsenkungen für Waren im Wert von 60 Milliarden Dollar sowie auf chinesische Kohleimporte aus den USA von mindestens zehn Millionen Tonnen jährlich für zwei Jahre.",
+            "Symbolisch begleitet wurde das Treffen von einem Staatsbankett und Anspielungen auf die Tischtennisdiplomatie der 1970er-Jahre – zwei Riesenpandas reisten kurz nach dem Gipfel in die USA.",
+            "Bei der Taiwan-Frage gab es keine greifbaren Ergebnisse: Xi drängte Trump auf eine explizite Absage an taiwanische Unabhängigkeitsbestrebungen, doch Trump spielte den Stellenwert dieser Gespräche öffentlich herunter.",
+            "Beobachter werten die Stabilisierung des Verhältnisses als real, aber fragil – und in wesentlichen Teilen zu Pekings Bedingungen erreicht.",
+            "Ein weiteres Kuriosum: Trump soll Xi während des Gipfels gefragt haben, ob China amerikanische Waffen kaufen wolle; das State Department distanzierte sich anschließend von einem solchen Angebot."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Zollveränderungen im US-chinesischen Handel und die Stabilität dieser Beziehung haben konkrete Auswirkungen auf die exportabhängige deutsche Wirtschaft."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein Gipfeltreffen der beiden größten Volkswirtschaften mit handelspolitischen Vereinbarungen und Diskussionen über Taiwan ist ein außergewöhnliches geopolitisches Ereignis."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "'Right now, it's fine': Trump brushes off questions about summit talk on Taiwan",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368946/right-now-its-fine-trump-brushes-questions-about-summit-talk-taiwan",
+              "publishedAt": "2026-09-27T09:43:40Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "The US-China relationship has stabilised but on Beijing's terms",
+              "url": "https://www.scmp.com/opinion/china-opinion/article/3368840/us-china-relationship-has-stabilised-beijings-terms",
+              "publishedAt": "2026-09-27T21:30:08Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China resuming US coal imports among thin list of summit outcomes",
+              "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3369060/china-resuming-us-coal-imports-among-thin-list-summit-outcomes",
+              "publishedAt": "2026-09-28T09:16:13Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Trump asked Xi if Beijing wanted US weapons: a joke, a gambit or something more?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368996/trump-asked-xi-if-beijing-wanted-us-weapons-joke-gambit-or-something-more",
+              "publishedAt": "2026-09-28T04:06:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU plant erstmals konkrete Beitrittszieldaten für Montenegro und andere Kandidaten",
+          "summaryDe": [
+            "Brüssel erwägt, für Montenegro, die Ukraine, Moldau und Albanien erstmals verbindliche Zieldaten für den Abschluss zentraler Beitrittskapitel festzulegen.",
+            "Dieser Schritt würde eine deutliche Abkehr von der bisherigen Praxis bedeuten, bei der konkrete Zeitvorgaben im Erweiterungsprozess bewusst vermieden wurden.",
+            "Für Montenegro, das als fortgeschrittenster Kandidat gilt, käme ein solcher Aktionsplan einer öffentlichen Bestandsaufnahme gleich – sowohl hinsichtlich erzielter Fortschritte als auch verbleibender Reformlücken.",
+            "Ob die Mitgliedstaaten einem solchen Ansatz zustimmen und wie verbindlich die Daten tatsächlich sein sollen, ist noch ungeklärt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "EU-Erweiterungspolitik berührt deutsche Interessen an Stabilität im westlichen Balkan, hat aber keine unmittelbaren Folgen für Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein Paradigmenwechsel in der EU-Erweiterungsstrategie mit konkreten Zeitvorgaben wäre eine erhebliche institutionelle Neuerung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "EU is drawing up membership action plans for most promising candidates",
+              "url": "https://www.politico.eu/article/eu-membership-action-plans-montenegro-ukraine-moldova-albania",
+              "publishedAt": "2026-09-27T20:33:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU und USA konkurrieren um Abschiebevereinbarungen mit afrikanischen Staaten",
+          "summaryDe": [
+            "Washington hat bereits rund 35 Vereinbarungen mit afrikanischen Ländern geschlossen, die bereit sind, Abschiebehäftlinge aufzunehmen – oft gegen Zahlungen und ohne strenge Auflagen.",
+            "Die EU ringt derweil um ihren ersten solchen Deal, wobei Ruanda als aussichtsreichster Partner gilt; Brüssel steht dabei unter Druck, nicht den Anschluss zu verlieren.",
+            "Hilfsorganisationen und Menschenrechtler kritisieren, dass ein finanziell getriebener Wettbewerb um Abschiebeplätze Schutzstandards systematisch untergräbt.",
+            "Das Rennen wirft grundsätzliche Fragen über die Rechtsstaatlichkeit europäischer Migrationspolitik auf, die auch im Europaparlament zunehmend kontrovers debattiert werden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland als größter EU-Mitgliedstaat mit hohen Abschiebezahlen ist von einer gemeinsamen europäischen Rückführungspolitik direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der strukturelle Wettbewerb zwischen westlichen Mächten um Abschiebevereinbarungen auf Kosten afrikanischer Rechtsstaatlichkeit ist eine größere migrationspolitische Entwicklung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Deporting humans becomes big business, as Brussels and Washington race to pay African countries to take them",
+              "url": "https://euobserver.com/239412/a-global-race-between-europe-and-the-us-to-pay-african-countries-to-host-deportees-is-underway-as-human-commerce-becomes-a-lucrative-business",
+              "publishedAt": "2026-09-24T18:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Russlands Schattenflotte wechselt massenweise zurück zur russischen Flagge",
+          "summaryDe": [
+            "Tanker aus Russlands Umgehungsflotte registrieren sich zunehmend wieder offiziell unter russischer Flagge, nachdem europäische Sanktionsdurchsetzung das Segeln unter Dritt-Flaggen riskanter gemacht hatte.",
+            "Der Strategiewechsel stellt die EU vor ein Dilemma: Wird ein russisch beflaggter Tanker aufgebracht, könnte Moskau dies als direkten staatlichen Konflikt werten und mit schärferen Gegenmaßnahmen reagieren.",
+            "Bislang funktionierten die Sanktionen teilweise, weil Verantwortlichkeit durch verschachtelte Flaggen- und Eigentümerstrukturen verschleiert wurde – dieser Puffer entfällt nun zunehmend.",
+            "Für Mitgliedstaaten mit großen Häfen und Küstenwachen bedeutet das eine empfindlich gestiegene operative und diplomatische Belastung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Die Wirksamkeit der Russlandsanktionen, an deren Durchsetzung Deutschland politisch beteiligt ist, wird durch diese Entwicklung direkt untergraben."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die systematische Anpassung der russischen Sanktionsumgehungsstrategie ist eine signifikante Eskalation im Sanktionsregime-Konflikt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Shadow fleet tankers flock back to being flagged as Russian, creating more headaches for EU states",
+              "url": "https://euobserver.com/239736/shadow-fleet-tankers-flock-back-to-being-flagged-as-russian-creating-more-headaches-for-eu-states",
+              "publishedAt": "2026-09-25T11:49:28Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "EU-Mitgliedstaaten billigen erste gemeinsame Rüstungsprojekte",
+          "summaryDe": [
+            "Die EU-Mitgliedstaaten haben fünf sogenannte European Defence Projects of Common Interest formal gebilligt und damit einen ersten konkreten Schritt zur gemeinsamen europäischen Rüstungskooperation vollzogen.",
+            "Hinter dem bürokratisch klingenden Schritt steckt eine strukturelle Neuerung: Erstmals werden gemeinsam definierte Rüstungsprioritäten mit einem koordinierten industriepolitischen Rahmen verbunden.",
+            "Welche konkreten Fähigkeiten die fünf Projekte abdecken und welche Mitgliedstaaten sich in welchem Umfang beteiligen, war zum Zeitpunkt der Berichterstattung noch nicht vollständig öffentlich.",
+            "Der Schritt fällt in eine Phase, in der die EU ihre Verteidigungsausgaben und -strukturen angesichts des russischen Angriffskrieges in der Ukraine grundlegend neu bewertet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland als größter europäischer Rüstungsproduzent und EU-Mitglied ist von gemeinsamen Beschaffungsstrukturen und deren Finanzierungsmodellen direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die erstmalige Billigung gemeinsamer europäischer Rüstungsprojekte ist ein institutionell bedeutsamer Schritt in der EU-Verteidigungsintegration."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "THIS WEEK: Interior ministers discuss Fortress Europe, as Kallas goes to Syria",
+              "url": "https://euobserver.com/239836/this-week-interior-ministers-discuss-fortress-europe-as-kallas-goes-to-syria",
+              "publishedAt": "2026-09-28T04:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
