@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-29",
+  "generatedAt": "2026-09-29T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Demokraten mit hoher Wahlbeteiligung bei Vorwahlen – Übersetzung in November-Ergebnis offen",
+          "summaryDe": [
+            "Bei den demokratischen Vorwahlen verzeichneten Wahlbeobachter eine deutlich gestiegene Beteiligung, die Analysten als Ausdruck politischer Mobilisierung werten.",
+            "Ob diese Energie tatsächlich in Stimmen bei den Zwischenwahlen im November umgewandelt wird, bleibt jedoch umstritten – historisch hat Vorwahlbeteiligung nur begrenzte Vorhersagekraft.",
+            "Republikaner verfügen strukturell über Vorteile in einer Reihe umkämpfter Wahlkreise, was die Ausgangslage trotz demokratischer Begeisterung kompliziert.",
+            "Das Kräftemessen gilt als wichtiger Stimmungstest für das erste Midterm unter Trumps zweiter Amtszeit."
+          ],
+          "additionalImportant": "Tennessee steht kurz vor der ersten Hinrichtung einer Frau seit 200 Jahren – ein rechtshistorisch bedeutsamer Schritt, der landesweit Debatte ausgelöst hat.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das Ergebnis amerikanischer Zwischenwahlen hat keinen direkten Einfluss auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Zwischenwahlen entscheiden über die Mehrheitsverhältnisse im US-Kongress und damit über die politische Handlungsfähigkeit der Regierung für die nächsten zwei Jahre."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "überregional",
+              "titleOriginal": "Democratic Turnout Surged in the Primaries. Will It Matter in November?",
+              "url": "https://www.nytimes.com/2026/09/29/us/politics/democrats-voter-turnout.html",
+              "publishedAt": "2026-09-29T09:01:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "AMD kauft Fei-Fei Lis KI-Firma World Labs für 8,2 Milliarden Dollar",
+          "summaryDe": [
+            "Der Halbleiterhersteller AMD übernimmt World Labs, das KI-Unternehmen von Informatik-Pionierin Fei-Fei Li, für 8,2 Milliarden Dollar – die zweitgrößte Akquisition in der Unternehmensgeschichte.",
+            "Der Deal unterstreicht, mit welchem Tempo Chiphersteller versuchen, ihre Position im KI-Ökosystem über reine Hardware hinaus auszubauen.",
+            "AMD hatte zuvor bereits in World Labs investiert und baut damit eine bestehende Partnerschaft in eine vollständige Integration um.",
+            "Mit dem Kauf verschärft sich der Wettbewerb mit Nvidia, das seinerseits an einer wachsenden Zahl von KI-Software- und Infrastrukturprojekten beteiligt ist."
+          ],
+          "additionalImportant": "OpenAI verzögert die Veröffentlichung seines neuesten Astra-Modells (GPT-6.1) nach Sicherheitsbedenken interner Forscher – ein seltenes Zeichen, dass Sicherheitserwägungen tatsächlich Produktentscheidungen bremsen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutsche Technologieunternehmen und Investoren beobachten Konsolidierungsbewegungen im KI-Sektor, direkte Auswirkungen sind aber begrenzt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Eine Multimilliarden-Übernahme im KI-Chip-Bereich verschiebt Kräfteverhältnisse in einem strategisch zentralen Technologiesegment spürbar."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
+              "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
+              "publishedAt": "2026-09-29T01:48:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Putin ordnet weitere Heeresaufstockung an – Selenskyj warnt vor nordkoreanischen Truppen",
+          "summaryDe": [
+            "Russlands Präsident Putin unterzeichnete ein viertes Dekret zur Vergrößerung der Streitkräfte in diesem Jahr, was Experten als Zeichen wachsenden Personalbedarfs nach schweren Verlusten werten.",
+            "Gleichzeitig schlug der ukrainische Präsident Selenskyj Alarm: Russland bereite den Einsatz von rund 10.000 nordkoreanischen Soldaten vor, ein Schritt der die Internationalisierung des Krieges weiter vorantreiben würde.",
+            "Der Krieg geht in seinen fünften Winter, und beide Seiten kämpfen an einem Abnutzungskrieg, bei dem Drohnentechnologie zunehmend über Geländegewinne entscheidet.",
+            "Eine baldige Waffenruhe erscheint angesichts der russischen Aufrüstungssignale unwahrscheinlicher als noch vor Monaten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine Eskalation des Ukraine-Krieges mit nordkoreanischer Beteiligung hätte direkte sicherheitspolitische und wirtschaftliche Folgen für Deutschland als bedeutendem Ukraine-Unterstützer."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Nordkoreanische Truppenpräsenz in Europa wäre eine systemische Eskalation mit weitreichenden geopolitischen Konsequenzen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Mistral CEO says U.S. AI safety debate masks competitors' 'negligence'",
+              "url": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+              "publishedAt": "2026-09-29T08:20:04Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping fordert 'sichereres' China vor dem Parteitag – Sicherheitsapparat in Bereitschaft versetzt",
+          "summaryDe": [
+            "Rund ein Jahr vor dem 21. Parteitag der Kommunistischen Partei wies Präsident Xi Jinping den gesamten Sicherheits- und Justizapparat an, Risiken zu beseitigen und das Land 'sicherer' zu machen.",
+            "Die Anweisung gilt Beobachtern als Signal einer Prioritätsverlagerung: Innere Stabilität soll vor dem für die Führungsnachfolge entscheidenden Kongress oberste Priorität haben.",
+            "Zugleich deutet die Wortwahl auf verschärfte Kontrolle gesellschaftlicher Spannungen hin, die sich aus wirtschaftlichem Abschwung, Jugendarbeitslosigkeit und regionalem Unmut ergeben.",
+            "Für ausländische Unternehmen und Zivilgesellschaft bedeutet ein solcher Stabilitätsmodus historisch engere Spielräume und verstärkte Überwachung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Erhöhte innenpolitische Kontrolle in China kann indirekt das Geschäftsumfeld für deutsche Unternehmen mit China-Präsenz verschlechtern."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Sicherheitspolitische Vorbereitungen auf einen Führungsparteitag in der zweitgrößten Volkswirtschaft der Welt sind eine bedeutsame innenpolitische Weichenstellung."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Xi Jinping demands 'safer' China as Communist Party prepares for leadership reshuffle",
+              "url": "https://www.scmp.com/news/china/politics/article/3369101/xi-jinping-demands-safer-china-communist-party-prepares-leadership-reshuffle",
+              "publishedAt": "2026-09-28T13:30:27Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinesisches Unternehmen ENN Group erzielt Durchbruch bei Wasserstoff-Bor-Kernfusion",
+          "summaryDe": [
+            "Die chinesische Energiefirma ENN Group hat in ihrem sphärischen Tokamak-Reaktor EXL-50U erstmals Wasserstoff-Bor-Fusionsreaktionen erzielt – eine Technologie, die ohne Neutronenstrahlung auskommt und als besonders sauber gilt.",
+            "Anders als gängige Deuterium-Tritium-Ansätze könnte Wasserstoff-Bor-Fusion radioaktiven Abfall weitgehend vermeiden, was den kommerziellen Einsatz langfristig attraktiver machen würde.",
+            "Der Durchbruch liegt noch weit von einer wirtschaftlich nutzbaren Anlage entfernt, gilt aber in der Fusionsforschungsgemeinschaft als wissenschaftlich relevanter Meilenstein.",
+            "China hat in den letzten Jahren massiv in kommerzielle Fusionsprojekte investiert und versucht, in diesem Bereich gegenüber westlichen Konsortien wie ITER aufzuholen."
+          ],
+          "additionalImportant": "China und die USA einigten sich auf einen Handelsdeal, wonach Peking jährlich mindestens zehn Millionen Tonnen US-Kohle importiert und Zölle auf 1.619 amerikanische Produkte senkt – ein greifbares Ergebnis des Xi-Trump-Gipfels, das Landwirte und Industrievertreter dennoch gemischt aufnehmen.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Fortschritte in der Fusionsforschung sind für die globale Energiewende relevant, haben aber keinen unmittelbaren Einfluss auf Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Ein nachgewiesener Wasserstoff-Bor-Fusionsreaktor wäre ein bedeutender Schritt in der globalen Fusionsforschung mit langfristiger energiepolitischer Relevanz."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Chinese commercial reactor achieves nuclear fusion with clean hydrogen-boron fuel",
+              "url": "https://www.scmp.com/news/china/science/article/3369086/chinese-commercial-reactor-achieves-nuclear-fusion-clean-hydrogen-boron-fuel",
+              "publishedAt": "2026-09-28T13:00:20Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China setzt erstmals fortschrittliche WZ-7-Aufklärungsdrohne im Südchinesischen Meer ein",
+          "summaryDe": [
+            "Beim ersten dokumentierten Einsatz dieser Art flog China seine WZ-7-Hochflugdrohne während gemeinsamer Luft- und Marineübungen nahe dem umstrittenen Scarborough-Riff im Südchinesischen Meer.",
+            "Die WZ-7 gilt als eine der leistungsfähigsten chinesischen Aufklärungsplattformen; ihr Erstauftritt in diesem Seegebiet signalisiert eine Ausweitung chinesischer Überwachungskapazitäten in der umkämpften Region.",
+            "Parallel berichten chinesische Forscher an Standards für autonome Satellitennetzwerke, die nach Einschätzung von Analysten die militärische Zielerfassung beschleunigen könnten.",
+            "Die Kombination aus neuen Drohnenkapazitäten und Satellitenintelligenz-Infrastruktur zeigt, wie China seine Dominanzansprüche im Südchinesischen Meer systematisch mit Technologieinvestitionen untermauert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Spannungen im Südchinesischen Meer betreffen globale Schifffahrtswege und damit indirekt deutsche Handelsinteressen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Ersteinsatz einer fortschrittlichen Aufklärungsdrohne in einem Konfliktgebiet ist ein militärisch bedeutsames Eskalationssignal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China deploys advanced WZ-7 drone for first time near Scarborough Shoal",
+              "url": "https://www.scmp.com/news/china/military/article/3369080/china-deploys-advanced-wz-7-drone-first-time-near-scarborough-shoal",
+              "publishedAt": "2026-09-28T11:03:56Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Srdanović: Kommende Wahlen keine faire Auseinandersetzung – Warnung vor organisierter Kriminalität",
+          "summaryDe": [
+            "Der politische Kandidat und Amtsinhaber Srdanović bezweifelt öffentlich die Fairness der bevorstehenden Wahlen und beschreibt die Lage als Kampf gegen die organisierte Kriminalität.",
+            "Solche Aussagen kurz vor dem Urnengang schüren Misstrauen in die Integrität des Wahlprozesses und könnten die ohnehin fragile politische Stabilität des Landes weiter untergraben.",
+            "Montenegro steht bei seinen EU-Beitrittsgesprächen vor kritischen Überprüfungen in den Kapiteln 23 und 24 zu Rechtsstaatlichkeit, bei denen die Brüsseler Beurteilung maßgeblich von solchen innenpolitischen Entwicklungen abhängt.",
+            "Gleichzeitig sorgte ein Konzert für Aufregung, bei dem Besucher Parolen für einen umstrittenen Militär riefen – eine Ermittlung wurde eingeleitet, was internationale Beobachter als Test für Montenegros Rechtsstaatlichkeit werten."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als EU-Beitrittskandidat unter intensiver europäischer Beobachtung sind Montenegros demokratische Rückschritte für die EU-Erweiterungspolitik relevant, in der Deutschland eine Schlüsselrolle spielt."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Zweifel an der Wahlintegrität in einem kleinen Balkanstaat sind innenpolitisch relevant, haben aber begrenzte internationale Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Srdanović: Izbori neće biti fer borba, borimo se protiv mafije",
+              "url": "https://www.vijesti.me/svijet/balkan/828912/srdanovic-izbori-nece-biti-fer-borba-borimo-se-protiv-mafije",
+              "publishedAt": "2026-09-29T08:02:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Streit um Stromrechnungen: EPCG erhielt 463 Beschwerden nach ungewöhnlich hohen Augustabrechnungen",
+          "summaryDe": [
+            "Zahlreiche montenegrinische Haushalte meldeten im August doppelt so hohe oder ungewöhnlich hohe Stromrechnungen, was in kurzer Zeit zu 463 offiziellen Beschwerden beim staatlichen Energieversorger EPCG führte.",
+            "Das Unternehmen attribuierte die höheren Beträge gestiegenem Verbrauch, während viele Kunden fehlerhafte Doppelabbuchungen vermuteten – ein Widerspruch, der das Vertrauen in den Monopolanbieter belastet.",
+            "445 der eingegangenen Beschwerden bezogen sich explizit auf die Rechnungshöhe, was auf ein systemisches statt zufälliges Problem hindeutet.",
+            "In einem Land, in dem Energiearmut ein reales Problem ist, treffen solche Abrechnungsfehler ärmere Haushalte besonders hart."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Ein montenegrinischer Abrechnungsstreit mit dem nationalen Energieversorger hat keinen Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Fall ist innenpolitisch und für Verbraucher relevant, hat aber keine internationale Dimension."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Selektor Jermenije negoduje: Osmajić je napravio faul kod prvog gola Crne Gore",
+              "url": "https://www.vijesti.me/sport/fudbal/828915/selektor-jermenije-negoduje-osmajic-je-napravio-faul-kod-prvog-gola-crne-gore",
+              "publishedAt": "2026-09-29T08:42:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegros EU-Integration stockt – unerfüllte CPT-Empfehlungen gefährden Fortschritte bei Rechtsstaatskapiteln",
+          "summaryDe": [
+            "Beim entscheidenden Test der EU-Beitrittsverhandlungen zeigt Montenegro in den Schlüsselkapiteln 23 und 24 zu Grundrechten und Rechtsstaatlichkeit nach wie vor erhebliche Defizite.",
+            "Nicht umgesetzte Empfehlungen des Europäischen Komitees zur Verhütung von Folter (CPT) drohen den Fortschritt in diesen Bereichen zu blockieren, was den gesamten Beitrittsprozess ausbremsen könnte.",
+            "Dieser Befund ist deshalb brisant, weil Montenegro als potenziell erstes westliches Balkanland gilt, das den Beitritt abschließen könnte – entsprechend hoch ist der Erwartungsdruck aus Brüssel.",
+            "Versäumnisse beim Strafvollzug und bei Grundrechtsgarantien werden von EU-Berichterstattern regelmäßig als strukturelle Schwachstellen benannt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Deutschland unterstützt die EU-Erweiterung auf dem Westbalkan politisch aktiv; Stockungen beim Beitrittsprozess berühren deutsche Außenpolitikziele."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Verzögerungen bei Beitrittskapiteln eines kleinen Kandidatenlandes sind für die EU-Erweiterungspolitik relevant, aber von begrenzter allgemeiner Tragweite."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "MPŠV: Novi Pravilnik o lovnim sezonama zasnovan na stručnim i naucnim principima",
+              "url": "https://www.vijesti.me/vijesti/drustvo/828914/mpsv-novi-pravilnik-o-lovnim-sezonama-zasnovan-na-strucnim-i-naucnim-principima",
+              "publishedAt": "2026-09-29T08:34:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Kommission schlägt Fünf-Punkte-Plan zur Stärkung der Außengrenzen vor",
+          "summaryDe": [
+            "Die Europäische Kommission legte einen Fünf-Punkte-Plan vor, der massenhafte illegale Ankünfte an den EU-Außengrenzen verhindern, antizipieren und bewältigen soll.",
+            "Der Vorschlag folgt auf Beratungen der EU-Innenminister, die nach dem Ceuta-Vorfall intensiver über Abschiebungen und externe Asylverfahren diskutierten.",
+            "Konkret sieht der Plan unter anderem verstärkte Grenzüberwachung und neue Mechanismen zur schnelleren Rückführung vor – Einzelheiten zu Offshoring-Lösungen bleiben jedoch weiter umstritten.",
+            "Für Deutschland, das in der Migrationspolitik innenpolitisch unter Druck steht, könnte ein stärker vergemeinschafteter Außengrenzschutz die eigene Belastung verringern, wenn die Umsetzung gelingt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Eine stärkere EU-Außengrenzsicherung entlastet Deutschland als Zielland sekundärer Migrationsbewegungen direkt."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Gemeinsame EU-Migrationspolitik an den Außengrenzen ist ein politisch hochsensibles und strukturell bedeutsames Thema für die Gemeinschaft."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission proposes 5-point plan to strengthen resilience and security of EU external borders",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2002",
+              "publishedAt": "2026-09-29T09:00:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Nettopaymaster fordern mehrere hundert Milliarden Euro Kürzungen beim nächsten Mehrjährigen Finanzrahmen",
+          "summaryDe": [
+            "In den Verhandlungen über den nächsten EU-Mehrjährigen Finanzrahmen (MFF) haben Nettozahler-Staaten eine klare Linie gezogen: Sie bestehen auf Einsparungen im Umfang von mehreren hundert Milliarden Euro.",
+            "Gleichzeitig diskutieren die Mitgliedstaaten mögliche neue Eigenmittel – also direkte Steuern zugunsten des EU-Haushalts –, um den Verteilungskampf zu entschärfen.",
+            "Die Gräben sind tief: Länder, die auf EU-Strukturfonds angewiesen sind, warnen vor massiven Einschnitten, während Deutschland, die Niederlande und andere Nettozahler auf Haushaltsdisziplin pochen.",
+            "Frankreich mit einem neuen Schuldenrekord von 119 Prozent des BIP steht ebenfalls unter fiskalischem Druck, was seine Verhandlungsposition gegenüber beiden Lagern schwächt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Deutschland ist größter Nettozahler in die EU und direkt von Ergebnis und Struktur des Mehrjährigen Finanzrahmens betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der EU-Haushalt bestimmt Investitionen, Kohäsionspolitik und strategische Handlungsfähigkeit der EU für sieben Jahre."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "EU's net payers insist on 'several hundred billion euros' in budget cuts",
+              "url": "https://www.politico.eu/article/eu-net-payers-insist-several-hundred-billion-euros-budget-cuts-mff",
+              "publishedAt": "2026-09-29T08:58:03Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "EU officials confident Trump will drop plan to ban diesel exports",
+              "url": "https://www.politico.eu/article/eu-officials-confident-trump-will-drop-plan-to-ban-diesel-exports",
+              "publishedAt": "2026-09-29T09:27:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Fünf gemeinsame europäische Rüstungsprojekte gebilligt – Kommission begrüßt Entscheidung",
+          "summaryDe": [
+            "Die EU-Mitgliedstaaten billigten die ersten fünf Europäischen Verteidigungsprojekte von gemeinsamem Interesse (EDPCIs) – ein wichtiger Schritt hin zu einer koordinierteren europäischen Rüstungsindustrie.",
+            "Diese Projekte sind Teil der breiteren Debatte darüber, wie Europa seine Verteidigungsfähigkeit nach dem russischen Angriff auf die Ukraine strukturell stärken kann, ohne dabei vollständig auf amerikanische Kapazitäten angewiesen zu bleiben.",
+            "Parallel berichteten Sicherheitsexperten, dass die Slowakei als Ausgangsbasis für ein mit dem russischen Militärgeheimdienst GRU in Verbindung stehendes Sabotage-Netzwerk genutzt wurde, das auf die europäische Rüstungsindustrie und Versorgungsrouten in die Ukraine zielt.",
+            "Die Kombination aus russischer Sabotage und europäischen Aufrüstungsbemühungen verdeutlicht, dass der Verteidigungsaufbau der EU unter aktivem feindlichen Druck stattfindet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland als größte europäische Volkswirtschaft und bedeutender Rüstungsstandort ist von gemeinsamen EU-Verteidigungsprojekten direkt betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Billigung erster gemeinsamer Rüstungsprojekte ist ein strukturell bedeutsamer Schritt für die europäische Verteidigungsintegration."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission welcomes Member States' endorsement of five joint European defence projects",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1990",
+              "publishedAt": "2026-09-28T07:56:56Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Listen: Can EU countries agree on the next long-term budget?",
+              "url": "https://euobserver.com/240175/listen-can-eu-countries-agree-on-the-next-long-term-budget",
+              "publishedAt": "2026-09-29T08:43:39Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

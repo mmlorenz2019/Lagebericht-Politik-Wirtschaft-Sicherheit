@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-29",
+  "generatedAt": "2026-09-29T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Democrats with High Voter Turnout in Primaries – Translation into November Results Remains Open",
+          "summaryDe": [
+            "Election observers recorded significantly increased turnout in Democratic primaries, which analysts interpret as an expression of political mobilization.",
+            "Whether this energy is actually converted into votes in the midterm elections in November remains disputed – historically, primary turnout has only limited predictive power.",
+            "Republicans structurally have advantages in a number of contested districts, which complicates the starting position despite Democratic enthusiasm.",
+            "The contest is considered an important barometer test for the first midterms under Trump's second term."
+          ],
+          "additionalImportant": "Tennessee is on the verge of the first execution of a woman in 200 years – a legally significant step that has sparked nationwide debate.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The outcome of American midterm elections has no direct influence on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The midterms will determine the majority relationships in the U.S. Congress and thus the political capacity for action of the government for the next two years."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "The New York Times",
+              "type": "national",
+              "titleOriginal": "Democratic Turnout Surged in the Primaries. Will It Matter in November?",
+              "url": "https://www.nytimes.com/2026/09/29/us/politics/democrats-voter-turnout.html",
+              "publishedAt": "2026-09-29T09:01:57Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "AMD Acquires Fei-Fei Li's AI Firm World Labs for $8.2 Billion",
+          "summaryDe": [
+            "Semiconductor maker AMD is acquiring World Labs, the AI company founded by computer science pioneer Fei-Fei Li, for $8.2 billion – the second-largest acquisition in the company's history.",
+            "The deal underscores the pace at which chipmakers are trying to expand their position in the AI ecosystem beyond pure hardware.",
+            "AMD had previously invested in World Labs and is now converting an existing partnership into a full integration.",
+            "With the acquisition, competition with Nvidia intensifies, which is itself involved in a growing number of AI software and infrastructure projects."
+          ],
+          "additionalImportant": "OpenAI delays the release of its latest Astra model (GPT-6.1) following safety concerns raised by internal researchers – a rare sign that safety considerations are actually slowing product decisions.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "German technology companies and investors are observing consolidation movements in the AI sector, but direct impacts are limited."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A multi-billion-dollar acquisition in the AI chip sector noticeably shifts power relationships in a strategically central technology segment."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business news outlet",
+              "titleOriginal": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm",
+              "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
+              "publishedAt": "2026-09-29T01:48:52Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Putin Orders Further Military Expansion – Zelensky Warns of North Korean Troops",
+          "summaryDe": [
+            "Russian President Putin signed a fourth decree to enlarge the armed forces this year, which experts view as a sign of growing personnel needs following heavy losses.",
+            "Simultaneously, Ukrainian President Zelensky sounded the alarm: Russia is preparing to deploy approximately 10,000 North Korean soldiers, a step that would further internationalize the conflict.",
+            "The war is entering its fifth winter, and both sides are fighting a war of attrition in which drone technology increasingly determines territorial gains.",
+            "A swift ceasefire appears less likely now than it did months ago in light of Russian rearmament signals."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "An escalation of the Ukraine war involving North Korean participation would have direct security and economic consequences for Germany as a significant supporter of Ukraine."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "North Korean troop presence in Europe would be a systemic escalation with far-reaching geopolitical consequences."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "type": "Business news outlet",
+              "titleOriginal": "Mistral CEO says U.S. AI safety debate masks competitors' 'negligence'",
+              "url": "https://www.cnbc.com/2026/09/29/mistral-ai-safety-openai-anthropic.html",
+              "publishedAt": "2026-09-29T08:20:04Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi Jinping Demands 'Safer' China Ahead of Party Congress – Security Apparatus Put on Alert",
+          "summaryDe": [
+            "About one year before the 21st National Congress of the Communist Party, President Xi Jinping instructed the entire security and justice apparatus to eliminate risks and make the country 'safer.'",
+            "Observers view the directive as a signal of a shift in priorities: internal stability is to take highest priority before the party congress that will be decisive for leadership succession.",
+            "At the same time, the choice of words suggests tightened control of social tensions arising from economic slowdown, youth unemployment, and regional discontent.",
+            "For foreign companies and civil society, such a stability mode historically means narrower operating space and intensified surveillance."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Increased domestic political control in China can indirectly worsen the business environment for German companies with a presence in China."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Security policy preparations for a leadership party congress in the world's second-largest economy represent a significant domestic political shift."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Xi Jinping demands 'safer' China as Communist Party prepares for leadership reshuffle",
+              "url": "https://www.scmp.com/news/china/politics/article/3369101/xi-jinping-demands-safer-china-communist-party-prepares-leadership-reshuffle",
+              "publishedAt": "2026-09-28T13:30:27Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Chinese Company ENN Group Achieves Breakthrough in Hydrogen-Boron Nuclear Fusion",
+          "summaryDe": [
+            "Chinese energy firm ENN Group has for the first time achieved hydrogen-boron fusion reactions in its spherical tokamak reactor EXL-50U – a technology that operates without neutron radiation and is considered particularly clean.",
+            "Unlike conventional deuterium-tritium approaches, hydrogen-boron fusion could largely eliminate radioactive waste, making commercial deployment more attractive in the long term.",
+            "The breakthrough is still far from an economically viable facility, but is regarded by the fusion research community as a scientifically significant milestone.",
+            "China has massively invested in commercial fusion projects in recent years and is attempting to catch up with Western consortiums such as ITER in this field."
+          ],
+          "additionalImportant": "China and the United States agreed on a trade deal under which Beijing will import at least ten million tons of U.S. coal annually and reduce tariffs on 1,619 American products – a tangible result of the Xi-Trump summit that farmers and industrial representatives nonetheless receive with mixed feelings.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Advances in fusion research are relevant to the global energy transition, but have no direct impact on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "A demonstrated hydrogen-boron fusion reactor would be a significant step in global fusion research with long-term energy policy relevance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Chinese commercial reactor achieves nuclear fusion with clean hydrogen-boron fuel",
+              "url": "https://www.scmp.com/news/china/science/article/3369086/chinese-commercial-reactor-achieves-nuclear-fusion-clean-hydrogen-boron-fuel",
+              "publishedAt": "2026-09-28T13:00:20Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China Deploys Advanced WZ-7 Surveillance Drone in South China Sea for First Time",
+          "summaryDe": [
+            "In the first documented deployment of its kind, China flew its WZ-7 high-altitude reconnaissance drone during joint air and naval exercises near the disputed Scarborough Reef in the South China Sea.",
+            "The WZ-7 is regarded as one of the most capable Chinese reconnaissance platforms; its first appearance in this sea area signals an expansion of Chinese surveillance capabilities in the contested region.",
+            "In parallel, Chinese researchers are working on standards for autonomous satellite networks, which according to analysts' assessments could accelerate military target acquisition.",
+            "The combination of new drone capabilities and satellite intelligence infrastructure demonstrates how China is systematically underpinning its claims of dominance in the South China Sea with technology investments."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Tensions in the South China Sea affect global shipping routes and thus indirectly German trade interests."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The maiden deployment of an advanced reconnaissance drone in a conflict zone is a militarily significant escalation signal."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China deploys advanced WZ-7 drone for first time near Scarborough Shoal",
+              "url": "https://www.scmp.com/news/china/military/article/3369080/china-deploys-advanced-wz-7-drone-first-time-near-scarborough-shoal",
+              "publishedAt": "2026-09-28T11:03:56Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Srdanović: Upcoming Elections Not a Fair Contest – Warning of Organized Crime",
+          "summaryDe": [
+            "Political candidate and incumbent Srdanović publicly doubts the fairness of the upcoming elections and describes the situation as a struggle against organized crime.",
+            "Such statements shortly before voting stoke mistrust in the integrity of the electoral process and could further undermine the already fragile political stability of the country.",
+            "Montenegro faces critical reviews in chapters 23 and 24 on the rule of law in its EU accession talks, in which Brussels' assessment heavily depends on such domestic political developments.",
+            "At the same time, a concert sparked controversy when visitors chanted slogans for a controversial military figure – an investigation was launched, which international observers view as a test of Montenegro's rule of law."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As an EU accession candidate under intensive European scrutiny, Montenegro's democratic setbacks are relevant to EU enlargement policy, in which Germany plays a key role."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Doubts about electoral integrity in a small Balkan state are domestically relevant but have limited international significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Srdanović: Izbori neće biti fer borba, borimo se protiv mafije",
+              "url": "https://www.vijesti.me/svijet/balkan/828912/srdanovic-izbori-nece-biti-fer-borba-borimo-se-protiv-mafije",
+              "publishedAt": "2026-09-29T08:02:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Electricity Bill Dispute: EPCG Received 463 Complaints Following Unusually High August Billing",
+          "summaryDe": [
+            "Numerous Montenegrin households reported doubly high or unusually elevated electricity bills in August, leading to 463 official complaints to state energy provider EPCG in a short time.",
+            "The company attributed higher amounts to increased consumption, while many customers suspected erroneous double debits – a contradiction that erodes confidence in the monopoly provider.",
+            "445 of the incoming complaints specifically concerned billing amounts, suggesting a systemic rather than random problem.",
+            "In a country where energy poverty is a real problem, such billing errors hit poorer households particularly hard."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "A Montenegrin billing dispute with the national energy provider has no relevance to Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The case is domestically relevant to consumers but has no international dimension."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "Selektor Jermenije negoduje: Osmajić je napravio faul kod prvog gola Crne Gore",
+              "url": "https://www.vijesti.me/sport/fudbal/828915/selektor-jermenije-negoduje-osmajic-je-napravio-faul-kod-prvog-gola-crne-gore",
+              "publishedAt": "2026-09-29T08:42:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Montenegro's EU Integration Stalls – Unmet CPT Recommendations Jeopardize Progress on Rule of Law Chapters",
+          "summaryDe": [
+            "In the decisive test of EU accession negotiations, Montenegro continues to show considerable deficiencies in the key chapters 23 and 24 on fundamental rights and rule of law.",
+            "Unimplemented recommendations from the European Committee for the Prevention of Torture (CPT) threaten to block progress in these areas, which could slow the entire accession process.",
+            "This finding is particularly significant because Montenegro is considered potentially the first Western Balkan country that could complete accession – expectations from Brussels are correspondingly high.",
+            "Shortcomings in prisons and fundamental rights guarantees are regularly cited by EU rapporteurs as structural weaknesses."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Germany actively supports EU enlargement in the Western Balkans politically; delays in the accession process affect German foreign policy objectives."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Delays in accession chapters for a small candidate country are relevant to EU enlargement policy but of limited general significance."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "MPŠV: Novi Pravilnik o lovnim sezonama zasnovan na stručnim i naucnim principima",
+              "url": "https://www.vijesti.me/vijesti/drustvo/828914/mpsv-novi-pravilnik-o-lovnim-sezonama-zasnovan-na-strucnim-i-naucnim-principima",
+              "publishedAt": "2026-09-29T08:34:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU Commission Proposes Five-Point Plan to Strengthen External Borders",
+          "summaryDe": [
+            "The European Commission presented a five-point plan aimed at preventing, anticipating, and managing mass illegal arrivals at EU external borders.",
+            "The proposal follows consultations among EU interior ministers who discussed deportations and external asylum procedures more intensively following the Ceuta incident.",
+            "Specifically, the plan includes strengthened border surveillance and new mechanisms for faster returns – details on offshore solutions remain controversial.",
+            "For Germany, which faces domestic political pressure on migration policy, stronger joint EU external border protection could reduce its own burden if implementation succeeds."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Stronger EU external border security directly relieves Germany as a destination country for secondary migration movements."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Joint EU migration policy at external borders is a politically highly sensitive and structurally significant issue for the community."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission proposes 5-point plan to strengthen resilience and security of EU external borders",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2002",
+              "publishedAt": "2026-09-29T09:00:26Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Net Payer States Demand Several Hundred Billion Euros in Cuts for Next Multiannual Financial Framework",
+          "summaryDe": [
+            "In negotiations over the next EU Multiannual Financial Framework (MFF), net payer states have drawn a clear line: they insist on savings on the order of several hundred billion euros.",
+            "At the same time, member states are discussing possible new own resources – i.e., direct taxes benefiting the EU budget – to ease the distribution struggle.",
+            "Divisions run deep: countries reliant on EU structural funds warn of massive cuts, while Germany, the Netherlands, and other net payers insist on budget discipline.",
+            "France, with a new debt record of 119 percent of GDP, also faces fiscal pressure, which weakens its negotiating position relative to both camps."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Germany is the largest net contributor to the EU and is directly affected by the outcome and structure of the Multiannual Financial Framework."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The EU budget determines investments, cohesion policy, and strategic capacity for action of the EU for seven years."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "EU's net payers insist on 'several hundred billion euros' in budget cuts",
+              "url": "https://www.politico.eu/article/eu-net-payers-insist-several-hundred-billion-euros-budget-cuts-mff",
+              "publishedAt": "2026-09-29T08:58:03Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "national",
+              "titleOriginal": "EU officials confident Trump will drop plan to ban diesel exports",
+              "url": "https://www.politico.eu/article/eu-officials-confident-trump-will-drop-plan-to-ban-diesel-exports",
+              "publishedAt": "2026-09-29T09:27:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Five Joint European Defense Projects Approved – Commission Welcomes Decision",
+          "summaryDe": [
+            "EU member states approved the first five European Defence Projects of Common Interest (EDPCIs) – an important step toward more coordinated European defense industry.",
+            "These projects are part of the broader debate on how Europe can structurally strengthen its defense capability after Russia's attack on Ukraine without becoming entirely dependent on American capacity.",
+            "In parallel, security experts reported that Slovakia was used as a base for a sabotage network linked to Russia's GRU military intelligence service, targeting Europe's defense industry and supply routes to Ukraine.",
+            "The combination of Russian sabotage and European rearmament efforts underscores that EU defense buildup is taking place under active hostile pressure."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Germany, as Europe's largest economy and significant defense manufacturing location, is directly affected by joint EU defense projects."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The approval of the first joint defense projects is a structurally significant step for European defense integration."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission welcomes Member States' endorsement of five joint European defence projects",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1990",
+              "publishedAt": "2026-09-28T07:56:56Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Listen: Can EU countries agree on the next long-term budget?",
+              "url": "https://euobserver.com/240175/listen-can-eu-countries-agree-on-the-next-long-term-budget",
+              "publishedAt": "2026-09-29T08:43:39Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
