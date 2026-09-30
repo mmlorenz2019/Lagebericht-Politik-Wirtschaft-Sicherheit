@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-30",
+  "generatedAt": "2026-09-30T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Jack Smith Defends Trump Investigations Before Senate",
+          "summaryDe": [
+            "Former Special Counsel Jack Smith testified before the Senate in defense of his criminal prosecution of President Trump – confronting sharp questioning from Republican senators who have characterized the investigations into 2020 election-related events and classified documents handling as politically motivated.",
+            "Smith vigorously rejected these allegations, emphasizing that the investigations were driven exclusively by legal considerations.",
+            "The hearing illustrates how deep institutional rifts in Washington have become: what appears to be a procedural matter has long since become a battleground of the culture war between the two party camps.",
+            "The session is likely to have repercussions for the credibility of the judiciary and the political climate heading into the midterm elections."
+          ],
+          "additionalImportant": "Montana has become one of the first states to implement work requirements for Medicaid recipients – a development triggering significant uncertainty among patients.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "The Senate hearing is a domestic U.S. matter with no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The public confrontation between special counsel and Senate is domestically significant and illuminates ongoing polarization within the U.S. legal system."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "public",
+              "titleOriginal": "During Senate hearing, Jack Smith defends criminal investigations of Trump",
+              "url": "https://www.pbs.org/newshour/show/during-senate-hearing-jack-smith-defends-criminal-investigations-of-trump",
+              "publishedAt": "2026-09-29T22:50:28Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump Announces Voluntary AI Code of Conduct for U.S. Tech Firms",
+          "summaryDe": [
+            "Six of the largest U.S. technology companies have signed a voluntary agreement for self-regulation of their AI development – announced by President Trump, who simultaneously rejects government-mandated regulation.",
+            "In the process, Trump explicitly refused collaboration with China on AI safety issues in order not to jeopardize the U.S. technological edge.",
+            "Critics, including AI researcher Gary Marcus, view self-regulation as insufficient and call for binding legislative requirements.",
+            "This tension between economic freedom to innovate and security requirements is now shaping the global AI debate – with particular regard to Europe, which has already introduced binding rules."
+          ],
+          "additionalImportant": "Ford CEO Jim Farley warns that it is \"too late\" for Europe to stop Chinese automakers – but not for the U.S. The statement causes a stir shortly after Xi's Washington visit.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As an AI regulation venue and export economy, Germany is directly affected by the U.S. stance on AI safety and Chinese competitors."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "The largest economy's decision against binding AI regulation significantly influences the global standards debate."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Trump says top tech firms have signed accord to 'self-police' AI development",
+              "url": "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development",
+              "publishedAt": "2026-09-30T06:54:43Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "business news",
+              "titleOriginal": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not for U.S.",
+              "url": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
+              "publishedAt": "2026-09-29T21:08:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "U.S. Military Withdrawal from Iraq Completed After 23 Years",
+          "summaryDe": [
+            "After more than two decades of military presence, the United States has completed its full troop withdrawal from Iraq – a step that evokes mixed feelings within Iraq itself: relief at the end of occupation, but also concern about the vacuum left behind.",
+            "The withdrawal follows the 2003 invasion and years of asymmetric conflict that have fundamentally transformed the country.",
+            "Observers question whether the Iraqi government is capable of ensuring stability without U.S. military support – especially given continued Iranian influence.",
+            "In parallel, Poland and NATO allies warn of increasing Russian provocations along the eastern flank, while Estonia formally accuses Russia of sabotage."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "The Iraq withdrawal has indirect relevance for Germany as a NATO partner and potential actor in future regional stabilization."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The end of the U.S. military presence in Iraq after 23 years is a geopolitical turning point with far-reaching consequences for order in the Middle East."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "public broadcasting",
+              "titleOriginal": "Foster care often fails kids with disabilities. Consider these cases",
+              "url": "https://www.npr.org/2026/09/30/nx-s1-5534203/foster-care-disabilities-children-bad-outcomes",
+              "publishedAt": "2026-09-30T09:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "China's Broadcasting Authority Regulates AI-Produced Short Dramas",
+          "summaryDe": [
+            "China's broadcasting authority has enacted new guidelines for the booming microdramas industry, aimed at promoting live-action film production and stricter copyright protection – a response to the rapid rise of AI-generated content.",
+            "Behind the regulatory measure lies a broader concern: the authority aims to prevent algorithmically optimized mass-produced content from displacing cultural assets.",
+            "For international streaming providers and platforms active in the Chinese market, the new requirements could have consequences.",
+            "The measure fits into China's broader strategy to politically and culturally steer digital content."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "China's regulation of domestic media has no direct bearing on Germany."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The regulation is domestically relevant and demonstrates China's active intervention in AI-driven media development, but remains regionally limited."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Slow is beautiful: China launches war against AI drama, goes beyond algorithms",
+              "url": "https://www.scmp.com/news/china/politics/article/3369183/slow-beautiful-china-launches-war-against-ai-drama-goes-beyond-algorithms",
+              "publishedAt": "2026-09-30T04:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Xi-Trump Summit: Trade Truce Extended, AI Dialogue Agreed – Yet Rifts Remain",
+          "summaryDe": [
+            "Following Xi's three-day state visit to Washington, both sides have announced a two-month extension of the trade truce and the establishment of a formal AI dialogue mechanism – yet analysts emphasize that fundamental economic disputes remain unresolved.",
+            "In parallel, President Trump publicly rejected any collaboration with China on AI security despite the summit results, illustrating the contradiction between diplomatic gesture and technological competition.",
+            "Shortly beforehand, Nvidia CEO Jensen Huang had advocated for improved mutual understanding of risks; Beijing-linked think tanks also recommend first developing a common language for AI risks before tackling deeper rivalries.",
+            "For Europe and Germany, which are sharpening their own trade strategies toward China, this fragile status quo creates considerable planning uncertainty."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "A fragile U.S.-China trade truce amid unresolved fundamental conflicts directly influences export conditions and strategic calculations for German industry."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "The relationship between the two largest economies determines global trade and technology order; a fractured compromise has systemic impact."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "US-China trade truce remains 'fragile' after Xi-Trump summit, analysts say",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369263/us-china-trade-truce-remains-fragile-after-xi-trump-summit-analysts-say",
+              "publishedAt": "2026-09-30T01:30:21Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "'Hold the status quo'? US Congress reviews Xi-Trump summit outcomes",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369261/hold-status-quo-us-congress-members-review-xi-trump-summit",
+              "publishedAt": "2026-09-30T01:01:52Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "'Important and consequential': Nvidia's Jensen Huang on US-China AI race, risk management",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369150/important-and-consequential-nvidias-jensen-huang-us-china-ai-race-risk-management",
+              "publishedAt": "2026-09-29T05:20:17Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China Opens Air Force Base in Laos and Expands Satellite Standards for Military Applications",
+          "summaryDe": [
+            "China has inaugurated a training and support center for the Laotian air force – its third known overseas military facility, further expanding Beijing's regional presence in Southeast Asia.",
+            "Simultaneously, Chinese researchers are developing standards for autonomous satellite coordination and data sharing that analysts say could enhance the People's Liberation Army's target acquisition capabilities and network resilience.",
+            "Both developments coincide with the U.S. Navy simultaneously establishing its own drone command center explicitly oriented toward possible Taiwan conflict scenarios.",
+            "The convergence of these steps signals accelerated militarization of technological and geographic space across the entire Indo-Pacific region."
+          ],
+          "additionalImportant": "Taiwan plans spending of over 850 million U.S. dollars to quadruple critical ammunition reserves to 120 days – a direct response to the risk of a PLA blockade.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "China's military expansion in Southeast Asia indirectly touches German interests in regional stability and freedom of sea trade."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "China's growing overseas military presence and Taiwan's parallel military buildup signal structural escalation in the Indo-Pacific region."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "China takes strategic military step overseas with new Laos air force centre",
+              "url": "https://www.scmp.com/news/china/military/article/3369253/china-expands-overseas-military-presence-new-laos-air-force-centre",
+              "publishedAt": "2026-09-29T19:08:41Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Can China's new satellite coordination standards boost PLA targeting and resilience?",
+              "url": "https://www.scmp.com/news/china/military/article/3369099/can-chinas-new-satellite-coordination-standards-boost-pla-targeting-and-resilience",
+              "publishedAt": "2026-09-29T10:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "Taiwan plans US$850 million ammunition spend to prepare for potential PLA blockade",
+              "url": "https://www.scmp.com/news/china/military/article/3369212/taiwan-plans-us850-million-ammunition-spend-prepare-potential-pla-blockade",
+              "publishedAt": "2026-09-30T02:00:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russian Citizens Implicated in Smuggling and Money Laundering Network – Additional Apartment Discovered",
+          "summaryDe": [
+            "Investigators have secured another apartment in Montenegro used by Russian citizens suspected of smuggling and money laundering.",
+            "The discovery is part of an ongoing investigation showing how deeply entrenched criminal networks with Russian connections are in Montenegro.",
+            "For a country that is a NATO member and conducting EU accession negotiations, such cases are particularly sensitive – they touch on the question of how consistently rule of law and criminal prosecution are enforced across borders.",
+            "In parallel, investigations are examining how Montenegrin actors were involved in election interference operations in Serbia, a finding that thickens the picture of a regionally interwoven network of influence and criminality."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "As a NATO member and EU accession candidate, Montenegro has indirect significance for Germany; Russian networks in the Western Balkans are a European security matter."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The discovery is regionally significant and illustrates continued Russian influence in the Western Balkans, but remains limited in its immediate impact."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Pronađen još jedan stan koji su koristili ruski državljani osumnjičeni za krijumčarenje i pranje novca",
+              "url": "https://www.pobjeda.me/clanak/pronaden-jos-jedan-stan-koji-su-koristili-ruski-drzavljani-osumnjiceni-za-krijumcarenje-i-pranje-novca",
+              "publishedAt": "2026-09-29T14:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Von der Leyen Visits Montenegro and Signals Closer Ties to EU Single Market",
+          "summaryDe": [
+            "EU Commission President Ursula von der Leyen will travel on October 1-2 to Montenegro, where she will meet President Milatović and Prime Minister Spajić and inaugurate a new national border police coordination center.",
+            "The visit comes at a moment when the EU offers accession candidates access to the single market – yet tied to compliance with democratic standards and the refusal to share sensitive technologies with states deemed unfriendly.",
+            "For Montenegro, which has stalled on the accession path for years, this is a potentially significant signal – though the concrete conditions will be decisive.",
+            "The visit shows that Brussels continues to treat the Western Balkans as a strategic priority despite internal budget discussions."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "EU enlargement policy toward the Western Balkans has indirect strategic and economic relevance for Germany as the largest EU member."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Von der Leyen's visit affirms EU engagement in the Western Balkans, though its immediate consequences remain unclear."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "Montenegrin daily newspaper",
+              "titleOriginal": "Sudar vodećih na „DG areni",
+              "url": "https://www.pobjeda.me/clanak/sudar-vodecih-na-dg-areni",
+              "publishedAt": "2026-09-30T09:45:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "independent daily news",
+              "titleOriginal": "U Podgorici uhapšen državljanin Švedske sa međunarodne potjernice",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/829083/u-podgorici-uhapsen-drzavljanin-svedske-sa-medjunarodne-potjernice",
+              "publishedAt": "2026-09-30T09:51:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EPP Demands Asylum Exemptions – and London Speculates on EU Rejoining",
+          "summaryDe": [
+            "The Christian Democratic EPP parliamentary group is pushing for individual opt-out options for EU member states in asylum law, while the Commission appears to deliberately keep new crisis rules vague.",
+            "The push follows sustained migration pressure and stands in direct contradiction to the Common European Asylum System, painstakingly negotiated and only completed in 2024.",
+            "While Brussels quarrels over exemptions from common standards, London is making headlines: British Prime Minister Andy Burnham did not rule out Labour seriously considering the question of EU rejoining.",
+            "The two developments – disintegration pressure from within, rapprochement signals from without – illustrate the contradictory forces the EU currently faces."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the most populous EU member with a high share of asylum seekers, Germany is directly affected by changes to European asylum law."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Opt-out demands on asylum law would fundamentally call into question the painstakingly agreed-upon EU asylum system."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "EU's centre-right EPP seeks asylum opt-outs, as commission silent on new crisis rules",
+              "url": "https://euobserver.com/240238/eus-centre-right-epp-seeks-asylum-opt-outs-as-commission-silent-on-new-crisis-rules",
+              "publishedAt": "2026-09-29T14:03:30Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "cross-border",
+              "titleOriginal": "UK's Burnham says he'll consider push to rejoin EU",
+              "url": "https://www.politico.eu/article/andy-burnham-reconsider-push-rejoin-eu",
+              "publishedAt": "2026-09-30T06:30:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU Commission Proposes Security Communication System for First Responders – Erasmus+ to Be Increased to 47 Billion Euros",
+          "summaryDe": [
+            "The EU Commission has put forward a proposal for a European crisis communication system enabling fire departments, police, and emergency services to communicate securely across national borders.",
+            "In parallel, the European Parliament voted to increase the Erasmus+ budget from 40 to 47 billion euros – despite resistance from so-called frugal member states seeking to cut the overall EU budget.",
+            "Both decisions fall within an ongoing and contentious debate over the next EU multiannual financial framework, in which member states dispute new own resources and program cuts.",
+            "For Germany as the largest net contributor, the budget decisions have immediate fiscal significance."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "As the largest net contributor, Germany is directly affected by decisions on EU budget allocation and new joint programs."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "The proposals are institutionally relevant but part of routine processes in the EU budget procedure."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutional perspective",
+              "titleOriginal": "Commission proposes a new EU Critical Communication System for first responders",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2008",
+              "publishedAt": "2026-09-29T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "MEPs vote for €47bn in new Erasmus+ funds, as frugal states seek cuts to EU budget",
+              "url": "https://euobserver.com/240375/meps-vote-for-e47bn-in-new-erasmus-funds-as-frugal-states-seek-cuts-to-eu-budget",
+              "publishedAt": "2026-09-29T15:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "GRU Network Sabotaged Defense Supply Chains from Slovakia – Russia Strikes Kyiv Research Facility",
+          "summaryDe": [
+            "A sabotage network controlled by Russia's military intelligence service GRU has attacked European defense enterprises, airports, and supply routes for Ukraine from Slovakia – with operations that extended into Germany.",
+            "Simultaneously, a Russian strike hit a research institute in Kyiv: researchers escaped burning buildings as a Russian drone detonated 200 meters from the EU embassy building.",
+            "The EU and Germany now face a dual threat – covert sabotage operations on their own territory and direct attacks on partner infrastructure in Ukraine.",
+            "Brussels is working in parallel to harden its fragmented cyber and security architecture, yet the incidents show how real and immediate the threat landscape already is."
+          ],
+          "additionalImportant": "The EU and Germany are preparing for a critical October window to sharpen new trade instruments against Chinese practices – another foreign policy pressure point alongside the Russia threat.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "GRU sabotage operations demonstrably reaching into Germany constitute an immediate threat to German security interests and critical infrastructure."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "A state-controlled sabotage network attacking European defense infrastructure from EU territory is a systemic security threat to the entire EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "From Yemen to Ethiopia and Europe: Everything is connected",
+              "url": "https://euobserver.com/240101/from-yemen-to-ethiopia-and-europe-everything-is-connected",
+              "publishedAt": "2026-09-28T18:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "independent EU journalism",
+              "titleOriginal": "Scientists flee burning building in Kyiv's mini-9/11, as Russian drone also explodes 200m from EU embassy (Ukraine Battlefield update, Day 1,678)",
+              "url": "https://euobserver.com/240246/scientists-flee-burning-building-in-kyivs-mini-9-11-as-russian-drone-also-explodes-200m-from-eu-embassy-ukraine-battlefield-update-day-1678",
+              "publishedAt": "2026-09-29T13:48:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hong Kong/regional perspective",
+              "titleOriginal": "EU weighs sweeping new trade powers against China before make-or-break October",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october",
+              "publishedAt": "2026-09-30T08:00:14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

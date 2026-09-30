@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-09-30",
+  "generatedAt": "2026-09-30T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Jack Smith verteidigt Trump-Ermittlungen vor dem Senat",
+          "summaryDe": [
+            "Der frühere Sonderermittler Jack Smith hat im Senat seine Strafverfolgung von Präsident Trump öffentlich verteidigt – und sich dabei scharfen Fragen republikanischer Senatoren gestellt, die die Ermittlungen zu den Ereignissen rund um die Wahl 2020 und den Umgang mit Verschlusssachen als politisch motiviert bezeichnen.",
+            "Smith widersprach diesem Vorwurf entschieden und betonte, die Ermittlungen seien ausschließlich von rechtlichen Erwägungen geleitet worden.",
+            "Die Anhörung zeigt, wie tief die institutionellen Risse in Washington inzwischen reichen: Was nach einer Verfahrensfrage aussieht, ist längst ein Schauplatz des Kulturkampfs zwischen beiden Parteilagern.",
+            "Für die Glaubwürdigkeit der Justiz und die politische Stimmung vor den Zwischenwahlen dürfte die Sitzung Nachwirkungen haben."
+          ],
+          "additionalImportant": "Montana beginnt als einer der ersten Bundesstaaten Arbeitspflichten für Medicaid-Empfänger zu vollziehen – eine Entwicklung, die erhebliche Unsicherheit bei Patienten auslöst.",
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Senatsanhörung ist eine innenpolitische US-Angelegenheit ohne direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die öffentliche Konfrontation zwischen Sonderermittler und Senat ist innenpolitisch bedeutsam und beleuchtet die anhaltende Polarisierung im US-Rechtssystem."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "type": "öffentlich",
+              "titleOriginal": "During Senate hearing, Jack Smith defends criminal investigations of Trump",
+              "url": "https://www.pbs.org/newshour/show/during-senate-hearing-jack-smith-defends-criminal-investigations-of-trump",
+              "publishedAt": "2026-09-29T22:50:28Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Trump kündigt freiwilligen KI-Verhaltenskodex für US-Techkonzerne an",
+          "summaryDe": [
+            "Sechs der größten US-Technologieunternehmen haben eine freiwillige Vereinbarung zur Selbstregulierung ihrer KI-Entwicklung unterzeichnet – angekündigt von Präsident Trump, der gleichzeitig eine staatlich vorgeschriebene Regulierung ablehnt.",
+            "Dabei lehnte Trump explizit Zusammenarbeit mit China in Fragen der KI-Sicherheit ab, um den technologischen Vorsprung der USA nicht zu gefährden.",
+            "Kritiker, darunter KI-Forscher Gary Marcus, halten Selbstregulierung für unzureichend und fordern verbindliche gesetzliche Vorgaben.",
+            "Diese Spannung zwischen wirtschaftlicher Innovationsfreiheit und Sicherheitsanforderungen prägt gerade die globale KI-Debatte – auch mit Blick auf Europa, das bereits verbindliche Regeln eingeführt hat."
+          ],
+          "additionalImportant": "Ford-Chef Jim Farley warnt, es sei für Europa \"zu spät\", chinesische Autobauer aufzuhalten – für die USA gelte das noch nicht. Die Aussage sorgt für Aufsehen kurz nach Xis Washington-Besuch.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Als KI-Regulierungsstandort und Exportwirtschaft ist Deutschland von der US-Haltung zur KI-Sicherheit und zu chinesischen Wettbewerbern konkret betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Entscheidung der größten Volkswirtschaft gegen verbindliche KI-Regulierung beeinflusst die globale Normendebatte erheblich."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Trump says top tech firms have signed accord to 'self-police' AI development",
+              "url": "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development",
+              "publishedAt": "2026-09-30T06:54:43Z"
+            },
+            {
+              "name": "CNBC",
+              "type": "Wirtschaftsmedium",
+              "titleOriginal": "Ford CEO says it's 'too late' for Europe to fend off Chinese automakers, but not for U.S.",
+              "url": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
+              "publishedAt": "2026-09-29T21:08:05Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "US-Truppenabzug aus dem Irak nach 23 Jahren abgeschlossen",
+          "summaryDe": [
+            "Nach mehr als zwei Jahrzehnten militärischer Präsenz haben die USA ihren Truppenabzug aus dem Irak vollständig abgeschlossen – ein Schritt, der im Irak selbst gemischte Gefühle auslöst: Erleichterung über das Ende der Besatzung, aber auch Sorge über das Vakuum, das zurückbleibt.",
+            "Der Abzug folgt dem Einmarsch von 2003 und Jahren asymmetrischer Konflikte, die das Land grundlegend verändert haben.",
+            "Beobachter fragen, inwieweit die irakische Regierung in der Lage ist, Stabilität ohne US-Militärunterstützung zu gewährleisten – vor allem angesichts fortgesetzter iranischer Einflussnahme.",
+            "Parallel warnen Polen und NATO-Partner vor zunehmenden russischen Provokationen entlang der Ostflanke, während Estland Russland formell des Sabotageakts beschuldigt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Der Irak-Abzug hat indirekte Relevanz für Deutschland als NATO-Partner und möglichen Akteur bei künftiger Stabilisierung der Region."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das Ende der US-Militärpräsenz im Irak nach 23 Jahren ist ein geopolitischer Einschnitt mit weitreichenden Folgen für die Ordnung im Nahen Osten."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "NPR",
+              "type": "öffentlich-rechtlich",
+              "titleOriginal": "Foster care often fails kids with disabilities. Consider these cases",
+              "url": "https://www.npr.org/2026/09/30/nx-s1-5534203/foster-care-disabilities-children-bad-outcomes",
+              "publishedAt": "2026-09-30T09:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Chinas Rundfunkbehörde reguliert KI-produzierte Kurzdramen",
+          "summaryDe": [
+            "Die chinesische Rundfunkbehörde hat neue Leitlinien für die boomende Mikrodramen-Branche verabschiedet, die auf eine Förderung von Realfilm-Produktionen und strengeren Urheberrechtsschutz abzielen – als Reaktion auf den rasanten Aufstieg KI-generierter Inhalte.",
+            "Hinter dem regulatorischen Schritt steckt ein breiteres Anliegen: Die Behörde will verhindern, dass algorithmisch optimierte Massenware das Kulturgut verdrängt.",
+            "Für internationale Streaming-Anbieter und Plattformen, die auf dem chinesischen Markt aktiv sind, könnten die neuen Vorgaben Konsequenzen haben.",
+            "Die Maßnahme reiht sich in Chinas umfassendere Strategie ein, digitale Inhalte politisch und kulturell zu steuern."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die chinesische Regulierung von Inlandsmedien hat keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Regulierung ist innenpolitisch relevant und zeigt Chinas aktiven Eingriff in KI-getriebene Medienentwicklung, bleibt aber regional begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Slow is beautiful: China launches war against AI drama, goes beyond algorithms",
+              "url": "https://www.scmp.com/news/china/politics/article/3369183/slow-beautiful-china-launches-war-against-ai-drama-goes-beyond-algorithms",
+              "publishedAt": "2026-09-30T04:00:08Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel: Handelswaffenstillstand verlängert, KI-Dialog vereinbart – doch Brüche bleiben",
+          "summaryDe": [
+            "Nach Xis dreitägigem Staatsbesuch in Washington haben beide Seiten eine zweimonatige Verlängerung des Handelswaffenstillstands sowie die Einrichtung eines formellen KI-Dialogmechanismus verkündet – doch Analysten betonen, die fundamentalen wirtschaftlichen Streitpunkte seien ungelöst geblieben.",
+            "Parallel lehnte Präsident Trump trotz der Gipfelergebnisse jede Zusammenarbeit mit China in der KI-Sicherheit öffentlich ab, was den Widerspruch zwischen diplomatischer Geste und technologischem Wettbewerb verdeutlicht.",
+            "Nvidia-Chef Jensen Huang hatte kurz zuvor für verbessertes gegenseitiges Risikoverständnis geworben; Beijing-nahe Denkfabriken empfehlen ebenfalls, zunächst eine gemeinsame Sprache für KI-Risiken zu entwickeln, bevor tiefere Rivalitäten angegangen werden.",
+            "Für Europa und Deutschland, die eigene Handelsstrategien gegenüber China schärfen, schafft dieser fragile Status quo erhebliche Planungsunsicherheit."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Ein fragiler US-China-Handelswaffenstillstand bei gleichzeitig ungeklärten Grundkonflikten beeinflusst direkt die Exportbedingungen und strategischen Kalkulationen der deutschen Wirtschaft."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das Verhältnis zwischen den beiden größten Volkswirtschaften bestimmt globale Handels- und Technologieordnung; ein brüchiger Kompromiss hat systemische Wirkung."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US-China trade truce remains 'fragile' after Xi-Trump summit, analysts say",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369263/us-china-trade-truce-remains-fragile-after-xi-trump-summit-analysts-say",
+              "publishedAt": "2026-09-30T01:30:21Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "'Hold the status quo'? US Congress reviews Xi-Trump summit outcomes",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369261/hold-status-quo-us-congress-members-review-xi-trump-summit",
+              "publishedAt": "2026-09-30T01:01:52Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "'Important and consequential': Nvidia's Jensen Huang on US-China AI race, risk management",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369150/important-and-consequential-nvidias-jensen-huang-us-china-ai-race-risk-management",
+              "publishedAt": "2026-09-29T05:20:17Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "China eröffnet Luftwaffenstützpunkt in Laos und baut Satelliten-Standards für militärische Anwendungen aus",
+          "summaryDe": [
+            "China hat in Laos ein Ausbildungs- und Unterstützungszentrum für die laotische Luftwaffe eingeweiht – seinen dritten bekannten Militärposten im Ausland, der Pekings regionale Präsenz in Südostasien weiter ausweitet.",
+            "Gleichzeitig erarbeiten chinesische Forscher Standards für autonome Satelliten-Koordination und Datenteilung, die Analysten zufolge die Zielerfassungskapazitäten der Volksbefreiungsarmee sowie die Resilienz ihrer Netze stärken könnten.",
+            "Beide Entwicklungen fallen in eine Phase, in der die US Navy zeitgleich ein eigenes Drohnen-Kommandozentrum eingerichtet hat, das explizit auf Szenarien eines möglichen Konflikts um Taiwan ausgerichtet ist.",
+            "Das Zusammentreffen dieser Schritte signalisiert eine beschleunigte Militarisierung des technologischen und geographischen Raums in der gesamten indo-pazifischen Region."
+          ],
+          "additionalImportant": "Taiwan plant Ausgaben von über 850 Millionen US-Dollar, um kritische Munitionsvorräte auf 120 Tage zu vervierfachen – als direkte Reaktion auf das Risiko einer PLA-Blockade.",
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die militärische Expansion Chinas in Südostasien berührt indirekt deutsche Interessen an regionaler Stabilität und freiem Seehandel."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Chinas wachsende Auslandsmilitärpräsenz und die parallele Aufrüstung Taiwans deuten auf eine strukturelle Eskalation im indo-pazifischen Raum hin."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "China takes strategic military step overseas with new Laos air force centre",
+              "url": "https://www.scmp.com/news/china/military/article/3369253/china-expands-overseas-military-presence-new-laos-air-force-centre",
+              "publishedAt": "2026-09-29T19:08:41Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Can China's new satellite coordination standards boost PLA targeting and resilience?",
+              "url": "https://www.scmp.com/news/china/military/article/3369099/can-chinas-new-satellite-coordination-standards-boost-pla-targeting-and-resilience",
+              "publishedAt": "2026-09-29T10:00:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Taiwan plans US$850 million ammunition spend to prepare for potential PLA blockade",
+              "url": "https://www.scmp.com/news/china/military/article/3369212/taiwan-plans-us850-million-ammunition-spend-prepare-potential-pla-blockade",
+              "publishedAt": "2026-09-30T02:00:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Russische Staatsbürger in Schmuggel- und Geldwäschenetz verstrickt – weitere Wohnung entdeckt",
+          "summaryDe": [
+            "Ermittler haben in Montenegro eine weitere Wohnung sichergestellt, die von russischen Staatsbürgern genutzt wurde, die wegen Schmuggels und Geldwäsche unter Verdacht stehen.",
+            "Der Fund ist Teil einer laufenden Untersuchung, die zeigt, wie tief kriminelle Netzwerke mit Russland-Bezug in Montenegro verankert sind.",
+            "Für ein Land, das NATO-Mitglied ist und EU-Beitrittsverhandlungen führt, sind solche Fälle besonders brisant – sie berühren die Frage, wie konsequent Rechtsstaatlichkeit und Strafverfolgung grenzübergreifend durchgesetzt werden.",
+            "Parallel wird untersucht, wie montenegrinische Akteure in Wahlbeeinflussungsoperationen in Serbien involviert waren, was das Bild eines regional verwobenen Einfluss- und Kriminalitätsnetzwerks verdichtet."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Als NATO-Mitglied und EU-Beitrittskandidat hat Montenegro indirekte Bedeutung für Deutschland; russische Netzwerke im Westbalkan sind ein europäisches Sicherheitsthema."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der Fund ist regional bedeutsam und illustriert den anhaltenden russischen Einfluss auf dem Westbalkan, bleibt aber in seiner unmittelbaren Wirkung begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Pronađen još jedan stan koji su koristili ruski državljani osumnjičeni za krijumčarenje i pranje novca",
+              "url": "https://www.pobjeda.me/clanak/pronaden-jos-jedan-stan-koji-su-koristili-ruski-drzavljani-osumnjiceni-za-krijumcarenje-i-pranje-novca",
+              "publishedAt": "2026-09-29T14:50:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Von der Leyen besucht Montenegro und signalisiert Annäherung an den EU-Binnenmarkt",
+          "summaryDe": [
+            "EU-Kommissionspräsidentin Ursula von der Leyen reist am 1. und 2. Oktober nach Montenegro, wo sie Präsident Milatović und Premier Spajić trifft sowie ein neues nationales Grenzpolizei-Koordinationszentrum eröffnet.",
+            "Der Besuch fällt in einen Moment, in dem die EU Beitrittskandidaten Zugang zum Binnenmarkt anbietet – allerdings geknüpft an die Einhaltung demokratischer Standards und die Weigerung, sensible Technologien mit als unfreundlich eingestuften Staaten zu teilen.",
+            "Für Montenegro, das seit Jahren auf dem Beitrittspfad stagniert, ist das ein potenziell bedeutsames Signal – die konkreten Bedingungen werden jedoch entscheidend sein.",
+            "Der Besuch zeigt, dass Brüssel den Westbalkan trotz interner Haushaltsdiskussionen weiter als strategische Priorität behandelt."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Die EU-Erweiterungspolitik gegenüber dem Westbalkan hat für Deutschland als größtem EU-Mitglied indirekte strategische und wirtschaftliche Relevanz."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Von der Leyens Besuch bekräftigt das EU-Engagement im Westbalkan, bleibt aber in seinen unmittelbaren Konsequenzen noch unbestimmt."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Sudar vodećih na „DG areni",
+              "url": "https://www.pobjeda.me/clanak/sudar-vodecih-na-dg-areni",
+              "publishedAt": "2026-09-30T09:45:00Z"
+            },
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "U Podgorici uhapšen državljanin Švedske sa međunarodne potjernice",
+              "url": "https://www.vijesti.me/vijesti/crna-hronika/829083/u-podgorici-uhapsen-drzavljanin-svedske-sa-medjunarodne-potjernice",
+              "publishedAt": "2026-09-30T09:51:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EPP fordert Asylausnahmen – und London spekuliert über EU-Wiederbeitritt",
+          "summaryDe": [
+            "Die christdemokratische EVP-Fraktion drängt auf individuelle Opt-out-Möglichkeiten für EU-Mitgliedstaaten beim Asylrecht, während die Kommission neue Krisenregeln offenbar bewusst vage hält.",
+            "Der Vorstoß folgt auf anhaltenden Migrationsdruck und steht in direktem Widerspruch zu dem mühsam ausgehandelten Gemeinsamen Europäischen Asylsystem, das erst 2024 abgeschlossen wurde.",
+            "Während in Brüssel über Ausnahmen vom Gemeinsamen gestritten wird, sorgt in London Großbritanniens Premierminister Andy Burnham für Aufsehen: Er schloss nicht aus, dass Labour die Frage eines EU-Wiederbeitritts ernsthaft prüfen könnte.",
+            "Die beiden Entwicklungen – Desintegrationsdruck von innen, Annäherungssignale von außen – illustrieren die widersprüchlichen Kräfte, denen die EU derzeit ausgesetzt ist."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland als bevölkerungsreichstes EU-Mitglied mit hohem Anteil an Asylbewerbern ist von Änderungen im europäischen Asylrecht unmittelbar betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Opt-out-Forderungen beim Asylrecht würden das mühsam vereinbarte EU-Asylsystem grundlegend in Frage stellen."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU's centre-right EPP seeks asylum opt-outs, as commission silent on new crisis rules",
+              "url": "https://euobserver.com/240238/eus-centre-right-epp-seeks-asylum-opt-outs-as-commission-silent-on-new-crisis-rules",
+              "publishedAt": "2026-09-29T14:03:30Z"
+            },
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "UK's Burnham says he'll consider push to rejoin EU",
+              "url": "https://www.politico.eu/article/andy-burnham-reconsider-push-rejoin-eu",
+              "publishedAt": "2026-09-30T06:30:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "EU-Kommission schlägt Sicherheitskommunikationssystem für Ersthelfer vor – Erasmus+ soll auf 47 Milliarden Euro aufgestockt werden",
+          "summaryDe": [
+            "Die EU-Kommission hat einen Vorschlag für ein europäisches Krisenkommunikationssystem vorgelegt, das Feuerwehren, Polizei und Rettungsdiensten über Ländergrenzen hinweg sichere Kommunikation ermöglichen soll.",
+            "Parallel stimmte das Europaparlament für eine Erhöhung des Erasmus+-Budgets von 40 auf 47 Milliarden Euro – trotz Widerstand sogenannter sparsamer Mitgliedstaaten, die den EU-Gesamthaushalt kürzen wollen.",
+            "Beide Entscheidungen fallen in eine laufende und zähe Debatte über den nächsten mehrjährigen EU-Finanzrahmen, bei dem Mitgliedstaaten über neue Eigenmittel und Programmkürzungen streiten.",
+            "Für Deutschland als größtem Nettozahler sind die Haushaltsentscheide von unmittelbarer fiskalischer Bedeutung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Als größter Nettozahler ist Deutschland direkt von Entscheidungen über EU-Haushaltsmittel und neue Gemeinschaftsprogramme betroffen."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Vorschläge sind institutionell relevant, aber Teil laufender Routineprozesse im EU-Haushaltsverfahren."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "Europäische Kommission – Pressestelle",
+              "type": "institutionelle Perspektive",
+              "titleOriginal": "Commission proposes a new EU Critical Communication System for first responders",
+              "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2008",
+              "publishedAt": "2026-09-29T22:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "MEPs vote for €47bn in new Erasmus+ funds, as frugal states seek cuts to EU budget",
+              "url": "https://euobserver.com/240375/meps-vote-for-e47bn-in-new-erasmus-funds-as-frugal-states-seek-cuts-to-eu-budget",
+              "publishedAt": "2026-09-29T15:54:11Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "GRU-Netzwerk sabotierte Rüstungslieferketten aus der Slowakei heraus – Russland greift Kiewer Forschungseinrichtung an",
+          "summaryDe": [
+            "Ein vom russischen Militärgeheimdienst GRU gesteuertes Sabotagenetzwerk hat von der Slowakei aus europäische Rüstungsbetriebe, Flughäfen und Nachschubwege für die Ukraine angegriffen – mit Operationen, die bis nach Deutschland reichten.",
+            "Zeitgleich traf ein russischer Angriff ein Wissenschaftsinstitut in Kiew: Forscher entkamen brennenden Gebäuden, eine russische Drohne detonierte 200 Meter vom EU-Botschaftsgebäude entfernt.",
+            "EU und Deutschland stehen damit vor einer doppelten Bedrohung – einerseits durch verdeckte Sabotageakte im eigenen Territorium, andererseits durch direkte Angriffe auf Partner-Infrastruktur in der Ukraine.",
+            "Brüssel arbeitet parallel an der Härtung seiner fragmentierten Cyber- und Sicherheitsarchitektur, doch die Vorfälle zeigen, wie real und unmittelbar die Bedrohungslage bereits ist."
+          ],
+          "additionalImportant": "EU und Deutschland bereiten sich auf ein kritisches Oktober-Fenster vor, um neue Handelsinstrumente gegen Chinas Praktiken zu schärfen – ein weiteres außenpolitisches Druckfeld neben der Russland-Bedrohung.",
+          "germanyRelevance": {
+            "score": 3,
+            "reasonDe": "Sabotageoperationen des GRU, die nachweislich bis nach Deutschland reichen, stellen eine unmittelbare Bedrohung für deutsche Sicherheitsinteressen und kritische Infrastruktur dar."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Ein staatlich gesteuertes Sabotagenetzwerk, das europäische Rüstungsinfrastruktur von EU-Territorium aus angreift, ist eine systemische Sicherheitsbedrohung für die gesamte EU."
+          },
+          "sourceBasis": "multiple",
+          "limitations": [],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "From Yemen to Ethiopia and Europe: Everything is connected",
+              "url": "https://euobserver.com/240101/from-yemen-to-ethiopia-and-europe-everything-is-connected",
+              "publishedAt": "2026-09-28T18:00:00Z"
+            },
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Scientists flee burning building in Kyiv's mini-9/11, as Russian drone also explodes 200m from EU embassy (Ukraine Battlefield update, Day 1,678)",
+              "url": "https://euobserver.com/240246/scientists-flee-burning-building-in-kyivs-mini-9-11-as-russian-drone-also-explodes-200m-from-eu-embassy-ukraine-battlefield-update-day-1678",
+              "publishedAt": "2026-09-29T13:48:09Z"
+            },
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "EU weighs sweeping new trade powers against China before make-or-break October",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october",
+              "publishedAt": "2026-09-30T08:00:14Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
