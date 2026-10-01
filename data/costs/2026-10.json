@@ -6,7 +6,7 @@
   "estimatedCostUsd": 2.33694,
   "estimatedCostEur": 2.051834,
   "budgetPercent": 41.0,
-  "unmeasuredCalls": 1,
+  "unmeasuredCalls": 2,
   "collectionStartedAt": "2026-08-03T00:00:00+02:00",
   "priceVersion": "anthropic-2026-08-03",
   "rate": {
@@ -153,6 +153,18 @@
     {
       "eventId": "ad02f2c75fa5a22280a9bb52e046cafb65ce93651d2f693922eed96598212b79",
       "occurredAt": "2026-10-01T14:44:10.209503+00:00",
+      "reportType": "month",
+      "reportId": "2026-09",
+      "model": "claude-sonnet-4-6",
+      "outcome": "transport_error",
+      "measured": false,
+      "usage": null,
+      "estimatedCostUsd": null,
+      "estimatedCostEur": null
+    },
+    {
+      "eventId": "2ff05117289d16d247b7f658b5a951694d0385d11d8f1d8869bcf6529f3e1484",
+      "occurredAt": "2026-10-01T16:42:37.996243+00:00",
       "reportType": "month",
       "reportId": "2026-09",
       "model": "claude-sonnet-4-6",
