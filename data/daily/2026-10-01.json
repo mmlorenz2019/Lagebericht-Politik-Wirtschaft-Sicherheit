@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 2,
+  "reportDate": "2026-10-01",
+  "generatedAt": "2026-10-01T12:00:00Z",
+  "status": "complete",
+  "countries": [
+    {
+      "id": "usa",
+      "label": "USA",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Kalifornien verbietet KI-gesteuerte Entlassungen – erstes US-Bundesland mit solchem Gesetz",
+          "summaryDe": [
+            "Gouverneur Gavin Newsom hat ein Gesetz unterzeichnet, das es Arbeitgebern untersagt, Kündigungsentscheidungen vollständig automatisierten KI-Systemen zu überlassen.",
+            "Arbeitnehmer müssen künftig durch eine menschliche Überprüfung geschützt sein, bevor eine algorithmisch initiierte Entlassung wirksam wird – ein Novum im US-Arbeitsrecht.",
+            "Gewerkschaften hatten monatelang Druck gemacht; der Schritt kommt in einem Moment, in dem datengetriebenes Personalmanagement in Logistik, Einzelhandel und Plattformwirtschaft rasant zunimmt.",
+            "Ob andere Bundesstaaten folgen oder ob es zu einer Bundesregelung kommt, ist offen – einstweilen bleibt Kalifornien das einzige US-Rechtsgebiet mit einem solchen Schutz."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Das Gesetz berührt Deutschland nicht direkt, könnte aber die europäische Debatte über KI-Regulierung im Arbeitsrecht beeinflussen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Als erste gesetzliche Beschränkung KI-gesteuerter Entlassungen in den USA setzt Kalifornien einen potenziell richtungsweisenden Präzedenzfall."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
+              "url": "https://euobserver.com/239969/interview-ceuta-crisis-shows-how-eu-border-outsourcing-backfires-and-puts-children-at-risk-says-german-lawyer",
+              "publishedAt": "2026-09-30T11:10:55Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "US-Anleiherendite auf höchstem Stand seit 2002 – Brent-Öl überschreitet 100-Dollar-Marke",
+          "summaryDe": [
+            "Die Rendite zehnjähriger US-Staatsanleihen hat den höchsten Stand seit 2002 erreicht, was auf einen breiten globalen Ausverkauf am Anleihenmarkt hindeutet.",
+            "Gleichzeitig kletterte der Brent-Rohölpreis über 100 US-Dollar pro Barrel, nachdem Berichte über chinesische Exportbeschränkungen für Kraftstoffe die Energiemärkte aufschreckten.",
+            "Das Zusammenspiel aus steigenden Kapitalkosten und hohen Energiepreisen verschlechtert die Wachstumsaussichten erheblich – besonders für Länder mit hoher Importabhängigkeit.",
+            "Micron Technology lieferte indes Ergebnisse deutlich über den Erwartungen und meldete eine Verzehnfachung des Rechenzentrum-Umsatzes, was die anhaltend starke KI-Investitionsnachfrage unterstreicht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Steigende US-Renditen und Ölpreise über 100 Dollar belasten die exportabhängige deutsche Wirtschaft und verteuern Staatsfinanzierungen in der Eurozone."
+          },
+          "overallSignificance": {
+            "score": 3,
+            "reasonDe": "Das gleichzeitige Auftreten eines globalen Anleihenausverkaufs auf Zwei-Dekaden-Hoch und eines Ölpreisschocks ist systemisch relevant für die Weltwirtschaft."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Makartni pohvalio povratak Selin Dion",
+              "url": "https://www.vijesti.me/zabava/muzika/829226/makartni-pohvalio-povratak-selin-dion",
+              "publishedAt": "2026-10-01T10:22:00Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Chinesisches Forschungsschiff nahe philippinischen Inseln löst Küstenwachenreaktion aus",
+          "summaryDe": [
+            "Ein chinesisches Forschungsschiff operierte in der Nähe der Batanes-Inseln und veranlasste die philippinische Küstenwache zu einem Einsatz, den Peking anschließend als 'Belästigung' verurteilte.",
+            "Manila hegt den Verdacht, das Schiff könnte Unterwasserkabeln in der strategisch wichtigen Passage nachspüren – ein Vorwurf, den China zurückweist.",
+            "Der Vorfall zeigt, dass die maritimen Spannungen im Südchinesischen Meer trotz des Xi-Trump-Gipfels unverändert schwelen; die USA haben Verteidigungsverpflichtungen gegenüber den Philippinen.",
+            "Für Washington macht die Eskalationsdynamik zwischen einem Verbündeten und China die Frage eines belastbaren militärischen Krisenmechanismus besonders dringend."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Spannungen im Südchinesischen Meer betreffen Deutschland indirekt über Lieferkettenrisiken und die globale maritime Sicherheitsordnung."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der Vorfall eskaliert eine laufende territoriale Auseinandersetzung und berührt US-Verteidigungsverpflichtungen gegenüber den Philippinen."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Beijing slams 'harassment' after Manila challenges research ship near Batanes",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369334/chinese-research-ship-near-batanes-sparks-undersea-cable-concerns-manila",
+              "publishedAt": "2026-10-01T04:00:15Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Xi-Trump-Gipfel: Symbolisches Abkommen über Kriegsgebeine des Zweiten Weltkriegs",
+          "summaryDe": [
+            "Beim Staatsbesuch Xi Jinpings in Washington einigten sich die USA und China auf ein Abkommen zur Rückgabe sterblicher Überreste gefallener US-Soldaten aus dem Zweiten Weltkrieg.",
+            "Das Thema ist historisch unverfänglich und diente erkennbar dazu, dem Treffen einen greifbaren gemeinsamen Erfolg zu verleihen, ohne strittige Kernfragen berühren zu müssen.",
+            "Xi nutzte den Auftritt auch innenpolitisch – China feiert zeitgleich den Nationalfeiertag, und eine souveräne Außenpolitik passt in die offizielle Erzählung der starken Nation.",
+            "Beobachter werten das Abkommen als vertrauensbildende Geste, die den Gesprächskanal offenhält, aber keine strategische Neuausrichtung signalisiert."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Das bilaterale Abkommen über historische Kriegsgebeine berührt deutsche Interessen nicht."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Vereinbarung ist symbolisch bedeutsam für das US-chinesische Verhältnis, hat aber keine strategische Sprengkraft."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Why did Trump and Xi seal a deal on World War II soldiers' missing remains?",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369361/why-did-trump-and-xi-seal-deal-world-war-ii-soldiers-missing-remains",
+              "publishedAt": "2026-09-30T15:00:06Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "USA drängen bei G20 auf globalen Rahmen gegen chinesische Stahlüberkapazitäten",
+          "summaryDe": [
+            "Nur wenige Tage nach dem Xi-Trump-Gipfel hat die US-Handelsbeauftragte beim G20-Handelsministertreffen einen neuen multilateralen Rahmen vorgeschlagen, der Chinas Exportflut im Stahlsektor eindämmen soll.",
+            "Washington wirft Peking vor, staatlich subventionierte Überkapazitäten auf Weltmärkte zu drücken und dadurch ausländische Konkurrenz systematisch zu verdrängen.",
+            "Der Vorstoß belegt, dass der Gipfel die handelspolitischen Grundkonflikte nicht aufgelöst hat – Diplomatie und Wirtschaftsrivalität laufen unvermindert parallel.",
+            "Für die deutsche und europäische Stahlindustrie, die selbst unter billigen Importen aus China leidet, wäre ein verbindlicher Kapazitätsmechanismus erheblich."
+          ],
+          "additionalImportant": "Zusätzlich verhängte China einen 55-Prozent-Strafzoll auf brasilianisches Rindfleisch, nachdem die Importquote ausgeschöpft war – ein weiteres Beispiel für Pekings Einsatz von Handelsinstrumenten als politische Hebel.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutsche Stahlproduzenten sind direkt vom Wettbewerbsdruck chinesischer Überkapazitäten betroffen; ein G20-Rahmen würde europäische Interessen stärken."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der G20-Vorstoß kurz nach dem Gipfel zeigt die strukturelle Spannung zwischen diplomatischer Annäherung und handelspolitischem Wettbewerb."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "US targets China's steel capacity at G20 days after Xi's state visit",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3369393/us-targets-chinas-steel-capacity-g20-days-after-xis-state-visit",
+              "publishedAt": "2026-09-30T21:30:34Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Gipfel-Nachklang: Streit über Krisenmechanismus und Debatte über politische Gefangene",
+          "summaryDe": [
+            "Ob beim Staatsbesuch tatsächlich ein formelles Memorandum zur militärischen Krisenprävention unterzeichnet wurde, ist weiterhin ungeklärt – amerikanische und chinesische Seite senden widersprüchliche Signale.",
+            "Trump behauptete öffentlich, er habe mit Xi die Freilassung politischer Gefangener in China angesprochen; Peking schwieg dazu bislang.",
+            "Die Diskrepanz beim Krisenmechanismus ist nicht trivial: Gerade in der Militärkommunikation entscheidet Verbindlichkeit darüber, ob ein Abkommen in einer Eskalationssituation standhält.",
+            "Zusammen mit dem Vorfall rund um das chinesische Forschungsschiff nahe den Batanes-Inseln wird deutlich, dass operative Reibungspunkte in der Region durch den Gipfel nicht beseitigt wurden."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 1,
+            "reasonDe": "Stabilität oder Instabilität in den US-chinesischen Militärbeziehungen berührt Deutschland indirekt als NATO-Mitglied und globale Handelsmacht."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Widersprüchliche Aussagen über einen militärischen Krisenmechanismus zwischen den beiden größten Militärmächten sind sicherheitspolitisch bedeutsam."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source",
+            "source_disagreement"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "type": "Hongkong-/Regionalperspektive",
+              "titleOriginal": "Did Beijing and Washington agree on a crisis prevention deal, or not?",
+              "url": "https://www.scmp.com/news/china/military/article/3369359/did-beijing-and-washington-agree-crisis-prevention-deal-or-not",
+              "publishedAt": "2026-09-30T12:01:04Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "label": "Montenegro",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "Montenegros Koalition erwägt vorgezogene Parlamentswahlen nach Euro-Modell-Einführung",
+          "summaryDe": [
+            "In Podgorica kursieren Überlegungen, unmittelbar nach Einführung des sogenannten Euro-Modells – einer Rentenreform – bereits im April Neuwahlen auszurufen.",
+            "Staatspräsident Milatović hat öffentlich drei grundlegende Fragen zur Nachhaltigkeit, Finanzierung und Auswirkung auf das Pensionssystem gestellt, die die Regierung bislang unbeantwortet ließ.",
+            "Das politische Kalkül hinter einem frühen Wahltermin könnte darin bestehen, einen möglichen Popularitätsschub durch die Reform zu nutzen, bevor etwaige negative Effekte sichtbar werden.",
+            "Die Situation spiegelt das fragile Gleichgewicht einer Koalition wider, die EU-Annäherung forciert und zugleich innenpolitisch unter beträchtlichem Druck steht."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Montenegros innenpolitische Wahltermindebatten haben keinen direkten Bezug zu Deutschland."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Die Debatte ist innenpolitisch relevant für Montenegros Stabilität auf dem EU-Beitrittsweg, bleibt aber regional begrenzt."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Vijesti",
+              "type": "unabhängige Tagesnachrichten",
+              "titleOriginal": "Ćulafić: Očekujemo da Poglavlje 27 bude zatvoreno sredinom decembra",
+              "url": "https://www.vijesti.me/vijesti/drustvo/829259/culafic-ocekujemo-da-poglavlje-27-bude-zatvoreno-sredinom-decembra",
+              "publishedAt": "2026-10-01T09:48:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Montenegro erwartet Schließung von EU-Kapitel 27 bis Mitte Dezember",
+          "summaryDe": [
+            "Umweltministerin Ćulafić erklärte, Montenegro rechne damit, das EU-Beitrittskapitel 27 (Umwelt und Klimawandel) bis Mitte Dezember abschließen zu können.",
+            "Sie bezeichnete es als das kostspieligste aller Kapitel – ein Hinweis auf den enormen Investitionsbedarf, den der Beitrittsprozess dem kleinen Land im Umweltbereich abverlangt.",
+            "Ein Abschluss würde die konkrete Beitrittsperspektive für 2028 stützen, auf die MEP Marjan Šarec zuletzt optimistisch hingewiesen hatte.",
+            "Die Aussage unterstreicht, wie eng wirtschaftliche Leistungsfähigkeit und EU-Integration in Montenegro miteinander verknüpft sind."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 0,
+            "reasonDe": "Die Fortschritte Montenegros beim EU-Beitritt berühren Deutschland nicht direkt, wenngleich Berlin den Erweiterungsprozess grundsätzlich befürwortet."
+          },
+          "overallSignificance": {
+            "score": 1,
+            "reasonDe": "Der erwartete Kapitelabschluss ist ein konkreter Fortschritt im EU-Beitrittsprozess und für die Westbalkan-Erweiterung relevant."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Pobjeda",
+              "type": "montenegrinische Tageszeitung",
+              "titleOriginal": "Milatović: Tri ključna pitanja o Euro modelu i dalje bez odgovora, niko iz Vlade nije se odazvao pozivu",
+              "url": "https://www.pobjeda.me/clanak/milatovic-tri-kljucna-pitanja-o-euro-modelu-i-dalje-bez-odgovora-niko-iz-vlade-nije-se-odazvao-pozivu",
+              "publishedAt": "2026-10-01T10:57:40Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "no_major_development",
+          "headlineDe": "",
+          "summaryDe": [],
+          "additionalImportant": null,
+          "germanyRelevance": null,
+          "overallSignificance": null,
+          "sourceBasis": "none",
+          "limitations": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "Europäische Union",
+      "categories": [
+        {
+          "id": "politics_society",
+          "status": "published",
+          "headlineDe": "EU-Grundrechteagentur warnt vor missbräuchlichem KI-Einsatz gegen Minderheiten und Protestierende",
+          "summaryDe": [
+            "Die EU-Grundrechteagentur hat die Mitgliedstaaten aufgefordert, über die Mindestvorgaben des KI-Akts hinauszugehen, um den Missbrauch automatisierter Überwachungssysteme zu verhindern.",
+            "Konkret wird davor gewarnt, dass Strafverfolgungsbehörden KI-gestützte Systeme zur Identifizierung von Demonstrierenden und ethnischen Minderheiten einsetzen könnten – mit diskriminierender Wirkung.",
+            "Deutschland setzt den KI-Akt als Mitgliedstaat um und steht vor der Frage, wie viel nationaler Spielraum Polizeibehörden bei solchen Technologien verbleiben soll.",
+            "Die Warnung erscheint zu einem Zeitpunkt, an dem mehrere EU-Staaten Gesichtserkennungstechnologien im öffentlichen Raum ausbauen – und der politische Druck in beide Richtungen wächst."
+          ],
+          "additionalImportant": "Parallel diskutieren EU-Institutionen, ob die Außenlagerung von Grenzkontrollen an Länder wie Marokko, Türkei und Albanien schutzbedürftige Kinder gefährdet – ein weiteres Grundrechtsthema, das politisch an Fahrt gewinnt.",
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als Umsetzungsstaat des KI-Akts unmittelbar betroffen; die Debatte über Polizeiüberwachung mit KI ist innenpolitisch aktuell."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Grundrechtsdimension der KI-Überwachung betrifft alle EU-Mitgliedstaaten und gewinnt mit der praktischen Umsetzung des KI-Akts an Dringlichkeit."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "EU states urged to 'go beyond' AI Act to protect people from abusive surveillance",
+              "url": "https://euobserver.com/240371/eu-states-urged-to-go-beyond-ai-act-to-protect-people-from-abusive-surveillance",
+              "publishedAt": "2026-09-30T04:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "economy_technology",
+          "status": "published",
+          "headlineDe": "Alle EU-Staaten stellen fristgerecht Abschlussanträge aus dem Corona-Wiederaufbaufonds",
+          "summaryDe": [
+            "Sämtliche EU-Mitgliedstaaten haben bis zur Frist am 30. September ihre abschließenden Zahlungsanträge im Rahmen der Aufbau- und Resilienzfazilität eingereicht – ein verwaltungstechnisch bemerkenswerter Abschluss.",
+            "Die Europäische Kommission zahlte zeitgleich über 9,8 Milliarden Euro an Polen, Schweden, Belgien, Estland und Zypern aus dem NextGenerationEU-Programm aus.",
+            "Das fristgerechte Einreichen aller Anträge ist bedeutsam, weil es die vollständige Auszahlung des rund 800 Milliarden Euro schweren Programms bis Ende 2026 erst möglich macht.",
+            "Für Deutschland, das selbst Mittel abruft und zugleich als größter Nettozahler zum Fonds beiträgt, ist die reibungslose Abwicklung von unmittelbarem finanzpolitischem Interesse."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als Nettozahler und Empfänger von NextGenerationEU-Mitteln unmittelbar von der Abwicklung des Fonds betroffen."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Der termingerechte Abschluss des größten EU-Konjunkturprogramms aller Zeiten ist ein bedeutsamer Meilenstein der europäischen Wirtschaftspolitik."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "Politico Europe",
+              "type": "überregional",
+              "titleOriginal": "Latvia detains couple suspected of spying for Russia",
+              "url": "https://www.politico.eu/article/latvia-detains-two-suspected-russia-spies-nato-base-surveillance",
+              "publishedAt": "2026-10-01T09:16:28Z"
+            }
+          ]
+        },
+        {
+          "id": "foreign_security",
+          "status": "published",
+          "headlineDe": "Zersplitterte EU-Cyberabwehr trifft auf dokumentierte russische und chinesische Angriffe",
+          "summaryDe": [
+            "Fragmentierte nationale Zuständigkeiten schwächen die EU-weite Cyberabwehr erheblich – konkrete Vorfälle reichten zuletzt von Phishingangriffen auf polnische Soldaten bis hin zu beinahe herbeigeführten Stromausfällen im vergangenen Winter.",
+            "Russland und China werden als Hauptakteure identifiziert, die gezielt Lücken zwischen nationalen Systemen ausnutzen; die Fälle sind inzwischen gut dokumentiert.",
+            "Lettland hat zeitgleich ein Ehepaar festgenommen, das verdächtig ist, für Russland Informationen über NATO-Kräfte und Militärflugzeuge gesammelt zu haben – ein plastisches Beispiel für die beschriebene hybride Bedrohungslage.",
+            "Für Deutschland als bevorzugtes Ziel von Cyberoperationen und mit umfangreicher NATO-Infrastruktur auf seinem Territorium ist eine belastbare gemeinsame EU-Cyberverteidigung keine abstrakte Forderung."
+          ],
+          "additionalImportant": null,
+          "germanyRelevance": {
+            "score": 2,
+            "reasonDe": "Deutschland ist als häufiges Ziel russischer und chinesischer Cyberoperationen direkt betroffen und hat starkes Interesse an einer kohärenten EU-Cyberabwehr."
+          },
+          "overallSignificance": {
+            "score": 2,
+            "reasonDe": "Die Kombination aus systemischer Verwundbarkeit und dokumentierten Angriffen macht dies zu einer ernsthaften sicherheitspolitischen Entwicklung für die gesamte EU."
+          },
+          "sourceBasis": "single",
+          "limitations": [
+            "single_source"
+          ],
+          "sources": [
+            {
+              "name": "EUobserver",
+              "type": "unabhängiger EU-Journalismus",
+              "titleOriginal": "Divided EU cyber defence faces real-life Russian and Chinese threats",
+              "url": "https://euobserver.com/240301/divided-eu-cyber-defence-faces-real-life-russian-and-chinese-threats",
+              "publishedAt": "2026-09-30T08:32:13Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
