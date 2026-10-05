@@ -6,7 +6,7 @@
   "estimatedCostUsd": 2.33694,
   "estimatedCostEur": 2.051834,
   "budgetPercent": 41.0,
-  "unmeasuredCalls": 18,
+  "unmeasuredCalls": 20,
   "collectionStartedAt": "2026-08-03T00:00:00+02:00",
   "priceVersion": "anthropic-2026-08-03",
   "rate": {
@@ -357,6 +357,30 @@
     {
       "eventId": "551119336d9fec9909975ef9ba5e58cd19bd6640f8bb854b02bdcdd36a6dcb6c",
       "occurredAt": "2026-10-05T12:20:33.140095+00:00",
+      "reportType": "week",
+      "reportId": "2026-W40",
+      "model": "claude-sonnet-4-6",
+      "outcome": "transport_error",
+      "measured": false,
+      "usage": null,
+      "estimatedCostUsd": null,
+      "estimatedCostEur": null
+    },
+    {
+      "eventId": "6c7245f7e32fba18690a32da40fa7e25e37dd15aa2abe74ed7d6acda286ac64b",
+      "occurredAt": "2026-10-05T16:20:42.155514+00:00",
+      "reportType": "daily",
+      "reportId": "2026-10-05",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "transport_error",
+      "measured": false,
+      "usage": null,
+      "estimatedCostUsd": null,
+      "estimatedCostEur": null
+    },
+    {
+      "eventId": "11fb0081c881351c76ab97bd40d7e6e95c7eeec0f7ff1f047747c72f27ff0ba1",
+      "occurredAt": "2026-10-05T16:20:42.707357+00:00",
       "reportType": "week",
       "reportId": "2026-W40",
       "model": "claude-sonnet-4-6",
