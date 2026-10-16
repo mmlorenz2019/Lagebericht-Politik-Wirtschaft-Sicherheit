@@ -6,7 +6,7 @@
   "estimatedCostUsd": 2.33694,
   "estimatedCostEur": 2.051834,
   "budgetPercent": 41.0,
-  "unmeasuredCalls": 62,
+  "unmeasuredCalls": 63,
   "collectionStartedAt": "2026-08-03T00:00:00+02:00",
   "priceVersion": "anthropic-2026-08-03",
   "rate": {
@@ -887,6 +887,18 @@
       "occurredAt": "2026-10-15T14:28:48.278966+00:00",
       "reportType": "daily",
       "reportId": "2026-10-15",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "transport_error",
+      "measured": false,
+      "usage": null,
+      "estimatedCostUsd": null,
+      "estimatedCostEur": null
+    },
+    {
+      "eventId": "d40701fb864e23015d5fa7109a7600a18dfa022ffd4b251005eb0540dacf05ee",
+      "occurredAt": "2026-10-16T08:31:26.691568+00:00",
+      "reportType": "daily",
+      "reportId": "2026-10-16",
       "model": "claude-haiku-4-5-20251001",
       "outcome": "transport_error",
       "measured": false,
