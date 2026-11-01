@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-11",
+  "timezone": "Europe/Berlin",
+  "budgetEur": 5.0,
+  "estimatedCostUsd": 0.0,
+  "estimatedCostEur": 0.0,
+  "budgetPercent": 0.0,
+  "unmeasuredCalls": 2,
+  "collectionStartedAt": "2026-08-03T00:00:00+02:00",
+  "priceVersion": "anthropic-2026-08-03",
+  "rate": {
+    "usdToEur": 0.878,
+    "effectiveDate": "2026-07-27"
+  },
+  "events": [
+    {
+      "eventId": "c44b427a55adf0d845b61ac3527454ac472bdfaabcef119398d482b602b13fc2",
+      "occurredAt": "2026-11-01T11:31:28.278844+00:00",
+      "reportType": "daily",
+      "reportId": "2026-11-01",
+      "model": "claude-haiku-4-5-20251001",
+      "outcome": "transport_error",
+      "measured": false,
+      "usage": null,
+      "estimatedCostUsd": null,
+      "estimatedCostEur": null
+    },
+    {
+      "eventId": "8cc831091f627661b252b170209b8698f228fdfa4741ba6f0398861c2a2ed599",
+      "occurredAt": "2026-11-01T11:31:28.536205+00:00",
+      "reportType": "month",
+      "reportId": "2026-10",
+      "model": "claude-sonnet-4-6",
+      "outcome": "transport_error",
+      "measured": false,
+      "usage": null,
+      "estimatedCostUsd": null,
+      "estimatedCostEur": null
+    }
+  ]
+}
